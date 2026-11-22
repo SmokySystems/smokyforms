@@ -1,0 +1,1350 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: nn_NO\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Velg et skjema"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Skjema"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Du har ingen skjemaer ennå. Lag et under SmokyForms i adminmenyen."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Velg skjemaet som skal vises her."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Grunnfelt"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Valg"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Spesialfelt"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Oppsett"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "hvis … så … ellers"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(betingelse, verdi hvis sant, verdi hvis usant)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Rund av"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(verdi, desimaler)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "Minste"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "Største"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Dager mellom datoer"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(startdato, sluttdato)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Rund ned"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Rund opp"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "Uten fortegn"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Kvadratrot"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Første valg"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "Andre valg"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Tredje valg"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Samtykke"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Jeg godtar at dette nettstedet lagrer og behandler opplysningene mine."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Tekstblokk"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Seksjonsoverskrift"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "og"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "eller"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Tom tekstblokk"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Ingen formel ennå"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Ingen etikett"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Klikk på eller dra felt fra listen til venstre."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Felt: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Flytt opp"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Flytt ned"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Dupliser"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Slett"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Valg"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Verdi i beregninger"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Forvalgt"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Fjern valg"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Valg %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Legg til valg"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "Verdien er det valget teller som i en beregning, for eksempel prisen. For avkrysningsbokser legges verdiene for alle avkryssede valg sammen."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Felt mangler: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Klikk på felt og operatorer nedenfor for å bygge beregningen."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Bygg med klikk"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Skriv formelen"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Angre"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Tøm"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Felt"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Legg først til tall-, valg- eller datofelt; de vises her."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "Operatorer"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Potens"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Rest"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Komma (mellom verdiene i en funksjon)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Tall"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Legg til tall"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Betingelser"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Funksjoner"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Pristabell"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Tabell"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Rad ut fra svaret i"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Kolonne ut fra svaret i"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Bare én kolonne"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Sett inn pris"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Formel"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Felt skrives som {field_id}. Eksempel: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "Formelen er ikke ferdig ennå. Sjekk parenteser, komma og operatorer."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "Formelen er gyldig."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Prøv"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Resultat:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Velg et felt for å endre innstillingene."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Overskrift"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Etikett"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Påkrevd"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Tekst før et valg er gjort"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Plassholder"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Standardverdi"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Trinn"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Tekst ved siden av avkrysningsboksen"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Lenker er tillatt, for eksempel til personvernerklæringen din."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Tekst"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Enkel HTML er tillatt."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Beregning"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Før resultatet"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "For eksempel $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "Etter resultatet"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "For eksempel € eller kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Desimaler"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Vis resultatet i skjemaet"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Slå av for et mellomtrinn som bare andre beregninger bruker. Resultatet står likevel i e-posten."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Hjelpetekst"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Bredde"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Full bredde"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Halv bredde"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "Felt-ID"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "Brukes i formler som {%1$s} og i e-post som {field:%1$s}. Endrer du den, oppdateres formlene i skjemaet."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "En pristabell gir en verdi for hvert svar, eller for hver kombinasjon av to svar (for eksempel sone og pakkestørrelse). Bruk den i en beregning med «Pristabell». Rad- og kolonnenavn må skrives nøyaktig som valgene i feltene."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Navn"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Rader fra valgene i"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Kolonner fra valgene i"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Kolonnenavn"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Verdi"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Radnavn"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Rad %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Legg til rad"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Kolonne %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Legg til kolonne"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Fjern siste rad"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Fjern siste kolonne"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Slett tabell"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Rad 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Legg til pristabell"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Du kan bruke:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Svar i ett felt"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Generelt"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Knappetekst"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Melding etter innsending"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "Eller gå til denne siden etter innsending"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "La stå tomt for å vise meldingen i stedet."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Beskytt skjemaet med CAPTCHA-en som er satt opp under Innstillinger."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "Ingen CAPTCHA er satt opp ennå. Du kan legge til en under SmokyForms > Innstillinger. Fellefeltet og tidskontrollen beskytter uansett alle skjemaer."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Varsel til deg"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms lagrer ikke innsendinger; hver innsending sendes til deg på e-post. Hvis e-posten feiler, beholdes innsendingen under SmokyForms > Ikke levert."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Send meg en e-post for hver innsending"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Send til"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Skill flere adresser med komma."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Emne"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Melding"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Bekreftelse til besøkende"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "Send den besøkende en bekreftelse på e-post"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Adresse fra feltet"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Legg først til et e-postfelt i skjemaet."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Legg til nytt skjema"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Start med et ferdig skjema eller et tomt. Alle maler, også kalkulatorene, er gratis."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "Skjemaet kunne ikke lagres."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Alle skjemaer"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Skjemanavn"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Kortkode"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "Lagrer…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Lagre skjema"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Pristabeller"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "Legg det til på en side med SmokyForms-blokken eller kortkoden."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Du har endringer som ikke er lagret."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Skjemaet finnes ikke."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Skjema uten navn"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "Skjemaet er lagret."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Rediger skjema &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "Du har ikke tilgang til å gjøre dette."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Rediger skjema"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "Skjemabyggeren lastes…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "Skjemabyggeren krever JavaScript."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "Ikke levert"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (kopi)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Skjemaer"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyForms-innstillinger"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "E-postutsending"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "Beskyttelse mot søppelpost"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Hvert skjema har et skjult fellefelt og en tidskontroll. I tillegg kan du legge til en CAPTCHA; den brukes i alle skjemaer der den er slått på i skjemainnstillingene."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile er gratis og krever som regel ingen gåte av besøkende."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Nettstedsnøkkel"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Hemmelig nøkkel"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Lagret. La stå tomt for å beholde den."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Tidskontroll"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "sekunder"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Skjemaer som sendes raskere enn dette etter at siden er lastet, regnes som søppelpost. 0 slår av kontrollen."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Varsler som ikke ble levert"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms lagrer ikke innsendinger; de sendes til deg på e-post. Hvis et varsel ikke kan sendes, beholdes innsendingen slik at den ikke går tapt, og du kan sende den på nytt under SmokyForms > Ikke levert."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Behold i"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "dager"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s innsending kunne ikke sendes til deg på e-post."
+msgstr[1] "SmokyForms: %s innsendinger kunne ikke sendes til deg på e-post."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Vis"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "Innsendingen ble sendt og fjernet fra listen."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "Innsendingen kunne fortsatt ikke sendes. Sjekk innstillingene for e-postutsending."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "Innsendingen ble slettet."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Innsendinger som ikke ble levert"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Disse innsendingene kom via skjemaene dine, men varselet til deg feilet. De beholdes her så de ikke går tapt, og slettes automatisk etter antall dager angitt under Innstillinger."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Ingenting her. Alle varsler er levert."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "Sjekk innstillingene for e-postutsending"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Slettet skjema"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Årsak:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Send på nytt"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Slette denne innsendingen for godt?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Ja, slett"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Bekreft at du ikke er en robot."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "Robotsjekken feilet. Prøv igjen."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Tekst på én linje"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Avsnittstekst"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "E-post"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Nettsted"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Nedtrekksliste"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Flervalg"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Avkrysningsbokser"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Dato"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Skjult felt"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Samtykkeboks"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Dette feltet er påkrevd."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Skriv inn en gyldig e-postadresse."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Skriv inn en gyldig nettadresse."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Skriv inn et gyldig telefonnummer."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Skriv inn et tall."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Skriv inn et tall på minst %s."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Skriv inn et tall på høyst %s."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Skriv inn en gyldig dato."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Velg ett av alternativene."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "Nei"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Søk i skjemaer"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Ingen skjemaer ennå."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "Ingen skjemaer i papirkurven."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Send"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Takk! Meldingen din er sendt."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Ny innsending: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Takk for meldingen"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Hei,\n"
+"\n"
+"takk for at du tok kontakt. Vi har mottatt meldingen din og svarer snart.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Alle svar"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Nettstedets navn"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "E-post til nettstedets administrator"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Dato og klokkeslett"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Skjemaets side"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "Nettstedet kunne ikke sende e-posten."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: skjemaet finnes ikke."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "La dette feltet stå tomt"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Sjekk skjemaet og prøv igjen."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Velg…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "Sender…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "Skjemaet kunne ikke sendes. Prøv igjen."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Ingen"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "Skjemaet kunne ikke kontrolleres. Last inn siden på nytt og prøv igjen."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "Det gikk veldig fort. Vent litt og send skjemaet på nytt."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "For mange innsendinger. Vent ett minutt og prøv igjen."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Tomt skjema"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Start med et tomt skjema."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "Kontaktskjema"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Navn, e-post, telefon og melding."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Tilbudsforespørsel"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "Tjeneste, tillegg og areal gir en anslått pris."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Tjeneste"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Vanlig vask"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Grundig vask"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Areal (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Tillegg"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Vinduer"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Balkong"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Stekeovn"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Anslått pris"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Bestillingsskjema"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Produkter med antall, levering og rabatt over et beløp."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Produkt A – 12.00 per stk."
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Produkt B – 18.50 per stk."
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Levering"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Hentes"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Ekspress"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Delsum"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "Rabatt (10 % over 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Totalt"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Bestilling med netter"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Ankomst- og avreisedato gir antall netter og prisen."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Bestillingsforespørsel"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Ankomst"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Avreise"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Rom"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Standard – 80 per natt"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Suite – 140 per natt"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Netter"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Pris"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Fraktpris fra en tabell med soner og pakkestørrelser."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Fraktpris"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Sone"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Sone 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Sone 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Sone 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Pakke"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Liten"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Middels"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Stor"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Fraktpriser"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "BMI-kalkulator"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Kroppsmasseindeks ut fra høyde og vekt."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Høyde (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Vekt (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "Din BMI"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Send"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Lånekalkulator"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Månedlig beløp ut fra lånebeløp, rente og nedbetalingstid."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Lånebeløp"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Årlig rente (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Nedbetalingstid (måneder)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Månedlig beløp"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Test-e-post"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Dette er en test-e-post. Hvis du kan lese den, fungerer e-postutsendingen."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "Innstillingene er lagret."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Test-e-posten ble sendt til %s. Sjekk innboksen og søppelpostmappen."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "Test-e-posten kunne ikke sendes."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Mange vertstjenester leverer WordPress-e-post sent eller til søppelpost. Å sende via SMTP-kontoen hos e-postleverandøren din løser det, uten en egen SMTP-utvidelse."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Disse innstillingene deles av %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s er aktiv og tar seg av e-postutsendingen, så disse innstillingene brukes ikke."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "Send e-post via en SMTP-konto"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Bare e-post fra SmokySystems-utvidelser"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "All e-post fra dette nettstedet"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP-server"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Port"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Kryptering"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Ingen kryptering"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Brukernavn"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Passord"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "Passordet er angitt i wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Et passord er lagret. La stå tomt for å beholde det."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Fjern det lagrede passordet"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Avsenderadresse"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Bruk en adresse fra SMTP-kontoen, ellers avviser mange leverandører e-posten."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Avsendernavn"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Send test-e-post"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Skjemabygger med dra og slipp og beregninger"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Skjemabygger med dra og slipp og gratis beregninger. Lag kontakt-, tilbuds- og bestillingsskjemaer og kalkulatorer uten å skrive formler."

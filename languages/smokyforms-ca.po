@@ -1,0 +1,1350 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Trieu un formulari"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Formulari"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Encara no teniu formularis. Creeu-ne un a SmokyForms, al menú d’administració."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Trieu el formulari que es mostrarà aquí."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Camps bàsics"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Opcions"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Camps especials"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Disposició"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "si … aleshores … si no"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(condició, valor si és cert, valor si és fals)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Arrodoneix"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(valor, decimals)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "El més petit"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "El més gran"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Dies entre dates"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(data inicial, data final)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Arrodoneix cap avall"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Arrodoneix cap amunt"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "Sense signe"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Arrel quadrada"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Primera opció"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "Segona opció"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Tercera opció"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Consentiment"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Accepto que aquest lloc web desi i tracti les meves dades."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Bloc de text"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Títol de secció"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "i"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "o"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Bloc de text buit"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Encara no hi ha fórmula"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Sense etiqueta"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Feu clic als camps de la llista de l’esquerra o arrossegueu-los."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Camp: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Mou amunt"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Mou avall"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Opció"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Valor en els càlculs"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Per defecte"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Elimina l’opció"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Opció %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Afegeix una opció"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "El valor és el que compta aquesta opció en un càlcul, per exemple el seu preu. En les caselles se sumen els valors de totes les opcions marcades."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Falta el camp: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Feu clic als camps i operadors de sota per construir el càlcul."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Construeix amb clics"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Escriu la fórmula"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Desfés"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Esborra"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Camps"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Primer afegiu camps de número, d’opcions o de data; apareixeran aquí."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "Operadors"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Potència"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Residu"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Coma (entre els valors d’una funció)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Número"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Afegeix un número"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Condicions"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Funcions"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Taula de preus"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Taula"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Fila segons la resposta de"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Columna segons la resposta de"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Només una columna"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Insereix el preu"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Fórmula"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Els camps s’escriuen com {field_id}. Exemple: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "La fórmula encara no és completa. Reviseu parèntesis, comes i operadors."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "La fórmula és vàlida."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Prova-ho"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Resultat:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Seleccioneu un camp per canviar-ne la configuració."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Títol"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Etiqueta"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Obligatori"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Text abans de triar"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Text d’exemple"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Valor per defecte"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Increment"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Text al costat de la casella"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Es permeten enllaços, per exemple a la vostra política de privadesa."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Text"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Es permet HTML bàsic."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Càlcul"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Abans del resultat"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "Per exemple $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "Després del resultat"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "Per exemple € o kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Decimals"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Mostra el resultat al formulari"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Desactiveu-ho per a un pas intermedi que només fan servir altres càlculs. El resultat continua apareixent al correu."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Text d’ajuda"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Amplada"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Amplada completa"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Mitja amplada"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "ID del camp"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "S’utilitza a les fórmules com {%1$s} i als correus com {field:%1$s}. Si el canvieu, s’actualitzen les fórmules d’aquest formulari."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "Una taula de preus dona un valor per a cada resposta, o per a cada combinació de dues respostes (per exemple zona i mida del paquet). Feu-la servir en un càlcul amb «Taula de preus». Els noms de files i columnes s’han d’escriure exactament com les opcions dels camps."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Nom"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Files a partir de les opcions de"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Columnes a partir de les opcions de"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Nom de la columna"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Valor"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Nom de la fila"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Fila %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Afegeix una fila"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Columna %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Afegeix una columna"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Elimina l’última fila"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Elimina l’última columna"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Suprimeix la taula"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Fila 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Afegeix una taula de preus"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Podeu fer servir:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Resposta d’un camp"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "General"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Text del botó"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Missatge després de l’enviament"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "O ves a aquesta pàgina després de l’enviament"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "Deixeu-ho buit per mostrar el missatge."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Protegeix aquest formulari amb el CAPTCHA configurat a Configuració."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "Encara no hi ha cap CAPTCHA configurat. En podeu afegir un a SmokyForms > Configuració. El camp trampa i el control de temps protegeixen igualment tots els formularis."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Avís per a vós"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms no desa les entrades; cada entrada se us envia per correu. Si el correu falla, l’entrada es conserva a SmokyForms > No lliurades."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Envia’m un correu per cada entrada"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Envia a"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Separeu diverses adreces amb comes."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Assumpte"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Missatge"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Confirmació al visitant"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "Envia al visitant un correu de confirmació"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Adreça del camp"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Primer afegiu un camp de correu electrònic al formulari."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Afegeix un formulari nou"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Comenceu amb un formulari fet o amb un de buit. Totes les plantilles, calculadores incloses, són gratuïtes."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "No s’ha pogut desar el formulari."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Tots els formularis"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Nom del formulari"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Codi curt"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "S’està desant…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Desa el formulari"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Taules de preus"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Configuració"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "Afegiu-lo a una pàgina amb el bloc SmokyForms o amb el codi curt."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Teniu canvis sense desar."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Aquest formulari no existeix."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Formulari sense títol"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "S’ha desat el formulari."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Edita el formulari &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "No teniu permís per fer això."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Edita el formulari"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "S’està carregant el creador de formularis…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "El creador de formularis necessita JavaScript."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "No lliurades"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (còpia)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Formularis"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "Configuració de SmokyForms"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "Enviament de correus"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "Protecció contra el correu brossa"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Cada formulari té un camp trampa ocult i un control de temps. A més, podeu afegir un CAPTCHA; s’utilitza a tots els formularis on estigui activat a la configuració del formulari."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile és gratuït i normalment no demana cap trencaclosques als visitants."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Clau del lloc"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Clau secreta"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Desada. Deixeu-ho buit per mantenir-la."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Control de temps"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "segons"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Els formularis enviats més ràpid que això després de carregar la pàgina es consideren correu brossa. 0 desactiva el control."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Avisos no lliurats"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms no desa les entrades; se us envien per correu. Quan un correu d’avís no es pot enviar, l’entrada es conserva perquè no es perdi i la podeu tornar a enviar a SmokyForms > No lliurades."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Conserva durant"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "dies"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s entrada no se us ha pogut enviar per correu."
+msgstr[1] "SmokyForms: %s entrades no se us han pogut enviar per correu."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Mostra"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "L’entrada s’ha enviat i s’ha tret de la llista."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "L’entrada encara no s’ha pogut enviar. Reviseu la configuració d’enviament de correus."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "L’entrada s’ha suprimit."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Entrades no lliurades"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Aquestes entrades han arribat pels vostres formularis, però el correu d’avís ha fallat. Es conserven aquí perquè no es perdin i se suprimeixen automàticament després dels dies definits a Configuració."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Aquí no hi ha res. S’han lliurat tots els avisos."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "Reviseu la configuració d’enviament de correus"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Formulari suprimit"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Motiu:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Torna a enviar"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Voleu suprimir aquesta entrada definitivament?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Sí, suprimeix"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Confirmeu que no sou un robot."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "La comprovació antirobot ha fallat. Torneu-ho a provar."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Text d’una línia"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Paràgraf"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "Correu electrònic"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Telèfon"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Lloc web"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Llista desplegable"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Opció única"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Caselles"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Data"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Camp ocult"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Casella de consentiment"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Aquest camp és obligatori."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Introduïu una adreça de correu vàlida."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Introduïu una adreça web vàlida."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Introduïu un número de telèfon vàlid."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Introduïu un número."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Introduïu un número d’almenys %s."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Introduïu un número de com a màxim %s."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Introduïu una data vàlida."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Trieu una de les opcions."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "No"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Cerca formularis"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Encara no hi ha formularis."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "No hi ha formularis a la paperera."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Envia"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Gràcies! S’ha enviat el vostre missatge."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Entrada nova: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Gràcies pel vostre missatge"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Hola,\n"
+"\n"
+"gràcies per contactar amb nosaltres. Hem rebut el vostre missatge i us respondrem aviat.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Totes les respostes"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Nom del lloc"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "Correu de l’administrador del lloc"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Data i hora"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Pàgina del formulari"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "El lloc no ha pogut enviar el correu."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: aquest formulari no existeix."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "Deixeu aquest camp buit"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Reviseu el formulari i torneu-ho a provar."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Trieu…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "S’està enviant…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "No s’ha pogut enviar el formulari. Torneu-ho a provar."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Cap"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "No s’ha pogut comprovar el formulari. Recarregueu la pàgina i torneu-ho a provar."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "Ha estat molt ràpid. Espereu un moment i torneu a enviar el formulari."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "Massa enviaments. Espereu un minut i torneu-ho a provar."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Formulari buit"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Comença amb un formulari buit."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "Formulari de contacte"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Nom, correu, telèfon i missatge."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Sol·licitud de pressupost"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "El servei, els extres i la superfície donen un preu estimat."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Servei"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Neteja bàsica"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Neteja a fons"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Superfície (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Extres"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Finestres"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Balcó"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Forn"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Preu estimat"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Formulari de comanda"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Productes amb quantitats, enviament i descompte a partir d’un import."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Producte A – 12.00 la unitat"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Producte B – 18.50 la unitat"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Enviament"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Recollida"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Estàndard"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Exprés"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "Descompte (10% a partir de 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Total"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Reserva per nits"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Les dates d’arribada i sortida donen el nombre de nits i el preu."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Sol·licitud de reserva"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Arribada"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Sortida"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Habitació"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Estàndard – 80 per nit"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Suite – 140 per nit"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Nits"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Preu"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Preu d’enviament a partir d’una taula de zones i mides de paquet."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Preu d’enviament"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Zona"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Zona 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Zona 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Zona 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Paquet"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Petit"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Mitjà"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Gran"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Preus d’enviament"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "Calculadora d’IMC"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Índex de massa corporal a partir de l’alçada i el pes."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Alçada (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Pes (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "El vostre IMC"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Envia"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Calculadora de préstecs"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Quota mensual a partir de l’import, el tipus d’interès i el termini."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Import del préstec"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Tipus d’interès anual (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Termini (mesos)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Quota mensual"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Correu de prova"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Aquest és un correu de prova. Si el podeu llegir, l’enviament de correus funciona."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "S’ha desat la configuració."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "El correu de prova s’ha enviat a %s. Reviseu la safata d’entrada i la carpeta de correu brossa."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "No s’ha pogut enviar el correu de prova."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Molts allotjaments lliuren els correus de WordPress tard o a la carpeta de correu brossa. Enviar-los per mitjà del compte SMTP del vostre proveïdor de correu ho soluciona, sense una extensió SMTP a part."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Aquesta configuració la comparteixen %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s està actiu i s’encarrega de l’enviament de correus, així que aquesta configuració no s’utilitza."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "Envia els correus per mitjà d’un compte SMTP"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Només els correus de les extensions de SmokySystems"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "Tots els correus d’aquest lloc"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "Servidor SMTP"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Port"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Xifratge"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Sense xifratge"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Nom d’usuari"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Contrasenya"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "La contrasenya està definida a wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Hi ha una contrasenya desada. Deixeu-ho buit per mantenir-la."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Elimina la contrasenya desada"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Correu del remitent"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Feu servir una adreça del compte SMTP; si no, molts proveïdors rebutgen el correu."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Nom del remitent"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Envia un correu de prova"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Creador de formularis d’arrossegar i deixar anar amb càlculs"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Creador de formularis d’arrossegar i deixar anar amb càlculs gratuïts. Creeu formularis de contacte, de pressupost i de comanda i calculadores sense escriure fórmules."

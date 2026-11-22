@@ -1,0 +1,325 @@
+055dcf|Válasszon űrlapot
+d359c6|Űrlap
+e0a02c|Még nincs űrlapja. Hozzon létre egyet a SmokyForms menüpontban az adminisztrációs menüben.
+28ab5c|Válassza ki az itt megjelenő űrlapot.
+a86405|Alapmezők
+6ef697|Választások
+5939b5|Speciális mezők
+ebd9be|Elrendezés
+f56462|ha … akkor … különben
+7f7bde|if(feltétel, érték ha igaz, érték ha hamis)
+b7f41f|Kerekítés
+2e0e8d|round(érték, tizedesjegyek)
+a3ab97|Legkisebb
+73fc19|min(a, b, …)
+f8c8f8|Legnagyobb
+8902cb|max(a, b, …)
+ecb62b|Napok két dátum között
+a6db34|days(kezdő dátum, záró dátum)
+6ff145|Lefelé kerekítés
+c17f8d|Felfelé kerekítés
+99e006|Előjel nélkül
+921c8e|Négyzetgyök
+1fe7e9|Első lehetőség
+580834|Második lehetőség
+c1dd36|Harmadik lehetőség
+1bbdf1|Hozzájárulás
+a816e9|Hozzájárulok, hogy ez a weboldal tárolja és kezelje az adataimat.
+7ef25f|Szövegblokk
+3b4836|Szakaszcím
+be5d5d|és
+e81c4e|vagy
+35c798|Üres szövegblokk
+b0ebea|Még nincs képlet
+222a8b|Nincs címke
+a4f784|Kattintson a bal oldali lista mezőire, vagy húzza át őket.
+85e07c|Mező: %s
+f77af7|Fel
+dd9f0c|Le
+ed7571|Másolat
+f2a6c4|Törlés
+458b9d|Lehetőség
+38b2db|Érték a számításokban
+7a1920|Alapértelmezett
+ceb473|Lehetőség eltávolítása
+015d41|%d. lehetőség
+d02f3c|Lehetőség hozzáadása
+c9739f|Az érték az, amennyit ez a lehetőség a számításban ér, például az ára. Jelölőnégyzeteknél az összes bejelölt lehetőség értéke összeadódik.
+d61d8d|Hiányzó mező: %s
+a1b32d|Kattintson az alábbi mezőkre és műveleti jelekre a számítás összeállításához.
+5de039|Összeállítás kattintással
+878cdc|Képlet írása
+1cdc07|Visszavonás
+dc30bc|Törlés
+a4ca5e|Mezők
+443847|Előbb adjon hozzá szám-, választó- vagy dátummezőket; itt jelennek meg.
+b3c582|Műveleti jelek
+dd4fe0|Hatvány
+8730cc|Maradék
+e9b53a|Vessző (egy függvény értékei között)
+b2ee91|Szám
+ca3aeb|Szám hozzáadása
+229eb0|Feltételek
+e93acb|Függvények
+9551cd|Ártáblázat
+51c45b|Táblázat
+9db33f|Sor a következő mező válasza alapján
+7876f8|Oszlop a következő mező válasza alapján
+38dded|Csak egy oszlop
+2c4e05|Ár beszúrása
+313a6a|Képlet
+d9f37b|A mezőket {field_id} formában kell írni. Példa: {price} * {quantity} + 5
+c66f2e|A képlet még nem teljes. Ellenőrizze a zárójeleket, vesszőket és műveleti jeleket.
+cc3a57|A képlet érvényes.
+5fd411|Kipróbálás
+5aac38|Eredmény:
+1767e5|Válasszon ki egy mezőt a beállításai módosításához.
+010131|Cím
+b021df|Címke
+b651ef|Kötelező
+6224e6|Szöveg választás előtt
+68753d|Helykitöltő
+31ce3c|Alapértelmezett érték
+48c7c4|Lépésköz
+56eb52|Szöveg a jelölőnégyzet mellett
+58cf98|Hivatkozások megengedettek, például az adatkezelési tájékoztatóra.
+9dffbf|Szöveg
+716124|Egyszerű HTML megengedett.
+3ea4f7|Számítás
+b51e59|Az eredmény előtt
+62cfd9|Például $
+5c6290|Az eredmény után
+d41a8c|Például € vagy kg
+2b4178|Tizedesjegyek
+e7c868|Eredmény megjelenítése az űrlapon
+16feb3|Kapcsolja ki egy olyan köztes lépésnél, amelyet csak más számítások használnak. Az eredmény az e-mailben így is szerepel.
+c10b7d|Súgószöveg
+329546|Szélesség
+24e61d|Teljes szélesség
+e4bb63|Fél szélesség
+42aa94|Mezőazonosító
+98fa53|Képletekben {%1$s}, e-mailekben {field:%1$s} formában használható. Módosításakor az űrlap képletei frissülnek.
+08aeea|Az ártáblázat minden válaszhoz vagy két válasz minden kombinációjához (például zóna és csomagméret) ad egy értéket. Használja egy számításban az „Ártáblázat” gombbal. A sorok és oszlopok neveit pontosan úgy kell írni, mint a mezők lehetőségeit.
+49ee30|Név
+6c3798|Azonosító: %s
+c0dd3a|Sorok a következő mező lehetőségeiből
+923419|Oszlopok a következő mező lehetőségeiből
+710b83|Oszlopnév
+689202|Érték
+dbe735|Sornév
+d8353e|%d. sor
+19f6e2|Sor hozzáadása
+7bce62|%d. oszlop
+b61b8f|Oszlop hozzáadása
+8b0629|Utolsó sor eltávolítása
+99a139|Utolsó oszlop eltávolítása
+9c6803|Táblázat törlése
+531553|1. sor
+450423|Ártáblázat hozzáadása
+1aefc6|Használható:
+19002d|Egy mező válasza
+0db377|Általános
+111082|Gomb szövege
+8da5e2|Üzenet küldés után
+f52ff0|Vagy küldés után ugrás erre az oldalra
+aac08d|Hagyja üresen, hogy helyette az üzenet jelenjen meg.
+291d69|CAPTCHA
+86dc8e|Az űrlap védelme a Beállításokban megadott CAPTCHA-val.
+539ec8|Még nincs beállítva CAPTCHA. A SmokyForms > Beállítások menüpontban adhat hozzá. A csapdamező és az időellenőrzés így is véd minden űrlapot.
+74b72d|Értesítés Önnek
+48ff32|A SmokyForms nem tárolja a beküldéseket; minden beküldést e-mailben küld el Önnek. Ha az e-mail sikertelen, a beküldés megmarad a SmokyForms > Kézbesítetlen menüpontban.
+d245dd|E-mail küldése nekem minden beküldésről
+c973ca|Címzett
+61739f|Több címet vesszővel válasszon el.
+c7892e|Tárgy
+4c2a8f|Üzenet
+8970db|Visszaigazolás a látogatónak
+71baeb|Visszaigazoló e-mail küldése a látogatónak
+b6c0d5|Cím a következő mezőből
+7a2be4|Előbb adjon hozzá egy E-mail mezőt az űrlaphoz.
+45949d|Új űrlap hozzáadása
+79fd79|Kezdjen kész vagy üres űrlappal. Minden sablon, a kalkulátorokat is beleértve, ingyenes.
+cc7b22|Az űrlapot nem sikerült menteni.
+21954b|Összes űrlap
+00cd1f|Űrlap neve
+6feadb|Rövidkód
+eedf6b|Mentés…
+4abf00|Űrlap mentése
+35cb6e|Ártáblázatok
+f4f707|Beállítások
+864bac|Adja hozzá egy oldalhoz a SmokyForms blokkal vagy a rövidkóddal.
+604a9a|Nem mentett módosításai vannak.
+6866cc|Ez az űrlap nem létezik.
+d50431|Névtelen űrlap
+782d19|Űrlap mentve.
+84ad74|Űrlap szerkesztése &lsaquo; %s
+2835b7|Nincs jogosultsága ehhez.
+39741d|Űrlap szerkesztése
+a986be|Az űrlapszerkesztő betöltése…
+6db07c|Az űrlapszerkesztőhöz JavaScript szükséges.
+c50eda|Kézbesítetlen
+77c751|%s (másolat)
+645024|Űrlapok
+cc06ee|SmokyForms beállítások
+cb7fd7|E-mail küldés
+2932b4|Spam elleni védelem
+ef7330|Minden űrlapon van egy rejtett csapdamező és egy időellenőrzés. Ezen felül CAPTCHA is használható; minden olyan űrlapon működik, ahol az űrlap beállításaiban be van kapcsolva.
+aac82e|A Cloudflare Turnstile ingyenes, és általában nem kér rejtvényt a látogatóktól.
+f75d8f|Webhelykulcs
+952bf8|Titkos kulcs
+6b2bed|Mentve. Hagyja üresen a megtartásához.
+3827d8|Időellenőrzés
+783e8e|másodperc
+615249|Az oldal betöltése után ennél gyorsabban elküldött űrlapok spamnek számítanak. A 0 kikapcsolja az ellenőrzést.
+4def17|Kézbesítetlen értesítések
+9f5630|A SmokyForms nem tárolja a beküldéseket; e-mailben küldi el Önnek. Ha egy értesítő e-mailt nem lehet elküldeni, a beküldés megmarad, hogy ne vesszen el, és újra elküldheti a SmokyForms > Kézbesítetlen menüpontban.
+f24a17|Megőrzés
+44fdec|nap
+c89567|SmokyForms: %s beküldést nem sikerült e-mailben elküldeni Önnek. ¦ SmokyForms: %s beküldést nem sikerült e-mailben elküldeni Önnek.
+498f79|Megjelenítés
+effa85|A beküldés el lett küldve és lekerült a listáról.
+f9eafc|A beküldést még mindig nem sikerült elküldeni. Ellenőrizze az e-mail küldési beállításokat.
+80da2c|A beküldés törölve.
+24c070|Kézbesítetlen beküldések
+c0d482|Ezek a beküldések az űrlapjain érkeztek, de az Önnek szóló értesítő e-mail sikertelen volt. Itt maradnak, hogy ne vesszenek el, és a Beállításokban megadott számú nap után automatikusan törlődnek.
+5a569c|Itt nincs semmi. Minden értesítés kézbesítve.
+0426b1|E-mail küldési beállítások ellenőrzése
+ef546f|Törölt űrlap
+ccb168|Ok:
+50ab1d|Újraküldés
+50d0b5|Véglegesen törli ezt a beküldést?
+b21c60|Igen, törlés
+ccf88f|Erősítse meg, hogy nem robot.
+296449|A robotellenőrzés sikertelen. Próbálja újra.
+cd72d3|Egysoros szöveg
+c5a5c5|Bekezdés
+ce8ae9|E-mail
+bcc254|Telefon
+15bbb9|Weboldal
+7498c4|Legördülő lista
+6893e5|Egy választás
+c425f2|Jelölőnégyzetek
+447497|Dátum
+019003|Rejtett mező
+00b768|Hozzájárulási jelölőnégyzet
+9303c9|Ez a mező kötelező.
+b5bccd|Adjon meg érvényes e-mail-címet.
+86062b|Adjon meg érvényes webcímet.
+772407|Adjon meg érvényes telefonszámot.
+c2cb00|Adjon meg egy számot.
+69dfa7|Adjon meg legalább %s értékű számot.
+caf8d8|Adjon meg legfeljebb %s értékű számot.
+773fcd|Adjon meg érvényes dátumot.
+e3264a|Válasszon a lehetőségek közül.
+93cba0|Igen
+bafd73|Nem
+a6c2b9|Űrlapok keresése
+60caa9|Még nincsenek űrlapok.
+6a1885|Nincs űrlap a lomtárban.
+a4d3b1|Küldés
+279099|Köszönjük! Üzenetét elküldtük.
+48b55f|Új beküldés: {form_title}
+81a012|Köszönjük üzenetét
+d93e6b|Üdvözöljük!\n\nKöszönjük, hogy felvette velünk a kapcsolatot. Üzenetét megkaptuk, hamarosan válaszolunk.\n\n{all_fields}
+1d6990|Összes válasz
+816667|Webhely neve
+e91f72|Webhely adminisztrátorának e-mail-címe
+2b0b7c|Dátum és idő
+7012e0|Az űrlap oldala
+151dca|A webhely nem tudta elküldeni az e-mailt.
+6ac40c|SmokyForms: ez az űrlap nem létezik.
+7a4842|Hagyja üresen ezt a mezőt
+28b263|Ellenőrizze az űrlapot, és próbálja újra.
+3f6c9a|Válasszon…
+4d01e8|Küldés…
+f83b39|Az űrlapot nem sikerült elküldeni. Próbálja újra.
+6adf97|Nincs
+5bf1f6|Az űrlapot nem sikerült ellenőrizni. Töltse újra az oldalt, és próbálja újra.
+5934a3|Ez nagyon gyors volt. Várjon egy kicsit, és küldje el újra az űrlapot.
+453e43|Túl sok beküldés. Várjon egy percet, és próbálja újra.
+57c955|Üres űrlap
+dc8972|Kezdés üres űrlappal.
+c661cf|Kapcsolatfelvételi űrlap
+dabe9b|Név, e-mail, telefon és üzenet.
+5d1cbd|Árajánlatkérés
+0269ab|A szolgáltatás, az extrák és a terület becsült árat adnak.
+c2ba7e|Szolgáltatás
+9986c1|Alap takarítás
+cc16d7|Nagytakarítás
+e285c9|Terület (m²)
+0a3f08|Extrák
+aea234|Ablakok
+2623fa|Erkély
+482690|Sütő
+cebbfc|Becsült ár
+655157|Rendelési űrlap
+3a11e0|Termékek mennyiséggel, szállítás és kedvezmény egy összeg felett.
+70fc36|A termék – 12.00 / db
+6e18dd|B termék – 18.50 / db
+065ab3|Szállítás
+9ae3c9|Személyes átvétel
+eb6d8a|Normál
+b144fa|Expressz
+2194aa|Részösszeg
+48909c|Kedvezmény (10% 100 felett)
+96b014|Összesen
+6fb3df|Foglalás éjszakákkal
+80068a|Az érkezés és távozás dátuma megadja az éjszakák számát és az árat.
+83bb56|Foglalási kérés
+885b3c|Érkezés
+5be0fa|Távozás
+cc3abc|Szoba
+3bf8f2|Normál – 80 / éj
+3ac878|Lakosztály – 140 / éj
+e10758|Éjszakák
+360114|Ár
+e6e2d9|Szállítási díj zónák és csomagméretek táblázatából.
+0ea6b9|Szállítási díj
+b3ff99|Zóna
+93b3d7|1. zóna
+ac4ff7|2. zóna
+c48837|3. zóna
+f38e90|Csomag
+266006|Kicsi
+87f8a6|Közepes
+3a69b3|Nagy
+3e1c4b|Szállítási díjak
+348100|BMI-kalkulátor
+d7659b|Testtömegindex a magasság és a testsúly alapján.
+20fbaa|Magasság (cm)
+917216|Testsúly (kg)
+869598|Az Ön BMI-je
+94966d|Küldés
+f3cda5|Hitelkalkulátor
+cb8a5f|Havi törlesztő az összeg, a kamat és a futamidő alapján.
+59efa4|Hitelösszeg
+202d38|Éves kamat (%)
+a92ac9|Futamidő (hónap)
+647bd0|Havi törlesztő
+d0bcd3|Teszt e-mail
+a7498e|Ez egy teszt e-mail. Ha el tudja olvasni, az e-mail küldés működik.
+9a7e58|Beállítások mentve.
+a3fb23|A teszt e-mail elküldve ide: %s. Nézze meg a beérkezett üzeneteket és a spam mappát.
+33de89|A teszt e-mailt nem sikerült elküldeni.
+3a9486|Sok tárhely késve vagy a spam mappába kézbesíti a WordPress e-mailjeit. Ha e-mail-szolgáltatója SMTP-fiókján keresztül küldi őket, ez megoldódik külön SMTP bővítmény nélkül.
+05449a|Ezeken a beállításokon osztozik: %s.
+51e4ba|A(z) %s aktív és kezeli az e-mail küldést, ezért ezek a beállítások nincsenek használatban.
+c2239a|SMTP
+4d7db2|E-mailek küldése SMTP-fiókon keresztül
+adac9e|Csak a SmokySystems bővítmények e-mailjei
+f8f5e1|A webhely összes e-mailje
+bdd48f|SMTP-szerver
+60aaf4|Port
+d7f261|Titkosítás
+151adf|Nincs titkosítás
+f6039d|Felhasználónév
+dc647e|Jelszó
+c6e6fb|A jelszó a wp-config.php fájlban van megadva.
+0b5899|Van mentett jelszó. Hagyja üresen a megtartásához.
+d7381f|A mentett jelszó eltávolítása
+3b4d50|Feladó e-mail-címe
+250019|Az SMTP-fiók egyik címét használja, különben sok szolgáltató elutasítja az e-mailt.
+c3a7ea|Feladó neve
+ee1851|Teszt e-mail küldése
+7caa16|SmokyForms – Fogd és vidd űrlapkészítő számításokkal
+9958f8|Fogd és vidd űrlapkészítő ingyenes számításokkal. Készítsen kapcsolatfelvételi, árajánlat- és rendelési űrlapokat és kalkulátorokat képletek írása nélkül.

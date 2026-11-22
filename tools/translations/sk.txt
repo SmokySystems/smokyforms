@@ -1,0 +1,325 @@
+055dcf|Vyberte formulár
+d359c6|Formulár
+e0a02c|Zatiaľ nemáte žiadne formuláre. Vytvorte formulár v SmokyForms v ponuke administrácie.
+28ab5c|Vyberte formulár, ktorý sa tu zobrazí.
+a86405|Základné polia
+6ef697|Voľby
+5939b5|Špeciálne polia
+ebd9be|Rozloženie
+f56462|ak … potom … inak
+7f7bde|if(podmienka, hodnota ak pravda, hodnota ak nepravda)
+b7f41f|Zaokrúhliť
+2e0e8d|round(hodnota, desatinné miesta)
+a3ab97|Najmenšia
+73fc19|min(a, b, …)
+f8c8f8|Najväčšia
+8902cb|max(a, b, …)
+ecb62b|Dni medzi dátumami
+a6db34|days(počiatočný dátum, koncový dátum)
+6ff145|Zaokrúhliť nadol
+c17f8d|Zaokrúhliť nahor
+99e006|Bez znamienka
+921c8e|Druhá odmocnina
+1fe7e9|Prvá voľba
+580834|Druhá voľba
+c1dd36|Tretia voľba
+1bbdf1|Súhlas
+a816e9|Súhlasím s uložením a spracovaním mojich údajov touto webovou stránkou.
+7ef25f|Textový blok
+3b4836|Nadpis sekcie
+be5d5d|a
+e81c4e|alebo
+35c798|Prázdny textový blok
+b0ebea|Zatiaľ bez vzorca
+222a8b|Bez popisu
+a4f784|Kliknite na polia v zozname vľavo alebo ich presuňte.
+85e07c|Pole: %s
+f77af7|Posunúť nahor
+dd9f0c|Posunúť nadol
+ed7571|Duplikovať
+f2a6c4|Odstrániť
+458b9d|Voľba
+38b2db|Hodnota vo výpočtoch
+7a1920|Predvolená
+ceb473|Odobrať voľbu
+015d41|Voľba %d
+d02f3c|Pridať voľbu
+c9739f|Hodnota je to, koľko táto voľba znamená vo výpočte, napríklad jej cena. Pri zaškrtávacích poliach sa hodnoty všetkých zaškrtnutých volieb sčítajú.
+d61d8d|Chýbajúce pole: %s
+a1b32d|Klikajte na polia a operátory nižšie a zostavte výpočet.
+5de039|Zostaviť klikaním
+878cdc|Napísať vzorec
+1cdc07|Späť
+dc30bc|Vymazať
+a4ca5e|Polia
+443847|Najprv pridajte číselné polia, polia s voľbami alebo dátumy; zobrazia sa tu.
+b3c582|Operátory
+dd4fe0|Mocnina
+8730cc|Zvyšok
+e9b53a|Čiarka (medzi hodnotami funkcie)
+b2ee91|Číslo
+ca3aeb|Pridať číslo
+229eb0|Podmienky
+e93acb|Funkcie
+9551cd|Cenník
+51c45b|Tabuľka
+9db33f|Riadok podľa odpovede z
+7876f8|Stĺpec podľa odpovede z
+38dded|Len jeden stĺpec
+2c4e05|Vložiť cenu
+313a6a|Vzorec
+d9f37b|Polia sa zapisujú ako {field_id}. Príklad: {price} * {quantity} + 5
+c66f2e|Vzorec ešte nie je úplný. Skontrolujte zátvorky, čiarky a operátory.
+cc3a57|Vzorec je platný.
+5fd411|Vyskúšať
+5aac38|Výsledok:
+1767e5|Vyberte pole a zmeňte jeho nastavenia.
+010131|Nadpis
+b021df|Popis
+b651ef|Povinné
+6224e6|Text pred výberom
+68753d|Zástupný text
+31ce3c|Predvolená hodnota
+48c7c4|Krok
+56eb52|Text vedľa zaškrtávacieho poľa
+58cf98|Odkazy sú povolené, napríklad na vaše zásady ochrany osobných údajov.
+9dffbf|Text
+716124|Je povolené základné HTML.
+3ea4f7|Výpočet
+b51e59|Pred výsledkom
+62cfd9|Napríklad $
+5c6290|Za výsledkom
+d41a8c|Napríklad € alebo kg
+2b4178|Desatinné miesta
+e7c868|Zobraziť výsledok vo formulári
+16feb3|Vypnite pre medzikrok, ktorý používajú len iné výpočty. Výsledok je aj tak v e-maile.
+c10b7d|Pomocný text
+329546|Šírka
+24e61d|Plná šírka
+e4bb63|Polovičná šírka
+42aa94|ID poľa
+98fa53|Používa sa vo vzorcoch ako {%1$s} a v e-mailoch ako {field:%1$s}. Zmena aktualizuje vzorce tohto formulára.
+08aeea|Cenník dáva hodnotu pre každú odpoveď alebo pre každú kombináciu dvoch odpovedí (napríklad zóna a veľkosť balíka). Použite ho vo výpočte cez „Cenník“. Názvy riadkov a stĺpcov musia byť napísané presne ako voľby polí.
+49ee30|Názov
+6c3798|ID: %s
+c0dd3a|Riadky z volieb poľa
+923419|Stĺpce z volieb poľa
+710b83|Názov stĺpca
+689202|Hodnota
+dbe735|Názov riadka
+d8353e|Riadok %d
+19f6e2|Pridať riadok
+7bce62|Stĺpec %d
+b61b8f|Pridať stĺpec
+8b0629|Odobrať posledný riadok
+99a139|Odobrať posledný stĺpec
+9c6803|Odstrániť tabuľku
+531553|Riadok 1
+450423|Pridať cenník
+1aefc6|Môžete použiť:
+19002d|Odpoveď jedného poľa
+0db377|Všeobecné
+111082|Text tlačidla
+8da5e2|Správa po odoslaní
+f52ff0|Alebo po odoslaní prejsť na túto stránku
+aac08d|Nechajte prázdne, aby sa namiesto toho zobrazila správa.
+291d69|CAPTCHA
+86dc8e|Chrániť tento formulár pomocou CAPTCHA nastavenej v Nastaveniach.
+539ec8|Zatiaľ nie je nastavená žiadna CAPTCHA. Môžete ju pridať v SmokyForms > Nastavenia. Pole-pasca a kontrola času chránia každý formulár aj tak.
+74b72d|Upozornenie pre vás
+48ff32|SmokyForms neukladá záznamy; každý záznam vám príde e-mailom. Ak sa e-mail nepodarí odoslať, záznam sa uchová v SmokyForms > Nedoručené.
+d245dd|Posielať mi e-mail o každom zázname
+c973ca|Komu
+61739f|Viac adries oddeľte čiarkami.
+c7892e|Predmet
+4c2a8f|Správa
+8970db|Potvrdenie návštevníkovi
+71baeb|Poslať návštevníkovi potvrdzovací e-mail
+b6c0d5|Adresa z poľa
+7a2be4|Najprv do formulára pridajte pole E-mail.
+45949d|Pridať nový formulár
+79fd79|Začnite hotovým formulárom alebo prázdnym. Všetky šablóny vrátane kalkulačiek sú zadarmo.
+cc7b22|Formulár sa nepodarilo uložiť.
+21954b|Všetky formuláre
+00cd1f|Názov formulára
+6feadb|Shortcode
+eedf6b|Ukladá sa…
+4abf00|Uložiť formulár
+35cb6e|Cenníky
+f4f707|Nastavenia
+864bac|Pridajte ho na stránku blokom SmokyForms alebo shortcodom.
+604a9a|Máte neuložené zmeny.
+6866cc|Tento formulár neexistuje.
+d50431|Formulár bez názvu
+782d19|Formulár uložený.
+84ad74|Upraviť formulár &lsaquo; %s
+2835b7|Na to nemáte oprávnenie.
+39741d|Upraviť formulár
+a986be|Načítava sa tvorca formulárov…
+6db07c|Tvorca formulárov vyžaduje JavaScript.
+c50eda|Nedoručené
+77c751|%s (kópia)
+645024|Formuláre
+cc06ee|Nastavenia SmokyForms
+cb7fd7|Odosielanie e-mailov
+2932b4|Ochrana pred spamom
+ef7330|Každý formulár má skryté pole-pascu a kontrolu času. Navyše môžete pridať CAPTCHA; použije sa v každom formulári, kde je zapnutá v nastaveniach formulára.
+aac82e|Cloudflare Turnstile je zadarmo a návštevníkom zvyčajne nedáva žiadne hádanky.
+f75d8f|Kľúč stránky
+952bf8|Tajný kľúč
+6b2bed|Uložené. Nechajte prázdne na zachovanie.
+3827d8|Kontrola času
+783e8e|sekúnd
+615249|Formuláre odoslané rýchlejšie, ako je tento čas od načítania stránky, sa považujú za spam. 0 kontrolu vypne.
+4def17|Nedoručené upozornenia
+9f5630|SmokyForms neukladá záznamy; prichádzajú vám e-mailom. Ak upozornenie nemožno odoslať, záznam sa uchová, aby sa nestratil, a môžete ho znova odoslať v SmokyForms > Nedoručené.
+f24a17|Uchovať
+44fdec|dní
+c89567|SmokyForms: %s záznam sa nepodarilo odoslať e-mailom. ¦ SmokyForms: %s záznamy sa nepodarilo odoslať e-mailom. ¦ SmokyForms: %s záznamov sa nepodarilo odoslať e-mailom.
+498f79|Zobraziť
+effa85|Záznam bol odoslaný a odobraný z tohto zoznamu.
+f9eafc|Záznam sa stále nepodarilo odoslať. Skontrolujte nastavenia odosielania e-mailov.
+80da2c|Záznam bol odstránený.
+24c070|Nedoručené záznamy
+c0d482|Tieto záznamy prišli cez vaše formuláre, ale upozornenie e-mailom sa vám nepodarilo doručiť. Uchovávajú sa tu, aby sa nestratili, a po počte dní nastavenom v Nastaveniach sa automaticky odstránia.
+5a569c|Nič tu nie je. Všetky upozornenia boli doručené.
+0426b1|Skontrolovať nastavenia odosielania e-mailov
+ef546f|Odstránený formulár
+ccb168|Dôvod:
+50ab1d|Odoslať znova
+50d0b5|Odstrániť tento záznam natrvalo?
+b21c60|Áno, odstrániť
+ccf88f|Potvrďte, že nie ste robot.
+296449|Kontrola robota zlyhala. Skúste to znova.
+cd72d3|Jednoriadkový text
+c5a5c5|Odsek
+ce8ae9|E-mail
+bcc254|Telefón
+15bbb9|Webová stránka
+7498c4|Rozbaľovací zoznam
+6893e5|Výber jednej možnosti
+c425f2|Zaškrtávacie polia
+447497|Dátum
+019003|Skryté pole
+00b768|Pole súhlasu
+9303c9|Toto pole je povinné.
+b5bccd|Zadajte platnú e-mailovú adresu.
+86062b|Zadajte platnú adresu webovej stránky.
+772407|Zadajte platné telefónne číslo.
+c2cb00|Zadajte číslo.
+69dfa7|Zadajte číslo aspoň %s.
+caf8d8|Zadajte číslo najviac %s.
+773fcd|Zadajte platný dátum.
+e3264a|Vyberte jednu z možností.
+93cba0|Áno
+bafd73|Nie
+a6c2b9|Hľadať formuláre
+60caa9|Zatiaľ žiadne formuláre.
+6a1885|V koši nie sú žiadne formuláre.
+a4d3b1|Odoslať
+279099|Ďakujeme! Vaša správa bola odoslaná.
+48b55f|Nový záznam: {form_title}
+81a012|Ďakujeme za vašu správu
+d93e6b|Dobrý deň,\n\nďakujeme, že ste nás kontaktovali. Vašu správu sme dostali a čoskoro odpovieme.\n\n{all_fields}
+1d6990|Všetky odpovede
+816667|Názov webu
+e91f72|E-mail správcu webu
+2b0b7c|Dátum a čas
+7012e0|Stránka formulára
+151dca|Web nemohol e-mail odoslať.
+6ac40c|SmokyForms: tento formulár neexistuje.
+7a4842|Toto pole nechajte prázdne
+28b263|Skontrolujte formulár a skúste to znova.
+3f6c9a|Vyberte…
+4d01e8|Odosiela sa…
+f83b39|Formulár sa nepodarilo odoslať. Skúste to znova.
+6adf97|Žiadna
+5bf1f6|Formulár sa nepodarilo overiť. Obnovte stránku a skúste to znova.
+5934a3|To bolo veľmi rýchle. Chvíľu počkajte a odošlite formulár znova.
+453e43|Príliš veľa odoslaní. Počkajte minútu a skúste to znova.
+57c955|Prázdny formulár
+dc8972|Začať prázdnym formulárom.
+c661cf|Kontaktný formulár
+dabe9b|Meno, e-mail, telefón a správa.
+5d1cbd|Dopyt na cenovú ponuku
+0269ab|Služba, doplnky a plocha dajú odhadovanú cenu.
+c2ba7e|Služba
+9986c1|Základné upratovanie
+cc16d7|Dôkladné upratovanie
+e285c9|Plocha (m²)
+0a3f08|Doplnky
+aea234|Okná
+2623fa|Balkón
+482690|Rúra
+cebbfc|Odhadovaná cena
+655157|Objednávkový formulár
+3a11e0|Produkty s počtom kusov, doprava a zľava nad určitú sumu.
+70fc36|Produkt A – 12.00 za kus
+6e18dd|Produkt B – 18.50 za kus
+065ab3|Doprava
+9ae3c9|Osobný odber
+eb6d8a|Štandardná
+b144fa|Expresná
+2194aa|Medzisúčet
+48909c|Zľava (10 % nad 100)
+96b014|Spolu
+6fb3df|Rezervácia s nocami
+80068a|Dátumy príchodu a odchodu dajú počet nocí a cenu.
+83bb56|Žiadosť o rezerváciu
+885b3c|Príchod
+5be0fa|Odchod
+cc3abc|Izba
+3bf8f2|Štandard – 80 za noc
+3ac878|Apartmán – 140 za noc
+e10758|Noci
+360114|Cena
+e6e2d9|Cena dopravy z tabuľky zón a veľkostí balíkov.
+0ea6b9|Cena dopravy
+b3ff99|Zóna
+93b3d7|Zóna 1
+ac4ff7|Zóna 2
+c48837|Zóna 3
+f38e90|Balík
+266006|Malý
+87f8a6|Stredný
+3a69b3|Veľký
+3e1c4b|Ceny dopravy
+348100|Kalkulačka BMI
+d7659b|Index telesnej hmotnosti z výšky a hmotnosti.
+20fbaa|Výška (cm)
+917216|Hmotnosť (kg)
+869598|Vaše BMI
+94966d|Odoslať
+f3cda5|Úverová kalkulačka
+cb8a5f|Mesačná splátka zo sumy, úrokovej sadzby a doby splácania.
+59efa4|Výška úveru
+202d38|Ročná úroková sadzba (%)
+a92ac9|Doba splácania (mesiace)
+647bd0|Mesačná splátka
+d0bcd3|Testovací e-mail
+a7498e|Toto je testovací e-mail. Ak ho čítate, odosielanie e-mailov funguje.
+9a7e58|Nastavenia uložené.
+a3fb23|Testovací e-mail bol odoslaný na %s. Skontrolujte doručenú poštu a priečinok so spamom.
+33de89|Testovací e-mail sa nepodarilo odoslať.
+3a9486|Mnohé hostingy doručujú e-maily WordPressu neskoro alebo do spamu. Odosielanie cez SMTP účet vášho poskytovateľa e-mailu to vyrieši bez samostatného SMTP pluginu.
+05449a|Tieto nastavenia zdieľa %s.
+51e4ba|%s je aktívny a zabezpečuje odosielanie e-mailov, preto sa tieto nastavenia nepoužívajú.
+c2239a|SMTP
+4d7db2|Odosielať e-maily cez SMTP účet
+adac9e|Len e-maily pluginov SmokySystems
+f8f5e1|Všetky e-maily tohto webu
+bdd48f|SMTP server
+60aaf4|Port
+d7f261|Šifrovanie
+151adf|Bez šifrovania
+f6039d|Používateľské meno
+dc647e|Heslo
+c6e6fb|Heslo je nastavené v súbore wp-config.php.
+0b5899|Heslo je uložené. Nechajte prázdne na zachovanie.
+d7381f|Odobrať uložené heslo
+3b4d50|E-mail odosielateľa
+250019|Použite adresu SMTP účtu, inak mnohí poskytovatelia e-mail odmietnu.
+c3a7ea|Meno odosielateľa
+ee1851|Odoslať testovací e-mail
+7caa16|SmokyForms – Tvorca formulárov presúvaním s výpočtami
+9958f8|Tvorca formulárov presúvaním s výpočtami zadarmo. Vytvárajte kontaktné, dopytové a objednávkové formuláre aj kalkulačky bez písania vzorcov.

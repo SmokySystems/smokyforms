@@ -1,0 +1,1349 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: zh_HK\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "選擇表單"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "表單"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "你還沒有任何表單。請在管理選單的 SmokyForms 中建立一個。"
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "選擇要在這裡顯示的表單。"
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "基本欄位"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "選項欄位"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "特殊欄位"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "版面配置"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "如果 … 則 … 否則"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(條件, 成立時的值, 不成立時的值)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "四捨五入"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(值, 小數位數)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "最小值"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "最大值"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "日期間隔天數"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(開始日期, 結束日期)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "無條件捨去"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "無條件進位"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "絕對值"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "平方根"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "選項一"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "選項二"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "選項三"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "同意"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "我同意本網站儲存及處理我的資料。"
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "文字區塊"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "段落標題"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "且"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "或"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "空白文字區塊"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "尚未設定公式"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "無標籤"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "點選或拖曳左側清單中的欄位。"
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "欄位：%s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "上移"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "下移"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "複製"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "刪除"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "選項"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "計算中的值"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "預設"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "移除選項"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "選項 %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "新增選項"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "值是此選項在計算中代表的數值，例如價格。核取方塊會將所有已勾選選項的值相加。"
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "缺少欄位：%s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "點選下方的欄位和運算子來建立計算。"
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "點選建立"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "撰寫公式"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "復原"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "清除"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "欄位"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "請先新增數字、選項或日期欄位，它們會顯示在這裡。"
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "運算子"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "次方"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "餘數"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "逗號（分隔函式的各個值）"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "數字"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "新增數字"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "條件"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "函式"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "價格表"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "表格"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "依此欄位的回答選擇列"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "依此欄位的回答選擇欄"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "只有一欄"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "插入價格"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "公式"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "欄位寫成 {field_id}。範例：{price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "公式尚未完成。請檢查括號、逗號和運算子。"
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "公式有效。"
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "試試看"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "結果："
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "選擇欄位以變更其設定。"
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "標題"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "標籤"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "必填"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "選擇前顯示的文字"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "預留位置文字"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "預設值"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "間隔"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "核取方塊旁的文字"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "可以加入連結，例如連到你的隱私權政策。"
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "文字"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "可使用基本 HTML。"
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "計算"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "結果前"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "例如 $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "結果後"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "例如 元 或 kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "小數位數"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "在表單中顯示結果"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "若這是只供其他計算使用的中間步驟，請關閉。結果仍會出現在電子郵件中。"
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "說明文字"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "寬度"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "全寬"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "半寬"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "欄位 ID"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "在公式中寫成 {%1$s}，在電子郵件中寫成 {field:%1$s}。變更後，此表單的公式也會同步更新。"
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "價格表會為每個回答，或兩個回答的每種組合（例如區域和包裹尺寸）提供一個值。在計算中透過「價格表」使用。列名和欄名必須與欄位的選項完全相同。"
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "名稱"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID：%s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "從此欄位的選項建立列"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "從此欄位的選項建立欄"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "欄名"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "值"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "列名"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "第 %d 列"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "新增列"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "第 %d 欄"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "新增欄"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "移除最後一列"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "移除最後一欄"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "刪除表格"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "第 1 列"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "新增價格表"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "可用標籤："
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "單一欄位的回答"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "一般"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "按鈕文字"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "送出後的訊息"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "或送出後前往此頁面"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "留白則顯示訊息。"
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "使用設定中的 CAPTCHA 保護此表單。"
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "尚未設定 CAPTCHA。你可以在 SmokyForms > 設定 中新增。陷阱欄位和時間檢查一律會保護每個表單。"
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "寄給你的通知"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms 不會儲存送出內容；每筆送出都會以電子郵件寄給你。若郵件寄送失敗，送出內容會保留在 SmokyForms > 未送達 中。"
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "每次有人送出時寄電子郵件給我"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "寄送至"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "多個地址請以逗號分隔。"
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "主旨"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "內容"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "寄給訪客的確認"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "寄送確認郵件給訪客"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "地址取自欄位"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "請先在表單中新增電子郵件欄位。"
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "新增表單"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "從現成的表單或空白表單開始。所有範本（包括計算機）都是免費的。"
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "無法儲存表單。"
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "所有表單"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "表單名稱"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "短代碼"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "儲存中…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "儲存表單"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "價格表"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "設定"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "使用 SmokyForms 區塊或短代碼將它加入頁面。"
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "你有尚未儲存的變更。"
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "此表單不存在。"
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "未命名表單"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "表單已儲存。"
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "編輯表單 &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "你沒有權限執行此操作。"
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "編輯表單"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "正在載入表單建立工具…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "表單建立工具需要 JavaScript。"
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "未送達"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s（副本）"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "表單"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyForms 設定"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "電子郵件寄送"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "垃圾訊息防護"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "每個表單都有隱藏的陷阱欄位和時間檢查。你還可以另外加入 CAPTCHA；在表單設定中啟用後就會生效。"
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile 是免費的，通常不會要求訪客解謎。"
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "網站金鑰"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "密鑰"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "已儲存。留白則保留不變。"
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "時間檢查"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "秒"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "頁面載入後在此時間內送出的表單會被視為垃圾訊息。設為 0 即關閉檢查。"
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "未送達的通知"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms 不會儲存送出內容，而是以電子郵件寄給你。若通知郵件無法寄出，送出內容會被保留以免遺失，你可以在 SmokyForms > 未送達 中重新寄送。"
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "保留"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "天"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms：有 %s 筆送出內容未能以電子郵件寄給你。"
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "顯示"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "送出內容已寄出並從清單中移除。"
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "送出內容仍無法寄出。請檢查電子郵件寄送設定。"
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "送出內容已刪除。"
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "未送達的送出內容"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "這些送出內容來自你的表單，但寄給你的通知郵件寄送失敗。它們保留在這裡以免遺失，並會在設定中指定的天數後自動刪除。"
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "這裡沒有任何內容。所有通知都已送達。"
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "檢查電子郵件寄送設定"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "已刪除的表單"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "原因："
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "重新寄送"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "要永久刪除這筆送出內容嗎？"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "是，刪除"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "請確認你不是機器人。"
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "機器人驗證失敗。請再試一次。"
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "單行文字"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "段落文字"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "電子郵件"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "電話"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "網站"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "下拉式選單"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "單選"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "核取方塊"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "日期"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "隱藏欄位"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "同意核取方塊"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "此欄位為必填。"
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "請輸入有效的電子郵件地址。"
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "請輸入有效的網址。"
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "請輸入有效的電話號碼。"
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "請輸入數字。"
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "請輸入不小於 %s 的數字。"
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "請輸入不大於 %s 的數字。"
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "請輸入有效的日期。"
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "請從選項中擇一。"
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "是"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "否"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "搜尋表單"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "尚無表單。"
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "回收桶中沒有表單。"
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "送出"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "謝謝！你的訊息已送出。"
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "新的送出內容：{form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "感謝你的來信"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"你好：\n"
+"\n"
+"感謝你與我們聯絡。我們已收到你的訊息，會盡快回覆。\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "所有回答"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "網站名稱"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "網站管理員電子郵件"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "日期和時間"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "表單所在頁面"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "網站無法寄出電子郵件。"
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms：此表單不存在。"
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "請將此欄位留白"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "請檢查表單後再試一次。"
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "請選擇…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "傳送中…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "無法送出表單。請再試一次。"
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "無"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "無法驗證表單。請重新載入頁面後再試一次。"
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "送出得太快了。請稍候片刻後再送出一次。"
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "送出次數過多。請等待一分鐘後再試一次。"
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "空白表單"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "從空白表單開始。"
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "聯絡表單"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "姓名、電子郵件、電話和訊息。"
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "報價需求"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "依服務、加購項目和面積提供估計價格。"
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "服務"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "基本清潔"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "深度清潔"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "面積（m²）"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "加購項目"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "窗戶"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "陽台"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "烤箱"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "估計價格"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "訂購表單"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "含數量的商品、配送及滿額折扣。"
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "商品 A – 每件 12.00"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "商品 B – 每件 18.50"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "配送"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "自取"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "標準"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "快速"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "小計"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "折扣（超過 100 打九折）"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "總計"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "依晚數預訂"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "依入住和退房日期計算晚數和價格。"
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "預訂需求"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "入住"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "退房"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "房間"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "標準房 – 每晚 80"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "套房 – 每晚 140"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "晚數"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "價格"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "依區域和包裹尺寸表計算運費。"
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "運費"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "區域"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "區域 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "區域 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "區域 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "包裹"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "小"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "中"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "大"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "運費表"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "BMI 計算機"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "依身高和體重計算身體質量指數。"
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "身高（cm）"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "體重（kg）"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "你的 BMI"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "傳送"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "貸款計算機"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "依金額、利率和期限計算每月還款。"
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "貸款金額"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "年利率（%）"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "期限（月）"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "每月還款"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "測試郵件"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "這是一封測試郵件。如果你能看到它，表示電子郵件寄送正常。"
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "測試郵件已寄至 %s。請檢查收件匣和垃圾郵件資料夾。"
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "無法寄出測試郵件。"
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "許多主機寄出的 WordPress 郵件會延遲送達或進入垃圾郵件。透過你的電子郵件服務商的 SMTP 帳號寄送即可解決，不需另外安裝 SMTP 外掛。"
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "以下外掛共用這些設定：%s。"
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s 已啟用並負責寄送電子郵件，因此這些設定不會使用。"
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "透過 SMTP 帳號寄送電子郵件"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "僅限 SmokySystems 外掛的電子郵件"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "本網站的所有電子郵件"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP 伺服器"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "連接埠"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "加密"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "不加密"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "使用者名稱"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "密碼"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "密碼已在 wp-config.php 中設定。"
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "已儲存密碼。留白則保留不變。"
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "移除已儲存的密碼"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "寄件者電子郵件"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "請使用 SMTP 帳號中的地址，否則許多服務商會拒收郵件。"
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "寄件者名稱"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "寄送測試郵件"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – 具計算功能的拖放式表單建立工具"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "計算功能免費的拖放式表單建立工具。不必撰寫公式，就能建立聯絡表單、報價與訂購表單以及計算機。"

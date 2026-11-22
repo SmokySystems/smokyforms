@@ -1,0 +1,325 @@
+055dcf|Alege un formular
+d359c6|Formular
+e0a02c|Nu ai încă formulare. Creează unul în SmokyForms, în meniul de administrare.
+28ab5c|Alege formularul care va fi afișat aici.
+a86405|Câmpuri de bază
+6ef697|Opțiuni
+5939b5|Câmpuri speciale
+ebd9be|Aranjare
+f56462|dacă … atunci … altfel
+7f7bde|if(condiție, valoare dacă e adevărat, valoare dacă e fals)
+b7f41f|Rotunjește
+2e0e8d|round(valoare, zecimale)
+a3ab97|Cea mai mică
+73fc19|min(a, b, …)
+f8c8f8|Cea mai mare
+8902cb|max(a, b, …)
+ecb62b|Zile între date
+a6db34|days(data de început, data de sfârșit)
+6ff145|Rotunjește în jos
+c17f8d|Rotunjește în sus
+99e006|Fără semn
+921c8e|Rădăcină pătrată
+1fe7e9|Prima opțiune
+580834|A doua opțiune
+c1dd36|A treia opțiune
+1bbdf1|Consimțământ
+a816e9|Sunt de acord cu stocarea și prelucrarea datelor mele de către acest site.
+7ef25f|Bloc de text
+3b4836|Titlu de secțiune
+be5d5d|și
+e81c4e|sau
+35c798|Bloc de text gol
+b0ebea|Încă nu există formulă
+222a8b|Fără etichetă
+a4f784|Dă clic pe câmpurile din lista din stânga sau trage-le.
+85e07c|Câmp: %s
+f77af7|Mută în sus
+dd9f0c|Mută în jos
+ed7571|Duplică
+f2a6c4|Șterge
+458b9d|Opțiune
+38b2db|Valoare în calcule
+7a1920|Implicită
+ceb473|Elimină opțiunea
+015d41|Opțiunea %d
+d02f3c|Adaugă opțiune
+c9739f|Valoarea este cât contează această opțiune într-un calcul, de exemplu prețul ei. La casetele de bifat se adună valorile tuturor opțiunilor bifate.
+d61d8d|Câmp lipsă: %s
+a1b32d|Dă clic pe câmpurile și operatorii de mai jos pentru a construi calculul.
+5de039|Construiește prin clic
+878cdc|Scrie formula
+1cdc07|Anulează
+dc30bc|Golește
+a4ca5e|Câmpuri
+443847|Adaugă mai întâi câmpuri numerice, de opțiuni sau de dată; vor apărea aici.
+b3c582|Operatori
+dd4fe0|Putere
+8730cc|Rest
+e9b53a|Virgulă (între valorile unei funcții)
+b2ee91|Număr
+ca3aeb|Adaugă număr
+229eb0|Condiții
+e93acb|Funcții
+9551cd|Tabel de prețuri
+51c45b|Tabel
+9db33f|Rând după răspunsul la
+7876f8|Coloană după răspunsul la
+38dded|O singură coloană
+2c4e05|Inserează prețul
+313a6a|Formulă
+d9f37b|Câmpurile se scriu ca {field_id}. Exemplu: {price} * {quantity} + 5
+c66f2e|Formula nu este încă completă. Verifică parantezele, virgulele și operatorii.
+cc3a57|Formula este validă.
+5fd411|Încearcă
+5aac38|Rezultat:
+1767e5|Selectează un câmp pentru a-i schimba setările.
+010131|Titlu
+b021df|Etichetă
+b651ef|Obligatoriu
+6224e6|Text înainte de alegere
+68753d|Text de exemplu
+31ce3c|Valoare implicită
+48c7c4|Pas
+56eb52|Text lângă casetă
+58cf98|Sunt permise linkuri, de exemplu către politica de confidențialitate.
+9dffbf|Text
+716124|Este permis HTML simplu.
+3ea4f7|Calcul
+b51e59|Înainte de rezultat
+62cfd9|De exemplu $
+5c6290|După rezultat
+d41a8c|De exemplu € sau kg
+2b4178|Zecimale
+e7c868|Arată rezultatul în formular
+16feb3|Dezactivează pentru un pas intermediar folosit doar de alte calcule. Rezultatul apare oricum în email.
+c10b7d|Text de ajutor
+329546|Lățime
+24e61d|Lățime completă
+e4bb63|Jumătate de lățime
+42aa94|ID câmp
+98fa53|Se folosește în formule ca {%1$s} și în emailuri ca {field:%1$s}. Dacă îl schimbi, formulele acestui formular se actualizează.
+08aeea|Un tabel de prețuri dă o valoare pentru fiecare răspuns sau pentru fiecare combinație de două răspunsuri (de exemplu zona și mărimea coletului). Folosește-l într-un calcul cu „Tabel de prețuri”. Numele rândurilor și coloanelor trebuie scrise exact ca opțiunile câmpurilor.
+49ee30|Nume
+6c3798|ID: %s
+c0dd3a|Rânduri din opțiunile câmpului
+923419|Coloane din opțiunile câmpului
+710b83|Numele coloanei
+689202|Valoare
+dbe735|Numele rândului
+d8353e|Rândul %d
+19f6e2|Adaugă rând
+7bce62|Coloana %d
+b61b8f|Adaugă coloană
+8b0629|Elimină ultimul rând
+99a139|Elimină ultima coloană
+9c6803|Șterge tabelul
+531553|Rândul 1
+450423|Adaugă tabel de prețuri
+1aefc6|Poți folosi:
+19002d|Răspunsul unui câmp
+0db377|General
+111082|Textul butonului
+8da5e2|Mesaj după trimitere
+f52ff0|Sau mergi la această pagină după trimitere
+aac08d|Lasă gol pentru a afișa în schimb mesajul.
+291d69|CAPTCHA
+86dc8e|Protejează acest formular cu CAPTCHA configurat în Setări.
+539ec8|Încă nu este configurat niciun CAPTCHA. Poți adăuga unul în SmokyForms > Setări. Câmpul capcană și verificarea timpului protejează oricum fiecare formular.
+74b72d|Notificare pentru tine
+48ff32|SmokyForms nu păstrează înregistrările; fiecare înregistrare îți este trimisă pe email. Dacă emailul eșuează, înregistrarea este păstrată în SmokyForms > Nelivrate.
+d245dd|Trimite-mi un email pentru fiecare înregistrare
+c973ca|Trimite la
+61739f|Separă mai multe adrese prin virgule.
+c7892e|Subiect
+4c2a8f|Mesaj
+8970db|Confirmare pentru vizitator
+71baeb|Trimite vizitatorului un email de confirmare
+b6c0d5|Adresa din câmpul
+7a2be4|Adaugă mai întâi un câmp Email în formular.
+45949d|Adaugă un formular nou
+79fd79|Începe cu un formular gata făcut sau cu unul gol. Toate șabloanele, inclusiv calculatoarele, sunt gratuite.
+cc7b22|Formularul nu a putut fi salvat.
+21954b|Toate formularele
+00cd1f|Numele formularului
+6feadb|Cod scurt
+eedf6b|Se salvează…
+4abf00|Salvează formularul
+35cb6e|Tabele de prețuri
+f4f707|Setări
+864bac|Adaugă-l într-o pagină cu blocul SmokyForms sau cu codul scurt.
+604a9a|Ai modificări nesalvate.
+6866cc|Acest formular nu există.
+d50431|Formular fără titlu
+782d19|Formular salvat.
+84ad74|Editează formularul &lsaquo; %s
+2835b7|Nu ai permisiunea să faci asta.
+39741d|Editează formularul
+a986be|Se încarcă constructorul de formulare…
+6db07c|Constructorul de formulare are nevoie de JavaScript.
+c50eda|Nelivrate
+77c751|%s (copie)
+645024|Formulare
+cc06ee|Setări SmokyForms
+cb7fd7|Trimiterea emailurilor
+2932b4|Protecție împotriva spamului
+ef7330|Fiecare formular are un câmp capcană ascuns și o verificare a timpului. Poți adăuga în plus un CAPTCHA; este folosit în fiecare formular unde e activat în setările formularului.
+aac82e|Cloudflare Turnstile este gratuit și de obicei nu le cere vizitatorilor să rezolve puzzle-uri.
+f75d8f|Cheia site-ului
+952bf8|Cheia secretă
+6b2bed|Salvată. Lasă gol pentru a o păstra.
+3827d8|Verificarea timpului
+783e8e|secunde
+615249|Formularele trimise mai repede de atât după încărcarea paginii sunt considerate spam. 0 dezactivează verificarea.
+4def17|Notificări nelivrate
+9f5630|SmokyForms nu păstrează înregistrările; îți sunt trimise pe email. Când un email de notificare nu poate fi trimis, înregistrarea este păstrată ca să nu se piardă și o poți trimite din nou din SmokyForms > Nelivrate.
+f24a17|Păstrează timp de
+44fdec|zile
+c89567|SmokyForms: %s înregistrare nu ți-a putut fi trimisă pe email. ¦ SmokyForms: %s înregistrări nu ți-au putut fi trimise pe email. ¦ SmokyForms: %s de înregistrări nu ți-au putut fi trimise pe email.
+498f79|Arată
+effa85|Înregistrarea a fost trimisă și eliminată din listă.
+f9eafc|Înregistrarea tot nu a putut fi trimisă. Verifică setările de trimitere a emailurilor.
+80da2c|Înregistrarea a fost ștearsă.
+24c070|Înregistrări nelivrate
+c0d482|Aceste înregistrări au venit prin formularele tale, dar emailul de notificare către tine a eșuat. Sunt păstrate aici ca să nu se piardă și șterse automat după numărul de zile setat în Setări.
+5a569c|Nimic aici. Toate notificările au fost livrate.
+0426b1|Verifică setările de trimitere a emailurilor
+ef546f|Formular șters
+ccb168|Motiv:
+50ab1d|Trimite din nou
+50d0b5|Ștergi definitiv această înregistrare?
+b21c60|Da, șterge
+ccf88f|Confirmă că nu ești un robot.
+296449|Verificarea anti-robot a eșuat. Încearcă din nou.
+cd72d3|Text pe un rând
+c5a5c5|Paragraf
+ce8ae9|Email
+bcc254|Telefon
+15bbb9|Site web
+7498c4|Listă derulantă
+6893e5|Alegere unică
+c425f2|Casete de bifat
+447497|Dată
+019003|Câmp ascuns
+00b768|Casetă de consimțământ
+9303c9|Acest câmp este obligatoriu.
+b5bccd|Introdu o adresă de email validă.
+86062b|Introdu o adresă web validă.
+772407|Introdu un număr de telefon valid.
+c2cb00|Introdu un număr.
+69dfa7|Introdu un număr de cel puțin %s.
+caf8d8|Introdu un număr de cel mult %s.
+773fcd|Introdu o dată validă.
+e3264a|Alege una dintre opțiuni.
+93cba0|Da
+bafd73|Nu
+a6c2b9|Caută formulare
+60caa9|Încă nu există formulare.
+6a1885|Nu există formulare la gunoi.
+a4d3b1|Trimite
+279099|Mulțumim! Mesajul tău a fost trimis.
+48b55f|Înregistrare nouă: {form_title}
+81a012|Mulțumim pentru mesaj
+d93e6b|Bună,\n\nmulțumim că ne-ai contactat. Am primit mesajul tău și îți vom răspunde în curând.\n\n{all_fields}
+1d6990|Toate răspunsurile
+816667|Numele site-ului
+e91f72|Emailul administratorului site-ului
+2b0b7c|Data și ora
+7012e0|Pagina formularului
+151dca|Site-ul nu a putut trimite emailul.
+6ac40c|SmokyForms: acest formular nu există.
+7a4842|Lasă acest câmp gol
+28b263|Verifică formularul și încearcă din nou.
+3f6c9a|Alege…
+4d01e8|Se trimite…
+f83b39|Formularul nu a putut fi trimis. Încearcă din nou.
+6adf97|Niciunul
+5bf1f6|Formularul nu a putut fi verificat. Reîncarcă pagina și încearcă din nou.
+5934a3|A fost foarte rapid. Așteaptă puțin și trimite din nou formularul.
+453e43|Prea multe trimiteri. Așteaptă un minut și încearcă din nou.
+57c955|Formular gol
+dc8972|Începe cu un formular gol.
+c661cf|Formular de contact
+dabe9b|Nume, email, telefon și mesaj.
+5d1cbd|Cerere de ofertă
+0269ab|Serviciul, extraopțiunile și suprafața dau un preț estimat.
+c2ba7e|Serviciu
+9986c1|Curățenie de bază
+cc16d7|Curățenie generală
+e285c9|Suprafață (m²)
+0a3f08|Extraopțiuni
+aea234|Geamuri
+2623fa|Balcon
+482690|Cuptor
+cebbfc|Preț estimat
+655157|Formular de comandă
+3a11e0|Produse cu cantități, livrare și reducere peste o sumă.
+70fc36|Produsul A – 12.00 bucata
+6e18dd|Produsul B – 18.50 bucata
+065ab3|Livrare
+9ae3c9|Ridicare personală
+eb6d8a|Standard
+b144fa|Expres
+2194aa|Subtotal
+48909c|Reducere (10% peste 100)
+96b014|Total
+6fb3df|Rezervare pe nopți
+80068a|Datele de sosire și plecare dau numărul de nopți și prețul.
+83bb56|Cerere de rezervare
+885b3c|Sosire
+5be0fa|Plecare
+cc3abc|Cameră
+3bf8f2|Standard – 80 pe noapte
+3ac878|Apartament – 140 pe noapte
+e10758|Nopți
+360114|Preț
+e6e2d9|Cost de livrare dintr-un tabel de zone și mărimi de colet.
+0ea6b9|Cost de livrare
+b3ff99|Zonă
+93b3d7|Zona 1
+ac4ff7|Zona 2
+c48837|Zona 3
+f38e90|Colet
+266006|Mic
+87f8a6|Mediu
+3a69b3|Mare
+3e1c4b|Tarife de livrare
+348100|Calculator IMC
+d7659b|Indicele de masă corporală din înălțime și greutate.
+20fbaa|Înălțime (cm)
+917216|Greutate (kg)
+869598|IMC-ul tău
+94966d|Trimite
+f3cda5|Calculator de credit
+cb8a5f|Rata lunară din sumă, dobândă și perioadă.
+59efa4|Suma creditului
+202d38|Dobânda anuală (%)
+a92ac9|Perioada (luni)
+647bd0|Rata lunară
+d0bcd3|Email de test
+a7498e|Acesta este un email de test. Dacă îl poți citi, trimiterea emailurilor funcționează.
+9a7e58|Setările au fost salvate.
+a3fb23|Emailul de test a fost trimis la %s. Verifică inboxul și dosarul spam.
+33de89|Emailul de test nu a putut fi trimis.
+3a9486|Multe găzduiri livrează emailurile WordPress cu întârziere sau în spam. Trimiterea lor prin contul SMTP al furnizorului tău de email rezolvă asta, fără un modul SMTP separat.
+05449a|Aceste setări sunt comune pentru %s.
+51e4ba|%s este activ și se ocupă de trimiterea emailurilor, așa că aceste setări nu sunt folosite.
+c2239a|SMTP
+4d7db2|Trimite emailurile printr-un cont SMTP
+adac9e|Doar emailurile modulelor SmokySystems
+f8f5e1|Toate emailurile acestui site
+bdd48f|Server SMTP
+60aaf4|Port
+d7f261|Criptare
+151adf|Fără criptare
+f6039d|Nume de utilizator
+dc647e|Parolă
+c6e6fb|Parola este setată în wp-config.php.
+0b5899|O parolă este salvată. Lasă gol pentru a o păstra.
+d7381f|Elimină parola salvată
+3b4d50|Emailul expeditorului
+250019|Folosește o adresă a contului SMTP, altfel mulți furnizori refuză emailul.
+c3a7ea|Numele expeditorului
+ee1851|Trimite email de test
+7caa16|SmokyForms – Constructor de formulare drag and drop cu calcule
+9958f8|Constructor de formulare drag and drop cu calcule gratuite. Creează formulare de contact, de ofertă și de comandă și calculatoare fără să scrii formule.

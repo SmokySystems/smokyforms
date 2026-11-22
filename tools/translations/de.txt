@@ -1,0 +1,325 @@
+055dcf|Formular auswählen
+d359c6|Formular
+e0a02c|Sie haben noch keine Formulare. Erstellen Sie eines unter SmokyForms im Admin-Menü.
+28ab5c|Wählen Sie das Formular, das hier angezeigt werden soll.
+a86405|Standardfelder
+6ef697|Auswahlfelder
+5939b5|Spezielle Felder
+ebd9be|Layout
+f56462|wenn … dann … sonst
+7f7bde|if(Bedingung, Wert wenn wahr, Wert wenn falsch)
+b7f41f|Runden
+2e0e8d|round(Wert, Nachkommastellen)
+a3ab97|Kleinster Wert
+73fc19|min(a, b, …)
+f8c8f8|Größter Wert
+8902cb|max(a, b, …)
+ecb62b|Tage zwischen Daten
+a6db34|days(Startdatum, Enddatum)
+6ff145|Abrunden
+c17f8d|Aufrunden
+99e006|Ohne Vorzeichen
+921c8e|Quadratwurzel
+1fe7e9|Erste Option
+580834|Zweite Option
+c1dd36|Dritte Option
+1bbdf1|Einwilligung
+a816e9|Ich stimme der Speicherung und Verarbeitung meiner Daten durch diese Website zu.
+7ef25f|Textblock
+3b4836|Abschnittsüberschrift
+be5d5d|und
+e81c4e|oder
+35c798|Leerer Textblock
+b0ebea|Noch keine Formel
+222a8b|Keine Beschriftung
+a4f784|Klicken oder ziehen Sie Felder aus der Liste links.
+85e07c|Feld: %s
+f77af7|Nach oben
+dd9f0c|Nach unten
+ed7571|Duplizieren
+f2a6c4|Löschen
+458b9d|Option
+38b2db|Wert in Berechnungen
+7a1920|Standard
+ceb473|Option entfernen
+015d41|Option %d
+d02f3c|Option hinzufügen
+c9739f|Der Wert gibt an, was diese Option in einer Berechnung zählt, zum Beispiel ihren Preis. Bei Kontrollkästchen werden die Werte aller angekreuzten Optionen addiert.
+d61d8d|Fehlendes Feld: %s
+a1b32d|Klicken Sie unten auf Felder und Operatoren, um die Berechnung zu erstellen.
+5de039|Per Klick erstellen
+878cdc|Formel schreiben
+1cdc07|Rückgängig
+dc30bc|Leeren
+a4ca5e|Felder
+443847|Fügen Sie zuerst Zahlen-, Auswahl- oder Datumsfelder hinzu; sie erscheinen dann hier.
+b3c582|Operatoren
+dd4fe0|Potenz
+8730cc|Rest
+e9b53a|Komma (zwischen den Werten einer Funktion)
+b2ee91|Zahl
+ca3aeb|Zahl hinzufügen
+229eb0|Bedingungen
+e93acb|Funktionen
+9551cd|Preistabelle
+51c45b|Tabelle
+9db33f|Zeile aus der Antwort von
+7876f8|Spalte aus der Antwort von
+38dded|Nur eine Spalte
+2c4e05|Preis einfügen
+313a6a|Formel
+d9f37b|Felder werden als {field_id} geschrieben. Beispiel: {price} * {quantity} + 5
+c66f2e|Die Formel ist noch nicht vollständig. Prüfen Sie Klammern, Kommas und Operatoren.
+cc3a57|Die Formel ist gültig.
+5fd411|Ausprobieren
+5aac38|Ergebnis:
+1767e5|Wählen Sie ein Feld aus, um seine Einstellungen zu ändern.
+010131|Überschrift
+b021df|Beschriftung
+b651ef|Pflichtfeld
+6224e6|Text vor der Auswahl
+68753d|Platzhalter
+31ce3c|Standardwert
+48c7c4|Schrittweite
+56eb52|Text neben dem Kontrollkästchen
+58cf98|Links sind erlaubt, zum Beispiel zu Ihrer Datenschutzerklärung.
+9dffbf|Text
+716124|Einfaches HTML ist erlaubt.
+3ea4f7|Berechnung
+b51e59|Vor dem Ergebnis
+62cfd9|Zum Beispiel $
+5c6290|Nach dem Ergebnis
+d41a8c|Zum Beispiel € oder kg
+2b4178|Nachkommastellen
+e7c868|Ergebnis im Formular anzeigen
+16feb3|Ausschalten für einen Zwischenschritt, den nur andere Berechnungen verwenden. Das Ergebnis steht trotzdem in der E-Mail.
+c10b7d|Hilfetext
+329546|Breite
+24e61d|Volle Breite
+e4bb63|Halbe Breite
+42aa94|Feld-ID
+98fa53|Wird in Formeln als {%1$s} und in E-Mails als {field:%1$s} verwendet. Eine Änderung aktualisiert die Formeln dieses Formulars.
+08aeea|Eine Preistabelle liefert einen Wert für jede Antwort oder für jede Kombination zweier Antworten (zum Beispiel Zone und Paketgröße). Verwenden Sie sie in einer Berechnung mit „Preistabelle“. Zeilen- und Spaltennamen müssen genau wie die Optionen der Felder geschrieben sein.
+49ee30|Name
+6c3798|ID: %s
+c0dd3a|Zeilen aus den Optionen von
+923419|Spalten aus den Optionen von
+710b83|Spaltenname
+689202|Wert
+dbe735|Zeilenname
+d8353e|Zeile %d
+19f6e2|Zeile hinzufügen
+7bce62|Spalte %d
+b61b8f|Spalte hinzufügen
+8b0629|Letzte Zeile entfernen
+99a139|Letzte Spalte entfernen
+9c6803|Tabelle löschen
+531553|Zeile 1
+450423|Preistabelle hinzufügen
+1aefc6|Verfügbar:
+19002d|Antwort eines Feldes
+0db377|Allgemein
+111082|Button-Text
+8da5e2|Nachricht nach dem Absenden
+f52ff0|Oder nach dem Absenden zu dieser Seite gehen
+aac08d|Leer lassen, um stattdessen die Nachricht anzuzeigen.
+291d69|CAPTCHA
+86dc8e|Dieses Formular mit dem unter Einstellungen eingerichteten CAPTCHA schützen.
+539ec8|Es ist noch kein CAPTCHA eingerichtet. Sie können eines unter SmokyForms > Einstellungen hinzufügen. Das Fallenfeld und die Zeitprüfung schützen ohnehin jedes Formular.
+74b72d|Benachrichtigung an Sie
+48ff32|SmokyForms speichert keine Einträge; jeder Eintrag wird Ihnen per E-Mail geschickt. Schlägt die E-Mail fehl, wird der Eintrag unter SmokyForms > Nicht zugestellt aufbewahrt.
+d245dd|Für jeden Eintrag eine E-Mail an mich senden
+c973ca|Senden an
+61739f|Mehrere Adressen durch Kommas trennen.
+c7892e|Betreff
+4c2a8f|Nachricht
+8970db|Bestätigung an den Besucher
+71baeb|Dem Besucher eine Bestätigungs-E-Mail senden
+b6c0d5|Adresse aus dem Feld
+7a2be4|Fügen Sie dem Formular zuerst ein E-Mail-Feld hinzu.
+45949d|Neues Formular hinzufügen
+79fd79|Beginnen Sie mit einem fertigen oder einem leeren Formular. Jede Vorlage, auch die Rechner, ist kostenlos.
+cc7b22|Das Formular konnte nicht gespeichert werden.
+21954b|Alle Formulare
+00cd1f|Formularname
+6feadb|Shortcode
+eedf6b|Wird gespeichert …
+4abf00|Formular speichern
+35cb6e|Preistabellen
+f4f707|Einstellungen
+864bac|Fügen Sie es mit dem SmokyForms-Block oder dem Shortcode in eine Seite ein.
+604a9a|Sie haben ungespeicherte Änderungen.
+6866cc|Dieses Formular existiert nicht.
+d50431|Unbenanntes Formular
+782d19|Formular gespeichert.
+84ad74|Formular bearbeiten &lsaquo; %s
+2835b7|Sie haben keine Berechtigung dafür.
+39741d|Formular bearbeiten
+a986be|Der Formular-Builder wird geladen …
+6db07c|Der Formular-Builder benötigt JavaScript.
+c50eda|Nicht zugestellt
+77c751|%s (Kopie)
+645024|Formulare
+cc06ee|SmokyForms-Einstellungen
+cb7fd7|E-Mail-Versand
+2932b4|Spamschutz
+ef7330|Jedes Formular hat ein verstecktes Fallenfeld und eine Zeitprüfung. Zusätzlich können Sie ein CAPTCHA verwenden; es gilt für jedes Formular, bei dem es in den Formulareinstellungen eingeschaltet ist.
+aac82e|Cloudflare Turnstile ist kostenlos und verlangt von Ihren Besuchern meist kein Rätsel.
+f75d8f|Websiteschlüssel
+952bf8|Geheimer Schlüssel
+6b2bed|Gespeichert. Leer lassen, um ihn zu behalten.
+3827d8|Zeitprüfung
+783e8e|Sekunden
+615249|Formulare, die schneller nach dem Laden der Seite gesendet werden, gelten als Spam. 0 schaltet die Prüfung aus.
+4def17|Nicht zugestellte Benachrichtigungen
+9f5630|SmokyForms speichert keine Einträge; sie werden Ihnen per E-Mail geschickt. Kann eine Benachrichtigung nicht gesendet werden, wird der Eintrag aufbewahrt, damit er nicht verloren geht, und Sie können ihn unter SmokyForms > Nicht zugestellt erneut senden.
+f24a17|Aufbewahren für
+44fdec|Tage
+c89567|SmokyForms: %s Eintrag konnte Ihnen nicht per E-Mail zugestellt werden. ¦ SmokyForms: %s Einträge konnten Ihnen nicht per E-Mail zugestellt werden.
+498f79|Anzeigen
+effa85|Der Eintrag wurde gesendet und aus dieser Liste entfernt.
+f9eafc|Der Eintrag konnte immer noch nicht gesendet werden. Prüfen Sie die Einstellungen für den E-Mail-Versand.
+80da2c|Der Eintrag wurde gelöscht.
+24c070|Nicht zugestellte Einträge
+c0d482|Diese Einträge kamen über Ihre Formulare, aber die Benachrichtigung an Sie ist fehlgeschlagen. Sie werden hier aufbewahrt, damit sie nicht verloren gehen, und nach der unter Einstellungen festgelegten Anzahl von Tagen automatisch gelöscht.
+5a569c|Hier ist nichts. Alle Benachrichtigungen wurden zugestellt.
+0426b1|Einstellungen für den E-Mail-Versand prüfen
+ef546f|Gelöschtes Formular
+ccb168|Grund:
+50ab1d|Erneut senden
+50d0b5|Diesen Eintrag endgültig löschen?
+b21c60|Ja, löschen
+ccf88f|Bitte bestätigen Sie, dass Sie kein Roboter sind.
+296449|Die Roboterprüfung ist fehlgeschlagen. Bitte versuchen Sie es erneut.
+cd72d3|Einzeiliger Text
+c5a5c5|Absatztext
+ce8ae9|E-Mail
+bcc254|Telefon
+15bbb9|Website
+7498c4|Dropdown
+6893e5|Einfachauswahl
+c425f2|Kontrollkästchen
+447497|Datum
+019003|Verstecktes Feld
+00b768|Einwilligungs-Kontrollkästchen
+9303c9|Dieses Feld ist ein Pflichtfeld.
+b5bccd|Bitte geben Sie eine gültige E-Mail-Adresse ein.
+86062b|Bitte geben Sie eine gültige Website-Adresse ein.
+772407|Bitte geben Sie eine gültige Telefonnummer ein.
+c2cb00|Bitte geben Sie eine Zahl ein.
+69dfa7|Bitte geben Sie eine Zahl von mindestens %s ein.
+caf8d8|Bitte geben Sie eine Zahl von höchstens %s ein.
+773fcd|Bitte geben Sie ein gültiges Datum ein.
+e3264a|Bitte wählen Sie eine der Optionen.
+93cba0|Ja
+bafd73|Nein
+a6c2b9|Formulare durchsuchen
+60caa9|Noch keine Formulare.
+6a1885|Keine Formulare im Papierkorb.
+a4d3b1|Absenden
+279099|Vielen Dank! Ihre Nachricht wurde gesendet.
+48b55f|Neuer Eintrag: {form_title}
+81a012|Vielen Dank für Ihre Nachricht
+d93e6b|Hallo,\n\nvielen Dank für Ihre Nachricht. Wir haben sie erhalten und melden uns bald.\n\n{all_fields}
+1d6990|Alle Antworten
+816667|Name der Website
+e91f72|E-Mail des Website-Administrators
+2b0b7c|Datum und Uhrzeit
+7012e0|Seite des Formulars
+151dca|Die Website konnte die E-Mail nicht senden.
+6ac40c|SmokyForms: Dieses Formular existiert nicht.
+7a4842|Dieses Feld leer lassen
+28b263|Bitte prüfen Sie das Formular und versuchen Sie es erneut.
+3f6c9a|Auswählen …
+4d01e8|Wird gesendet …
+f83b39|Das Formular konnte nicht gesendet werden. Bitte versuchen Sie es erneut.
+6adf97|Keins
+5bf1f6|Das Formular konnte nicht geprüft werden. Bitte laden Sie die Seite neu und versuchen Sie es erneut.
+5934a3|Das ging sehr schnell. Bitte warten Sie einen Moment und senden Sie das Formular erneut.
+453e43|Zu viele Einsendungen. Bitte warten Sie eine Minute und versuchen Sie es erneut.
+57c955|Leeres Formular
+dc8972|Mit einem leeren Formular beginnen.
+c661cf|Kontaktformular
+dabe9b|Name, E-Mail, Telefon und Nachricht.
+5d1cbd|Angebotsanfrage
+0269ab|Leistung, Extras und Größe ergeben einen geschätzten Preis.
+c2ba7e|Leistung
+9986c1|Grundreinigung
+cc16d7|Tiefenreinigung
+e285c9|Größe (m²)
+0a3f08|Extras
+aea234|Fenster
+2623fa|Balkon
+482690|Backofen
+cebbfc|Geschätzter Preis
+655157|Bestellformular
+3a11e0|Produkte mit Mengen, Lieferung und Rabatt ab einem Betrag.
+70fc36|Produkt A – je 12.00
+6e18dd|Produkt B – je 18.50
+065ab3|Lieferung
+9ae3c9|Abholung
+eb6d8a|Standard
+b144fa|Express
+2194aa|Zwischensumme
+48909c|Rabatt (10 % ab 100)
+96b014|Gesamt
+6fb3df|Buchung mit Nächten
+80068a|An- und Abreisedatum ergeben die Anzahl der Nächte und den Preis.
+83bb56|Buchungsanfrage
+885b3c|Anreise
+5be0fa|Abreise
+cc3abc|Zimmer
+3bf8f2|Standard – 80 pro Nacht
+3ac878|Suite – 140 pro Nacht
+e10758|Nächte
+360114|Preis
+e6e2d9|Versandpreis aus einer Tabelle von Zonen und Paketgrößen.
+0ea6b9|Versandpreis
+b3ff99|Zone
+93b3d7|Zone 1
+ac4ff7|Zone 2
+c48837|Zone 3
+f38e90|Paket
+266006|Klein
+87f8a6|Mittel
+3a69b3|Groß
+3e1c4b|Versandpreise
+348100|BMI-Rechner
+d7659b|Body-Mass-Index aus Größe und Gewicht.
+20fbaa|Größe (cm)
+917216|Gewicht (kg)
+869598|Ihr BMI
+94966d|Senden
+f3cda5|Kreditrechner
+cb8a5f|Monatliche Rate aus Betrag, Zinssatz und Laufzeit.
+59efa4|Kreditbetrag
+202d38|Jährlicher Zinssatz (%)
+a92ac9|Laufzeit (Monate)
+647bd0|Monatliche Rate
+d0bcd3|Test-E-Mail
+a7498e|Dies ist eine Test-E-Mail. Wenn Sie sie lesen können, funktioniert der E-Mail-Versand.
+9a7e58|Einstellungen gespeichert.
+a3fb23|Die Test-E-Mail wurde an %s gesendet. Prüfen Sie den Posteingang und den Spam-Ordner.
+33de89|Die Test-E-Mail konnte nicht gesendet werden.
+3a9486|Viele Hoster stellen die E-Mails von WordPress verspätet oder im Spam-Ordner zu. Der Versand über das SMTP-Konto Ihres E-Mail-Anbieters behebt das, ohne separates SMTP-Plugin.
+05449a|Diese Einstellungen werden gemeinsam genutzt von %s.
+51e4ba|%s ist aktiv und übernimmt den E-Mail-Versand, daher werden diese Einstellungen nicht verwendet.
+c2239a|SMTP
+4d7db2|E-Mails über ein SMTP-Konto senden
+adac9e|Nur die E-Mails der SmokySystems-Plugins
+f8f5e1|Alle E-Mails dieser Website
+bdd48f|SMTP-Server
+60aaf4|Port
+d7f261|Verschlüsselung
+151adf|Keine Verschlüsselung
+f6039d|Benutzername
+dc647e|Passwort
+c6e6fb|Das Passwort ist in der wp-config.php festgelegt.
+0b5899|Ein Passwort ist gespeichert. Leer lassen, um es zu behalten.
+d7381f|Gespeichertes Passwort entfernen
+3b4d50|Absender-E-Mail
+250019|Verwenden Sie eine Adresse des SMTP-Kontos, sonst lehnen viele Anbieter die E-Mail ab.
+c3a7ea|Absendername
+ee1851|Test-E-Mail senden
+7caa16|SmokyForms – Drag-and-Drop-Formular-Builder mit Berechnungen
+9958f8|Drag-and-Drop-Formular-Builder mit kostenlosen Berechnungen. Erstellen Sie Kontakt-, Angebots- und Bestellformulare und Rechner, ohne Formeln zu schreiben.

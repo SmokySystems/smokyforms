@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "smokyforms/form",
+	"title": "SmokyForms",
+	"category": "widgets",
+	"icon": "feedback",
+	"description": "Show a form made with SmokyForms.",
+	"keywords": [ "form", "contact", "calculator", "quote" ],
+	"textdomain": "smokyforms",
+	"attributes": {
+		"formId": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	}
+}

@@ -1,0 +1,1351 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Izvēlieties veidlapu"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Veidlapa"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Jums vēl nav veidlapu. Izveidojiet to sadaļā SmokyForms administrēšanas izvēlnē."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Izvēlieties veidlapu, kas tiks rādīta šeit."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Pamata lauki"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Izvēles"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Īpašie lauki"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Izkārtojums"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "ja … tad … citādi"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(nosacījums, vērtība, ja patiess, vērtība, ja nepatiess)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Noapaļot"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(vērtība, cipari aiz komata)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "Mazākā"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "Lielākā"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Dienas starp datumiem"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(sākuma datums, beigu datums)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Noapaļot uz leju"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Noapaļot uz augšu"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "Bez zīmes"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Kvadrātsakne"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Pirmā izvēle"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "Otrā izvēle"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Trešā izvēle"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Piekrišana"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Es piekrītu, ka šī vietne glabā un apstrādā manus datus."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Teksta bloks"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Sadaļas virsraksts"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "un"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "vai"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Tukšs teksta bloks"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Formulas vēl nav"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Bez etiķetes"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Noklikšķiniet uz laukiem sarakstā pa kreisi vai velciet tos."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Lauks: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Pārvietot uz augšu"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Pārvietot uz leju"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Dublēt"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Dzēst"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Izvēle"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Vērtība aprēķinos"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Noklusējuma"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Noņemt izvēli"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Izvēle %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Pievienot izvēli"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "Vērtība ir tas, cik šī izvēle nozīmē aprēķinā, piemēram, tās cena. Izvēles rūtiņām visu atzīmēto izvēļu vērtības tiek saskaitītas."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Trūkst lauka: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Noklikšķiniet uz zemāk esošajiem laukiem un operatoriem, lai izveidotu aprēķinu."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Veidot ar klikšķiem"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Rakstīt formulu"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Atsaukt"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Notīrīt"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Lauki"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Vispirms pievienojiet skaitļu, izvēļu vai datuma laukus; tie parādīsies šeit."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "Operatori"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Pakāpe"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Atlikums"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Komats (starp funkcijas vērtībām)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Skaitlis"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Pievienot skaitli"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Nosacījumi"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Funkcijas"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Cenu tabula"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Tabula"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Rinda pēc atbildes laukā"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Kolonna pēc atbildes laukā"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Tikai viena kolonna"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Ievietot cenu"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Formula"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Lauki tiek rakstīti kā {field_id}. Piemērs: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "Formula vēl nav pabeigta. Pārbaudiet iekavas, komatus un operatorus."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "Formula ir derīga."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Izmēģināt"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Rezultāts:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Izvēlieties lauku, lai mainītu tā iestatījumus."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Virsraksts"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Etiķete"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Obligāts"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Teksts pirms izvēles"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Vietturis"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Noklusējuma vērtība"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Solis"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Teksts blakus izvēles rūtiņai"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Saites ir atļautas, piemēram, uz jūsu privātuma politiku."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Teksts"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Ir atļauts vienkāršs HTML."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Aprēķins"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Pirms rezultāta"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "Piemēram, $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "Pēc rezultāta"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "Piemēram, € vai kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Cipari aiz komata"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Rādīt rezultātu veidlapā"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Izslēdziet starpposmam, ko izmanto tikai citi aprēķini. Rezultāts tik un tā būs e-pastā."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Palīdzības teksts"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Platums"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Pilns platums"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Puse platuma"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "Lauka ID"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "Formulās izmanto kā {%1$s}, e-pastos kā {field:%1$s}. Mainot tiek atjauninātas šīs veidlapas formulas."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "Cenu tabula dod vērtību katrai atbildei vai katrai divu atbilžu kombinācijai (piemēram, zona un paciņas izmērs). Izmantojiet to aprēķinā ar pogu “Cenu tabula”. Rindu un kolonnu nosaukumiem jābūt uzrakstītiem tieši tāpat kā lauku izvēlēm."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Nosaukums"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Rindas no lauka izvēlēm"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Kolonnas no lauka izvēlēm"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Kolonnas nosaukums"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Vērtība"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Rindas nosaukums"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Rinda %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Pievienot rindu"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Kolonna %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Pievienot kolonnu"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Noņemt pēdējo rindu"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Noņemt pēdējo kolonnu"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Dzēst tabulu"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Rinda 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Pievienot cenu tabulu"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Varat izmantot:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Viena lauka atbilde"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Vispārīgi"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Pogas teksts"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Ziņojums pēc nosūtīšanas"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "Vai pēc nosūtīšanas doties uz šo lapu"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "Atstājiet tukšu, lai tā vietā rādītu ziņojumu."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Aizsargāt šo veidlapu ar CAPTCHA, kas iestatīta sadaļā Iestatījumi."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "CAPTCHA vēl nav iestatīta. To var pievienot sadaļā SmokyForms > Iestatījumi. Lamatu lauks un laika pārbaude tik un tā aizsargā katru veidlapu."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Paziņojums jums"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms neglabā iesniegumus; katrs iesniegums jums tiek nosūtīts pa e-pastu. Ja e-pastu neizdodas nosūtīt, iesniegums tiek saglabāts sadaļā SmokyForms > Nepiegādātie."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Sūtīt man e-pastu par katru iesniegumu"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Sūtīt uz"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Vairākas adreses atdaliet ar komatiem."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Temats"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Ziņojums"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Apstiprinājums apmeklētājam"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "Nosūtīt apmeklētājam apstiprinājuma e-pastu"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Adrese no lauka"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Vispirms veidlapai pievienojiet e-pasta lauku."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Pievienot jaunu veidlapu"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Sāciet ar gatavu vai tukšu veidlapu. Visas veidnes, arī kalkulatori, ir bezmaksas."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "Veidlapu neizdevās saglabāt."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Visas veidlapas"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Veidlapas nosaukums"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Īskods"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "Saglabā…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Saglabāt veidlapu"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Cenu tabulas"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "Pievienojiet to lapai ar SmokyForms bloku vai īskodu."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Jums ir nesaglabātas izmaiņas."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Šī veidlapa neeksistē."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Veidlapa bez nosaukuma"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "Veidlapa saglabāta."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Rediģēt veidlapu &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "Jums nav atļaujas to darīt."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Rediģēt veidlapu"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "Ielādē veidlapu veidotāju…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "Veidlapu veidotājam nepieciešams JavaScript."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "Nepiegādātie"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (kopija)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Veidlapas"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyForms iestatījumi"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "E-pastu sūtīšana"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "Aizsardzība pret surogātpastu"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Katrai veidlapai ir slēpts lamatu lauks un laika pārbaude. Papildus varat pievienot CAPTCHA; tā tiek izmantota katrā veidlapā, kuras iestatījumos tā ir ieslēgta."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile ir bezmaksas un parasti neprasa apmeklētājiem risināt mīklas."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Vietnes atslēga"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Slepenā atslēga"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Saglabāta. Atstājiet tukšu, lai to paturētu."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Laika pārbaude"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "sekundes"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Veidlapas, kas nosūtītas ātrāk par šo laiku pēc lapas ielādes, tiek uzskatītas par surogātpastu. 0 izslēdz pārbaudi."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Nepiegādātie paziņojumi"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms neglabā iesniegumus; tie jums tiek nosūtīti pa e-pastu. Ja paziņojuma e-pastu nevar nosūtīt, iesniegums tiek saglabāts, lai tas nepazustu, un to var nosūtīt vēlreiz sadaļā SmokyForms > Nepiegādātie."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Glabāt"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "dienas"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s iesniegumu neizdevās jums nosūtīt pa e-pastu."
+msgstr[1] "SmokyForms: %s iesniegumus neizdevās jums nosūtīt pa e-pastu."
+msgstr[2] "SmokyForms: %s iesniegumu neizdevās jums nosūtīt pa e-pastu."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Rādīt"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "Iesniegums tika nosūtīts un noņemts no saraksta."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "Iesniegumu joprojām neizdodas nosūtīt. Pārbaudiet e-pastu sūtīšanas iestatījumus."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "Iesniegums tika izdzēsts."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Nepiegādātie iesniegumi"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Šie iesniegumi ienāca caur jūsu veidlapām, bet paziņojuma e-pastu jums neizdevās nosūtīt. Tie tiek glabāti šeit, lai nepazustu, un automātiski dzēsti pēc iestatījumos norādītā dienu skaita."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Šeit nekā nav. Visi paziņojumi ir piegādāti."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "Pārbaudīt e-pastu sūtīšanas iestatījumus"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Dzēsta veidlapa"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Iemesls:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Sūtīt vēlreiz"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Dzēst šo iesniegumu neatgriezeniski?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Jā, dzēst"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Apstipriniet, ka neesat robots."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "Robota pārbaude neizdevās. Mēģiniet vēlreiz."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Vienas rindas teksts"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Rindkopa"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "E-pasts"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Tālrunis"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Vietne"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Nolaižamais saraksts"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Viena izvēle"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Izvēles rūtiņas"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Datums"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Slēpts lauks"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Piekrišanas rūtiņa"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Šis lauks ir obligāts."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Ievadiet derīgu e-pasta adresi."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Ievadiet derīgu vietnes adresi."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Ievadiet derīgu tālruņa numuru."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Ievadiet skaitli."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Ievadiet skaitli, kas nav mazāks par %s."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Ievadiet skaitli, kas nav lielāks par %s."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Ievadiet derīgu datumu."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Izvēlieties vienu no iespējām."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Jā"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "Nē"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Meklēt veidlapas"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Veidlapu vēl nav."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "Atkritnē nav veidlapu."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Nosūtīt"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Paldies! Jūsu ziņojums ir nosūtīts."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Jauns iesniegums: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Paldies par ziņojumu"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Labdien!\n"
+"\n"
+"Paldies, ka sazinājāties ar mums. Saņēmām jūsu ziņojumu un drīz atbildēsim.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Visas atbildes"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Vietnes nosaukums"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "Vietnes administratora e-pasts"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Datums un laiks"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Veidlapas lapa"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "Vietne nevarēja nosūtīt e-pastu."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: šī veidlapa neeksistē."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "Atstājiet šo lauku tukšu"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Pārbaudiet veidlapu un mēģiniet vēlreiz."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Izvēlieties…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "Sūta…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "Veidlapu neizdevās nosūtīt. Mēģiniet vēlreiz."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Nav"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "Veidlapu neizdevās pārbaudīt. Pārlādējiet lapu un mēģiniet vēlreiz."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "Tas bija ļoti ātri. Mazliet uzgaidiet un nosūtiet veidlapu vēlreiz."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "Pārāk daudz iesniegumu. Uzgaidiet minūti un mēģiniet vēlreiz."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Tukša veidlapa"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Sākt ar tukšu veidlapu."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "Kontaktu veidlapa"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Vārds, e-pasts, tālrunis un ziņojums."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Cenas pieprasījums"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "Pakalpojums, papildinājumi un platība dod aptuvenu cenu."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Pakalpojums"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Parastā uzkopšana"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Ģenerālā uzkopšana"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Platība (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Papildinājumi"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Logi"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Balkons"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Cepeškrāsns"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Aptuvenā cena"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Pasūtījuma veidlapa"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Preces ar daudzumiem, piegāde un atlaide virs noteiktas summas."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Prece A – 12.00 par gab."
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Prece B – 18.50 par gab."
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Piegāde"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Saņemšana uz vietas"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Standarta"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Ekspress"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Starpsumma"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "Atlaide (10% virs 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Kopā"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Rezervācija ar naktīm"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Ierašanās un izbraukšanas datumi dod nakšu skaitu un cenu."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Rezervācijas pieprasījums"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Ierašanās"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Izbraukšana"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Numurs"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Standarta – 80 par nakti"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Lukss – 140 par nakti"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Naktis"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Cena"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Piegādes cena no zonu un paciņu izmēru tabulas."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Piegādes cena"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Zona"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Zona 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Zona 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Zona 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Paciņa"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Maza"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Vidēja"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Liela"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Piegādes cenas"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "ĶMI kalkulators"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Ķermeņa masas indekss pēc auguma un svara."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Augums (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Svars (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "Jūsu ĶMI"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Nosūtīt"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Aizdevuma kalkulators"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Mēneša maksājums pēc summas, procentu likmes un termiņa."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Aizdevuma summa"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Gada procentu likme (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Termiņš (mēneši)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Mēneša maksājums"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Testa e-pasts"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Šis ir testa e-pasts. Ja varat to izlasīt, e-pastu sūtīšana darbojas."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "Iestatījumi saglabāti."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Testa e-pasts tika nosūtīts uz %s. Pārbaudiet iesūtni un surogātpasta mapi."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "Testa e-pastu neizdevās nosūtīt."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Daudzi mitināšanas pakalpojumi WordPress e-pastus piegādā ar kavēšanos vai surogātpastā. Sūtīšana caur jūsu e-pasta pakalpojuma SMTP kontu to atrisina bez atsevišķa SMTP spraudņa."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Šos iestatījumus koplieto %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s ir aktīvs un nodrošina e-pastu sūtīšanu, tāpēc šie iestatījumi netiek izmantoti."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "Sūtīt e-pastus caur SMTP kontu"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Tikai SmokySystems spraudņu e-pasti"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "Visi šīs vietnes e-pasti"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP serveris"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Ports"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Šifrēšana"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Bez šifrēšanas"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Lietotājvārds"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Parole"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "Parole ir iestatīta failā wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Parole ir saglabāta. Atstājiet tukšu, lai to paturētu."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Noņemt saglabāto paroli"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Sūtītāja e-pasts"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Izmantojiet SMTP konta adresi, citādi daudzi pakalpojumi e-pastu noraidīs."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Sūtītāja vārds"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Nosūtīt testa e-pastu"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Veidlapu veidotājs ar vilkšanu un aprēķiniem"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Veidlapu veidotājs ar vilkšanu un bezmaksas aprēķiniem. Veidojiet kontaktu, cenu pieprasījumu un pasūtījumu veidlapas un kalkulatorus, nerakstot formulas."

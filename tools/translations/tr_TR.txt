@@ -1,0 +1,325 @@
+055dcf|Bir form seçin
+d359c6|Form
+e0a02c|Henüz formunuz yok. Yönetim menüsündeki SmokyForms altından bir form oluşturun.
+28ab5c|Burada gösterilecek formu seçin.
+a86405|Temel alanlar
+6ef697|Seçenekler
+5939b5|Özel alanlar
+ebd9be|Düzen
+f56462|eğer … ise … değilse
+7f7bde|if(koşul, doğruysa değer, yanlışsa değer)
+b7f41f|Yuvarla
+2e0e8d|round(değer, ondalık basamak)
+a3ab97|En küçük
+73fc19|min(a, b, …)
+f8c8f8|En büyük
+8902cb|max(a, b, …)
+ecb62b|Tarihler arası gün
+a6db34|days(başlangıç tarihi, bitiş tarihi)
+6ff145|Aşağı yuvarla
+c17f8d|Yukarı yuvarla
+99e006|İşaretsiz
+921c8e|Karekök
+1fe7e9|Birinci seçenek
+580834|İkinci seçenek
+c1dd36|Üçüncü seçenek
+1bbdf1|Onay
+a816e9|Verilerimin bu web sitesi tarafından saklanmasını ve işlenmesini kabul ediyorum.
+7ef25f|Metin bloğu
+3b4836|Bölüm başlığı
+be5d5d|ve
+e81c4e|veya
+35c798|Boş metin bloğu
+b0ebea|Henüz formül yok
+222a8b|Etiket yok
+a4f784|Soldaki listeden alanlara tıklayın ya da sürükleyin.
+85e07c|Alan: %s
+f77af7|Yukarı taşı
+dd9f0c|Aşağı taşı
+ed7571|Çoğalt
+f2a6c4|Sil
+458b9d|Seçenek
+38b2db|Hesaplamadaki değeri
+7a1920|Varsayılan
+ceb473|Seçeneği kaldır
+015d41|Seçenek %d
+d02f3c|Seçenek ekle
+c9739f|Değer, bu seçeneğin bir hesaplamada neye karşılık geldiğidir, örneğin fiyatı. Onay kutularında işaretlenen tüm seçeneklerin değerleri toplanır.
+d61d8d|Eksik alan: %s
+a1b32d|Hesaplamayı oluşturmak için aşağıdaki alanlara ve işlemlere tıklayın.
+5de039|Tıklayarak oluştur
+878cdc|Formülü yaz
+1cdc07|Geri al
+dc30bc|Temizle
+a4ca5e|Alanlar
+443847|Önce sayı, seçenek veya tarih alanı ekleyin; burada görünürler.
+b3c582|İşlemler
+dd4fe0|Üs
+8730cc|Kalan
+e9b53a|Virgül (bir fonksiyonun değerleri arasında)
+b2ee91|Sayı
+ca3aeb|Sayı ekle
+229eb0|Koşullar
+e93acb|Fonksiyonlar
+9551cd|Fiyat tablosu
+51c45b|Tablo
+9db33f|Satır, şu alanın cevabından
+7876f8|Sütun, şu alanın cevabından
+38dded|Tek sütun
+2c4e05|Fiyatı ekle
+313a6a|Formül
+d9f37b|Alanlar {field_id} olarak yazılır. Örnek: {price} * {quantity} + 5
+c66f2e|Formül henüz tamamlanmadı. Parantezleri, virgülleri ve işlemleri kontrol edin.
+cc3a57|Formül geçerli.
+5fd411|Dene
+5aac38|Sonuç:
+1767e5|Ayarlarını değiştirmek için bir alan seçin.
+010131|Başlık
+b021df|Etiket
+b651ef|Zorunlu
+6224e6|Seçim yapılmadan önceki metin
+68753d|Yer tutucu
+31ce3c|Varsayılan değer
+48c7c4|Artış
+56eb52|Onay kutusunun yanındaki metin
+58cf98|Bağlantı ekleyebilirsiniz, örneğin gizlilik politikanıza.
+9dffbf|Metin
+716124|Temel HTML kullanılabilir.
+3ea4f7|Hesaplama
+b51e59|Sonuçtan önce
+62cfd9|Örneğin $
+5c6290|Sonuçtan sonra
+d41a8c|Örneğin € veya kg
+2b4178|Ondalık basamak
+e7c868|Sonucu formda göster
+16feb3|Sadece başka hesaplamaların kullandığı bir ara adımsa kapatın. Sonuç e-postada yine yer alır.
+c10b7d|Yardım metni
+329546|Genişlik
+24e61d|Tam genişlik
+e4bb63|Yarım genişlik
+42aa94|Alan kimliği
+98fa53|Formüllerde {%1$s}, e-postalarda {field:%1$s} olarak kullanılır. Değiştirirseniz bu formdaki formüller de güncellenir.
+08aeea|Fiyat tablosu her cevap için ya da iki cevabın her birleşimi için (örneğin bölge ve paket boyutu) bir değer verir. Bir hesaplamada "Fiyat tablosu" ile kullanın. Satır ve sütun adları, alanların seçenekleriyle birebir aynı yazılmalıdır.
+49ee30|Ad
+6c3798|Kimlik: %s
+c0dd3a|Satırları şu alanın seçeneklerinden al
+923419|Sütunları şu alanın seçeneklerinden al
+710b83|Sütun adı
+689202|Değer
+dbe735|Satır adı
+d8353e|Satır %d
+19f6e2|Satır ekle
+7bce62|Sütun %d
+b61b8f|Sütun ekle
+8b0629|Son satırı kaldır
+99a139|Son sütunu kaldır
+9c6803|Tabloyu sil
+531553|Satır 1
+450423|Fiyat tablosu ekle
+1aefc6|Kullanabilecekleriniz:
+19002d|Bir alanın cevabı
+0db377|Genel
+111082|Düğme metni
+8da5e2|Gönderimden sonraki mesaj
+f52ff0|Ya da gönderimden sonra bu sayfaya git
+aac08d|Bunun yerine mesajı göstermek için boş bırakın.
+291d69|CAPTCHA
+86dc8e|Bu formu Ayarlar altında kurulan CAPTCHA ile koruyun.
+539ec8|Henüz bir CAPTCHA kurulmadı. SmokyForms > Ayarlar altından ekleyebilirsiniz. Tuzak alan ve süre kontrolü her formu zaten korur.
+74b72d|Size bildirim
+48ff32|SmokyForms gönderimleri saklamaz; her gönderim size e-postayla iletilir. E-posta gönderilemezse gönderim SmokyForms > Ulaşmayanlar altında tutulur.
+d245dd|Her gönderim için bana e-posta gönder
+c973ca|Alıcı
+61739f|Birden fazla adresi virgülle ayırın.
+c7892e|Konu
+4c2a8f|Mesaj
+8970db|Ziyaretçiye onay
+71baeb|Ziyaretçiye onay e-postası gönder
+b6c0d5|Adresi şu alandan al
+7a2be4|Önce forma bir E-posta alanı ekleyin.
+45949d|Yeni form ekle
+79fd79|Hazır bir formla ya da boş bir formla başlayın. Hesaplayıcılar dahil tüm şablonlar ücretsizdir.
+cc7b22|Form kaydedilemedi.
+21954b|Tüm formlar
+00cd1f|Form adı
+6feadb|Kısa kod
+eedf6b|Kaydediliyor…
+4abf00|Formu kaydet
+35cb6e|Fiyat tabloları
+f4f707|Ayarlar
+864bac|SmokyForms bloğu ya da kısa kodla bir sayfaya ekleyin.
+604a9a|Kaydedilmemiş değişiklikleriniz var.
+6866cc|Bu form mevcut değil.
+d50431|Adsız form
+782d19|Form kaydedildi.
+84ad74|Formu düzenle &lsaquo; %s
+2835b7|Bunu yapmaya yetkiniz yok.
+39741d|Formu düzenle
+a986be|Form oluşturucu yükleniyor…
+6db07c|Form oluşturucu JavaScript gerektirir.
+c50eda|Ulaşmayanlar
+77c751|%s (kopya)
+645024|Formlar
+cc06ee|SmokyForms ayarları
+cb7fd7|E-posta gönderimi
+2932b4|İstenmeyen gönderimlere karşı koruma
+ef7330|Her formda gizli bir tuzak alan ve süre kontrolü vardır. Bunlara ek olarak CAPTCHA kullanabilirsiniz; form ayarlarında açık olan her formda kullanılır.
+aac82e|Cloudflare Turnstile ücretsizdir ve çoğu zaman ziyaretçilerinize bulmaca çözdürmez.
+f75d8f|Site anahtarı
+952bf8|Gizli anahtar
+6b2bed|Kaydedildi. Korumak için boş bırakın.
+3827d8|Süre kontrolü
+783e8e|saniye
+615249|Sayfa yüklendikten sonra bundan daha hızlı gönderilen formlar istenmeyen gönderim sayılır. 0 kontrolü kapatır.
+4def17|Ulaşmayan bildirimler
+9f5630|SmokyForms gönderimleri saklamaz; size e-postayla iletilir. Bir bildirim e-postası gönderilemezse gönderim kaybolmasın diye tutulur ve SmokyForms > Ulaşmayanlar altından tekrar gönderebilirsiniz.
+f24a17|Saklama süresi
+44fdec|gün
+c89567|SmokyForms: %s gönderim size e-postayla iletilemedi. ¦ SmokyForms: %s gönderim size e-postayla iletilemedi.
+498f79|Göster
+effa85|Gönderim iletildi ve bu listeden kaldırıldı.
+f9eafc|Gönderim yine iletilemedi. E-posta gönderimi ayarlarını kontrol edin.
+80da2c|Gönderim silindi.
+24c070|Ulaşmayan gönderimler
+c0d482|Bu gönderimler formlarınız üzerinden geldi, ancak size giden bildirim e-postası gönderilemedi. Kaybolmasınlar diye burada tutulur ve Ayarlar'da belirlenen gün sayısından sonra otomatik olarak silinir.
+5a569c|Burada bir şey yok. Tüm bildirimler iletildi.
+0426b1|E-posta gönderimi ayarlarını kontrol edin
+ef546f|Silinmiş form
+ccb168|Neden:
+50ab1d|Tekrar gönder
+50d0b5|Bu gönderim kalıcı olarak silinsin mi?
+b21c60|Evet, sil
+ccf88f|Lütfen robot olmadığınızı doğrulayın.
+296449|Robot kontrolü başarısız oldu. Lütfen tekrar deneyin.
+cd72d3|Tek satır metin
+c5a5c5|Paragraf metni
+ce8ae9|E-posta
+bcc254|Telefon
+15bbb9|Web sitesi
+7498c4|Açılır liste
+6893e5|Çoktan seçmeli
+c425f2|Onay kutuları
+447497|Tarih
+019003|Gizli alan
+00b768|Onay kutusu (izin)
+9303c9|Bu alan zorunludur.
+b5bccd|Lütfen geçerli bir e-posta adresi girin.
+86062b|Lütfen geçerli bir web sitesi adresi girin.
+772407|Lütfen geçerli bir telefon numarası girin.
+c2cb00|Lütfen bir sayı girin.
+69dfa7|Lütfen en az %s olan bir sayı girin.
+caf8d8|Lütfen en fazla %s olan bir sayı girin.
+773fcd|Lütfen geçerli bir tarih girin.
+e3264a|Lütfen seçeneklerden birini seçin.
+93cba0|Evet
+bafd73|Hayır
+a6c2b9|Formlarda ara
+60caa9|Henüz form yok.
+6a1885|Çöp kutusunda form yok.
+a4d3b1|Gönder
+279099|Teşekkürler! Mesajınız gönderildi.
+48b55f|Yeni gönderim: {form_title}
+81a012|Mesajınız için teşekkürler
+d93e6b|Merhaba,\n\nbizimle iletişime geçtiğiniz için teşekkür ederiz. Mesajınızı aldık, en kısa sürede yanıt vereceğiz.\n\n{all_fields}
+1d6990|Tüm cevaplar
+816667|Site adı
+e91f72|Site yöneticisi e-postası
+2b0b7c|Tarih ve saat
+7012e0|Formun bulunduğu sayfa
+151dca|Site e-postayı gönderemedi.
+6ac40c|SmokyForms: bu form mevcut değil.
+7a4842|Bu alanı boş bırakın
+28b263|Lütfen formu kontrol edip tekrar deneyin.
+3f6c9a|Seçin…
+4d01e8|Gönderiliyor…
+f83b39|Form gönderilemedi. Lütfen tekrar deneyin.
+6adf97|Yok
+5bf1f6|Form kontrol edilemedi. Lütfen sayfayı yenileyip tekrar deneyin.
+5934a3|Bu çok hızlıydı. Lütfen biraz bekleyip formu tekrar gönderin.
+453e43|Çok fazla gönderim. Lütfen bir dakika bekleyip tekrar deneyin.
+57c955|Boş form
+dc8972|Boş bir formla başlayın.
+c661cf|İletişim formu
+dabe9b|Ad, e-posta, telefon ve mesaj.
+5d1cbd|Fiyat teklifi talebi
+0269ab|Hizmet, ekstralar ve büyüklük tahmini bir fiyat verir.
+c2ba7e|Hizmet
+9986c1|Standart temizlik
+cc16d7|Detaylı temizlik
+e285c9|Büyüklük (m²)
+0a3f08|Ekstralar
+aea234|Camlar
+2623fa|Balkon
+482690|Fırın
+cebbfc|Tahmini fiyat
+655157|Sipariş formu
+3a11e0|Adetli ürünler, teslimat ve belli bir tutarın üzerinde indirim.
+70fc36|Ürün A – tanesi 12.00
+6e18dd|Ürün B – tanesi 18.50
+065ab3|Teslimat
+9ae3c9|Gel al
+eb6d8a|Standart
+b144fa|Ekspres
+2194aa|Ara toplam
+48909c|İndirim (100 üzerine %10)
+96b014|Toplam
+6fb3df|Gece sayılı rezervasyon
+80068a|Giriş ve çıkış tarihleri gece sayısını ve fiyatı verir.
+83bb56|Rezervasyon talebi
+885b3c|Giriş
+5be0fa|Çıkış
+cc3abc|Oda
+3bf8f2|Standart – gecesi 80
+3ac878|Suit – gecesi 140
+e10758|Gece
+360114|Fiyat
+e6e2d9|Bölge ve paket boyutu tablosundan kargo ücreti.
+0ea6b9|Kargo ücreti
+b3ff99|Bölge
+93b3d7|Bölge 1
+ac4ff7|Bölge 2
+c48837|Bölge 3
+f38e90|Paket
+266006|Küçük
+87f8a6|Orta
+3a69b3|Büyük
+3e1c4b|Kargo ücretleri
+348100|VKİ hesaplayıcı
+d7659b|Boy ve kilodan vücut kitle indeksi.
+20fbaa|Boy (cm)
+917216|Kilo (kg)
+869598|VKİ değeriniz
+94966d|Gönder
+f3cda5|Kredi hesaplayıcı
+cb8a5f|Tutar, faiz oranı ve vadeden aylık taksit.
+59efa4|Kredi tutarı
+202d38|Yıllık faiz oranı (%)
+a92ac9|Vade (ay)
+647bd0|Aylık taksit
+d0bcd3|Deneme e-postası
+a7498e|Bu bir deneme e-postasıdır. Okuyabiliyorsanız e-posta gönderimi çalışıyor.
+9a7e58|Ayarlar kaydedildi.
+a3fb23|Deneme e-postası %s adresine gönderildi. Gelen kutusunu ve istenmeyen klasörünü kontrol edin.
+33de89|Deneme e-postası gönderilemedi.
+3a9486|Birçok barındırma firması WordPress e-postalarını geç ya da istenmeyen klasörüne iletir. E-postaları e-posta sağlayıcınızın SMTP hesabı üzerinden göndermek, ayrı bir SMTP eklentisine gerek kalmadan bunu çözer.
+05449a|Bu ayarlar şunlar tarafından ortak kullanılır: %s.
+51e4ba|%s etkin ve e-posta gönderimini yönetiyor, bu yüzden bu ayarlar kullanılmıyor.
+c2239a|SMTP
+4d7db2|E-postaları bir SMTP hesabı üzerinden gönder
+adac9e|Sadece SmokySystems eklentilerinin e-postaları
+f8f5e1|Bu sitenin tüm e-postaları
+bdd48f|SMTP sunucusu
+60aaf4|Bağlantı noktası
+d7f261|Şifreleme
+151adf|Şifreleme yok
+f6039d|Kullanıcı adı
+dc647e|Parola
+c6e6fb|Parola wp-config.php dosyasında tanımlı.
+0b5899|Kayıtlı bir parola var. Korumak için boş bırakın.
+d7381f|Kayıtlı parolayı kaldır
+3b4d50|Gönderen e-posta
+250019|SMTP hesabına ait bir adres kullanın, aksi halde birçok sağlayıcı e-postayı reddeder.
+c3a7ea|Gönderen adı
+ee1851|Deneme e-postası gönder
+7caa16|SmokyForms – Hesaplamalı sürükle bırak form oluşturucu
+9958f8|Hesaplamaların ücretsiz olduğu sürükle bırak form oluşturucu. İletişim formları, fiyat teklifi ve sipariş formları ile hesaplayıcıları formül yazmadan oluşturun.

@@ -1,0 +1,325 @@
+055dcf|Chọn biểu mẫu
+d359c6|Biểu mẫu
+e0a02c|Bạn chưa có biểu mẫu nào. Hãy tạo trong SmokyForms ở menu quản trị.
+28ab5c|Chọn biểu mẫu sẽ hiển thị ở đây.
+a86405|Trường cơ bản
+6ef697|Lựa chọn
+5939b5|Trường đặc biệt
+ebd9be|Bố cục
+f56462|nếu … thì … nếu không
+7f7bde|if(điều kiện, giá trị khi đúng, giá trị khi sai)
+b7f41f|Làm tròn
+2e0e8d|round(giá trị, số chữ số thập phân)
+a3ab97|Nhỏ nhất
+73fc19|min(a, b, …)
+f8c8f8|Lớn nhất
+8902cb|max(a, b, …)
+ecb62b|Số ngày giữa hai ngày
+a6db34|days(ngày bắt đầu, ngày kết thúc)
+6ff145|Làm tròn xuống
+c17f8d|Làm tròn lên
+99e006|Không dấu
+921c8e|Căn bậc hai
+1fe7e9|Lựa chọn thứ nhất
+580834|Lựa chọn thứ hai
+c1dd36|Lựa chọn thứ ba
+1bbdf1|Đồng ý
+a816e9|Tôi đồng ý để trang web này lưu trữ và xử lý dữ liệu của tôi.
+7ef25f|Khối văn bản
+3b4836|Tiêu đề phần
+be5d5d|và
+e81c4e|hoặc
+35c798|Khối văn bản trống
+b0ebea|Chưa có công thức
+222a8b|Không có nhãn
+a4f784|Bấm hoặc kéo các trường từ danh sách bên trái.
+85e07c|Trường: %s
+f77af7|Chuyển lên
+dd9f0c|Chuyển xuống
+ed7571|Nhân bản
+f2a6c4|Xóa
+458b9d|Lựa chọn
+38b2db|Giá trị trong phép tính
+7a1920|Mặc định
+ceb473|Bỏ lựa chọn
+015d41|Lựa chọn %d
+d02f3c|Thêm lựa chọn
+c9739f|Giá trị là con số mà lựa chọn này mang trong phép tính, ví dụ giá của nó. Với hộp kiểm, giá trị của mọi lựa chọn được đánh dấu sẽ được cộng lại.
+d61d8d|Thiếu trường: %s
+a1b32d|Bấm vào các trường và toán tử bên dưới để tạo phép tính.
+5de039|Tạo bằng cách bấm
+878cdc|Viết công thức
+1cdc07|Hoàn tác
+dc30bc|Xóa hết
+a4ca5e|Trường
+443847|Hãy thêm trường số, lựa chọn hoặc ngày trước; chúng sẽ xuất hiện ở đây.
+b3c582|Toán tử
+dd4fe0|Lũy thừa
+8730cc|Số dư
+e9b53a|Dấu phẩy (giữa các giá trị của một hàm)
+b2ee91|Số
+ca3aeb|Thêm số
+229eb0|Điều kiện
+e93acb|Hàm
+9551cd|Bảng giá
+51c45b|Bảng
+9db33f|Hàng theo câu trả lời của
+7876f8|Cột theo câu trả lời của
+38dded|Chỉ một cột
+2c4e05|Chèn giá
+313a6a|Công thức
+d9f37b|Trường được viết là {field_id}. Ví dụ: {price} * {quantity} + 5
+c66f2e|Công thức chưa hoàn chỉnh. Hãy kiểm tra dấu ngoặc, dấu phẩy và toán tử.
+cc3a57|Công thức hợp lệ.
+5fd411|Thử
+5aac38|Kết quả:
+1767e5|Chọn một trường để thay đổi cài đặt của nó.
+010131|Tiêu đề
+b021df|Nhãn
+b651ef|Bắt buộc
+6224e6|Văn bản trước khi chọn
+68753d|Văn bản gợi ý
+31ce3c|Giá trị mặc định
+48c7c4|Bước
+56eb52|Văn bản cạnh hộp kiểm
+58cf98|Có thể chèn liên kết, ví dụ đến chính sách quyền riêng tư của bạn.
+9dffbf|Văn bản
+716124|Cho phép HTML cơ bản.
+3ea4f7|Phép tính
+b51e59|Trước kết quả
+62cfd9|Ví dụ $
+5c6290|Sau kết quả
+d41a8c|Ví dụ ₫ hoặc kg
+2b4178|Số chữ số thập phân
+e7c868|Hiển thị kết quả trong biểu mẫu
+16feb3|Tắt cho một bước trung gian chỉ dùng cho các phép tính khác. Kết quả vẫn có trong email.
+c10b7d|Văn bản trợ giúp
+329546|Chiều rộng
+24e61d|Toàn chiều rộng
+e4bb63|Nửa chiều rộng
+42aa94|ID trường
+98fa53|Dùng trong công thức là {%1$s} và trong email là {field:%1$s}. Khi thay đổi, các công thức của biểu mẫu này sẽ được cập nhật.
+08aeea|Bảng giá đưa ra một giá trị cho mỗi câu trả lời, hoặc cho mỗi tổ hợp hai câu trả lời (ví dụ khu vực và kích thước gói hàng). Dùng nó trong phép tính qua "Bảng giá". Tên hàng và cột phải viết giống hệt các lựa chọn của trường.
+49ee30|Tên
+6c3798|ID: %s
+c0dd3a|Hàng lấy từ lựa chọn của
+923419|Cột lấy từ lựa chọn của
+710b83|Tên cột
+689202|Giá trị
+dbe735|Tên hàng
+d8353e|Hàng %d
+19f6e2|Thêm hàng
+7bce62|Cột %d
+b61b8f|Thêm cột
+8b0629|Bỏ hàng cuối
+99a139|Bỏ cột cuối
+9c6803|Xóa bảng
+531553|Hàng 1
+450423|Thêm bảng giá
+1aefc6|Bạn có thể dùng:
+19002d|Câu trả lời của một trường
+0db377|Chung
+111082|Chữ trên nút
+8da5e2|Thông báo sau khi gửi
+f52ff0|Hoặc chuyển đến trang này sau khi gửi
+aac08d|Để trống để hiển thị thông báo.
+291d69|CAPTCHA
+86dc8e|Bảo vệ biểu mẫu này bằng CAPTCHA đã thiết lập trong Cài đặt.
+539ec8|Chưa thiết lập CAPTCHA. Bạn có thể thêm trong SmokyForms > Cài đặt. Trường bẫy và kiểm tra thời gian luôn bảo vệ mọi biểu mẫu.
+74b72d|Thông báo cho bạn
+48ff32|SmokyForms không lưu bài gửi; mỗi bài gửi được gửi đến bạn qua email. Nếu email gửi không được, bài gửi sẽ được giữ trong SmokyForms > Chưa gửi được.
+d245dd|Gửi email cho tôi mỗi khi có bài gửi
+c973ca|Gửi đến
+61739f|Ngăn cách nhiều địa chỉ bằng dấu phẩy.
+c7892e|Tiêu đề
+4c2a8f|Nội dung
+8970db|Xác nhận cho khách
+71baeb|Gửi email xác nhận cho khách
+b6c0d5|Địa chỉ lấy từ trường
+7a2be4|Hãy thêm trường email vào biểu mẫu trước.
+45949d|Thêm biểu mẫu mới
+79fd79|Bắt đầu với biểu mẫu có sẵn hoặc biểu mẫu trống. Mọi mẫu, kể cả máy tính, đều miễn phí.
+cc7b22|Không thể lưu biểu mẫu.
+21954b|Tất cả biểu mẫu
+00cd1f|Tên biểu mẫu
+6feadb|Mã ngắn
+eedf6b|Đang lưu…
+4abf00|Lưu biểu mẫu
+35cb6e|Bảng giá
+f4f707|Cài đặt
+864bac|Thêm vào trang bằng khối SmokyForms hoặc mã ngắn.
+604a9a|Bạn có thay đổi chưa lưu.
+6866cc|Biểu mẫu này không tồn tại.
+d50431|Biểu mẫu chưa đặt tên
+782d19|Đã lưu biểu mẫu.
+84ad74|Sửa biểu mẫu &lsaquo; %s
+2835b7|Bạn không có quyền làm việc này.
+39741d|Sửa biểu mẫu
+a986be|Đang tải trình tạo biểu mẫu…
+6db07c|Trình tạo biểu mẫu cần JavaScript.
+c50eda|Chưa gửi được
+77c751|%s (bản sao)
+645024|Biểu mẫu
+cc06ee|Cài đặt SmokyForms
+cb7fd7|Gửi email
+2932b4|Chống thư rác
+ef7330|Mỗi biểu mẫu có một trường bẫy ẩn và kiểm tra thời gian. Bạn có thể thêm CAPTCHA; nó được dùng ở mọi biểu mẫu bật nó trong cài đặt biểu mẫu.
+aac82e|Cloudflare Turnstile miễn phí và thường không bắt khách giải đố.
+f75d8f|Khóa trang
+952bf8|Khóa bí mật
+6b2bed|Đã lưu. Để trống để giữ nguyên.
+3827d8|Kiểm tra thời gian
+783e8e|giây
+615249|Biểu mẫu được gửi nhanh hơn mức này sau khi tải trang sẽ bị coi là thư rác. 0 là tắt kiểm tra.
+4def17|Thông báo chưa gửi được
+9f5630|SmokyForms không lưu bài gửi; chúng được gửi đến bạn qua email. Nếu email thông báo không gửi được, bài gửi được giữ lại để không bị mất, và bạn có thể gửi lại trong SmokyForms > Chưa gửi được.
+f24a17|Giữ trong
+44fdec|ngày
+c89567|SmokyForms: không thể gửi %s bài gửi đến bạn qua email.
+498f79|Xem
+effa85|Bài gửi đã được gửi và xóa khỏi danh sách.
+f9eafc|Vẫn chưa gửi được bài gửi. Hãy kiểm tra cài đặt gửi email.
+80da2c|Đã xóa bài gửi.
+24c070|Bài gửi chưa gửi được
+c0d482|Các bài gửi này đến từ biểu mẫu của bạn, nhưng email thông báo cho bạn đã thất bại. Chúng được giữ ở đây để không bị mất và tự động xóa sau số ngày đặt trong Cài đặt.
+5a569c|Không có gì ở đây. Mọi thông báo đã được gửi.
+0426b1|Kiểm tra cài đặt gửi email
+ef546f|Biểu mẫu đã xóa
+ccb168|Lý do:
+50ab1d|Gửi lại
+50d0b5|Xóa vĩnh viễn bài gửi này?
+b21c60|Có, xóa
+ccf88f|Hãy xác nhận bạn không phải là robot.
+296449|Kiểm tra robot không thành công. Vui lòng thử lại.
+cd72d3|Văn bản một dòng
+c5a5c5|Đoạn văn bản
+ce8ae9|Email
+bcc254|Điện thoại
+15bbb9|Trang web
+7498c4|Danh sách thả xuống
+6893e5|Chọn một
+c425f2|Hộp kiểm
+447497|Ngày
+019003|Trường ẩn
+00b768|Hộp kiểm đồng ý
+9303c9|Trường này là bắt buộc.
+b5bccd|Vui lòng nhập địa chỉ email hợp lệ.
+86062b|Vui lòng nhập địa chỉ trang web hợp lệ.
+772407|Vui lòng nhập số điện thoại hợp lệ.
+c2cb00|Vui lòng nhập một số.
+69dfa7|Vui lòng nhập số ít nhất là %s.
+caf8d8|Vui lòng nhập số nhiều nhất là %s.
+773fcd|Vui lòng nhập ngày hợp lệ.
+e3264a|Vui lòng chọn một trong các lựa chọn.
+93cba0|Có
+bafd73|Không
+a6c2b9|Tìm biểu mẫu
+60caa9|Chưa có biểu mẫu nào.
+6a1885|Không có biểu mẫu nào trong thùng rác.
+a4d3b1|Gửi
+279099|Cảm ơn! Tin nhắn của bạn đã được gửi.
+48b55f|Bài gửi mới: {form_title}
+81a012|Cảm ơn tin nhắn của bạn
+d93e6b|Xin chào,\n\ncảm ơn bạn đã liên hệ. Chúng tôi đã nhận được tin nhắn và sẽ sớm trả lời.\n\n{all_fields}
+1d6990|Tất cả câu trả lời
+816667|Tên trang
+e91f72|Email quản trị viên trang
+2b0b7c|Ngày và giờ
+7012e0|Trang của biểu mẫu
+151dca|Trang web không gửi được email.
+6ac40c|SmokyForms: biểu mẫu này không tồn tại.
+7a4842|Để trống trường này
+28b263|Vui lòng kiểm tra biểu mẫu và thử lại.
+3f6c9a|Chọn…
+4d01e8|Đang gửi…
+f83b39|Không gửi được biểu mẫu. Vui lòng thử lại.
+6adf97|Không có
+5bf1f6|Không kiểm tra được biểu mẫu. Vui lòng tải lại trang và thử lại.
+5934a3|Gửi quá nhanh. Hãy chờ một chút rồi gửi lại biểu mẫu.
+453e43|Gửi quá nhiều lần. Hãy chờ một phút rồi thử lại.
+57c955|Biểu mẫu trống
+dc8972|Bắt đầu từ biểu mẫu trống.
+c661cf|Biểu mẫu liên hệ
+dabe9b|Tên, email, điện thoại và tin nhắn.
+5d1cbd|Yêu cầu báo giá
+0269ab|Dịch vụ, tùy chọn thêm và diện tích cho ra giá ước tính.
+c2ba7e|Dịch vụ
+9986c1|Dọn dẹp cơ bản
+cc16d7|Tổng vệ sinh
+e285c9|Diện tích (m²)
+0a3f08|Tùy chọn thêm
+aea234|Cửa sổ
+2623fa|Ban công
+482690|Lò nướng
+cebbfc|Giá ước tính
+655157|Biểu mẫu đặt hàng
+3a11e0|Sản phẩm có số lượng, giao hàng và giảm giá khi vượt một mức.
+70fc36|Sản phẩm A – 12.00 mỗi cái
+6e18dd|Sản phẩm B – 18.50 mỗi cái
+065ab3|Giao hàng
+9ae3c9|Tự đến lấy
+eb6d8a|Tiêu chuẩn
+b144fa|Hỏa tốc
+2194aa|Tạm tính
+48909c|Giảm giá (10% khi trên 100)
+96b014|Tổng cộng
+6fb3df|Đặt phòng theo đêm
+80068a|Ngày đến và ngày đi cho ra số đêm và giá.
+83bb56|Yêu cầu đặt phòng
+885b3c|Ngày đến
+5be0fa|Ngày đi
+cc3abc|Phòng
+3bf8f2|Tiêu chuẩn – 80 mỗi đêm
+3ac878|Phòng suite – 140 mỗi đêm
+e10758|Số đêm
+360114|Giá
+e6e2d9|Phí vận chuyển từ bảng khu vực và kích thước gói hàng.
+0ea6b9|Phí vận chuyển
+b3ff99|Khu vực
+93b3d7|Khu vực 1
+ac4ff7|Khu vực 2
+c48837|Khu vực 3
+f38e90|Gói hàng
+266006|Nhỏ
+87f8a6|Vừa
+3a69b3|Lớn
+3e1c4b|Bảng phí vận chuyển
+348100|Máy tính BMI
+d7659b|Chỉ số khối cơ thể từ chiều cao và cân nặng.
+20fbaa|Chiều cao (cm)
+917216|Cân nặng (kg)
+869598|BMI của bạn
+94966d|Gửi
+f3cda5|Máy tính khoản vay
+cb8a5f|Khoản trả hằng tháng từ số tiền, lãi suất và thời hạn.
+59efa4|Số tiền vay
+202d38|Lãi suất năm (%)
+a92ac9|Thời hạn (tháng)
+647bd0|Khoản trả hằng tháng
+d0bcd3|Email thử
+a7498e|Đây là email thử. Nếu bạn đọc được email này thì việc gửi email đang hoạt động.
+9a7e58|Đã lưu cài đặt.
+a3fb23|Email thử đã được gửi đến %s. Hãy kiểm tra hộp thư đến và thư mục thư rác.
+33de89|Không gửi được email thử.
+3a9486|Nhiều nhà cung cấp hosting gửi email của WordPress chậm hoặc vào thư rác. Gửi qua tài khoản SMTP của nhà cung cấp email sẽ khắc phục điều đó mà không cần plugin SMTP riêng.
+05449a|Các cài đặt này được dùng chung bởi %s.
+51e4ba|%s đang bật và xử lý việc gửi email, vì vậy các cài đặt này không được dùng.
+c2239a|SMTP
+4d7db2|Gửi email qua tài khoản SMTP
+adac9e|Chỉ email của các plugin SmokySystems
+f8f5e1|Mọi email của trang này
+bdd48f|Máy chủ SMTP
+60aaf4|Cổng
+d7f261|Mã hóa
+151adf|Không mã hóa
+f6039d|Tên đăng nhập
+dc647e|Mật khẩu
+c6e6fb|Mật khẩu được đặt trong wp-config.php.
+0b5899|Đã lưu mật khẩu. Để trống để giữ nguyên.
+d7381f|Xóa mật khẩu đã lưu
+3b4d50|Email người gửi
+250019|Hãy dùng một địa chỉ của tài khoản SMTP, nếu không nhiều nhà cung cấp sẽ từ chối email.
+c3a7ea|Tên người gửi
+ee1851|Gửi email thử
+7caa16|SmokyForms – Trình tạo biểu mẫu kéo thả có tính toán
+9958f8|Trình tạo biểu mẫu kéo thả với tính năng tính toán miễn phí. Tạo biểu mẫu liên hệ, báo giá, đặt hàng và máy tính mà không cần viết công thức.

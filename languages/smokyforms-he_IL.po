@@ -1,0 +1,1350 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "בחירת טופס"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "טופס"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "עדיין אין לך טפסים. אפשר ליצור טופס ב-SmokyForms בתפריט הניהול."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "יש לבחור את הטופס שיוצג כאן."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "שדות בסיסיים"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "אפשרויות"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "שדות מיוחדים"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "פריסה"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "אם … אז … אחרת"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(תנאי, ערך אם נכון, ערך אם לא נכון)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "עיגול"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(ערך, ספרות אחרי הנקודה)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "הקטן ביותר"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "הגדול ביותר"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "ימים בין תאריכים"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(תאריך התחלה, תאריך סיום)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "עיגול למטה"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "עיגול למעלה"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "ללא סימן"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "שורש ריבועי"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "אפשרות ראשונה"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "אפשרות שנייה"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "אפשרות שלישית"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "הסכמה"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "אני מסכים/ה שהאתר הזה ישמור ויעבד את הנתונים שלי."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "בלוק טקסט"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "כותרת מקטע"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "וגם"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "או"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "בלוק טקסט ריק"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "עדיין אין נוסחה"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "ללא תווית"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "אפשר ללחוץ על שדות מהרשימה שמשמאל או לגרור אותם."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "שדה: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "הזזה למעלה"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "הזזה למטה"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "שכפול"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "מחיקה"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "אפשרות"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "ערך בחישובים"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "הסרת אפשרות"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "אפשרות %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "הוספת אפשרות"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "הערך הוא מה שהאפשרות שווה בחישוב, למשל המחיר שלה. בתיבות סימון מחברים את הערכים של כל האפשרויות המסומנות."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "שדה חסר: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "יש ללחוץ על השדות והפעולות למטה כדי לבנות את החישוב."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "בנייה בלחיצות"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "כתיבת הנוסחה"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "ביטול"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "ניקוי"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "שדות"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "יש להוסיף קודם שדות מספר, אפשרויות או תאריך; הם יופיעו כאן."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "פעולות"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "חזקה"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "שארית"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "פסיק (בין ערכי פונקציה)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "מספר"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "הוספת מספר"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "תנאים"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "פונקציות"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "טבלת מחירים"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "טבלה"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "שורה לפי התשובה של"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "עמודה לפי התשובה של"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "עמודה אחת בלבד"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "הוספת מחיר"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "נוסחה"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "שדות נכתבים כ-{field_id}. דוגמה: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "הנוסחה עדיין לא שלמה. יש לבדוק סוגריים, פסיקים ופעולות."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "הנוסחה תקינה."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "ניסיון"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "תוצאה:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "יש לבחור שדה כדי לשנות את ההגדרות שלו."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "כותרת"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "תווית"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "חובה"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "טקסט לפני בחירה"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "טקסט מציין מקום"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "ערך ברירת מחדל"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "צעד"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "טקסט ליד תיבת הסימון"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "אפשר להוסיף קישורים, למשל למדיניות הפרטיות שלך."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "טקסט"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "מותר HTML בסיסי."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "חישוב"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "לפני התוצאה"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "לדוגמה ₪"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "אחרי התוצאה"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "לדוגמה € או ק\"ג"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "ספרות אחרי הנקודה"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "הצגת התוצאה בטופס"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "יש לכבות עבור שלב ביניים שרק חישובים אחרים משתמשים בו. התוצאה עדיין תופיע בדוא\"ל."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "טקסט עזרה"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "רוחב"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "רוחב מלא"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "חצי רוחב"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "מזהה השדה"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "משמש בנוסחאות כ-{%1$s} ובהודעות דוא\"ל כ-{field:%1$s}. שינוי שלו מעדכן את הנוסחאות של הטופס הזה."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "טבלת מחירים נותנת ערך לכל תשובה, או לכל צירוף של שתי תשובות (למשל אזור וגודל חבילה). אפשר להשתמש בה בחישוב דרך \"טבלת מחירים\". שמות השורות והעמודות חייבים להיות כתובים בדיוק כמו האפשרויות של השדות."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "שם"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "מזהה: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "שורות מהאפשרויות של"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "עמודות מהאפשרויות של"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "שם העמודה"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "ערך"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "שם השורה"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "שורה %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "הוספת שורה"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "עמודה %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "הוספת עמודה"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "הסרת השורה האחרונה"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "הסרת העמודה האחרונה"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "מחיקת הטבלה"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "שורה 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "הוספת טבלת מחירים"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "אפשר להשתמש ב:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "התשובה של שדה אחד"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "כללי"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "טקסט הכפתור"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "הודעה אחרי השליחה"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "או מעבר לעמוד הזה אחרי השליחה"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "אפשר להשאיר ריק כדי להציג את ההודעה במקום."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "הגנה על הטופס הזה באמצעות ה-CAPTCHA שהוגדר בהגדרות."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "עדיין לא הוגדר CAPTCHA. אפשר להוסיף ב-SmokyForms > הגדרות. שדה המלכודת ובדיקת הזמן מגינים על כל טופס בכל מקרה."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "התראה אליך"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms לא שומר שליחות; כל שליחה נשלחת אליך בדוא\"ל. אם הדוא\"ל נכשל, השליחה נשמרת ב-SmokyForms > לא נמסרו."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "לשלוח לי דוא\"ל על כל שליחה"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "שליחה אל"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "יש להפריד בין כתובות בפסיקים."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "נושא"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "הודעה"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "אישור למבקר"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "שליחת דוא\"ל אישור למבקר"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "כתובת מהשדה"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "יש להוסיף קודם שדה דוא\"ל לטופס."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "הוספת טופס חדש"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "אפשר להתחיל מטופס מוכן או מטופס ריק. כל התבניות, כולל המחשבונים, בחינם."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "לא ניתן היה לשמור את הטופס."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "כל הטפסים"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "שם הטופס"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "קוד מקוצר"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "שומר…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "שמירת הטופס"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "טבלאות מחירים"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "הגדרות"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "אפשר להוסיף אותו לעמוד עם הבלוק SmokyForms או הקוד המקוצר."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "יש שינויים שלא נשמרו."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "הטופס הזה לא קיים."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "טופס ללא שם"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "הטופס נשמר."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "עריכת טופס &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "אין לך הרשאה לעשות זאת."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "עריכת טופס"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "טוען את בונה הטפסים…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "בונה הטפסים זקוק ל-JavaScript."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "לא נמסרו"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (העתק)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "טפסים"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "הגדרות SmokyForms"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "שליחת דוא\"ל"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "הגנה מפני ספאם"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "לכל טופס יש שדה מלכודת נסתר ובדיקת זמן. אפשר להוסיף גם CAPTCHA; הוא משמש בכל טופס שבו הוא מופעל בהגדרות הטופס."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile הוא בחינם ובדרך כלל לא מבקש מהמבקרים לפתור חידות."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "מפתח האתר"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "מפתח סודי"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "נשמר. אפשר להשאיר ריק כדי לשמור עליו."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "בדיקת זמן"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "שניות"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "טפסים שנשלחים מהר יותר מזה אחרי טעינת העמוד נחשבים ספאם. 0 מכבה את הבדיקה."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "התראות שלא נמסרו"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms לא שומר שליחות; הן נשלחות אליך בדוא\"ל. אם לא ניתן לשלוח דוא\"ל התראה, השליחה נשמרת כדי שלא תאבד, ואפשר לשלוח אותה שוב ב-SmokyForms > לא נמסרו."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "שמירה למשך"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "ימים"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: לא ניתן היה לשלוח אליך בדוא\"ל %s שליחה."
+msgstr[1] "SmokyForms: לא ניתן היה לשלוח אליך בדוא\"ל %s שליחות."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "הצגה"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "השליחה נשלחה והוסרה מהרשימה."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "עדיין לא ניתן לשלוח את השליחה. יש לבדוק את הגדרות שליחת הדוא\"ל."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "השליחה נמחקה."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "שליחות שלא נמסרו"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "השליחות האלה הגיעו דרך הטפסים שלך, אבל דוא\"ל ההתראה אליך נכשל. הן נשמרות כאן כדי שלא יאבדו, ונמחקות אוטומטית אחרי מספר הימים שהוגדר בהגדרות."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "אין כאן כלום. כל ההתראות נמסרו."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "בדיקת הגדרות שליחת הדוא\"ל"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "טופס שנמחק"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "סיבה:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "שליחה חוזרת"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "למחוק את השליחה הזו לצמיתות?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "כן, למחוק"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "יש לאשר שאינך רובוט."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "בדיקת הרובוט נכשלה. יש לנסות שוב."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "טקסט בשורה אחת"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "פסקה"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "דוא\"ל"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "טלפון"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "אתר אינטרנט"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "רשימה נפתחת"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "בחירה יחידה"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "תיבות סימון"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "תאריך"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "שדה נסתר"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "תיבת הסכמה"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "זהו שדה חובה."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "יש להזין כתובת דוא\"ל תקינה."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "יש להזין כתובת אתר תקינה."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "יש להזין מספר טלפון תקין."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "יש להזין מספר."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "יש להזין מספר של %s לפחות."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "יש להזין מספר של %s לכל היותר."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "יש להזין תאריך תקין."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "יש לבחור אחת מהאפשרויות."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "כן"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "לא"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "חיפוש טפסים"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "עדיין אין טפסים."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "אין טפסים בפח."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "שליחה"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "תודה! ההודעה שלך נשלחה."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "שליחה חדשה: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "תודה על ההודעה"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"שלום,\n"
+"\n"
+"תודה שפנית אלינו. קיבלנו את ההודעה שלך ונחזור אליך בקרוב.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "כל התשובות"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "שם האתר"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "דוא\"ל מנהל האתר"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "תאריך ושעה"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "העמוד של הטופס"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "האתר לא הצליח לשלוח את הדוא\"ל."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: הטופס הזה לא קיים."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "יש להשאיר את השדה הזה ריק"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "יש לבדוק את הטופס ולנסות שוב."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "בחירה…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "שולח…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "לא ניתן היה לשלוח את הטופס. יש לנסות שוב."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "ללא"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "לא ניתן היה לבדוק את הטופס. יש לטעון מחדש את העמוד ולנסות שוב."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "זה היה מהיר מאוד. יש להמתין רגע ולשלוח את הטופס שוב."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "יותר מדי שליחות. יש להמתין דקה ולנסות שוב."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "טופס ריק"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "להתחיל מטופס ריק."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "טופס יצירת קשר"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "שם, דוא\"ל, טלפון והודעה."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "בקשה להצעת מחיר"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "השירות, התוספות והשטח נותנים מחיר משוער."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "שירות"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "ניקיון בסיסי"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "ניקיון יסודי"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "שטח (מ\"ר)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "תוספות"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "חלונות"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "מרפסת"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "תנור"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "מחיר משוער"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "טופס הזמנה"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "מוצרים עם כמויות, משלוח והנחה מעל סכום מסוים."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "מוצר A – 12.00 ליחידה"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "מוצר B – 18.50 ליחידה"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "משלוח"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "איסוף עצמי"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "רגיל"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "אקספרס"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "סכום ביניים"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "הנחה (10% מעל 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "סה\"כ"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "הזמנה לפי לילות"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "תאריכי ההגעה והעזיבה נותנים את מספר הלילות ואת המחיר."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "בקשת הזמנה"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "הגעה"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "עזיבה"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "חדר"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "סטנדרט – 80 ללילה"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "סוויטה – 140 ללילה"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "לילות"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "מחיר"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "מחיר משלוח מטבלה של אזורים וגדלי חבילות."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "מחיר משלוח"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "אזור"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "אזור 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "אזור 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "אזור 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "חבילה"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "קטנה"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "בינונית"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "גדולה"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "מחירי משלוח"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "מחשבון BMI"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "מדד מסת גוף לפי גובה ומשקל."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "גובה (ס\"מ)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "משקל (ק\"ג)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "ה-BMI שלך"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "שליחה"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "מחשבון הלוואה"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "תשלום חודשי לפי סכום, ריבית ותקופה."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "סכום ההלוואה"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "ריבית שנתית (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "תקופה (חודשים)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "תשלום חודשי"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "דוא\"ל בדיקה"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "זהו דוא\"ל בדיקה. אם אפשר לקרוא אותו, שליחת הדוא\"ל עובדת."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "ההגדרות נשמרו."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "דוא\"ל הבדיקה נשלח אל %s. יש לבדוק את תיבת הדואר הנכנס ואת תיקיית הספאם."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "לא ניתן היה לשלוח את דוא\"ל הבדיקה."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "חברות אחסון רבות מוסרות את הודעות הדוא\"ל של WordPress באיחור או לספאם. שליחה דרך חשבון ה-SMTP של ספק הדוא\"ל שלך פותרת זאת, בלי תוסף SMTP נפרד."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "ההגדרות האלה משותפות ל-%s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s פעיל ומטפל בשליחת הדוא\"ל, ולכן ההגדרות האלה לא בשימוש."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "שליחת דוא\"ל דרך חשבון SMTP"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "רק הודעות הדוא\"ל של תוספי SmokySystems"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "כל הודעות הדוא\"ל של האתר הזה"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "שרת SMTP"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "פורט"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "הצפנה"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "ללא הצפנה"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "שם משתמש"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "סיסמה"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "הסיסמה מוגדרת בקובץ wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "שמורה סיסמה. אפשר להשאיר ריק כדי לשמור עליה."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "הסרת הסיסמה השמורה"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "דוא\"ל השולח"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "יש להשתמש בכתובת של חשבון ה-SMTP, אחרת ספקים רבים ידחו את ההודעה."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "שם השולח"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "שליחת דוא\"ל בדיקה"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – בונה טפסים בגרירה ושחרור עם חישובים"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "בונה טפסים בגרירה ושחרור עם חישובים בחינם. אפשר ליצור טופסי יצירת קשר, הצעות מחיר והזמנות וגם מחשבונים בלי לכתוב נוסחאות."

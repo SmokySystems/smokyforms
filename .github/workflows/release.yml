@@ -1,0 +1,43 @@
+name: Release
+
+# Builds the install zip on every push to main. When the version in smokyforms.php
+# has no GitHub release yet, it creates the tag and the release with the zip attached.
+# WordPress.org deployment is added once the plugin is approved in the directory.
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: smokyforms
+
+      - name: Read version
+        id: v
+        run: |
+          VERSION=$(grep -m1 -E '^[[:space:]]*\*?[[:space:]]*Version:' smokyforms/smokyforms.php | sed -E 's/.*Version:[[:space:]]*//' | tr -d '[:space:]')
+          test -n "$VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Build zip
+        run: |
+          zip -qr "smokyforms-${{ steps.v.outputs.version }}.zip" smokyforms -x 'smokyforms/tools/*' 'smokyforms/.git*' 'smokyforms/README.md' 'smokyforms/.github/*' 'smokyforms/.wordpress-org/*' '*/__pycache__/*'
+          unzip -l "smokyforms-${{ steps.v.outputs.version }}.zip" | tail -1
+
+      - name: Create release if this version has none
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v${{ steps.v.outputs.version }}"
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release $TAG already exists, nothing to do."
+          else
+            gh release create "$TAG" "smokyforms-${{ steps.v.outputs.version }}.zip" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "${{ steps.v.outputs.version }}" --generate-notes
+          fi

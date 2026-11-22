@@ -1,0 +1,325 @@
+055dcf|Izberite obrazec
+d359c6|Obrazec
+e0a02c|Še nimate obrazcev. Ustvarite ga v SmokyForms v skrbniškem meniju.
+28ab5c|Izberite obrazec, ki bo prikazan tukaj.
+a86405|Osnovna polja
+6ef697|Izbire
+5939b5|Posebna polja
+ebd9be|Postavitev
+f56462|če … potem … sicer
+7f7bde|if(pogoj, vrednost če drži, vrednost če ne drži)
+b7f41f|Zaokroži
+2e0e8d|round(vrednost, decimalna mesta)
+a3ab97|Najmanjša
+73fc19|min(a, b, …)
+f8c8f8|Največja
+8902cb|max(a, b, …)
+ecb62b|Dnevi med datumoma
+a6db34|days(začetni datum, končni datum)
+6ff145|Zaokroži navzdol
+c17f8d|Zaokroži navzgor
+99e006|Brez predznaka
+921c8e|Kvadratni koren
+1fe7e9|Prva izbira
+580834|Druga izbira
+c1dd36|Tretja izbira
+1bbdf1|Privolitev
+a816e9|Strinjam se, da to spletno mesto shranjuje in obdeluje moje podatke.
+7ef25f|Blok besedila
+3b4836|Naslov razdelka
+be5d5d|in
+e81c4e|ali
+35c798|Prazen blok besedila
+b0ebea|Še ni formule
+222a8b|Brez oznake
+a4f784|Kliknite ali povlecite polja s seznama na levi.
+85e07c|Polje: %s
+f77af7|Premakni gor
+dd9f0c|Premakni dol
+ed7571|Podvoji
+f2a6c4|Izbriši
+458b9d|Izbira
+38b2db|Vrednost v izračunih
+7a1920|Privzeto
+ceb473|Odstrani izbiro
+015d41|Izbira %d
+d02f3c|Dodaj izbiro
+c9739f|Vrednost je to, kar ta izbira šteje v izračunu, na primer njena cena. Pri potrditvenih poljih se vrednosti vseh označenih izbir seštejejo.
+d61d8d|Manjka polje: %s
+a1b32d|Kliknite polja in operatorje spodaj, da sestavite izračun.
+5de039|Sestavi s klikanjem
+878cdc|Napiši formulo
+1cdc07|Razveljavi
+dc30bc|Počisti
+a4ca5e|Polja
+443847|Najprej dodajte številska polja, polja z izbirami ali datume; pojavila se bodo tukaj.
+b3c582|Operatorji
+dd4fe0|Potenca
+8730cc|Ostanek
+e9b53a|Vejica (med vrednostmi funkcije)
+b2ee91|Število
+ca3aeb|Dodaj število
+229eb0|Pogoji
+e93acb|Funkcije
+9551cd|Cenik
+51c45b|Tabela
+9db33f|Vrstica glede na odgovor v
+7876f8|Stolpec glede na odgovor v
+38dded|Samo en stolpec
+2c4e05|Vstavi ceno
+313a6a|Formula
+d9f37b|Polja se pišejo kot {field_id}. Primer: {price} * {quantity} + 5
+c66f2e|Formula še ni popolna. Preverite oklepaje, vejice in operatorje.
+cc3a57|Formula je veljavna.
+5fd411|Preizkusi
+5aac38|Rezultat:
+1767e5|Izberite polje, da spremenite njegove nastavitve.
+010131|Naslov
+b021df|Oznaka
+b651ef|Obvezno
+6224e6|Besedilo pred izbiro
+68753d|Nadomestno besedilo
+31ce3c|Privzeta vrednost
+48c7c4|Korak
+56eb52|Besedilo ob potrditvenem polju
+58cf98|Povezave so dovoljene, na primer do vašega pravilnika o zasebnosti.
+9dffbf|Besedilo
+716124|Dovoljen je osnovni HTML.
+3ea4f7|Izračun
+b51e59|Pred rezultatom
+62cfd9|Na primer $
+5c6290|Za rezultatom
+d41a8c|Na primer € ali kg
+2b4178|Decimalna mesta
+e7c868|Prikaži rezultat v obrazcu
+16feb3|Izklopite za vmesni korak, ki ga uporabljajo samo drugi izračuni. Rezultat je vseeno v e-pošti.
+c10b7d|Besedilo pomoči
+329546|Širina
+24e61d|Polna širina
+e4bb63|Polovična širina
+42aa94|ID polja
+98fa53|Uporablja se v formulah kot {%1$s} in v e-pošti kot {field:%1$s}. Sprememba posodobi formule tega obrazca.
+08aeea|Cenik da vrednost za vsak odgovor ali za vsako kombinacijo dveh odgovorov (na primer cona in velikost paketa). Uporabite ga v izračunu z gumbom »Cenik«. Imena vrstic in stolpcev morajo biti napisana natanko kot izbire polj.
+49ee30|Ime
+6c3798|ID: %s
+c0dd3a|Vrstice iz izbir polja
+923419|Stolpci iz izbir polja
+710b83|Ime stolpca
+689202|Vrednost
+dbe735|Ime vrstice
+d8353e|Vrstica %d
+19f6e2|Dodaj vrstico
+7bce62|Stolpec %d
+b61b8f|Dodaj stolpec
+8b0629|Odstrani zadnjo vrstico
+99a139|Odstrani zadnji stolpec
+9c6803|Izbriši tabelo
+531553|Vrstica 1
+450423|Dodaj cenik
+1aefc6|Uporabite lahko:
+19002d|Odgovor enega polja
+0db377|Splošno
+111082|Besedilo gumba
+8da5e2|Sporočilo po pošiljanju
+f52ff0|Ali po pošiljanju pojdi na to stran
+aac08d|Pustite prazno, da se namesto tega prikaže sporočilo.
+291d69|CAPTCHA
+86dc8e|Zaščiti ta obrazec s CAPTCHA, nastavljeno v Nastavitvah.
+539ec8|CAPTCHA še ni nastavljena. Dodate jo lahko v SmokyForms > Nastavitve. Polje-past in preverjanje časa tako ali tako ščitita vsak obrazec.
+74b72d|Obvestilo za vas
+48ff32|SmokyForms ne shranjuje vnosov; vsak vnos vam pošlje po e-pošti. Če e-pošta ne uspe, se vnos ohrani v SmokyForms > Nedostavljeno.
+d245dd|Pošlji mi e-pošto za vsak vnos
+c973ca|Pošlji na
+61739f|Več naslovov ločite z vejicami.
+c7892e|Zadeva
+4c2a8f|Sporočilo
+8970db|Potrditev obiskovalcu
+71baeb|Pošlji obiskovalcu potrditveno e-pošto
+b6c0d5|Naslov iz polja
+7a2be4|Najprej v obrazec dodajte polje za e-pošto.
+45949d|Dodaj nov obrazec
+79fd79|Začnite z že pripravljenim ali praznim obrazcem. Vse predloge, vključno s kalkulatorji, so brezplačne.
+cc7b22|Obrazca ni bilo mogoče shraniti.
+21954b|Vsi obrazci
+00cd1f|Ime obrazca
+6feadb|Kratka koda
+eedf6b|Shranjevanje…
+4abf00|Shrani obrazec
+35cb6e|Ceniki
+f4f707|Nastavitve
+864bac|Dodajte ga na stran z blokom SmokyForms ali kratko kodo.
+604a9a|Imate neshranjene spremembe.
+6866cc|Ta obrazec ne obstaja.
+d50431|Neimenovan obrazec
+782d19|Obrazec je shranjen.
+84ad74|Uredi obrazec &lsaquo; %s
+2835b7|Za to nimate dovoljenja.
+39741d|Uredi obrazec
+a986be|Nalaganje graditelja obrazcev…
+6db07c|Graditelj obrazcev potrebuje JavaScript.
+c50eda|Nedostavljeno
+77c751|%s (kopija)
+645024|Obrazci
+cc06ee|Nastavitve SmokyForms
+cb7fd7|Pošiljanje e-pošte
+2932b4|Zaščita pred neželeno pošto
+ef7330|Vsak obrazec ima skrito polje-past in preverjanje časa. Dodatno lahko dodate CAPTCHA; uporablja se v vsakem obrazcu, kjer je vklopljena v nastavitvah obrazca.
+aac82e|Cloudflare Turnstile je brezplačen in obiskovalcem običajno ne postavlja ugank.
+f75d8f|Ključ spletnega mesta
+952bf8|Skrivni ključ
+6b2bed|Shranjeno. Pustite prazno, da ga obdržite.
+3827d8|Preverjanje časa
+783e8e|sekund
+615249|Obrazci, poslani hitreje od tega po nalaganju strani, veljajo za neželeno pošto. 0 izklopi preverjanje.
+4def17|Nedostavljena obvestila
+9f5630|SmokyForms ne shranjuje vnosov; pošiljajo se vam po e-pošti. Če obvestila ni mogoče poslati, se vnos ohrani, da se ne izgubi, in ga lahko znova pošljete v SmokyForms > Nedostavljeno.
+f24a17|Hrani
+44fdec|dni
+c89567|SmokyForms: %s vnosa vam ni bilo mogoče poslati po e-pošti. ¦ SmokyForms: %s vnosov vam ni bilo mogoče poslati po e-pošti. ¦ SmokyForms: %s vnosov vam ni bilo mogoče poslati po e-pošti. ¦ SmokyForms: %s vnosov vam ni bilo mogoče poslati po e-pošti.
+498f79|Prikaži
+effa85|Vnos je bil poslan in odstranjen s seznama.
+f9eafc|Vnosa še vedno ni mogoče poslati. Preverite nastavitve pošiljanja e-pošte.
+80da2c|Vnos je bil izbrisan.
+24c070|Nedostavljeni vnosi
+c0d482|Ti vnosi so prišli prek vaših obrazcev, vendar obvestilo po e-pošti ni uspelo. Hranijo se tukaj, da se ne izgubijo, in se samodejno izbrišejo po številu dni, nastavljenem v Nastavitvah.
+5a569c|Tukaj ni ničesar. Vsa obvestila so bila dostavljena.
+0426b1|Preverite nastavitve pošiljanja e-pošte
+ef546f|Izbrisan obrazec
+ccb168|Razlog:
+50ab1d|Pošlji znova
+50d0b5|Trajno izbrisati ta vnos?
+b21c60|Da, izbriši
+ccf88f|Potrdite, da niste robot.
+296449|Preverjanje robota ni uspelo. Poskusite znova.
+cd72d3|Enovrstično besedilo
+c5a5c5|Odstavek
+ce8ae9|E-pošta
+bcc254|Telefon
+15bbb9|Spletno mesto
+7498c4|Spustni seznam
+6893e5|Ena izbira
+c425f2|Potrditvena polja
+447497|Datum
+019003|Skrito polje
+00b768|Polje privolitve
+9303c9|To polje je obvezno.
+b5bccd|Vnesite veljaven e-poštni naslov.
+86062b|Vnesite veljaven spletni naslov.
+772407|Vnesite veljavno telefonsko številko.
+c2cb00|Vnesite število.
+69dfa7|Vnesite število, ki je vsaj %s.
+caf8d8|Vnesite število, ki je največ %s.
+773fcd|Vnesite veljaven datum.
+e3264a|Izberite eno od možnosti.
+93cba0|Da
+bafd73|Ne
+a6c2b9|Išči obrazce
+60caa9|Še ni obrazcev.
+6a1885|V košu ni obrazcev.
+a4d3b1|Pošlji
+279099|Hvala! Vaše sporočilo je bilo poslano.
+48b55f|Nov vnos: {form_title}
+81a012|Hvala za vaše sporočilo
+d93e6b|Pozdravljeni,\n\nhvala, ker ste nas kontaktirali. Vaše sporočilo smo prejeli in bomo kmalu odgovorili.\n\n{all_fields}
+1d6990|Vsi odgovori
+816667|Ime spletnega mesta
+e91f72|E-pošta skrbnika spletnega mesta
+2b0b7c|Datum in čas
+7012e0|Stran obrazca
+151dca|Spletno mesto ni moglo poslati e-pošte.
+6ac40c|SmokyForms: ta obrazec ne obstaja.
+7a4842|To polje pustite prazno
+28b263|Preverite obrazec in poskusite znova.
+3f6c9a|Izberite…
+4d01e8|Pošiljanje…
+f83b39|Obrazca ni bilo mogoče poslati. Poskusite znova.
+6adf97|Brez
+5bf1f6|Obrazca ni bilo mogoče preveriti. Znova naložite stran in poskusite znova.
+5934a3|To je bilo zelo hitro. Počakajte trenutek in obrazec pošljite znova.
+453e43|Preveč pošiljanj. Počakajte minuto in poskusite znova.
+57c955|Prazen obrazec
+dc8972|Začni s praznim obrazcem.
+c661cf|Kontaktni obrazec
+dabe9b|Ime, e-pošta, telefon in sporočilo.
+5d1cbd|Povpraševanje za ponudbo
+0269ab|Storitev, dodatki in površina dajo ocenjeno ceno.
+c2ba7e|Storitev
+9986c1|Osnovno čiščenje
+cc16d7|Temeljito čiščenje
+e285c9|Površina (m²)
+0a3f08|Dodatki
+aea234|Okna
+2623fa|Balkon
+482690|Pečica
+cebbfc|Ocenjena cena
+655157|Naročilnica
+3a11e0|Izdelki s količinami, dostava in popust nad določenim zneskom.
+70fc36|Izdelek A – 12.00 za kos
+6e18dd|Izdelek B – 18.50 za kos
+065ab3|Dostava
+9ae3c9|Osebni prevzem
+eb6d8a|Standardna
+b144fa|Hitra
+2194aa|Vmesni seštevek
+48909c|Popust (10 % nad 100)
+96b014|Skupaj
+6fb3df|Rezervacija z nočitvami
+80068a|Datuma prihoda in odhoda dasta število nočitev in ceno.
+83bb56|Povpraševanje za rezervacijo
+885b3c|Prihod
+5be0fa|Odhod
+cc3abc|Soba
+3bf8f2|Standard – 80 na noč
+3ac878|Apartma – 140 na noč
+e10758|Nočitve
+360114|Cena
+e6e2d9|Cena dostave iz tabele con in velikosti paketov.
+0ea6b9|Cena dostave
+b3ff99|Cona
+93b3d7|Cona 1
+ac4ff7|Cona 2
+c48837|Cona 3
+f38e90|Paket
+266006|Majhen
+87f8a6|Srednji
+3a69b3|Velik
+3e1c4b|Cene dostave
+348100|Kalkulator ITM
+d7659b|Indeks telesne mase iz višine in teže.
+20fbaa|Višina (cm)
+917216|Teža (kg)
+869598|Vaš ITM
+94966d|Pošlji
+f3cda5|Kreditni kalkulator
+cb8a5f|Mesečni obrok iz zneska, obrestne mere in roka.
+59efa4|Znesek kredita
+202d38|Letna obrestna mera (%)
+a92ac9|Rok (meseci)
+647bd0|Mesečni obrok
+d0bcd3|Preizkusna e-pošta
+a7498e|To je preizkusna e-pošta. Če jo lahko preberete, pošiljanje e-pošte deluje.
+9a7e58|Nastavitve so shranjene.
+a3fb23|Preizkusna e-pošta je bila poslana na %s. Preverite prejeto pošto in mapo z neželeno pošto.
+33de89|Preizkusne e-pošte ni bilo mogoče poslati.
+3a9486|Veliko gostiteljev dostavlja e-pošto WordPressa pozno ali med neželeno pošto. Pošiljanje prek SMTP računa vašega ponudnika e-pošte to reši brez ločenega vtičnika SMTP.
+05449a|Te nastavitve si deli %s.
+51e4ba|%s je aktiven in skrbi za pošiljanje e-pošte, zato se te nastavitve ne uporabljajo.
+c2239a|SMTP
+4d7db2|Pošiljaj e-pošto prek SMTP računa
+adac9e|Samo e-pošta vtičnikov SmokySystems
+f8f5e1|Vsa e-pošta tega spletnega mesta
+bdd48f|Strežnik SMTP
+60aaf4|Vrata
+d7f261|Šifriranje
+151adf|Brez šifriranja
+f6039d|Uporabniško ime
+dc647e|Geslo
+c6e6fb|Geslo je nastavljeno v datoteki wp-config.php.
+0b5899|Geslo je shranjeno. Pustite prazno, da ga obdržite.
+d7381f|Odstrani shranjeno geslo
+3b4d50|E-pošta pošiljatelja
+250019|Uporabite naslov SMTP računa, sicer mnogi ponudniki e-pošto zavrnejo.
+c3a7ea|Ime pošiljatelja
+ee1851|Pošlji preizkusno e-pošto
+7caa16|SmokyForms – Graditelj obrazcev s povleci in spusti ter izračuni
+9958f8|Graditelj obrazcev s povleci in spusti ter brezplačnimi izračuni. Ustvarite kontaktne obrazce, obrazce za ponudbe in naročila ter kalkulatorje brez pisanja formul.

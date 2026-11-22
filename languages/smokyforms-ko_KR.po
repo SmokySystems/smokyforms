@@ -1,0 +1,1349 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "양식 선택"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "양식"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "아직 양식이 없습니다. 관리자 메뉴의 SmokyForms에서 양식을 만드세요."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "여기에 표시할 양식을 선택하세요."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "기본 필드"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "선택 필드"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "특수 필드"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "레이아웃"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "만약 … 이면 … 아니면"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(조건, 참일 때 값, 거짓일 때 값)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "반올림"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(값, 소수 자릿수)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "최솟값"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "최댓값"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "날짜 사이 일수"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(시작일, 종료일)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "내림"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "올림"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "절댓값"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "제곱근"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "첫 번째 선택지"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "두 번째 선택지"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "세 번째 선택지"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "동의"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "이 웹사이트가 내 정보를 저장하고 처리하는 데 동의합니다."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "텍스트 블록"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "섹션 제목"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "그리고"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "또는"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "빈 텍스트 블록"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "아직 수식이 없습니다"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "레이블 없음"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "왼쪽 목록에서 필드를 클릭하거나 끌어다 놓으세요."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "필드: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "위로 이동"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "아래로 이동"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "복제"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "삭제"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "선택지"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "계산에 쓰이는 값"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "기본값"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "선택지 제거"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "선택지 %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "선택지 추가"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "값은 이 선택지가 계산에서 의미하는 숫자입니다(예: 가격). 체크박스는 선택된 모든 선택지의 값을 더합니다."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "없는 필드: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "아래의 필드와 연산자를 클릭해 계산을 만드세요."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "클릭으로 만들기"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "수식 직접 쓰기"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "실행 취소"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "지우기"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "필드"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "먼저 숫자, 선택 또는 날짜 필드를 추가하세요. 여기에 나타납니다."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "연산자"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "거듭제곱"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "나머지"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "쉼표 (함수의 값 사이)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "숫자"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "숫자 추가"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "조건"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "함수"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "가격표"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "표"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "행을 정할 필드"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "열을 정할 필드"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "열 하나만"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "가격 넣기"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "수식"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "필드는 {field_id} 형식으로 씁니다. 예: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "수식이 아직 완성되지 않았습니다. 괄호, 쉼표, 연산자를 확인하세요."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "수식이 올바릅니다."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "시험해 보기"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "결과:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "설정을 바꿀 필드를 선택하세요."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "제목"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "레이블"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "필수"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "선택 전에 보이는 문구"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "자리 표시자"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "기본값"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "간격"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "체크박스 옆 문구"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "링크를 넣을 수 있습니다(예: 개인정보 처리방침)."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "텍스트"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "기본 HTML을 쓸 수 있습니다."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "계산"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "결과 앞"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "예: $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "결과 뒤"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "예: 원 또는 kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "소수 자릿수"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "양식에 결과 표시"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "다른 계산에서만 쓰는 중간 단계라면 끄세요. 결과는 이메일에는 그대로 들어갑니다."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "도움말"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "너비"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "전체 너비"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "절반 너비"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "필드 ID"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "수식에서는 {%1$s}, 이메일에서는 {field:%1$s}로 씁니다. 바꾸면 이 양식의 수식도 함께 바뀝니다."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "가격표는 각 답변 또는 두 답변의 조합(예: 지역과 소포 크기)마다 값을 줍니다. 계산에서 \"가격표\"로 사용하세요. 행과 열 이름은 필드의 선택지와 정확히 같아야 합니다."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "이름"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "이 필드의 선택지로 행 만들기"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "이 필드의 선택지로 열 만들기"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "열 이름"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "값"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "행 이름"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "%d행"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "행 추가"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "%d열"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "열 추가"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "마지막 행 제거"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "마지막 열 제거"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "표 삭제"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "1행"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "가격표 추가"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "사용할 수 있는 태그:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "필드 하나의 답변"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "일반"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "버튼 문구"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "제출 후 메시지"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "또는 제출 후 이 페이지로 이동"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "비워 두면 메시지를 보여 줍니다."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "설정에서 구성한 CAPTCHA로 이 양식을 보호합니다."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "아직 CAPTCHA가 설정되지 않았습니다. SmokyForms > 설정에서 추가할 수 있습니다. 함정 필드와 시간 검사는 모든 양식을 항상 보호합니다."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "나에게 보내는 알림"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms는 제출 내용을 저장하지 않으며, 모든 제출 내용을 이메일로 보내 드립니다. 이메일 전송에 실패하면 제출 내용이 SmokyForms > 미전송에 보관됩니다."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "제출될 때마다 이메일 받기"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "받는 사람"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "여러 주소는 쉼표로 구분하세요."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "제목"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "내용"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "방문자 확인 메일"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "방문자에게 확인 이메일 보내기"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "주소를 가져올 필드"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "먼저 양식에 이메일 필드를 추가하세요."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "새 양식 추가"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "준비된 양식이나 빈 양식으로 시작하세요. 계산기를 포함한 모든 템플릿이 무료입니다."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "양식을 저장할 수 없습니다."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "모든 양식"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "양식 이름"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "숏코드"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "저장 중…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "양식 저장"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "가격표"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "설정"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "SmokyForms 블록이나 숏코드로 페이지에 추가하세요."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "저장하지 않은 변경 사항이 있습니다."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "이 양식은 존재하지 않습니다."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "제목 없는 양식"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "양식을 저장했습니다."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "양식 편집 &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "이 작업을 할 권한이 없습니다."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "양식 편집"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "양식 빌더를 불러오는 중…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "양식 빌더에는 JavaScript가 필요합니다."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "미전송"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (사본)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "양식"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyForms 설정"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "이메일 전송"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "스팸 방지"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "모든 양식에는 숨은 함정 필드와 시간 검사가 있습니다. 여기에 CAPTCHA를 더할 수 있으며, 양식 설정에서 켠 양식에서 사용됩니다."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile은 무료이며 대개 방문자에게 퍼즐을 요구하지 않습니다."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "사이트 키"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "비밀 키"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "저장됨. 유지하려면 비워 두세요."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "시간 검사"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "초"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "페이지가 열린 뒤 이보다 빨리 제출된 양식은 스팸으로 처리됩니다. 0이면 검사를 끕니다."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "전송되지 않은 알림"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms는 제출 내용을 저장하지 않고 이메일로 보내 드립니다. 알림 이메일을 보낼 수 없으면 제출 내용을 잃지 않도록 보관하며, SmokyForms > 미전송에서 다시 보낼 수 있습니다."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "보관 기간"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "일"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: 제출 내용 %s건을 이메일로 보내지 못했습니다."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "보기"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "제출 내용을 보냈고 목록에서 제거했습니다."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "제출 내용을 아직 보낼 수 없습니다. 이메일 전송 설정을 확인하세요."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "제출 내용을 삭제했습니다."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "전송되지 않은 제출 내용"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "양식으로 들어온 제출 내용이지만 알림 이메일을 보내지 못했습니다. 잃지 않도록 여기에 보관되며, 설정에서 정한 일수가 지나면 자동으로 삭제됩니다."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "여기에는 아무것도 없습니다. 모든 알림이 전송되었습니다."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "이메일 전송 설정 확인"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "삭제된 양식"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "사유:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "다시 보내기"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "이 제출 내용을 영구 삭제할까요?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "예, 삭제합니다"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "로봇이 아님을 확인해 주세요."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "로봇 확인에 실패했습니다. 다시 시도하세요."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "한 줄 텍스트"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "문단 텍스트"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "이메일"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "전화번호"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "웹사이트"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "드롭다운"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "단일 선택"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "체크박스"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "날짜"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "숨은 필드"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "동의 체크박스"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "필수 항목입니다."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "올바른 이메일 주소를 입력하세요."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "올바른 웹사이트 주소를 입력하세요."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "올바른 전화번호를 입력하세요."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "숫자를 입력하세요."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "%s 이상인 숫자를 입력하세요."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "%s 이하인 숫자를 입력하세요."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "올바른 날짜를 입력하세요."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "선택지 중 하나를 고르세요."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "예"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "아니요"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "양식 검색"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "아직 양식이 없습니다."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "휴지통에 양식이 없습니다."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "제출"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "감사합니다! 메시지가 전송되었습니다."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "새 제출: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "문의해 주셔서 감사합니다"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"안녕하세요.\n"
+"\n"
+"문의해 주셔서 감사합니다. 메시지를 잘 받았으며 곧 답변드리겠습니다.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "모든 답변"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "사이트 이름"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "사이트 관리자 이메일"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "날짜와 시간"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "양식이 있는 페이지"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "사이트에서 이메일을 보낼 수 없습니다."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: 이 양식은 존재하지 않습니다."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "이 필드는 비워 두세요"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "양식을 확인하고 다시 시도하세요."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "선택하세요…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "보내는 중…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "양식을 보낼 수 없습니다. 다시 시도하세요."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "없음"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "양식을 확인할 수 없습니다. 페이지를 새로 고친 뒤 다시 시도하세요."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "너무 빨리 제출했습니다. 잠시 기다린 뒤 다시 제출하세요."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "제출이 너무 많습니다. 1분 뒤 다시 시도하세요."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "빈 양식"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "빈 양식으로 시작합니다."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "문의 양식"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "이름, 이메일, 전화번호, 메시지."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "견적 요청"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "서비스, 추가 항목, 면적으로 예상 가격을 계산합니다."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "서비스"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "기본 청소"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "대청소"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "면적(m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "추가 항목"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "창문"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "발코니"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "오븐"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "예상 가격"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "주문 양식"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "수량이 있는 상품, 배송, 일정 금액 이상 할인."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "상품 A – 개당 12.00"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "상품 B – 개당 18.50"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "배송"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "매장 수령"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "일반"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "빠른 배송"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "소계"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "할인 (100 초과 시 10%)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "합계"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "숙박 일수 예약"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "도착일과 출발일로 숙박 일수와 요금을 계산합니다."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "예약 요청"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "도착일"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "출발일"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "객실"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "스탠다드 – 1박 80"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "스위트 – 1박 140"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "숙박 일수"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "요금"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "지역과 소포 크기 표로 배송비를 계산합니다."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "배송비"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "지역"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "지역 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "지역 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "지역 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "소포"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "소형"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "중형"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "대형"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "배송비 표"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "BMI 계산기"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "키와 몸무게로 체질량지수를 계산합니다."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "키(cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "몸무게(kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "내 BMI"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "보내기"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "대출 계산기"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "금액, 금리, 기간으로 월 상환액을 계산합니다."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "대출 금액"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "연 금리(%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "기간(개월)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "월 상환액"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "테스트 이메일"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "테스트 이메일입니다. 이 메일을 읽을 수 있다면 이메일 전송이 잘 되고 있습니다."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "설정을 저장했습니다."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "테스트 이메일을 %s(으)로 보냈습니다. 받은편지함과 스팸함을 확인하세요."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "테스트 이메일을 보낼 수 없습니다."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "많은 호스팅에서 WordPress 이메일이 늦게 도착하거나 스팸함으로 갑니다. 이메일 서비스의 SMTP 계정으로 보내면 별도의 SMTP 플러그인 없이 해결됩니다."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "이 설정은 다음 플러그인이 함께 씁니다: %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s이(가) 활성화되어 이메일 전송을 맡고 있으므로 이 설정은 쓰이지 않습니다."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "SMTP 계정으로 이메일 보내기"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "SmokySystems 플러그인의 이메일만"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "이 사이트의 모든 이메일"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP 서버"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "포트"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "암호화"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "암호화 없음"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "사용자 이름"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "비밀번호"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "비밀번호가 wp-config.php에 설정되어 있습니다."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "저장된 비밀번호가 있습니다. 유지하려면 비워 두세요."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "저장된 비밀번호 제거"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "보내는 사람 이메일"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "SMTP 계정의 주소를 쓰세요. 그렇지 않으면 많은 서비스가 이메일을 거부합니다."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "보내는 사람 이름"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "테스트 이메일 보내기"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – 계산 기능이 있는 드래그 앤 드롭 양식 빌더"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "계산 기능을 무료로 쓰는 드래그 앤 드롭 양식 빌더. 수식을 쓰지 않고도 문의, 견적, 주문 양식과 계산기를 만드세요."

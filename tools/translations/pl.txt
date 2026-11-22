@@ -1,0 +1,325 @@
+055dcf|Wybierz formularz
+d359c6|Formularz
+e0a02c|Nie masz jeszcze formularzy. Utwórz formularz w SmokyForms w menu administracyjnym.
+28ab5c|Wybierz formularz, który ma się tu wyświetlać.
+a86405|Pola podstawowe
+6ef697|Wybór
+5939b5|Pola specjalne
+ebd9be|Układ
+f56462|jeżeli … to … w przeciwnym razie
+7f7bde|if(warunek, wartość gdy prawda, wartość gdy fałsz)
+b7f41f|Zaokrąglij
+2e0e8d|round(wartość, miejsca po przecinku)
+a3ab97|Najmniejsza
+73fc19|min(a, b, …)
+f8c8f8|Największa
+8902cb|max(a, b, …)
+ecb62b|Dni między datami
+a6db34|days(data początkowa, data końcowa)
+6ff145|Zaokrąglij w dół
+c17f8d|Zaokrąglij w górę
+99e006|Bez znaku
+921c8e|Pierwiastek kwadratowy
+1fe7e9|Pierwsza opcja
+580834|Druga opcja
+c1dd36|Trzecia opcja
+1bbdf1|Zgoda
+a816e9|Wyrażam zgodę na przechowywanie i przetwarzanie moich danych przez tę stronę.
+7ef25f|Blok tekstu
+3b4836|Nagłówek sekcji
+be5d5d|i
+e81c4e|lub
+35c798|Pusty blok tekstu
+b0ebea|Brak formuły
+222a8b|Brak etykiety
+a4f784|Kliknij pola na liście po lewej lub je przeciągnij.
+85e07c|Pole: %s
+f77af7|Przesuń w górę
+dd9f0c|Przesuń w dół
+ed7571|Duplikuj
+f2a6c4|Usuń
+458b9d|Opcja
+38b2db|Wartość w obliczeniach
+7a1920|Domyślna
+ceb473|Usuń opcję
+015d41|Opcja %d
+d02f3c|Dodaj opcję
+c9739f|Wartość to to, ile ta opcja liczy się w obliczeniu, na przykład jej cena. W polach wyboru wartości wszystkich zaznaczonych opcji są sumowane.
+d61d8d|Brakujące pole: %s
+a1b32d|Klikaj pola i operatory poniżej, aby zbudować obliczenie.
+5de039|Buduj klikając
+878cdc|Wpisz formułę
+1cdc07|Cofnij
+dc30bc|Wyczyść
+a4ca5e|Pola
+443847|Najpierw dodaj pola liczbowe, wyboru lub daty; pojawią się tutaj.
+b3c582|Operatory
+dd4fe0|Potęga
+8730cc|Reszta
+e9b53a|Przecinek (między wartościami funkcji)
+b2ee91|Liczba
+ca3aeb|Dodaj liczbę
+229eb0|Warunki
+e93acb|Funkcje
+9551cd|Tabela cen
+51c45b|Tabela
+9db33f|Wiersz według odpowiedzi z
+7876f8|Kolumna według odpowiedzi z
+38dded|Tylko jedna kolumna
+2c4e05|Wstaw cenę
+313a6a|Formuła
+d9f37b|Pola zapisuje się jako {field_id}. Przykład: {price} * {quantity} + 5
+c66f2e|Formuła nie jest jeszcze kompletna. Sprawdź nawiasy, przecinki i operatory.
+cc3a57|Formuła jest poprawna.
+5fd411|Wypróbuj
+5aac38|Wynik:
+1767e5|Wybierz pole, aby zmienić jego ustawienia.
+010131|Nagłówek
+b021df|Etykieta
+b651ef|Wymagane
+6224e6|Tekst przed wyborem
+68753d|Tekst zastępczy
+31ce3c|Wartość domyślna
+48c7c4|Krok
+56eb52|Tekst obok pola wyboru
+58cf98|Linki są dozwolone, na przykład do polityki prywatności.
+9dffbf|Tekst
+716124|Dozwolony jest prosty HTML.
+3ea4f7|Obliczenie
+b51e59|Przed wynikiem
+62cfd9|Na przykład $
+5c6290|Po wyniku
+d41a8c|Na przykład € lub kg
+2b4178|Miejsca po przecinku
+e7c868|Pokaż wynik w formularzu
+16feb3|Wyłącz dla kroku pośredniego używanego tylko przez inne obliczenia. Wynik i tak jest w e-mailu.
+c10b7d|Tekst pomocy
+329546|Szerokość
+24e61d|Pełna szerokość
+e4bb63|Połowa szerokości
+42aa94|ID pola
+98fa53|Używane w formułach jako {%1$s} i w e-mailach jako {field:%1$s}. Zmiana aktualizuje formuły tego formularza.
+08aeea|Tabela cen podaje wartość dla każdej odpowiedzi albo dla każdej kombinacji dwóch odpowiedzi (na przykład strefy i rozmiaru paczki). Użyj jej w obliczeniu przez „Tabela cen”. Nazwy wierszy i kolumn muszą być zapisane dokładnie tak jak opcje pól.
+49ee30|Nazwa
+6c3798|ID: %s
+c0dd3a|Wiersze z opcji pola
+923419|Kolumny z opcji pola
+710b83|Nazwa kolumny
+689202|Wartość
+dbe735|Nazwa wiersza
+d8353e|Wiersz %d
+19f6e2|Dodaj wiersz
+7bce62|Kolumna %d
+b61b8f|Dodaj kolumnę
+8b0629|Usuń ostatni wiersz
+99a139|Usuń ostatnią kolumnę
+9c6803|Usuń tabelę
+531553|Wiersz 1
+450423|Dodaj tabelę cen
+1aefc6|Możesz użyć:
+19002d|Odpowiedź z jednego pola
+0db377|Ogólne
+111082|Tekst przycisku
+8da5e2|Komunikat po wysłaniu
+f52ff0|Lub przejdź na tę stronę po wysłaniu
+aac08d|Zostaw puste, aby zamiast tego pokazać komunikat.
+291d69|CAPTCHA
+86dc8e|Chroń ten formularz za pomocą CAPTCHA skonfigurowanej w Ustawieniach.
+539ec8|Nie skonfigurowano jeszcze CAPTCHA. Możesz ją dodać w SmokyForms > Ustawienia. Pole-pułapka i kontrola czasu i tak chronią każdy formularz.
+74b72d|Powiadomienie dla Ciebie
+48ff32|SmokyForms nie przechowuje zgłoszeń; każde zgłoszenie jest wysyłane do Ciebie e-mailem. Jeśli e-mail się nie powiedzie, zgłoszenie jest zachowywane w SmokyForms > Niedostarczone.
+d245dd|Wysyłaj mi e-mail przy każdym zgłoszeniu
+c973ca|Wyślij do
+61739f|Oddziel kilka adresów przecinkami.
+c7892e|Temat
+4c2a8f|Wiadomość
+8970db|Potwierdzenie dla odwiedzającego
+71baeb|Wyślij odwiedzającemu e-mail z potwierdzeniem
+b6c0d5|Adres z pola
+7a2be4|Najpierw dodaj do formularza pole e-mail.
+45949d|Dodaj nowy formularz
+79fd79|Zacznij od gotowego lub pustego formularza. Wszystkie szablony, łącznie z kalkulatorami, są bezpłatne.
+cc7b22|Nie udało się zapisać formularza.
+21954b|Wszystkie formularze
+00cd1f|Nazwa formularza
+6feadb|Krótki kod
+eedf6b|Zapisywanie…
+4abf00|Zapisz formularz
+35cb6e|Tabele cen
+f4f707|Ustawienia
+864bac|Dodaj go do strony za pomocą bloku SmokyForms lub krótkiego kodu.
+604a9a|Masz niezapisane zmiany.
+6866cc|Ten formularz nie istnieje.
+d50431|Formularz bez nazwy
+782d19|Formularz zapisany.
+84ad74|Edytuj formularz &lsaquo; %s
+2835b7|Nie masz uprawnień do tej czynności.
+39741d|Edytuj formularz
+a986be|Ładowanie kreatora formularzy…
+6db07c|Kreator formularzy wymaga JavaScriptu.
+c50eda|Niedostarczone
+77c751|%s (kopia)
+645024|Formularze
+cc06ee|Ustawienia SmokyForms
+cb7fd7|Wysyłanie e-maili
+2932b4|Ochrona przed spamem
+ef7330|Każdy formularz ma ukryte pole-pułapkę i kontrolę czasu. Dodatkowo możesz użyć CAPTCHA; działa w każdym formularzu, w którym jest włączona w ustawieniach formularza.
+aac82e|Cloudflare Turnstile jest bezpłatny i zwykle nie wymaga od odwiedzających rozwiązywania łamigłówek.
+f75d8f|Klucz witryny
+952bf8|Klucz tajny
+6b2bed|Zapisany. Zostaw puste, aby go zachować.
+3827d8|Kontrola czasu
+783e8e|sekund
+615249|Formularze wysłane szybciej niż ten czas od załadowania strony są traktowane jako spam. 0 wyłącza kontrolę.
+4def17|Niedostarczone powiadomienia
+9f5630|SmokyForms nie przechowuje zgłoszeń; są wysyłane do Ciebie e-mailem. Gdy e-mail z powiadomieniem nie może zostać wysłany, zgłoszenie jest zachowywane, aby nie przepadło, i możesz je wysłać ponownie w SmokyForms > Niedostarczone.
+f24a17|Przechowuj przez
+44fdec|dni
+c89567|SmokyForms: %s zgłoszenia nie udało się wysłać do Ciebie e-mailem. ¦ SmokyForms: %s zgłoszeń nie udało się wysłać do Ciebie e-mailem. ¦ SmokyForms: %s zgłoszeń nie udało się wysłać do Ciebie e-mailem.
+498f79|Pokaż
+effa85|Zgłoszenie zostało wysłane i usunięte z tej listy.
+f9eafc|Nadal nie udało się wysłać zgłoszenia. Sprawdź ustawienia wysyłania e-maili.
+80da2c|Zgłoszenie zostało usunięte.
+24c070|Niedostarczone zgłoszenia
+c0d482|Te zgłoszenia przyszły przez Twoje formularze, ale e-mail z powiadomieniem do Ciebie się nie powiódł. Są przechowywane tutaj, aby nie przepadły, i usuwane automatycznie po liczbie dni ustawionej w Ustawieniach.
+5a569c|Nic tu nie ma. Wszystkie powiadomienia zostały dostarczone.
+0426b1|Sprawdź ustawienia wysyłania e-maili
+ef546f|Usunięty formularz
+ccb168|Powód:
+50ab1d|Wyślij ponownie
+50d0b5|Usunąć to zgłoszenie na zawsze?
+b21c60|Tak, usuń
+ccf88f|Potwierdź, że nie jesteś robotem.
+296449|Weryfikacja antyrobotowa nie powiodła się. Spróbuj ponownie.
+cd72d3|Tekst jednowierszowy
+c5a5c5|Akapit
+ce8ae9|E-mail
+bcc254|Telefon
+15bbb9|Strona internetowa
+7498c4|Lista rozwijana
+6893e5|Jednokrotny wybór
+c425f2|Pola wyboru
+447497|Data
+019003|Ukryte pole
+00b768|Pole zgody
+9303c9|To pole jest wymagane.
+b5bccd|Podaj poprawny adres e-mail.
+86062b|Podaj poprawny adres strony.
+772407|Podaj poprawny numer telefonu.
+c2cb00|Podaj liczbę.
+69dfa7|Podaj liczbę co najmniej %s.
+caf8d8|Podaj liczbę co najwyżej %s.
+773fcd|Podaj poprawną datę.
+e3264a|Wybierz jedną z opcji.
+93cba0|Tak
+bafd73|Nie
+a6c2b9|Szukaj formularzy
+60caa9|Brak formularzy.
+6a1885|Brak formularzy w koszu.
+a4d3b1|Wyślij
+279099|Dziękujemy! Twoja wiadomość została wysłana.
+48b55f|Nowe zgłoszenie: {form_title}
+81a012|Dziękujemy za wiadomość
+d93e6b|Dzień dobry,\n\ndziękujemy za kontakt. Otrzymaliśmy Twoją wiadomość i wkrótce odpowiemy.\n\n{all_fields}
+1d6990|Wszystkie odpowiedzi
+816667|Nazwa witryny
+e91f72|E-mail administratora witryny
+2b0b7c|Data i godzina
+7012e0|Strona formularza
+151dca|Witryna nie mogła wysłać e-maila.
+6ac40c|SmokyForms: ten formularz nie istnieje.
+7a4842|Zostaw to pole puste
+28b263|Sprawdź formularz i spróbuj ponownie.
+3f6c9a|Wybierz…
+4d01e8|Wysyłanie…
+f83b39|Nie udało się wysłać formularza. Spróbuj ponownie.
+6adf97|Brak
+5bf1f6|Nie udało się sprawdzić formularza. Odśwież stronę i spróbuj ponownie.
+5934a3|To było bardzo szybko. Poczekaj chwilę i wyślij formularz ponownie.
+453e43|Zbyt wiele zgłoszeń. Poczekaj minutę i spróbuj ponownie.
+57c955|Pusty formularz
+dc8972|Zacznij od pustego formularza.
+c661cf|Formularz kontaktowy
+dabe9b|Imię, e-mail, telefon i wiadomość.
+5d1cbd|Zapytanie o wycenę
+0269ab|Usługa, dodatki i powierzchnia dają szacunkową cenę.
+c2ba7e|Usługa
+9986c1|Sprzątanie podstawowe
+cc16d7|Sprzątanie gruntowne
+e285c9|Powierzchnia (m²)
+0a3f08|Dodatki
+aea234|Okna
+2623fa|Balkon
+482690|Piekarnik
+cebbfc|Szacunkowa cena
+655157|Formularz zamówienia
+3a11e0|Produkty z ilościami, dostawa i rabat powyżej kwoty.
+70fc36|Produkt A – 12.00 za szt.
+6e18dd|Produkt B – 18.50 za szt.
+065ab3|Dostawa
+9ae3c9|Odbiór osobisty
+eb6d8a|Standardowa
+b144fa|Ekspresowa
+2194aa|Suma częściowa
+48909c|Rabat (10% powyżej 100)
+96b014|Razem
+6fb3df|Rezerwacja na noce
+80068a|Daty przyjazdu i wyjazdu dają liczbę nocy i cenę.
+83bb56|Zapytanie o rezerwację
+885b3c|Przyjazd
+5be0fa|Wyjazd
+cc3abc|Pokój
+3bf8f2|Standard – 80 za noc
+3ac878|Apartament – 140 za noc
+e10758|Noce
+360114|Cena
+e6e2d9|Koszt wysyłki z tabeli stref i rozmiarów paczek.
+0ea6b9|Koszt wysyłki
+b3ff99|Strefa
+93b3d7|Strefa 1
+ac4ff7|Strefa 2
+c48837|Strefa 3
+f38e90|Paczka
+266006|Mała
+87f8a6|Średnia
+3a69b3|Duża
+3e1c4b|Cennik wysyłki
+348100|Kalkulator BMI
+d7659b|Wskaźnik masy ciała na podstawie wzrostu i wagi.
+20fbaa|Wzrost (cm)
+917216|Waga (kg)
+869598|Twoje BMI
+94966d|Wyślij
+f3cda5|Kalkulator kredytowy
+cb8a5f|Miesięczna rata na podstawie kwoty, oprocentowania i okresu.
+59efa4|Kwota kredytu
+202d38|Roczne oprocentowanie (%)
+a92ac9|Okres (miesiące)
+647bd0|Miesięczna rata
+d0bcd3|E-mail testowy
+a7498e|To jest e-mail testowy. Jeśli możesz go przeczytać, wysyłanie e-maili działa.
+9a7e58|Ustawienia zapisane.
+a3fb23|E-mail testowy został wysłany na adres %s. Sprawdź skrzynkę odbiorczą i folder spam.
+33de89|Nie udało się wysłać e-maila testowego.
+3a9486|Wielu dostawców hostingu dostarcza e-maile WordPressa z opóźnieniem lub do spamu. Wysyłanie ich przez konto SMTP Twojego dostawcy poczty rozwiązuje ten problem bez osobnej wtyczki SMTP.
+05449a|Te ustawienia są wspólne dla %s.
+51e4ba|%s jest aktywny i obsługuje wysyłanie e-maili, więc te ustawienia nie są używane.
+c2239a|SMTP
+4d7db2|Wysyłaj e-maile przez konto SMTP
+adac9e|Tylko e-maile wtyczek SmokySystems
+f8f5e1|Wszystkie e-maile tej witryny
+bdd48f|Serwer SMTP
+60aaf4|Port
+d7f261|Szyfrowanie
+151adf|Bez szyfrowania
+f6039d|Nazwa użytkownika
+dc647e|Hasło
+c6e6fb|Hasło jest ustawione w wp-config.php.
+0b5899|Hasło jest zapisane. Zostaw puste, aby je zachować.
+d7381f|Usuń zapisane hasło
+3b4d50|E-mail nadawcy
+250019|Użyj adresu z konta SMTP, w przeciwnym razie wielu dostawców odrzuci e-mail.
+c3a7ea|Nazwa nadawcy
+ee1851|Wyślij e-mail testowy
+7caa16|SmokyForms – Kreator formularzy „przeciągnij i upuść” z obliczeniami
+9958f8|Kreator formularzy „przeciągnij i upuść” z bezpłatnymi obliczeniami. Twórz formularze kontaktowe, wyceny i zamówień oraz kalkulatory bez pisania formuł.

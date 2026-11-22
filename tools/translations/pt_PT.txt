@@ -1,0 +1,325 @@
+055dcf|Escolha um formulário
+d359c6|Formulário
+e0a02c|Ainda não tem formulários. Crie um em SmokyForms, no menu de administração.
+28ab5c|Escolha o formulário a mostrar aqui.
+a86405|Campos básicos
+6ef697|Opções
+5939b5|Campos especiais
+ebd9be|Esquema
+f56462|se … então … senão
+7f7bde|if(condição, valor se verdadeiro, valor se falso)
+b7f41f|Arredondar
+2e0e8d|round(valor, casas decimais)
+a3ab97|Menor
+73fc19|min(a, b, …)
+f8c8f8|Maior
+8902cb|max(a, b, …)
+ecb62b|Dias entre datas
+a6db34|days(data inicial, data final)
+6ff145|Arredondar para baixo
+c17f8d|Arredondar para cima
+99e006|Sem sinal
+921c8e|Raiz quadrada
+1fe7e9|Primeira opção
+580834|Segunda opção
+c1dd36|Terceira opção
+1bbdf1|Consentimento
+a816e9|Aceito o armazenamento e o tratamento dos meus dados por este site.
+7ef25f|Bloco de texto
+3b4836|Título de secção
+be5d5d|e
+e81c4e|ou
+35c798|Bloco de texto vazio
+b0ebea|Ainda sem fórmula
+222a8b|Sem etiqueta
+a4f784|Clique nos campos da lista à esquerda ou arraste-os.
+85e07c|Campo: %s
+f77af7|Mover para cima
+dd9f0c|Mover para baixo
+ed7571|Duplicar
+f2a6c4|Eliminar
+458b9d|Opção
+38b2db|Valor nos cálculos
+7a1920|Predefinida
+ceb473|Remover opção
+015d41|Opção %d
+d02f3c|Adicionar opção
+c9739f|O valor é o que esta opção conta num cálculo, por exemplo o seu preço. Nas caixas de verificação, somam-se os valores de todas as opções assinaladas.
+d61d8d|Campo em falta: %s
+a1b32d|Clique nos campos e operadores abaixo para construir o cálculo.
+5de039|Construir com cliques
+878cdc|Escrever a fórmula
+1cdc07|Anular
+dc30bc|Limpar
+a4ca5e|Campos
+443847|Adicione primeiro campos de número, de opção ou de data; aparecem aqui.
+b3c582|Operadores
+dd4fe0|Potência
+8730cc|Resto
+e9b53a|Vírgula (entre os valores de uma função)
+b2ee91|Número
+ca3aeb|Adicionar número
+229eb0|Condições
+e93acb|Funções
+9551cd|Tabela de preços
+51c45b|Tabela
+9db33f|Linha segundo a resposta de
+7876f8|Coluna segundo a resposta de
+38dded|Apenas uma coluna
+2c4e05|Inserir preço
+313a6a|Fórmula
+d9f37b|Os campos escrevem-se como {field_id}. Exemplo: {price} * {quantity} + 5
+c66f2e|A fórmula ainda não está completa. Verifique parênteses, vírgulas e operadores.
+cc3a57|A fórmula é válida.
+5fd411|Experimentar
+5aac38|Resultado:
+1767e5|Selecione um campo para alterar as suas definições.
+010131|Título
+b021df|Etiqueta
+b651ef|Obrigatório
+6224e6|Texto antes da escolha
+68753d|Texto de exemplo
+31ce3c|Valor predefinido
+48c7c4|Incremento
+56eb52|Texto ao lado da caixa
+58cf98|São permitidas ligações, por exemplo para a sua política de privacidade.
+9dffbf|Texto
+716124|É permitido HTML básico.
+3ea4f7|Cálculo
+b51e59|Antes do resultado
+62cfd9|Por exemplo $
+5c6290|Depois do resultado
+d41a8c|Por exemplo € ou kg
+2b4178|Casas decimais
+e7c868|Mostrar o resultado no formulário
+16feb3|Desative para um passo intermédio usado apenas por outros cálculos. O resultado continua no email.
+c10b7d|Texto de ajuda
+329546|Largura
+24e61d|Largura total
+e4bb63|Meia largura
+42aa94|ID do campo
+98fa53|Usado nas fórmulas como {%1$s} e nos emails como {field:%1$s}. Alterá-lo atualiza as fórmulas deste formulário.
+08aeea|Uma tabela de preços dá um valor para cada resposta, ou para cada combinação de duas respostas (por exemplo zona e tamanho da encomenda). Use-a num cálculo com «Tabela de preços». Os nomes das linhas e colunas têm de ser escritos exatamente como as opções dos campos.
+49ee30|Nome
+6c3798|ID: %s
+c0dd3a|Linhas a partir das opções de
+923419|Colunas a partir das opções de
+710b83|Nome da coluna
+689202|Valor
+dbe735|Nome da linha
+d8353e|Linha %d
+19f6e2|Adicionar linha
+7bce62|Coluna %d
+b61b8f|Adicionar coluna
+8b0629|Remover a última linha
+99a139|Remover a última coluna
+9c6803|Eliminar tabela
+531553|Linha 1
+450423|Adicionar tabela de preços
+1aefc6|Pode usar:
+19002d|Resposta de um campo
+0db377|Geral
+111082|Texto do botão
+8da5e2|Mensagem após o envio
+f52ff0|Ou ir para esta página após o envio
+aac08d|Deixe em branco para mostrar a mensagem.
+291d69|CAPTCHA
+86dc8e|Proteger este formulário com o CAPTCHA configurado nas Definições.
+539ec8|Ainda não há nenhum CAPTCHA configurado. Pode adicionar um em SmokyForms > Definições. O campo armadilha e o controlo de tempo protegem sempre todos os formulários.
+74b72d|Notificação para si
+48ff32|O SmokyForms não guarda as entradas; cada entrada é-lhe enviada por email. Se o email falhar, a entrada fica guardada em SmokyForms > Não entregues.
+d245dd|Enviar-me um email por cada entrada
+c973ca|Enviar para
+61739f|Separe vários endereços com vírgulas.
+c7892e|Assunto
+4c2a8f|Mensagem
+8970db|Confirmação ao visitante
+71baeb|Enviar ao visitante um email de confirmação
+b6c0d5|Endereço do campo
+7a2be4|Adicione primeiro um campo de email ao formulário.
+45949d|Adicionar novo formulário
+79fd79|Comece com um formulário pronto ou com um vazio. Todos os modelos, calculadoras incluídas, são gratuitos.
+cc7b22|Não foi possível guardar o formulário.
+21954b|Todos os formulários
+00cd1f|Nome do formulário
+6feadb|Código curto
+eedf6b|A guardar…
+4abf00|Guardar formulário
+35cb6e|Tabelas de preços
+f4f707|Definições
+864bac|Adicione-o a uma página com o bloco SmokyForms ou com o código curto.
+604a9a|Tem alterações por guardar.
+6866cc|Este formulário não existe.
+d50431|Formulário sem título
+782d19|Formulário guardado.
+84ad74|Editar formulário &lsaquo; %s
+2835b7|Não tem permissão para fazer isto.
+39741d|Editar formulário
+a986be|A carregar o criador de formulários…
+6db07c|O criador de formulários precisa de JavaScript.
+c50eda|Não entregues
+77c751|%s (cópia)
+645024|Formulários
+cc06ee|Definições do SmokyForms
+cb7fd7|Envio de emails
+2932b4|Proteção contra spam
+ef7330|Cada formulário tem um campo armadilha oculto e um controlo de tempo. Pode adicionar ainda um CAPTCHA; é usado em todos os formulários onde estiver ativado nas definições do formulário.
+aac82e|O Cloudflare Turnstile é gratuito e normalmente não pede quebra-cabeças aos seus visitantes.
+f75d8f|Chave do site
+952bf8|Chave secreta
+6b2bed|Guardada. Deixe em branco para a manter.
+3827d8|Controlo de tempo
+783e8e|segundos
+615249|Os formulários enviados mais depressa do que isto após o carregamento da página são tratados como spam. 0 desativa o controlo.
+4def17|Notificações não entregues
+9f5630|O SmokyForms não guarda as entradas; são-lhe enviadas por email. Quando um email de notificação não pode ser enviado, a entrada é guardada para não se perder e pode reenviá-la em SmokyForms > Não entregues.
+f24a17|Guardar durante
+44fdec|dias
+c89567|SmokyForms: %s entrada não pôde ser-lhe enviada por email. ¦ SmokyForms: %s entradas não puderam ser-lhe enviadas por email.
+498f79|Mostrar
+effa85|A entrada foi enviada e removida desta lista.
+f9eafc|A entrada continua sem poder ser enviada. Verifique as definições de envio de emails.
+80da2c|A entrada foi eliminada.
+24c070|Entradas não entregues
+c0d482|Estas entradas chegaram através dos seus formulários, mas o email de notificação falhou. São guardadas aqui para não se perderem e eliminadas automaticamente após o número de dias definido nas Definições.
+5a569c|Nada aqui. Todas as notificações foram entregues.
+0426b1|Verificar as definições de envio de emails
+ef546f|Formulário eliminado
+ccb168|Motivo:
+50ab1d|Enviar novamente
+50d0b5|Eliminar esta entrada definitivamente?
+b21c60|Sim, eliminar
+ccf88f|Confirme que não é um robô.
+296449|A verificação anti-robô falhou. Tente novamente.
+cd72d3|Texto de uma linha
+c5a5c5|Parágrafo
+ce8ae9|Email
+bcc254|Telefone
+15bbb9|Site
+7498c4|Lista pendente
+6893e5|Escolha única
+c425f2|Caixas de verificação
+447497|Data
+019003|Campo oculto
+00b768|Caixa de consentimento
+9303c9|Este campo é obrigatório.
+b5bccd|Introduza um endereço de email válido.
+86062b|Introduza um endereço de site válido.
+772407|Introduza um número de telefone válido.
+c2cb00|Introduza um número.
+69dfa7|Introduza um número de pelo menos %s.
+caf8d8|Introduza um número de no máximo %s.
+773fcd|Introduza uma data válida.
+e3264a|Escolha uma das opções.
+93cba0|Sim
+bafd73|Não
+a6c2b9|Pesquisar formulários
+60caa9|Ainda não há formulários.
+6a1885|Não há formulários no lixo.
+a4d3b1|Enviar
+279099|Obrigado! A sua mensagem foi enviada.
+48b55f|Nova entrada: {form_title}
+81a012|Obrigado pela sua mensagem
+d93e6b|Olá,\n\nobrigado pelo seu contacto. Recebemos a sua mensagem e responderemos em breve.\n\n{all_fields}
+1d6990|Todas as respostas
+816667|Nome do site
+e91f72|Email do administrador do site
+2b0b7c|Data e hora
+7012e0|Página do formulário
+151dca|O site não conseguiu enviar o email.
+6ac40c|SmokyForms: este formulário não existe.
+7a4842|Deixe este campo em branco
+28b263|Verifique o formulário e tente novamente.
+3f6c9a|Escolha…
+4d01e8|A enviar…
+f83b39|Não foi possível enviar o formulário. Tente novamente.
+6adf97|Nenhum
+5bf1f6|Não foi possível verificar o formulário. Recarregue a página e tente novamente.
+5934a3|Foi muito rápido. Aguarde um momento e envie o formulário novamente.
+453e43|Demasiados envios. Aguarde um minuto e tente novamente.
+57c955|Formulário vazio
+dc8972|Começar com um formulário vazio.
+c661cf|Formulário de contacto
+dabe9b|Nome, email, telefone e mensagem.
+5d1cbd|Pedido de orçamento
+0269ab|O serviço, os extras e a área dão um preço estimado.
+c2ba7e|Serviço
+9986c1|Limpeza básica
+cc16d7|Limpeza a fundo
+e285c9|Área (m²)
+0a3f08|Extras
+aea234|Janelas
+2623fa|Varanda
+482690|Forno
+cebbfc|Preço estimado
+655157|Formulário de encomenda
+3a11e0|Produtos com quantidades, entrega e desconto acima de um montante.
+70fc36|Produto A – 12.00 cada
+6e18dd|Produto B – 18.50 cada
+065ab3|Entrega
+9ae3c9|Levantamento
+eb6d8a|Normal
+b144fa|Expresso
+2194aa|Subtotal
+48909c|Desconto (10% acima de 100)
+96b014|Total
+6fb3df|Reserva por noites
+80068a|As datas de chegada e partida dão o número de noites e o preço.
+83bb56|Pedido de reserva
+885b3c|Chegada
+5be0fa|Partida
+cc3abc|Quarto
+3bf8f2|Normal – 80 por noite
+3ac878|Suite – 140 por noite
+e10758|Noites
+360114|Preço
+e6e2d9|Portes de envio a partir de uma tabela de zonas e tamanhos de encomenda.
+0ea6b9|Portes de envio
+b3ff99|Zona
+93b3d7|Zona 1
+ac4ff7|Zona 2
+c48837|Zona 3
+f38e90|Encomenda
+266006|Pequena
+87f8a6|Média
+3a69b3|Grande
+3e1c4b|Tabela de portes
+348100|Calculadora de IMC
+d7659b|Índice de massa corporal a partir da altura e do peso.
+20fbaa|Altura (cm)
+917216|Peso (kg)
+869598|O seu IMC
+94966d|Enviar
+f3cda5|Calculadora de empréstimo
+cb8a5f|Prestação mensal a partir do montante, da taxa de juro e do prazo.
+59efa4|Montante do empréstimo
+202d38|Taxa de juro anual (%)
+a92ac9|Prazo (meses)
+647bd0|Prestação mensal
+d0bcd3|Email de teste
+a7498e|Este é um email de teste. Se o consegue ler, o envio de emails funciona.
+9a7e58|Definições guardadas.
+a3fb23|O email de teste foi enviado para %s. Verifique a caixa de entrada e a pasta de spam.
+33de89|Não foi possível enviar o email de teste.
+3a9486|Muitos alojamentos entregam os emails do WordPress com atraso ou na pasta de spam. Enviá-los através da conta SMTP do seu fornecedor de email resolve isso, sem um plugin SMTP à parte.
+05449a|Estas definições são partilhadas por %s.
+51e4ba|%s está ativo e trata do envio de emails, por isso estas definições não são usadas.
+c2239a|SMTP
+4d7db2|Enviar emails através de uma conta SMTP
+adac9e|Apenas os emails dos plugins da SmokySystems
+f8f5e1|Todos os emails deste site
+bdd48f|Servidor SMTP
+60aaf4|Porta
+d7f261|Encriptação
+151adf|Sem encriptação
+f6039d|Nome de utilizador
+dc647e|Senha
+c6e6fb|A senha está definida no wp-config.php.
+0b5899|Há uma senha guardada. Deixe em branco para a manter.
+d7381f|Remover a senha guardada
+3b4d50|Email do remetente
+250019|Use um endereço da conta SMTP; caso contrário, muitos fornecedores recusam o email.
+c3a7ea|Nome do remetente
+ee1851|Enviar email de teste
+7caa16|SmokyForms – Criador de formulários arrastar e largar com cálculos
+9958f8|Criador de formulários arrastar e largar com cálculos gratuitos. Crie formulários de contacto, de orçamento e de encomenda e calculadoras sem escrever fórmulas.

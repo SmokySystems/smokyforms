@@ -1,0 +1,1350 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Valitse lomake"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Lomake"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Sinulla ei ole vielä lomakkeita. Luo lomake SmokyFormsissa hallintavalikossa."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Valitse tässä näytettävä lomake."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Peruskentät"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Valinnat"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Erikoiskentät"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Asettelu"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "jos … niin … muuten"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(ehto, arvo jos tosi, arvo jos epätosi)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Pyöristä"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(arvo, desimaalit)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "Pienin"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "Suurin"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Päiviä päivämäärien välillä"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(alkupäivä, loppupäivä)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Pyöristä alaspäin"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Pyöristä ylöspäin"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "Ilman etumerkkiä"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Neliöjuuri"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Ensimmäinen vaihtoehto"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "Toinen vaihtoehto"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Kolmas vaihtoehto"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Suostumus"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Hyväksyn, että tämä sivusto tallentaa ja käsittelee tietojani."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Tekstilohko"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Osion otsikko"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "ja"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "tai"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Tyhjä tekstilohko"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Ei vielä kaavaa"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Ei nimikettä"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Napsauta tai vedä kenttiä vasemmalla olevasta luettelosta."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Kenttä: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Siirrä ylös"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Siirrä alas"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Monista"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Poista"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Vaihtoehto"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Arvo laskelmissa"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Oletus"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Poista vaihtoehto"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Vaihtoehto %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Lisää vaihtoehto"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "Arvo on se, mitä vaihtoehto laskelmassa tarkoittaa, esimerkiksi sen hinta. Valintaruuduissa kaikkien valittujen vaihtoehtojen arvot lasketaan yhteen."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Puuttuva kenttä: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Napsauta alla olevia kenttiä ja operaattoreita rakentaaksesi laskelman."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Rakenna napsauttamalla"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Kirjoita kaava"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Kumoa"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Kentät"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Lisää ensin numero-, valinta- tai päivämääräkenttiä; ne näkyvät tässä."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "Operaattorit"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Potenssi"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Jakojäännös"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Pilkku (funktion arvojen välissä)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Numero"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Lisää numero"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Ehdot"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Funktiot"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Hintataulukko"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Taulukko"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Rivi kentän vastauksen mukaan"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Sarake kentän vastauksen mukaan"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Vain yksi sarake"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Lisää hinta"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Kaava"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Kentät kirjoitetaan muodossa {field_id}. Esimerkki: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "Kaava ei ole vielä valmis. Tarkista sulkeet, pilkut ja operaattorit."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "Kaava on kelvollinen."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Kokeile"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Tulos:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Valitse kenttä muuttaaksesi sen asetuksia."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Otsikko"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Nimike"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Pakollinen"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Teksti ennen valintaa"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Paikkamerkki"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Oletusarvo"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Askel"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Teksti valintaruudun vieressä"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Linkit ovat sallittuja, esimerkiksi tietosuojaselosteeseesi."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Teksti"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Yksinkertainen HTML on sallittu."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Laskelma"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Ennen tulosta"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "Esimerkiksi $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "Tuloksen jälkeen"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "Esimerkiksi € tai kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Desimaalit"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Näytä tulos lomakkeessa"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Poista käytöstä välivaiheelta, jota vain muut laskelmat käyttävät. Tulos näkyy silti sähköpostissa."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Ohjeteksti"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Leveys"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Koko leveys"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Puolikas leveys"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "Kentän tunniste"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "Käytetään kaavoissa muodossa {%1$s} ja sähköposteissa muodossa {field:%1$s}. Muuttaminen päivittää tämän lomakkeen kaavat."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "Hintataulukko antaa arvon jokaiselle vastaukselle tai jokaiselle kahden vastauksen yhdistelmälle (esimerkiksi vyöhyke ja paketin koko). Käytä sitä laskelmassa kohdasta ”Hintataulukko”. Rivien ja sarakkeiden nimet on kirjoitettava täsmälleen kuten kenttien vaihtoehdot."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Nimi"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "Tunniste: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Rivit kentän vaihtoehdoista"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Sarakkeet kentän vaihtoehdoista"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Sarakkeen nimi"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Arvo"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Rivin nimi"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Rivi %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Lisää rivi"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Sarake %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Lisää sarake"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Poista viimeinen rivi"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Poista viimeinen sarake"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Poista taulukko"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Rivi 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Lisää hintataulukko"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Voit käyttää:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Yhden kentän vastaus"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Yleiset"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Painikkeen teksti"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Viesti lähettämisen jälkeen"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "Tai siirry tälle sivulle lähettämisen jälkeen"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "Jätä tyhjäksi, niin viesti näytetään."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Suojaa tämä lomake asetuksissa määritetyllä CAPTCHAlla."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "CAPTCHAa ei ole vielä määritetty. Voit lisätä sen kohdassa SmokyForms > Asetukset. Ansakenttä ja aikatarkistus suojaavat joka tapauksessa jokaista lomaketta."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Ilmoitus sinulle"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms ei tallenna lähetyksiä; jokainen lähetys lähetetään sinulle sähköpostilla. Jos sähköposti epäonnistuu, lähetys säilytetään kohdassa SmokyForms > Toimittamatta."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Lähetä minulle sähköposti jokaisesta lähetyksestä"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Vastaanottaja"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Erota useat osoitteet pilkuilla."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Aihe"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Viesti"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Vahvistus kävijälle"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "Lähetä kävijälle vahvistusviesti"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Osoite kentästä"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Lisää lomakkeeseen ensin sähköpostikenttä."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Lisää uusi lomake"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Aloita valmiilla tai tyhjällä lomakkeella. Kaikki mallit, myös laskurit, ovat ilmaisia."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "Lomaketta ei voitu tallentaa."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Kaikki lomakkeet"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Lomakkeen nimi"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Lyhytkoodi"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "Tallennetaan…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Tallenna lomake"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Hintataulukot"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Asetukset"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "Lisää se sivulle SmokyForms-lohkolla tai lyhytkoodilla."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Sinulla on tallentamattomia muutoksia."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Tätä lomaketta ei ole olemassa."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Nimetön lomake"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "Lomake tallennettu."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Muokkaa lomaketta &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "Sinulla ei ole oikeutta tehdä tätä."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Muokkaa lomaketta"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "Lomakerakentajaa ladataan…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "Lomakerakentaja tarvitsee JavaScriptin."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "Toimittamatta"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (kopio)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Lomakkeet"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyFormsin asetukset"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "Sähköpostien lähetys"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "Roskapostisuojaus"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Jokaisessa lomakkeessa on piilotettu ansakenttä ja aikatarkistus. Lisäksi voit lisätä CAPTCHAn; sitä käytetään jokaisessa lomakkeessa, jossa se on otettu käyttöön lomakkeen asetuksissa."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile on ilmainen eikä yleensä vaadi kävijöiltä pulmien ratkaisemista."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Sivuston avain"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Salainen avain"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Tallennettu. Jätä tyhjäksi säilyttääksesi sen."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Aikatarkistus"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "sekuntia"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Lomakkeet, jotka lähetetään tätä nopeammin sivun latautumisen jälkeen, katsotaan roskapostiksi. 0 poistaa tarkistuksen käytöstä."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Toimittamattomat ilmoitukset"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms ei tallenna lähetyksiä; ne lähetetään sinulle sähköpostilla. Jos ilmoitusta ei voida lähettää, lähetys säilytetään, jotta se ei katoa, ja voit lähettää sen uudelleen kohdassa SmokyForms > Toimittamatta."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Säilytä"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "päivää"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s lähetystä ei voitu lähettää sinulle sähköpostilla."
+msgstr[1] "SmokyForms: %s lähetystä ei voitu lähettää sinulle sähköpostilla."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Näytä"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "Lähetys lähetettiin ja poistettiin luettelosta."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "Lähetystä ei vieläkään voitu lähettää. Tarkista sähköpostien lähetysasetukset."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "Lähetys poistettiin."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Toimittamattomat lähetykset"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Nämä lähetykset tulivat lomakkeidesi kautta, mutta ilmoitus sinulle epäonnistui. Ne säilytetään täällä, jotta ne eivät katoa, ja poistetaan automaattisesti asetuksissa määritetyn päivämäärän jälkeen."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Täällä ei ole mitään. Kaikki ilmoitukset on toimitettu."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "Tarkista sähköpostien lähetysasetukset"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Poistettu lomake"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Syy:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Lähetä uudelleen"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Poistetaanko tämä lähetys pysyvästi?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Kyllä, poista"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Vahvista, ettet ole robotti."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "Robottitarkistus epäonnistui. Yritä uudelleen."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Yksirivinen teksti"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Kappaleteksti"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "Sähköposti"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Puhelin"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Verkkosivusto"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Pudotusvalikko"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Monivalinta"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Valintaruudut"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Piilotettu kenttä"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Suostumusruutu"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Tämä kenttä on pakollinen."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Anna kelvollinen sähköpostiosoite."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Anna kelvollinen verkko-osoite."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Anna kelvollinen puhelinnumero."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Anna numero."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Anna numero, joka on vähintään %s."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Anna numero, joka on enintään %s."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Anna kelvollinen päivämäärä."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Valitse yksi vaihtoehdoista."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Kyllä"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "Ei"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Hae lomakkeita"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Ei vielä lomakkeita."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "Roskakorissa ei ole lomakkeita."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Lähetä"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Kiitos! Viestisi on lähetetty."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Uusi lähetys: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Kiitos viestistäsi"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Hei,\n"
+"\n"
+"kiitos yhteydenotostasi. Olemme vastaanottaneet viestisi ja vastaamme pian.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Kaikki vastaukset"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Sivuston nimi"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "Sivuston ylläpitäjän sähköposti"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Päivämäärä ja aika"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Lomakkeen sivu"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "Sivusto ei voinut lähettää sähköpostia."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: tätä lomaketta ei ole olemassa."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "Jätä tämä kenttä tyhjäksi"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Tarkista lomake ja yritä uudelleen."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Valitse…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "Lähetetään…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "Lomaketta ei voitu lähettää. Yritä uudelleen."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Ei mitään"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "Lomaketta ei voitu tarkistaa. Lataa sivu uudelleen ja yritä uudelleen."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "Se oli hyvin nopeaa. Odota hetki ja lähetä lomake uudelleen."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "Liian monta lähetystä. Odota minuutti ja yritä uudelleen."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Tyhjä lomake"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Aloita tyhjällä lomakkeella."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "Yhteydenottolomake"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Nimi, sähköposti, puhelin ja viesti."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Tarjouspyyntö"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "Palvelu, lisät ja pinta-ala antavat arviohinnan."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Palvelu"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Perussiivous"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Perusteellinen siivous"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Pinta-ala (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Lisät"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Ikkunat"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Parveke"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Uuni"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Arviohinta"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Tilauslomake"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Tuotteet määrineen, toimitus ja alennus tietyn summan ylittyessä."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Tuote A – 12.00 kpl"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Tuote B – 18.50 kpl"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Toimitus"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Nouto"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Normaali"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Pika"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Välisumma"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "Alennus (10 % yli 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Yhteensä"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Varaus öineen"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Saapumis- ja lähtöpäivä antavat öiden määrän ja hinnan."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Varauspyyntö"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Saapuminen"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Lähtö"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Huone"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Normaali – 80 / yö"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Sviitti – 140 / yö"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Yöt"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Hinta"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Toimitusmaksu vyöhykkeiden ja pakettikokojen taulukosta."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Toimitusmaksu"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Vyöhyke"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Vyöhyke 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Vyöhyke 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Vyöhyke 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Paketti"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Pieni"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Keskikokoinen"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Suuri"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Toimitusmaksut"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "BMI-laskuri"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Painoindeksi pituuden ja painon perusteella."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Pituus (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Paino (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "Painoindeksisi"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Lähetä"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Lainalaskuri"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Kuukausierä summan, korkokannan ja laina-ajan perusteella."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Lainasumma"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Vuosikorko (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Laina-aika (kuukautta)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Kuukausierä"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Testiviesti"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Tämä on testiviesti. Jos voit lukea sen, sähköpostien lähetys toimii."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Testiviesti lähetettiin osoitteeseen %s. Tarkista saapuneet ja roskapostikansio."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "Testiviestiä ei voitu lähettää."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Monet palveluntarjoajat toimittavat WordPressin sähköpostit myöhässä tai roskapostiin. Lähettäminen sähköpostipalvelusi SMTP-tilin kautta korjaa tämän ilman erillistä SMTP-lisäosaa."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Nämä asetukset jakaa %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s on käytössä ja hoitaa sähköpostien lähetyksen, joten näitä asetuksia ei käytetä."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "Lähetä sähköpostit SMTP-tilin kautta"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Vain SmokySystems-lisäosien sähköpostit"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "Kaikki tämän sivuston sähköpostit"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP-palvelin"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Portti"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Salaus"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Ei salausta"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Salasana"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "Salasana on määritetty tiedostossa wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Salasana on tallennettu. Jätä tyhjäksi säilyttääksesi sen."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Poista tallennettu salasana"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Lähettäjän sähköposti"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Käytä SMTP-tilin osoitetta, muuten monet palvelut hylkäävät viestin."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Lähettäjän nimi"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Lähetä testiviesti"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Vedä ja pudota -lomakerakentaja laskelmilla"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Vedä ja pudota -lomakerakentaja ilmaisilla laskelmilla. Luo yhteydenotto-, tarjous- ja tilauslomakkeita sekä laskureita kirjoittamatta kaavoja."

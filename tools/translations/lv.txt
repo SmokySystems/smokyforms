@@ -1,0 +1,325 @@
+055dcf|Izvēlieties veidlapu
+d359c6|Veidlapa
+e0a02c|Jums vēl nav veidlapu. Izveidojiet to sadaļā SmokyForms administrēšanas izvēlnē.
+28ab5c|Izvēlieties veidlapu, kas tiks rādīta šeit.
+a86405|Pamata lauki
+6ef697|Izvēles
+5939b5|Īpašie lauki
+ebd9be|Izkārtojums
+f56462|ja … tad … citādi
+7f7bde|if(nosacījums, vērtība, ja patiess, vērtība, ja nepatiess)
+b7f41f|Noapaļot
+2e0e8d|round(vērtība, cipari aiz komata)
+a3ab97|Mazākā
+73fc19|min(a, b, …)
+f8c8f8|Lielākā
+8902cb|max(a, b, …)
+ecb62b|Dienas starp datumiem
+a6db34|days(sākuma datums, beigu datums)
+6ff145|Noapaļot uz leju
+c17f8d|Noapaļot uz augšu
+99e006|Bez zīmes
+921c8e|Kvadrātsakne
+1fe7e9|Pirmā izvēle
+580834|Otrā izvēle
+c1dd36|Trešā izvēle
+1bbdf1|Piekrišana
+a816e9|Es piekrītu, ka šī vietne glabā un apstrādā manus datus.
+7ef25f|Teksta bloks
+3b4836|Sadaļas virsraksts
+be5d5d|un
+e81c4e|vai
+35c798|Tukšs teksta bloks
+b0ebea|Formulas vēl nav
+222a8b|Bez etiķetes
+a4f784|Noklikšķiniet uz laukiem sarakstā pa kreisi vai velciet tos.
+85e07c|Lauks: %s
+f77af7|Pārvietot uz augšu
+dd9f0c|Pārvietot uz leju
+ed7571|Dublēt
+f2a6c4|Dzēst
+458b9d|Izvēle
+38b2db|Vērtība aprēķinos
+7a1920|Noklusējuma
+ceb473|Noņemt izvēli
+015d41|Izvēle %d
+d02f3c|Pievienot izvēli
+c9739f|Vērtība ir tas, cik šī izvēle nozīmē aprēķinā, piemēram, tās cena. Izvēles rūtiņām visu atzīmēto izvēļu vērtības tiek saskaitītas.
+d61d8d|Trūkst lauka: %s
+a1b32d|Noklikšķiniet uz zemāk esošajiem laukiem un operatoriem, lai izveidotu aprēķinu.
+5de039|Veidot ar klikšķiem
+878cdc|Rakstīt formulu
+1cdc07|Atsaukt
+dc30bc|Notīrīt
+a4ca5e|Lauki
+443847|Vispirms pievienojiet skaitļu, izvēļu vai datuma laukus; tie parādīsies šeit.
+b3c582|Operatori
+dd4fe0|Pakāpe
+8730cc|Atlikums
+e9b53a|Komats (starp funkcijas vērtībām)
+b2ee91|Skaitlis
+ca3aeb|Pievienot skaitli
+229eb0|Nosacījumi
+e93acb|Funkcijas
+9551cd|Cenu tabula
+51c45b|Tabula
+9db33f|Rinda pēc atbildes laukā
+7876f8|Kolonna pēc atbildes laukā
+38dded|Tikai viena kolonna
+2c4e05|Ievietot cenu
+313a6a|Formula
+d9f37b|Lauki tiek rakstīti kā {field_id}. Piemērs: {price} * {quantity} + 5
+c66f2e|Formula vēl nav pabeigta. Pārbaudiet iekavas, komatus un operatorus.
+cc3a57|Formula ir derīga.
+5fd411|Izmēģināt
+5aac38|Rezultāts:
+1767e5|Izvēlieties lauku, lai mainītu tā iestatījumus.
+010131|Virsraksts
+b021df|Etiķete
+b651ef|Obligāts
+6224e6|Teksts pirms izvēles
+68753d|Vietturis
+31ce3c|Noklusējuma vērtība
+48c7c4|Solis
+56eb52|Teksts blakus izvēles rūtiņai
+58cf98|Saites ir atļautas, piemēram, uz jūsu privātuma politiku.
+9dffbf|Teksts
+716124|Ir atļauts vienkāršs HTML.
+3ea4f7|Aprēķins
+b51e59|Pirms rezultāta
+62cfd9|Piemēram, $
+5c6290|Pēc rezultāta
+d41a8c|Piemēram, € vai kg
+2b4178|Cipari aiz komata
+e7c868|Rādīt rezultātu veidlapā
+16feb3|Izslēdziet starpposmam, ko izmanto tikai citi aprēķini. Rezultāts tik un tā būs e-pastā.
+c10b7d|Palīdzības teksts
+329546|Platums
+24e61d|Pilns platums
+e4bb63|Puse platuma
+42aa94|Lauka ID
+98fa53|Formulās izmanto kā {%1$s}, e-pastos kā {field:%1$s}. Mainot tiek atjauninātas šīs veidlapas formulas.
+08aeea|Cenu tabula dod vērtību katrai atbildei vai katrai divu atbilžu kombinācijai (piemēram, zona un paciņas izmērs). Izmantojiet to aprēķinā ar pogu “Cenu tabula”. Rindu un kolonnu nosaukumiem jābūt uzrakstītiem tieši tāpat kā lauku izvēlēm.
+49ee30|Nosaukums
+6c3798|ID: %s
+c0dd3a|Rindas no lauka izvēlēm
+923419|Kolonnas no lauka izvēlēm
+710b83|Kolonnas nosaukums
+689202|Vērtība
+dbe735|Rindas nosaukums
+d8353e|Rinda %d
+19f6e2|Pievienot rindu
+7bce62|Kolonna %d
+b61b8f|Pievienot kolonnu
+8b0629|Noņemt pēdējo rindu
+99a139|Noņemt pēdējo kolonnu
+9c6803|Dzēst tabulu
+531553|Rinda 1
+450423|Pievienot cenu tabulu
+1aefc6|Varat izmantot:
+19002d|Viena lauka atbilde
+0db377|Vispārīgi
+111082|Pogas teksts
+8da5e2|Ziņojums pēc nosūtīšanas
+f52ff0|Vai pēc nosūtīšanas doties uz šo lapu
+aac08d|Atstājiet tukšu, lai tā vietā rādītu ziņojumu.
+291d69|CAPTCHA
+86dc8e|Aizsargāt šo veidlapu ar CAPTCHA, kas iestatīta sadaļā Iestatījumi.
+539ec8|CAPTCHA vēl nav iestatīta. To var pievienot sadaļā SmokyForms > Iestatījumi. Lamatu lauks un laika pārbaude tik un tā aizsargā katru veidlapu.
+74b72d|Paziņojums jums
+48ff32|SmokyForms neglabā iesniegumus; katrs iesniegums jums tiek nosūtīts pa e-pastu. Ja e-pastu neizdodas nosūtīt, iesniegums tiek saglabāts sadaļā SmokyForms > Nepiegādātie.
+d245dd|Sūtīt man e-pastu par katru iesniegumu
+c973ca|Sūtīt uz
+61739f|Vairākas adreses atdaliet ar komatiem.
+c7892e|Temats
+4c2a8f|Ziņojums
+8970db|Apstiprinājums apmeklētājam
+71baeb|Nosūtīt apmeklētājam apstiprinājuma e-pastu
+b6c0d5|Adrese no lauka
+7a2be4|Vispirms veidlapai pievienojiet e-pasta lauku.
+45949d|Pievienot jaunu veidlapu
+79fd79|Sāciet ar gatavu vai tukšu veidlapu. Visas veidnes, arī kalkulatori, ir bezmaksas.
+cc7b22|Veidlapu neizdevās saglabāt.
+21954b|Visas veidlapas
+00cd1f|Veidlapas nosaukums
+6feadb|Īskods
+eedf6b|Saglabā…
+4abf00|Saglabāt veidlapu
+35cb6e|Cenu tabulas
+f4f707|Iestatījumi
+864bac|Pievienojiet to lapai ar SmokyForms bloku vai īskodu.
+604a9a|Jums ir nesaglabātas izmaiņas.
+6866cc|Šī veidlapa neeksistē.
+d50431|Veidlapa bez nosaukuma
+782d19|Veidlapa saglabāta.
+84ad74|Rediģēt veidlapu &lsaquo; %s
+2835b7|Jums nav atļaujas to darīt.
+39741d|Rediģēt veidlapu
+a986be|Ielādē veidlapu veidotāju…
+6db07c|Veidlapu veidotājam nepieciešams JavaScript.
+c50eda|Nepiegādātie
+77c751|%s (kopija)
+645024|Veidlapas
+cc06ee|SmokyForms iestatījumi
+cb7fd7|E-pastu sūtīšana
+2932b4|Aizsardzība pret surogātpastu
+ef7330|Katrai veidlapai ir slēpts lamatu lauks un laika pārbaude. Papildus varat pievienot CAPTCHA; tā tiek izmantota katrā veidlapā, kuras iestatījumos tā ir ieslēgta.
+aac82e|Cloudflare Turnstile ir bezmaksas un parasti neprasa apmeklētājiem risināt mīklas.
+f75d8f|Vietnes atslēga
+952bf8|Slepenā atslēga
+6b2bed|Saglabāta. Atstājiet tukšu, lai to paturētu.
+3827d8|Laika pārbaude
+783e8e|sekundes
+615249|Veidlapas, kas nosūtītas ātrāk par šo laiku pēc lapas ielādes, tiek uzskatītas par surogātpastu. 0 izslēdz pārbaudi.
+4def17|Nepiegādātie paziņojumi
+9f5630|SmokyForms neglabā iesniegumus; tie jums tiek nosūtīti pa e-pastu. Ja paziņojuma e-pastu nevar nosūtīt, iesniegums tiek saglabāts, lai tas nepazustu, un to var nosūtīt vēlreiz sadaļā SmokyForms > Nepiegādātie.
+f24a17|Glabāt
+44fdec|dienas
+c89567|SmokyForms: %s iesniegumu neizdevās jums nosūtīt pa e-pastu. ¦ SmokyForms: %s iesniegumus neizdevās jums nosūtīt pa e-pastu. ¦ SmokyForms: %s iesniegumu neizdevās jums nosūtīt pa e-pastu.
+498f79|Rādīt
+effa85|Iesniegums tika nosūtīts un noņemts no saraksta.
+f9eafc|Iesniegumu joprojām neizdodas nosūtīt. Pārbaudiet e-pastu sūtīšanas iestatījumus.
+80da2c|Iesniegums tika izdzēsts.
+24c070|Nepiegādātie iesniegumi
+c0d482|Šie iesniegumi ienāca caur jūsu veidlapām, bet paziņojuma e-pastu jums neizdevās nosūtīt. Tie tiek glabāti šeit, lai nepazustu, un automātiski dzēsti pēc iestatījumos norādītā dienu skaita.
+5a569c|Šeit nekā nav. Visi paziņojumi ir piegādāti.
+0426b1|Pārbaudīt e-pastu sūtīšanas iestatījumus
+ef546f|Dzēsta veidlapa
+ccb168|Iemesls:
+50ab1d|Sūtīt vēlreiz
+50d0b5|Dzēst šo iesniegumu neatgriezeniski?
+b21c60|Jā, dzēst
+ccf88f|Apstipriniet, ka neesat robots.
+296449|Robota pārbaude neizdevās. Mēģiniet vēlreiz.
+cd72d3|Vienas rindas teksts
+c5a5c5|Rindkopa
+ce8ae9|E-pasts
+bcc254|Tālrunis
+15bbb9|Vietne
+7498c4|Nolaižamais saraksts
+6893e5|Viena izvēle
+c425f2|Izvēles rūtiņas
+447497|Datums
+019003|Slēpts lauks
+00b768|Piekrišanas rūtiņa
+9303c9|Šis lauks ir obligāts.
+b5bccd|Ievadiet derīgu e-pasta adresi.
+86062b|Ievadiet derīgu vietnes adresi.
+772407|Ievadiet derīgu tālruņa numuru.
+c2cb00|Ievadiet skaitli.
+69dfa7|Ievadiet skaitli, kas nav mazāks par %s.
+caf8d8|Ievadiet skaitli, kas nav lielāks par %s.
+773fcd|Ievadiet derīgu datumu.
+e3264a|Izvēlieties vienu no iespējām.
+93cba0|Jā
+bafd73|Nē
+a6c2b9|Meklēt veidlapas
+60caa9|Veidlapu vēl nav.
+6a1885|Atkritnē nav veidlapu.
+a4d3b1|Nosūtīt
+279099|Paldies! Jūsu ziņojums ir nosūtīts.
+48b55f|Jauns iesniegums: {form_title}
+81a012|Paldies par ziņojumu
+d93e6b|Labdien!\n\nPaldies, ka sazinājāties ar mums. Saņēmām jūsu ziņojumu un drīz atbildēsim.\n\n{all_fields}
+1d6990|Visas atbildes
+816667|Vietnes nosaukums
+e91f72|Vietnes administratora e-pasts
+2b0b7c|Datums un laiks
+7012e0|Veidlapas lapa
+151dca|Vietne nevarēja nosūtīt e-pastu.
+6ac40c|SmokyForms: šī veidlapa neeksistē.
+7a4842|Atstājiet šo lauku tukšu
+28b263|Pārbaudiet veidlapu un mēģiniet vēlreiz.
+3f6c9a|Izvēlieties…
+4d01e8|Sūta…
+f83b39|Veidlapu neizdevās nosūtīt. Mēģiniet vēlreiz.
+6adf97|Nav
+5bf1f6|Veidlapu neizdevās pārbaudīt. Pārlādējiet lapu un mēģiniet vēlreiz.
+5934a3|Tas bija ļoti ātri. Mazliet uzgaidiet un nosūtiet veidlapu vēlreiz.
+453e43|Pārāk daudz iesniegumu. Uzgaidiet minūti un mēģiniet vēlreiz.
+57c955|Tukša veidlapa
+dc8972|Sākt ar tukšu veidlapu.
+c661cf|Kontaktu veidlapa
+dabe9b|Vārds, e-pasts, tālrunis un ziņojums.
+5d1cbd|Cenas pieprasījums
+0269ab|Pakalpojums, papildinājumi un platība dod aptuvenu cenu.
+c2ba7e|Pakalpojums
+9986c1|Parastā uzkopšana
+cc16d7|Ģenerālā uzkopšana
+e285c9|Platība (m²)
+0a3f08|Papildinājumi
+aea234|Logi
+2623fa|Balkons
+482690|Cepeškrāsns
+cebbfc|Aptuvenā cena
+655157|Pasūtījuma veidlapa
+3a11e0|Preces ar daudzumiem, piegāde un atlaide virs noteiktas summas.
+70fc36|Prece A – 12.00 par gab.
+6e18dd|Prece B – 18.50 par gab.
+065ab3|Piegāde
+9ae3c9|Saņemšana uz vietas
+eb6d8a|Standarta
+b144fa|Ekspress
+2194aa|Starpsumma
+48909c|Atlaide (10% virs 100)
+96b014|Kopā
+6fb3df|Rezervācija ar naktīm
+80068a|Ierašanās un izbraukšanas datumi dod nakšu skaitu un cenu.
+83bb56|Rezervācijas pieprasījums
+885b3c|Ierašanās
+5be0fa|Izbraukšana
+cc3abc|Numurs
+3bf8f2|Standarta – 80 par nakti
+3ac878|Lukss – 140 par nakti
+e10758|Naktis
+360114|Cena
+e6e2d9|Piegādes cena no zonu un paciņu izmēru tabulas.
+0ea6b9|Piegādes cena
+b3ff99|Zona
+93b3d7|Zona 1
+ac4ff7|Zona 2
+c48837|Zona 3
+f38e90|Paciņa
+266006|Maza
+87f8a6|Vidēja
+3a69b3|Liela
+3e1c4b|Piegādes cenas
+348100|ĶMI kalkulators
+d7659b|Ķermeņa masas indekss pēc auguma un svara.
+20fbaa|Augums (cm)
+917216|Svars (kg)
+869598|Jūsu ĶMI
+94966d|Nosūtīt
+f3cda5|Aizdevuma kalkulators
+cb8a5f|Mēneša maksājums pēc summas, procentu likmes un termiņa.
+59efa4|Aizdevuma summa
+202d38|Gada procentu likme (%)
+a92ac9|Termiņš (mēneši)
+647bd0|Mēneša maksājums
+d0bcd3|Testa e-pasts
+a7498e|Šis ir testa e-pasts. Ja varat to izlasīt, e-pastu sūtīšana darbojas.
+9a7e58|Iestatījumi saglabāti.
+a3fb23|Testa e-pasts tika nosūtīts uz %s. Pārbaudiet iesūtni un surogātpasta mapi.
+33de89|Testa e-pastu neizdevās nosūtīt.
+3a9486|Daudzi mitināšanas pakalpojumi WordPress e-pastus piegādā ar kavēšanos vai surogātpastā. Sūtīšana caur jūsu e-pasta pakalpojuma SMTP kontu to atrisina bez atsevišķa SMTP spraudņa.
+05449a|Šos iestatījumus koplieto %s.
+51e4ba|%s ir aktīvs un nodrošina e-pastu sūtīšanu, tāpēc šie iestatījumi netiek izmantoti.
+c2239a|SMTP
+4d7db2|Sūtīt e-pastus caur SMTP kontu
+adac9e|Tikai SmokySystems spraudņu e-pasti
+f8f5e1|Visi šīs vietnes e-pasti
+bdd48f|SMTP serveris
+60aaf4|Ports
+d7f261|Šifrēšana
+151adf|Bez šifrēšanas
+f6039d|Lietotājvārds
+dc647e|Parole
+c6e6fb|Parole ir iestatīta failā wp-config.php.
+0b5899|Parole ir saglabāta. Atstājiet tukšu, lai to paturētu.
+d7381f|Noņemt saglabāto paroli
+3b4d50|Sūtītāja e-pasts
+250019|Izmantojiet SMTP konta adresi, citādi daudzi pakalpojumi e-pastu noraidīs.
+c3a7ea|Sūtītāja vārds
+ee1851|Nosūtīt testa e-pastu
+7caa16|SmokyForms – Veidlapu veidotājs ar vilkšanu un aprēķiniem
+9958f8|Veidlapu veidotājs ar vilkšanu un bezmaksas aprēķiniem. Veidojiet kontaktu, cenu pieprasījumu un pasūtījumu veidlapas un kalkulatorus, nerakstot formulas.

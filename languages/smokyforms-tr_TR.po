@@ -1,0 +1,1350 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Bir form seçin"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Form"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Henüz formunuz yok. Yönetim menüsündeki SmokyForms altından bir form oluşturun."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Burada gösterilecek formu seçin."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Temel alanlar"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Seçenekler"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Özel alanlar"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Düzen"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "eğer … ise … değilse"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(koşul, doğruysa değer, yanlışsa değer)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Yuvarla"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(değer, ondalık basamak)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "En küçük"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "En büyük"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Tarihler arası gün"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(başlangıç tarihi, bitiş tarihi)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Aşağı yuvarla"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Yukarı yuvarla"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "İşaretsiz"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Karekök"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Birinci seçenek"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "İkinci seçenek"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Üçüncü seçenek"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Onay"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Verilerimin bu web sitesi tarafından saklanmasını ve işlenmesini kabul ediyorum."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Metin bloğu"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Bölüm başlığı"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "ve"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "veya"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Boş metin bloğu"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Henüz formül yok"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Etiket yok"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Soldaki listeden alanlara tıklayın ya da sürükleyin."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Alan: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Çoğalt"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Sil"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Seçenek"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Hesaplamadaki değeri"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Varsayılan"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Seçeneği kaldır"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Seçenek %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Seçenek ekle"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "Değer, bu seçeneğin bir hesaplamada neye karşılık geldiğidir, örneğin fiyatı. Onay kutularında işaretlenen tüm seçeneklerin değerleri toplanır."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Eksik alan: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Hesaplamayı oluşturmak için aşağıdaki alanlara ve işlemlere tıklayın."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Tıklayarak oluştur"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Formülü yaz"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Geri al"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Temizle"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Alanlar"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Önce sayı, seçenek veya tarih alanı ekleyin; burada görünürler."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "İşlemler"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Üs"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Kalan"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Virgül (bir fonksiyonun değerleri arasında)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Sayı"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Sayı ekle"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Koşullar"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Fonksiyonlar"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Fiyat tablosu"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Tablo"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Satır, şu alanın cevabından"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Sütun, şu alanın cevabından"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Tek sütun"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Fiyatı ekle"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Formül"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Alanlar {field_id} olarak yazılır. Örnek: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "Formül henüz tamamlanmadı. Parantezleri, virgülleri ve işlemleri kontrol edin."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "Formül geçerli."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Dene"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Sonuç:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Ayarlarını değiştirmek için bir alan seçin."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Başlık"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Etiket"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Zorunlu"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Seçim yapılmadan önceki metin"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Yer tutucu"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Varsayılan değer"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Artış"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Onay kutusunun yanındaki metin"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Bağlantı ekleyebilirsiniz, örneğin gizlilik politikanıza."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Metin"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Temel HTML kullanılabilir."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Hesaplama"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Sonuçtan önce"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "Örneğin $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "Sonuçtan sonra"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "Örneğin € veya kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Ondalık basamak"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Sonucu formda göster"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Sadece başka hesaplamaların kullandığı bir ara adımsa kapatın. Sonuç e-postada yine yer alır."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Yardım metni"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Genişlik"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Tam genişlik"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Yarım genişlik"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "Alan kimliği"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "Formüllerde {%1$s}, e-postalarda {field:%1$s} olarak kullanılır. Değiştirirseniz bu formdaki formüller de güncellenir."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "Fiyat tablosu her cevap için ya da iki cevabın her birleşimi için (örneğin bölge ve paket boyutu) bir değer verir. Bir hesaplamada \"Fiyat tablosu\" ile kullanın. Satır ve sütun adları, alanların seçenekleriyle birebir aynı yazılmalıdır."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Ad"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "Kimlik: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Satırları şu alanın seçeneklerinden al"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Sütunları şu alanın seçeneklerinden al"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Sütun adı"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Değer"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Satır adı"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Satır %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Satır ekle"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Sütun %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Sütun ekle"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Son satırı kaldır"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Son sütunu kaldır"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Tabloyu sil"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Satır 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Fiyat tablosu ekle"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Kullanabilecekleriniz:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Bir alanın cevabı"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Genel"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Düğme metni"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Gönderimden sonraki mesaj"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "Ya da gönderimden sonra bu sayfaya git"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "Bunun yerine mesajı göstermek için boş bırakın."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Bu formu Ayarlar altında kurulan CAPTCHA ile koruyun."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "Henüz bir CAPTCHA kurulmadı. SmokyForms > Ayarlar altından ekleyebilirsiniz. Tuzak alan ve süre kontrolü her formu zaten korur."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Size bildirim"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms gönderimleri saklamaz; her gönderim size e-postayla iletilir. E-posta gönderilemezse gönderim SmokyForms > Ulaşmayanlar altında tutulur."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Her gönderim için bana e-posta gönder"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Alıcı"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Birden fazla adresi virgülle ayırın."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Konu"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Mesaj"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Ziyaretçiye onay"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "Ziyaretçiye onay e-postası gönder"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Adresi şu alandan al"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Önce forma bir E-posta alanı ekleyin."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Yeni form ekle"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Hazır bir formla ya da boş bir formla başlayın. Hesaplayıcılar dahil tüm şablonlar ücretsizdir."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "Form kaydedilemedi."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Tüm formlar"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Form adı"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "Kaydediliyor…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Formu kaydet"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Fiyat tabloları"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "SmokyForms bloğu ya da kısa kodla bir sayfaya ekleyin."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Kaydedilmemiş değişiklikleriniz var."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Bu form mevcut değil."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Adsız form"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "Form kaydedildi."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Formu düzenle &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "Bunu yapmaya yetkiniz yok."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Formu düzenle"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "Form oluşturucu yükleniyor…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "Form oluşturucu JavaScript gerektirir."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "Ulaşmayanlar"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (kopya)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Formlar"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyForms ayarları"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "E-posta gönderimi"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "İstenmeyen gönderimlere karşı koruma"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Her formda gizli bir tuzak alan ve süre kontrolü vardır. Bunlara ek olarak CAPTCHA kullanabilirsiniz; form ayarlarında açık olan her formda kullanılır."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile ücretsizdir ve çoğu zaman ziyaretçilerinize bulmaca çözdürmez."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Site anahtarı"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Gizli anahtar"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Kaydedildi. Korumak için boş bırakın."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Süre kontrolü"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "saniye"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Sayfa yüklendikten sonra bundan daha hızlı gönderilen formlar istenmeyen gönderim sayılır. 0 kontrolü kapatır."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Ulaşmayan bildirimler"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms gönderimleri saklamaz; size e-postayla iletilir. Bir bildirim e-postası gönderilemezse gönderim kaybolmasın diye tutulur ve SmokyForms > Ulaşmayanlar altından tekrar gönderebilirsiniz."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Saklama süresi"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "gün"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s gönderim size e-postayla iletilemedi."
+msgstr[1] "SmokyForms: %s gönderim size e-postayla iletilemedi."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Göster"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "Gönderim iletildi ve bu listeden kaldırıldı."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "Gönderim yine iletilemedi. E-posta gönderimi ayarlarını kontrol edin."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "Gönderim silindi."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Ulaşmayan gönderimler"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Bu gönderimler formlarınız üzerinden geldi, ancak size giden bildirim e-postası gönderilemedi. Kaybolmasınlar diye burada tutulur ve Ayarlar'da belirlenen gün sayısından sonra otomatik olarak silinir."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Burada bir şey yok. Tüm bildirimler iletildi."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "E-posta gönderimi ayarlarını kontrol edin"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Silinmiş form"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Neden:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Tekrar gönder"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Bu gönderim kalıcı olarak silinsin mi?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Evet, sil"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Lütfen robot olmadığınızı doğrulayın."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "Robot kontrolü başarısız oldu. Lütfen tekrar deneyin."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Tek satır metin"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Paragraf metni"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "E-posta"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Web sitesi"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Açılır liste"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Çoktan seçmeli"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Onay kutuları"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Tarih"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Gizli alan"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Onay kutusu (izin)"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Bu alan zorunludur."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Lütfen geçerli bir e-posta adresi girin."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Lütfen geçerli bir web sitesi adresi girin."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Lütfen geçerli bir telefon numarası girin."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Lütfen bir sayı girin."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Lütfen en az %s olan bir sayı girin."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Lütfen en fazla %s olan bir sayı girin."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Lütfen geçerli bir tarih girin."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Lütfen seçeneklerden birini seçin."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "Hayır"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Formlarda ara"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Henüz form yok."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "Çöp kutusunda form yok."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Gönder"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Teşekkürler! Mesajınız gönderildi."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Yeni gönderim: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Mesajınız için teşekkürler"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Merhaba,\n"
+"\n"
+"bizimle iletişime geçtiğiniz için teşekkür ederiz. Mesajınızı aldık, en kısa sürede yanıt vereceğiz.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Tüm cevaplar"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Site adı"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "Site yöneticisi e-postası"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Tarih ve saat"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Formun bulunduğu sayfa"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "Site e-postayı gönderemedi."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: bu form mevcut değil."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "Bu alanı boş bırakın"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Lütfen formu kontrol edip tekrar deneyin."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Seçin…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "Gönderiliyor…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "Form gönderilemedi. Lütfen tekrar deneyin."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Yok"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "Form kontrol edilemedi. Lütfen sayfayı yenileyip tekrar deneyin."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "Bu çok hızlıydı. Lütfen biraz bekleyip formu tekrar gönderin."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "Çok fazla gönderim. Lütfen bir dakika bekleyip tekrar deneyin."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Boş form"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Boş bir formla başlayın."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "İletişim formu"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Ad, e-posta, telefon ve mesaj."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Fiyat teklifi talebi"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "Hizmet, ekstralar ve büyüklük tahmini bir fiyat verir."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Hizmet"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Standart temizlik"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Detaylı temizlik"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Büyüklük (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Ekstralar"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Camlar"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Balkon"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Fırın"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Tahmini fiyat"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Sipariş formu"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Adetli ürünler, teslimat ve belli bir tutarın üzerinde indirim."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Ürün A – tanesi 12.00"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Ürün B – tanesi 18.50"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Teslimat"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Gel al"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Standart"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Ekspres"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Ara toplam"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "İndirim (100 üzerine %10)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Toplam"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Gece sayılı rezervasyon"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Giriş ve çıkış tarihleri gece sayısını ve fiyatı verir."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Rezervasyon talebi"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Giriş"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Çıkış"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Oda"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Standart – gecesi 80"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Suit – gecesi 140"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Gece"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Fiyat"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Bölge ve paket boyutu tablosundan kargo ücreti."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Kargo ücreti"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Bölge"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Bölge 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Bölge 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Bölge 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Paket"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Küçük"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Orta"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Büyük"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Kargo ücretleri"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "VKİ hesaplayıcı"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Boy ve kilodan vücut kitle indeksi."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Boy (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Kilo (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "VKİ değeriniz"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Gönder"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Kredi hesaplayıcı"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Tutar, faiz oranı ve vadeden aylık taksit."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Kredi tutarı"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Yıllık faiz oranı (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Vade (ay)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Aylık taksit"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Deneme e-postası"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Bu bir deneme e-postasıdır. Okuyabiliyorsanız e-posta gönderimi çalışıyor."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Deneme e-postası %s adresine gönderildi. Gelen kutusunu ve istenmeyen klasörünü kontrol edin."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "Deneme e-postası gönderilemedi."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Birçok barındırma firması WordPress e-postalarını geç ya da istenmeyen klasörüne iletir. E-postaları e-posta sağlayıcınızın SMTP hesabı üzerinden göndermek, ayrı bir SMTP eklentisine gerek kalmadan bunu çözer."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Bu ayarlar şunlar tarafından ortak kullanılır: %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s etkin ve e-posta gönderimini yönetiyor, bu yüzden bu ayarlar kullanılmıyor."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "E-postaları bir SMTP hesabı üzerinden gönder"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Sadece SmokySystems eklentilerinin e-postaları"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "Bu sitenin tüm e-postaları"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP sunucusu"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Bağlantı noktası"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Şifreleme"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Şifreleme yok"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Parola"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "Parola wp-config.php dosyasında tanımlı."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Kayıtlı bir parola var. Korumak için boş bırakın."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Kayıtlı parolayı kaldır"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Gönderen e-posta"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "SMTP hesabına ait bir adres kullanın, aksi halde birçok sağlayıcı e-postayı reddeder."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Gönderen adı"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Deneme e-postası gönder"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Hesaplamalı sürükle bırak form oluşturucu"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Hesaplamaların ücretsiz olduğu sürükle bırak form oluşturucu. İletişim formları, fiyat teklifi ve sipariş formları ile hesaplayıcıları formül yazmadan oluşturun."

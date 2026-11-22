@@ -1,0 +1,325 @@
+055dcf|Scegli un modulo
+d359c6|Modulo
+e0a02c|Non hai ancora moduli. Creane uno in SmokyForms, nel menu di amministrazione.
+28ab5c|Scegli il modulo da mostrare qui.
+a86405|Campi di base
+6ef697|Scelte
+5939b5|Campi speciali
+ebd9be|Layout
+f56462|se … allora … altrimenti
+7f7bde|if(condizione, valore se vero, valore se falso)
+b7f41f|Arrotonda
+2e0e8d|round(valore, decimali)
+a3ab97|Il più piccolo
+73fc19|min(a, b, …)
+f8c8f8|Il più grande
+8902cb|max(a, b, …)
+ecb62b|Giorni tra due date
+a6db34|days(data iniziale, data finale)
+6ff145|Arrotonda per difetto
+c17f8d|Arrotonda per eccesso
+99e006|Senza segno
+921c8e|Radice quadrata
+1fe7e9|Prima scelta
+580834|Seconda scelta
+c1dd36|Terza scelta
+1bbdf1|Consenso
+a816e9|Acconsento alla conservazione e al trattamento dei miei dati da parte di questo sito.
+7ef25f|Blocco di testo
+3b4836|Titolo di sezione
+be5d5d|e
+e81c4e|o
+35c798|Blocco di testo vuoto
+b0ebea|Nessuna formula
+222a8b|Nessuna etichetta
+a4f784|Fai clic sui campi dell’elenco a sinistra o trascinali.
+85e07c|Campo: %s
+f77af7|Sposta su
+dd9f0c|Sposta giù
+ed7571|Duplica
+f2a6c4|Elimina
+458b9d|Scelta
+38b2db|Valore nei calcoli
+7a1920|Predefinita
+ceb473|Rimuovi scelta
+015d41|Scelta %d
+d02f3c|Aggiungi scelta
+c9739f|Il valore è ciò che questa scelta conta in un calcolo, per esempio il suo prezzo. Per le caselle di controllo si sommano i valori di tutte le scelte spuntate.
+d61d8d|Campo mancante: %s
+a1b32d|Fai clic sui campi e sugli operatori qui sotto per costruire il calcolo.
+5de039|Costruisci con i clic
+878cdc|Scrivi la formula
+1cdc07|Annulla
+dc30bc|Svuota
+a4ca5e|Campi
+443847|Aggiungi prima campi numero, scelta o data; compariranno qui.
+b3c582|Operatori
+dd4fe0|Potenza
+8730cc|Resto
+e9b53a|Virgola (tra i valori di una funzione)
+b2ee91|Numero
+ca3aeb|Aggiungi numero
+229eb0|Condizioni
+e93acb|Funzioni
+9551cd|Tabella prezzi
+51c45b|Tabella
+9db33f|Riga in base alla risposta di
+7876f8|Colonna in base alla risposta di
+38dded|Una sola colonna
+2c4e05|Inserisci prezzo
+313a6a|Formula
+d9f37b|I campi si scrivono come {field_id}. Esempio: {price} * {quantity} + 5
+c66f2e|La formula non è ancora completa. Controlla parentesi, virgole e operatori.
+cc3a57|La formula è valida.
+5fd411|Prova
+5aac38|Risultato:
+1767e5|Seleziona un campo per modificarne le impostazioni.
+010131|Titolo
+b021df|Etichetta
+b651ef|Obbligatorio
+6224e6|Testo prima della scelta
+68753d|Segnaposto
+31ce3c|Valore predefinito
+48c7c4|Incremento
+56eb52|Testo accanto alla casella
+58cf98|Sono ammessi link, per esempio alla tua informativa sulla privacy.
+9dffbf|Testo
+716124|È ammesso HTML di base.
+3ea4f7|Calcolo
+b51e59|Prima del risultato
+62cfd9|Per esempio $
+5c6290|Dopo il risultato
+d41a8c|Per esempio € o kg
+2b4178|Decimali
+e7c868|Mostra il risultato nel modulo
+16feb3|Disattiva per un passaggio intermedio usato solo da altri calcoli. Il risultato è comunque nell’email.
+c10b7d|Testo di aiuto
+329546|Larghezza
+24e61d|Larghezza piena
+e4bb63|Mezza larghezza
+42aa94|ID del campo
+98fa53|Si usa nelle formule come {%1$s} e nelle email come {field:%1$s}. Modificandolo si aggiornano le formule di questo modulo.
+08aeea|Una tabella prezzi dà un valore per ogni risposta, o per ogni combinazione di due risposte (per esempio zona e dimensione del pacco). Usala in un calcolo con «Tabella prezzi». I nomi di righe e colonne devono essere scritti esattamente come le scelte dei campi.
+49ee30|Nome
+6c3798|ID: %s
+c0dd3a|Righe dalle scelte di
+923419|Colonne dalle scelte di
+710b83|Nome della colonna
+689202|Valore
+dbe735|Nome della riga
+d8353e|Riga %d
+19f6e2|Aggiungi riga
+7bce62|Colonna %d
+b61b8f|Aggiungi colonna
+8b0629|Rimuovi l’ultima riga
+99a139|Rimuovi l’ultima colonna
+9c6803|Elimina tabella
+531553|Riga 1
+450423|Aggiungi tabella prezzi
+1aefc6|Puoi usare:
+19002d|Risposta di un campo
+0db377|Generale
+111082|Testo del pulsante
+8da5e2|Messaggio dopo l’invio
+f52ff0|Oppure vai a questa pagina dopo l’invio
+aac08d|Lascia vuoto per mostrare invece il messaggio.
+291d69|CAPTCHA
+86dc8e|Proteggi questo modulo con il CAPTCHA configurato nelle Impostazioni.
+539ec8|Nessun CAPTCHA è ancora configurato. Puoi aggiungerne uno in SmokyForms > Impostazioni. Il campo trappola e il controllo del tempo proteggono comunque ogni modulo.
+74b72d|Notifica per te
+48ff32|SmokyForms non salva le voci; ogni voce ti viene inviata per email. Se l’email non va a buon fine, la voce viene conservata in SmokyForms > Non consegnate.
+d245dd|Inviami un’email per ogni voce
+c973ca|Invia a
+61739f|Separa più indirizzi con virgole.
+c7892e|Oggetto
+4c2a8f|Messaggio
+8970db|Conferma al visitatore
+71baeb|Invia al visitatore un’email di conferma
+b6c0d5|Indirizzo dal campo
+7a2be4|Aggiungi prima un campo Email al modulo.
+45949d|Aggiungi nuovo modulo
+79fd79|Inizia con un modulo pronto o con uno vuoto. Tutti i modelli, calcolatori compresi, sono gratuiti.
+cc7b22|Non è stato possibile salvare il modulo.
+21954b|Tutti i moduli
+00cd1f|Nome del modulo
+6feadb|Shortcode
+eedf6b|Salvataggio…
+4abf00|Salva modulo
+35cb6e|Tabelle prezzi
+f4f707|Impostazioni
+864bac|Aggiungilo a una pagina con il blocco SmokyForms o con lo shortcode.
+604a9a|Hai modifiche non salvate.
+6866cc|Questo modulo non esiste.
+d50431|Modulo senza titolo
+782d19|Modulo salvato.
+84ad74|Modifica modulo &lsaquo; %s
+2835b7|Non hai il permesso di farlo.
+39741d|Modifica modulo
+a986be|Caricamento del costruttore di moduli…
+6db07c|Il costruttore di moduli richiede JavaScript.
+c50eda|Non consegnate
+77c751|%s (copia)
+645024|Moduli
+cc06ee|Impostazioni di SmokyForms
+cb7fd7|Invio email
+2932b4|Protezione dallo spam
+ef7330|Ogni modulo ha un campo trappola nascosto e un controllo del tempo. In più puoi aggiungere un CAPTCHA; viene usato in ogni modulo in cui è attivato nelle impostazioni del modulo.
+aac82e|Cloudflare Turnstile è gratuito e di solito non chiede rompicapi ai tuoi visitatori.
+f75d8f|Chiave del sito
+952bf8|Chiave segreta
+6b2bed|Salvata. Lascia vuoto per mantenerla.
+3827d8|Controllo del tempo
+783e8e|secondi
+615249|I moduli inviati più velocemente di così dopo il caricamento della pagina sono considerati spam. 0 disattiva il controllo.
+4def17|Notifiche non consegnate
+9f5630|SmokyForms non salva le voci; ti vengono inviate per email. Se un’email di notifica non può essere inviata, la voce viene conservata per non perderla e puoi inviarla di nuovo da SmokyForms > Non consegnate.
+f24a17|Conserva per
+44fdec|giorni
+c89567|SmokyForms: %s voce non ti è stata inviata per email. ¦ SmokyForms: %s voci non ti sono state inviate per email.
+498f79|Mostra
+effa85|La voce è stata inviata e rimossa da questo elenco.
+f9eafc|La voce non è ancora stata inviata. Controlla le impostazioni di invio email.
+80da2c|La voce è stata eliminata.
+24c070|Voci non consegnate
+c0d482|Queste voci sono arrivate dai tuoi moduli, ma l’email di notifica non ti è stata recapitata. Sono conservate qui per non perderle ed eliminate automaticamente dopo il numero di giorni impostato nelle Impostazioni.
+5a569c|Qui non c’è nulla. Tutte le notifiche sono state consegnate.
+0426b1|Controlla le impostazioni di invio email
+ef546f|Modulo eliminato
+ccb168|Motivo:
+50ab1d|Invia di nuovo
+50d0b5|Eliminare definitivamente questa voce?
+b21c60|Sì, elimina
+ccf88f|Conferma di non essere un robot.
+296449|Il controllo anti-robot non è riuscito. Riprova.
+cd72d3|Testo su una riga
+c5a5c5|Paragrafo
+ce8ae9|Email
+bcc254|Telefono
+15bbb9|Sito web
+7498c4|Menu a tendina
+6893e5|Scelta singola
+c425f2|Caselle di controllo
+447497|Data
+019003|Campo nascosto
+00b768|Casella di consenso
+9303c9|Questo campo è obbligatorio.
+b5bccd|Inserisci un indirizzo email valido.
+86062b|Inserisci un indirizzo web valido.
+772407|Inserisci un numero di telefono valido.
+c2cb00|Inserisci un numero.
+69dfa7|Inserisci un numero di almeno %s.
+caf8d8|Inserisci un numero di al massimo %s.
+773fcd|Inserisci una data valida.
+e3264a|Scegli una delle opzioni.
+93cba0|Sì
+bafd73|No
+a6c2b9|Cerca moduli
+60caa9|Nessun modulo.
+6a1885|Nessun modulo nel cestino.
+a4d3b1|Invia
+279099|Grazie! Il tuo messaggio è stato inviato.
+48b55f|Nuova voce: {form_title}
+81a012|Grazie per il tuo messaggio
+d93e6b|Ciao,\n\ngrazie per averci contattato. Abbiamo ricevuto il tuo messaggio e ti risponderemo presto.\n\n{all_fields}
+1d6990|Tutte le risposte
+816667|Nome del sito
+e91f72|Email dell’amministratore del sito
+2b0b7c|Data e ora
+7012e0|Pagina del modulo
+151dca|Il sito non è riuscito a inviare l’email.
+6ac40c|SmokyForms: questo modulo non esiste.
+7a4842|Lascia vuoto questo campo
+28b263|Controlla il modulo e riprova.
+3f6c9a|Scegli…
+4d01e8|Invio in corso…
+f83b39|Non è stato possibile inviare il modulo. Riprova.
+6adf97|Nessuno
+5bf1f6|Non è stato possibile verificare il modulo. Ricarica la pagina e riprova.
+5934a3|È stato molto veloce. Attendi un momento e invia di nuovo il modulo.
+453e43|Troppi invii. Attendi un minuto e riprova.
+57c955|Modulo vuoto
+dc8972|Parti da un modulo vuoto.
+c661cf|Modulo di contatto
+dabe9b|Nome, email, telefono e messaggio.
+5d1cbd|Richiesta di preventivo
+0269ab|Servizio, extra e superficie danno un prezzo stimato.
+c2ba7e|Servizio
+9986c1|Pulizia di base
+cc16d7|Pulizia approfondita
+e285c9|Superficie (m²)
+0a3f08|Extra
+aea234|Finestre
+2623fa|Balcone
+482690|Forno
+cebbfc|Prezzo stimato
+655157|Modulo d’ordine
+3a11e0|Prodotti con quantità, consegna e sconto sopra un importo.
+70fc36|Prodotto A – 12.00 cad.
+6e18dd|Prodotto B – 18.50 cad.
+065ab3|Consegna
+9ae3c9|Ritiro
+eb6d8a|Standard
+b144fa|Express
+2194aa|Subtotale
+48909c|Sconto (10% sopra 100)
+96b014|Totale
+6fb3df|Prenotazione con notti
+80068a|Le date di arrivo e partenza danno il numero di notti e il prezzo.
+83bb56|Richiesta di prenotazione
+885b3c|Arrivo
+5be0fa|Partenza
+cc3abc|Camera
+3bf8f2|Standard – 80 a notte
+3ac878|Suite – 140 a notte
+e10758|Notti
+360114|Prezzo
+e6e2d9|Costo di spedizione da una tabella di zone e dimensioni del pacco.
+0ea6b9|Costo di spedizione
+b3ff99|Zona
+93b3d7|Zona 1
+ac4ff7|Zona 2
+c48837|Zona 3
+f38e90|Pacco
+266006|Piccolo
+87f8a6|Medio
+3a69b3|Grande
+3e1c4b|Costi di spedizione
+348100|Calcolatore BMI
+d7659b|Indice di massa corporea da altezza e peso.
+20fbaa|Altezza (cm)
+917216|Peso (kg)
+869598|Il tuo BMI
+94966d|Invia
+f3cda5|Calcolatore di prestito
+cb8a5f|Rata mensile da importo, tasso di interesse e durata.
+59efa4|Importo del prestito
+202d38|Tasso di interesse annuo (%)
+a92ac9|Durata (mesi)
+647bd0|Rata mensile
+d0bcd3|Email di prova
+a7498e|Questa è un’email di prova. Se riesci a leggerla, l’invio delle email funziona.
+9a7e58|Impostazioni salvate.
+a3fb23|L’email di prova è stata inviata a %s. Controlla la posta in arrivo e la cartella spam.
+33de89|Non è stato possibile inviare l’email di prova.
+3a9486|Molti hosting consegnano le email di WordPress in ritardo o nella cartella spam. Inviarle tramite l’account SMTP del tuo provider di posta risolve il problema, senza un plugin SMTP separato.
+05449a|Queste impostazioni sono condivise da %s.
+51e4ba|%s è attivo e gestisce l’invio delle email, quindi queste impostazioni non vengono usate.
+c2239a|SMTP
+4d7db2|Invia le email tramite un account SMTP
+adac9e|Solo le email dei plugin SmokySystems
+f8f5e1|Tutte le email di questo sito
+bdd48f|Server SMTP
+60aaf4|Porta
+d7f261|Crittografia
+151adf|Nessuna crittografia
+f6039d|Nome utente
+dc647e|Password
+c6e6fb|La password è impostata in wp-config.php.
+0b5899|È salvata una password. Lascia vuoto per mantenerla.
+d7381f|Rimuovi la password salvata
+3b4d50|Email del mittente
+250019|Usa un indirizzo dell’account SMTP, altrimenti molti provider rifiutano l’email.
+c3a7ea|Nome del mittente
+ee1851|Invia email di prova
+7caa16|SmokyForms – Costruttore di moduli drag and drop con calcoli
+9958f8|Costruttore di moduli drag and drop con calcoli gratuiti. Crea moduli di contatto, di preventivo e d’ordine e calcolatori senza scrivere formule.

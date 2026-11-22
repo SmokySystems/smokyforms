@@ -1,0 +1,325 @@
+055dcf|Valitse lomake
+d359c6|Lomake
+e0a02c|Sinulla ei ole vielä lomakkeita. Luo lomake SmokyFormsissa hallintavalikossa.
+28ab5c|Valitse tässä näytettävä lomake.
+a86405|Peruskentät
+6ef697|Valinnat
+5939b5|Erikoiskentät
+ebd9be|Asettelu
+f56462|jos … niin … muuten
+7f7bde|if(ehto, arvo jos tosi, arvo jos epätosi)
+b7f41f|Pyöristä
+2e0e8d|round(arvo, desimaalit)
+a3ab97|Pienin
+73fc19|min(a, b, …)
+f8c8f8|Suurin
+8902cb|max(a, b, …)
+ecb62b|Päiviä päivämäärien välillä
+a6db34|days(alkupäivä, loppupäivä)
+6ff145|Pyöristä alaspäin
+c17f8d|Pyöristä ylöspäin
+99e006|Ilman etumerkkiä
+921c8e|Neliöjuuri
+1fe7e9|Ensimmäinen vaihtoehto
+580834|Toinen vaihtoehto
+c1dd36|Kolmas vaihtoehto
+1bbdf1|Suostumus
+a816e9|Hyväksyn, että tämä sivusto tallentaa ja käsittelee tietojani.
+7ef25f|Tekstilohko
+3b4836|Osion otsikko
+be5d5d|ja
+e81c4e|tai
+35c798|Tyhjä tekstilohko
+b0ebea|Ei vielä kaavaa
+222a8b|Ei nimikettä
+a4f784|Napsauta tai vedä kenttiä vasemmalla olevasta luettelosta.
+85e07c|Kenttä: %s
+f77af7|Siirrä ylös
+dd9f0c|Siirrä alas
+ed7571|Monista
+f2a6c4|Poista
+458b9d|Vaihtoehto
+38b2db|Arvo laskelmissa
+7a1920|Oletus
+ceb473|Poista vaihtoehto
+015d41|Vaihtoehto %d
+d02f3c|Lisää vaihtoehto
+c9739f|Arvo on se, mitä vaihtoehto laskelmassa tarkoittaa, esimerkiksi sen hinta. Valintaruuduissa kaikkien valittujen vaihtoehtojen arvot lasketaan yhteen.
+d61d8d|Puuttuva kenttä: %s
+a1b32d|Napsauta alla olevia kenttiä ja operaattoreita rakentaaksesi laskelman.
+5de039|Rakenna napsauttamalla
+878cdc|Kirjoita kaava
+1cdc07|Kumoa
+dc30bc|Tyhjennä
+a4ca5e|Kentät
+443847|Lisää ensin numero-, valinta- tai päivämääräkenttiä; ne näkyvät tässä.
+b3c582|Operaattorit
+dd4fe0|Potenssi
+8730cc|Jakojäännös
+e9b53a|Pilkku (funktion arvojen välissä)
+b2ee91|Numero
+ca3aeb|Lisää numero
+229eb0|Ehdot
+e93acb|Funktiot
+9551cd|Hintataulukko
+51c45b|Taulukko
+9db33f|Rivi kentän vastauksen mukaan
+7876f8|Sarake kentän vastauksen mukaan
+38dded|Vain yksi sarake
+2c4e05|Lisää hinta
+313a6a|Kaava
+d9f37b|Kentät kirjoitetaan muodossa {field_id}. Esimerkki: {price} * {quantity} + 5
+c66f2e|Kaava ei ole vielä valmis. Tarkista sulkeet, pilkut ja operaattorit.
+cc3a57|Kaava on kelvollinen.
+5fd411|Kokeile
+5aac38|Tulos:
+1767e5|Valitse kenttä muuttaaksesi sen asetuksia.
+010131|Otsikko
+b021df|Nimike
+b651ef|Pakollinen
+6224e6|Teksti ennen valintaa
+68753d|Paikkamerkki
+31ce3c|Oletusarvo
+48c7c4|Askel
+56eb52|Teksti valintaruudun vieressä
+58cf98|Linkit ovat sallittuja, esimerkiksi tietosuojaselosteeseesi.
+9dffbf|Teksti
+716124|Yksinkertainen HTML on sallittu.
+3ea4f7|Laskelma
+b51e59|Ennen tulosta
+62cfd9|Esimerkiksi $
+5c6290|Tuloksen jälkeen
+d41a8c|Esimerkiksi € tai kg
+2b4178|Desimaalit
+e7c868|Näytä tulos lomakkeessa
+16feb3|Poista käytöstä välivaiheelta, jota vain muut laskelmat käyttävät. Tulos näkyy silti sähköpostissa.
+c10b7d|Ohjeteksti
+329546|Leveys
+24e61d|Koko leveys
+e4bb63|Puolikas leveys
+42aa94|Kentän tunniste
+98fa53|Käytetään kaavoissa muodossa {%1$s} ja sähköposteissa muodossa {field:%1$s}. Muuttaminen päivittää tämän lomakkeen kaavat.
+08aeea|Hintataulukko antaa arvon jokaiselle vastaukselle tai jokaiselle kahden vastauksen yhdistelmälle (esimerkiksi vyöhyke ja paketin koko). Käytä sitä laskelmassa kohdasta ”Hintataulukko”. Rivien ja sarakkeiden nimet on kirjoitettava täsmälleen kuten kenttien vaihtoehdot.
+49ee30|Nimi
+6c3798|Tunniste: %s
+c0dd3a|Rivit kentän vaihtoehdoista
+923419|Sarakkeet kentän vaihtoehdoista
+710b83|Sarakkeen nimi
+689202|Arvo
+dbe735|Rivin nimi
+d8353e|Rivi %d
+19f6e2|Lisää rivi
+7bce62|Sarake %d
+b61b8f|Lisää sarake
+8b0629|Poista viimeinen rivi
+99a139|Poista viimeinen sarake
+9c6803|Poista taulukko
+531553|Rivi 1
+450423|Lisää hintataulukko
+1aefc6|Voit käyttää:
+19002d|Yhden kentän vastaus
+0db377|Yleiset
+111082|Painikkeen teksti
+8da5e2|Viesti lähettämisen jälkeen
+f52ff0|Tai siirry tälle sivulle lähettämisen jälkeen
+aac08d|Jätä tyhjäksi, niin viesti näytetään.
+291d69|CAPTCHA
+86dc8e|Suojaa tämä lomake asetuksissa määritetyllä CAPTCHAlla.
+539ec8|CAPTCHAa ei ole vielä määritetty. Voit lisätä sen kohdassa SmokyForms > Asetukset. Ansakenttä ja aikatarkistus suojaavat joka tapauksessa jokaista lomaketta.
+74b72d|Ilmoitus sinulle
+48ff32|SmokyForms ei tallenna lähetyksiä; jokainen lähetys lähetetään sinulle sähköpostilla. Jos sähköposti epäonnistuu, lähetys säilytetään kohdassa SmokyForms > Toimittamatta.
+d245dd|Lähetä minulle sähköposti jokaisesta lähetyksestä
+c973ca|Vastaanottaja
+61739f|Erota useat osoitteet pilkuilla.
+c7892e|Aihe
+4c2a8f|Viesti
+8970db|Vahvistus kävijälle
+71baeb|Lähetä kävijälle vahvistusviesti
+b6c0d5|Osoite kentästä
+7a2be4|Lisää lomakkeeseen ensin sähköpostikenttä.
+45949d|Lisää uusi lomake
+79fd79|Aloita valmiilla tai tyhjällä lomakkeella. Kaikki mallit, myös laskurit, ovat ilmaisia.
+cc7b22|Lomaketta ei voitu tallentaa.
+21954b|Kaikki lomakkeet
+00cd1f|Lomakkeen nimi
+6feadb|Lyhytkoodi
+eedf6b|Tallennetaan…
+4abf00|Tallenna lomake
+35cb6e|Hintataulukot
+f4f707|Asetukset
+864bac|Lisää se sivulle SmokyForms-lohkolla tai lyhytkoodilla.
+604a9a|Sinulla on tallentamattomia muutoksia.
+6866cc|Tätä lomaketta ei ole olemassa.
+d50431|Nimetön lomake
+782d19|Lomake tallennettu.
+84ad74|Muokkaa lomaketta &lsaquo; %s
+2835b7|Sinulla ei ole oikeutta tehdä tätä.
+39741d|Muokkaa lomaketta
+a986be|Lomakerakentajaa ladataan…
+6db07c|Lomakerakentaja tarvitsee JavaScriptin.
+c50eda|Toimittamatta
+77c751|%s (kopio)
+645024|Lomakkeet
+cc06ee|SmokyFormsin asetukset
+cb7fd7|Sähköpostien lähetys
+2932b4|Roskapostisuojaus
+ef7330|Jokaisessa lomakkeessa on piilotettu ansakenttä ja aikatarkistus. Lisäksi voit lisätä CAPTCHAn; sitä käytetään jokaisessa lomakkeessa, jossa se on otettu käyttöön lomakkeen asetuksissa.
+aac82e|Cloudflare Turnstile on ilmainen eikä yleensä vaadi kävijöiltä pulmien ratkaisemista.
+f75d8f|Sivuston avain
+952bf8|Salainen avain
+6b2bed|Tallennettu. Jätä tyhjäksi säilyttääksesi sen.
+3827d8|Aikatarkistus
+783e8e|sekuntia
+615249|Lomakkeet, jotka lähetetään tätä nopeammin sivun latautumisen jälkeen, katsotaan roskapostiksi. 0 poistaa tarkistuksen käytöstä.
+4def17|Toimittamattomat ilmoitukset
+9f5630|SmokyForms ei tallenna lähetyksiä; ne lähetetään sinulle sähköpostilla. Jos ilmoitusta ei voida lähettää, lähetys säilytetään, jotta se ei katoa, ja voit lähettää sen uudelleen kohdassa SmokyForms > Toimittamatta.
+f24a17|Säilytä
+44fdec|päivää
+c89567|SmokyForms: %s lähetystä ei voitu lähettää sinulle sähköpostilla. ¦ SmokyForms: %s lähetystä ei voitu lähettää sinulle sähköpostilla.
+498f79|Näytä
+effa85|Lähetys lähetettiin ja poistettiin luettelosta.
+f9eafc|Lähetystä ei vieläkään voitu lähettää. Tarkista sähköpostien lähetysasetukset.
+80da2c|Lähetys poistettiin.
+24c070|Toimittamattomat lähetykset
+c0d482|Nämä lähetykset tulivat lomakkeidesi kautta, mutta ilmoitus sinulle epäonnistui. Ne säilytetään täällä, jotta ne eivät katoa, ja poistetaan automaattisesti asetuksissa määritetyn päivämäärän jälkeen.
+5a569c|Täällä ei ole mitään. Kaikki ilmoitukset on toimitettu.
+0426b1|Tarkista sähköpostien lähetysasetukset
+ef546f|Poistettu lomake
+ccb168|Syy:
+50ab1d|Lähetä uudelleen
+50d0b5|Poistetaanko tämä lähetys pysyvästi?
+b21c60|Kyllä, poista
+ccf88f|Vahvista, ettet ole robotti.
+296449|Robottitarkistus epäonnistui. Yritä uudelleen.
+cd72d3|Yksirivinen teksti
+c5a5c5|Kappaleteksti
+ce8ae9|Sähköposti
+bcc254|Puhelin
+15bbb9|Verkkosivusto
+7498c4|Pudotusvalikko
+6893e5|Monivalinta
+c425f2|Valintaruudut
+447497|Päivämäärä
+019003|Piilotettu kenttä
+00b768|Suostumusruutu
+9303c9|Tämä kenttä on pakollinen.
+b5bccd|Anna kelvollinen sähköpostiosoite.
+86062b|Anna kelvollinen verkko-osoite.
+772407|Anna kelvollinen puhelinnumero.
+c2cb00|Anna numero.
+69dfa7|Anna numero, joka on vähintään %s.
+caf8d8|Anna numero, joka on enintään %s.
+773fcd|Anna kelvollinen päivämäärä.
+e3264a|Valitse yksi vaihtoehdoista.
+93cba0|Kyllä
+bafd73|Ei
+a6c2b9|Hae lomakkeita
+60caa9|Ei vielä lomakkeita.
+6a1885|Roskakorissa ei ole lomakkeita.
+a4d3b1|Lähetä
+279099|Kiitos! Viestisi on lähetetty.
+48b55f|Uusi lähetys: {form_title}
+81a012|Kiitos viestistäsi
+d93e6b|Hei,\n\nkiitos yhteydenotostasi. Olemme vastaanottaneet viestisi ja vastaamme pian.\n\n{all_fields}
+1d6990|Kaikki vastaukset
+816667|Sivuston nimi
+e91f72|Sivuston ylläpitäjän sähköposti
+2b0b7c|Päivämäärä ja aika
+7012e0|Lomakkeen sivu
+151dca|Sivusto ei voinut lähettää sähköpostia.
+6ac40c|SmokyForms: tätä lomaketta ei ole olemassa.
+7a4842|Jätä tämä kenttä tyhjäksi
+28b263|Tarkista lomake ja yritä uudelleen.
+3f6c9a|Valitse…
+4d01e8|Lähetetään…
+f83b39|Lomaketta ei voitu lähettää. Yritä uudelleen.
+6adf97|Ei mitään
+5bf1f6|Lomaketta ei voitu tarkistaa. Lataa sivu uudelleen ja yritä uudelleen.
+5934a3|Se oli hyvin nopeaa. Odota hetki ja lähetä lomake uudelleen.
+453e43|Liian monta lähetystä. Odota minuutti ja yritä uudelleen.
+57c955|Tyhjä lomake
+dc8972|Aloita tyhjällä lomakkeella.
+c661cf|Yhteydenottolomake
+dabe9b|Nimi, sähköposti, puhelin ja viesti.
+5d1cbd|Tarjouspyyntö
+0269ab|Palvelu, lisät ja pinta-ala antavat arviohinnan.
+c2ba7e|Palvelu
+9986c1|Perussiivous
+cc16d7|Perusteellinen siivous
+e285c9|Pinta-ala (m²)
+0a3f08|Lisät
+aea234|Ikkunat
+2623fa|Parveke
+482690|Uuni
+cebbfc|Arviohinta
+655157|Tilauslomake
+3a11e0|Tuotteet määrineen, toimitus ja alennus tietyn summan ylittyessä.
+70fc36|Tuote A – 12.00 kpl
+6e18dd|Tuote B – 18.50 kpl
+065ab3|Toimitus
+9ae3c9|Nouto
+eb6d8a|Normaali
+b144fa|Pika
+2194aa|Välisumma
+48909c|Alennus (10 % yli 100)
+96b014|Yhteensä
+6fb3df|Varaus öineen
+80068a|Saapumis- ja lähtöpäivä antavat öiden määrän ja hinnan.
+83bb56|Varauspyyntö
+885b3c|Saapuminen
+5be0fa|Lähtö
+cc3abc|Huone
+3bf8f2|Normaali – 80 / yö
+3ac878|Sviitti – 140 / yö
+e10758|Yöt
+360114|Hinta
+e6e2d9|Toimitusmaksu vyöhykkeiden ja pakettikokojen taulukosta.
+0ea6b9|Toimitusmaksu
+b3ff99|Vyöhyke
+93b3d7|Vyöhyke 1
+ac4ff7|Vyöhyke 2
+c48837|Vyöhyke 3
+f38e90|Paketti
+266006|Pieni
+87f8a6|Keskikokoinen
+3a69b3|Suuri
+3e1c4b|Toimitusmaksut
+348100|BMI-laskuri
+d7659b|Painoindeksi pituuden ja painon perusteella.
+20fbaa|Pituus (cm)
+917216|Paino (kg)
+869598|Painoindeksisi
+94966d|Lähetä
+f3cda5|Lainalaskuri
+cb8a5f|Kuukausierä summan, korkokannan ja laina-ajan perusteella.
+59efa4|Lainasumma
+202d38|Vuosikorko (%)
+a92ac9|Laina-aika (kuukautta)
+647bd0|Kuukausierä
+d0bcd3|Testiviesti
+a7498e|Tämä on testiviesti. Jos voit lukea sen, sähköpostien lähetys toimii.
+9a7e58|Asetukset tallennettu.
+a3fb23|Testiviesti lähetettiin osoitteeseen %s. Tarkista saapuneet ja roskapostikansio.
+33de89|Testiviestiä ei voitu lähettää.
+3a9486|Monet palveluntarjoajat toimittavat WordPressin sähköpostit myöhässä tai roskapostiin. Lähettäminen sähköpostipalvelusi SMTP-tilin kautta korjaa tämän ilman erillistä SMTP-lisäosaa.
+05449a|Nämä asetukset jakaa %s.
+51e4ba|%s on käytössä ja hoitaa sähköpostien lähetyksen, joten näitä asetuksia ei käytetä.
+c2239a|SMTP
+4d7db2|Lähetä sähköpostit SMTP-tilin kautta
+adac9e|Vain SmokySystems-lisäosien sähköpostit
+f8f5e1|Kaikki tämän sivuston sähköpostit
+bdd48f|SMTP-palvelin
+60aaf4|Portti
+d7f261|Salaus
+151adf|Ei salausta
+f6039d|Käyttäjätunnus
+dc647e|Salasana
+c6e6fb|Salasana on määritetty tiedostossa wp-config.php.
+0b5899|Salasana on tallennettu. Jätä tyhjäksi säilyttääksesi sen.
+d7381f|Poista tallennettu salasana
+3b4d50|Lähettäjän sähköposti
+250019|Käytä SMTP-tilin osoitetta, muuten monet palvelut hylkäävät viestin.
+c3a7ea|Lähettäjän nimi
+ee1851|Lähetä testiviesti
+7caa16|SmokyForms – Vedä ja pudota -lomakerakentaja laskelmilla
+9958f8|Vedä ja pudota -lomakerakentaja ilmaisilla laskelmilla. Luo yhteydenotto-, tarjous- ja tilauslomakkeita sekä laskureita kirjoittamatta kaavoja.

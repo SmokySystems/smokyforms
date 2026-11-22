@@ -1,0 +1,325 @@
+055dcf|Vali vorm
+d359c6|Vorm
+e0a02c|Sul pole veel vorme. Loo vorm halduse menüüs SmokyFormsi all.
+28ab5c|Vali vorm, mida siin näidatakse.
+a86405|Põhiväljad
+6ef697|Valikud
+5939b5|Eriväljad
+ebd9be|Paigutus
+f56462|kui … siis … muidu
+7f7bde|if(tingimus, väärtus kui tõene, väärtus kui väär)
+b7f41f|Ümarda
+2e0e8d|round(väärtus, kümnendkohti)
+a3ab97|Väikseim
+73fc19|min(a, b, …)
+f8c8f8|Suurim
+8902cb|max(a, b, …)
+ecb62b|Päevi kuupäevade vahel
+a6db34|days(alguskuupäev, lõppkuupäev)
+6ff145|Ümarda alla
+c17f8d|Ümarda üles
+99e006|Ilma märgita
+921c8e|Ruutjuur
+1fe7e9|Esimene valik
+580834|Teine valik
+c1dd36|Kolmas valik
+1bbdf1|Nõusolek
+a816e9|Nõustun, et see veebisait säilitab ja töötleb minu andmeid.
+7ef25f|Tekstiplokk
+3b4836|Jaotise pealkiri
+be5d5d|ja
+e81c4e|või
+35c798|Tühi tekstiplokk
+b0ebea|Valemit veel pole
+222a8b|Silt puudub
+a4f784|Klõpsa või lohista välju vasakpoolsest loendist.
+85e07c|Väli: %s
+f77af7|Liiguta üles
+dd9f0c|Liiguta alla
+ed7571|Tee koopia
+f2a6c4|Kustuta
+458b9d|Valik
+38b2db|Väärtus arvutustes
+7a1920|Vaikimisi
+ceb473|Eemalda valik
+015d41|Valik %d
+d02f3c|Lisa valik
+c9739f|Väärtus on see, mida valik arvutuses tähendab, näiteks selle hind. Märkeruutude puhul liidetakse kõigi märgitud valikute väärtused.
+d61d8d|Puuduv väli: %s
+a1b32d|Klõpsa allolevatel väljadel ja tehtemärkidel, et arvutus koostada.
+5de039|Koosta klõpsates
+878cdc|Kirjuta valem
+1cdc07|Võta tagasi
+dc30bc|Tühjenda
+a4ca5e|Väljad
+443847|Lisa kõigepealt arvu-, valiku- või kuupäevaväljad; need ilmuvad siia.
+b3c582|Tehtemärgid
+dd4fe0|Aste
+8730cc|Jääk
+e9b53a|Koma (funktsiooni väärtuste vahel)
+b2ee91|Arv
+ca3aeb|Lisa arv
+229eb0|Tingimused
+e93acb|Funktsioonid
+9551cd|Hinnatabel
+51c45b|Tabel
+9db33f|Rida välja vastuse järgi
+7876f8|Veerg välja vastuse järgi
+38dded|Ainult üks veerg
+2c4e05|Lisa hind
+313a6a|Valem
+d9f37b|Väljad kirjutatakse kujul {field_id}. Näide: {price} * {quantity} + 5
+c66f2e|Valem pole veel valmis. Kontrolli sulge, komasid ja tehtemärke.
+cc3a57|Valem on korrektne.
+5fd411|Proovi
+5aac38|Tulemus:
+1767e5|Vali väli, et selle seadeid muuta.
+010131|Pealkiri
+b021df|Silt
+b651ef|Kohustuslik
+6224e6|Tekst enne valikut
+68753d|Kohatäide
+31ce3c|Vaikeväärtus
+48c7c4|Samm
+56eb52|Tekst märkeruudu kõrval
+58cf98|Lingid on lubatud, näiteks sinu privaatsuspoliitikale.
+9dffbf|Tekst
+716124|Lihtne HTML on lubatud.
+3ea4f7|Arvutus
+b51e59|Enne tulemust
+62cfd9|Näiteks $
+5c6290|Pärast tulemust
+d41a8c|Näiteks € või kg
+2b4178|Kümnendkohti
+e7c868|Näita tulemust vormil
+16feb3|Lülita välja vahesammu puhul, mida kasutavad ainult teised arvutused. Tulemus on e-kirjas ikkagi olemas.
+c10b7d|Abitekst
+329546|Laius
+24e61d|Täislaius
+e4bb63|Poollaius
+42aa94|Välja ID
+98fa53|Kasutatakse valemites kujul {%1$s} ja e-kirjades kujul {field:%1$s}. Muutmisel uuendatakse selle vormi valemeid.
+08aeea|Hinnatabel annab väärtuse igale vastusele või kahe vastuse igale kombinatsioonile (näiteks tsoon ja paki suurus). Kasuta seda arvutuses nupuga „Hinnatabel”. Ridade ja veergude nimed peavad olema kirjutatud täpselt nagu väljade valikud.
+49ee30|Nimi
+6c3798|ID: %s
+c0dd3a|Read välja valikutest
+923419|Veerud välja valikutest
+710b83|Veeru nimi
+689202|Väärtus
+dbe735|Rea nimi
+d8353e|Rida %d
+19f6e2|Lisa rida
+7bce62|Veerg %d
+b61b8f|Lisa veerg
+8b0629|Eemalda viimane rida
+99a139|Eemalda viimane veerg
+9c6803|Kustuta tabel
+531553|Rida 1
+450423|Lisa hinnatabel
+1aefc6|Saad kasutada:
+19002d|Ühe välja vastus
+0db377|Üldine
+111082|Nupu tekst
+8da5e2|Teade pärast saatmist
+f52ff0|Või mine pärast saatmist sellele lehele
+aac08d|Jäta tühjaks, et näidata selle asemel teadet.
+291d69|CAPTCHA
+86dc8e|Kaitse seda vormi seadetes määratud CAPTCHA-ga.
+539ec8|CAPTCHA-t pole veel seadistatud. Saad selle lisada jaotises SmokyForms > Seaded. Lõksväli ja ajakontroll kaitsevad igat vormi niikuinii.
+74b72d|Teavitus sulle
+48ff32|SmokyForms ei salvesta sisestusi; iga sisestus saadetakse sulle e-postiga. Kui e-kiri ebaõnnestub, säilitatakse sisestus jaotises SmokyForms > Kohale toimetamata.
+d245dd|Saada mulle e-kiri iga sisestuse kohta
+c973ca|Saaja
+61739f|Eralda mitu aadressi komadega.
+c7892e|Teema
+4c2a8f|Sõnum
+8970db|Kinnitus külastajale
+71baeb|Saada külastajale kinnituskiri
+b6c0d5|Aadress väljalt
+7a2be4|Lisa vormile kõigepealt e-posti väli.
+45949d|Lisa uus vorm
+79fd79|Alusta valmis või tühja vormiga. Kõik mallid, ka kalkulaatorid, on tasuta.
+cc7b22|Vormi ei õnnestunud salvestada.
+21954b|Kõik vormid
+00cd1f|Vormi nimi
+6feadb|Lühikood
+eedf6b|Salvestan…
+4abf00|Salvesta vorm
+35cb6e|Hinnatabelid
+f4f707|Seaded
+864bac|Lisa see lehele SmokyFormsi ploki või lühikoodiga.
+604a9a|Sul on salvestamata muudatusi.
+6866cc|Seda vormi pole olemas.
+d50431|Nimetu vorm
+782d19|Vorm salvestatud.
+84ad74|Muuda vormi &lsaquo; %s
+2835b7|Sul pole selleks õigust.
+39741d|Muuda vormi
+a986be|Vormiloojat laaditakse…
+6db07c|Vormilooja vajab JavaScripti.
+c50eda|Kohale toimetamata
+77c751|%s (koopia)
+645024|Vormid
+cc06ee|SmokyFormsi seaded
+cb7fd7|E-kirjade saatmine
+2932b4|Rämpspostikaitse
+ef7330|Igal vormil on peidetud lõksväli ja ajakontroll. Lisaks saad lisada CAPTCHA; seda kasutatakse igal vormil, kus see on vormi seadetes sisse lülitatud.
+aac82e|Cloudflare Turnstile on tasuta ega nõua külastajatelt tavaliselt mõistatuste lahendamist.
+f75d8f|Saidi võti
+952bf8|Salajane võti
+6b2bed|Salvestatud. Jäta tühjaks, et see alles jätta.
+3827d8|Ajakontroll
+783e8e|sekundit
+615249|Vorme, mis saadetakse pärast lehe laadimist sellest kiiremini, loetakse rämpspostiks. 0 lülitab kontrolli välja.
+4def17|Kohale toimetamata teavitused
+9f5630|SmokyForms ei salvesta sisestusi; need saadetakse sulle e-postiga. Kui teavituskirja ei saa saata, säilitatakse sisestus, et see kaduma ei läheks, ja saad selle uuesti saata jaotises SmokyForms > Kohale toimetamata.
+f24a17|Säilita
+44fdec|päeva
+c89567|SmokyForms: %s sisestust ei õnnestunud sulle e-postiga saata. ¦ SmokyForms: %s sisestust ei õnnestunud sulle e-postiga saata.
+498f79|Näita
+effa85|Sisestus saadeti ja eemaldati loendist.
+f9eafc|Sisestust ei õnnestunud ikka veel saata. Kontrolli e-kirjade saatmise seadeid.
+80da2c|Sisestus kustutati.
+24c070|Kohale toimetamata sisestused
+c0d482|Need sisestused tulid sinu vormide kaudu, kuid teavituskiri sulle ebaõnnestus. Neid hoitakse siin, et need kaduma ei läheks, ja need kustutatakse automaatselt seadetes määratud päevade arvu järel.
+5a569c|Siin pole midagi. Kõik teavitused on kohale toimetatud.
+0426b1|Kontrolli e-kirjade saatmise seadeid
+ef546f|Kustutatud vorm
+ccb168|Põhjus:
+50ab1d|Saada uuesti
+50d0b5|Kas kustutada see sisestus jäädavalt?
+b21c60|Jah, kustuta
+ccf88f|Kinnita, et sa pole robot.
+296449|Robotikontroll ebaõnnestus. Proovi uuesti.
+cd72d3|Üherealine tekst
+c5a5c5|Lõigutekst
+ce8ae9|E-post
+bcc254|Telefon
+15bbb9|Veebisait
+7498c4|Ripploend
+6893e5|Üks valik
+c425f2|Märkeruudud
+447497|Kuupäev
+019003|Peidetud väli
+00b768|Nõusoleku märkeruut
+9303c9|See väli on kohustuslik.
+b5bccd|Sisesta kehtiv e-posti aadress.
+86062b|Sisesta kehtiv veebiaadress.
+772407|Sisesta kehtiv telefoninumber.
+c2cb00|Sisesta arv.
+69dfa7|Sisesta arv, mis on vähemalt %s.
+caf8d8|Sisesta arv, mis on kõige rohkem %s.
+773fcd|Sisesta kehtiv kuupäev.
+e3264a|Vali üks valikutest.
+93cba0|Jah
+bafd73|Ei
+a6c2b9|Otsi vorme
+60caa9|Vorme veel pole.
+6a1885|Prügikastis pole vorme.
+a4d3b1|Saada
+279099|Aitäh! Sinu sõnum on saadetud.
+48b55f|Uus sisestus: {form_title}
+81a012|Aitäh sõnumi eest
+d93e6b|Tere!\n\nAitäh, et võtsid meiega ühendust. Saime sinu sõnumi kätte ja vastame peagi.\n\n{all_fields}
+1d6990|Kõik vastused
+816667|Saidi nimi
+e91f72|Saidi administraatori e-post
+2b0b7c|Kuupäev ja kellaaeg
+7012e0|Vormi leht
+151dca|Sait ei saanud e-kirja saata.
+6ac40c|SmokyForms: seda vormi pole olemas.
+7a4842|Jäta see väli tühjaks
+28b263|Kontrolli vormi ja proovi uuesti.
+3f6c9a|Vali…
+4d01e8|Saadan…
+f83b39|Vormi ei õnnestunud saata. Proovi uuesti.
+6adf97|Puudub
+5bf1f6|Vormi ei õnnestunud kontrollida. Laadi leht uuesti ja proovi uuesti.
+5934a3|See oli väga kiire. Oota hetk ja saada vorm uuesti.
+453e43|Liiga palju sisestusi. Oota üks minut ja proovi uuesti.
+57c955|Tühi vorm
+dc8972|Alusta tühja vormiga.
+c661cf|Kontaktivorm
+dabe9b|Nimi, e-post, telefon ja sõnum.
+5d1cbd|Hinnapäring
+0269ab|Teenus, lisad ja pindala annavad hinnangulise hinna.
+c2ba7e|Teenus
+9986c1|Tavakoristus
+cc16d7|Suurpuhastus
+e285c9|Pindala (m²)
+0a3f08|Lisad
+aea234|Aknad
+2623fa|Rõdu
+482690|Ahi
+cebbfc|Hinnanguline hind
+655157|Tellimisvorm
+3a11e0|Tooted koguste, tarne ja allahindlusega teatud summast alates.
+70fc36|Toode A – 12.00 tk
+6e18dd|Toode B – 18.50 tk
+065ab3|Tarne
+9ae3c9|Järeletulemine
+eb6d8a|Tavaline
+b144fa|Kiirtarne
+2194aa|Vahesumma
+48909c|Allahindlus (10% üle 100)
+96b014|Kokku
+6fb3df|Broneering öödega
+80068a|Saabumise ja lahkumise kuupäevad annavad ööde arvu ja hinna.
+83bb56|Broneerimispäring
+885b3c|Saabumine
+5be0fa|Lahkumine
+cc3abc|Tuba
+3bf8f2|Standard – 80 öö
+3ac878|Sviit – 140 öö
+e10758|Ööd
+360114|Hind
+e6e2d9|Saatmistasu tsoonide ja pakisuuruste tabelist.
+0ea6b9|Saatmistasu
+b3ff99|Tsoon
+93b3d7|Tsoon 1
+ac4ff7|Tsoon 2
+c48837|Tsoon 3
+f38e90|Pakk
+266006|Väike
+87f8a6|Keskmine
+3a69b3|Suur
+3e1c4b|Saatmistasud
+348100|KMI kalkulaator
+d7659b|Kehamassiindeks pikkuse ja kaalu järgi.
+20fbaa|Pikkus (cm)
+917216|Kaal (kg)
+869598|Sinu KMI
+94966d|Saada
+f3cda5|Laenukalkulaator
+cb8a5f|Kuumakse summa, intressimäära ja perioodi järgi.
+59efa4|Laenusumma
+202d38|Aastane intressimäär (%)
+a92ac9|Periood (kuud)
+647bd0|Kuumakse
+d0bcd3|Testkiri
+a7498e|See on testkiri. Kui saad seda lugeda, siis e-kirjade saatmine töötab.
+9a7e58|Seaded salvestatud.
+a3fb23|Testkiri saadeti aadressile %s. Kontrolli postkasti ja rämpsposti kausta.
+33de89|Testkirja ei õnnestunud saata.
+3a9486|Paljud majutajad toimetavad WordPressi e-kirjad kohale hilinemisega või rämpsposti. Saatmine sinu e-posti teenusepakkuja SMTP-konto kaudu lahendab selle ilma eraldi SMTP-pluginata.
+05449a|Neid seadeid jagavad %s.
+51e4ba|%s on aktiivne ja tegeleb e-kirjade saatmisega, seega neid seadeid ei kasutata.
+c2239a|SMTP
+4d7db2|Saada e-kirjad SMTP-konto kaudu
+adac9e|Ainult SmokySystemsi pluginate e-kirjad
+f8f5e1|Kõik selle saidi e-kirjad
+bdd48f|SMTP-server
+60aaf4|Port
+d7f261|Krüpteerimine
+151adf|Krüpteerimiseta
+f6039d|Kasutajanimi
+dc647e|Parool
+c6e6fb|Parool on määratud failis wp-config.php.
+0b5899|Parool on salvestatud. Jäta tühjaks, et see alles jätta.
+d7381f|Eemalda salvestatud parool
+3b4d50|Saatja e-post
+250019|Kasuta SMTP-konto aadressi, muidu lükkavad paljud teenusepakkujad e-kirja tagasi.
+c3a7ea|Saatja nimi
+ee1851|Saada testkiri
+7caa16|SmokyForms – Lohista ja kukuta vormilooja arvutustega
+9958f8|Lohista ja kukuta vormilooja tasuta arvutustega. Loo kontakti-, hinnapäringu- ja tellimisvorme ning kalkulaatoreid ilma valemeid kirjutamata.

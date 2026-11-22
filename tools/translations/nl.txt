@@ -1,0 +1,325 @@
+055dcf|Kies een formulier
+d359c6|Formulier
+e0a02c|Je hebt nog geen formulieren. Maak er een aan onder SmokyForms in het beheermenu.
+28ab5c|Kies het formulier dat hier getoond wordt.
+a86405|Basisvelden
+6ef697|Keuzes
+5939b5|Speciale velden
+ebd9be|Opmaak
+f56462|als … dan … anders
+7f7bde|if(voorwaarde, waarde als waar, waarde als onwaar)
+b7f41f|Afronden
+2e0e8d|round(waarde, decimalen)
+a3ab97|Kleinste
+73fc19|min(a, b, …)
+f8c8f8|Grootste
+8902cb|max(a, b, …)
+ecb62b|Dagen tussen datums
+a6db34|days(begindatum, einddatum)
+6ff145|Naar beneden afronden
+c17f8d|Naar boven afronden
+99e006|Zonder teken
+921c8e|Vierkantswortel
+1fe7e9|Eerste keuze
+580834|Tweede keuze
+c1dd36|Derde keuze
+1bbdf1|Toestemming
+a816e9|Ik ga akkoord met het opslaan en verwerken van mijn gegevens door deze website.
+7ef25f|Tekstblok
+3b4836|Sectiekop
+be5d5d|en
+e81c4e|of
+35c798|Leeg tekstblok
+b0ebea|Nog geen formule
+222a8b|Geen label
+a4f784|Klik op velden in de lijst links of sleep ze.
+85e07c|Veld: %s
+f77af7|Omhoog
+dd9f0c|Omlaag
+ed7571|Dupliceren
+f2a6c4|Verwijderen
+458b9d|Keuze
+38b2db|Waarde in berekeningen
+7a1920|Standaard
+ceb473|Keuze verwijderen
+015d41|Keuze %d
+d02f3c|Keuze toevoegen
+c9739f|De waarde is wat deze keuze telt in een berekening, bijvoorbeeld de prijs. Bij selectievakjes worden de waarden van alle aangevinkte keuzes opgeteld.
+d61d8d|Ontbrekend veld: %s
+a1b32d|Klik op de velden en operatoren hieronder om de berekening te maken.
+5de039|Maken met klikken
+878cdc|Formule schrijven
+1cdc07|Ongedaan maken
+dc30bc|Wissen
+a4ca5e|Velden
+443847|Voeg eerst getal-, keuze- of datumvelden toe; die verschijnen dan hier.
+b3c582|Operatoren
+dd4fe0|Macht
+8730cc|Rest
+e9b53a|Komma (tussen de waarden van een functie)
+b2ee91|Getal
+ca3aeb|Getal toevoegen
+229eb0|Voorwaarden
+e93acb|Functies
+9551cd|Prijstabel
+51c45b|Tabel
+9db33f|Rij op basis van het antwoord van
+7876f8|Kolom op basis van het antwoord van
+38dded|Maar één kolom
+2c4e05|Prijs invoegen
+313a6a|Formule
+d9f37b|Velden worden geschreven als {field_id}. Voorbeeld: {price} * {quantity} + 5
+c66f2e|De formule is nog niet compleet. Controleer haakjes, komma's en operatoren.
+cc3a57|De formule is geldig.
+5fd411|Uitproberen
+5aac38|Resultaat:
+1767e5|Selecteer een veld om de instellingen ervan te wijzigen.
+010131|Kop
+b021df|Label
+b651ef|Verplicht
+6224e6|Tekst vóór een keuze
+68753d|Plaatshouder
+31ce3c|Standaardwaarde
+48c7c4|Stap
+56eb52|Tekst naast het selectievakje
+58cf98|Links zijn toegestaan, bijvoorbeeld naar je privacybeleid.
+9dffbf|Tekst
+716124|Eenvoudige HTML is toegestaan.
+3ea4f7|Berekening
+b51e59|Vóór het resultaat
+62cfd9|Bijvoorbeeld $
+5c6290|Na het resultaat
+d41a8c|Bijvoorbeeld € of kg
+2b4178|Decimalen
+e7c868|Resultaat in het formulier tonen
+16feb3|Zet uit voor een tussenstap die alleen andere berekeningen gebruiken. Het resultaat staat nog steeds in de e-mail.
+c10b7d|Helptekst
+329546|Breedte
+24e61d|Volledige breedte
+e4bb63|Halve breedte
+42aa94|Veld-ID
+98fa53|Wordt in formules gebruikt als {%1$s} en in e-mails als {field:%1$s}. Wijzigen past de formules van dit formulier aan.
+08aeea|Een prijstabel geeft een waarde voor elk antwoord, of voor elke combinatie van twee antwoorden (bijvoorbeeld zone en pakketgrootte). Gebruik hem in een berekening met 'Prijstabel'. Rij- en kolomnamen moeten precies zo geschreven worden als de keuzes van de velden.
+49ee30|Naam
+6c3798|ID: %s
+c0dd3a|Rijen uit de keuzes van
+923419|Kolommen uit de keuzes van
+710b83|Kolomnaam
+689202|Waarde
+dbe735|Rijnaam
+d8353e|Rij %d
+19f6e2|Rij toevoegen
+7bce62|Kolom %d
+b61b8f|Kolom toevoegen
+8b0629|Laatste rij verwijderen
+99a139|Laatste kolom verwijderen
+9c6803|Tabel verwijderen
+531553|Rij 1
+450423|Prijstabel toevoegen
+1aefc6|Je kunt gebruiken:
+19002d|Antwoord van één veld
+0db377|Algemeen
+111082|Knoptekst
+8da5e2|Bericht na verzenden
+f52ff0|Of na verzenden naar deze pagina gaan
+aac08d|Leeg laten om in plaats daarvan het bericht te tonen.
+291d69|CAPTCHA
+86dc8e|Dit formulier beschermen met de CAPTCHA die onder Instellingen is ingesteld.
+539ec8|Er is nog geen CAPTCHA ingesteld. Je kunt er een toevoegen onder SmokyForms > Instellingen. Het valveld en de tijdcontrole beschermen elk formulier hoe dan ook.
+74b72d|Melding aan jou
+48ff32|SmokyForms slaat geen inzendingen op; elke inzending wordt je gemaild. Mislukt de e-mail, dan wordt de inzending bewaard onder SmokyForms > Niet bezorgd.
+d245dd|Stuur me een e-mail bij elke inzending
+c973ca|Versturen naar
+61739f|Scheid meerdere adressen met komma's.
+c7892e|Onderwerp
+4c2a8f|Bericht
+8970db|Bevestiging aan de bezoeker
+71baeb|De bezoeker een bevestigingsmail sturen
+b6c0d5|Adres uit het veld
+7a2be4|Voeg eerst een e-mailveld toe aan het formulier.
+45949d|Nieuw formulier toevoegen
+79fd79|Begin met een kant-en-klaar formulier of een leeg formulier. Elke sjabloon, ook de rekenmachines, is gratis.
+cc7b22|Het formulier kon niet worden opgeslagen.
+21954b|Alle formulieren
+00cd1f|Formuliernaam
+6feadb|Shortcode
+eedf6b|Opslaan…
+4abf00|Formulier opslaan
+35cb6e|Prijstabellen
+f4f707|Instellingen
+864bac|Voeg het toe aan een pagina met het SmokyForms-blok of de shortcode.
+604a9a|Je hebt niet-opgeslagen wijzigingen.
+6866cc|Dit formulier bestaat niet.
+d50431|Naamloos formulier
+782d19|Formulier opgeslagen.
+84ad74|Formulier bewerken &lsaquo; %s
+2835b7|Je hebt geen toestemming om dit te doen.
+39741d|Formulier bewerken
+a986be|De formulierbouwer wordt geladen…
+6db07c|De formulierbouwer heeft JavaScript nodig.
+c50eda|Niet bezorgd
+77c751|%s (kopie)
+645024|Formulieren
+cc06ee|SmokyForms-instellingen
+cb7fd7|E-mail verzenden
+2932b4|Spambeveiliging
+ef7330|Elk formulier heeft een verborgen valveld en een tijdcontrole. Daarnaast kun je een CAPTCHA toevoegen; die wordt gebruikt op elk formulier waar hij in de formulierinstellingen aan staat.
+aac82e|Cloudflare Turnstile is gratis en vraagt je bezoekers meestal geen puzzel.
+f75d8f|Sitesleutel
+952bf8|Geheime sleutel
+6b2bed|Opgeslagen. Leeg laten om hem te behouden.
+3827d8|Tijdcontrole
+783e8e|seconden
+615249|Formulieren die sneller dan dit na het laden van de pagina verstuurd worden, gelden als spam. 0 zet de controle uit.
+4def17|Niet-bezorgde meldingen
+9f5630|SmokyForms slaat geen inzendingen op; ze worden je gemaild. Als een meldingsmail niet verstuurd kan worden, wordt de inzending bewaard zodat hij niet verloren gaat, en kun je hem opnieuw versturen onder SmokyForms > Niet bezorgd.
+f24a17|Bewaren gedurende
+44fdec|dagen
+c89567|SmokyForms: %s inzending kon niet naar je gemaild worden. ¦ SmokyForms: %s inzendingen konden niet naar je gemaild worden.
+498f79|Tonen
+effa85|De inzending is verstuurd en uit deze lijst verwijderd.
+f9eafc|De inzending kon nog steeds niet verstuurd worden. Controleer de instellingen voor e-mail verzenden.
+80da2c|De inzending is verwijderd.
+24c070|Niet-bezorgde inzendingen
+c0d482|Deze inzendingen kwamen via je formulieren binnen, maar de meldingsmail aan jou is mislukt. Ze worden hier bewaard zodat ze niet verloren gaan, en automatisch verwijderd na het aantal dagen dat onder Instellingen is ingesteld.
+5a569c|Hier staat niets. Alle meldingen zijn bezorgd.
+0426b1|Instellingen voor e-mail verzenden controleren
+ef546f|Verwijderd formulier
+ccb168|Reden:
+50ab1d|Opnieuw versturen
+50d0b5|Deze inzending definitief verwijderen?
+b21c60|Ja, verwijderen
+ccf88f|Bevestig dat je geen robot bent.
+296449|De robotcontrole is mislukt. Probeer het opnieuw.
+cd72d3|Tekst van één regel
+c5a5c5|Alineatekst
+ce8ae9|E-mail
+bcc254|Telefoon
+15bbb9|Website
+7498c4|Keuzelijst
+6893e5|Meerkeuze
+c425f2|Selectievakjes
+447497|Datum
+019003|Verborgen veld
+00b768|Toestemmingsvakje
+9303c9|Dit veld is verplicht.
+b5bccd|Vul een geldig e-mailadres in.
+86062b|Vul een geldig websiteadres in.
+772407|Vul een geldig telefoonnummer in.
+c2cb00|Vul een getal in.
+69dfa7|Vul een getal van minstens %s in.
+caf8d8|Vul een getal van hoogstens %s in.
+773fcd|Vul een geldige datum in.
+e3264a|Kies een van de opties.
+93cba0|Ja
+bafd73|Nee
+a6c2b9|Formulieren zoeken
+60caa9|Nog geen formulieren.
+6a1885|Geen formulieren in de prullenbak.
+a4d3b1|Versturen
+279099|Bedankt! Je bericht is verstuurd.
+48b55f|Nieuwe inzending: {form_title}
+81a012|Bedankt voor je bericht
+d93e6b|Hallo,\n\nbedankt voor je bericht. We hebben het ontvangen en reageren snel.\n\n{all_fields}
+1d6990|Alle antwoorden
+816667|Sitenaam
+e91f72|E-mailadres van de sitebeheerder
+2b0b7c|Datum en tijd
+7012e0|Pagina van het formulier
+151dca|De site kon de e-mail niet versturen.
+6ac40c|SmokyForms: dit formulier bestaat niet.
+7a4842|Laat dit veld leeg
+28b263|Controleer het formulier en probeer het opnieuw.
+3f6c9a|Kies…
+4d01e8|Versturen…
+f83b39|Het formulier kon niet verstuurd worden. Probeer het opnieuw.
+6adf97|Geen
+5bf1f6|Het formulier kon niet gecontroleerd worden. Herlaad de pagina en probeer het opnieuw.
+5934a3|Dat ging erg snel. Wacht even en verstuur het formulier opnieuw.
+453e43|Te veel inzendingen. Wacht een minuut en probeer het opnieuw.
+57c955|Leeg formulier
+dc8972|Begin met een leeg formulier.
+c661cf|Contactformulier
+dabe9b|Naam, e-mail, telefoon en bericht.
+5d1cbd|Offerteaanvraag
+0269ab|Dienst, extra's en oppervlakte geven een geschatte prijs.
+c2ba7e|Dienst
+9986c1|Standaardschoonmaak
+cc16d7|Grondige schoonmaak
+e285c9|Oppervlakte (m²)
+0a3f08|Extra's
+aea234|Ramen
+2623fa|Balkon
+482690|Oven
+cebbfc|Geschatte prijs
+655157|Bestelformulier
+3a11e0|Producten met aantallen, levering en korting boven een bedrag.
+70fc36|Product A – 12.00 per stuk
+6e18dd|Product B – 18.50 per stuk
+065ab3|Levering
+9ae3c9|Afhalen
+eb6d8a|Standaard
+b144fa|Express
+2194aa|Subtotaal
+48909c|Korting (10% boven 100)
+96b014|Totaal
+6fb3df|Boeking met nachten
+80068a|Aankomst- en vertrekdatum geven het aantal nachten en de prijs.
+83bb56|Boekingsaanvraag
+885b3c|Aankomst
+5be0fa|Vertrek
+cc3abc|Kamer
+3bf8f2|Standaard – 80 per nacht
+3ac878|Suite – 140 per nacht
+e10758|Nachten
+360114|Prijs
+e6e2d9|Verzendkosten uit een tabel van zones en pakketgroottes.
+0ea6b9|Verzendkosten
+b3ff99|Zone
+93b3d7|Zone 1
+ac4ff7|Zone 2
+c48837|Zone 3
+f38e90|Pakket
+266006|Klein
+87f8a6|Middel
+3a69b3|Groot
+3e1c4b|Verzendtarieven
+348100|BMI-calculator
+d7659b|Body-mass-index uit lengte en gewicht.
+20fbaa|Lengte (cm)
+917216|Gewicht (kg)
+869598|Je BMI
+94966d|Versturen
+f3cda5|Leningcalculator
+cb8a5f|Maandbedrag uit bedrag, rente en looptijd.
+59efa4|Leenbedrag
+202d38|Jaarlijkse rente (%)
+a92ac9|Looptijd (maanden)
+647bd0|Maandbedrag
+d0bcd3|Testmail
+a7498e|Dit is een testmail. Als je hem kunt lezen, werkt het verzenden van e-mail.
+9a7e58|Instellingen opgeslagen.
+a3fb23|De testmail is verstuurd naar %s. Controleer de inbox en de spammap.
+33de89|De testmail kon niet verstuurd worden.
+3a9486|Veel hosts bezorgen de e-mails van WordPress laat of in de spammap. Ze versturen via het SMTP-account van je e-mailprovider lost dat op, zonder aparte SMTP-plugin.
+05449a|Deze instellingen worden gedeeld door %s.
+51e4ba|%s is actief en verzorgt het verzenden van e-mail, dus deze instellingen worden niet gebruikt.
+c2239a|SMTP
+4d7db2|E-mails versturen via een SMTP-account
+adac9e|Alleen de e-mails van SmokySystems-plugins
+f8f5e1|Alle e-mails van deze site
+bdd48f|SMTP-server
+60aaf4|Poort
+d7f261|Versleuteling
+151adf|Geen versleuteling
+f6039d|Gebruikersnaam
+dc647e|Wachtwoord
+c6e6fb|Het wachtwoord is ingesteld in wp-config.php.
+0b5899|Er is een wachtwoord opgeslagen. Leeg laten om het te behouden.
+d7381f|Opgeslagen wachtwoord verwijderen
+3b4d50|Afzenderadres
+250019|Gebruik een adres van het SMTP-account, anders weigeren veel providers de e-mail.
+c3a7ea|Afzendernaam
+ee1851|Testmail versturen
+7caa16|SmokyForms – Drag-and-drop formulierbouwer met berekeningen
+9958f8|Drag-and-drop formulierbouwer met gratis berekeningen. Maak contact-, offerte- en bestelformulieren en rekenmachines zonder formules te schrijven.

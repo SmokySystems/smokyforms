@@ -1,0 +1,1350 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: nl_BE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Kies een formulier"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Formulier"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Je hebt nog geen formulieren. Maak er een aan onder SmokyForms in het beheermenu."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Kies het formulier dat hier getoond wordt."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Basisvelden"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Keuzes"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Speciale velden"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Opmaak"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "als … dan … anders"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(voorwaarde, waarde als waar, waarde als onwaar)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Afronden"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(waarde, decimalen)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "Kleinste"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "Grootste"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Dagen tussen datums"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(begindatum, einddatum)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Naar beneden afronden"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Naar boven afronden"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "Zonder teken"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Vierkantswortel"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Eerste keuze"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "Tweede keuze"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Derde keuze"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Toestemming"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Ik ga akkoord met het opslaan en verwerken van mijn gegevens door deze website."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Tekstblok"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Sectiekop"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "en"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "of"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Leeg tekstblok"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Nog geen formule"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Geen label"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Klik op velden in de lijst links of sleep ze."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Veld: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Omhoog"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Omlaag"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Keuze"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Waarde in berekeningen"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Standaard"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Keuze verwijderen"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Keuze %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Keuze toevoegen"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "De waarde is wat deze keuze telt in een berekening, bijvoorbeeld de prijs. Bij selectievakjes worden de waarden van alle aangevinkte keuzes opgeteld."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Ontbrekend veld: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Klik op de velden en operatoren hieronder om de berekening te maken."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Maken met klikken"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Formule schrijven"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Wissen"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Velden"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Voeg eerst getal-, keuze- of datumvelden toe; die verschijnen dan hier."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "Operatoren"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Macht"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Rest"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Komma (tussen de waarden van een functie)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Getal"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Getal toevoegen"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Voorwaarden"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Functies"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Prijstabel"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Tabel"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Rij op basis van het antwoord van"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Kolom op basis van het antwoord van"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Maar één kolom"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Prijs invoegen"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Formule"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Velden worden geschreven als {field_id}. Voorbeeld: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "De formule is nog niet compleet. Controleer haakjes, komma's en operatoren."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "De formule is geldig."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Uitproberen"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Resultaat:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Selecteer een veld om de instellingen ervan te wijzigen."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Kop"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Label"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Verplicht"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Tekst vóór een keuze"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Plaatshouder"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Standaardwaarde"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Stap"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Tekst naast het selectievakje"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Links zijn toegestaan, bijvoorbeeld naar je privacybeleid."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Tekst"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Eenvoudige HTML is toegestaan."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Berekening"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Vóór het resultaat"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "Bijvoorbeeld $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "Na het resultaat"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "Bijvoorbeeld € of kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Decimalen"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Resultaat in het formulier tonen"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Zet uit voor een tussenstap die alleen andere berekeningen gebruiken. Het resultaat staat nog steeds in de e-mail."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Helptekst"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Breedte"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Volledige breedte"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Halve breedte"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "Veld-ID"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "Wordt in formules gebruikt als {%1$s} en in e-mails als {field:%1$s}. Wijzigen past de formules van dit formulier aan."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "Een prijstabel geeft een waarde voor elk antwoord, of voor elke combinatie van twee antwoorden (bijvoorbeeld zone en pakketgrootte). Gebruik hem in een berekening met 'Prijstabel'. Rij- en kolomnamen moeten precies zo geschreven worden als de keuzes van de velden."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Naam"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Rijen uit de keuzes van"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Kolommen uit de keuzes van"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Kolomnaam"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Waarde"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Rijnaam"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Rij %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Rij toevoegen"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Kolom %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Kolom toevoegen"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Laatste rij verwijderen"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Laatste kolom verwijderen"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Tabel verwijderen"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Rij 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Prijstabel toevoegen"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Je kunt gebruiken:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Antwoord van één veld"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Algemeen"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Knoptekst"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Bericht na verzenden"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "Of na verzenden naar deze pagina gaan"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "Leeg laten om in plaats daarvan het bericht te tonen."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Dit formulier beschermen met de CAPTCHA die onder Instellingen is ingesteld."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "Er is nog geen CAPTCHA ingesteld. Je kunt er een toevoegen onder SmokyForms > Instellingen. Het valveld en de tijdcontrole beschermen elk formulier hoe dan ook."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Melding aan jou"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms slaat geen inzendingen op; elke inzending wordt je gemaild. Mislukt de e-mail, dan wordt de inzending bewaard onder SmokyForms > Niet bezorgd."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Stuur me een e-mail bij elke inzending"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Versturen naar"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Scheid meerdere adressen met komma's."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Bericht"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Bevestiging aan de bezoeker"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "De bezoeker een bevestigingsmail sturen"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Adres uit het veld"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Voeg eerst een e-mailveld toe aan het formulier."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Nieuw formulier toevoegen"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Begin met een kant-en-klaar formulier of een leeg formulier. Elke sjabloon, ook de rekenmachines, is gratis."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "Het formulier kon niet worden opgeslagen."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Alle formulieren"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Formuliernaam"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "Opslaan…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Formulier opslaan"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Prijstabellen"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Instellingen"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "Voeg het toe aan een pagina met het SmokyForms-blok of de shortcode."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Je hebt niet-opgeslagen wijzigingen."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Dit formulier bestaat niet."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Naamloos formulier"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "Formulier opgeslagen."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Formulier bewerken &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "Je hebt geen toestemming om dit te doen."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Formulier bewerken"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "De formulierbouwer wordt geladen…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "De formulierbouwer heeft JavaScript nodig."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "Niet bezorgd"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (kopie)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyForms-instellingen"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "E-mail verzenden"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "Spambeveiliging"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Elk formulier heeft een verborgen valveld en een tijdcontrole. Daarnaast kun je een CAPTCHA toevoegen; die wordt gebruikt op elk formulier waar hij in de formulierinstellingen aan staat."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile is gratis en vraagt je bezoekers meestal geen puzzel."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Sitesleutel"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Geheime sleutel"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Opgeslagen. Leeg laten om hem te behouden."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Tijdcontrole"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "seconden"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Formulieren die sneller dan dit na het laden van de pagina verstuurd worden, gelden als spam. 0 zet de controle uit."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Niet-bezorgde meldingen"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms slaat geen inzendingen op; ze worden je gemaild. Als een meldingsmail niet verstuurd kan worden, wordt de inzending bewaard zodat hij niet verloren gaat, en kun je hem opnieuw versturen onder SmokyForms > Niet bezorgd."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Bewaren gedurende"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "dagen"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s inzending kon niet naar je gemaild worden."
+msgstr[1] "SmokyForms: %s inzendingen konden niet naar je gemaild worden."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Tonen"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "De inzending is verstuurd en uit deze lijst verwijderd."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "De inzending kon nog steeds niet verstuurd worden. Controleer de instellingen voor e-mail verzenden."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "De inzending is verwijderd."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Niet-bezorgde inzendingen"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Deze inzendingen kwamen via je formulieren binnen, maar de meldingsmail aan jou is mislukt. Ze worden hier bewaard zodat ze niet verloren gaan, en automatisch verwijderd na het aantal dagen dat onder Instellingen is ingesteld."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Hier staat niets. Alle meldingen zijn bezorgd."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "Instellingen voor e-mail verzenden controleren"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Verwijderd formulier"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Reden:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Opnieuw versturen"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Deze inzending definitief verwijderen?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Ja, verwijderen"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Bevestig dat je geen robot bent."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "De robotcontrole is mislukt. Probeer het opnieuw."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Tekst van één regel"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Alineatekst"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Telefoon"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Website"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Keuzelijst"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Meerkeuze"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Selectievakjes"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Datum"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Verborgen veld"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Toestemmingsvakje"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Vul een geldig e-mailadres in."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Vul een geldig websiteadres in."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Vul een geldig telefoonnummer in."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Vul een getal in."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Vul een getal van minstens %s in."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Vul een getal van hoogstens %s in."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Vul een geldige datum in."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Kies een van de opties."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "Nee"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Formulieren zoeken"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Nog geen formulieren."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "Geen formulieren in de prullenbak."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Versturen"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Bedankt! Je bericht is verstuurd."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Nieuwe inzending: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Bedankt voor je bericht"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Hallo,\n"
+"\n"
+"bedankt voor je bericht. We hebben het ontvangen en reageren snel.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Alle antwoorden"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Sitenaam"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "E-mailadres van de sitebeheerder"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Datum en tijd"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Pagina van het formulier"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "De site kon de e-mail niet versturen."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: dit formulier bestaat niet."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "Laat dit veld leeg"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Controleer het formulier en probeer het opnieuw."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Kies…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "Versturen…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "Het formulier kon niet verstuurd worden. Probeer het opnieuw."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Geen"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "Het formulier kon niet gecontroleerd worden. Herlaad de pagina en probeer het opnieuw."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "Dat ging erg snel. Wacht even en verstuur het formulier opnieuw."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "Te veel inzendingen. Wacht een minuut en probeer het opnieuw."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Leeg formulier"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Begin met een leeg formulier."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "Contactformulier"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Naam, e-mail, telefoon en bericht."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Offerteaanvraag"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "Dienst, extra's en oppervlakte geven een geschatte prijs."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Dienst"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Standaardschoonmaak"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Grondige schoonmaak"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Oppervlakte (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Extra's"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Ramen"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Balkon"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Oven"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Geschatte prijs"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Bestelformulier"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Producten met aantallen, levering en korting boven een bedrag."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Product A – 12.00 per stuk"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Product B – 18.50 per stuk"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Levering"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Afhalen"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Standaard"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Express"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "Korting (10% boven 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Boeking met nachten"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Aankomst- en vertrekdatum geven het aantal nachten en de prijs."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Boekingsaanvraag"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Aankomst"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Vertrek"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Kamer"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Standaard – 80 per nacht"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Suite – 140 per nacht"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Nachten"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Verzendkosten uit een tabel van zones en pakketgroottes."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Verzendkosten"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Zone"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Zone 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Zone 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Zone 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Pakket"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Klein"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Middel"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Groot"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Verzendtarieven"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "BMI-calculator"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Body-mass-index uit lengte en gewicht."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Lengte (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Gewicht (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "Je BMI"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Versturen"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Leningcalculator"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Maandbedrag uit bedrag, rente en looptijd."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Leenbedrag"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Jaarlijkse rente (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Looptijd (maanden)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Maandbedrag"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Testmail"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Dit is een testmail. Als je hem kunt lezen, werkt het verzenden van e-mail."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "De testmail is verstuurd naar %s. Controleer de inbox en de spammap."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "De testmail kon niet verstuurd worden."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Veel hosts bezorgen de e-mails van WordPress laat of in de spammap. Ze versturen via het SMTP-account van je e-mailprovider lost dat op, zonder aparte SMTP-plugin."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Deze instellingen worden gedeeld door %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s is actief en verzorgt het verzenden van e-mail, dus deze instellingen worden niet gebruikt."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "E-mails versturen via een SMTP-account"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Alleen de e-mails van SmokySystems-plugins"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "Alle e-mails van deze site"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP-server"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Poort"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Versleuteling"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Geen versleuteling"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "Het wachtwoord is ingesteld in wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Er is een wachtwoord opgeslagen. Leeg laten om het te behouden."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Opgeslagen wachtwoord verwijderen"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Afzenderadres"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Gebruik een adres van het SMTP-account, anders weigeren veel providers de e-mail."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Afzendernaam"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Testmail versturen"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Drag-and-drop formulierbouwer met berekeningen"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Drag-and-drop formulierbouwer met gratis berekeningen. Maak contact-, offerte- en bestelformulieren en rekenmachines zonder formules te schrijven."

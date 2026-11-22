@@ -1,0 +1,325 @@
+055dcf|Veldu eyðublað
+d359c6|Eyðublað
+e0a02c|Þú átt engin eyðublöð enn. Búðu til eyðublað undir SmokyForms í stjórnborðsvalmyndinni.
+28ab5c|Veldu eyðublaðið sem á að birta hér.
+a86405|Grunnreitir
+6ef697|Valkostir
+5939b5|Sérreitir
+ebd9be|Útlit
+f56462|ef … þá … annars
+7f7bde|if(skilyrði, gildi ef satt, gildi ef ósatt)
+b7f41f|Námunda
+2e0e8d|round(gildi, aukastafir)
+a3ab97|Minnst
+73fc19|min(a, b, …)
+f8c8f8|Mest
+8902cb|max(a, b, …)
+ecb62b|Dagar milli dagsetninga
+a6db34|days(upphafsdagur, lokadagur)
+6ff145|Námunda niður
+c17f8d|Námunda upp
+99e006|Án formerkis
+921c8e|Kvaðratrót
+1fe7e9|Fyrsti valkostur
+580834|Annar valkostur
+c1dd36|Þriðji valkostur
+1bbdf1|Samþykki
+a816e9|Ég samþykki að þessi vefur geymi og vinni úr upplýsingunum mínum.
+7ef25f|Textabálkur
+3b4836|Kaflafyrirsögn
+be5d5d|og
+e81c4e|eða
+35c798|Tómur textabálkur
+b0ebea|Engin formúla enn
+222a8b|Enginn merkimiði
+a4f784|Smelltu á eða dragðu reiti úr listanum til vinstri.
+85e07c|Reitur: %s
+f77af7|Færa upp
+dd9f0c|Færa niður
+ed7571|Afrita
+f2a6c4|Eyða
+458b9d|Valkostur
+38b2db|Gildi í útreikningum
+7a1920|Sjálfgefið
+ceb473|Fjarlægja valkost
+015d41|Valkostur %d
+d02f3c|Bæta við valkosti
+c9739f|Gildið er það sem valkosturinn telur í útreikningi, til dæmis verð hans. Fyrir gátreiti eru gildi allra hakaðra valkosta lögð saman.
+d61d8d|Reit vantar: %s
+a1b32d|Smelltu á reitina og virkjana hér fyrir neðan til að setja saman útreikninginn.
+5de039|Setja saman með smellum
+878cdc|Skrifa formúluna
+1cdc07|Afturkalla
+dc30bc|Hreinsa
+a4ca5e|Reitir
+443847|Bættu fyrst við tölu-, val- eða dagsetningarreitum; þeir birtast hér.
+b3c582|Virkjar
+dd4fe0|Veldi
+8730cc|Afgangur
+e9b53a|Komma (milli gilda falls)
+b2ee91|Tala
+ca3aeb|Bæta við tölu
+229eb0|Skilyrði
+e93acb|Föll
+9551cd|Verðtafla
+51c45b|Tafla
+9db33f|Röð eftir svari í
+7876f8|Dálkur eftir svari í
+38dded|Aðeins einn dálkur
+2c4e05|Setja inn verð
+313a6a|Formúla
+d9f37b|Reitir eru skrifaðir sem {field_id}. Dæmi: {price} * {quantity} + 5
+c66f2e|Formúlan er ekki tilbúin. Athugaðu sviga, kommur og virkja.
+cc3a57|Formúlan er gild.
+5fd411|Prófa
+5aac38|Niðurstaða:
+1767e5|Veldu reit til að breyta stillingum hans.
+010131|Fyrirsögn
+b021df|Merkimiði
+b651ef|Áskilið
+6224e6|Texti áður en valið er
+68753d|Staðgengill
+31ce3c|Sjálfgefið gildi
+48c7c4|Skref
+56eb52|Texti við hlið gátreitsins
+58cf98|Tenglar eru leyfðir, til dæmis á persónuverndarstefnuna þína.
+9dffbf|Texti
+716124|Einfalt HTML er leyft.
+3ea4f7|Útreikningur
+b51e59|Á undan niðurstöðunni
+62cfd9|Til dæmis $
+5c6290|Á eftir niðurstöðunni
+d41a8c|Til dæmis € eða kg
+2b4178|Aukastafir
+e7c868|Sýna niðurstöðuna á eyðublaðinu
+16feb3|Slökktu á þessu fyrir millistig sem aðeins aðrir útreikningar nota. Niðurstaðan er samt í tölvupóstinum.
+c10b7d|Hjálpartexti
+329546|Breidd
+24e61d|Full breidd
+e4bb63|Hálf breidd
+42aa94|Auðkenni reits
+98fa53|Notað í formúlum sem {%1$s} og í tölvupósti sem {field:%1$s}. Ef þú breytir því uppfærast formúlur eyðublaðsins.
+08aeea|Verðtafla gefur gildi fyrir hvert svar, eða fyrir hverja samsetningu tveggja svara (til dæmis svæði og pakkastærð). Notaðu hana í útreikningi með „Verðtafla“. Heiti raða og dálka verða að vera skrifuð nákvæmlega eins og valkostir reitanna.
+49ee30|Heiti
+6c3798|Auðkenni: %s
+c0dd3a|Raðir úr valkostum
+923419|Dálkar úr valkostum
+710b83|Heiti dálks
+689202|Gildi
+dbe735|Heiti raðar
+d8353e|Röð %d
+19f6e2|Bæta við röð
+7bce62|Dálkur %d
+b61b8f|Bæta við dálki
+8b0629|Fjarlægja síðustu röð
+99a139|Fjarlægja síðasta dálk
+9c6803|Eyða töflu
+531553|Röð 1
+450423|Bæta við verðtöflu
+1aefc6|Þú getur notað:
+19002d|Svar í einum reit
+0db377|Almennt
+111082|Texti hnapps
+8da5e2|Skilaboð eftir sendingu
+f52ff0|Eða fara á þessa síðu eftir sendingu
+aac08d|Hafðu autt til að sýna skilaboðin í staðinn.
+291d69|CAPTCHA
+86dc8e|Verja þetta eyðublað með CAPTCHA sem er stillt undir Stillingum.
+539ec8|Ekkert CAPTCHA hefur verið stillt enn. Þú getur bætt því við undir SmokyForms > Stillingar. Gildrureiturinn og tímaathugunin verja öll eyðublöð hvort sem er.
+74b72d|Tilkynning til þín
+48ff32|SmokyForms geymir ekki innsendingar; hver innsending er send þér í tölvupósti. Ef tölvupósturinn mistekst er innsendingin geymd undir SmokyForms > Óafhent.
+d245dd|Sendu mér tölvupóst fyrir hverja innsendingu
+c973ca|Senda til
+61739f|Aðskildu mörg netföng með kommum.
+c7892e|Efni
+4c2a8f|Skilaboð
+8970db|Staðfesting til gests
+71baeb|Senda gestinum staðfestingarpóst
+b6c0d5|Netfang úr reitnum
+7a2be4|Bættu fyrst netfangsreit við eyðublaðið.
+45949d|Bæta við nýju eyðublaði
+79fd79|Byrjaðu með tilbúnu eyðublaði eða tómu. Öll sniðmát, líka reiknivélarnar, eru ókeypis.
+cc7b22|Ekki tókst að vista eyðublaðið.
+21954b|Öll eyðublöð
+00cd1f|Heiti eyðublaðs
+6feadb|Stuttkóði
+eedf6b|Vista…
+4abf00|Vista eyðublað
+35cb6e|Verðtöflur
+f4f707|Stillingar
+864bac|Bættu því á síðu með SmokyForms-bálkinum eða stuttkóðanum.
+604a9a|Þú átt óvistaðar breytingar.
+6866cc|Þetta eyðublað er ekki til.
+d50431|Nafnlaust eyðublað
+782d19|Eyðublaðið var vistað.
+84ad74|Breyta eyðublaði &lsaquo; %s
+2835b7|Þú hefur ekki heimild til þess.
+39741d|Breyta eyðublaði
+a986be|Hleð eyðublaðasmiðnum…
+6db07c|Eyðublaðasmiðurinn þarf JavaScript.
+c50eda|Óafhent
+77c751|%s (afrit)
+645024|Eyðublöð
+cc06ee|Stillingar SmokyForms
+cb7fd7|Sending tölvupósts
+2932b4|Ruslpóstvörn
+ef7330|Hvert eyðublað hefur falinn gildrureit og tímaathugun. Auk þess geturðu bætt við CAPTCHA; það er notað á öllum eyðublöðum þar sem kveikt er á því í stillingum eyðublaðsins.
+aac82e|Cloudflare Turnstile er ókeypis og biður gesti yfirleitt ekki um að leysa þrautir.
+f75d8f|Vefsvæðislykill
+952bf8|Leynilykill
+6b2bed|Vistað. Hafðu autt til að halda honum.
+3827d8|Tímaathugun
+783e8e|sekúndur
+615249|Eyðublöð sem eru send hraðar en þetta eftir að síðan hlóðst teljast ruslpóstur. 0 slekkur á athuguninni.
+4def17|Óafhentar tilkynningar
+9f5630|SmokyForms geymir ekki innsendingar; þær eru sendar þér í tölvupósti. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent.
+f24a17|Geyma í
+44fdec|daga
+c89567|SmokyForms: Ekki tókst að senda þér %s innsendingu í tölvupósti. ¦ SmokyForms: Ekki tókst að senda þér %s innsendingar í tölvupósti.
+498f79|Sýna
+effa85|Innsendingin var send og fjarlægð af listanum.
+f9eafc|Enn tókst ekki að senda innsendinguna. Athugaðu stillingar fyrir sendingu tölvupósts.
+80da2c|Innsendingunni var eytt.
+24c070|Óafhentar innsendingar
+c0d482|Þessar innsendingar bárust í gegnum eyðublöðin þín, en tilkynningarpósturinn til þín mistókst. Þær eru geymdar hér svo þær glatist ekki og þeim er eytt sjálfkrafa eftir þann dagafjölda sem er stilltur undir Stillingum.
+5a569c|Ekkert hér. Allar tilkynningar hafa verið afhentar.
+0426b1|Athuga stillingar fyrir sendingu tölvupósts
+ef546f|Eytt eyðublað
+ccb168|Ástæða:
+50ab1d|Senda aftur
+50d0b5|Eyða þessari innsendingu fyrir fullt og allt?
+b21c60|Já, eyða
+ccf88f|Staðfestu að þú sért ekki vélmenni.
+296449|Vélmennaathugun mistókst. Reyndu aftur.
+cd72d3|Texti í einni línu
+c5a5c5|Málsgrein
+ce8ae9|Netfang
+bcc254|Sími
+15bbb9|Vefsíða
+7498c4|Fellilisti
+6893e5|Einn valkostur
+c425f2|Gátreitir
+447497|Dagsetning
+019003|Falinn reitur
+00b768|Samþykkisreitur
+9303c9|Þessi reitur er áskilinn.
+b5bccd|Sláðu inn gilt netfang.
+86062b|Sláðu inn gilda vefslóð.
+772407|Sláðu inn gilt símanúmer.
+c2cb00|Sláðu inn tölu.
+69dfa7|Sláðu inn tölu sem er að minnsta kosti %s.
+caf8d8|Sláðu inn tölu sem er í mesta lagi %s.
+773fcd|Sláðu inn gilda dagsetningu.
+e3264a|Veldu einn af valkostunum.
+93cba0|Já
+bafd73|Nei
+a6c2b9|Leita í eyðublöðum
+60caa9|Engin eyðublöð enn.
+6a1885|Engin eyðublöð í ruslinu.
+a4d3b1|Senda
+279099|Takk! Skilaboðin þín hafa verið send.
+48b55f|Ný innsending: {form_title}
+81a012|Takk fyrir skilaboðin
+d93e6b|Halló,\n\ntakk fyrir að hafa samband. Við höfum fengið skilaboðin þín og svörum fljótlega.\n\n{all_fields}
+1d6990|Öll svör
+816667|Heiti vefsins
+e91f72|Netfang vefstjóra
+2b0b7c|Dagsetning og tími
+7012e0|Síða eyðublaðsins
+151dca|Vefurinn gat ekki sent tölvupóstinn.
+6ac40c|SmokyForms: þetta eyðublað er ekki til.
+7a4842|Hafðu þennan reit auðan
+28b263|Athugaðu eyðublaðið og reyndu aftur.
+3f6c9a|Veldu…
+4d01e8|Sendi…
+f83b39|Ekki tókst að senda eyðublaðið. Reyndu aftur.
+6adf97|Ekkert
+5bf1f6|Ekki tókst að athuga eyðublaðið. Endurhlaðið síðuna og reyndu aftur.
+5934a3|Þetta var mjög hratt. Bíddu augnablik og sendu eyðublaðið aftur.
+453e43|Of margar innsendingar. Bíddu í eina mínútu og reyndu aftur.
+57c955|Tómt eyðublað
+dc8972|Byrja með tómu eyðublaði.
+c661cf|Samskiptaeyðublað
+dabe9b|Nafn, netfang, sími og skilaboð.
+5d1cbd|Tilboðsbeiðni
+0269ab|Þjónusta, aukahlutir og stærð gefa áætlað verð.
+c2ba7e|Þjónusta
+9986c1|Venjuleg þrif
+cc16d7|Ítarleg þrif
+e285c9|Stærð (m²)
+0a3f08|Aukahlutir
+aea234|Gluggar
+2623fa|Svalir
+482690|Ofn
+cebbfc|Áætlað verð
+655157|Pöntunareyðublað
+3a11e0|Vörur með magni, afhendingu og afslætti yfir ákveðinni upphæð.
+70fc36|Vara A – 12.00 stk.
+6e18dd|Vara B – 18.50 stk.
+065ab3|Afhending
+9ae3c9|Sótt
+eb6d8a|Venjuleg
+b144fa|Hraðsending
+2194aa|Millisumma
+48909c|Afsláttur (10% yfir 100)
+96b014|Samtals
+6fb3df|Bókun með nóttum
+80068a|Komu- og brottfarardagur gefa fjölda nátta og verðið.
+83bb56|Bókunarbeiðni
+885b3c|Koma
+5be0fa|Brottför
+cc3abc|Herbergi
+3bf8f2|Venjulegt – 80 nóttin
+3ac878|Svíta – 140 nóttin
+e10758|Nætur
+360114|Verð
+e6e2d9|Sendingarkostnaður úr töflu svæða og pakkastærða.
+0ea6b9|Sendingarkostnaður
+b3ff99|Svæði
+93b3d7|Svæði 1
+ac4ff7|Svæði 2
+c48837|Svæði 3
+f38e90|Pakki
+266006|Lítill
+87f8a6|Miðlungs
+3a69b3|Stór
+3e1c4b|Sendingarverð
+348100|BMI-reiknivél
+d7659b|Líkamsþyngdarstuðull út frá hæð og þyngd.
+20fbaa|Hæð (cm)
+917216|Þyngd (kg)
+869598|BMI-gildið þitt
+94966d|Senda
+f3cda5|Lánareiknivél
+cb8a5f|Mánaðarleg greiðsla út frá upphæð, vöxtum og lánstíma.
+59efa4|Lánsupphæð
+202d38|Árlegir vextir (%)
+a92ac9|Lánstími (mánuðir)
+647bd0|Mánaðarleg greiðsla
+d0bcd3|Prufupóstur
+a7498e|Þetta er prufupóstur. Ef þú getur lesið hann virkar sending tölvupósts.
+9a7e58|Stillingar vistaðar.
+a3fb23|Prufupósturinn var sendur á %s. Athugaðu innhólfið og ruslpóstmöppuna.
+33de89|Ekki tókst að senda prufupóstinn.
+3a9486|Margir hýsingaraðilar skila tölvupósti WordPress seint eða í ruslpóst. Að senda hann í gegnum SMTP-reikning tölvupóstþjónustunnar þinnar leysir það, án sérstakrar SMTP-viðbótar.
+05449a|Þessar stillingar deila %s.
+51e4ba|%s er virkt og sér um sendingu tölvupósts, svo þessar stillingar eru ekki notaðar.
+c2239a|SMTP
+4d7db2|Senda tölvupóst í gegnum SMTP-reikning
+adac9e|Aðeins tölvupóstur SmokySystems-viðbóta
+f8f5e1|Allur tölvupóstur þessa vefs
+bdd48f|SMTP-þjónn
+60aaf4|Gátt
+d7f261|Dulkóðun
+151adf|Engin dulkóðun
+f6039d|Notandanafn
+dc647e|Lykilorð
+c6e6fb|Lykilorðið er stillt í wp-config.php.
+0b5899|Lykilorð er vistað. Hafðu autt til að halda því.
+d7381f|Fjarlægja vistaða lykilorðið
+3b4d50|Netfang sendanda
+250019|Notaðu netfang SMTP-reikningsins, annars hafna margar þjónustur tölvupóstinum.
+c3a7ea|Nafn sendanda
+ee1851|Senda prufupóst
+7caa16|SmokyForms – Eyðublaðasmiður með draga og sleppa og útreikningum
+9958f8|Eyðublaðasmiður með draga og sleppa og ókeypis útreikningum. Búðu til samskipta-, tilboðs- og pöntunareyðublöð og reiknivélar án þess að skrifa formúlur.

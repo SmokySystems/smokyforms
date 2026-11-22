@@ -1,0 +1,325 @@
+055dcf|Velg et skjema
+d359c6|Skjema
+e0a02c|Du har ingen skjemaer ennå. Lag et under SmokyForms i adminmenyen.
+28ab5c|Velg skjemaet som skal vises her.
+a86405|Grunnfelt
+6ef697|Valg
+5939b5|Spesialfelt
+ebd9be|Oppsett
+f56462|hvis … så … ellers
+7f7bde|if(betingelse, verdi hvis sant, verdi hvis usant)
+b7f41f|Rund av
+2e0e8d|round(verdi, desimaler)
+a3ab97|Minste
+73fc19|min(a, b, …)
+f8c8f8|Største
+8902cb|max(a, b, …)
+ecb62b|Dager mellom datoer
+a6db34|days(startdato, sluttdato)
+6ff145|Rund ned
+c17f8d|Rund opp
+99e006|Uten fortegn
+921c8e|Kvadratrot
+1fe7e9|Første valg
+580834|Andre valg
+c1dd36|Tredje valg
+1bbdf1|Samtykke
+a816e9|Jeg godtar at dette nettstedet lagrer og behandler opplysningene mine.
+7ef25f|Tekstblokk
+3b4836|Seksjonsoverskrift
+be5d5d|og
+e81c4e|eller
+35c798|Tom tekstblokk
+b0ebea|Ingen formel ennå
+222a8b|Ingen etikett
+a4f784|Klikk på eller dra felt fra listen til venstre.
+85e07c|Felt: %s
+f77af7|Flytt opp
+dd9f0c|Flytt ned
+ed7571|Dupliser
+f2a6c4|Slett
+458b9d|Valg
+38b2db|Verdi i beregninger
+7a1920|Forvalgt
+ceb473|Fjern valg
+015d41|Valg %d
+d02f3c|Legg til valg
+c9739f|Verdien er det valget teller som i en beregning, for eksempel prisen. For avkrysningsbokser legges verdiene for alle avkryssede valg sammen.
+d61d8d|Felt mangler: %s
+a1b32d|Klikk på felt og operatorer nedenfor for å bygge beregningen.
+5de039|Bygg med klikk
+878cdc|Skriv formelen
+1cdc07|Angre
+dc30bc|Tøm
+a4ca5e|Felt
+443847|Legg først til tall-, valg- eller datofelt; de vises her.
+b3c582|Operatorer
+dd4fe0|Potens
+8730cc|Rest
+e9b53a|Komma (mellom verdiene i en funksjon)
+b2ee91|Tall
+ca3aeb|Legg til tall
+229eb0|Betingelser
+e93acb|Funksjoner
+9551cd|Pristabell
+51c45b|Tabell
+9db33f|Rad ut fra svaret i
+7876f8|Kolonne ut fra svaret i
+38dded|Bare én kolonne
+2c4e05|Sett inn pris
+313a6a|Formel
+d9f37b|Felt skrives som {field_id}. Eksempel: {price} * {quantity} + 5
+c66f2e|Formelen er ikke ferdig ennå. Sjekk parenteser, komma og operatorer.
+cc3a57|Formelen er gyldig.
+5fd411|Prøv
+5aac38|Resultat:
+1767e5|Velg et felt for å endre innstillingene.
+010131|Overskrift
+b021df|Etikett
+b651ef|Påkrevd
+6224e6|Tekst før et valg er gjort
+68753d|Plassholder
+31ce3c|Standardverdi
+48c7c4|Trinn
+56eb52|Tekst ved siden av avkrysningsboksen
+58cf98|Lenker er tillatt, for eksempel til personvernerklæringen din.
+9dffbf|Tekst
+716124|Enkel HTML er tillatt.
+3ea4f7|Beregning
+b51e59|Før resultatet
+62cfd9|For eksempel $
+5c6290|Etter resultatet
+d41a8c|For eksempel € eller kg
+2b4178|Desimaler
+e7c868|Vis resultatet i skjemaet
+16feb3|Slå av for et mellomtrinn som bare andre beregninger bruker. Resultatet står likevel i e-posten.
+c10b7d|Hjelpetekst
+329546|Bredde
+24e61d|Full bredde
+e4bb63|Halv bredde
+42aa94|Felt-ID
+98fa53|Brukes i formler som {%1$s} og i e-post som {field:%1$s}. Endrer du den, oppdateres formlene i skjemaet.
+08aeea|En pristabell gir en verdi for hvert svar, eller for hver kombinasjon av to svar (for eksempel sone og pakkestørrelse). Bruk den i en beregning med «Pristabell». Rad- og kolonnenavn må skrives nøyaktig som valgene i feltene.
+49ee30|Navn
+6c3798|ID: %s
+c0dd3a|Rader fra valgene i
+923419|Kolonner fra valgene i
+710b83|Kolonnenavn
+689202|Verdi
+dbe735|Radnavn
+d8353e|Rad %d
+19f6e2|Legg til rad
+7bce62|Kolonne %d
+b61b8f|Legg til kolonne
+8b0629|Fjern siste rad
+99a139|Fjern siste kolonne
+9c6803|Slett tabell
+531553|Rad 1
+450423|Legg til pristabell
+1aefc6|Du kan bruke:
+19002d|Svar i ett felt
+0db377|Generelt
+111082|Knappetekst
+8da5e2|Melding etter innsending
+f52ff0|Eller gå til denne siden etter innsending
+aac08d|La stå tomt for å vise meldingen i stedet.
+291d69|CAPTCHA
+86dc8e|Beskytt skjemaet med CAPTCHA-en som er satt opp under Innstillinger.
+539ec8|Ingen CAPTCHA er satt opp ennå. Du kan legge til en under SmokyForms > Innstillinger. Fellefeltet og tidskontrollen beskytter uansett alle skjemaer.
+74b72d|Varsel til deg
+48ff32|SmokyForms lagrer ikke innsendinger; hver innsending sendes til deg på e-post. Hvis e-posten feiler, beholdes innsendingen under SmokyForms > Ikke levert.
+d245dd|Send meg en e-post for hver innsending
+c973ca|Send til
+61739f|Skill flere adresser med komma.
+c7892e|Emne
+4c2a8f|Melding
+8970db|Bekreftelse til besøkende
+71baeb|Send den besøkende en bekreftelse på e-post
+b6c0d5|Adresse fra feltet
+7a2be4|Legg først til et e-postfelt i skjemaet.
+45949d|Legg til nytt skjema
+79fd79|Start med et ferdig skjema eller et tomt. Alle maler, også kalkulatorene, er gratis.
+cc7b22|Skjemaet kunne ikke lagres.
+21954b|Alle skjemaer
+00cd1f|Skjemanavn
+6feadb|Kortkode
+eedf6b|Lagrer…
+4abf00|Lagre skjema
+35cb6e|Pristabeller
+f4f707|Innstillinger
+864bac|Legg det til på en side med SmokyForms-blokken eller kortkoden.
+604a9a|Du har endringer som ikke er lagret.
+6866cc|Skjemaet finnes ikke.
+d50431|Skjema uten navn
+782d19|Skjemaet er lagret.
+84ad74|Rediger skjema &lsaquo; %s
+2835b7|Du har ikke tilgang til å gjøre dette.
+39741d|Rediger skjema
+a986be|Skjemabyggeren lastes…
+6db07c|Skjemabyggeren krever JavaScript.
+c50eda|Ikke levert
+77c751|%s (kopi)
+645024|Skjemaer
+cc06ee|SmokyForms-innstillinger
+cb7fd7|E-postutsending
+2932b4|Beskyttelse mot søppelpost
+ef7330|Hvert skjema har et skjult fellefelt og en tidskontroll. I tillegg kan du legge til en CAPTCHA; den brukes i alle skjemaer der den er slått på i skjemainnstillingene.
+aac82e|Cloudflare Turnstile er gratis og krever som regel ingen gåte av besøkende.
+f75d8f|Nettstedsnøkkel
+952bf8|Hemmelig nøkkel
+6b2bed|Lagret. La stå tomt for å beholde den.
+3827d8|Tidskontroll
+783e8e|sekunder
+615249|Skjemaer som sendes raskere enn dette etter at siden er lastet, regnes som søppelpost. 0 slår av kontrollen.
+4def17|Varsler som ikke ble levert
+9f5630|SmokyForms lagrer ikke innsendinger; de sendes til deg på e-post. Hvis et varsel ikke kan sendes, beholdes innsendingen slik at den ikke går tapt, og du kan sende den på nytt under SmokyForms > Ikke levert.
+f24a17|Behold i
+44fdec|dager
+c89567|SmokyForms: %s innsending kunne ikke sendes til deg på e-post. ¦ SmokyForms: %s innsendinger kunne ikke sendes til deg på e-post.
+498f79|Vis
+effa85|Innsendingen ble sendt og fjernet fra listen.
+f9eafc|Innsendingen kunne fortsatt ikke sendes. Sjekk innstillingene for e-postutsending.
+80da2c|Innsendingen ble slettet.
+24c070|Innsendinger som ikke ble levert
+c0d482|Disse innsendingene kom via skjemaene dine, men varselet til deg feilet. De beholdes her så de ikke går tapt, og slettes automatisk etter antall dager angitt under Innstillinger.
+5a569c|Ingenting her. Alle varsler er levert.
+0426b1|Sjekk innstillingene for e-postutsending
+ef546f|Slettet skjema
+ccb168|Årsak:
+50ab1d|Send på nytt
+50d0b5|Slette denne innsendingen for godt?
+b21c60|Ja, slett
+ccf88f|Bekreft at du ikke er en robot.
+296449|Robotsjekken feilet. Prøv igjen.
+cd72d3|Tekst på én linje
+c5a5c5|Avsnittstekst
+ce8ae9|E-post
+bcc254|Telefon
+15bbb9|Nettsted
+7498c4|Nedtrekksliste
+6893e5|Flervalg
+c425f2|Avkrysningsbokser
+447497|Dato
+019003|Skjult felt
+00b768|Samtykkeboks
+9303c9|Dette feltet er påkrevd.
+b5bccd|Skriv inn en gyldig e-postadresse.
+86062b|Skriv inn en gyldig nettadresse.
+772407|Skriv inn et gyldig telefonnummer.
+c2cb00|Skriv inn et tall.
+69dfa7|Skriv inn et tall på minst %s.
+caf8d8|Skriv inn et tall på høyst %s.
+773fcd|Skriv inn en gyldig dato.
+e3264a|Velg ett av alternativene.
+93cba0|Ja
+bafd73|Nei
+a6c2b9|Søk i skjemaer
+60caa9|Ingen skjemaer ennå.
+6a1885|Ingen skjemaer i papirkurven.
+a4d3b1|Send
+279099|Takk! Meldingen din er sendt.
+48b55f|Ny innsending: {form_title}
+81a012|Takk for meldingen
+d93e6b|Hei,\n\ntakk for at du tok kontakt. Vi har mottatt meldingen din og svarer snart.\n\n{all_fields}
+1d6990|Alle svar
+816667|Nettstedets navn
+e91f72|E-post til nettstedets administrator
+2b0b7c|Dato og klokkeslett
+7012e0|Skjemaets side
+151dca|Nettstedet kunne ikke sende e-posten.
+6ac40c|SmokyForms: skjemaet finnes ikke.
+7a4842|La dette feltet stå tomt
+28b263|Sjekk skjemaet og prøv igjen.
+3f6c9a|Velg…
+4d01e8|Sender…
+f83b39|Skjemaet kunne ikke sendes. Prøv igjen.
+6adf97|Ingen
+5bf1f6|Skjemaet kunne ikke kontrolleres. Last inn siden på nytt og prøv igjen.
+5934a3|Det gikk veldig fort. Vent litt og send skjemaet på nytt.
+453e43|For mange innsendinger. Vent ett minutt og prøv igjen.
+57c955|Tomt skjema
+dc8972|Start med et tomt skjema.
+c661cf|Kontaktskjema
+dabe9b|Navn, e-post, telefon og melding.
+5d1cbd|Tilbudsforespørsel
+0269ab|Tjeneste, tillegg og areal gir en anslått pris.
+c2ba7e|Tjeneste
+9986c1|Vanlig vask
+cc16d7|Grundig vask
+e285c9|Areal (m²)
+0a3f08|Tillegg
+aea234|Vinduer
+2623fa|Balkong
+482690|Stekeovn
+cebbfc|Anslått pris
+655157|Bestillingsskjema
+3a11e0|Produkter med antall, levering og rabatt over et beløp.
+70fc36|Produkt A – 12.00 per stk.
+6e18dd|Produkt B – 18.50 per stk.
+065ab3|Levering
+9ae3c9|Hentes
+eb6d8a|Standard
+b144fa|Ekspress
+2194aa|Delsum
+48909c|Rabatt (10 % over 100)
+96b014|Totalt
+6fb3df|Bestilling med netter
+80068a|Ankomst- og avreisedato gir antall netter og prisen.
+83bb56|Bestillingsforespørsel
+885b3c|Ankomst
+5be0fa|Avreise
+cc3abc|Rom
+3bf8f2|Standard – 80 per natt
+3ac878|Suite – 140 per natt
+e10758|Netter
+360114|Pris
+e6e2d9|Fraktpris fra en tabell med soner og pakkestørrelser.
+0ea6b9|Fraktpris
+b3ff99|Sone
+93b3d7|Sone 1
+ac4ff7|Sone 2
+c48837|Sone 3
+f38e90|Pakke
+266006|Liten
+87f8a6|Middels
+3a69b3|Stor
+3e1c4b|Fraktpriser
+348100|BMI-kalkulator
+d7659b|Kroppsmasseindeks ut fra høyde og vekt.
+20fbaa|Høyde (cm)
+917216|Vekt (kg)
+869598|Din BMI
+94966d|Send
+f3cda5|Lånekalkulator
+cb8a5f|Månedlig beløp ut fra lånebeløp, rente og nedbetalingstid.
+59efa4|Lånebeløp
+202d38|Årlig rente (%)
+a92ac9|Nedbetalingstid (måneder)
+647bd0|Månedlig beløp
+d0bcd3|Test-e-post
+a7498e|Dette er en test-e-post. Hvis du kan lese den, fungerer e-postutsendingen.
+9a7e58|Innstillingene er lagret.
+a3fb23|Test-e-posten ble sendt til %s. Sjekk innboksen og søppelpostmappen.
+33de89|Test-e-posten kunne ikke sendes.
+3a9486|Mange vertstjenester leverer WordPress-e-post sent eller til søppelpost. Å sende via SMTP-kontoen hos e-postleverandøren din løser det, uten en egen SMTP-utvidelse.
+05449a|Disse innstillingene deles av %s.
+51e4ba|%s er aktiv og tar seg av e-postutsendingen, så disse innstillingene brukes ikke.
+c2239a|SMTP
+4d7db2|Send e-post via en SMTP-konto
+adac9e|Bare e-post fra SmokySystems-utvidelser
+f8f5e1|All e-post fra dette nettstedet
+bdd48f|SMTP-server
+60aaf4|Port
+d7f261|Kryptering
+151adf|Ingen kryptering
+f6039d|Brukernavn
+dc647e|Passord
+c6e6fb|Passordet er angitt i wp-config.php.
+0b5899|Et passord er lagret. La stå tomt for å beholde det.
+d7381f|Fjern det lagrede passordet
+3b4d50|Avsenderadresse
+250019|Bruk en adresse fra SMTP-kontoen, ellers avviser mange leverandører e-posten.
+c3a7ea|Avsendernavn
+ee1851|Send test-e-post
+7caa16|SmokyForms – Skjemabygger med dra og slipp og beregninger
+9958f8|Skjemabygger med dra og slipp og gratis beregninger. Lag kontakt-, tilbuds- og bestillingsskjemaer og kalkulatorer uten å skrive formler.

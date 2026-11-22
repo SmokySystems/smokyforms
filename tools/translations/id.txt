@@ -1,0 +1,325 @@
+055dcf|Pilih formulir
+d359c6|Formulir
+e0a02c|Anda belum punya formulir. Buat formulir di SmokyForms pada menu admin.
+28ab5c|Pilih formulir yang akan ditampilkan di sini.
+a86405|Kolom dasar
+6ef697|Pilihan
+5939b5|Kolom khusus
+ebd9be|Tata letak
+f56462|jika … maka … selain itu
+7f7bde|if(syarat, nilai jika benar, nilai jika salah)
+b7f41f|Bulatkan
+2e0e8d|round(nilai, desimal)
+a3ab97|Terkecil
+73fc19|min(a, b, …)
+f8c8f8|Terbesar
+8902cb|max(a, b, …)
+ecb62b|Hari di antara tanggal
+a6db34|days(tanggal mulai, tanggal akhir)
+6ff145|Bulatkan ke bawah
+c17f8d|Bulatkan ke atas
+99e006|Tanpa tanda
+921c8e|Akar kuadrat
+1fe7e9|Pilihan pertama
+580834|Pilihan kedua
+c1dd36|Pilihan ketiga
+1bbdf1|Persetujuan
+a816e9|Saya setuju data saya disimpan dan diolah oleh situs ini.
+7ef25f|Blok teks
+3b4836|Judul bagian
+be5d5d|dan
+e81c4e|atau
+35c798|Blok teks kosong
+b0ebea|Belum ada rumus
+222a8b|Tanpa label
+a4f784|Klik atau seret kolom dari daftar di sebelah kiri.
+85e07c|Kolom: %s
+f77af7|Pindah ke atas
+dd9f0c|Pindah ke bawah
+ed7571|Duplikat
+f2a6c4|Hapus
+458b9d|Pilihan
+38b2db|Nilai dalam perhitungan
+7a1920|Bawaan
+ceb473|Hapus pilihan
+015d41|Pilihan %d
+d02f3c|Tambah pilihan
+c9739f|Nilai adalah angka yang dihitung untuk pilihan ini, misalnya harganya. Untuk kotak centang, nilai semua pilihan yang dicentang dijumlahkan.
+d61d8d|Kolom tidak ada: %s
+a1b32d|Klik kolom dan operator di bawah untuk menyusun perhitungan.
+5de039|Susun dengan klik
+878cdc|Tulis rumus
+1cdc07|Urungkan
+dc30bc|Kosongkan
+a4ca5e|Kolom
+443847|Tambahkan dulu kolom angka, pilihan, atau tanggal; kolom itu akan muncul di sini.
+b3c582|Operator
+dd4fe0|Pangkat
+8730cc|Sisa bagi
+e9b53a|Koma (di antara nilai sebuah fungsi)
+b2ee91|Angka
+ca3aeb|Tambah angka
+229eb0|Syarat
+e93acb|Fungsi
+9551cd|Tabel harga
+51c45b|Tabel
+9db33f|Baris dari jawaban kolom
+7876f8|Kolom tabel dari jawaban kolom
+38dded|Hanya satu kolom
+2c4e05|Sisipkan harga
+313a6a|Rumus
+d9f37b|Kolom ditulis sebagai {field_id}. Contoh: {price} * {quantity} + 5
+c66f2e|Rumus belum lengkap. Periksa tanda kurung, koma, dan operator.
+cc3a57|Rumus sudah benar.
+5fd411|Coba
+5aac38|Hasil:
+1767e5|Pilih kolom untuk mengubah pengaturannya.
+010131|Judul
+b021df|Label
+b651ef|Wajib
+6224e6|Teks sebelum memilih
+68753d|Teks contoh
+31ce3c|Nilai bawaan
+48c7c4|Langkah
+56eb52|Teks di samping kotak centang
+58cf98|Tautan boleh dipakai, misalnya ke kebijakan privasi Anda.
+9dffbf|Teks
+716124|HTML dasar boleh dipakai.
+3ea4f7|Perhitungan
+b51e59|Sebelum hasil
+62cfd9|Misalnya Rp
+5c6290|Sesudah hasil
+d41a8c|Misalnya € atau kg
+2b4178|Desimal
+e7c868|Tampilkan hasil di formulir
+16feb3|Matikan untuk langkah perantara yang hanya dipakai perhitungan lain. Hasilnya tetap ada di email.
+c10b7d|Teks bantuan
+329546|Lebar
+24e61d|Lebar penuh
+e4bb63|Setengah lebar
+42aa94|ID kolom
+98fa53|Dipakai dalam rumus sebagai {%1$s} dan dalam email sebagai {field:%1$s}. Jika diubah, rumus di formulir ini ikut diperbarui.
+08aeea|Tabel harga memberi nilai untuk setiap jawaban, atau untuk setiap kombinasi dua jawaban (misalnya zona dan ukuran paket). Gunakan dalam perhitungan lewat "Tabel harga". Nama baris dan kolom harus ditulis persis seperti pilihan pada kolom formulir.
+49ee30|Nama
+6c3798|ID: %s
+c0dd3a|Baris dari pilihan kolom
+923419|Kolom tabel dari pilihan kolom
+710b83|Nama kolom
+689202|Nilai
+dbe735|Nama baris
+d8353e|Baris %d
+19f6e2|Tambah baris
+7bce62|Kolom %d
+b61b8f|Tambah kolom
+8b0629|Hapus baris terakhir
+99a139|Hapus kolom terakhir
+9c6803|Hapus tabel
+531553|Baris 1
+450423|Tambah tabel harga
+1aefc6|Anda bisa memakai:
+19002d|Jawaban satu kolom
+0db377|Umum
+111082|Teks tombol
+8da5e2|Pesan setelah dikirim
+f52ff0|Atau buka halaman ini setelah dikirim
+aac08d|Biarkan kosong untuk menampilkan pesan.
+291d69|CAPTCHA
+86dc8e|Lindungi formulir ini dengan CAPTCHA yang diatur di Pengaturan.
+539ec8|Belum ada CAPTCHA yang diatur. Anda bisa menambahkannya di SmokyForms > Pengaturan. Kolom jebakan dan pemeriksaan waktu tetap melindungi setiap formulir.
+74b72d|Pemberitahuan untuk Anda
+48ff32|SmokyForms tidak menyimpan kiriman; setiap kiriman dikirim ke email Anda. Jika email gagal, kiriman disimpan di SmokyForms > Tak terkirim.
+d245dd|Kirimi saya email untuk setiap kiriman
+c973ca|Kirim ke
+61739f|Pisahkan beberapa alamat dengan koma.
+c7892e|Subjek
+4c2a8f|Pesan
+8970db|Konfirmasi untuk pengunjung
+71baeb|Kirim email konfirmasi ke pengunjung
+b6c0d5|Alamat dari kolom
+7a2be4|Tambahkan dulu kolom email ke formulir.
+45949d|Tambah formulir baru
+79fd79|Mulai dengan formulir siap pakai atau formulir kosong. Semua templat, termasuk kalkulator, gratis.
+cc7b22|Formulir tidak dapat disimpan.
+21954b|Semua formulir
+00cd1f|Nama formulir
+6feadb|Kode pendek
+eedf6b|Menyimpan…
+4abf00|Simpan formulir
+35cb6e|Tabel harga
+f4f707|Pengaturan
+864bac|Tambahkan ke halaman dengan blok SmokyForms atau kode pendek.
+604a9a|Ada perubahan yang belum disimpan.
+6866cc|Formulir ini tidak ada.
+d50431|Formulir tanpa judul
+782d19|Formulir disimpan.
+84ad74|Edit formulir &lsaquo; %s
+2835b7|Anda tidak diizinkan melakukan ini.
+39741d|Edit formulir
+a986be|Memuat pembuat formulir…
+6db07c|Pembuat formulir memerlukan JavaScript.
+c50eda|Tak terkirim
+77c751|%s (salinan)
+645024|Formulir
+cc06ee|Pengaturan SmokyForms
+cb7fd7|Pengiriman email
+2932b4|Perlindungan spam
+ef7330|Setiap formulir punya kolom jebakan tersembunyi dan pemeriksaan waktu. Anda juga bisa menambahkan CAPTCHA; CAPTCHA dipakai di setiap formulir yang mengaktifkannya di pengaturan formulir.
+aac82e|Cloudflare Turnstile gratis dan biasanya tidak meminta pengunjung menyelesaikan teka-teki.
+f75d8f|Kunci situs
+952bf8|Kunci rahasia
+6b2bed|Tersimpan. Biarkan kosong untuk mempertahankannya.
+3827d8|Pemeriksaan waktu
+783e8e|detik
+615249|Formulir yang dikirim lebih cepat dari ini setelah halaman dimuat dianggap spam. 0 mematikan pemeriksaan.
+4def17|Pemberitahuan tak terkirim
+9f5630|SmokyForms tidak menyimpan kiriman; kiriman dikirim ke email Anda. Jika email pemberitahuan tidak dapat dikirim, kiriman disimpan agar tidak hilang, dan Anda bisa mengirimnya lagi di SmokyForms > Tak terkirim.
+f24a17|Simpan selama
+44fdec|hari
+c89567|SmokyForms: %s kiriman tidak dapat dikirim ke email Anda.
+498f79|Tampilkan
+effa85|Kiriman telah dikirim dan dihapus dari daftar.
+f9eafc|Kiriman masih belum dapat dikirim. Periksa pengaturan pengiriman email.
+80da2c|Kiriman telah dihapus.
+24c070|Kiriman tak terkirim
+c0d482|Kiriman ini masuk lewat formulir Anda, tetapi email pemberitahuan untuk Anda gagal. Kiriman disimpan di sini agar tidak hilang dan dihapus otomatis setelah jumlah hari yang diatur di Pengaturan.
+5a569c|Tidak ada apa-apa di sini. Semua pemberitahuan sudah terkirim.
+0426b1|Periksa pengaturan pengiriman email
+ef546f|Formulir terhapus
+ccb168|Alasan:
+50ab1d|Kirim lagi
+50d0b5|Hapus kiriman ini secara permanen?
+b21c60|Ya, hapus
+ccf88f|Konfirmasikan bahwa Anda bukan robot.
+296449|Pemeriksaan robot gagal. Coba lagi.
+cd72d3|Teks satu baris
+c5a5c5|Teks paragraf
+ce8ae9|Email
+bcc254|Telepon
+15bbb9|Situs web
+7498c4|Menu tarik-turun
+6893e5|Pilihan tunggal
+c425f2|Kotak centang
+447497|Tanggal
+019003|Kolom tersembunyi
+00b768|Kotak persetujuan
+9303c9|Kolom ini wajib diisi.
+b5bccd|Masukkan alamat email yang valid.
+86062b|Masukkan alamat situs web yang valid.
+772407|Masukkan nomor telepon yang valid.
+c2cb00|Masukkan angka.
+69dfa7|Masukkan angka minimal %s.
+caf8d8|Masukkan angka maksimal %s.
+773fcd|Masukkan tanggal yang valid.
+e3264a|Pilih salah satu opsi.
+93cba0|Ya
+bafd73|Tidak
+a6c2b9|Cari formulir
+60caa9|Belum ada formulir.
+6a1885|Tidak ada formulir di tempat sampah.
+a4d3b1|Kirim
+279099|Terima kasih! Pesan Anda sudah terkirim.
+48b55f|Kiriman baru: {form_title}
+81a012|Terima kasih atas pesan Anda
+d93e6b|Halo,\n\nterima kasih telah menghubungi kami. Pesan Anda sudah kami terima dan akan segera kami balas.\n\n{all_fields}
+1d6990|Semua jawaban
+816667|Nama situs
+e91f72|Email admin situs
+2b0b7c|Tanggal dan waktu
+7012e0|Halaman formulir
+151dca|Situs tidak dapat mengirim email.
+6ac40c|SmokyForms: formulir ini tidak ada.
+7a4842|Biarkan kolom ini kosong
+28b263|Periksa formulir dan coba lagi.
+3f6c9a|Pilih…
+4d01e8|Mengirim…
+f83b39|Formulir tidak dapat dikirim. Coba lagi.
+6adf97|Tidak ada
+5bf1f6|Formulir tidak dapat diperiksa. Muat ulang halaman lalu coba lagi.
+5934a3|Terlalu cepat. Tunggu sebentar lalu kirim formulir lagi.
+453e43|Terlalu banyak kiriman. Tunggu satu menit lalu coba lagi.
+57c955|Formulir kosong
+dc8972|Mulai dari formulir kosong.
+c661cf|Formulir kontak
+dabe9b|Nama, email, telepon, dan pesan.
+5d1cbd|Permintaan penawaran
+0269ab|Layanan, tambahan, dan luas memberi perkiraan harga.
+c2ba7e|Layanan
+9986c1|Pembersihan dasar
+cc16d7|Pembersihan menyeluruh
+e285c9|Luas (m²)
+0a3f08|Tambahan
+aea234|Jendela
+2623fa|Balkon
+482690|Oven
+cebbfc|Perkiraan harga
+655157|Formulir pesanan
+3a11e0|Produk dengan jumlah, pengiriman, dan diskon di atas nominal tertentu.
+70fc36|Produk A – 12.00 per buah
+6e18dd|Produk B – 18.50 per buah
+065ab3|Pengiriman
+9ae3c9|Ambil sendiri
+eb6d8a|Reguler
+b144fa|Ekspres
+2194aa|Subtotal
+48909c|Diskon (10% di atas 100)
+96b014|Total
+6fb3df|Pemesanan per malam
+80068a|Tanggal datang dan pergi memberi jumlah malam dan harga.
+83bb56|Permintaan pemesanan
+885b3c|Kedatangan
+5be0fa|Keberangkatan
+cc3abc|Kamar
+3bf8f2|Standar – 80 per malam
+3ac878|Suite – 140 per malam
+e10758|Malam
+360114|Harga
+e6e2d9|Ongkos kirim dari tabel zona dan ukuran paket.
+0ea6b9|Ongkos kirim
+b3ff99|Zona
+93b3d7|Zona 1
+ac4ff7|Zona 2
+c48837|Zona 3
+f38e90|Paket
+266006|Kecil
+87f8a6|Sedang
+3a69b3|Besar
+3e1c4b|Tarif ongkos kirim
+348100|Kalkulator BMI
+d7659b|Indeks massa tubuh dari tinggi dan berat badan.
+20fbaa|Tinggi (cm)
+917216|Berat (kg)
+869598|BMI Anda
+94966d|Kirim
+f3cda5|Kalkulator pinjaman
+cb8a5f|Cicilan bulanan dari jumlah, suku bunga, dan jangka waktu.
+59efa4|Jumlah pinjaman
+202d38|Suku bunga tahunan (%)
+a92ac9|Jangka waktu (bulan)
+647bd0|Cicilan bulanan
+d0bcd3|Email uji
+a7498e|Ini email uji. Jika Anda bisa membacanya, pengiriman email berjalan baik.
+9a7e58|Pengaturan disimpan.
+a3fb23|Email uji telah dikirim ke %s. Periksa kotak masuk dan folder spam.
+33de89|Email uji tidak dapat dikirim.
+3a9486|Banyak hosting mengirim email WordPress terlambat atau ke folder spam. Mengirimnya lewat akun SMTP penyedia email Anda mengatasi hal itu, tanpa plugin SMTP terpisah.
+05449a|Pengaturan ini dipakai bersama oleh %s.
+51e4ba|%s aktif dan menangani pengiriman email, jadi pengaturan ini tidak dipakai.
+c2239a|SMTP
+4d7db2|Kirim email lewat akun SMTP
+adac9e|Hanya email dari plugin SmokySystems
+f8f5e1|Semua email situs ini
+bdd48f|Server SMTP
+60aaf4|Port
+d7f261|Enkripsi
+151adf|Tanpa enkripsi
+f6039d|Nama pengguna
+dc647e|Kata sandi
+c6e6fb|Kata sandi diatur di wp-config.php.
+0b5899|Kata sandi sudah tersimpan. Biarkan kosong untuk mempertahankannya.
+d7381f|Hapus kata sandi yang tersimpan
+3b4d50|Email pengirim
+250019|Gunakan alamat dari akun SMTP, jika tidak banyak penyedia akan menolak email tersebut.
+c3a7ea|Nama pengirim
+ee1851|Kirim email uji
+7caa16|SmokyForms – Pembuat formulir seret dan lepas dengan perhitungan
+9958f8|Pembuat formulir seret dan lepas dengan perhitungan gratis. Buat formulir kontak, penawaran, dan pesanan serta kalkulator tanpa menulis rumus.

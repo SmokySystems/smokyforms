@@ -1,0 +1,1349 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "フォームを選択"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "フォーム"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "まだフォームがありません。管理メニューの SmokyForms からフォームを作成してください。"
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "ここに表示するフォームを選択してください。"
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "基本フィールド"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "選択肢"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "特殊フィールド"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "レイアウト"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "もし … なら … そうでなければ"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(条件, 真のときの値, 偽のときの値)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "四捨五入"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(値, 小数点以下の桁数)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "最小値"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "最大値"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "日付間の日数"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(開始日, 終了日)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "切り捨て"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "切り上げ"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "絶対値"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "平方根"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "選択肢 1"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "選択肢 2"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "選択肢 3"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "同意"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "このサイトが私のデータを保存・処理することに同意します。"
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "テキストブロック"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "セクション見出し"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "かつ"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "または"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "空のテキストブロック"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "数式はまだありません"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "ラベルなし"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "左のリストのフィールドをクリックするか、ドラッグしてください。"
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "フィールド: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "上へ移動"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "下へ移動"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "複製"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "削除"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "選択肢"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "計算での値"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "初期値"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "選択肢を削除"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "選択肢 %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "選択肢を追加"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "値は、この選択肢が計算でいくつとして扱われるか（例: 価格）です。チェックボックスでは、チェックされたすべての選択肢の値が合計されます。"
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "見つからないフィールド: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "下のフィールドと演算子をクリックして計算を組み立てます。"
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "クリックで作成"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "数式を書く"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "元に戻す"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "クリア"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "フィールド"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "先に数値・選択肢・日付のフィールドを追加してください。ここに表示されます。"
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "演算子"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "べき乗"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "余り"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "カンマ（関数の値の区切り）"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "数値"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "数値を追加"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "条件"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "関数"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "価格表"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "表"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "行を決める回答"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "列を決める回答"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "1 列のみ"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "価格を挿入"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "数式"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "フィールドは {field_id} と書きます。例: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "数式がまだ完成していません。括弧、カンマ、演算子を確認してください。"
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "数式は有効です。"
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "試してみる"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "結果:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "設定を変更するフィールドを選択してください。"
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "見出し"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "ラベル"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "必須"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "選択前に表示するテキスト"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "プレースホルダー"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "初期値"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "刻み"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "チェックボックスの横のテキスト"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "リンクを使えます（例: プライバシーポリシーへのリンク）。"
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "テキスト"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "基本的な HTML を使えます。"
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "計算"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "結果の前"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "例: $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "結果の後"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "例: 円、kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "小数点以下の桁数"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "結果をフォームに表示"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "他の計算だけが使う中間ステップの場合はオフにします。結果はメールには含まれます。"
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "ヘルプテキスト"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "幅"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "全幅"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "半分の幅"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "フィールド ID"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "数式では {%1$s}、メールでは {field:%1$s} として使います。変更するとこのフォームの数式も更新されます。"
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "価格表は、回答ごと、または 2 つの回答の組み合わせごと（例: 地域と荷物のサイズ）に値を返します。計算で「価格表」から使用します。行と列の名前は、フィールドの選択肢と完全に同じに書く必要があります。"
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "名前"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "行をフィールドの選択肢から取得"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "列をフィールドの選択肢から取得"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "列名"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "値"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "行名"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "行 %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "行を追加"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "列 %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "列を追加"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "最後の行を削除"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "最後の列を削除"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "表を削除"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "行 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "価格表を追加"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "使えるタグ:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "1 つのフィールドの回答"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "一般"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "ボタンのテキスト"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "送信後のメッセージ"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "または送信後にこのページへ移動"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "空欄にするとメッセージを表示します。"
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "設定で構成した CAPTCHA でこのフォームを保護します。"
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "CAPTCHA はまだ設定されていません。SmokyForms > 設定 で追加できます。トラップ用フィールドと時間チェックはどのフォームでも常に有効です。"
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "あなたへの通知"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms は送信内容を保存せず、すべてメールであなたに送ります。メール送信に失敗した場合は SmokyForms > 未配信 に保管されます。"
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "送信があるたびにメールで知らせる"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "送信先"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "複数のアドレスはカンマで区切ります。"
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "件名"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "本文"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "訪問者への確認"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "訪問者に確認メールを送る"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "アドレスを取得するフィールド"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "先にフォームにメールフィールドを追加してください。"
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "新規フォームを追加"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "既製のフォームか空のフォームから始めましょう。計算機を含むすべてのテンプレートが無料です。"
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "フォームを保存できませんでした。"
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "すべてのフォーム"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "フォーム名"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "保存中…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "フォームを保存"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "価格表"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "設定"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "SmokyForms ブロックまたはショートコードでページに追加してください。"
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "保存していない変更があります。"
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "このフォームは存在しません。"
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "無題のフォーム"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "フォームを保存しました。"
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "フォームを編集 &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "この操作を行う権限がありません。"
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "フォームを編集"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "フォームビルダーを読み込んでいます…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "フォームビルダーには JavaScript が必要です。"
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "未配信"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s（コピー）"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "フォーム"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "SmokyForms 設定"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "メール送信"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "スパム対策"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "すべてのフォームには隠しトラップ用フィールドと時間チェックがあります。さらに CAPTCHA も追加でき、フォーム設定で有効にしたフォームで使用されます。"
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile は無料で、通常は訪問者にパズルを解かせません。"
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "サイトキー"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "シークレットキー"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "保存済みです。変更しない場合は空欄のままにしてください。"
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "時間チェック"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "秒"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "ページ読み込み後これより早く送信されたフォームはスパムとして扱われます。0 でチェックを無効にします。"
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "未配信の通知"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms は送信内容を保存せず、メールであなたに送ります。通知メールを送れなかった場合は、失われないよう送信内容を保管し、SmokyForms > 未配信 から再送できます。"
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "保管期間"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "日"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s 件の送信内容をメールで届けられませんでした。"
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "表示"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "送信内容を送信し、このリストから削除しました。"
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "送信内容をまだ送信できません。メール送信の設定を確認してください。"
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "送信内容を削除しました。"
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "未配信の送信内容"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "これらはフォームから届いた送信内容ですが、あなたへの通知メールの送信に失敗しました。失われないようここに保管され、設定で指定した日数が過ぎると自動的に削除されます。"
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "ここには何もありません。すべての通知が配信されました。"
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "メール送信の設定を確認"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "削除されたフォーム"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "理由:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "再送信"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "この送信内容を完全に削除しますか？"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "はい、削除します"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "ロボットではないことを確認してください。"
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "ロボット確認に失敗しました。もう一度お試しください。"
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "1 行テキスト"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "段落テキスト"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "メール"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "電話番号"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "単一選択"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "チェックボックス"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "日付"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "隠しフィールド"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "同意チェックボックス"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "この項目は必須です。"
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "有効なメールアドレスを入力してください。"
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "有効なウェブサイトのアドレスを入力してください。"
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "有効な電話番号を入力してください。"
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "数値を入力してください。"
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "%s 以上の数値を入力してください。"
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "%s 以下の数値を入力してください。"
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "有効な日付を入力してください。"
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "選択肢から 1 つ選んでください。"
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "はい"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "いいえ"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "フォームを検索"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "フォームはまだありません。"
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "ゴミ箱にフォームはありません。"
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "送信"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "ありがとうございます。メッセージを送信しました。"
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "新しい送信: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "お問い合わせありがとうございます"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"こんにちは。\n"
+"\n"
+"お問い合わせいただきありがとうございます。メッセージを受け取りました。近日中にご返信いたします。\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "すべての回答"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "サイト名"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "サイト管理者のメールアドレス"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "日時"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "フォームのページ"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "サイトからメールを送信できませんでした。"
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: このフォームは存在しません。"
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "この項目は空欄のままにしてください"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "フォームを確認して、もう一度お試しください。"
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "選択してください…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "送信中…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "フォームを送信できませんでした。もう一度お試しください。"
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "なし"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "フォームを確認できませんでした。ページを再読み込みして、もう一度お試しください。"
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "送信が速すぎます。少し待ってからもう一度送信してください。"
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "送信回数が多すぎます。1 分待ってからもう一度お試しください。"
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "空のフォーム"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "空のフォームから始めます。"
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "お問い合わせフォーム"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "名前、メール、電話番号、メッセージ。"
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "見積もり依頼"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "サービス、オプション、広さから概算価格を出します。"
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "サービス"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "通常清掃"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "徹底清掃"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "広さ（m²）"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "オプション"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "窓"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "バルコニー"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "オーブン"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "概算価格"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "注文フォーム"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "数量付きの商品、配送、一定額以上の割引。"
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "商品 A – 1 個 12.00"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "商品 B – 1 個 18.50"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "配送"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "店頭受け取り"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "通常"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "速達"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "小計"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "割引（100 を超えると 10%）"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "合計"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "宿泊数付き予約"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "到着日と出発日から宿泊数と料金を出します。"
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "予約のお申し込み"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "到着日"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "出発日"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "部屋"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "スタンダード – 1 泊 80"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "スイート – 1 泊 140"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "宿泊数"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "料金"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "地域と荷物サイズの表から送料を出します。"
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "送料"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "地域"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "地域 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "地域 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "地域 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "荷物"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "小"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "中"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "大"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "送料表"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "BMI 計算機"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "身長と体重から BMI を計算します。"
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "身長（cm）"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "体重（kg）"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "あなたの BMI"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "送信"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "ローン計算機"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "借入額、金利、期間から毎月の返済額を出します。"
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "借入額"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "年利（%）"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "期間（か月）"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "毎月の返済額"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "テストメール"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "これはテストメールです。読めていれば、メール送信は正常に動作しています。"
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "テストメールを %s に送信しました。受信トレイと迷惑メールフォルダーを確認してください。"
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "テストメールを送信できませんでした。"
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "多くのホスティングでは WordPress のメールが遅れて届いたり、迷惑メールに入ったりします。メールサービスの SMTP アカウント経由で送ると、別の SMTP プラグインなしで解決します。"
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "これらの設定は %s で共有されています。"
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s が有効でメール送信を担当しているため、これらの設定は使われません。"
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "SMTP アカウント経由でメールを送信"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "SmokySystems のプラグインのメールのみ"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "このサイトのすべてのメール"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP サーバー"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "ポート"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "暗号化"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "暗号化なし"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "ユーザー名"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "パスワード"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "パスワードは wp-config.php で設定されています。"
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "パスワードは保存済みです。変更しない場合は空欄のままにしてください。"
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "保存したパスワードを削除"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "送信元メールアドレス"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "SMTP アカウントのアドレスを使ってください。そうでないと多くのサービスでメールが拒否されます。"
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "送信者名"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "テストメールを送信"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – 計算機能付きドラッグ＆ドロップ フォームビルダー"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "計算機能が無料で使えるドラッグ＆ドロップのフォームビルダー。お問い合わせ、見積もり、注文のフォームや計算機を、数式を書かずに作成できます。"

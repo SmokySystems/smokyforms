@@ -1,0 +1,125 @@
+/* SmokyForms: layout only. Fonts, colours and input styles come from the theme. */
+.smokyforms-fields {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.25em 1.5em;
+	margin-block-end: 1.25em;
+}
+.smokyforms-field {
+	flex: 1 1 100%;
+	min-width: 0;
+}
+.smokyforms-width-half {
+	flex: 1 1 calc(50% - 0.75em);
+}
+@media (max-width: 600px) {
+	.smokyforms-width-half {
+		flex-basis: 100%;
+	}
+}
+.smokyforms-field[hidden] {
+	display: none;
+}
+.smokyforms-label {
+	display: block;
+	margin-block-end: 0.35em;
+	font-weight: 600;
+}
+.smokyforms-field input:not([type="checkbox"]):not([type="radio"]),
+.smokyforms-field select,
+.smokyforms-field textarea {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 100%;
+}
+/* Base sizing for themes that do not style form fields. :where() keeps it at zero specificity,
+   so any theme style wins. The theme's font is used. */
+:where(.smokyforms-field) :where(input:not([type="checkbox"]):not([type="radio"]), select, textarea) {
+	font: inherit;
+	padding: 0.6em 0.75em;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	background-color: transparent;
+	color: inherit;
+}
+:where(.smokyforms-field) :where(select) {
+	background-color: Canvas;
+}
+.smokyforms-choices {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	min-width: 0;
+}
+.smokyforms-choices legend {
+	padding: 0;
+}
+.smokyforms-choice {
+	display: flex;
+	align-items: baseline;
+	gap: 0.5em;
+	margin-block: 0.25em;
+	font-weight: normal;
+	cursor: pointer;
+}
+.smokyforms-choice input {
+	flex: none;
+	margin: 0;
+}
+.smokyforms-help {
+	margin: 0.35em 0 0;
+	font-size: 0.875em;
+	opacity: 0.8;
+}
+.smokyforms-heading {
+	margin: 0.5em 0 0;
+}
+.smokyforms-result {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+}
+.smokyforms-required,
+.smokyforms-error,
+.smokyforms-message[data-state="error"] {
+	color: #b32d2e;
+}
+.smokyforms-error {
+	margin: 0.35em 0 0;
+	font-size: 0.875em;
+}
+.smokyforms-error[hidden],
+.smokyforms-message[hidden] {
+	display: none;
+}
+.smokyforms-has-error input,
+.smokyforms-has-error select,
+.smokyforms-has-error textarea {
+	outline: 1px solid #b32d2e;
+	outline-offset: 0;
+}
+.smokyforms-captcha {
+	margin-block-end: 1.25em;
+}
+.smokyforms-message {
+	margin-block-start: 1em;
+}
+.smokyforms-message p:last-child {
+	margin-block-end: 0;
+}
+.smokyforms-message:focus {
+	outline: none;
+}
+.smokyforms-button[disabled] {
+	opacity: 0.6;
+	cursor: wait;
+}
+/* Trap field for bots: off screen, not display:none (some bots skip hidden fields). */
+.smokyforms-hp {
+	position: absolute !important;
+	inset-inline-start: -9999px !important;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}

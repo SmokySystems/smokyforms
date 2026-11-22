@@ -1,0 +1,325 @@
+055dcf|Välj ett formulär
+d359c6|Formulär
+e0a02c|Du har inga formulär ännu. Skapa ett under SmokyForms i adminmenyn.
+28ab5c|Välj formuläret som ska visas här.
+a86405|Grundfält
+6ef697|Val
+5939b5|Specialfält
+ebd9be|Layout
+f56462|om … så … annars
+7f7bde|if(villkor, värde om sant, värde om falskt)
+b7f41f|Avrunda
+2e0e8d|round(värde, decimaler)
+a3ab97|Minsta
+73fc19|min(a, b, …)
+f8c8f8|Största
+8902cb|max(a, b, …)
+ecb62b|Dagar mellan datum
+a6db34|days(startdatum, slutdatum)
+6ff145|Avrunda nedåt
+c17f8d|Avrunda uppåt
+99e006|Utan tecken
+921c8e|Kvadratrot
+1fe7e9|Första valet
+580834|Andra valet
+c1dd36|Tredje valet
+1bbdf1|Samtycke
+a816e9|Jag godkänner att den här webbplatsen lagrar och behandlar mina uppgifter.
+7ef25f|Textblock
+3b4836|Avsnittsrubrik
+be5d5d|och
+e81c4e|eller
+35c798|Tomt textblock
+b0ebea|Ingen formel ännu
+222a8b|Ingen etikett
+a4f784|Klicka på eller dra fält från listan till vänster.
+85e07c|Fält: %s
+f77af7|Flytta upp
+dd9f0c|Flytta ner
+ed7571|Duplicera
+f2a6c4|Ta bort
+458b9d|Val
+38b2db|Värde i beräkningar
+7a1920|Förval
+ceb473|Ta bort val
+015d41|Val %d
+d02f3c|Lägg till val
+c9739f|Värdet är vad valet räknas som i en beräkning, till exempel priset. För kryssrutor summeras värdena för alla ikryssade val.
+d61d8d|Fält saknas: %s
+a1b32d|Klicka på fält och operatorer nedan för att bygga beräkningen.
+5de039|Bygg med klick
+878cdc|Skriv formeln
+1cdc07|Ångra
+dc30bc|Rensa
+a4ca5e|Fält
+443847|Lägg först till nummer-, val- eller datumfält; de visas här.
+b3c582|Operatorer
+dd4fe0|Potens
+8730cc|Rest
+e9b53a|Kommatecken (mellan värdena i en funktion)
+b2ee91|Tal
+ca3aeb|Lägg till tal
+229eb0|Villkor
+e93acb|Funktioner
+9551cd|Pristabell
+51c45b|Tabell
+9db33f|Rad utifrån svaret i
+7876f8|Kolumn utifrån svaret i
+38dded|Bara en kolumn
+2c4e05|Infoga pris
+313a6a|Formel
+d9f37b|Fält skrivs som {field_id}. Exempel: {price} * {quantity} + 5
+c66f2e|Formeln är inte klar ännu. Kontrollera parenteser, kommatecken och operatorer.
+cc3a57|Formeln är giltig.
+5fd411|Prova
+5aac38|Resultat:
+1767e5|Välj ett fält för att ändra dess inställningar.
+010131|Rubrik
+b021df|Etikett
+b651ef|Obligatoriskt
+6224e6|Text innan ett val görs
+68753d|Platshållare
+31ce3c|Standardvärde
+48c7c4|Steg
+56eb52|Text bredvid kryssrutan
+58cf98|Länkar är tillåtna, till exempel till din integritetspolicy.
+9dffbf|Text
+716124|Enkel HTML är tillåten.
+3ea4f7|Beräkning
+b51e59|Före resultatet
+62cfd9|Till exempel $
+5c6290|Efter resultatet
+d41a8c|Till exempel € eller kg
+2b4178|Decimaler
+e7c868|Visa resultatet i formuläret
+16feb3|Stäng av för ett mellansteg som bara andra beräkningar använder. Resultatet finns ändå i e-postmeddelandet.
+c10b7d|Hjälptext
+329546|Bredd
+24e61d|Full bredd
+e4bb63|Halv bredd
+42aa94|Fält-ID
+98fa53|Används i formler som {%1$s} och i e-post som {field:%1$s}. Om du ändrar det uppdateras formlerna i formuläret.
+08aeea|En pristabell ger ett värde för varje svar, eller för varje kombination av två svar (till exempel zon och paketstorlek). Använd den i en beräkning med ”Pristabell”. Rad- och kolumnnamn måste skrivas exakt som fältens val.
+49ee30|Namn
+6c3798|ID: %s
+c0dd3a|Rader från valen i
+923419|Kolumner från valen i
+710b83|Kolumnnamn
+689202|Värde
+dbe735|Radnamn
+d8353e|Rad %d
+19f6e2|Lägg till rad
+7bce62|Kolumn %d
+b61b8f|Lägg till kolumn
+8b0629|Ta bort sista raden
+99a139|Ta bort sista kolumnen
+9c6803|Ta bort tabell
+531553|Rad 1
+450423|Lägg till pristabell
+1aefc6|Du kan använda:
+19002d|Svar i ett fält
+0db377|Allmänt
+111082|Knapptext
+8da5e2|Meddelande efter inskick
+f52ff0|Eller gå till den här sidan efter inskick
+aac08d|Lämna tomt för att visa meddelandet i stället.
+291d69|CAPTCHA
+86dc8e|Skydda formuläret med den CAPTCHA som är inställd under Inställningar.
+539ec8|Ingen CAPTCHA är inställd ännu. Du kan lägga till en under SmokyForms > Inställningar. Fällfältet och tidskontrollen skyddar ändå alla formulär.
+74b72d|Avisering till dig
+48ff32|SmokyForms sparar inte inskick; varje inskick skickas till dig med e-post. Om e-postmeddelandet misslyckas sparas inskicket under SmokyForms > Ej levererade.
+d245dd|Skicka e-post till mig för varje inskick
+c973ca|Skicka till
+61739f|Skilj flera adresser åt med kommatecken.
+c7892e|Ämne
+4c2a8f|Meddelande
+8970db|Bekräftelse till besökaren
+71baeb|Skicka ett bekräftelsemejl till besökaren
+b6c0d5|Adress från fältet
+7a2be4|Lägg först till ett e-postfält i formuläret.
+45949d|Lägg till nytt formulär
+79fd79|Börja med ett färdigt formulär eller ett tomt. Alla mallar, även kalkylatorerna, är gratis.
+cc7b22|Formuläret kunde inte sparas.
+21954b|Alla formulär
+00cd1f|Formulärets namn
+6feadb|Kortkod
+eedf6b|Sparar…
+4abf00|Spara formulär
+35cb6e|Pristabeller
+f4f707|Inställningar
+864bac|Lägg till det på en sida med SmokyForms-blocket eller kortkoden.
+604a9a|Du har osparade ändringar.
+6866cc|Formuläret finns inte.
+d50431|Namnlöst formulär
+782d19|Formuläret har sparats.
+84ad74|Redigera formulär &lsaquo; %s
+2835b7|Du har inte behörighet att göra detta.
+39741d|Redigera formulär
+a986be|Formulärbyggaren laddas…
+6db07c|Formulärbyggaren kräver JavaScript.
+c50eda|Ej levererade
+77c751|%s (kopia)
+645024|Formulär
+cc06ee|SmokyForms-inställningar
+cb7fd7|E-postutskick
+2932b4|Skydd mot skräppost
+ef7330|Varje formulär har ett dolt fällfält och en tidskontroll. Du kan dessutom lägga till en CAPTCHA; den används i alla formulär där den är påslagen i formulärinställningarna.
+aac82e|Cloudflare Turnstile är gratis och kräver oftast inget pussel av dina besökare.
+f75d8f|Webbplatsnyckel
+952bf8|Hemlig nyckel
+6b2bed|Sparad. Lämna tomt för att behålla den.
+3827d8|Tidskontroll
+783e8e|sekunder
+615249|Formulär som skickas snabbare än så efter att sidan laddats räknas som skräppost. 0 stänger av kontrollen.
+4def17|Ej levererade aviseringar
+9f5630|SmokyForms sparar inte inskick; de skickas till dig med e-post. Om ett aviseringsmejl inte kan skickas sparas inskicket så att det inte går förlorat, och du kan skicka det igen under SmokyForms > Ej levererade.
+f24a17|Spara i
+44fdec|dagar
+c89567|SmokyForms: %s inskick kunde inte mejlas till dig. ¦ SmokyForms: %s inskick kunde inte mejlas till dig.
+498f79|Visa
+effa85|Inskicket skickades och togs bort från listan.
+f9eafc|Inskicket kunde fortfarande inte skickas. Kontrollera inställningarna för e-postutskick.
+80da2c|Inskicket togs bort.
+24c070|Ej levererade inskick
+c0d482|De här inskicken kom via dina formulär, men aviseringsmejlet till dig misslyckades. De sparas här så att de inte går förlorade och tas bort automatiskt efter det antal dagar som anges under Inställningar.
+5a569c|Här finns inget. Alla aviseringar har levererats.
+0426b1|Kontrollera inställningarna för e-postutskick
+ef546f|Borttaget formulär
+ccb168|Orsak:
+50ab1d|Skicka igen
+50d0b5|Ta bort inskicket permanent?
+b21c60|Ja, ta bort
+ccf88f|Bekräfta att du inte är en robot.
+296449|Robotkontrollen misslyckades. Försök igen.
+cd72d3|Text på en rad
+c5a5c5|Stycketext
+ce8ae9|E-post
+bcc254|Telefon
+15bbb9|Webbplats
+7498c4|Rullgardinsmeny
+6893e5|Flerval
+c425f2|Kryssrutor
+447497|Datum
+019003|Dolt fält
+00b768|Samtyckesruta
+9303c9|Fältet är obligatoriskt.
+b5bccd|Ange en giltig e-postadress.
+86062b|Ange en giltig webbadress.
+772407|Ange ett giltigt telefonnummer.
+c2cb00|Ange ett tal.
+69dfa7|Ange ett tal som är minst %s.
+caf8d8|Ange ett tal som är högst %s.
+773fcd|Ange ett giltigt datum.
+e3264a|Välj ett av alternativen.
+93cba0|Ja
+bafd73|Nej
+a6c2b9|Sök formulär
+60caa9|Inga formulär ännu.
+6a1885|Inga formulär i papperskorgen.
+a4d3b1|Skicka
+279099|Tack! Ditt meddelande har skickats.
+48b55f|Nytt inskick: {form_title}
+81a012|Tack för ditt meddelande
+d93e6b|Hej,\n\ntack för att du kontaktade oss. Vi har fått ditt meddelande och svarar snart.\n\n{all_fields}
+1d6990|Alla svar
+816667|Webbplatsens namn
+e91f72|Webbplatsadministratörens e-post
+2b0b7c|Datum och tid
+7012e0|Formulärets sida
+151dca|Webbplatsen kunde inte skicka e-postmeddelandet.
+6ac40c|SmokyForms: formuläret finns inte.
+7a4842|Lämna fältet tomt
+28b263|Kontrollera formuläret och försök igen.
+3f6c9a|Välj…
+4d01e8|Skickar…
+f83b39|Formuläret kunde inte skickas. Försök igen.
+6adf97|Ingen
+5bf1f6|Formuläret kunde inte kontrolleras. Ladda om sidan och försök igen.
+5934a3|Det gick väldigt fort. Vänta en stund och skicka formuläret igen.
+453e43|För många inskick. Vänta en minut och försök igen.
+57c955|Tomt formulär
+dc8972|Börja med ett tomt formulär.
+c661cf|Kontaktformulär
+dabe9b|Namn, e-post, telefon och meddelande.
+5d1cbd|Offertförfrågan
+0269ab|Tjänst, tillval och yta ger ett uppskattat pris.
+c2ba7e|Tjänst
+9986c1|Grundstädning
+cc16d7|Storstädning
+e285c9|Yta (m²)
+0a3f08|Tillval
+aea234|Fönster
+2623fa|Balkong
+482690|Ugn
+cebbfc|Uppskattat pris
+655157|Beställningsformulär
+3a11e0|Produkter med antal, leverans och rabatt över ett belopp.
+70fc36|Produkt A – 12.00 st
+6e18dd|Produkt B – 18.50 st
+065ab3|Leverans
+9ae3c9|Hämta själv
+eb6d8a|Standard
+b144fa|Express
+2194aa|Delsumma
+48909c|Rabatt (10 % över 100)
+96b014|Totalt
+6fb3df|Bokning med nätter
+80068a|Ankomst- och avresedatum ger antal nätter och priset.
+83bb56|Bokningsförfrågan
+885b3c|Ankomst
+5be0fa|Avresa
+cc3abc|Rum
+3bf8f2|Standard – 80 per natt
+3ac878|Svit – 140 per natt
+e10758|Nätter
+360114|Pris
+e6e2d9|Fraktpris från en tabell med zoner och paketstorlekar.
+0ea6b9|Fraktpris
+b3ff99|Zon
+93b3d7|Zon 1
+ac4ff7|Zon 2
+c48837|Zon 3
+f38e90|Paket
+266006|Litet
+87f8a6|Mellan
+3a69b3|Stort
+3e1c4b|Fraktpriser
+348100|BMI-kalkylator
+d7659b|Kroppsmasseindex utifrån längd och vikt.
+20fbaa|Längd (cm)
+917216|Vikt (kg)
+869598|Ditt BMI
+94966d|Skicka
+f3cda5|Lånekalkylator
+cb8a5f|Månadsbelopp utifrån lånebelopp, ränta och löptid.
+59efa4|Lånebelopp
+202d38|Årsränta (%)
+a92ac9|Löptid (månader)
+647bd0|Månadsbelopp
+d0bcd3|Testmejl
+a7498e|Detta är ett testmejl. Om du kan läsa det fungerar e-postutskicken.
+9a7e58|Inställningarna har sparats.
+a3fb23|Testmejlet skickades till %s. Kontrollera inkorgen och skräppostmappen.
+33de89|Testmejlet kunde inte skickas.
+3a9486|Många webbhotell levererar WordPress e-post sent eller till skräppost. Att skicka via SMTP-kontot hos din e-postleverantör löser det, utan ett separat SMTP-tillägg.
+05449a|Inställningarna delas av %s.
+51e4ba|%s är aktivt och sköter e-postutskicken, så dessa inställningar används inte.
+c2239a|SMTP
+4d7db2|Skicka e-post via ett SMTP-konto
+adac9e|Bara e-post från SmokySystems-tillägg
+f8f5e1|All e-post från den här webbplatsen
+bdd48f|SMTP-server
+60aaf4|Port
+d7f261|Kryptering
+151adf|Ingen kryptering
+f6039d|Användarnamn
+dc647e|Lösenord
+c6e6fb|Lösenordet är angivet i wp-config.php.
+0b5899|Ett lösenord är sparat. Lämna tomt för att behålla det.
+d7381f|Ta bort det sparade lösenordet
+3b4d50|Avsändaradress
+250019|Använd en adress från SMTP-kontot, annars avvisar många leverantörer e-postmeddelandet.
+c3a7ea|Avsändarnamn
+ee1851|Skicka testmejl
+7caa16|SmokyForms – Formulärbyggare med dra och släpp och beräkningar
+9958f8|Formulärbyggare med dra och släpp och kostnadsfria beräkningar. Skapa kontakt-, offert- och beställningsformulär och kalkylatorer utan att skriva formler.

@@ -1,0 +1,325 @@
+055dcf|Pasirinkite formą
+d359c6|Forma
+e0a02c|Dar neturite formų. Sukurkite formą SmokyForms skiltyje administravimo meniu.
+28ab5c|Pasirinkite formą, kuri bus rodoma čia.
+a86405|Pagrindiniai laukai
+6ef697|Pasirinkimai
+5939b5|Specialūs laukai
+ebd9be|Išdėstymas
+f56462|jei … tada … kitaip
+7f7bde|if(sąlyga, reikšmė jei tiesa, reikšmė jei netiesa)
+b7f41f|Apvalinti
+2e0e8d|round(reikšmė, skaitmenys po kablelio)
+a3ab97|Mažiausia
+73fc19|min(a, b, …)
+f8c8f8|Didžiausia
+8902cb|max(a, b, …)
+ecb62b|Dienos tarp datų
+a6db34|days(pradžios data, pabaigos data)
+6ff145|Apvalinti žemyn
+c17f8d|Apvalinti aukštyn
+99e006|Be ženklo
+921c8e|Kvadratinė šaknis
+1fe7e9|Pirmas pasirinkimas
+580834|Antras pasirinkimas
+c1dd36|Trečias pasirinkimas
+1bbdf1|Sutikimas
+a816e9|Sutinku, kad ši svetainė saugotų ir tvarkytų mano duomenis.
+7ef25f|Teksto blokas
+3b4836|Skilties antraštė
+be5d5d|ir
+e81c4e|arba
+35c798|Tuščias teksto blokas
+b0ebea|Formulės dar nėra
+222a8b|Be etiketės
+a4f784|Spustelėkite arba vilkite laukus iš sąrašo kairėje.
+85e07c|Laukas: %s
+f77af7|Perkelti aukštyn
+dd9f0c|Perkelti žemyn
+ed7571|Dubliuoti
+f2a6c4|Ištrinti
+458b9d|Pasirinkimas
+38b2db|Reikšmė skaičiavimuose
+7a1920|Numatytasis
+ceb473|Pašalinti pasirinkimą
+015d41|Pasirinkimas %d
+d02f3c|Pridėti pasirinkimą
+c9739f|Reikšmė yra tai, kiek šis pasirinkimas reiškia skaičiavime, pavyzdžiui, jo kaina. Žymimuosiuose laukeliuose visų pažymėtų pasirinkimų reikšmės sudedamos.
+d61d8d|Trūksta lauko: %s
+a1b32d|Spustelėkite toliau esančius laukus ir operatorius, kad sudarytumėte skaičiavimą.
+5de039|Sudaryti spustelėjant
+878cdc|Rašyti formulę
+1cdc07|Atšaukti
+dc30bc|Išvalyti
+a4ca5e|Laukai
+443847|Pirmiausia pridėkite skaičių, pasirinkimų ar datos laukų; jie atsiras čia.
+b3c582|Operatoriai
+dd4fe0|Laipsnis
+8730cc|Liekana
+e9b53a|Kablelis (tarp funkcijos reikšmių)
+b2ee91|Skaičius
+ca3aeb|Pridėti skaičių
+229eb0|Sąlygos
+e93acb|Funkcijos
+9551cd|Kainų lentelė
+51c45b|Lentelė
+9db33f|Eilutė pagal atsakymą lauke
+7876f8|Stulpelis pagal atsakymą lauke
+38dded|Tik vienas stulpelis
+2c4e05|Įterpti kainą
+313a6a|Formulė
+d9f37b|Laukai rašomi kaip {field_id}. Pavyzdys: {price} * {quantity} + 5
+c66f2e|Formulė dar neužbaigta. Patikrinkite skliaustus, kablelius ir operatorius.
+cc3a57|Formulė teisinga.
+5fd411|Išbandyti
+5aac38|Rezultatas:
+1767e5|Pasirinkite lauką, kad pakeistumėte jo nustatymus.
+010131|Antraštė
+b021df|Etiketė
+b651ef|Privalomas
+6224e6|Tekstas prieš pasirinkimą
+68753d|Vietos rezervavimo tekstas
+31ce3c|Numatytoji reikšmė
+48c7c4|Žingsnis
+56eb52|Tekstas šalia žymimojo laukelio
+58cf98|Nuorodos leidžiamos, pavyzdžiui, į jūsų privatumo politiką.
+9dffbf|Tekstas
+716124|Leidžiamas paprastas HTML.
+3ea4f7|Skaičiavimas
+b51e59|Prieš rezultatą
+62cfd9|Pavyzdžiui, $
+5c6290|Po rezultato
+d41a8c|Pavyzdžiui, € arba kg
+2b4178|Skaitmenys po kablelio
+e7c868|Rodyti rezultatą formoje
+16feb3|Išjunkite tarpiniam žingsniui, kurį naudoja tik kiti skaičiavimai. Rezultatas vis tiek bus el. laiške.
+c10b7d|Pagalbos tekstas
+329546|Plotis
+24e61d|Visas plotis
+e4bb63|Pusė pločio
+42aa94|Lauko ID
+98fa53|Formulėse naudojamas kaip {%1$s}, el. laiškuose – kaip {field:%1$s}. Pakeitus atnaujinamos šios formos formulės.
+08aeea|Kainų lentelė pateikia reikšmę kiekvienam atsakymui arba kiekvienam dviejų atsakymų deriniui (pavyzdžiui, zona ir siuntinio dydis). Naudokite ją skaičiavime per „Kainų lentelė“. Eilučių ir stulpelių pavadinimai turi būti parašyti tiksliai kaip laukų pasirinkimai.
+49ee30|Pavadinimas
+6c3798|ID: %s
+c0dd3a|Eilutės iš lauko pasirinkimų
+923419|Stulpeliai iš lauko pasirinkimų
+710b83|Stulpelio pavadinimas
+689202|Reikšmė
+dbe735|Eilutės pavadinimas
+d8353e|Eilutė %d
+19f6e2|Pridėti eilutę
+7bce62|Stulpelis %d
+b61b8f|Pridėti stulpelį
+8b0629|Pašalinti paskutinę eilutę
+99a139|Pašalinti paskutinį stulpelį
+9c6803|Ištrinti lentelę
+531553|Eilutė 1
+450423|Pridėti kainų lentelę
+1aefc6|Galite naudoti:
+19002d|Vieno lauko atsakymas
+0db377|Bendra
+111082|Mygtuko tekstas
+8da5e2|Pranešimas po išsiuntimo
+f52ff0|Arba po išsiuntimo eiti į šį puslapį
+aac08d|Palikite tuščią, kad būtų rodomas pranešimas.
+291d69|CAPTCHA
+86dc8e|Apsaugoti šią formą CAPTCHA, nustatyta skiltyje „Nustatymai“.
+539ec8|CAPTCHA dar nenustatyta. Ją galite pridėti skiltyje SmokyForms > Nustatymai. Spąstų laukas ir laiko patikra ir taip saugo kiekvieną formą.
+74b72d|Pranešimas jums
+48ff32|SmokyForms nesaugo pateikimų; kiekvienas pateikimas siunčiamas jums el. paštu. Jei laiško išsiųsti nepavyksta, pateikimas išsaugomas skiltyje SmokyForms > Nepristatyti.
+d245dd|Siųsti man laišką apie kiekvieną pateikimą
+c973ca|Siųsti
+61739f|Kelis adresus atskirkite kableliais.
+c7892e|Tema
+4c2a8f|Žinutė
+8970db|Patvirtinimas lankytojui
+71baeb|Siųsti lankytojui patvirtinimo laišką
+b6c0d5|Adresas iš lauko
+7a2be4|Pirmiausia į formą pridėkite el. pašto lauką.
+45949d|Pridėti naują formą
+79fd79|Pradėkite nuo paruoštos arba tuščios formos. Visi šablonai, įskaitant skaičiuokles, yra nemokami.
+cc7b22|Formos išsaugoti nepavyko.
+21954b|Visos formos
+00cd1f|Formos pavadinimas
+6feadb|Trumpasis kodas
+eedf6b|Išsaugoma…
+4abf00|Išsaugoti formą
+35cb6e|Kainų lentelės
+f4f707|Nustatymai
+864bac|Pridėkite ją į puslapį su SmokyForms bloku arba trumpuoju kodu.
+604a9a|Turite neišsaugotų pakeitimų.
+6866cc|Šios formos nėra.
+d50431|Forma be pavadinimo
+782d19|Forma išsaugota.
+84ad74|Redaguoti formą &lsaquo; %s
+2835b7|Neturite teisės tai daryti.
+39741d|Redaguoti formą
+a986be|Įkeliamas formų kūrėjas…
+6db07c|Formų kūrėjui reikia JavaScript.
+c50eda|Nepristatyti
+77c751|%s (kopija)
+645024|Formos
+cc06ee|SmokyForms nustatymai
+cb7fd7|Laiškų siuntimas
+2932b4|Apsauga nuo šlamšto
+ef7330|Kiekviena forma turi paslėptą spąstų lauką ir laiko patikrą. Papildomai galite pridėti CAPTCHA; ji naudojama kiekvienoje formoje, kurios nustatymuose ji įjungta.
+aac82e|Cloudflare Turnstile yra nemokama ir paprastai neprašo lankytojų spręsti galvosūkių.
+f75d8f|Svetainės raktas
+952bf8|Slaptasis raktas
+6b2bed|Išsaugota. Palikite tuščią, kad liktų.
+3827d8|Laiko patikra
+783e8e|sekundės
+615249|Formos, išsiųstos greičiau nei per šį laiką nuo puslapio įkėlimo, laikomos šlamštu. 0 išjungia patikrą.
+4def17|Nepristatyti pranešimai
+9f5630|SmokyForms nesaugo pateikimų; jie siunčiami jums el. paštu. Jei pranešimo laiško išsiųsti nepavyksta, pateikimas išsaugomas, kad nedingtų, ir galite jį išsiųsti iš naujo skiltyje SmokyForms > Nepristatyti.
+f24a17|Saugoti
+44fdec|dienas
+c89567|SmokyForms: %s pateikimo nepavyko išsiųsti jums el. paštu. ¦ SmokyForms: %s pateikimų nepavyko išsiųsti jums el. paštu. ¦ SmokyForms: %s pateikimų nepavyko išsiųsti jums el. paštu.
+498f79|Rodyti
+effa85|Pateikimas išsiųstas ir pašalintas iš sąrašo.
+f9eafc|Pateikimo vis dar nepavyksta išsiųsti. Patikrinkite laiškų siuntimo nustatymus.
+80da2c|Pateikimas ištrintas.
+24c070|Nepristatyti pateikimai
+c0d482|Šie pateikimai atėjo per jūsų formas, bet pranešimo laiškas jums nepavyko. Jie saugomi čia, kad nedingtų, ir automatiškai ištrinami po nustatymuose nurodyto dienų skaičiaus.
+5a569c|Čia nieko nėra. Visi pranešimai pristatyti.
+0426b1|Patikrinti laiškų siuntimo nustatymus
+ef546f|Ištrinta forma
+ccb168|Priežastis:
+50ab1d|Siųsti dar kartą
+50d0b5|Ištrinti šį pateikimą visam laikui?
+b21c60|Taip, ištrinti
+ccf88f|Patvirtinkite, kad nesate robotas.
+296449|Roboto patikra nepavyko. Bandykite dar kartą.
+cd72d3|Vienos eilutės tekstas
+c5a5c5|Pastraipa
+ce8ae9|El. paštas
+bcc254|Telefonas
+15bbb9|Svetainė
+7498c4|Išskleidžiamasis sąrašas
+6893e5|Vienas pasirinkimas
+c425f2|Žymimieji laukeliai
+447497|Data
+019003|Paslėptas laukas
+00b768|Sutikimo laukelis
+9303c9|Šis laukas privalomas.
+b5bccd|Įveskite teisingą el. pašto adresą.
+86062b|Įveskite teisingą svetainės adresą.
+772407|Įveskite teisingą telefono numerį.
+c2cb00|Įveskite skaičių.
+69dfa7|Įveskite skaičių, ne mažesnį nei %s.
+caf8d8|Įveskite skaičių, ne didesnį nei %s.
+773fcd|Įveskite teisingą datą.
+e3264a|Pasirinkite vieną iš variantų.
+93cba0|Taip
+bafd73|Ne
+a6c2b9|Ieškoti formų
+60caa9|Formų dar nėra.
+6a1885|Šiukšlinėje formų nėra.
+a4d3b1|Siųsti
+279099|Ačiū! Jūsų žinutė išsiųsta.
+48b55f|Naujas pateikimas: {form_title}
+81a012|Ačiū už žinutę
+d93e6b|Sveiki,\n\načiū, kad susisiekėte. Gavome jūsų žinutę ir netrukus atsakysime.\n\n{all_fields}
+1d6990|Visi atsakymai
+816667|Svetainės pavadinimas
+e91f72|Svetainės administratoriaus el. paštas
+2b0b7c|Data ir laikas
+7012e0|Formos puslapis
+151dca|Svetainei nepavyko išsiųsti laiško.
+6ac40c|SmokyForms: šios formos nėra.
+7a4842|Palikite šį lauką tuščią
+28b263|Patikrinkite formą ir bandykite dar kartą.
+3f6c9a|Pasirinkite…
+4d01e8|Siunčiama…
+f83b39|Formos išsiųsti nepavyko. Bandykite dar kartą.
+6adf97|Nėra
+5bf1f6|Formos patikrinti nepavyko. Perkraukite puslapį ir bandykite dar kartą.
+5934a3|Tai buvo labai greita. Palaukite akimirką ir išsiųskite formą dar kartą.
+453e43|Per daug pateikimų. Palaukite minutę ir bandykite dar kartą.
+57c955|Tuščia forma
+dc8972|Pradėti nuo tuščios formos.
+c661cf|Kontaktinė forma
+dabe9b|Vardas, el. paštas, telefonas ir žinutė.
+5d1cbd|Kainos užklausa
+0269ab|Paslauga, priedai ir plotas pateikia apytikslę kainą.
+c2ba7e|Paslauga
+9986c1|Įprastas valymas
+cc16d7|Generalinis valymas
+e285c9|Plotas (m²)
+0a3f08|Priedai
+aea234|Langai
+2623fa|Balkonas
+482690|Orkaitė
+cebbfc|Apytikslė kaina
+655157|Užsakymo forma
+3a11e0|Prekės su kiekiais, pristatymas ir nuolaida virš tam tikros sumos.
+70fc36|Prekė A – 12.00 už vnt.
+6e18dd|Prekė B – 18.50 už vnt.
+065ab3|Pristatymas
+9ae3c9|Atsiėmimas
+eb6d8a|Standartinis
+b144fa|Skubus
+2194aa|Tarpinė suma
+48909c|Nuolaida (10% virš 100)
+96b014|Iš viso
+6fb3df|Rezervacija su naktimis
+80068a|Atvykimo ir išvykimo datos pateikia naktų skaičių ir kainą.
+83bb56|Rezervacijos užklausa
+885b3c|Atvykimas
+5be0fa|Išvykimas
+cc3abc|Kambarys
+3bf8f2|Standartinis – 80 už naktį
+3ac878|Liuksas – 140 už naktį
+e10758|Naktys
+360114|Kaina
+e6e2d9|Siuntimo kaina iš zonų ir siuntinių dydžių lentelės.
+0ea6b9|Siuntimo kaina
+b3ff99|Zona
+93b3d7|Zona 1
+ac4ff7|Zona 2
+c48837|Zona 3
+f38e90|Siuntinys
+266006|Mažas
+87f8a6|Vidutinis
+3a69b3|Didelis
+3e1c4b|Siuntimo kainos
+348100|KMI skaičiuoklė
+d7659b|Kūno masės indeksas pagal ūgį ir svorį.
+20fbaa|Ūgis (cm)
+917216|Svoris (kg)
+869598|Jūsų KMI
+94966d|Siųsti
+f3cda5|Paskolos skaičiuoklė
+cb8a5f|Mėnesio įmoka pagal sumą, palūkanų normą ir terminą.
+59efa4|Paskolos suma
+202d38|Metinė palūkanų norma (%)
+a92ac9|Terminas (mėnesiai)
+647bd0|Mėnesio įmoka
+d0bcd3|Bandomasis laiškas
+a7498e|Tai bandomasis laiškas. Jei galite jį perskaityti, laiškų siuntimas veikia.
+9a7e58|Nustatymai išsaugoti.
+a3fb23|Bandomasis laiškas išsiųstas adresu %s. Patikrinkite gautuosius ir šlamšto aplanką.
+33de89|Bandomojo laiško išsiųsti nepavyko.
+3a9486|Daugelis talpinimo paslaugų WordPress laiškus pristato vėluodamos arba į šlamštą. Siuntimas per jūsų el. pašto paslaugos SMTP paskyrą tai išsprendžia be atskiro SMTP įskiepio.
+05449a|Šiais nustatymais dalijasi %s.
+51e4ba|%s yra aktyvus ir rūpinasi laiškų siuntimu, todėl šie nustatymai nenaudojami.
+c2239a|SMTP
+4d7db2|Siųsti laiškus per SMTP paskyrą
+adac9e|Tik SmokySystems įskiepių laiškai
+f8f5e1|Visi šios svetainės laiškai
+bdd48f|SMTP serveris
+60aaf4|Prievadas
+d7f261|Šifravimas
+151adf|Be šifravimo
+f6039d|Naudotojo vardas
+dc647e|Slaptažodis
+c6e6fb|Slaptažodis nustatytas faile wp-config.php.
+0b5899|Slaptažodis išsaugotas. Palikite tuščią, kad liktų.
+d7381f|Pašalinti išsaugotą slaptažodį
+3b4d50|Siuntėjo el. paštas
+250019|Naudokite SMTP paskyros adresą, kitaip daugelis paslaugų laišką atmes.
+c3a7ea|Siuntėjo vardas
+ee1851|Siųsti bandomąjį laišką
+7caa16|SmokyForms – Formų kūrėjas su vilkimu ir skaičiavimais
+9958f8|Formų kūrėjas su vilkimu ir nemokamais skaičiavimais. Kurkite kontaktines, kainos užklausų ir užsakymų formas bei skaičiuokles nerašydami formulių.

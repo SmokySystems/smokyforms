@@ -1,0 +1,1350 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: is_IS\n"
+"Plural-Forms: nplurals=2; plural=(n%10!=1 || n%100==11);\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Veldu eyðublað"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Eyðublað"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Þú átt engin eyðublöð enn. Búðu til eyðublað undir SmokyForms í stjórnborðsvalmyndinni."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Veldu eyðublaðið sem á að birta hér."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Grunnreitir"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Valkostir"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Sérreitir"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Útlit"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "ef … þá … annars"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(skilyrði, gildi ef satt, gildi ef ósatt)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Námunda"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(gildi, aukastafir)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "Minnst"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "Mest"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Dagar milli dagsetninga"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(upphafsdagur, lokadagur)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Námunda niður"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Námunda upp"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "Án formerkis"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Kvaðratrót"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Fyrsti valkostur"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "Annar valkostur"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Þriðji valkostur"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Samþykki"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Ég samþykki að þessi vefur geymi og vinni úr upplýsingunum mínum."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Textabálkur"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Kaflafyrirsögn"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "og"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "eða"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Tómur textabálkur"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Engin formúla enn"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Enginn merkimiði"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Smelltu á eða dragðu reiti úr listanum til vinstri."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Reitur: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Færa upp"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Færa niður"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Afrita"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Eyða"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Valkostur"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Gildi í útreikningum"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Sjálfgefið"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Fjarlægja valkost"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Valkostur %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Bæta við valkosti"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "Gildið er það sem valkosturinn telur í útreikningi, til dæmis verð hans. Fyrir gátreiti eru gildi allra hakaðra valkosta lögð saman."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Reit vantar: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Smelltu á reitina og virkjana hér fyrir neðan til að setja saman útreikninginn."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Setja saman með smellum"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Skrifa formúluna"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Afturkalla"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Hreinsa"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Reitir"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Bættu fyrst við tölu-, val- eða dagsetningarreitum; þeir birtast hér."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "Virkjar"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Veldi"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Afgangur"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Komma (milli gilda falls)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Tala"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Bæta við tölu"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Skilyrði"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Föll"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Verðtafla"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Tafla"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Röð eftir svari í"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Dálkur eftir svari í"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Aðeins einn dálkur"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Setja inn verð"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Formúla"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Reitir eru skrifaðir sem {field_id}. Dæmi: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "Formúlan er ekki tilbúin. Athugaðu sviga, kommur og virkja."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "Formúlan er gild."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Prófa"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Niðurstaða:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Veldu reit til að breyta stillingum hans."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Fyrirsögn"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Merkimiði"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Áskilið"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Texti áður en valið er"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Staðgengill"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Sjálfgefið gildi"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Skref"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Texti við hlið gátreitsins"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Tenglar eru leyfðir, til dæmis á persónuverndarstefnuna þína."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Texti"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Einfalt HTML er leyft."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Útreikningur"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Á undan niðurstöðunni"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "Til dæmis $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "Á eftir niðurstöðunni"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "Til dæmis € eða kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Aukastafir"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Sýna niðurstöðuna á eyðublaðinu"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Slökktu á þessu fyrir millistig sem aðeins aðrir útreikningar nota. Niðurstaðan er samt í tölvupóstinum."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Hjálpartexti"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Breidd"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Full breidd"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Hálf breidd"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "Auðkenni reits"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "Notað í formúlum sem {%1$s} og í tölvupósti sem {field:%1$s}. Ef þú breytir því uppfærast formúlur eyðublaðsins."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "Verðtafla gefur gildi fyrir hvert svar, eða fyrir hverja samsetningu tveggja svara (til dæmis svæði og pakkastærð). Notaðu hana í útreikningi með „Verðtafla“. Heiti raða og dálka verða að vera skrifuð nákvæmlega eins og valkostir reitanna."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Heiti"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "Auðkenni: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Raðir úr valkostum"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Dálkar úr valkostum"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Heiti dálks"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Gildi"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Heiti raðar"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Röð %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Bæta við röð"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Dálkur %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Bæta við dálki"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Fjarlægja síðustu röð"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Fjarlægja síðasta dálk"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Eyða töflu"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Röð 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Bæta við verðtöflu"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Þú getur notað:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Svar í einum reit"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Almennt"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Texti hnapps"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Skilaboð eftir sendingu"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "Eða fara á þessa síðu eftir sendingu"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "Hafðu autt til að sýna skilaboðin í staðinn."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Verja þetta eyðublað með CAPTCHA sem er stillt undir Stillingum."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "Ekkert CAPTCHA hefur verið stillt enn. Þú getur bætt því við undir SmokyForms > Stillingar. Gildrureiturinn og tímaathugunin verja öll eyðublöð hvort sem er."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Tilkynning til þín"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms geymir ekki innsendingar; hver innsending er send þér í tölvupósti. Ef tölvupósturinn mistekst er innsendingin geymd undir SmokyForms > Óafhent."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Sendu mér tölvupóst fyrir hverja innsendingu"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Senda til"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Aðskildu mörg netföng með kommum."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Efni"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Skilaboð"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Staðfesting til gests"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "Senda gestinum staðfestingarpóst"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Netfang úr reitnum"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Bættu fyrst netfangsreit við eyðublaðið."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Bæta við nýju eyðublaði"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Byrjaðu með tilbúnu eyðublaði eða tómu. Öll sniðmát, líka reiknivélarnar, eru ókeypis."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "Ekki tókst að vista eyðublaðið."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Öll eyðublöð"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Heiti eyðublaðs"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Stuttkóði"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "Vista…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Vista eyðublað"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Verðtöflur"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Stillingar"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "Bættu því á síðu með SmokyForms-bálkinum eða stuttkóðanum."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Þú átt óvistaðar breytingar."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Þetta eyðublað er ekki til."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Nafnlaust eyðublað"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "Eyðublaðið var vistað."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Breyta eyðublaði &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "Þú hefur ekki heimild til þess."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Breyta eyðublaði"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "Hleð eyðublaðasmiðnum…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "Eyðublaðasmiðurinn þarf JavaScript."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "Óafhent"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (afrit)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Eyðublöð"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "Stillingar SmokyForms"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "Sending tölvupósts"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "Ruslpóstvörn"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Hvert eyðublað hefur falinn gildrureit og tímaathugun. Auk þess geturðu bætt við CAPTCHA; það er notað á öllum eyðublöðum þar sem kveikt er á því í stillingum eyðublaðsins."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile er ókeypis og biður gesti yfirleitt ekki um að leysa þrautir."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Vefsvæðislykill"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Leynilykill"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Vistað. Hafðu autt til að halda honum."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Tímaathugun"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "sekúndur"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Eyðublöð sem eru send hraðar en þetta eftir að síðan hlóðst teljast ruslpóstur. 0 slekkur á athuguninni."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Óafhentar tilkynningar"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms geymir ekki innsendingar; þær eru sendar þér í tölvupósti. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Geyma í"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "daga"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: Ekki tókst að senda þér %s innsendingu í tölvupósti."
+msgstr[1] "SmokyForms: Ekki tókst að senda þér %s innsendingar í tölvupósti."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Sýna"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "Innsendingin var send og fjarlægð af listanum."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "Enn tókst ekki að senda innsendinguna. Athugaðu stillingar fyrir sendingu tölvupósts."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "Innsendingunni var eytt."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Óafhentar innsendingar"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Þessar innsendingar bárust í gegnum eyðublöðin þín, en tilkynningarpósturinn til þín mistókst. Þær eru geymdar hér svo þær glatist ekki og þeim er eytt sjálfkrafa eftir þann dagafjölda sem er stilltur undir Stillingum."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Ekkert hér. Allar tilkynningar hafa verið afhentar."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "Athuga stillingar fyrir sendingu tölvupósts"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Eytt eyðublað"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Ástæða:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Senda aftur"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Eyða þessari innsendingu fyrir fullt og allt?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Já, eyða"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Staðfestu að þú sért ekki vélmenni."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "Vélmennaathugun mistókst. Reyndu aftur."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Texti í einni línu"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Málsgrein"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "Netfang"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Sími"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Vefsíða"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Fellilisti"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Einn valkostur"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Gátreitir"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Dagsetning"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Falinn reitur"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Samþykkisreitur"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Þessi reitur er áskilinn."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Sláðu inn gilt netfang."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Sláðu inn gilda vefslóð."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Sláðu inn gilt símanúmer."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Sláðu inn tölu."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Sláðu inn tölu sem er að minnsta kosti %s."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Sláðu inn tölu sem er í mesta lagi %s."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Sláðu inn gilda dagsetningu."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Veldu einn af valkostunum."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Já"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "Nei"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Leita í eyðublöðum"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Engin eyðublöð enn."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "Engin eyðublöð í ruslinu."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Senda"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Takk! Skilaboðin þín hafa verið send."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Ný innsending: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Takk fyrir skilaboðin"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Halló,\n"
+"\n"
+"takk fyrir að hafa samband. Við höfum fengið skilaboðin þín og svörum fljótlega.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Öll svör"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Heiti vefsins"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "Netfang vefstjóra"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Dagsetning og tími"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Síða eyðublaðsins"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "Vefurinn gat ekki sent tölvupóstinn."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: þetta eyðublað er ekki til."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "Hafðu þennan reit auðan"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Athugaðu eyðublaðið og reyndu aftur."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Veldu…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "Sendi…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "Ekki tókst að senda eyðublaðið. Reyndu aftur."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Ekkert"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "Ekki tókst að athuga eyðublaðið. Endurhlaðið síðuna og reyndu aftur."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "Þetta var mjög hratt. Bíddu augnablik og sendu eyðublaðið aftur."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "Of margar innsendingar. Bíddu í eina mínútu og reyndu aftur."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Tómt eyðublað"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Byrja með tómu eyðublaði."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "Samskiptaeyðublað"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Nafn, netfang, sími og skilaboð."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Tilboðsbeiðni"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "Þjónusta, aukahlutir og stærð gefa áætlað verð."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Þjónusta"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Venjuleg þrif"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Ítarleg þrif"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Stærð (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Aukahlutir"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Gluggar"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Svalir"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Ofn"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Áætlað verð"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Pöntunareyðublað"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Vörur með magni, afhendingu og afslætti yfir ákveðinni upphæð."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Vara A – 12.00 stk."
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Vara B – 18.50 stk."
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Afhending"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Sótt"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Venjuleg"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Hraðsending"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Millisumma"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "Afsláttur (10% yfir 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Samtals"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Bókun með nóttum"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Komu- og brottfarardagur gefa fjölda nátta og verðið."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Bókunarbeiðni"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Koma"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Brottför"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Herbergi"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Venjulegt – 80 nóttin"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Svíta – 140 nóttin"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Nætur"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Verð"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Sendingarkostnaður úr töflu svæða og pakkastærða."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Sendingarkostnaður"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Svæði"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Svæði 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Svæði 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Svæði 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Pakki"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Lítill"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Miðlungs"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Stór"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Sendingarverð"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "BMI-reiknivél"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Líkamsþyngdarstuðull út frá hæð og þyngd."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Hæð (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Þyngd (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "BMI-gildið þitt"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Senda"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Lánareiknivél"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Mánaðarleg greiðsla út frá upphæð, vöxtum og lánstíma."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Lánsupphæð"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Árlegir vextir (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Lánstími (mánuðir)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Mánaðarleg greiðsla"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Prufupóstur"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Þetta er prufupóstur. Ef þú getur lesið hann virkar sending tölvupósts."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "Stillingar vistaðar."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Prufupósturinn var sendur á %s. Athugaðu innhólfið og ruslpóstmöppuna."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "Ekki tókst að senda prufupóstinn."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Margir hýsingaraðilar skila tölvupósti WordPress seint eða í ruslpóst. Að senda hann í gegnum SMTP-reikning tölvupóstþjónustunnar þinnar leysir það, án sérstakrar SMTP-viðbótar."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Þessar stillingar deila %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s er virkt og sér um sendingu tölvupósts, svo þessar stillingar eru ekki notaðar."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "Senda tölvupóst í gegnum SMTP-reikning"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Aðeins tölvupóstur SmokySystems-viðbóta"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "Allur tölvupóstur þessa vefs"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP-þjónn"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Gátt"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Dulkóðun"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Engin dulkóðun"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Notandanafn"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Lykilorð"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "Lykilorðið er stillt í wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Lykilorð er vistað. Hafðu autt til að halda því."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Fjarlægja vistaða lykilorðið"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Netfang sendanda"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Notaðu netfang SMTP-reikningsins, annars hafna margar þjónustur tölvupóstinum."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Nafn sendanda"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Senda prufupóst"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Eyðublaðasmiður með draga og sleppa og útreikningum"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Eyðublaðasmiður með draga og sleppa og ókeypis útreikningum. Búðu til samskipta-, tilboðs- og pöntunareyðublöð og reiknivélar án þess að skrifa formúlur."

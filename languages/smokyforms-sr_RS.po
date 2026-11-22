@@ -1,0 +1,1351 @@
+# Copyright (C) 2026 SmokySystems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmokyForms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: smokyforms\n"
+"Language: sr_RS\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: assets/js/block.js:28
+msgid "Choose a form"
+msgstr "Изаберите образац"
+
+#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+msgid "Form"
+msgstr "Образац"
+
+#: assets/js/block.js:54
+msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
+msgstr "Још немате образаца. Направите га у SmokyForms у администраторском менију."
+
+#: assets/js/block.js:54
+msgid "Choose the form to show here."
+msgstr "Изаберите образац који ће се приказати овде."
+
+#: assets/js/builder.js:23
+msgid "Basic fields"
+msgstr "Основна поља"
+
+#: assets/js/builder.js:24 assets/js/builder.js:729
+msgid "Choices"
+msgstr "Избори"
+
+#: assets/js/builder.js:25
+msgid "Special fields"
+msgstr "Посебна поља"
+
+#: assets/js/builder.js:26
+msgid "Layout"
+msgstr "Распоред"
+
+#: assets/js/builder.js:30
+msgid "if … then … else"
+msgstr "ако … онда … иначе"
+
+#: assets/js/builder.js:30
+msgid "if(condition, value when true, value when false)"
+msgstr "if(услов, вредност ако је тачно, вредност ако није)"
+
+#: assets/js/builder.js:31
+msgid "Round"
+msgstr "Заокружи"
+
+#: assets/js/builder.js:31
+msgid "round(value, decimals)"
+msgstr "round(вредност, децимале)"
+
+#: assets/js/builder.js:32 assets/js/builder.js:735
+msgid "Smallest"
+msgstr "Најмање"
+
+#: assets/js/builder.js:32
+msgid "min(a, b, …)"
+msgstr "min(a, b, …)"
+
+#: assets/js/builder.js:33 assets/js/builder.js:735
+msgid "Largest"
+msgstr "Највеће"
+
+#: assets/js/builder.js:33
+msgid "max(a, b, …)"
+msgstr "max(a, b, …)"
+
+#: assets/js/builder.js:34
+msgid "Days between dates"
+msgstr "Дани између датума"
+
+#: assets/js/builder.js:34
+msgid "days(start date, end date)"
+msgstr "days(почетни датум, крајњи датум)"
+
+#: assets/js/builder.js:35
+msgid "Round down"
+msgstr "Заокружи наниже"
+
+#: assets/js/builder.js:36
+msgid "Round up"
+msgstr "Заокружи навише"
+
+#: assets/js/builder.js:37
+msgid "Without sign"
+msgstr "Без предзнака"
+
+#: assets/js/builder.js:38
+msgid "Square root"
+msgstr "Квадратни корен"
+
+#: assets/js/builder.js:82
+msgid "First choice"
+msgstr "Први избор"
+
+#: assets/js/builder.js:83
+msgid "Second choice"
+msgstr "Други избор"
+
+#: assets/js/builder.js:84
+msgid "Third choice"
+msgstr "Трећи избор"
+
+#: assets/js/builder.js:100
+msgid "Consent"
+msgstr "Сагласност"
+
+#: assets/js/builder.js:101
+msgid "I agree to the storage and handling of my data by this website."
+msgstr "Сагласан/сагласна сам да овај сајт чува и обрађује моје податке."
+
+#: assets/js/builder.js:105 includes/Fields.php:41
+msgid "Text block"
+msgstr "Блок текста"
+
+#: assets/js/builder.js:109 includes/Fields.php:40
+msgid "Section heading"
+msgstr "Наслов одељка"
+
+#: assets/js/builder.js:159
+msgid "and"
+msgstr "и"
+
+#: assets/js/builder.js:159
+msgid "or"
+msgstr "или"
+
+#: assets/js/builder.js:215
+msgid "Empty text block"
+msgstr "Празан блок текста"
+
+#: assets/js/builder.js:231
+msgid "No formula yet"
+msgstr "Још нема формуле"
+
+#: assets/js/builder.js:250
+msgid "No label"
+msgstr "Без ознаке"
+
+#: assets/js/builder.js:281
+msgid "Click or drag fields from the list on the left."
+msgstr "Кликните или превуците поља са списка лево."
+
+#: assets/js/builder.js:328
+#, php-format
+msgid "Field: %s"
+msgstr "Поље: %s"
+
+#: assets/js/builder.js:336
+msgid "Move up"
+msgstr "Помери горе"
+
+#: assets/js/builder.js:339
+msgid "Move down"
+msgstr "Помери доле"
+
+#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+msgid "Duplicate"
+msgstr "Удвостручи"
+
+#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+msgid "Delete"
+msgstr "Обриши"
+
+#: assets/js/builder.js:381 assets/js/builder.js:389
+msgid "Choice"
+msgstr "Избор"
+
+#: assets/js/builder.js:382 assets/js/builder.js:392
+msgid "Value in calculations"
+msgstr "Вредност у прорачунима"
+
+#: assets/js/builder.js:383 assets/js/builder.js:395
+msgid "Default"
+msgstr "Подразумевано"
+
+#: assets/js/builder.js:403
+msgid "Remove choice"
+msgstr "Уклони избор"
+
+#: assets/js/builder.js:411
+#, php-format
+msgid "Choice %d"
+msgstr "Избор %d"
+
+#: assets/js/builder.js:412
+msgid "Add choice"
+msgstr "Додај избор"
+
+#: assets/js/builder.js:413
+msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
+msgstr "Вредност је оно што овај избор значи у прорачуну, на пример његова цена. Код поља за потврду сабирају се вредности свих означених избора."
+
+#: assets/js/builder.js:495
+#, php-format
+msgid "Missing field: %s"
+msgstr "Недостаје поље: %s"
+
+#: assets/js/builder.js:503
+msgid "Click fields and operators below to build the calculation."
+msgstr "Кликните на поља и операторе испод да бисте сложили прорачун."
+
+#: assets/js/builder.js:515
+msgid "Build by clicking"
+msgstr "Сложи кликом"
+
+#: assets/js/builder.js:518
+msgid "Write the formula"
+msgstr "Напиши формулу"
+
+#: assets/js/builder.js:527
+msgid "Undo"
+msgstr "Опозови"
+
+#: assets/js/builder.js:530
+msgid "Clear"
+msgstr "Очисти"
+
+#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+msgid "Fields"
+msgstr "Поља"
+
+#: assets/js/builder.js:541
+msgid "Add number, choice or date fields first; they appear here."
+msgstr "Прво додајте бројчана поља, поља избора или датуме; појавиће се овде."
+
+#: assets/js/builder.js:542
+msgid "Operators"
+msgstr "Оператори"
+
+#: assets/js/builder.js:547
+msgid "Power"
+msgstr "Степен"
+
+#: assets/js/builder.js:547
+msgid "Remainder"
+msgstr "Остатак"
+
+#: assets/js/builder.js:547
+msgid "Comma (between values of a function)"
+msgstr "Зарез (између вредности функције)"
+
+#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+msgid "Number"
+msgstr "Број"
+
+#: assets/js/builder.js:566
+msgid "Add number"
+msgstr "Додај број"
+
+#: assets/js/builder.js:568
+msgid "Conditions"
+msgstr "Услови"
+
+#: assets/js/builder.js:578
+msgid "Functions"
+msgstr "Функције"
+
+#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+msgid "Price table"
+msgstr "Ценовник"
+
+#: assets/js/builder.js:596
+msgid "Table"
+msgstr "Табела"
+
+#: assets/js/builder.js:607
+msgid "Row from the answer of"
+msgstr "Ред према одговору из"
+
+#: assets/js/builder.js:618
+msgid "Column from the answer of"
+msgstr "Колона према одговору из"
+
+#: assets/js/builder.js:620
+msgid "Only one column"
+msgstr "Само једна колона"
+
+#: assets/js/builder.js:630
+msgid "Insert price"
+msgstr "Убаци цену"
+
+#: assets/js/builder.js:634
+msgid "Formula"
+msgstr "Формула"
+
+#: assets/js/builder.js:635
+msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
+msgstr "Поља се пишу као {field_id}. Пример: {price} * {quantity} + 5"
+
+#: assets/js/builder.js:645
+msgid "The formula is not complete yet. Check brackets, commas and operators."
+msgstr "Формула још није потпуна. Проверите заграде, зарезе и операторе."
+
+#: assets/js/builder.js:645
+msgid "The formula is valid."
+msgstr "Формула је исправна."
+
+#: assets/js/builder.js:650
+msgid "Try it"
+msgstr "Испробај"
+
+#: assets/js/builder.js:685
+msgid "Result:"
+msgstr "Резултат:"
+
+#: assets/js/builder.js:695
+msgid "Select a field to change its settings."
+msgstr "Изаберите поље да бисте променили његова подешавања."
+
+#: assets/js/builder.js:703
+msgid "Heading"
+msgstr "Наслов"
+
+#: assets/js/builder.js:703
+msgid "Label"
+msgstr "Ознака"
+
+#: assets/js/builder.js:714
+msgid "Required"
+msgstr "Обавезно"
+
+#: assets/js/builder.js:719
+msgid "Text before a choice is made"
+msgstr "Текст пре избора"
+
+#: assets/js/builder.js:719
+msgid "Placeholder"
+msgstr "Текст у пољу"
+
+#: assets/js/builder.js:724
+msgid "Default value"
+msgstr "Подразумевана вредност"
+
+#: assets/js/builder.js:735
+msgid "Step"
+msgstr "Корак"
+
+#: assets/js/builder.js:745
+msgid "Text next to the checkbox"
+msgstr "Текст поред поља за потврду"
+
+#: assets/js/builder.js:745
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Везе су дозвољене, на пример ка вашој политици приватности."
+
+#: assets/js/builder.js:750
+msgid "Text"
+msgstr "Текст"
+
+#: assets/js/builder.js:750
+msgid "Basic HTML is allowed."
+msgstr "Дозвољен је основни HTML."
+
+#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
+msgid "Calculation"
+msgstr "Прорачун"
+
+#: assets/js/builder.js:759
+msgid "Before the result"
+msgstr "Пре резултата"
+
+#: assets/js/builder.js:759
+msgid "For example $"
+msgstr "На пример $"
+
+#: assets/js/builder.js:762
+msgid "After the result"
+msgstr "После резултата"
+
+#: assets/js/builder.js:762
+msgid "For example € or kg"
+msgstr "На пример € или kg"
+
+#: assets/js/builder.js:765
+msgid "Decimals"
+msgstr "Децимале"
+
+#: assets/js/builder.js:769
+msgid "Show the result in the form"
+msgstr "Прикажи резултат у обрасцу"
+
+#: assets/js/builder.js:769
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Искључите за међукорак који користе само други прорачуни. Резултат је ипак у е-поруци."
+
+#: assets/js/builder.js:774
+msgid "Help text"
+msgstr "Текст помоћи"
+
+#: assets/js/builder.js:781
+msgid "Width"
+msgstr "Ширина"
+
+#: assets/js/builder.js:783
+msgid "Full width"
+msgstr "Пуна ширина"
+
+#: assets/js/builder.js:783
+msgid "Half width"
+msgstr "Пола ширине"
+
+#: assets/js/builder.js:795
+msgid "Field ID"
+msgstr "ID поља"
+
+#: assets/js/builder.js:796
+#, php-format
+msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
+msgstr "Користи се у формулама као {%1$s} и у е-порукама као {field:%1$s}. Изменом се ажурирају формуле овог обрасца."
+
+#: assets/js/builder.js:845
+msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
+msgstr "Ценовник даје вредност за сваки одговор или за сваку комбинацију два одговора (на пример зона и величина пакета). Користите га у прорачуну преко „Ценовник”. Називи редова и колона морају бити написани тачно као избори поља."
+
+#: assets/js/builder.js:853 includes/Templates.php:66
+msgid "Name"
+msgstr "Назив"
+
+#: assets/js/builder.js:856
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: assets/js/builder.js:862
+msgid "Rows from the choices of"
+msgstr "Редови из избора поља"
+
+#: assets/js/builder.js:880
+msgid "Columns from the choices of"
+msgstr "Колоне из избора поља"
+
+#: assets/js/builder.js:912
+msgid "Column name"
+msgstr "Назив колоне"
+
+#: assets/js/builder.js:916 assets/js/builder.js:933
+msgid "Value"
+msgstr "Вредност"
+
+#: assets/js/builder.js:927
+msgid "Row name"
+msgstr "Назив реда"
+
+#: assets/js/builder.js:948
+#, php-format
+msgid "Row %d"
+msgstr "Ред %d"
+
+#: assets/js/builder.js:949
+msgid "Add row"
+msgstr "Додај ред"
+
+#: assets/js/builder.js:951
+#, php-format
+msgid "Column %d"
+msgstr "Колона %d"
+
+#: assets/js/builder.js:952
+msgid "Add column"
+msgstr "Додај колону"
+
+#: assets/js/builder.js:955
+msgid "Remove last row"
+msgstr "Уклони последњи ред"
+
+#: assets/js/builder.js:958
+msgid "Remove last column"
+msgstr "Уклони последњу колону"
+
+#: assets/js/builder.js:963
+msgid "Delete table"
+msgstr "Обриши табелу"
+
+#: assets/js/builder.js:968
+msgid "Row 1"
+msgstr "Ред 1"
+
+#: assets/js/builder.js:969
+msgid "Add price table"
+msgstr "Додај ценовник"
+
+#: assets/js/builder.js:990
+msgid "You can use:"
+msgstr "Можете да користите:"
+
+#: assets/js/builder.js:996
+msgid "Answer of one field"
+msgstr "Одговор једног поља"
+
+#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Опште"
+
+#: assets/js/builder.js:1004
+msgid "Button text"
+msgstr "Текст дугмета"
+
+#: assets/js/builder.js:1007
+msgid "Message after sending"
+msgstr "Порука после слања"
+
+#: assets/js/builder.js:1010
+msgid "Or go to this page after sending"
+msgstr "Или после слања иди на ову страницу"
+
+#: assets/js/builder.js:1010
+msgid "Leave empty to show the message instead."
+msgstr "Оставите празно да би се уместо тога приказала порука."
+
+#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1015
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Заштити овај образац CAPTCHA-ом подешеном у Подешавањима."
+
+#: assets/js/builder.js:1015
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "Још није подешена CAPTCHA. Можете је додати у SmokyForms > Подешавања. Поље-замка и провера времена ионако штите сваки образац."
+
+#: assets/js/builder.js:1025
+msgid "Notification to you"
+msgstr "Обавештење за вас"
+
+#: assets/js/builder.js:1026
+msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "SmokyForms не чува уносе; сваки унос вам се шаље е-поштом. Ако е-порука не успе, унос се чува у SmokyForms > Неиспоручено."
+
+#: assets/js/builder.js:1027
+msgid "Send me an email for every entry"
+msgstr "Пошаљи ми е-поруку за сваки унос"
+
+#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Пошаљи на"
+
+#: assets/js/builder.js:1033
+msgid "Separate several addresses with commas."
+msgstr "Више адреса раздвојте зарезима."
+
+#: assets/js/builder.js:1036 assets/js/builder.js:1065
+msgid "Subject"
+msgstr "Тема"
+
+#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+msgid "Message"
+msgstr "Порука"
+
+#: assets/js/builder.js:1047
+msgid "Confirmation to the visitor"
+msgstr "Потврда посетиоцу"
+
+#: assets/js/builder.js:1048
+msgid "Send the visitor a confirmation email"
+msgstr "Пошаљи посетиоцу е-поруку потврде"
+
+#: assets/js/builder.js:1055
+msgid "Address from the field"
+msgstr "Адреса из поља"
+
+#: assets/js/builder.js:1064
+msgid "Add an Email field to the form first."
+msgstr "Прво у образац додајте поље за е-пошту."
+
+#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+msgid "Add New Form"
+msgstr "Додај нови образац"
+
+#: assets/js/builder.js:1084
+msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
+msgstr "Почните са готовим или празним обрасцем. Сви шаблони, укључујући калкулаторе, бесплатни су."
+
+#: assets/js/builder.js:1175
+msgid "The form could not be saved."
+msgstr "Образац није могуће сачувати."
+
+#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+msgid "All Forms"
+msgstr "Сви обрасци"
+
+#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+msgid "Form name"
+msgstr "Назив обрасца"
+
+#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+msgid "Shortcode"
+msgstr "Кратки код"
+
+#: assets/js/builder.js:1194
+msgid "Saving…"
+msgstr "Чување…"
+
+#: assets/js/builder.js:1194
+msgid "Save form"
+msgstr "Сачувај образац"
+
+#: assets/js/builder.js:1200
+msgid "Price tables"
+msgstr "Ценовници"
+
+#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+msgid "Settings"
+msgstr "Подешавања"
+
+#: assets/js/builder.js:1314
+msgid "Add it to a page with the SmokyForms block or the shortcode."
+msgstr "Додајте га на страницу блоком SmokyForms или кратким кодом."
+
+#: assets/js/builder.js:1315
+msgid "You have unsaved changes."
+msgstr "Имате несачуване измене."
+
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+msgid "This form does not exist."
+msgstr "Овај образац не постоји."
+
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+msgid "Untitled form"
+msgstr "Образац без назива"
+
+#: includes/Admin/Builder.php:81
+msgid "Form saved."
+msgstr "Образац је сачуван."
+
+#. translators: %s: name of the site
+#: includes/Admin/Builder.php:140
+#, php-format
+msgid "Edit Form &lsaquo; %s"
+msgstr "Уреди образац &lsaquo; %s"
+
+#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+msgid "You are not allowed to do this."
+msgstr "Немате дозволу за то."
+
+#: includes/Admin/Builder.php:213 includes/Forms.php:32
+msgid "Edit Form"
+msgstr "Уреди образац"
+
+#: includes/Admin/Builder.php:216
+msgid "Loading the form builder…"
+msgstr "Учитавање алата за израду образаца…"
+
+#: includes/Admin/Builder.php:216
+msgid "The form builder needs JavaScript."
+msgstr "Алату за израду образаца потребан је JavaScript."
+
+#: includes/Admin/Menu.php:88 includes/Admin/Menu.php:92
+msgid "Undelivered"
+msgstr "Неиспоручено"
+
+#. translators: %s: name of the copied form
+#: includes/Admin/Menu.php:206
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (копија)"
+
+#: includes/Admin/Menu.php:221 includes/Forms.php:28
+msgid "Forms"
+msgstr "Обрасци"
+
+#: includes/Admin/Settings.php:56
+msgid "SmokyForms Settings"
+msgstr "Подешавања SmokyForms"
+
+#: includes/Admin/Settings.php:59
+msgid "Email sending"
+msgstr "Слање е-поште"
+
+#: includes/Admin/Settings.php:70
+msgid "Spam protection"
+msgstr "Заштита од нежељене поште"
+
+#: includes/Admin/Settings.php:71
+msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
+msgstr "Сваки образац има скривено поље-замку и проверу времена. Поред тога можете додати CAPTCHA; користи се у сваком обрасцу у ком је укључена у подешавањима обрасца."
+
+#: includes/Admin/Settings.php:81
+msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
+msgstr "Cloudflare Turnstile је бесплатан и обично од посетилаца не тражи решавање загонетки."
+
+#: includes/Admin/Settings.php:85
+msgid "Site key"
+msgstr "Кључ сајта"
+
+#: includes/Admin/Settings.php:89
+msgid "Secret key"
+msgstr "Тајни кључ"
+
+#: includes/Admin/Settings.php:91
+msgid "Saved. Leave empty to keep it."
+msgstr "Сачувано. Оставите празно да га задржите."
+
+#: includes/Admin/Settings.php:95
+msgid "Time check"
+msgstr "Провера времена"
+
+#: includes/Admin/Settings.php:98
+msgid "seconds"
+msgstr "секунди"
+
+#: includes/Admin/Settings.php:99
+msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
+msgstr "Обрасци послати брже од овога након учитавања странице сматрају се нежељеном поштом. 0 искључује проверу."
+
+#: includes/Admin/Settings.php:103
+msgid "Undelivered notifications"
+msgstr "Неиспоручена обавештења"
+
+#: includes/Admin/Settings.php:104
+msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "SmokyForms не чува уносе; шаљу вам се е-поштом. Ако обавештење не може да се пошаље, унос се чува да се не изгуби и можете га поново послати у SmokyForms > Неиспоручено."
+
+#: includes/Admin/Settings.php:107
+msgid "Keep for"
+msgstr "Чувај"
+
+#: includes/Admin/Settings.php:110
+msgid "days"
+msgstr "дана"
+
+#. translators: %s: number of entries
+#: includes/Admin/UndeliveredPage.php:50
+#, php-format
+msgid "SmokyForms: %s entry could not be emailed to you."
+msgid_plural "SmokyForms: %s entries could not be emailed to you."
+msgstr[0] "SmokyForms: %s унос није било могуће послати вам е-поштом."
+msgstr[1] "SmokyForms: %s уноса није било могуће послати вам е-поштом."
+msgstr[2] "SmokyForms: %s уноса није било могуће послати вам е-поштом."
+
+#: includes/Admin/UndeliveredPage.php:51
+msgid "Show"
+msgstr "Прикажи"
+
+#: includes/Admin/UndeliveredPage.php:84
+msgid "The entry was sent and removed from this list."
+msgstr "Унос је послат и уклоњен са списка."
+
+#: includes/Admin/UndeliveredPage.php:85
+msgid "The entry could still not be sent. Check the email sending settings."
+msgstr "Унос и даље није могуће послати. Проверите подешавања слања е-поште."
+
+#: includes/Admin/UndeliveredPage.php:86
+msgid "The entry was deleted."
+msgstr "Унос је обрисан."
+
+#: includes/Admin/UndeliveredPage.php:91
+msgid "Undelivered entries"
+msgstr "Неиспоручени уноси"
+
+#: includes/Admin/UndeliveredPage.php:92
+msgid "These entries were sent through your forms, but the notification email to you failed. They are kept here so they are not lost, and deleted automatically after the number of days set under Settings."
+msgstr "Ови уноси су стигли преко ваших образаца, али обавештење е-поштом није успело. Чувају се овде да се не изгубе и аутоматски се бришу после броја дана подешеног у Подешавањима."
+
+#: includes/Admin/UndeliveredPage.php:97
+msgid "Nothing here. All notifications were delivered."
+msgstr "Овде нема ничега. Сва обавештења су испоручена."
+
+#: includes/Admin/UndeliveredPage.php:99
+msgid "Check the email sending settings"
+msgstr "Проверите подешавања слања е-поште"
+
+#: includes/Admin/UndeliveredPage.php:109
+msgid "Deleted form"
+msgstr "Обрисани образац"
+
+#: includes/Admin/UndeliveredPage.php:113
+msgid "Reason:"
+msgstr "Разлог:"
+
+#: includes/Admin/UndeliveredPage.php:130
+msgid "Send again"
+msgstr "Пошаљи поново"
+
+#: includes/Admin/UndeliveredPage.php:138
+msgid "Delete this entry for good?"
+msgstr "Трајно обрисати овај унос?"
+
+#: includes/Admin/UndeliveredPage.php:139
+msgid "Yes, delete"
+msgstr "Да, обриши"
+
+#: includes/Captcha.php:40
+msgid "Please confirm that you are not a robot."
+msgstr "Потврдите да нисте робот."
+
+#: includes/Captcha.php:59
+msgid "The robot check failed. Please try again."
+msgstr "Провера робота није успела. Покушајте поново."
+
+#: includes/Fields.php:27
+msgid "Single line text"
+msgstr "Текст у једном реду"
+
+#: includes/Fields.php:28
+msgid "Paragraph text"
+msgstr "Пасус"
+
+#: includes/Fields.php:29 includes/Templates.php:67
+msgid "Email"
+msgstr "Е-пошта"
+
+#: includes/Fields.php:30 includes/Templates.php:68
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/Fields.php:31
+msgid "Website"
+msgstr "Веб-сајт"
+
+#: includes/Fields.php:33
+msgid "Dropdown"
+msgstr "Падајућа листа"
+
+#: includes/Fields.php:34
+msgid "Multiple choice"
+msgstr "Један избор"
+
+#: includes/Fields.php:35
+msgid "Checkboxes"
+msgstr "Поља за потврду"
+
+#: includes/Fields.php:36
+msgid "Date"
+msgstr "Датум"
+
+#: includes/Fields.php:37
+msgid "Hidden field"
+msgstr "Скривено поље"
+
+#: includes/Fields.php:38
+msgid "Consent checkbox"
+msgstr "Поље сагласности"
+
+#: includes/Fields.php:152 includes/Renderer.php:335
+msgid "This field is required."
+msgstr "Ово поље је обавезно."
+
+#: includes/Fields.php:178 includes/Renderer.php:336
+msgid "Please enter a valid email address."
+msgstr "Унесите исправну адресу е-поште."
+
+#: includes/Fields.php:186 includes/Renderer.php:337
+msgid "Please enter a valid website address."
+msgstr "Унесите исправну адресу сајта."
+
+#: includes/Fields.php:192
+msgid "Please enter a valid phone number."
+msgstr "Унесите исправан број телефона."
+
+#: includes/Fields.php:198 includes/Renderer.php:338
+msgid "Please enter a number."
+msgstr "Унесите број."
+
+#. translators: %s: smallest allowed number
+#: includes/Fields.php:203
+#, php-format
+msgid "Please enter a number of at least %s."
+msgstr "Унесите број од најмање %s."
+
+#. translators: %s: largest allowed number
+#: includes/Fields.php:207
+#, php-format
+msgid "Please enter a number of at most %s."
+msgstr "Унесите број од највише %s."
+
+#: includes/Fields.php:214
+msgid "Please enter a valid date."
+msgstr "Унесите исправан датум."
+
+#: includes/Fields.php:220
+msgid "Please choose one of the options."
+msgstr "Изаберите једну од могућности."
+
+#: includes/Fields.php:271
+msgid "Yes"
+msgstr "Да"
+
+#: includes/Fields.php:271
+msgid "No"
+msgstr "Не"
+
+#: includes/Forms.php:34
+msgid "Search Forms"
+msgstr "Претражи обрасце"
+
+#: includes/Forms.php:35
+msgid "No forms yet."
+msgstr "Још нема образаца."
+
+#: includes/Forms.php:36
+msgid "No forms in the Trash."
+msgstr "У отпаду нема образаца."
+
+#: includes/Forms.php:59
+msgid "Submit"
+msgstr "Пошаљи"
+
+#: includes/Forms.php:60
+msgid "Thank you! Your message has been sent."
+msgstr "Хвала! Ваша порука је послата."
+
+#: includes/Forms.php:65
+msgid "New entry: {form_title}"
+msgstr "Нови унос: {form_title}"
+
+#: includes/Forms.php:71 includes/Templates.php:74
+msgid "Thank you for your message"
+msgstr "Хвала на поруци"
+
+#: includes/Forms.php:72 includes/Templates.php:75
+msgid ""
+"Hello,\n"
+"\n"
+"thank you for contacting us. We received your message and will reply soon.\n"
+"\n"
+"{all_fields}"
+msgstr ""
+"Поздрав,\n"
+"\n"
+"хвала што сте нам се јавили. Примили смо вашу поруку и ускоро ћемо одговорити.\n"
+"\n"
+"{all_fields}"
+
+#: includes/Notifications.php:39
+msgid "All answers"
+msgstr "Сви одговори"
+
+#: includes/Notifications.php:41
+msgid "Site name"
+msgstr "Назив сајта"
+
+#: includes/Notifications.php:42
+msgid "Site admin email"
+msgstr "Е-пошта администратора сајта"
+
+#: includes/Notifications.php:43
+msgid "Date and time"
+msgstr "Датум и време"
+
+#: includes/Notifications.php:44
+msgid "Page of the form"
+msgstr "Страница обрасца"
+
+#: includes/Notifications.php:108
+msgid "The site could not send the email."
+msgstr "Сајт није могао да пошаље е-поруку."
+
+#: includes/Renderer.php:83
+msgid "SmokyForms: this form does not exist."
+msgstr "SmokyForms: овај образац не постоји."
+
+#: includes/Renderer.php:129
+msgid "Leave this field empty"
+msgstr "Оставите ово поље празно"
+
+#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+msgid "Please check the form and try again."
+msgstr "Проверите образац и покушајте поново."
+
+#: includes/Renderer.php:190
+msgid "Choose…"
+msgstr "Изаберите…"
+
+#: includes/Renderer.php:339
+msgid "Sending…"
+msgstr "Слање…"
+
+#: includes/Renderer.php:341
+msgid "The form could not be sent. Please try again."
+msgstr "Образац није могуће послати. Покушајте поново."
+
+#: includes/Settings.php:26
+msgid "None"
+msgstr "Ниједан"
+
+#: includes/Submission.php:184
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "Образац није могуће проверити. Поново учитајте страницу и покушајте поново."
+
+#: includes/Submission.php:187
+msgid "That was very fast. Please wait a moment and send the form again."
+msgstr "То је било веома брзо. Сачекајте тренутак и поново пошаљите образац."
+
+#: includes/Submission.php:195
+msgid "Too many submissions. Please wait a minute and try again."
+msgstr "Превише слања. Сачекајте минут и покушајте поново."
+
+#: includes/Templates.php:82
+msgid "Blank form"
+msgstr "Празан образац"
+
+#: includes/Templates.php:83
+msgid "Start from an empty form."
+msgstr "Почни са празним обрасцем."
+
+#: includes/Templates.php:90 includes/Templates.php:93
+msgid "Contact form"
+msgstr "Контакт образац"
+
+#: includes/Templates.php:91
+msgid "Name, email, phone and message."
+msgstr "Име, е-пошта, телефон и порука."
+
+#: includes/Templates.php:104 includes/Templates.php:107
+msgid "Quote request"
+msgstr "Захтев за понуду"
+
+#: includes/Templates.php:105
+msgid "Service, extras and size give an estimated price."
+msgstr "Услуга, додаци и површина дају процењену цену."
+
+#: includes/Templates.php:112
+msgid "Service"
+msgstr "Услуга"
+
+#: includes/Templates.php:117
+msgid "Basic cleaning"
+msgstr "Основно чишћење"
+
+#: includes/Templates.php:118
+msgid "Deep cleaning"
+msgstr "Генерално чишћење"
+
+#: includes/Templates.php:123
+msgid "Size (m²)"
+msgstr "Површина (m²)"
+
+#: includes/Templates.php:127
+msgid "Extras"
+msgstr "Додаци"
+
+#: includes/Templates.php:131
+msgid "Windows"
+msgstr "Прозори"
+
+#: includes/Templates.php:132
+msgid "Balcony"
+msgstr "Балкон"
+
+#: includes/Templates.php:133
+msgid "Oven"
+msgstr "Рерна"
+
+#: includes/Templates.php:141
+msgid "Estimated price"
+msgstr "Процењена цена"
+
+#: includes/Templates.php:157 includes/Templates.php:160
+msgid "Order form"
+msgstr "Образац за поруџбину"
+
+#: includes/Templates.php:158
+msgid "Products with quantities, delivery and a discount over an amount."
+msgstr "Производи са количинама, достава и попуст изнад одређеног износа."
+
+#: includes/Templates.php:162
+msgid "Product A – 12.00 each"
+msgstr "Производ A – 12.00 по комаду"
+
+#: includes/Templates.php:163
+msgid "Product B – 18.50 each"
+msgstr "Производ B – 18.50 по комаду"
+
+#: includes/Templates.php:167
+msgid "Delivery"
+msgstr "Достава"
+
+#: includes/Templates.php:172
+msgid "Pick up"
+msgstr "Лично преузимање"
+
+#: includes/Templates.php:173
+msgid "Standard"
+msgstr "Стандардна"
+
+#: includes/Templates.php:174
+msgid "Express"
+msgstr "Експресна"
+
+#: includes/Templates.php:179
+msgid "Subtotal"
+msgstr "Међузбир"
+
+#: includes/Templates.php:180
+#, php-format
+msgid "Discount (10% over 100)"
+msgstr "Попуст (10% изнад 100)"
+
+#: includes/Templates.php:181
+msgid "Total"
+msgstr "Укупно"
+
+#: includes/Templates.php:189
+msgid "Booking with nights"
+msgstr "Резервација са ноћењима"
+
+#: includes/Templates.php:190
+msgid "Arrival and departure dates give the number of nights and the price."
+msgstr "Датуми доласка и одласка дају број ноћења и цену."
+
+#: includes/Templates.php:192
+msgid "Booking request"
+msgstr "Захтев за резервацију"
+
+#: includes/Templates.php:194
+msgid "Arrival"
+msgstr "Долазак"
+
+#: includes/Templates.php:195
+msgid "Departure"
+msgstr "Одлазак"
+
+#: includes/Templates.php:199
+msgid "Room"
+msgstr "Соба"
+
+#: includes/Templates.php:204
+msgid "Standard – 80 per night"
+msgstr "Стандард – 80 по ноћи"
+
+#: includes/Templates.php:205
+msgid "Suite – 140 per night"
+msgstr "Апартман – 140 по ноћи"
+
+#: includes/Templates.php:210
+msgid "Nights"
+msgstr "Ноћења"
+
+#: includes/Templates.php:211
+msgid "Price"
+msgstr "Цена"
+
+#: includes/Templates.php:220
+msgid "Shipping price from a table of zones and parcel sizes."
+msgstr "Цена доставе из табеле зона и величина пакета."
+
+#: includes/Templates.php:222 includes/Templates.php:256
+msgid "Shipping price"
+msgstr "Цена доставе"
+
+#: includes/Templates.php:227
+msgid "Zone"
+msgstr "Зона"
+
+#: includes/Templates.php:233 includes/Templates.php:263
+msgid "Zone 1"
+msgstr "Зона 1"
+
+#: includes/Templates.php:234 includes/Templates.php:263
+msgid "Zone 2"
+msgstr "Зона 2"
+
+#: includes/Templates.php:235 includes/Templates.php:263
+msgid "Zone 3"
+msgstr "Зона 3"
+
+#: includes/Templates.php:243
+msgid "Parcel"
+msgstr "Пакет"
+
+#: includes/Templates.php:249 includes/Templates.php:264
+msgid "Small"
+msgstr "Мали"
+
+#: includes/Templates.php:250 includes/Templates.php:264
+msgid "Medium"
+msgstr "Средњи"
+
+#: includes/Templates.php:251 includes/Templates.php:264
+msgid "Large"
+msgstr "Велики"
+
+#: includes/Templates.php:262
+msgid "Shipping prices"
+msgstr "Цене доставе"
+
+#: includes/Templates.php:271 includes/Templates.php:274
+msgid "BMI calculator"
+msgstr "Калкулатор БМИ"
+
+#: includes/Templates.php:272
+msgid "Body mass index from height and weight."
+msgstr "Индекс телесне масе из висине и тежине."
+
+#: includes/Templates.php:276
+msgid "Height (cm)"
+msgstr "Висина (cm)"
+
+#: includes/Templates.php:277
+msgid "Weight (kg)"
+msgstr "Тежина (kg)"
+
+#: includes/Templates.php:278
+msgid "Your BMI"
+msgstr "Ваш БМИ"
+
+#: includes/Templates.php:282 includes/Templates.php:299
+msgid "Send"
+msgstr "Пошаљи"
+
+#: includes/Templates.php:287 includes/Templates.php:290
+msgid "Loan calculator"
+msgstr "Кредитни калкулатор"
+
+#: includes/Templates.php:288
+msgid "Monthly payment from amount, interest rate and term."
+msgstr "Месечна рата из износа, каматне стопе и рока."
+
+#: includes/Templates.php:292
+msgid "Loan amount"
+msgstr "Износ кредита"
+
+#: includes/Templates.php:293
+#, php-format
+msgid "Yearly interest rate (%)"
+msgstr "Годишња каматна стопа (%)"
+
+#: includes/Templates.php:294
+msgid "Term (months)"
+msgstr "Рок (месеци)"
+
+#: includes/Templates.php:295
+msgid "Monthly payment"
+msgstr "Месечна рата"
+
+#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
+msgid "Test email"
+msgstr "Пробна е-порука"
+
+#: lib/smokysystems-mail/Module.php:365
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Ово је пробна е-порука. Ако можете да је прочитате, слање е-поште ради."
+
+#: lib/smokysystems-mail/Module.php:387
+msgid "Settings saved."
+msgstr "Подешавања су сачувана."
+
+#. translators: %s: email address
+#: lib/smokysystems-mail/Module.php:393
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Пробна е-порука је послата на %s. Проверите пријемно сандуче и фасциклу нежељене поште."
+
+#: lib/smokysystems-mail/Module.php:395
+msgid "The test email could not be sent."
+msgstr "Пробну е-поруку није могуће послати."
+
+#: lib/smokysystems-mail/Module.php:400
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Многи хостинзи испоручују е-пошту WordPress-а са закашњењем или у нежељену пошту. Слање преко SMTP налога вашег добављача е-поште то решава без засебног SMTP додатка."
+
+#. translators: %s: list of plugin names
+#: lib/smokysystems-mail/Module.php:403
+#, php-format
+msgid "These settings are shared by %s."
+msgstr "Ова подешавања дели %s."
+
+#. translators: %s: name of another SMTP plugin
+#: lib/smokysystems-mail/Module.php:407
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s је активан и брине о слању е-поште, па се ова подешавања не користе."
+
+#: lib/smokysystems-mail/Module.php:415
+msgid "SMTP"
+msgstr "SMTP"
+
+#: lib/smokysystems-mail/Module.php:417
+msgid "Send emails through an SMTP account"
+msgstr "Шаљи е-пошту преко SMTP налога"
+
+#: lib/smokysystems-mail/Module.php:419
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Само е-пошта додатака SmokySystems"
+
+#: lib/smokysystems-mail/Module.php:420
+msgid "All emails of this site"
+msgstr "Сва е-пошта овог сајта"
+
+#: lib/smokysystems-mail/Module.php:425
+msgid "SMTP server"
+msgstr "SMTP сервер"
+
+#: lib/smokysystems-mail/Module.php:429
+msgid "Port"
+msgstr "Порт"
+
+#: lib/smokysystems-mail/Module.php:432
+msgid "Encryption"
+msgstr "Шифровање"
+
+#: lib/smokysystems-mail/Module.php:435
+msgid "No encryption"
+msgstr "Без шифровања"
+
+#: lib/smokysystems-mail/Module.php:440
+msgid "Username"
+msgstr "Корисничко име"
+
+#: lib/smokysystems-mail/Module.php:444
+msgid "Password"
+msgstr "Лозинка"
+
+#: lib/smokysystems-mail/Module.php:447
+msgid "The password is set in wp-config.php."
+msgstr "Лозинка је подешена у датотеци wp-config.php."
+
+#: lib/smokysystems-mail/Module.php:451
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Лозинка је сачувана. Оставите празно да је задржите."
+
+#: lib/smokysystems-mail/Module.php:452
+msgid "Remove the saved password"
+msgstr "Уклони сачувану лозинку"
+
+#: lib/smokysystems-mail/Module.php:458
+msgid "From email"
+msgstr "Е-пошта пошиљаоца"
+
+#: lib/smokysystems-mail/Module.php:461
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Користите адресу SMTP налога, иначе многи добављачи одбијају е-поруку."
+
+#: lib/smokysystems-mail/Module.php:465
+msgid "From name"
+msgstr "Име пошиљаоца"
+
+#: lib/smokysystems-mail/Module.php:478
+msgid "Send test email"
+msgstr "Пошаљи пробну е-поруку"
+
+#. Name of the plugin
+#: smokyforms.php:3
+msgid "SmokyForms – Drag and Drop Form Builder with Calculations"
+msgstr "SmokyForms – Алат за израду образаца превлачењем са прорачунима"
+
+#. Description of the plugin
+#: smokyforms.php:5
+msgid "Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas."
+msgstr "Алат за израду образаца превлачењем са бесплатним прорачунима. Направите контакт обрасце, обрасце за понуде и поруџбине и калкулаторе без писања формула."

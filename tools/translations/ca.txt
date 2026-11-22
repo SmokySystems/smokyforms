@@ -1,0 +1,325 @@
+055dcf|Trieu un formulari
+d359c6|Formulari
+e0a02c|Encara no teniu formularis. Creeu-ne un a SmokyForms, al menú d’administració.
+28ab5c|Trieu el formulari que es mostrarà aquí.
+a86405|Camps bàsics
+6ef697|Opcions
+5939b5|Camps especials
+ebd9be|Disposició
+f56462|si … aleshores … si no
+7f7bde|if(condició, valor si és cert, valor si és fals)
+b7f41f|Arrodoneix
+2e0e8d|round(valor, decimals)
+a3ab97|El més petit
+73fc19|min(a, b, …)
+f8c8f8|El més gran
+8902cb|max(a, b, …)
+ecb62b|Dies entre dates
+a6db34|days(data inicial, data final)
+6ff145|Arrodoneix cap avall
+c17f8d|Arrodoneix cap amunt
+99e006|Sense signe
+921c8e|Arrel quadrada
+1fe7e9|Primera opció
+580834|Segona opció
+c1dd36|Tercera opció
+1bbdf1|Consentiment
+a816e9|Accepto que aquest lloc web desi i tracti les meves dades.
+7ef25f|Bloc de text
+3b4836|Títol de secció
+be5d5d|i
+e81c4e|o
+35c798|Bloc de text buit
+b0ebea|Encara no hi ha fórmula
+222a8b|Sense etiqueta
+a4f784|Feu clic als camps de la llista de l’esquerra o arrossegueu-los.
+85e07c|Camp: %s
+f77af7|Mou amunt
+dd9f0c|Mou avall
+ed7571|Duplica
+f2a6c4|Suprimeix
+458b9d|Opció
+38b2db|Valor en els càlculs
+7a1920|Per defecte
+ceb473|Elimina l’opció
+015d41|Opció %d
+d02f3c|Afegeix una opció
+c9739f|El valor és el que compta aquesta opció en un càlcul, per exemple el seu preu. En les caselles se sumen els valors de totes les opcions marcades.
+d61d8d|Falta el camp: %s
+a1b32d|Feu clic als camps i operadors de sota per construir el càlcul.
+5de039|Construeix amb clics
+878cdc|Escriu la fórmula
+1cdc07|Desfés
+dc30bc|Esborra
+a4ca5e|Camps
+443847|Primer afegiu camps de número, d’opcions o de data; apareixeran aquí.
+b3c582|Operadors
+dd4fe0|Potència
+8730cc|Residu
+e9b53a|Coma (entre els valors d’una funció)
+b2ee91|Número
+ca3aeb|Afegeix un número
+229eb0|Condicions
+e93acb|Funcions
+9551cd|Taula de preus
+51c45b|Taula
+9db33f|Fila segons la resposta de
+7876f8|Columna segons la resposta de
+38dded|Només una columna
+2c4e05|Insereix el preu
+313a6a|Fórmula
+d9f37b|Els camps s’escriuen com {field_id}. Exemple: {price} * {quantity} + 5
+c66f2e|La fórmula encara no és completa. Reviseu parèntesis, comes i operadors.
+cc3a57|La fórmula és vàlida.
+5fd411|Prova-ho
+5aac38|Resultat:
+1767e5|Seleccioneu un camp per canviar-ne la configuració.
+010131|Títol
+b021df|Etiqueta
+b651ef|Obligatori
+6224e6|Text abans de triar
+68753d|Text d’exemple
+31ce3c|Valor per defecte
+48c7c4|Increment
+56eb52|Text al costat de la casella
+58cf98|Es permeten enllaços, per exemple a la vostra política de privadesa.
+9dffbf|Text
+716124|Es permet HTML bàsic.
+3ea4f7|Càlcul
+b51e59|Abans del resultat
+62cfd9|Per exemple $
+5c6290|Després del resultat
+d41a8c|Per exemple € o kg
+2b4178|Decimals
+e7c868|Mostra el resultat al formulari
+16feb3|Desactiveu-ho per a un pas intermedi que només fan servir altres càlculs. El resultat continua apareixent al correu.
+c10b7d|Text d’ajuda
+329546|Amplada
+24e61d|Amplada completa
+e4bb63|Mitja amplada
+42aa94|ID del camp
+98fa53|S’utilitza a les fórmules com {%1$s} i als correus com {field:%1$s}. Si el canvieu, s’actualitzen les fórmules d’aquest formulari.
+08aeea|Una taula de preus dona un valor per a cada resposta, o per a cada combinació de dues respostes (per exemple zona i mida del paquet). Feu-la servir en un càlcul amb «Taula de preus». Els noms de files i columnes s’han d’escriure exactament com les opcions dels camps.
+49ee30|Nom
+6c3798|ID: %s
+c0dd3a|Files a partir de les opcions de
+923419|Columnes a partir de les opcions de
+710b83|Nom de la columna
+689202|Valor
+dbe735|Nom de la fila
+d8353e|Fila %d
+19f6e2|Afegeix una fila
+7bce62|Columna %d
+b61b8f|Afegeix una columna
+8b0629|Elimina l’última fila
+99a139|Elimina l’última columna
+9c6803|Suprimeix la taula
+531553|Fila 1
+450423|Afegeix una taula de preus
+1aefc6|Podeu fer servir:
+19002d|Resposta d’un camp
+0db377|General
+111082|Text del botó
+8da5e2|Missatge després de l’enviament
+f52ff0|O ves a aquesta pàgina després de l’enviament
+aac08d|Deixeu-ho buit per mostrar el missatge.
+291d69|CAPTCHA
+86dc8e|Protegeix aquest formulari amb el CAPTCHA configurat a Configuració.
+539ec8|Encara no hi ha cap CAPTCHA configurat. En podeu afegir un a SmokyForms > Configuració. El camp trampa i el control de temps protegeixen igualment tots els formularis.
+74b72d|Avís per a vós
+48ff32|SmokyForms no desa les entrades; cada entrada se us envia per correu. Si el correu falla, l’entrada es conserva a SmokyForms > No lliurades.
+d245dd|Envia’m un correu per cada entrada
+c973ca|Envia a
+61739f|Separeu diverses adreces amb comes.
+c7892e|Assumpte
+4c2a8f|Missatge
+8970db|Confirmació al visitant
+71baeb|Envia al visitant un correu de confirmació
+b6c0d5|Adreça del camp
+7a2be4|Primer afegiu un camp de correu electrònic al formulari.
+45949d|Afegeix un formulari nou
+79fd79|Comenceu amb un formulari fet o amb un de buit. Totes les plantilles, calculadores incloses, són gratuïtes.
+cc7b22|No s’ha pogut desar el formulari.
+21954b|Tots els formularis
+00cd1f|Nom del formulari
+6feadb|Codi curt
+eedf6b|S’està desant…
+4abf00|Desa el formulari
+35cb6e|Taules de preus
+f4f707|Configuració
+864bac|Afegiu-lo a una pàgina amb el bloc SmokyForms o amb el codi curt.
+604a9a|Teniu canvis sense desar.
+6866cc|Aquest formulari no existeix.
+d50431|Formulari sense títol
+782d19|S’ha desat el formulari.
+84ad74|Edita el formulari &lsaquo; %s
+2835b7|No teniu permís per fer això.
+39741d|Edita el formulari
+a986be|S’està carregant el creador de formularis…
+6db07c|El creador de formularis necessita JavaScript.
+c50eda|No lliurades
+77c751|%s (còpia)
+645024|Formularis
+cc06ee|Configuració de SmokyForms
+cb7fd7|Enviament de correus
+2932b4|Protecció contra el correu brossa
+ef7330|Cada formulari té un camp trampa ocult i un control de temps. A més, podeu afegir un CAPTCHA; s’utilitza a tots els formularis on estigui activat a la configuració del formulari.
+aac82e|Cloudflare Turnstile és gratuït i normalment no demana cap trencaclosques als visitants.
+f75d8f|Clau del lloc
+952bf8|Clau secreta
+6b2bed|Desada. Deixeu-ho buit per mantenir-la.
+3827d8|Control de temps
+783e8e|segons
+615249|Els formularis enviats més ràpid que això després de carregar la pàgina es consideren correu brossa. 0 desactiva el control.
+4def17|Avisos no lliurats
+9f5630|SmokyForms no desa les entrades; se us envien per correu. Quan un correu d’avís no es pot enviar, l’entrada es conserva perquè no es perdi i la podeu tornar a enviar a SmokyForms > No lliurades.
+f24a17|Conserva durant
+44fdec|dies
+c89567|SmokyForms: %s entrada no se us ha pogut enviar per correu. ¦ SmokyForms: %s entrades no se us han pogut enviar per correu.
+498f79|Mostra
+effa85|L’entrada s’ha enviat i s’ha tret de la llista.
+f9eafc|L’entrada encara no s’ha pogut enviar. Reviseu la configuració d’enviament de correus.
+80da2c|L’entrada s’ha suprimit.
+24c070|Entrades no lliurades
+c0d482|Aquestes entrades han arribat pels vostres formularis, però el correu d’avís ha fallat. Es conserven aquí perquè no es perdin i se suprimeixen automàticament després dels dies definits a Configuració.
+5a569c|Aquí no hi ha res. S’han lliurat tots els avisos.
+0426b1|Reviseu la configuració d’enviament de correus
+ef546f|Formulari suprimit
+ccb168|Motiu:
+50ab1d|Torna a enviar
+50d0b5|Voleu suprimir aquesta entrada definitivament?
+b21c60|Sí, suprimeix
+ccf88f|Confirmeu que no sou un robot.
+296449|La comprovació antirobot ha fallat. Torneu-ho a provar.
+cd72d3|Text d’una línia
+c5a5c5|Paràgraf
+ce8ae9|Correu electrònic
+bcc254|Telèfon
+15bbb9|Lloc web
+7498c4|Llista desplegable
+6893e5|Opció única
+c425f2|Caselles
+447497|Data
+019003|Camp ocult
+00b768|Casella de consentiment
+9303c9|Aquest camp és obligatori.
+b5bccd|Introduïu una adreça de correu vàlida.
+86062b|Introduïu una adreça web vàlida.
+772407|Introduïu un número de telèfon vàlid.
+c2cb00|Introduïu un número.
+69dfa7|Introduïu un número d’almenys %s.
+caf8d8|Introduïu un número de com a màxim %s.
+773fcd|Introduïu una data vàlida.
+e3264a|Trieu una de les opcions.
+93cba0|Sí
+bafd73|No
+a6c2b9|Cerca formularis
+60caa9|Encara no hi ha formularis.
+6a1885|No hi ha formularis a la paperera.
+a4d3b1|Envia
+279099|Gràcies! S’ha enviat el vostre missatge.
+48b55f|Entrada nova: {form_title}
+81a012|Gràcies pel vostre missatge
+d93e6b|Hola,\n\ngràcies per contactar amb nosaltres. Hem rebut el vostre missatge i us respondrem aviat.\n\n{all_fields}
+1d6990|Totes les respostes
+816667|Nom del lloc
+e91f72|Correu de l’administrador del lloc
+2b0b7c|Data i hora
+7012e0|Pàgina del formulari
+151dca|El lloc no ha pogut enviar el correu.
+6ac40c|SmokyForms: aquest formulari no existeix.
+7a4842|Deixeu aquest camp buit
+28b263|Reviseu el formulari i torneu-ho a provar.
+3f6c9a|Trieu…
+4d01e8|S’està enviant…
+f83b39|No s’ha pogut enviar el formulari. Torneu-ho a provar.
+6adf97|Cap
+5bf1f6|No s’ha pogut comprovar el formulari. Recarregueu la pàgina i torneu-ho a provar.
+5934a3|Ha estat molt ràpid. Espereu un moment i torneu a enviar el formulari.
+453e43|Massa enviaments. Espereu un minut i torneu-ho a provar.
+57c955|Formulari buit
+dc8972|Comença amb un formulari buit.
+c661cf|Formulari de contacte
+dabe9b|Nom, correu, telèfon i missatge.
+5d1cbd|Sol·licitud de pressupost
+0269ab|El servei, els extres i la superfície donen un preu estimat.
+c2ba7e|Servei
+9986c1|Neteja bàsica
+cc16d7|Neteja a fons
+e285c9|Superfície (m²)
+0a3f08|Extres
+aea234|Finestres
+2623fa|Balcó
+482690|Forn
+cebbfc|Preu estimat
+655157|Formulari de comanda
+3a11e0|Productes amb quantitats, enviament i descompte a partir d’un import.
+70fc36|Producte A – 12.00 la unitat
+6e18dd|Producte B – 18.50 la unitat
+065ab3|Enviament
+9ae3c9|Recollida
+eb6d8a|Estàndard
+b144fa|Exprés
+2194aa|Subtotal
+48909c|Descompte (10% a partir de 100)
+96b014|Total
+6fb3df|Reserva per nits
+80068a|Les dates d’arribada i sortida donen el nombre de nits i el preu.
+83bb56|Sol·licitud de reserva
+885b3c|Arribada
+5be0fa|Sortida
+cc3abc|Habitació
+3bf8f2|Estàndard – 80 per nit
+3ac878|Suite – 140 per nit
+e10758|Nits
+360114|Preu
+e6e2d9|Preu d’enviament a partir d’una taula de zones i mides de paquet.
+0ea6b9|Preu d’enviament
+b3ff99|Zona
+93b3d7|Zona 1
+ac4ff7|Zona 2
+c48837|Zona 3
+f38e90|Paquet
+266006|Petit
+87f8a6|Mitjà
+3a69b3|Gran
+3e1c4b|Preus d’enviament
+348100|Calculadora d’IMC
+d7659b|Índex de massa corporal a partir de l’alçada i el pes.
+20fbaa|Alçada (cm)
+917216|Pes (kg)
+869598|El vostre IMC
+94966d|Envia
+f3cda5|Calculadora de préstecs
+cb8a5f|Quota mensual a partir de l’import, el tipus d’interès i el termini.
+59efa4|Import del préstec
+202d38|Tipus d’interès anual (%)
+a92ac9|Termini (mesos)
+647bd0|Quota mensual
+d0bcd3|Correu de prova
+a7498e|Aquest és un correu de prova. Si el podeu llegir, l’enviament de correus funciona.
+9a7e58|S’ha desat la configuració.
+a3fb23|El correu de prova s’ha enviat a %s. Reviseu la safata d’entrada i la carpeta de correu brossa.
+33de89|No s’ha pogut enviar el correu de prova.
+3a9486|Molts allotjaments lliuren els correus de WordPress tard o a la carpeta de correu brossa. Enviar-los per mitjà del compte SMTP del vostre proveïdor de correu ho soluciona, sense una extensió SMTP a part.
+05449a|Aquesta configuració la comparteixen %s.
+51e4ba|%s està actiu i s’encarrega de l’enviament de correus, així que aquesta configuració no s’utilitza.
+c2239a|SMTP
+4d7db2|Envia els correus per mitjà d’un compte SMTP
+adac9e|Només els correus de les extensions de SmokySystems
+f8f5e1|Tots els correus d’aquest lloc
+bdd48f|Servidor SMTP
+60aaf4|Port
+d7f261|Xifratge
+151adf|Sense xifratge
+f6039d|Nom d’usuari
+dc647e|Contrasenya
+c6e6fb|La contrasenya està definida a wp-config.php.
+0b5899|Hi ha una contrasenya desada. Deixeu-ho buit per mantenir-la.
+d7381f|Elimina la contrasenya desada
+3b4d50|Correu del remitent
+250019|Feu servir una adreça del compte SMTP; si no, molts proveïdors rebutgen el correu.
+c3a7ea|Nom del remitent
+ee1851|Envia un correu de prova
+7caa16|SmokyForms – Creador de formularis d’arrossegar i deixar anar amb càlculs
+9958f8|Creador de formularis d’arrossegar i deixar anar amb càlculs gratuïts. Creeu formularis de contacte, de pressupost i de comanda i calculadores sense escriure fórmules.
