@@ -116,8 +116,6 @@ b61b8f|Legg til kolonne
 9c6803|Slett tabell
 531553|Rad 1
 450423|Legg til pristabell
-1aefc6|Du kan bruke:
-19002d|Svar i ett felt
 0db377|Generelt
 111082|Knappetekst
 8da5e2|Melding etter innsending
@@ -127,7 +125,6 @@ aac08d|La stå tomt for å vise meldingen i stedet.
 86dc8e|Beskytt skjemaet med CAPTCHA-en som er satt opp under Innstillinger.
 539ec8|Ingen CAPTCHA er satt opp ennå. Du kan legge til en under SmokyForms > Innstillinger. Fellefeltet og tidskontrollen beskytter uansett alle skjemaer.
 74b72d|Varsel til deg
-48ff32|SmokyForms lagrer ikke innsendinger; hver innsending sendes til deg på e-post. Hvis e-posten feiler, beholdes innsendingen under SmokyForms > Ikke levert.
 d245dd|Send meg en e-post for hver innsending
 c973ca|Send til
 61739f|Skill flere adresser med komma.
@@ -172,7 +169,6 @@ f75d8f|Nettstedsnøkkel
 783e8e|sekunder
 615249|Skjemaer som sendes raskere enn dette etter at siden er lastet, regnes som søppelpost. 0 slår av kontrollen.
 4def17|Varsler som ikke ble levert
-9f5630|SmokyForms lagrer ikke innsendinger; de sendes til deg på e-post. Hvis et varsel ikke kan sendes, beholdes innsendingen slik at den ikke går tapt, og du kan sende den på nytt under SmokyForms > Ikke levert.
 f24a17|Behold i
 44fdec|dager
 c89567|SmokyForms: %s innsending kunne ikke sendes til deg på e-post. ¦ SmokyForms: %s innsendinger kunne ikke sendes til deg på e-post.
@@ -413,3 +409,26 @@ c75143|Billett
 abce00|Voksen – 25
 2d337d|Barn – 10
 ccdac9|%s kunne ikke lastes opp. Prøv igjen.
+0869e1|Skjul smarte tagger
+1e8fdb|Vis smarte tagger
+6311ae|Annet
+928d86|HTML er tillatt, for eksempel <strong>, <a href="..."> eller <img src="...">.
+14614b|Tittel på skjemasiden
+af53b1|Nettstedets adresse
+b044c3|Besøkendes IP-adresse
+c21d00|Vis skjemaets tittel
+266cc8|Vis skjemaets beskrivelse
+ce7fc3|Beskrivelsen skrives i skjemaets innstillinger.
+019a87|Knappestil
+477bdd|Som standard ser knappene ut som temaets knapper. Velg farger bare hvis du vil ha dem annerledes.
+a9ded1|Bakgrunn
+578392|Bakgrunn ved peker over
+1f58ec|Tekst ved peker over
+31fde7|Forhåndsvisning
+6d7da2|Bruk temaets stil
+7df0ae|Skjemabeskrivelse
+ffb213|Valgfritt. Vises over skjemaet når «Vis skjemaets beskrivelse» er på i blokken, eller med %s. HTML er tillatt.
+31671a|Søk etter sider eller lim inn en adresse
+6cf0ea|Gratisversjonen av SmokyForms sender deg hver innsending på e-post og lagrer den ikke. SmokyForms Pro (kommer snart) lagrer alle innsendinger i kontrollpanelet ditt, med søk og CSV-eksport. Hvis e-posten feiler, beholdes innsendingen under SmokyForms > Ikke levert.
+babed6|Gratisversjonen av SmokyForms sender deg hver innsending på e-post og lagrer den ikke. SmokyForms Pro (kommer snart) lagrer alle innsendinger i kontrollpanelet ditt, med søk og CSV-eksport. Hvis et varsel ikke kan sendes, beholdes innsendingen slik at den ikke går tapt, og du kan sende den på nytt under SmokyForms > Ikke levert.
+d72175|Tema

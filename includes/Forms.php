@@ -73,6 +73,13 @@ final class Forms {
 			),
 			'captcha'         => true,
 			'progress'        => true,
+			'description'     => '',
+			'button'          => array(
+				'bg'         => '',
+				'bg_hover'   => '',
+				'text'       => '',
+				'text_hover' => '',
+			),
 		);
 	}
 
@@ -165,17 +172,22 @@ final class Forms {
 				'enabled' => isset( $s['notify']['enabled'] ) ? ! empty( $s['notify']['enabled'] ) : true,
 				'to'      => isset( $s['notify']['to'] ) ? sanitize_text_field( $s['notify']['to'] ) : $defaults['notify']['to'],
 				'subject' => isset( $s['notify']['subject'] ) ? sanitize_text_field( $s['notify']['subject'] ) : $defaults['notify']['subject'],
-				'message' => isset( $s['notify']['message'] ) ? sanitize_textarea_field( $s['notify']['message'] ) : $defaults['notify']['message'],
+				'message' => isset( $s['notify']['message'] ) ? wp_kses_post( $s['notify']['message'] ) : $defaults['notify']['message'],
 			),
 			'confirm'         => array(
 				'enabled' => ! empty( $s['confirm']['enabled'] ),
 				'field'   => isset( $s['confirm']['field'] ) ? sanitize_key( $s['confirm']['field'] ) : '',
 				'subject' => isset( $s['confirm']['subject'] ) ? sanitize_text_field( $s['confirm']['subject'] ) : $defaults['confirm']['subject'],
-				'message' => isset( $s['confirm']['message'] ) ? sanitize_textarea_field( $s['confirm']['message'] ) : $defaults['confirm']['message'],
+				'message' => isset( $s['confirm']['message'] ) ? wp_kses_post( $s['confirm']['message'] ) : $defaults['confirm']['message'],
 			),
 			'captcha'         => isset( $s['captcha'] ) ? ! empty( $s['captcha'] ) : true,
 			'progress'        => isset( $s['progress'] ) ? ! empty( $s['progress'] ) : true,
+			'description'     => isset( $s['description'] ) ? wp_kses_post( $s['description'] ) : '',
+			'button'          => array(),
 		);
+		foreach ( array_keys( $defaults['button'] ) as $key ) {
+			$settings['button'][ $key ] = isset( $s['button'][ $key ] ) ? (string) sanitize_hex_color( $s['button'][ $key ] ) : '';
+		}
 		if ( '' === trim( $settings['notify']['message'] ) ) {
 			$settings['notify']['message'] = '{all_fields}';
 		}

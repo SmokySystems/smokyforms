@@ -116,8 +116,6 @@ b61b8f|Oszlop hozzáadása
 9c6803|Táblázat törlése
 531553|1. sor
 450423|Ártáblázat hozzáadása
-1aefc6|Használható:
-19002d|Egy mező válasza
 0db377|Általános
 111082|Gomb szövege
 8da5e2|Üzenet küldés után
@@ -127,7 +125,6 @@ aac08d|Hagyja üresen, hogy helyette az üzenet jelenjen meg.
 86dc8e|Az űrlap védelme a Beállításokban megadott CAPTCHA-val.
 539ec8|Még nincs beállítva CAPTCHA. A SmokyForms > Beállítások menüpontban adhat hozzá. A csapdamező és az időellenőrzés így is véd minden űrlapot.
 74b72d|Értesítés Önnek
-48ff32|A SmokyForms nem tárolja a beküldéseket; minden beküldést e-mailben küld el Önnek. Ha az e-mail sikertelen, a beküldés megmarad a SmokyForms > Kézbesítetlen menüpontban.
 d245dd|E-mail küldése nekem minden beküldésről
 c973ca|Címzett
 61739f|Több címet vesszővel válasszon el.
@@ -172,7 +169,6 @@ f75d8f|Webhelykulcs
 783e8e|másodperc
 615249|Az oldal betöltése után ennél gyorsabban elküldött űrlapok spamnek számítanak. A 0 kikapcsolja az ellenőrzést.
 4def17|Kézbesítetlen értesítések
-9f5630|A SmokyForms nem tárolja a beküldéseket; e-mailben küldi el Önnek. Ha egy értesítő e-mailt nem lehet elküldeni, a beküldés megmarad, hogy ne vesszen el, és újra elküldheti a SmokyForms > Kézbesítetlen menüpontban.
 f24a17|Megőrzés
 44fdec|nap
 c89567|SmokyForms: %s beküldést nem sikerült e-mailben elküldeni Önnek. ¦ SmokyForms: %s beküldést nem sikerült e-mailben elküldeni Önnek.
@@ -413,3 +409,26 @@ c75143|Jegy
 abce00|Felnőtt – 25
 2d337d|Gyermek – 10
 ccdac9|%s nem tölthető fel. Próbálja újra.
+0869e1|Intelligens címkék elrejtése
+1e8fdb|Intelligens címkék megjelenítése
+6311ae|Egyéb
+928d86|HTML használható, például <strong>, <a href="..."> vagy <img src="...">.
+14614b|Az űrlapot tartalmazó oldal címe
+af53b1|Webhely címe
+b044c3|A látogató IP-címe
+c21d00|Űrlap címének megjelenítése
+266cc8|Űrlap leírásának megjelenítése
+ce7fc3|A leírást az űrlap beállításaiban lehet megadni.
+019a87|Gomb stílusa
+477bdd|Alapértelmezés szerint a gombok a sablon gombjaihoz hasonlítanak. Csak akkor válasszon színt, ha másmilyennek szeretné őket.
+a9ded1|Háttér
+578392|Háttér rámutatáskor
+1f58ec|Szöveg rámutatáskor
+31fde7|Előnézet
+6d7da2|A sablon stílusának használata
+7df0ae|Űrlap leírása
+ffb213|Nem kötelező. Az űrlap fölött jelenik meg, ha a blokkban be van kapcsolva az „Űrlap leírásának megjelenítése”, vagy ezzel: %s. HTML használható.
+31671a|Oldalak keresése vagy cím beillesztése
+6cf0ea|A SmokyForms ingyenes verziója minden beküldést e-mailben küld el Önnek, és nem menti el. A SmokyForms Pro (hamarosan) minden beküldést elment a vezérlőpulton, kereséssel és CSV-exporttal. Ha az e-mail sikertelen, a beküldés megmarad a SmokyForms > Kézbesítetlen menüpontban.
+babed6|A SmokyForms ingyenes verziója minden beküldést e-mailben küld el Önnek, és nem menti el. A SmokyForms Pro (hamarosan) minden beküldést elment a vezérlőpulton, kereséssel és CSV-exporttal. Ha egy értesítő e-mailt nem lehet elküldeni, a beküldés megmarad, hogy ne vesszen el, és újra elküldheti a SmokyForms > Kézbesítetlen menüpontban.
+d72175|Sablon

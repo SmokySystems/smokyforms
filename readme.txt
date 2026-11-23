@@ -4,7 +4,7 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.0
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,8 @@ You build a calculation by clicking: pick a field, an operator, another field, a
 * **Signature.** Visitors sign with a mouse, finger or pen; the signature is shown in the email.
 * **Repeating groups.** Let visitors add rows, for example one row per guest or product.
 * Full width or half width fields.
+* Smart tags and HTML in emails and in the message after sending.
+* Buttons follow your theme, or pick your own colours.
 * Templates: contact form, quote request, order form, booking with nights, price table, BMI calculator, loan calculator, customer feedback, job application and event registration. All free.
 * Add a form with the SmokyForms block or the shortcode `[smokyforms id="123"]`.
 * Works without JavaScript too.
@@ -50,7 +52,7 @@ You build a calculation by clicking: pick a field, an operator, another field, a
 * Confirmation email to the visitor.
 * Smart tags: `{all_fields}`, `{form_title}`, `{site_name}`, `{date}`, `{page_url}` and `{field:ID}` for one answer.
 * **Built-in SMTP.** Send through the SMTP account of your email provider so emails do not land in spam. No separate SMTP plugin needed. Test email included.
-* **No lost entries.** SmokyForms does not store entries; they are emailed to you. If a notification email fails, the entry is kept for a number of days you choose, and you can read it or send it again.
+* **No lost entries.** The free version emails every entry to you and does not save it (SmokyForms Pro, coming soon, saves all entries with search and CSV export). If a notification email fails, the entry is kept for a number of days you choose, and you can read it or send it again.
 
 = Uploaded files =
 
@@ -106,7 +108,7 @@ No. You click fields, operators and functions, and the builder writes the formul
 
 = Where are the entries saved? =
 
-SmokyForms sends every entry to you by email and does not store entries in your database. Only when a notification email fails is the entry kept, under SmokyForms > Undelivered, so it is not lost.
+The free version of SmokyForms sends every entry to you by email and does not save entries in your database; SmokyForms Pro (coming soon) saves them in your dashboard with search and CSV export. Only when a notification email fails is the entry kept, under SmokyForms > Undelivered, so it is not lost.
 
 = My notification emails do not arrive. =
 
@@ -137,6 +139,14 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.2.1 =
+* Smart tags for email recipients, subjects and messages: pick fields and site details from a list.
+* HTML in the message after sending and in the email messages.
+* Optional form title and description above the form (block option or shortcode `title="yes" description="yes"`).
+* Button colours per form; by default buttons follow the theme.
+* "Go to this page after sending" suggests the pages of your site.
+* The block preview in the editor now looks like the page.
 
 = 0.2.0 =
 * Conditional logic: show or hide fields depending on other answers.

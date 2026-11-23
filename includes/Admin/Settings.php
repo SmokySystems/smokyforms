@@ -101,7 +101,7 @@ final class Settings {
 					</tr>
 				</table>
 				<h2><?php esc_html_e( 'Undelivered notifications', 'smokyforms' ); ?></h2>
-				<p><?php esc_html_e( 'SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered.', 'smokyforms' ); ?></p>
+				<p><?php esc_html_e( 'The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered.', 'smokyforms' ); ?></p>
 				<table class="form-table" role="presentation">
 					<tr>
 						<th scope="row"><label for="smokyforms-keep"><?php esc_html_e( 'Keep for', 'smokyforms' ); ?></label></th>

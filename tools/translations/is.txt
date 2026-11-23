@@ -116,8 +116,6 @@ b61b8f|Bæta við dálki
 9c6803|Eyða töflu
 531553|Röð 1
 450423|Bæta við verðtöflu
-1aefc6|Þú getur notað:
-19002d|Svar í einum reit
 0db377|Almennt
 111082|Texti hnapps
 8da5e2|Skilaboð eftir sendingu
@@ -127,7 +125,6 @@ aac08d|Hafðu autt til að sýna skilaboðin í staðinn.
 86dc8e|Verja þetta eyðublað með CAPTCHA sem er stillt undir Stillingum.
 539ec8|Ekkert CAPTCHA hefur verið stillt enn. Þú getur bætt því við undir SmokyForms > Stillingar. Gildrureiturinn og tímaathugunin verja öll eyðublöð hvort sem er.
 74b72d|Tilkynning til þín
-48ff32|SmokyForms geymir ekki innsendingar; hver innsending er send þér í tölvupósti. Ef tölvupósturinn mistekst er innsendingin geymd undir SmokyForms > Óafhent.
 d245dd|Sendu mér tölvupóst fyrir hverja innsendingu
 c973ca|Senda til
 61739f|Aðskildu mörg netföng með kommum.
@@ -172,7 +169,6 @@ f75d8f|Vefsvæðislykill
 783e8e|sekúndur
 615249|Eyðublöð sem eru send hraðar en þetta eftir að síðan hlóðst teljast ruslpóstur. 0 slekkur á athuguninni.
 4def17|Óafhentar tilkynningar
-9f5630|SmokyForms geymir ekki innsendingar; þær eru sendar þér í tölvupósti. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent.
 f24a17|Geyma í
 44fdec|daga
 c89567|SmokyForms: Ekki tókst að senda þér %s innsendingu í tölvupósti. ¦ SmokyForms: Ekki tókst að senda þér %s innsendingar í tölvupósti.
@@ -413,3 +409,26 @@ c75143|Miði
 abce00|Fullorðinn – 25
 2d337d|Barn – 10
 ccdac9|Ekki tókst að senda %s. Reyndu aftur.
+0869e1|Fela snjallmerki
+1e8fdb|Sýna snjallmerki
+6311ae|Annað
+928d86|HTML er leyft, til dæmis <strong>, <a href="..."> eða <img src="...">.
+14614b|Titill síðu formsins
+af53b1|Veffang vefsins
+b044c3|IP-tala gests
+c21d00|Sýna titil formsins
+266cc8|Sýna lýsingu formsins
+ce7fc3|Lýsingin er skrifuð í stillingum formsins.
+019a87|Stíll hnapps
+477bdd|Sjálfgefið líta hnapparnir út eins og hnappar þemans. Veldu liti aðeins ef þú vilt hafa þá öðruvísi.
+a9ded1|Bakgrunnur
+578392|Bakgrunnur við músarbendil
+1f58ec|Texti við músarbendil
+31fde7|Forskoðun
+6d7da2|Nota stíl þemans
+7df0ae|Lýsing formsins
+ffb213|Valfrjálst. Birtist fyrir ofan formið þegar „Sýna lýsingu formsins“ er virkt í blokkinni, eða með %s. HTML er leyft.
+31671a|Leita að síðum eða líma veffang
+6cf0ea|Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvupósti og vistar hana ekki. SmokyForms Pro (væntanlegt) vistar allar innsendingar í stjórnborðinu, með leit og CSV-útflutningi. Ef tölvupósturinn mistekst er innsendingin geymd undir SmokyForms > Óafhent.
+babed6|Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvupósti og vistar hana ekki. SmokyForms Pro (væntanlegt) vistar allar innsendingar í stjórnborðinu, með leit og CSV-útflutningi. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent.
+d72175|Þema

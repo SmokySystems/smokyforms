@@ -14,15 +14,27 @@ msgstr ""
 msgid "Choose a form"
 msgstr "Veldu eyðublað"
 
-#: assets/js/block.js:35 assets/js/block.js:45 includes/Admin/Menu.php:153 includes/Forms.php:29
+#: assets/js/block.js:35 assets/js/block.js:50 includes/Admin/Menu.php:153 includes/Forms.php:29
 msgid "Form"
 msgstr "Eyðublað"
 
-#: assets/js/block.js:54
+#: assets/js/block.js:52
+msgid "Show the form title"
+msgstr "Sýna titil formsins"
+
+#: assets/js/block.js:55
+msgid "Show the form description"
+msgstr "Sýna lýsingu formsins"
+
+#: assets/js/block.js:55
+msgid "The description is written in the form settings."
+msgstr "Lýsingin er skrifuð í stillingum formsins."
+
+#: assets/js/block.js:68
 msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
 msgstr "Þú átt engin eyðublöð enn. Búðu til eyðublað undir SmokyForms í stjórnborðsvalmyndinni."
 
-#: assets/js/block.js:54
+#: assets/js/block.js:68
 msgid "Choose the form to show here."
 msgstr "Veldu eyðublaðið sem á að birta hér."
 
@@ -252,11 +264,11 @@ msgstr "Skrifa formúluna"
 msgid "Undo"
 msgstr "Afturkalla"
 
-#: assets/js/builder.js:620 includes/Renderer.php:337
+#: assets/js/builder.js:620 includes/Renderer.php:403
 msgid "Clear"
 msgstr "Hreinsa"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1602 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1423 assets/js/builder.js:1812 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Reitir"
 
@@ -480,7 +492,7 @@ msgstr "Texti við hlið gátreitsins"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Tenglar eru leyfðir, til dæmis á persónuverndarstefnuna þína."
 
-#: assets/js/builder.js:1082
+#: assets/js/builder.js:1082 assets/js/builder.js:1572
 msgid "Text"
 msgstr "Texti"
 
@@ -537,7 +549,7 @@ msgstr "Flestar raðir"
 msgid "Text of the add button"
 msgstr "Texti bæta við-hnappsins"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:348
+#: assets/js/builder.js:1132 includes/Renderer.php:414
 msgid "Add another"
 msgstr "Bæta við öðrum"
 
@@ -545,7 +557,7 @@ msgstr "Bæta við öðrum"
 msgid "Next button"
 msgstr "Áfram-hnappur"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:178
+#: assets/js/builder.js:1140 includes/Renderer.php:222
 msgid "Next"
 msgstr "Áfram"
 
@@ -553,11 +565,11 @@ msgstr "Áfram"
 msgid "Back button"
 msgstr "Til baka-hnappur"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:179
+#: assets/js/builder.js:1143 includes/Renderer.php:223
 msgid "Previous"
 msgstr "Til baka"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1497 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1707 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Útreikningur"
 
@@ -677,143 +689,196 @@ msgstr "Röð 1"
 msgid "Add price table"
 msgstr "Bæta við verðtöflu"
 
-#: assets/js/builder.js:1387
-msgid "You can use:"
-msgstr "Þú getur notað:"
+#: assets/js/builder.js:1418
+msgid "Hide smart tags"
+msgstr "Fela snjallmerki"
 
-#: assets/js/builder.js:1393
-msgid "Answer of one field"
-msgstr "Svar í einum reit"
+#: assets/js/builder.js:1418
+msgid "Show smart tags"
+msgstr "Sýna snjallmerki"
 
-#: assets/js/builder.js:1400 includes/Admin/Settings.php:58
-msgid "General"
-msgstr "Almennt"
-
-#: assets/js/builder.js:1401
-msgid "Button text"
-msgstr "Texti hnapps"
-
-#: assets/js/builder.js:1404
-msgid "Message after sending"
-msgstr "Skilaboð eftir sendingu"
-
-#: assets/js/builder.js:1407
-msgid "Or go to this page after sending"
-msgstr "Eða fara á þessa síðu eftir sendingu"
-
-#: assets/js/builder.js:1407
-msgid "Leave empty to show the message instead."
-msgstr "Hafðu autt til að sýna skilaboðin í staðinn."
-
-#: assets/js/builder.js:1412
-msgid "Show the progress bar"
-msgstr "Sýna framvindustiku"
-
-#: assets/js/builder.js:1412
-msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
-msgstr "Fyrir form með síðuskilum: „Skref 1 af 3“ fyrir ofan formið."
-
-#: assets/js/builder.js:1416 includes/Admin/Settings.php:74
-msgid "CAPTCHA"
-msgstr "CAPTCHA"
-
-#: assets/js/builder.js:1417
-msgid "Protect this form with the CAPTCHA set up under Settings."
-msgstr "Verja þetta eyðublað með CAPTCHA sem er stillt undir Stillingum."
-
-#: assets/js/builder.js:1417
-msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
-msgstr "Ekkert CAPTCHA hefur verið stillt enn. Þú getur bætt því við undir SmokyForms > Stillingar. Gildrureiturinn og tímaathugunin verja öll eyðublöð hvort sem er."
-
-#: assets/js/builder.js:1427
-msgid "Notification to you"
-msgstr "Tilkynning til þín"
-
-#: assets/js/builder.js:1428
-msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
-msgstr "SmokyForms geymir ekki innsendingar; hver innsending er send þér í tölvupósti. Ef tölvupósturinn mistekst er innsendingin geymd undir SmokyForms > Óafhent."
-
-#: assets/js/builder.js:1429
-msgid "Send me an email for every entry"
-msgstr "Sendu mér tölvupóst fyrir hverja innsendingu"
-
-#: assets/js/builder.js:1435 lib/smokysystems-mail/Module.php:476
-msgid "Send to"
-msgstr "Senda til"
-
-#: assets/js/builder.js:1435
-msgid "Separate several addresses with commas."
-msgstr "Aðskildu mörg netföng með kommum."
-
-#: assets/js/builder.js:1438 assets/js/builder.js:1467
-msgid "Subject"
-msgstr "Efni"
-
-#: assets/js/builder.js:1441 assets/js/builder.js:1470 includes/Templates.php:92
-msgid "Message"
-msgstr "Skilaboð"
-
-#: assets/js/builder.js:1449
-msgid "Confirmation to the visitor"
-msgstr "Staðfesting til gests"
-
-#: assets/js/builder.js:1450
-msgid "Send the visitor a confirmation email"
-msgstr "Senda gestinum staðfestingarpóst"
-
-#: assets/js/builder.js:1457
-msgid "Address from the field"
-msgstr "Netfang úr reitnum"
-
-#: assets/js/builder.js:1466
+#: assets/js/builder.js:1429 assets/js/builder.js:1677
 msgid "Add an Email field to the form first."
 msgstr "Bættu fyrst netfangsreit við eyðublaðið."
 
-#: assets/js/builder.js:1485 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1430
+msgid "Other"
+msgstr "Annað"
+
+#: assets/js/builder.js:1475
+msgid "Search pages or paste an address"
+msgstr "Leita að síðum eða líma veffang"
+
+#: assets/js/builder.js:1545
+msgid "Theme"
+msgstr "Þema"
+
+#: assets/js/builder.js:1559 assets/js/builder.js:1585
+msgid "Use the theme style"
+msgstr "Nota stíl þemans"
+
+#: assets/js/builder.js:1567
+msgid "Button style"
+msgstr "Stíll hnapps"
+
+#: assets/js/builder.js:1568
+msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
+msgstr "Sjálfgefið líta hnapparnir út eins og hnappar þemans. Veldu liti aðeins ef þú vilt hafa þá öðruvísi."
+
+#: assets/js/builder.js:1570
+msgid "Background"
+msgstr "Bakgrunnur"
+
+#: assets/js/builder.js:1571
+msgid "Background on hover"
+msgstr "Bakgrunnur við músarbendil"
+
+#: assets/js/builder.js:1573
+msgid "Text on hover"
+msgstr "Texti við músarbendil"
+
+#: assets/js/builder.js:1576
+msgid "Preview"
+msgstr "Forskoðun"
+
+#: assets/js/builder.js:1606 includes/Admin/Settings.php:58
+msgid "General"
+msgstr "Almennt"
+
+#: assets/js/builder.js:1607
+msgid "Form description"
+msgstr "Lýsing formsins"
+
+#: assets/js/builder.js:1607
+#, php-format
+msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
+msgstr "Valfrjálst. Birtist fyrir ofan formið þegar „Sýna lýsingu formsins“ er virkt í blokkinni, eða með %s. HTML er leyft."
+
+#: assets/js/builder.js:1610
+msgid "Button text"
+msgstr "Texti hnapps"
+
+#: assets/js/builder.js:1613
+msgid "Message after sending"
+msgstr "Skilaboð eftir sendingu"
+
+#: assets/js/builder.js:1613 assets/js/builder.js:1653 assets/js/builder.js:1681
+msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
+msgstr "HTML er leyft, til dæmis <strong>, <a href=\"...\"> eða <img src=\"...\">."
+
+#: assets/js/builder.js:1616
+msgid "Or go to this page after sending"
+msgstr "Eða fara á þessa síðu eftir sendingu"
+
+#: assets/js/builder.js:1616
+msgid "Leave empty to show the message instead."
+msgstr "Hafðu autt til að sýna skilaboðin í staðinn."
+
+#: assets/js/builder.js:1621
+msgid "Show the progress bar"
+msgstr "Sýna framvindustiku"
+
+#: assets/js/builder.js:1621
+msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
+msgstr "Fyrir form með síðuskilum: „Skref 1 af 3“ fyrir ofan formið."
+
+#: assets/js/builder.js:1625 includes/Admin/Settings.php:74
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: assets/js/builder.js:1626
+msgid "Protect this form with the CAPTCHA set up under Settings."
+msgstr "Verja þetta eyðublað með CAPTCHA sem er stillt undir Stillingum."
+
+#: assets/js/builder.js:1626
+msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
+msgstr "Ekkert CAPTCHA hefur verið stillt enn. Þú getur bætt því við undir SmokyForms > Stillingar. Gildrureiturinn og tímaathugunin verja öll eyðublöð hvort sem er."
+
+#: assets/js/builder.js:1639
+msgid "Notification to you"
+msgstr "Tilkynning til þín"
+
+#: assets/js/builder.js:1640
+msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
+msgstr "Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvupósti og vistar hana ekki. SmokyForms Pro (væntanlegt) vistar allar innsendingar í stjórnborðinu, með leit og CSV-útflutningi. Ef tölvupósturinn mistekst er innsendingin geymd undir SmokyForms > Óafhent."
+
+#: assets/js/builder.js:1641
+msgid "Send me an email for every entry"
+msgstr "Sendu mér tölvupóst fyrir hverja innsendingu"
+
+#: assets/js/builder.js:1647 lib/smokysystems-mail/Module.php:476
+msgid "Send to"
+msgstr "Senda til"
+
+#: assets/js/builder.js:1647
+msgid "Separate several addresses with commas."
+msgstr "Aðskildu mörg netföng með kommum."
+
+#: assets/js/builder.js:1650 assets/js/builder.js:1678
+msgid "Subject"
+msgstr "Efni"
+
+#: assets/js/builder.js:1653 assets/js/builder.js:1681 includes/Templates.php:92
+msgid "Message"
+msgstr "Skilaboð"
+
+#: assets/js/builder.js:1660
+msgid "Confirmation to the visitor"
+msgstr "Staðfesting til gests"
+
+#: assets/js/builder.js:1661
+msgid "Send the visitor a confirmation email"
+msgstr "Senda gestinum staðfestingarpóst"
+
+#: assets/js/builder.js:1668
+msgid "Address from the field"
+msgstr "Netfang úr reitnum"
+
+#: assets/js/builder.js:1695 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Bæta við nýju eyðublaði"
 
-#: assets/js/builder.js:1486
+#: assets/js/builder.js:1696
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Byrjaðu með tilbúnu eyðublaði eða tómu. Öll sniðmát, líka reiknivélarnar, eru ókeypis."
 
-#: assets/js/builder.js:1577
+#: assets/js/builder.js:1787
 msgid "The form could not be saved."
 msgstr "Ekki tókst að vista eyðublaðið."
 
-#: assets/js/builder.js:1588 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1798 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Öll eyðublöð"
 
-#: assets/js/builder.js:1589 assets/js/builder.js:1589 includes/Notifications.php:40
+#: assets/js/builder.js:1799 assets/js/builder.js:1799 includes/Notifications.php:40
 msgid "Form name"
 msgstr "Heiti eyðublaðs"
 
-#: assets/js/builder.js:1593 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1803 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Stuttkóði"
 
-#: assets/js/builder.js:1596
+#: assets/js/builder.js:1806
 msgid "Saving…"
 msgstr "Vista…"
 
-#: assets/js/builder.js:1596
+#: assets/js/builder.js:1806
 msgid "Save form"
 msgstr "Vista eyðublað"
 
-#: assets/js/builder.js:1602
+#: assets/js/builder.js:1812
 msgid "Price tables"
 msgstr "Verðtöflur"
 
-#: assets/js/builder.js:1602 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1812 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Stillingar"
 
-#: assets/js/builder.js:1724
+#: assets/js/builder.js:1934
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Bættu því á síðu með SmokyForms-bálkinum eða stuttkóðanum."
 
-#: assets/js/builder.js:1725
+#: assets/js/builder.js:1935
 msgid "You have unsaved changes."
 msgstr "Þú átt óvistaðar breytingar."
 
@@ -914,8 +979,8 @@ msgid "Undelivered notifications"
 msgstr "Óafhentar tilkynningar"
 
 #: includes/Admin/Settings.php:104
-msgid "SmokyForms does not store entries; they are sent to you by email. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
-msgstr "SmokyForms geymir ekki innsendingar; þær eru sendar þér í tölvupósti. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent."
+msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
+msgstr "Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvupósti og vistar hana ekki. SmokyForms Pro (væntanlegt) vistar allar innsendingar í stjórnborðinu, með leit og CSV-útflutningi. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent."
 
 #: includes/Admin/Settings.php:107
 msgid "Keep for"
@@ -1069,7 +1134,7 @@ msgstr "Undirskrift"
 msgid "Page break"
 msgstr "Síðuskil"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:557 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:623 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "Þessi reitur er áskilinn."
 
@@ -1093,11 +1158,11 @@ msgstr[1] "Fylltu út í mesta lagi %s raðir."
 msgid "The signature could not be read. Please sign again."
 msgstr "Ekki tókst að lesa undirskriftina. Skrifaðu undir aftur."
 
-#: includes/Fields.php:316 includes/Renderer.php:558
+#: includes/Fields.php:316 includes/Renderer.php:624
 msgid "Please enter a valid email address."
 msgstr "Sláðu inn gilt netfang."
 
-#: includes/Fields.php:324 includes/Renderer.php:559
+#: includes/Fields.php:324 includes/Renderer.php:625
 msgid "Please enter a valid website address."
 msgstr "Sláðu inn gilda vefslóð."
 
@@ -1105,7 +1170,7 @@ msgstr "Sláðu inn gilda vefslóð."
 msgid "Please enter a valid phone number."
 msgstr "Sláðu inn gilt símanúmer."
 
-#: includes/Fields.php:336 includes/Renderer.php:560
+#: includes/Fields.php:336 includes/Renderer.php:626
 msgid "Please enter a number."
 msgstr "Sláðu inn tölu."
 
@@ -1125,7 +1190,7 @@ msgstr "Sláðu inn tölu sem er í mesta lagi %s."
 msgid "Please enter a valid date."
 msgstr "Sláðu inn gilda dagsetningu."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:570
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:636
 msgid "Please choose one of the options."
 msgstr "Veldu einn af valkostunum."
 
@@ -1199,24 +1264,36 @@ msgstr "Dagsetning og tími"
 msgid "Page of the form"
 msgstr "Síða eyðublaðsins"
 
-#: includes/Notifications.php:109
+#: includes/Notifications.php:45
+msgid "Title of the form page"
+msgstr "Titill síðu formsins"
+
+#: includes/Notifications.php:46
+msgid "Site address"
+msgstr "Veffang vefsins"
+
+#: includes/Notifications.php:47
+msgid "Visitor IP address"
+msgstr "IP-tala gests"
+
+#: includes/Notifications.php:112
 msgid "The site could not send the email."
 msgstr "Vefurinn gat ekki sent tölvupóstinn."
 
-#: includes/Renderer.php:84
+#: includes/Renderer.php:117
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: þetta eyðublað er ekki til."
 
-#: includes/Renderer.php:196
+#: includes/Renderer.php:240
 msgid "Leave this field empty"
 msgstr "Hafðu þennan reit auðan"
 
-#: includes/Renderer.php:215 includes/Renderer.php:562 includes/Submission.php:176
+#: includes/Renderer.php:259 includes/Renderer.php:628 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "Athugaðu eyðublaðið og reyndu aftur."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:309
+#: includes/Renderer.php:375
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1224,53 +1301,53 @@ msgstr[0] "%s stjarna"
 msgstr[1] "%s stjörnur"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:321
+#: includes/Renderer.php:387
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Leyfðar skráagerðir: %1$s. Allt að %2$s MB á skrá."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:323 includes/Uploads.php:112
+#: includes/Renderer.php:389 includes/Uploads.php:112
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Þú getur sent í mesta lagi %s skrá."
 msgstr[1] "Þú getur sent í mesta lagi %s skrár."
 
-#: includes/Renderer.php:339
+#: includes/Renderer.php:405
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "Til að skrifa undir þarf JavaScript. Kveiktu á því í vafranum."
 
-#: includes/Renderer.php:361
+#: includes/Renderer.php:427
 msgid "Choose…"
 msgstr "Veldu…"
 
-#: includes/Renderer.php:447 includes/Renderer.php:447
+#: includes/Renderer.php:513 includes/Renderer.php:513
 msgid "Remove this row"
 msgstr "Fjarlægja þessa röð"
 
-#: includes/Renderer.php:561
+#: includes/Renderer.php:627
 msgid "Sending…"
 msgstr "Sendi…"
 
-#: includes/Renderer.php:563
+#: includes/Renderer.php:629
 msgid "The form could not be sent. Please try again."
 msgstr "Ekki tókst að senda eyðublaðið. Reyndu aftur."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:565
+#: includes/Renderer.php:631
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Skref %1$s af %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:567 includes/Uploads.php:125
+#: includes/Renderer.php:633 includes/Uploads.php:125
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s er stærri en %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:569 includes/Uploads.php:130
+#: includes/Renderer.php:635 includes/Uploads.php:130
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: þessi skráagerð er ekki leyfð."
@@ -1279,15 +1356,15 @@ msgstr "%s: þessi skráagerð er ekki leyfð."
 msgid "None"
 msgstr "Ekkert"
 
-#: includes/Submission.php:220
+#: includes/Submission.php:221
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "Ekki tókst að athuga eyðublaðið. Endurhlaðið síðuna og reyndu aftur."
 
-#: includes/Submission.php:223
+#: includes/Submission.php:224
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "Þetta var mjög hratt. Bíddu augnablik og sendu eyðublaðið aftur."
 
-#: includes/Submission.php:231
+#: includes/Submission.php:232
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "Of margar innsendingar. Bíddu í eina mínútu og reyndu aftur."
 

@@ -116,8 +116,6 @@ b61b8f|Dodaj kolumnę
 9c6803|Usuń tabelę
 531553|Wiersz 1
 450423|Dodaj tabelę cen
-1aefc6|Możesz użyć:
-19002d|Odpowiedź z jednego pola
 0db377|Ogólne
 111082|Tekst przycisku
 8da5e2|Komunikat po wysłaniu
@@ -127,7 +125,6 @@ aac08d|Zostaw puste, aby zamiast tego pokazać komunikat.
 86dc8e|Chroń ten formularz za pomocą CAPTCHA skonfigurowanej w Ustawieniach.
 539ec8|Nie skonfigurowano jeszcze CAPTCHA. Możesz ją dodać w SmokyForms > Ustawienia. Pole-pułapka i kontrola czasu i tak chronią każdy formularz.
 74b72d|Powiadomienie dla Ciebie
-48ff32|SmokyForms nie przechowuje zgłoszeń; każde zgłoszenie jest wysyłane do Ciebie e-mailem. Jeśli e-mail się nie powiedzie, zgłoszenie jest zachowywane w SmokyForms > Niedostarczone.
 d245dd|Wysyłaj mi e-mail przy każdym zgłoszeniu
 c973ca|Wyślij do
 61739f|Oddziel kilka adresów przecinkami.
@@ -172,7 +169,6 @@ f75d8f|Klucz witryny
 783e8e|sekund
 615249|Formularze wysłane szybciej niż ten czas od załadowania strony są traktowane jako spam. 0 wyłącza kontrolę.
 4def17|Niedostarczone powiadomienia
-9f5630|SmokyForms nie przechowuje zgłoszeń; są wysyłane do Ciebie e-mailem. Gdy e-mail z powiadomieniem nie może zostać wysłany, zgłoszenie jest zachowywane, aby nie przepadło, i możesz je wysłać ponownie w SmokyForms > Niedostarczone.
 f24a17|Przechowuj przez
 44fdec|dni
 c89567|SmokyForms: %s zgłoszenia nie udało się wysłać do Ciebie e-mailem. ¦ SmokyForms: %s zgłoszeń nie udało się wysłać do Ciebie e-mailem. ¦ SmokyForms: %s zgłoszeń nie udało się wysłać do Ciebie e-mailem.
@@ -413,3 +409,26 @@ c75143|Bilet
 abce00|Dorosły – 25
 2d337d|Dziecko – 10
 ccdac9|Nie udało się przesłać pliku %s. Spróbuj ponownie.
+0869e1|Ukryj inteligentne znaczniki
+1e8fdb|Pokaż inteligentne znaczniki
+6311ae|Inne
+928d86|HTML jest dozwolony, na przykład <strong>, <a href="..."> lub <img src="...">.
+14614b|Tytuł strony z formularzem
+af53b1|Adres witryny
+b044c3|Adres IP odwiedzającego
+c21d00|Pokaż tytuł formularza
+266cc8|Pokaż opis formularza
+ce7fc3|Opis wpisuje się w ustawieniach formularza.
+019a87|Styl przycisku
+477bdd|Domyślnie przyciski wyglądają jak przyciski motywu. Wybierz kolory tylko, jeśli chcesz, by były inne.
+a9ded1|Tło
+578392|Tło po najechaniu
+1f58ec|Tekst po najechaniu
+31fde7|Podgląd
+6d7da2|Użyj stylu motywu
+7df0ae|Opis formularza
+ffb213|Opcjonalnie. Wyświetlany nad formularzem, gdy w bloku włączono „Pokaż opis formularza”, lub z %s. HTML jest dozwolony.
+31671a|Szukaj stron lub wklej adres
+6cf0ea|Darmowa wersja SmokyForms wysyła Ci każde zgłoszenie e-mailem i go nie zapisuje. SmokyForms Pro (wkrótce) zapisuje wszystkie zgłoszenia w kokpicie, z wyszukiwaniem i eksportem CSV. Jeśli e-mail się nie powiedzie, zgłoszenie jest zachowywane w SmokyForms > Niedostarczone.
+babed6|Darmowa wersja SmokyForms wysyła Ci każde zgłoszenie e-mailem i go nie zapisuje. SmokyForms Pro (wkrótce) zapisuje wszystkie zgłoszenia w kokpicie, z wyszukiwaniem i eksportem CSV. Gdy e-mail z powiadomieniem nie może zostać wysłany, zgłoszenie jest zachowywane, aby nie przepadło, i możesz je wysłać ponownie w SmokyForms > Niedostarczone.
+d72175|Motyw

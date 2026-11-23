@@ -116,8 +116,6 @@ b61b8f|Adaugă coloană
 9c6803|Șterge tabelul
 531553|Rândul 1
 450423|Adaugă tabel de prețuri
-1aefc6|Poți folosi:
-19002d|Răspunsul unui câmp
 0db377|General
 111082|Textul butonului
 8da5e2|Mesaj după trimitere
@@ -127,7 +125,6 @@ aac08d|Lasă gol pentru a afișa în schimb mesajul.
 86dc8e|Protejează acest formular cu CAPTCHA configurat în Setări.
 539ec8|Încă nu este configurat niciun CAPTCHA. Poți adăuga unul în SmokyForms > Setări. Câmpul capcană și verificarea timpului protejează oricum fiecare formular.
 74b72d|Notificare pentru tine
-48ff32|SmokyForms nu păstrează înregistrările; fiecare înregistrare îți este trimisă pe email. Dacă emailul eșuează, înregistrarea este păstrată în SmokyForms > Nelivrate.
 d245dd|Trimite-mi un email pentru fiecare înregistrare
 c973ca|Trimite la
 61739f|Separă mai multe adrese prin virgule.
@@ -172,7 +169,6 @@ f75d8f|Cheia site-ului
 783e8e|secunde
 615249|Formularele trimise mai repede de atât după încărcarea paginii sunt considerate spam. 0 dezactivează verificarea.
 4def17|Notificări nelivrate
-9f5630|SmokyForms nu păstrează înregistrările; îți sunt trimise pe email. Când un email de notificare nu poate fi trimis, înregistrarea este păstrată ca să nu se piardă și o poți trimite din nou din SmokyForms > Nelivrate.
 f24a17|Păstrează timp de
 44fdec|zile
 c89567|SmokyForms: %s înregistrare nu ți-a putut fi trimisă pe email. ¦ SmokyForms: %s înregistrări nu ți-au putut fi trimise pe email. ¦ SmokyForms: %s de înregistrări nu ți-au putut fi trimise pe email.
@@ -413,3 +409,26 @@ c75143|Bilet
 abce00|Adult – 25
 2d337d|Copil – 10
 ccdac9|%s nu a putut fi încărcat. Încearcă din nou.
+0869e1|Ascunde etichetele inteligente
+1e8fdb|Arată etichetele inteligente
+6311ae|Altele
+928d86|HTML este permis, de exemplu <strong>, <a href="..."> sau <img src="...">.
+14614b|Titlul paginii cu formularul
+af53b1|Adresa site-ului
+b044c3|Adresa IP a vizitatorului
+c21d00|Afișează titlul formularului
+266cc8|Afișează descrierea formularului
+ce7fc3|Descrierea se scrie în setările formularului.
+019a87|Stilul butonului
+477bdd|Implicit, butoanele arată ca butoanele temei tale. Alege culori doar dacă le vrei diferite.
+a9ded1|Fundal
+578392|Fundal la trecerea cu mouse-ul
+1f58ec|Text la trecerea cu mouse-ul
+31fde7|Previzualizare
+6d7da2|Folosește stilul temei
+7df0ae|Descrierea formularului
+ffb213|Opțional. Apare deasupra formularului când „Afișează descrierea formularului” este activat în bloc, sau cu %s. HTML este permis.
+31671a|Caută pagini sau lipește o adresă
+6cf0ea|Versiunea gratuită SmokyForms îți trimite fiecare răspuns pe email și nu îl salvează. SmokyForms Pro (în curând) salvează toate răspunsurile în panoul tău, cu căutare și export CSV. Dacă emailul eșuează, înregistrarea este păstrată în SmokyForms > Nelivrate.
+babed6|Versiunea gratuită SmokyForms îți trimite fiecare răspuns pe email și nu îl salvează. SmokyForms Pro (în curând) salvează toate răspunsurile în panoul tău, cu căutare și export CSV. Când un email de notificare nu poate fi trimis, înregistrarea este păstrată ca să nu se piardă și o poți trimite din nou din SmokyForms > Nelivrate.
+d72175|Temă

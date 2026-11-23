@@ -116,8 +116,6 @@ b61b8f|Adicionar coluna
 9c6803|Excluir tabela
 531553|Linha 1
 450423|Adicionar tabela de preços
-1aefc6|Você pode usar:
-19002d|Resposta de um campo
 0db377|Geral
 111082|Texto do botão
 8da5e2|Mensagem após o envio
@@ -127,7 +125,6 @@ aac08d|Deixe em branco para mostrar a mensagem.
 86dc8e|Proteger este formulário com o CAPTCHA configurado em Configurações.
 539ec8|Nenhum CAPTCHA foi configurado ainda. Você pode adicionar um em SmokyForms > Configurações. O campo armadilha e a verificação de tempo protegem todos os formulários de qualquer forma.
 74b72d|Notificação para você
-48ff32|O SmokyForms não armazena envios; cada envio é mandado para você por e-mail. Se o e-mail falhar, o envio fica guardado em SmokyForms > Não entregues.
 d245dd|Enviar um e-mail para mim a cada envio
 c973ca|Enviar para
 61739f|Separe vários endereços com vírgulas.
@@ -172,7 +169,6 @@ f75d8f|Chave do site
 783e8e|segundos
 615249|Formulários enviados mais rápido do que isso depois que a página carrega são tratados como spam. 0 desativa a verificação.
 4def17|Notificações não entregues
-9f5630|O SmokyForms não armazena envios; eles são mandados para você por e-mail. Quando um e-mail de notificação não pode ser enviado, o envio é guardado para não se perder, e você pode reenviá-lo em SmokyForms > Não entregues.
 f24a17|Guardar por
 44fdec|dias
 c89567|SmokyForms: %s envio não pôde ser mandado para você por e-mail. ¦ SmokyForms: %s envios não puderam ser mandados para você por e-mail.
@@ -413,3 +409,26 @@ c75143|Ingresso
 abce00|Adulto – 25
 2d337d|Criança – 10
 ccdac9|Não foi possível enviar %s. Tente novamente.
+0869e1|Ocultar tags inteligentes
+1e8fdb|Mostrar tags inteligentes
+6311ae|Outros
+928d86|HTML é permitido, por exemplo <strong>, <a href="..."> ou <img src="...">.
+14614b|Título da página do formulário
+af53b1|Endereço do site
+b044c3|Endereço IP do visitante
+c21d00|Mostrar o título do formulário
+266cc8|Mostrar a descrição do formulário
+ce7fc3|A descrição é escrita nas configurações do formulário.
+019a87|Estilo do botão
+477bdd|Por padrão, os botões ficam como os do seu tema. Escolha cores só se quiser que sejam diferentes.
+a9ded1|Fundo
+578392|Fundo ao passar o mouse
+1f58ec|Texto ao passar o mouse
+31fde7|Pré-visualização
+6d7da2|Usar o estilo do tema
+7df0ae|Descrição do formulário
+ffb213|Opcional. Aparece acima do formulário quando “Mostrar a descrição do formulário” está ativado no bloco, ou com %s. HTML é permitido.
+31671a|Pesquise páginas ou cole um endereço
+6cf0ea|A versão gratuita do SmokyForms envia cada resposta para você por e-mail e não a salva. O SmokyForms Pro (em breve) salva todas as respostas no seu painel, com busca e exportação CSV. Se o e-mail falhar, o envio fica guardado em SmokyForms > Não entregues.
+babed6|A versão gratuita do SmokyForms envia cada resposta para você por e-mail e não a salva. O SmokyForms Pro (em breve) salva todas as respostas no seu painel, com busca e exportação CSV. Quando um e-mail de notificação não pode ser enviado, o envio é guardado para não se perder, e você pode reenviá-lo em SmokyForms > Não entregues.
+d72175|Tema

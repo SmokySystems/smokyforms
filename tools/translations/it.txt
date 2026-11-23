@@ -116,8 +116,6 @@ b61b8f|Aggiungi colonna
 9c6803|Elimina tabella
 531553|Riga 1
 450423|Aggiungi tabella prezzi
-1aefc6|Puoi usare:
-19002d|Risposta di un campo
 0db377|Generale
 111082|Testo del pulsante
 8da5e2|Messaggio dopo l’invio
@@ -127,7 +125,6 @@ aac08d|Lascia vuoto per mostrare invece il messaggio.
 86dc8e|Proteggi questo modulo con il CAPTCHA configurato nelle Impostazioni.
 539ec8|Nessun CAPTCHA è ancora configurato. Puoi aggiungerne uno in SmokyForms > Impostazioni. Il campo trappola e il controllo del tempo proteggono comunque ogni modulo.
 74b72d|Notifica per te
-48ff32|SmokyForms non salva le voci; ogni voce ti viene inviata per email. Se l’email non va a buon fine, la voce viene conservata in SmokyForms > Non consegnate.
 d245dd|Inviami un’email per ogni voce
 c973ca|Invia a
 61739f|Separa più indirizzi con virgole.
@@ -172,7 +169,6 @@ f75d8f|Chiave del sito
 783e8e|secondi
 615249|I moduli inviati più velocemente di così dopo il caricamento della pagina sono considerati spam. 0 disattiva il controllo.
 4def17|Notifiche non consegnate
-9f5630|SmokyForms non salva le voci; ti vengono inviate per email. Se un’email di notifica non può essere inviata, la voce viene conservata per non perderla e puoi inviarla di nuovo da SmokyForms > Non consegnate.
 f24a17|Conserva per
 44fdec|giorni
 c89567|SmokyForms: %s voce non ti è stata inviata per email. ¦ SmokyForms: %s voci non ti sono state inviate per email.
@@ -413,3 +409,26 @@ c75143|Biglietto
 abce00|Adulto – 25
 2d337d|Bambino – 10
 ccdac9|Impossibile caricare %s. Riprova.
+0869e1|Nascondi tag intelligenti
+1e8fdb|Mostra tag intelligenti
+6311ae|Altro
+928d86|L’HTML è consentito, per esempio <strong>, <a href="..."> o <img src="...">.
+14614b|Titolo della pagina del modulo
+af53b1|Indirizzo del sito
+b044c3|Indirizzo IP del visitatore
+c21d00|Mostra il titolo del modulo
+266cc8|Mostra la descrizione del modulo
+ce7fc3|La descrizione si scrive nelle impostazioni del modulo.
+019a87|Stile del pulsante
+477bdd|Di norma i pulsanti hanno l’aspetto di quelli del tuo tema. Scegli i colori solo se li vuoi diversi.
+a9ded1|Sfondo
+578392|Sfondo al passaggio del mouse
+1f58ec|Testo al passaggio del mouse
+31fde7|Anteprima
+6d7da2|Usa lo stile del tema
+7df0ae|Descrizione del modulo
+ffb213|Facoltativa. Mostrata sopra il modulo quando nel blocco è attivo “Mostra la descrizione del modulo”, oppure con %s. L’HTML è consentito.
+31671a|Cerca pagine o incolla un indirizzo
+6cf0ea|La versione gratuita di SmokyForms ti invia ogni risposta via email e non la salva. SmokyForms Pro (in arrivo) salva tutte le risposte nella tua bacheca, con ricerca ed esportazione CSV. Se l’email non va a buon fine, la voce viene conservata in SmokyForms > Non consegnate.
+babed6|La versione gratuita di SmokyForms ti invia ogni risposta via email e non la salva. SmokyForms Pro (in arrivo) salva tutte le risposte nella tua bacheca, con ricerca ed esportazione CSV. Se un’email di notifica non può essere inviata, la voce viene conservata per non perderla e puoi inviarla di nuovo da SmokyForms > Non consegnate.
+d72175|Tema

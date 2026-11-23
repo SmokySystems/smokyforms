@@ -1369,6 +1369,223 @@
 
 	/* Form settings */
 
+	/* Text with smart tags: a button lists the tags and inserts one where the cursor is. */
+
+	function TagInput( props ) {
+		var ref = useRef( null ), open = useState( false ),
+			fields = props.fields.filter( function ( x ) {
+				return TYPES[ x.type ] && TYPES[ x.type ].input && ( ! props.only || props.only.indexOf( x.type ) !== -1 );
+			} ),
+			general = Object.keys( data.tags ).filter( function ( tag ) {
+				return ! props.only && ( props.allFields || tag !== '{all_fields}' );
+			} ),
+			id = 'smokyforms-tags-' + props.name;
+		function insert( tag ) {
+			var input = ref.current, value = props.value || '', start = value.length, end = value.length;
+			if ( input && typeof input.selectionStart === 'number' && document.activeElement === input ) {
+				start = input.selectionStart;
+				end = input.selectionEnd;
+			} else if ( input && input.getAttribute( 'data-pos' ) ) {
+				start = end = Math.min( value.length, parseInt( input.getAttribute( 'data-pos' ), 10 ) );
+			}
+			if ( props.separator && start === value.length && value.trim() !== '' && ! /[,\s]$/.test( value ) ) {
+				tag = props.separator + tag;
+			}
+			props.onChange( value.slice( 0, start ) + tag + value.slice( end ) );
+			open[ 1 ]( false );
+			setTimeout( function () {
+				if ( input ) {
+					input.focus();
+					input.setSelectionRange( start + tag.length, start + tag.length );
+				}
+			}, 0 );
+		}
+		function remember( e ) {
+			e.target.setAttribute( 'data-pos', String( e.target.selectionStart ) );
+		}
+		var attrs = { id: id, ref: ref, className: props.multiline ? 'components-textarea-control__input' : 'components-text-control__input', value: props.value || '', rows: props.rows, onKeyUp: remember, onClick: remember, onBlur: remember, onChange: function ( e ) {
+			props.onChange( e.target.value );
+		} };
+		return el(
+			'div',
+			{ className: 'components-base-control smokyforms-tag-input' },
+			el(
+				'div',
+				{ className: 'smokyforms-tag-input-head' },
+				el( 'label', { className: 'components-base-control__label', htmlFor: id }, props.label ),
+				el( c.Button, { variant: 'link', className: 'smokyforms-tag-toggle', 'aria-expanded': open[ 0 ], onClick: function () {
+					open[ 1 ]( ! open[ 0 ] );
+				} }, open[ 0 ] ? __( 'Hide smart tags', 'smokyforms' ) : __( 'Show smart tags', 'smokyforms' ) )
+			),
+			open[ 0 ] ? el(
+				'div',
+				{ className: 'smokyforms-tag-list' },
+				fields.length ? el( 'strong', null, __( 'Fields', 'smokyforms' ) ) : null,
+				fields.map( function ( x ) {
+					return el( c.Button, { key: x.id, variant: 'secondary', size: 'compact', onClick: function () {
+						insert( '{field:' + x.id + '}' );
+					} }, x.label || x.id );
+				} ),
+				! fields.length && props.only ? el( 'span', { className: 'description' }, __( 'Add an Email field to the form first.', 'smokyforms' ) ) : null,
+				general.length ? el( 'strong', null, __( 'Other', 'smokyforms' ) ) : null,
+				general.map( function ( tag ) {
+					return el( c.Button, { key: tag, variant: 'secondary', size: 'compact', title: tag, onClick: function () {
+						insert( tag );
+					} }, data.tags[ tag ] );
+				} )
+			) : null,
+			el( props.multiline ? 'textarea' : 'input', attrs ),
+			props.help ? el( 'p', { className: 'components-base-control__help' }, props.help ) : null
+		);
+	}
+
+	/* Address field that suggests the site's pages and posts while typing. */
+
+	function PagePicker( props ) {
+		var open = useState( false ), items = useState( [] ), active = useState( -1 ), timer = useRef( null ), id = 'smokyforms-redirect';
+		function search( term ) {
+			clearTimeout( timer.current );
+			timer.current = setTimeout( function () {
+				// A typed address is not searched; a word is.
+				if ( /^(https?:)?\/\//.test( term ) ) {
+					items[ 1 ]( [] );
+					return;
+				}
+				wp.apiFetch( { path: wp.url.addQueryArgs( '/wp/v2/search', { search: term, type: 'post', subtype: 'any', per_page: 10 } ) } ).then( function ( list ) {
+					items[ 1 ]( list || [] );
+					active[ 1 ]( -1 );
+				} ).catch( function () {
+					items[ 1 ]( [] );
+				} );
+			}, 200 );
+		}
+		function pick( item ) {
+			props.onChange( item.url );
+			open[ 1 ]( false );
+		}
+		return el(
+			'div',
+			{ className: 'components-base-control smokyforms-page-picker' },
+			el( 'label', { className: 'components-base-control__label', htmlFor: id }, props.label ),
+			el( 'input', {
+				id: id,
+				type: 'text',
+				className: 'components-text-control__input',
+				value: props.value || '',
+				placeholder: __( 'Search pages or paste an address', 'smokyforms' ),
+				autoComplete: 'off',
+				role: 'combobox',
+				'aria-expanded': open[ 0 ] && items[ 0 ].length > 0,
+				'aria-controls': id + '-list',
+				onFocus: function () {
+					open[ 1 ]( true );
+					search( /^(https?:)?\/\//.test( props.value || '' ) ? '' : props.value || '' );
+				},
+				onBlur: function () {
+					setTimeout( function () {
+						open[ 1 ]( false );
+					}, 150 );
+				},
+				onChange: function ( e ) {
+					props.onChange( e.target.value );
+					open[ 1 ]( true );
+					search( e.target.value );
+				},
+				onKeyDown: function ( e ) {
+					var n = items[ 0 ].length;
+					if ( ! open[ 0 ] || ! n ) {
+						return;
+					}
+					if ( e.key === 'ArrowDown' || e.key === 'ArrowUp' ) {
+						e.preventDefault();
+						active[ 1 ]( ( active[ 0 ] + ( e.key === 'ArrowDown' ? 1 : n - 1 ) ) % n );
+					} else if ( e.key === 'Enter' && active[ 0 ] > -1 ) {
+						e.preventDefault();
+						pick( items[ 0 ][ active[ 0 ] ] );
+					} else if ( e.key === 'Escape' ) {
+						open[ 1 ]( false );
+					}
+				},
+			} ),
+			open[ 0 ] && items[ 0 ].length ? el(
+				'ul',
+				{ id: id + '-list', className: 'smokyforms-page-list', role: 'listbox' },
+				items[ 0 ].map( function ( item, i ) {
+					return el(
+						'li',
+						{ key: item.id + '-' + item.subtype, role: 'option', 'aria-selected': i === active[ 0 ], className: i === active[ 0 ] ? 'is-active' : '', onMouseDown: function ( e ) {
+							e.preventDefault();
+							pick( item );
+						} },
+						el( 'strong', null, item.title ? wp.htmlEntities.decodeEntities( item.title ) : item.url ),
+						el( 'span', null, item.url )
+					);
+				} )
+			) : null,
+			props.help ? el( 'p', { className: 'components-base-control__help' }, props.help ) : null
+		);
+	}
+
+	/* Button colours: empty means the theme's own button style. */
+
+	function ButtonPanel( props ) {
+		var b = Object.assign( { bg: '', bg_hover: '', text: '', text_hover: '' }, props.settings.button || {} ),
+			hover = useState( false ),
+			style = hover[ 0 ] ? { background: b.bg_hover || b.bg || undefined, borderColor: b.bg_hover || b.bg || undefined, color: b.text_hover || b.text || undefined } : { background: b.bg || undefined, borderColor: b.bg || undefined, color: b.text || undefined };
+		function color( key, label ) {
+			return el(
+				'div',
+				{ className: 'components-base-control smokyforms-color', key: key },
+				el( 'span', { className: 'components-base-control__label' }, label ),
+				el( c.Dropdown, {
+					popoverProps: { placement: 'bottom-start' },
+					renderToggle: function ( t ) {
+						return el( c.Button, { variant: 'secondary', className: 'smokyforms-color-toggle', 'aria-expanded': t.isOpen, onClick: t.onToggle },
+							el( c.ColorIndicator, { colorValue: b[ key ] || 'transparent', className: b[ key ] ? '' : 'is-empty' } ),
+							b[ key ] || __( 'Theme', 'smokyforms' )
+						);
+					},
+					renderContent: function () {
+						return el( 'div', { className: 'smokyforms-color-popover' },
+							el( c.ColorPicker, { color: b[ key ] || '#000000', enableAlpha: false, onChange: function ( v ) {
+								var next = Object.assign( {}, b );
+								next[ key ] = v;
+								props.onChange( next );
+							} } ),
+							b[ key ] ? el( c.Button, { variant: 'link', onClick: function () {
+								var next = Object.assign( {}, b );
+								next[ key ] = '';
+								props.onChange( next );
+							} }, __( 'Use the theme style', 'smokyforms' ) ) : null
+						);
+					},
+				} )
+			);
+		}
+		return el(
+			c.PanelBody,
+			{ title: __( 'Button style', 'smokyforms' ), initialOpen: false },
+			el( 'p', { className: 'description' }, __( 'By default the buttons look like the buttons of your theme. Choose colours only if you want them different.', 'smokyforms' ) ),
+			el( 'div', { className: 'smokyforms-color-grid' },
+				color( 'bg', __( 'Background', 'smokyforms' ) ),
+				color( 'bg_hover', __( 'Background on hover', 'smokyforms' ) ),
+				color( 'text', __( 'Text', 'smokyforms' ) ),
+				color( 'text_hover', __( 'Text on hover', 'smokyforms' ) )
+			),
+			el( 'div', { className: 'smokyforms-button-preview' },
+				el( 'span', { className: 'components-base-control__label' }, __( 'Preview', 'smokyforms' ) ),
+				el( 'button', { type: 'button', className: 'button button-primary button-large', style: style, onMouseEnter: function () {
+					hover[ 1 ]( true );
+				}, onMouseLeave: function () {
+					hover[ 1 ]( false );
+				} }, props.settings.submit_label )
+			),
+			b.bg || b.bg_hover || b.text || b.text_hover ? el( c.Button, { variant: 'link', isDestructive: true, onClick: function () {
+				props.onChange( { bg: '', bg_hover: '', text: '', text_hover: '' } );
+			} }, __( 'Use the theme style', 'smokyforms' ) ) : null
+		);
+	}
+
 	function SettingsTab( props ) {
 		var s = props.settings, emailFields = props.fields.filter( function ( x ) {
 			return x.type === 'email';
@@ -1381,32 +1598,24 @@
 			o[ parts[ 0 ] ] = value;
 			props.onChange( next );
 		}
-		var tagHelp = el(
-			'p',
-			{ className: 'description smokyforms-tags' },
-			__( 'You can use:', 'smokyforms' ),
-			' ',
-			Object.keys( data.tags ).map( function ( tag ) {
-				return el( 'code', { key: tag, title: data.tags[ tag ] }, tag );
-			} ),
-			' ',
-			el( 'code', { title: __( 'Answer of one field', 'smokyforms' ) }, '{field:ID}' )
-		);
 		return el(
 			'div',
 			{ className: 'smokyforms-form-settings' },
 			el(
 				c.PanelBody,
 				{ title: __( 'General', 'smokyforms' ), initialOpen: true },
+				el( c.TextareaControl, { label: __( 'Form description', 'smokyforms' ), rows: 3, help: sprintf( __( 'Optional. Shown above the form when "Show the form description" is on in the block, or with %s. HTML is allowed.', 'smokyforms' ), '[smokyforms id="' + ( props.formId || 'ID' ) + '" title="yes" description="yes"]' ), value: s.description || '', onChange: function ( v ) {
+					set( 'description', v );
+				}, __nextHasNoMarginBottom: true } ),
 				el( c.TextControl, { label: __( 'Button text', 'smokyforms' ), value: s.submit_label, onChange: function ( v ) {
 					set( 'submit_label', v );
 				}, __nextHasNoMarginBottom: true } ),
-				el( c.TextareaControl, { label: __( 'Message after sending', 'smokyforms' ), value: s.success_message, onChange: function ( v ) {
+				el( TagInput, { name: 'success', multiline: true, rows: 4, allFields: true, fields: props.fields, label: __( 'Message after sending', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.success_message, onChange: function ( v ) {
 					set( 'success_message', v );
-				}, __nextHasNoMarginBottom: true } ),
-				el( c.TextControl, { label: __( 'Or go to this page after sending', 'smokyforms' ), help: __( 'Leave empty to show the message instead.', 'smokyforms' ), type: 'url', value: s.redirect, onChange: function ( v ) {
+				} } ),
+				el( PagePicker, { label: __( 'Or go to this page after sending', 'smokyforms' ), help: __( 'Leave empty to show the message instead.', 'smokyforms' ), value: s.redirect, onChange: function ( v ) {
 					set( 'redirect', v );
-				}, __nextHasNoMarginBottom: true } ),
+				} } ),
 				props.fields.some( function ( x ) {
 					return x.type === 'page';
 				} ) ? el( c.ToggleControl, { label: __( 'Show the progress bar', 'smokyforms' ), help: __( 'For forms with page breaks: "Step 1 of 3" above the form.', 'smokyforms' ), checked: s.progress !== false, onChange: function ( v ) {
@@ -1422,26 +1631,28 @@
 					__nextHasNoMarginBottom: true,
 				} )
 			),
+			el( ButtonPanel, { settings: s, onChange: function ( button ) {
+				set( 'button', button );
+			} } ),
 			el(
 				c.PanelBody,
 				{ title: __( 'Notification to you', 'smokyforms' ), initialOpen: true },
-				el( 'p', { className: 'description' }, __( 'SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered.', 'smokyforms' ) ),
+				el( 'p', { className: 'description' }, __( 'The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered.', 'smokyforms' ) ),
 				el( c.ToggleControl, { label: __( 'Send me an email for every entry', 'smokyforms' ), checked: !! s.notify.enabled, onChange: function ( v ) {
 					set( 'notify.enabled', v );
 				}, __nextHasNoMarginBottom: true } ),
 				s.notify.enabled ? el(
 					Fragment,
 					null,
-					el( c.TextControl, { label: __( 'Send to', 'smokyforms' ), help: __( 'Separate several addresses with commas.', 'smokyforms' ), value: s.notify.to, onChange: function ( v ) {
+					el( TagInput, { name: 'notify-to', only: [ 'email' ], separator: ', ', fields: props.fields, label: __( 'Send to', 'smokyforms' ), help: __( 'Separate several addresses with commas.', 'smokyforms' ), value: s.notify.to, onChange: function ( v ) {
 						set( 'notify.to', v );
-					}, __nextHasNoMarginBottom: true } ),
-					el( c.TextControl, { label: __( 'Subject', 'smokyforms' ), value: s.notify.subject, onChange: function ( v ) {
+					} } ),
+					el( TagInput, { name: 'notify-subject', fields: props.fields, label: __( 'Subject', 'smokyforms' ), value: s.notify.subject, onChange: function ( v ) {
 						set( 'notify.subject', v );
-					}, __nextHasNoMarginBottom: true } ),
-					el( c.TextareaControl, { label: __( 'Message', 'smokyforms' ), rows: 5, value: s.notify.message, onChange: function ( v ) {
+					} } ),
+					el( TagInput, { name: 'notify-message', multiline: true, rows: 6, allFields: true, fields: props.fields, label: __( 'Message', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.notify.message, onChange: function ( v ) {
 						set( 'notify.message', v );
-					}, __nextHasNoMarginBottom: true } ),
-					tagHelp
+					} } )
 				) : null
 			),
 			el(
@@ -1464,13 +1675,12 @@
 						},
 						__nextHasNoMarginBottom: true,
 					} ) : el( c.Notice, { status: 'warning', isDismissible: false }, __( 'Add an Email field to the form first.', 'smokyforms' ) ),
-					el( c.TextControl, { label: __( 'Subject', 'smokyforms' ), value: s.confirm.subject, onChange: function ( v ) {
+					el( TagInput, { name: 'confirm-subject', fields: props.fields, label: __( 'Subject', 'smokyforms' ), value: s.confirm.subject, onChange: function ( v ) {
 						set( 'confirm.subject', v );
-					}, __nextHasNoMarginBottom: true } ),
-					el( c.TextareaControl, { label: __( 'Message', 'smokyforms' ), rows: 6, value: s.confirm.message, onChange: function ( v ) {
+					} } ),
+					el( TagInput, { name: 'confirm-message', multiline: true, rows: 8, allFields: true, fields: props.fields, label: __( 'Message', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.confirm.message, onChange: function ( v ) {
 						set( 'confirm.message', v );
-					}, __nextHasNoMarginBottom: true } ),
-					tagHelp
+					} } )
 				) : null
 			)
 		);
@@ -1709,7 +1919,7 @@
 				touch();
 			} } );
 		} else {
-			body = el( SettingsTab, { settings: settings[ 0 ], fields: list, onChange: function ( s ) {
+			body = el( SettingsTab, { settings: settings[ 0 ], fields: list, formId: id[ 0 ], onChange: function ( s ) {
 				settings[ 1 ]( s );
 				touch();
 			} } );

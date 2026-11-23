@@ -116,8 +116,6 @@ b61b8f|Ajouter une colonne
 9c6803|Supprimer le tableau
 531553|Ligne 1
 450423|Ajouter une grille tarifaire
-1aefc6|Vous pouvez utiliser :
-19002d|Réponse d’un champ
 0db377|Général
 111082|Texte du bouton
 8da5e2|Message après l’envoi
@@ -127,7 +125,6 @@ aac08d|Laissez vide pour afficher le message à la place.
 86dc8e|Protéger ce formulaire avec le CAPTCHA configuré dans les réglages.
 539ec8|Aucun CAPTCHA n’est encore configuré. Vous pouvez en ajouter un dans SmokyForms > Réglages. Le champ piège et le contrôle du temps protègent de toute façon chaque formulaire.
 74b72d|Notification pour vous
-48ff32|SmokyForms ne conserve pas les entrées ; chaque entrée vous est envoyée par e-mail. Si l’e-mail échoue, l’entrée est conservée dans SmokyForms > Non distribuées.
 d245dd|M’envoyer un e-mail pour chaque entrée
 c973ca|Envoyer à
 61739f|Séparez plusieurs adresses par des virgules.
@@ -172,7 +169,6 @@ f75d8f|Clé du site
 783e8e|secondes
 615249|Les formulaires envoyés plus vite que cela après le chargement de la page sont considérés comme du spam. 0 désactive le contrôle.
 4def17|Notifications non distribuées
-9f5630|SmokyForms ne conserve pas les entrées ; elles vous sont envoyées par e-mail. Si un e-mail de notification ne peut pas être envoyé, l’entrée est conservée pour ne pas être perdue, et vous pouvez la renvoyer dans SmokyForms > Non distribuées.
 f24a17|Conserver pendant
 44fdec|jours
 c89567|SmokyForms : %s entrée n’a pas pu vous être envoyée par e-mail. ¦ SmokyForms : %s entrées n’ont pas pu vous être envoyées par e-mail.
@@ -413,3 +409,26 @@ c75143|Billet
 abce00|Adulte – 25
 2d337d|Enfant – 10
 ccdac9|%s n’a pas pu être envoyé. Veuillez réessayer.
+0869e1|Masquer les balises dynamiques
+1e8fdb|Afficher les balises dynamiques
+6311ae|Autres
+928d86|Le HTML est autorisé, par exemple <strong>, <a href="..."> ou <img src="...">.
+14614b|Titre de la page du formulaire
+af53b1|Adresse du site
+b044c3|Adresse IP du visiteur
+c21d00|Afficher le titre du formulaire
+266cc8|Afficher la description du formulaire
+ce7fc3|La description se rédige dans les réglages du formulaire.
+019a87|Style du bouton
+477bdd|Par défaut, les boutons ressemblent à ceux de votre thème. Choisissez des couleurs seulement si vous les voulez différents.
+a9ded1|Arrière-plan
+578392|Arrière-plan au survol
+1f58ec|Texte au survol
+31fde7|Aperçu
+6d7da2|Utiliser le style du thème
+7df0ae|Description du formulaire
+ffb213|Facultatif. Affichée au-dessus du formulaire quand « Afficher la description du formulaire » est activé dans le bloc, ou avec %s. Le HTML est autorisé.
+31671a|Rechercher des pages ou coller une adresse
+6cf0ea|La version gratuite de SmokyForms vous envoie chaque réponse par e-mail et ne l’enregistre pas. SmokyForms Pro (bientôt disponible) enregistre toutes les réponses dans votre tableau de bord, avec recherche et export CSV. Si l’e-mail échoue, l’entrée est conservée dans SmokyForms > Non distribuées.
+babed6|La version gratuite de SmokyForms vous envoie chaque réponse par e-mail et ne l’enregistre pas. SmokyForms Pro (bientôt disponible) enregistre toutes les réponses dans votre tableau de bord, avec recherche et export CSV. Si un e-mail de notification ne peut pas être envoyé, l’entrée est conservée pour ne pas être perdue, et vous pouvez la renvoyer dans SmokyForms > Non distribuées.
+d72175|Thème

@@ -116,8 +116,6 @@ b61b8f|Sütun ekle
 9c6803|Tabloyu sil
 531553|Satır 1
 450423|Fiyat tablosu ekle
-1aefc6|Kullanabilecekleriniz:
-19002d|Bir alanın cevabı
 0db377|Genel
 111082|Düğme metni
 8da5e2|Gönderimden sonraki mesaj
@@ -127,7 +125,6 @@ aac08d|Bunun yerine mesajı göstermek için boş bırakın.
 86dc8e|Bu formu Ayarlar altında kurulan CAPTCHA ile koruyun.
 539ec8|Henüz bir CAPTCHA kurulmadı. SmokyForms > Ayarlar altından ekleyebilirsiniz. Tuzak alan ve süre kontrolü her formu zaten korur.
 74b72d|Size bildirim
-48ff32|SmokyForms gönderimleri saklamaz; her gönderim size e-postayla iletilir. E-posta gönderilemezse gönderim SmokyForms > Ulaşmayanlar altında tutulur.
 d245dd|Her gönderim için bana e-posta gönder
 c973ca|Alıcı
 61739f|Birden fazla adresi virgülle ayırın.
@@ -172,7 +169,6 @@ f75d8f|Site anahtarı
 783e8e|saniye
 615249|Sayfa yüklendikten sonra bundan daha hızlı gönderilen formlar istenmeyen gönderim sayılır. 0 kontrolü kapatır.
 4def17|Ulaşmayan bildirimler
-9f5630|SmokyForms gönderimleri saklamaz; size e-postayla iletilir. Bir bildirim e-postası gönderilemezse gönderim kaybolmasın diye tutulur ve SmokyForms > Ulaşmayanlar altından tekrar gönderebilirsiniz.
 f24a17|Saklama süresi
 44fdec|gün
 c89567|SmokyForms: %s gönderim size e-postayla iletilemedi. ¦ SmokyForms: %s gönderim size e-postayla iletilemedi.
@@ -413,3 +409,26 @@ c75143|Bilet
 abce00|Yetişkin – 25
 2d337d|Çocuk – 10
 ccdac9|%s yüklenemedi. Lütfen tekrar deneyin.
+0869e1|Akıllı etiketleri gizle
+1e8fdb|Akıllı etiketleri göster
+6311ae|Diğer
+928d86|HTML kullanılabilir, örneğin <strong>, <a href="..."> ya da <img src="...">.
+14614b|Form sayfasının başlığı
+af53b1|Site adresi
+b044c3|Ziyaretçinin IP adresi
+c21d00|Form başlığını göster
+266cc8|Form açıklamasını göster
+ce7fc3|Açıklama, form ayarlarında yazılır.
+019a87|Düğme stili
+477bdd|Düğmeler varsayılan olarak temanızın düğmeleri gibi görünür. Farklı olmasını istiyorsanız renk seçin.
+a9ded1|Arka plan
+578392|Üzerine gelince arka plan
+1f58ec|Üzerine gelince yazı
+31fde7|Önizleme
+6d7da2|Temanın stilini kullan
+7df0ae|Form açıklaması
+ffb213|İsteğe bağlı. Blokta "Form açıklamasını göster" açıkken ya da %s ile formun üstünde gösterilir. HTML kullanılabilir.
+31671a|Sayfa arayın ya da adres yapıştırın
+6cf0ea|SmokyForms'un ücretsiz sürümü her gönderimi size e-postayla iletir, kaydetmez. SmokyForms Pro (yakında) tüm gönderimleri arama ve CSV dışa aktarma ile panelinizde saklar. E-posta gönderilemezse gönderim SmokyForms > Ulaşmayanlar altında tutulur.
+babed6|SmokyForms'un ücretsiz sürümü her gönderimi size e-postayla iletir, kaydetmez. SmokyForms Pro (yakında) tüm gönderimleri arama ve CSV dışa aktarma ile panelinizde saklar. Bir bildirim e-postası gönderilemezse gönderim kaybolmasın diye tutulur ve SmokyForms > Ulaşmayanlar altından tekrar gönderebilirsiniz.
+d72175|Tema

@@ -42,7 +42,21 @@
 			__next40pxDefaultSize: true,
 		} );
 
-		var inspector = el( be.InspectorControls, null, el( c.PanelBody, { title: __( 'Form', 'smokyforms' ) }, picker ) );
+		var inspector = el(
+			be.InspectorControls,
+			null,
+			el(
+				c.PanelBody,
+				{ title: __( 'Form', 'smokyforms' ) },
+				picker,
+				formId ? el( c.ToggleControl, { label: __( 'Show the form title', 'smokyforms' ), checked: !! props.attributes.showTitle, onChange: function ( v ) {
+					props.setAttributes( { showTitle: v } );
+				}, __nextHasNoMarginBottom: true } ) : null,
+				formId ? el( c.ToggleControl, { label: __( 'Show the form description', 'smokyforms' ), help: __( 'The description is written in the form settings.', 'smokyforms' ), checked: !! props.attributes.showDescription, onChange: function ( v ) {
+					props.setAttributes( { showDescription: v } );
+				}, __nextHasNoMarginBottom: true } ) : null
+			)
+		);
 
 		if ( ! formId ) {
 			return el(
@@ -60,7 +74,7 @@
 			'div',
 			blockProps,
 			inspector,
-			el( c.Disabled, null, el( ServerSideRender, { block: 'smokyforms/form', attributes: { formId: formId } } ) )
+			el( c.Disabled, null, el( ServerSideRender, { block: 'smokyforms/form', attributes: { formId: formId, showTitle: !! props.attributes.showTitle, showDescription: !! props.attributes.showDescription } } ) )
 		);
 	}
 

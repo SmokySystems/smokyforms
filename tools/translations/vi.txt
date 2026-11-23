@@ -116,8 +116,6 @@ b61b8f|Thêm cột
 9c6803|Xóa bảng
 531553|Hàng 1
 450423|Thêm bảng giá
-1aefc6|Bạn có thể dùng:
-19002d|Câu trả lời của một trường
 0db377|Chung
 111082|Chữ trên nút
 8da5e2|Thông báo sau khi gửi
@@ -127,7 +125,6 @@ aac08d|Để trống để hiển thị thông báo.
 86dc8e|Bảo vệ biểu mẫu này bằng CAPTCHA đã thiết lập trong Cài đặt.
 539ec8|Chưa thiết lập CAPTCHA. Bạn có thể thêm trong SmokyForms > Cài đặt. Trường bẫy và kiểm tra thời gian luôn bảo vệ mọi biểu mẫu.
 74b72d|Thông báo cho bạn
-48ff32|SmokyForms không lưu bài gửi; mỗi bài gửi được gửi đến bạn qua email. Nếu email gửi không được, bài gửi sẽ được giữ trong SmokyForms > Chưa gửi được.
 d245dd|Gửi email cho tôi mỗi khi có bài gửi
 c973ca|Gửi đến
 61739f|Ngăn cách nhiều địa chỉ bằng dấu phẩy.
@@ -172,7 +169,6 @@ f75d8f|Khóa trang
 783e8e|giây
 615249|Biểu mẫu được gửi nhanh hơn mức này sau khi tải trang sẽ bị coi là thư rác. 0 là tắt kiểm tra.
 4def17|Thông báo chưa gửi được
-9f5630|SmokyForms không lưu bài gửi; chúng được gửi đến bạn qua email. Nếu email thông báo không gửi được, bài gửi được giữ lại để không bị mất, và bạn có thể gửi lại trong SmokyForms > Chưa gửi được.
 f24a17|Giữ trong
 44fdec|ngày
 c89567|SmokyForms: không thể gửi %s bài gửi đến bạn qua email.
@@ -413,3 +409,26 @@ c75143|Vé
 abce00|Người lớn – 25
 2d337d|Trẻ em – 10
 ccdac9|Không thể tải lên %s. Vui lòng thử lại.
+0869e1|Ẩn thẻ thông minh
+1e8fdb|Hiện thẻ thông minh
+6311ae|Khác
+928d86|Cho phép HTML, ví dụ <strong>, <a href="..."> hoặc <img src="...">.
+14614b|Tiêu đề trang chứa biểu mẫu
+af53b1|Địa chỉ trang web
+b044c3|Địa chỉ IP của khách
+c21d00|Hiện tiêu đề biểu mẫu
+266cc8|Hiện mô tả biểu mẫu
+ce7fc3|Mô tả được viết trong cài đặt biểu mẫu.
+019a87|Kiểu nút
+477bdd|Mặc định các nút trông giống nút của giao diện. Chỉ chọn màu nếu bạn muốn chúng khác đi.
+a9ded1|Nền
+578392|Nền khi rê chuột
+1f58ec|Chữ khi rê chuột
+31fde7|Xem trước
+6d7da2|Dùng kiểu của giao diện
+7df0ae|Mô tả biểu mẫu
+ffb213|Không bắt buộc. Hiện phía trên biểu mẫu khi bật "Hiện mô tả biểu mẫu" trong khối, hoặc với %s. Cho phép HTML.
+31671a|Tìm trang hoặc dán địa chỉ
+6cf0ea|Phiên bản miễn phí của SmokyForms gửi mỗi lượt gửi cho bạn qua email và không lưu lại. SmokyForms Pro (sắp ra mắt) lưu mọi lượt gửi trong bảng tin, có tìm kiếm và xuất CSV. Nếu email gửi không được, bài gửi sẽ được giữ trong SmokyForms > Chưa gửi được.
+babed6|Phiên bản miễn phí của SmokyForms gửi mỗi lượt gửi cho bạn qua email và không lưu lại. SmokyForms Pro (sắp ra mắt) lưu mọi lượt gửi trong bảng tin, có tìm kiếm và xuất CSV. Nếu email thông báo không gửi được, bài gửi được giữ lại để không bị mất, và bạn có thể gửi lại trong SmokyForms > Chưa gửi được.
+d72175|Giao diện

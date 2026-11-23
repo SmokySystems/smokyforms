@@ -35,7 +35,7 @@
 	background: #fff; border: 1px solid var(--sf-border); border-radius: 4px; padding: 12px;
 }
 .smokyforms-palette, .smokyforms-sidebar { position: sticky; top: 46px; max-height: calc(100vh - 70px); overflow: auto; }
-.smokyforms-palette h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: #646970; margin: 8px 0 6px; }
+.smokyforms-palette h3 { font-size: 11px; color: #646970; margin: 8px 0 6px; font-weight: 600; }
 .smokyforms-palette-items { display: grid; grid-template-columns: 1fr; gap: 6px; }
 .smokyforms-palette-item.components-button { justify-content: flex-start; width: 100%; height: auto; min-height: 32px; white-space: normal; text-align: start; }
 .smokyforms-palette-item.is-calc { font-weight: 600; }
@@ -53,7 +53,7 @@
 .smokyforms-card-actions { position: absolute; top: 4px; inset-inline-end: 4px; display: none; background: #fff; }
 .smokyforms-card:hover .smokyforms-card-actions, .smokyforms-card.is-selected .smokyforms-card-actions, .smokyforms-card:focus-within .smokyforms-card-actions { display: flex; }
 .smokyforms-preview { display: flex; flex-direction: column; gap: 4px; padding-inline-end: 120px; }
-.smokyforms-preview-type { font-size: 11px; color: #646970; text-transform: uppercase; letter-spacing: .04em; }
+.smokyforms-preview-type { font-size: 12px; color: #646970; }
 .smokyforms-preview-label { font-weight: 600; }
 .smokyforms-preview-required { color: #b32d2e; }
 .smokyforms-preview-input { display: block; border: 1px solid var(--sf-border); border-radius: 3px; padding: 5px 8px; color: #8c8f94; min-height: 18px; }
@@ -65,7 +65,7 @@
 .smokyforms-sidebar h2 { margin-top: 0; font-size: 15px; }
 .smokyforms-field-settings > * + * { margin-top: 14px; }
 .smokyforms-settings-empty { color: #646970; }
-.smokyforms-control-label { display: block; font-size: 11px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px; }
+.smokyforms-control-label { display: block; font-size: 13px; font-weight: 500; margin-bottom: 8px; }
 .smokyforms-row { display: flex; gap: 10px; align-items: flex-start; }
 .smokyforms-row > * { flex: 1 1 0; min-width: 0; }
 .smokyforms-field-id input { font-family: monospace; }
@@ -201,4 +201,116 @@
 	color: #2271b1;
 	text-transform: none;
 	letter-spacing: 0;
+}
+/* WordPress shows control labels in capitals; that breaks letters such as i/İ in Turkish. */
+.smokyforms-builder .components-base-control__label,
+.smokyforms-builder .components-input-control__label,
+.smokyforms-builder .components-truncate,
+.smokyforms-builder label {
+	text-transform: none !important;
+	font-size: 13px;
+}
+.smokyforms-tag-input-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 8px;
+	margin-bottom: 8px;
+}
+.smokyforms-tag-input-head .components-base-control__label {
+	margin: 0;
+	font-weight: 500;
+}
+.smokyforms-tag-input input,
+.smokyforms-tag-input textarea {
+	width: 100%;
+}
+.smokyforms-tag-input textarea {
+	font-family: Menlo, Consolas, monospace;
+	font-size: 12px;
+}
+.smokyforms-tag-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	padding: 8px;
+	margin-bottom: 8px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 2px;
+}
+.smokyforms-tag-list strong {
+	flex-basis: 100%;
+	font-size: 12px;
+}
+.smokyforms-color-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px 16px;
+}
+.smokyforms-color .components-base-control__label {
+	display: block;
+	margin-bottom: 6px;
+}
+.smokyforms-button-preview {
+	margin: 16px 0 8px;
+}
+.smokyforms-button-preview .components-base-control__label {
+	display: block;
+	margin-bottom: 6px;
+}
+.smokyforms-page-picker {
+	position: relative;
+}
+.smokyforms-page-picker input {
+	width: 100%;
+}
+.smokyforms-page-list {
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	right: 0;
+	margin: 2px 0 0;
+	padding: 4px 0;
+	list-style: none;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 2px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+	max-height: 280px;
+	overflow: auto;
+}
+.smokyforms-page-list li {
+	margin: 0;
+	padding: 6px 10px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+.smokyforms-page-list li span {
+	font-size: 11px;
+	color: #646970;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.smokyforms-page-list li:hover,
+.smokyforms-page-list li.is-active {
+	background: #f0f6fc;
+}
+.smokyforms-color-toggle {
+	gap: 8px;
+	font-family: Menlo, Consolas, monospace;
+	font-size: 12px;
+}
+.smokyforms-color-toggle .is-empty {
+	background: repeating-linear-gradient(45deg, #fff 0 4px, #dcdcde 4px 8px);
+}
+.smokyforms-color-popover {
+	padding: 8px;
+}
+.smokyforms-builder .components-input-control__label .components-truncate,
+.smokyforms-builder .components-input-control__label {
+	font-size: 13px !important;
+	font-weight: 500;
 }

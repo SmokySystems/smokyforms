@@ -116,8 +116,6 @@ b61b8f|Lägg till kolumn
 9c6803|Ta bort tabell
 531553|Rad 1
 450423|Lägg till pristabell
-1aefc6|Du kan använda:
-19002d|Svar i ett fält
 0db377|Allmänt
 111082|Knapptext
 8da5e2|Meddelande efter inskick
@@ -127,7 +125,6 @@ aac08d|Lämna tomt för att visa meddelandet i stället.
 86dc8e|Skydda formuläret med den CAPTCHA som är inställd under Inställningar.
 539ec8|Ingen CAPTCHA är inställd ännu. Du kan lägga till en under SmokyForms > Inställningar. Fällfältet och tidskontrollen skyddar ändå alla formulär.
 74b72d|Avisering till dig
-48ff32|SmokyForms sparar inte inskick; varje inskick skickas till dig med e-post. Om e-postmeddelandet misslyckas sparas inskicket under SmokyForms > Ej levererade.
 d245dd|Skicka e-post till mig för varje inskick
 c973ca|Skicka till
 61739f|Skilj flera adresser åt med kommatecken.
@@ -172,7 +169,6 @@ f75d8f|Webbplatsnyckel
 783e8e|sekunder
 615249|Formulär som skickas snabbare än så efter att sidan laddats räknas som skräppost. 0 stänger av kontrollen.
 4def17|Ej levererade aviseringar
-9f5630|SmokyForms sparar inte inskick; de skickas till dig med e-post. Om ett aviseringsmejl inte kan skickas sparas inskicket så att det inte går förlorat, och du kan skicka det igen under SmokyForms > Ej levererade.
 f24a17|Spara i
 44fdec|dagar
 c89567|SmokyForms: %s inskick kunde inte mejlas till dig. ¦ SmokyForms: %s inskick kunde inte mejlas till dig.
@@ -413,3 +409,26 @@ c75143|Biljett
 abce00|Vuxen – 25
 2d337d|Barn – 10
 ccdac9|%s kunde inte laddas upp. Försök igen.
+0869e1|Dölj smarta taggar
+1e8fdb|Visa smarta taggar
+6311ae|Övrigt
+928d86|HTML är tillåtet, till exempel <strong>, <a href="..."> eller <img src="...">.
+14614b|Rubrik på formulärsidan
+af53b1|Webbplatsens adress
+b044c3|Besökarens IP-adress
+c21d00|Visa formulärets rubrik
+266cc8|Visa formulärets beskrivning
+ce7fc3|Beskrivningen skrivs i formulärets inställningar.
+019a87|Knappstil
+477bdd|Som standard ser knapparna ut som temats knappar. Välj färger bara om du vill att de ska se annorlunda ut.
+a9ded1|Bakgrund
+578392|Bakgrund vid hovring
+1f58ec|Text vid hovring
+31fde7|Förhandsvisning
+6d7da2|Använd temats stil
+7df0ae|Formulärbeskrivning
+ffb213|Valfritt. Visas ovanför formuläret när ”Visa formulärets beskrivning” är på i blocket, eller med %s. HTML är tillåtet.
+31671a|Sök sidor eller klistra in en adress
+6cf0ea|Gratisversionen av SmokyForms mejlar dig varje inskick och sparar det inte. SmokyForms Pro (kommer snart) sparar alla inskick i din adminpanel, med sökning och CSV-export. Om e-postmeddelandet misslyckas sparas inskicket under SmokyForms > Ej levererade.
+babed6|Gratisversionen av SmokyForms mejlar dig varje inskick och sparar det inte. SmokyForms Pro (kommer snart) sparar alla inskick i din adminpanel, med sökning och CSV-export. Om ett aviseringsmejl inte kan skickas sparas inskicket så att det inte går förlorat, och du kan skicka det igen under SmokyForms > Ej levererade.
+d72175|Tema

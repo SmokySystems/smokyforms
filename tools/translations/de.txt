@@ -116,8 +116,6 @@ b61b8f|Spalte hinzufügen
 9c6803|Tabelle löschen
 531553|Zeile 1
 450423|Preistabelle hinzufügen
-1aefc6|Verfügbar:
-19002d|Antwort eines Feldes
 0db377|Allgemein
 111082|Button-Text
 8da5e2|Nachricht nach dem Absenden
@@ -127,7 +125,6 @@ aac08d|Leer lassen, um stattdessen die Nachricht anzuzeigen.
 86dc8e|Dieses Formular mit dem unter Einstellungen eingerichteten CAPTCHA schützen.
 539ec8|Es ist noch kein CAPTCHA eingerichtet. Sie können eines unter SmokyForms > Einstellungen hinzufügen. Das Fallenfeld und die Zeitprüfung schützen ohnehin jedes Formular.
 74b72d|Benachrichtigung an Sie
-48ff32|SmokyForms speichert keine Einträge; jeder Eintrag wird Ihnen per E-Mail geschickt. Schlägt die E-Mail fehl, wird der Eintrag unter SmokyForms > Nicht zugestellt aufbewahrt.
 d245dd|Für jeden Eintrag eine E-Mail an mich senden
 c973ca|Senden an
 61739f|Mehrere Adressen durch Kommas trennen.
@@ -172,7 +169,6 @@ f75d8f|Websiteschlüssel
 783e8e|Sekunden
 615249|Formulare, die schneller nach dem Laden der Seite gesendet werden, gelten als Spam. 0 schaltet die Prüfung aus.
 4def17|Nicht zugestellte Benachrichtigungen
-9f5630|SmokyForms speichert keine Einträge; sie werden Ihnen per E-Mail geschickt. Kann eine Benachrichtigung nicht gesendet werden, wird der Eintrag aufbewahrt, damit er nicht verloren geht, und Sie können ihn unter SmokyForms > Nicht zugestellt erneut senden.
 f24a17|Aufbewahren für
 44fdec|Tage
 c89567|SmokyForms: %s Eintrag konnte Ihnen nicht per E-Mail zugestellt werden. ¦ SmokyForms: %s Einträge konnten Ihnen nicht per E-Mail zugestellt werden.
@@ -413,3 +409,26 @@ c75143|Ticket
 abce00|Erwachsene – 25
 2d337d|Kind – 10
 ccdac9|%s konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut.
+0869e1|Smart Tags ausblenden
+1e8fdb|Smart Tags anzeigen
+6311ae|Sonstige
+928d86|HTML ist erlaubt, zum Beispiel <strong>, <a href="..."> oder <img src="...">.
+14614b|Titel der Formularseite
+af53b1|Website-Adresse
+b044c3|IP-Adresse der Besucher
+c21d00|Formulartitel anzeigen
+266cc8|Formularbeschreibung anzeigen
+ce7fc3|Die Beschreibung wird in den Formulareinstellungen geschrieben.
+019a87|Schaltflächen-Stil
+477bdd|Standardmäßig sehen die Schaltflächen wie die Ihres Themes aus. Wählen Sie Farben nur, wenn sie anders aussehen sollen.
+a9ded1|Hintergrund
+578392|Hintergrund beim Überfahren
+1f58ec|Text beim Überfahren
+31fde7|Vorschau
+6d7da2|Stil des Themes verwenden
+7df0ae|Formularbeschreibung
+ffb213|Optional. Wird über dem Formular angezeigt, wenn im Block „Formularbeschreibung anzeigen“ aktiv ist, oder mit %s. HTML ist erlaubt.
+31671a|Seiten suchen oder Adresse einfügen
+6cf0ea|Die kostenlose Version von SmokyForms schickt Ihnen jede Einsendung per E-Mail und speichert sie nicht. SmokyForms Pro (bald verfügbar) speichert alle Einsendungen in Ihrem Dashboard, mit Suche und CSV-Export. Schlägt die E-Mail fehl, wird der Eintrag unter SmokyForms > Nicht zugestellt aufbewahrt.
+babed6|Die kostenlose Version von SmokyForms schickt Ihnen jede Einsendung per E-Mail und speichert sie nicht. SmokyForms Pro (bald verfügbar) speichert alle Einsendungen in Ihrem Dashboard, mit Suche und CSV-Export. Kann eine Benachrichtigung nicht gesendet werden, wird der Eintrag aufbewahrt, damit er nicht verloren geht, und Sie können ihn unter SmokyForms > Nicht zugestellt erneut senden.
+d72175|Theme

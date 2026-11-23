@@ -116,8 +116,6 @@ b61b8f|Pridať stĺpec
 9c6803|Odstrániť tabuľku
 531553|Riadok 1
 450423|Pridať cenník
-1aefc6|Môžete použiť:
-19002d|Odpoveď jedného poľa
 0db377|Všeobecné
 111082|Text tlačidla
 8da5e2|Správa po odoslaní
@@ -127,7 +125,6 @@ aac08d|Nechajte prázdne, aby sa namiesto toho zobrazila správa.
 86dc8e|Chrániť tento formulár pomocou CAPTCHA nastavenej v Nastaveniach.
 539ec8|Zatiaľ nie je nastavená žiadna CAPTCHA. Môžete ju pridať v SmokyForms > Nastavenia. Pole-pasca a kontrola času chránia každý formulár aj tak.
 74b72d|Upozornenie pre vás
-48ff32|SmokyForms neukladá záznamy; každý záznam vám príde e-mailom. Ak sa e-mail nepodarí odoslať, záznam sa uchová v SmokyForms > Nedoručené.
 d245dd|Posielať mi e-mail o každom zázname
 c973ca|Komu
 61739f|Viac adries oddeľte čiarkami.
@@ -172,7 +169,6 @@ f75d8f|Kľúč stránky
 783e8e|sekúnd
 615249|Formuláre odoslané rýchlejšie, ako je tento čas od načítania stránky, sa považujú za spam. 0 kontrolu vypne.
 4def17|Nedoručené upozornenia
-9f5630|SmokyForms neukladá záznamy; prichádzajú vám e-mailom. Ak upozornenie nemožno odoslať, záznam sa uchová, aby sa nestratil, a môžete ho znova odoslať v SmokyForms > Nedoručené.
 f24a17|Uchovať
 44fdec|dní
 c89567|SmokyForms: %s záznam sa nepodarilo odoslať e-mailom. ¦ SmokyForms: %s záznamy sa nepodarilo odoslať e-mailom. ¦ SmokyForms: %s záznamov sa nepodarilo odoslať e-mailom.
@@ -413,3 +409,26 @@ c75143|Vstupenka
 abce00|Dospelý – 25
 2d337d|Dieťa – 10
 ccdac9|Súbor %s sa nepodarilo nahrať. Skúste to znova.
+0869e1|Skryť inteligentné značky
+1e8fdb|Zobraziť inteligentné značky
+6311ae|Ostatné
+928d86|HTML je povolené, napríklad <strong>, <a href="..."> alebo <img src="...">.
+14614b|Názov stránky s formulárom
+af53b1|Adresa webu
+b044c3|IP adresa návštevníka
+c21d00|Zobraziť názov formulára
+266cc8|Zobraziť popis formulára
+ce7fc3|Popis sa píše v nastaveniach formulára.
+019a87|Štýl tlačidla
+477bdd|Predvolene vyzerajú tlačidlá ako tlačidlá vašej témy. Farby vyberte, len ak ich chcete iné.
+a9ded1|Pozadie
+578392|Pozadie pri prejdení myšou
+1f58ec|Text pri prejdení myšou
+31fde7|Ukážka
+6d7da2|Použiť štýl témy
+7df0ae|Popis formulára
+ffb213|Voliteľné. Zobrazí sa nad formulárom, keď je v bloku zapnuté „Zobraziť popis formulára“, alebo s %s. HTML je povolené.
+31671a|Hľadajte stránky alebo vložte adresu
+6cf0ea|Bezplatná verzia SmokyForms vám každý záznam pošle e-mailom a neukladá ho. SmokyForms Pro (čoskoro) ukladá všetky záznamy do nástenky, s vyhľadávaním a exportom do CSV. Ak sa e-mail nepodarí odoslať, záznam sa uchová v SmokyForms > Nedoručené.
+babed6|Bezplatná verzia SmokyForms vám každý záznam pošle e-mailom a neukladá ho. SmokyForms Pro (čoskoro) ukladá všetky záznamy do nástenky, s vyhľadávaním a exportom do CSV. Ak upozornenie nemožno odoslať, záznam sa uchová, aby sa nestratil, a môžete ho znova odoslať v SmokyForms > Nedoručené.
+d72175|Téma

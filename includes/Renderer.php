@@ -47,6 +47,8 @@ final class Renderer {
 			array(
 				'render_callback' => array( __CLASS__, 'block' ),
 				'editor_script'   => 'smokyforms-block',
+				// The form's own CSS in the editor too, so the preview looks like the page.
+				'editor_style'    => 'smokyforms',
 			)
 		);
 	}
@@ -58,8 +60,32 @@ final class Renderer {
 	 * @return string
 	 */
 	public static function shortcode( $atts ) {
-		$atts = shortcode_atts( array( 'id' => 0 ), $atts, 'smokyforms' );
-		return self::render( (int) $atts['id'] );
+		$atts = shortcode_atts(
+			array(
+				'id'          => 0,
+				'title'       => '',
+				'description' => '',
+			),
+			$atts,
+			'smokyforms'
+		);
+		return self::render(
+			(int) $atts['id'],
+			array(
+				'title'       => self::yes( $atts['title'] ),
+				'description' => self::yes( $atts['description'] ),
+			)
+		);
+	}
+
+	/**
+	 * Whether a shortcode option is switched on (yes, true, 1, on).
+	 *
+	 * @param string $v Value.
+	 * @return bool
+	 */
+	private static function yes( $v ) {
+		return in_array( strtolower( trim( (string) $v ) ), array( 'yes', 'true', '1', 'on' ), true );
 	}
 
 	/**
@@ -69,16 +95,23 @@ final class Renderer {
 	 * @return string
 	 */
 	public static function block( $attributes ) {
-		return self::render( isset( $attributes['formId'] ) ? (int) $attributes['formId'] : 0 );
+		return self::render(
+			isset( $attributes['formId'] ) ? (int) $attributes['formId'] : 0,
+			array(
+				'title'       => ! empty( $attributes['showTitle'] ),
+				'description' => ! empty( $attributes['showDescription'] ),
+			)
+		);
 	}
 
 	/**
 	 * HTML of a form.
 	 *
-	 * @param int $id Form id.
+	 * @param int   $id   Form id.
+	 * @param array $show Show the form's title and description above it (title, description).
 	 * @return string
 	 */
-	public static function render( $id ) {
+	public static function render( $id, $show = array() ) {
 		$form = Forms::get( $id );
 		if ( ! $form || 'publish' !== $form['status'] ) {
 			return current_user_can( 'edit_posts' ) ? '<p>' . esc_html__( 'SmokyForms: this form does not exist.', 'smokyforms' ) . '</p>' : '';
@@ -140,6 +173,7 @@ final class Renderer {
 		// Message after a submission without JavaScript (see Submission::fallback()).
 		$sent = isset( $_GET['smokyforms_sent'] ) ? absint( $_GET['smokyforms_sent'] ) : 0; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 		$fail = isset( $_GET['smokyforms_error'] ) ? absint( $_GET['smokyforms_error'] ) : 0; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+		echo self::button_style( $form, $uid ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- colours are sanitize_hex_color() values.
 		if ( $hidden && 1 === self::$count ) {
 			echo '<noscript><style>.smokyforms .smokyforms-field[data-logic][hidden]{display:block!important}</style></noscript>';
 		}
@@ -163,6 +197,16 @@ final class Renderer {
 			<input type="hidden" name="action" value="smokyforms_submit">
 			<input type="hidden" name="smokyforms_id" value="<?php echo esc_attr( (string) $form['id'] ); ?>">
 			<input type="hidden" name="smokyforms_t" value="<?php echo esc_attr( Submission::time_token() ); ?>">
+			<?php if ( ! empty( $show['title'] ) || ( ! empty( $show['description'] ) && '' !== trim( $form['settings']['description'] ) ) ) : ?>
+			<div class="smokyforms-header">
+				<?php if ( ! empty( $show['title'] ) ) : ?>
+				<h2 class="smokyforms-title"><?php echo esc_html( $form['title'] ); ?></h2>
+				<?php endif; ?>
+				<?php if ( ! empty( $show['description'] ) && '' !== trim( $form['settings']['description'] ) ) : ?>
+				<div class="smokyforms-description"><?php echo wp_kses_post( wpautop( $form['settings']['description'] ) ); ?></div>
+				<?php endif; ?>
+			</div>
+			<?php endif; ?>
 			<?php if ( $multi && ! empty( $form['settings']['progress'] ) ) : ?>
 			<div class="smokyforms-progress" hidden>
 				<p class="smokyforms-progress-text"></p>
@@ -192,7 +236,7 @@ final class Renderer {
 				}
 			}
 			?>
-			<div class="smokyforms-hp" aria-hidden="true">
+			<div class="smokyforms-hp" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
 				<label><?php esc_html_e( 'Leave this field empty', 'smokyforms' ); ?>
 					<input type="text" name="smokyforms_website" value="" tabindex="-1" autocomplete="off">
 				</label>
@@ -210,7 +254,7 @@ final class Renderer {
 				<?php echo $fail === $form['id'] ? 'data-state="error"' : ( $sent === $form['id'] ? 'data-state="success"' : '' ); ?>>
 				<?php
 				if ( $sent === $form['id'] ) {
-					echo wp_kses_post( wpautop( $form['settings']['success_message'] ) );
+					echo wp_kses_post( wpautop( Notifications::replace( $form['settings']['success_message'], $form, array(), true ) ) );
 				} elseif ( $fail === $form['id'] ) {
 					echo '<p>' . esc_html__( 'Please check the form and try again.', 'smokyforms' ) . '</p>';
 				}
@@ -219,6 +263,28 @@ final class Renderer {
 		</form>
 		<?php
 		return (string) ob_get_clean();
+	}
+
+	/**
+	 * Colours chosen for the buttons of a form. Without them the buttons look like the theme's buttons.
+	 *
+	 * @param array  $form Form.
+	 * @param string $uid  Form element id.
+	 * @return string
+	 */
+	private static function button_style( $form, $uid ) {
+		$b    = $form['settings']['button'] ?? array();
+		$sel  = '#' . $uid . ' .smokyforms-button';
+		$css  = '';
+		$base = ( ! empty( $b['bg'] ) ? 'background:' . $b['bg'] . ';border-color:' . $b['bg'] . ';' : '' ) . ( ! empty( $b['text'] ) ? 'color:' . $b['text'] . ';' : '' );
+		$over = ( ! empty( $b['bg_hover'] ) ? 'background:' . $b['bg_hover'] . ';border-color:' . $b['bg_hover'] . ';' : '' ) . ( ! empty( $b['text_hover'] ) ? 'color:' . $b['text_hover'] . ';' : '' );
+		if ( $base ) {
+			$css .= $sel . '{' . $base . '}';
+		}
+		if ( $over ) {
+			$css .= $sel . ':hover,' . $sel . ':focus-visible{' . $over . '}';
+		}
+		return $css ? '<style>' . $css . '</style>' : '';
 	}
 
 	/**

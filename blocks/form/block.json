@@ -12,6 +12,14 @@
 		"formId": {
 			"type": "number",
 			"default": 0
+		},
+		"showTitle": {
+			"type": "boolean",
+			"default": false
+		},
+		"showDescription": {
+			"type": "boolean",
+			"default": false
 		}
 	},
 	"supports": {

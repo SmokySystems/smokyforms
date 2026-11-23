@@ -116,8 +116,6 @@ b61b8f|Přidat sloupec
 9c6803|Smazat tabulku
 531553|Řádek 1
 450423|Přidat ceník
-1aefc6|Můžete použít:
-19002d|Odpověď jednoho pole
 0db377|Obecné
 111082|Text tlačítka
 8da5e2|Zpráva po odeslání
@@ -127,7 +125,6 @@ aac08d|Nechte prázdné, aby se místo toho zobrazila zpráva.
 86dc8e|Chránit tento formulář pomocí CAPTCHA nastavené v Nastavení.
 539ec8|Zatím není nastavena žádná CAPTCHA. Můžete ji přidat v SmokyForms > Nastavení. Pole-past a kontrola času chrání každý formulář i tak.
 74b72d|Oznámení pro vás
-48ff32|SmokyForms neukládá záznamy; každý záznam vám přijde e-mailem. Pokud se e-mail nepodaří odeslat, záznam se uchová v SmokyForms > Nedoručené.
 d245dd|Posílat mi e-mail o každém záznamu
 c973ca|Komu
 61739f|Více adres oddělte čárkami.
@@ -172,7 +169,6 @@ f75d8f|Klíč webu
 783e8e|sekund
 615249|Formuláře odeslané rychleji, než je tato doba od načtení stránky, se považují za spam. 0 kontrolu vypne.
 4def17|Nedoručená oznámení
-9f5630|SmokyForms neukládá záznamy; přicházejí vám e-mailem. Pokud oznámení nelze odeslat, záznam se uchová, aby se neztratil, a můžete jej znovu odeslat v SmokyForms > Nedoručené.
 f24a17|Uchovat
 44fdec|dní
 c89567|SmokyForms: %s záznam se nepodařilo odeslat e-mailem. ¦ SmokyForms: %s záznamy se nepodařilo odeslat e-mailem. ¦ SmokyForms: %s záznamů se nepodařilo odeslat e-mailem.
@@ -413,3 +409,26 @@ c75143|Vstupenka
 abce00|Dospělý – 25
 2d337d|Dítě – 10
 ccdac9|Soubor %s se nepodařilo nahrát. Zkuste to znovu.
+0869e1|Skrýt chytré značky
+1e8fdb|Zobrazit chytré značky
+6311ae|Ostatní
+928d86|HTML je povoleno, například <strong>, <a href="..."> nebo <img src="...">.
+14614b|Název stránky s formulářem
+af53b1|Adresa webu
+b044c3|IP adresa návštěvníka
+c21d00|Zobrazit název formuláře
+266cc8|Zobrazit popis formuláře
+ce7fc3|Popis se píše v nastavení formuláře.
+019a87|Styl tlačítka
+477bdd|Ve výchozím stavu vypadají tlačítka jako tlačítka vaší šablony. Barvy vyberte, jen pokud je chcete jiné.
+a9ded1|Pozadí
+578392|Pozadí při najetí
+1f58ec|Text při najetí
+31fde7|Náhled
+6d7da2|Použít styl šablony
+7df0ae|Popis formuláře
+ffb213|Volitelné. Zobrazí se nad formulářem, když je v bloku zapnuto „Zobrazit popis formuláře“, nebo s %s. HTML je povoleno.
+31671a|Hledejte stránky nebo vložte adresu
+6cf0ea|Bezplatná verze SmokyForms vám každý záznam pošle e-mailem a neukládá ho. SmokyForms Pro (již brzy) ukládá všechny záznamy do nástěnky, s vyhledáváním a exportem do CSV. Pokud se e-mail nepodaří odeslat, záznam se uchová v SmokyForms > Nedoručené.
+babed6|Bezplatná verze SmokyForms vám každý záznam pošle e-mailem a neukládá ho. SmokyForms Pro (již brzy) ukládá všechny záznamy do nástěnky, s vyhledáváním a exportem do CSV. Pokud oznámení nelze odeslat, záznam se uchová, aby se neztratil, a můžete jej znovu odeslat v SmokyForms > Nedoručené.
+d72175|Šablona

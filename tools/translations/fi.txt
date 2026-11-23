@@ -116,8 +116,6 @@ b61b8f|Lisää sarake
 9c6803|Poista taulukko
 531553|Rivi 1
 450423|Lisää hintataulukko
-1aefc6|Voit käyttää:
-19002d|Yhden kentän vastaus
 0db377|Yleiset
 111082|Painikkeen teksti
 8da5e2|Viesti lähettämisen jälkeen
@@ -127,7 +125,6 @@ aac08d|Jätä tyhjäksi, niin viesti näytetään.
 86dc8e|Suojaa tämä lomake asetuksissa määritetyllä CAPTCHAlla.
 539ec8|CAPTCHAa ei ole vielä määritetty. Voit lisätä sen kohdassa SmokyForms > Asetukset. Ansakenttä ja aikatarkistus suojaavat joka tapauksessa jokaista lomaketta.
 74b72d|Ilmoitus sinulle
-48ff32|SmokyForms ei tallenna lähetyksiä; jokainen lähetys lähetetään sinulle sähköpostilla. Jos sähköposti epäonnistuu, lähetys säilytetään kohdassa SmokyForms > Toimittamatta.
 d245dd|Lähetä minulle sähköposti jokaisesta lähetyksestä
 c973ca|Vastaanottaja
 61739f|Erota useat osoitteet pilkuilla.
@@ -172,7 +169,6 @@ f75d8f|Sivuston avain
 783e8e|sekuntia
 615249|Lomakkeet, jotka lähetetään tätä nopeammin sivun latautumisen jälkeen, katsotaan roskapostiksi. 0 poistaa tarkistuksen käytöstä.
 4def17|Toimittamattomat ilmoitukset
-9f5630|SmokyForms ei tallenna lähetyksiä; ne lähetetään sinulle sähköpostilla. Jos ilmoitusta ei voida lähettää, lähetys säilytetään, jotta se ei katoa, ja voit lähettää sen uudelleen kohdassa SmokyForms > Toimittamatta.
 f24a17|Säilytä
 44fdec|päivää
 c89567|SmokyForms: %s lähetystä ei voitu lähettää sinulle sähköpostilla. ¦ SmokyForms: %s lähetystä ei voitu lähettää sinulle sähköpostilla.
@@ -413,3 +409,26 @@ c75143|Lippu
 abce00|Aikuinen – 25
 2d337d|Lapsi – 10
 ccdac9|Tiedostoa %s ei voitu ladata. Yritä uudelleen.
+0869e1|Piilota älytunnisteet
+1e8fdb|Näytä älytunnisteet
+6311ae|Muut
+928d86|HTML on sallittu, esimerkiksi <strong>, <a href="..."> tai <img src="...">.
+14614b|Lomakesivun otsikko
+af53b1|Sivuston osoite
+b044c3|Kävijän IP-osoite
+c21d00|Näytä lomakkeen otsikko
+266cc8|Näytä lomakkeen kuvaus
+ce7fc3|Kuvaus kirjoitetaan lomakkeen asetuksiin.
+019a87|Painikkeen tyyli
+477bdd|Oletuksena painikkeet näyttävät teemasi painikkeilta. Valitse värit vain, jos haluat niistä erilaiset.
+a9ded1|Tausta
+578392|Tausta osoitettaessa
+1f58ec|Teksti osoitettaessa
+31fde7|Esikatselu
+6d7da2|Käytä teeman tyyliä
+7df0ae|Lomakkeen kuvaus
+ffb213|Valinnainen. Näytetään lomakkeen yläpuolella, kun lohkossa on päällä ”Näytä lomakkeen kuvaus”, tai koodilla %s. HTML on sallittu.
+31671a|Hae sivuja tai liitä osoite
+6cf0ea|SmokyFormsin ilmaisversio lähettää jokaisen vastauksen sinulle sähköpostilla eikä tallenna sitä. SmokyForms Pro (tulossa pian) tallentaa kaikki vastaukset hallintapaneeliisi, haun ja CSV-viennin kanssa. Jos sähköposti epäonnistuu, lähetys säilytetään kohdassa SmokyForms > Toimittamatta.
+babed6|SmokyFormsin ilmaisversio lähettää jokaisen vastauksen sinulle sähköpostilla eikä tallenna sitä. SmokyForms Pro (tulossa pian) tallentaa kaikki vastaukset hallintapaneeliisi, haun ja CSV-viennin kanssa. Jos ilmoitusta ei voida lähettää, lähetys säilytetään, jotta se ei katoa, ja voit lähettää sen uudelleen kohdassa SmokyForms > Toimittamatta.
+d72175|Teema

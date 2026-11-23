@@ -160,7 +160,7 @@ final class Builder {
 		wp_enqueue_script(
 			'smokyforms-builder',
 			SMOKYFORMS_URL . 'assets/js/builder.js',
-			array( 'wp-element', 'wp-components', 'wp-i18n', 'wp-api-fetch', 'smokyforms-calc' ),
+			array( 'wp-element', 'wp-components', 'wp-i18n', 'wp-api-fetch', 'wp-url', 'wp-html-entities', 'smokyforms-calc' ),
 			SMOKYFORMS_VERSION,
 			true
 		);

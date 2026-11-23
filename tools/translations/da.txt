@@ -116,8 +116,6 @@ b61b8f|Tilføj kolonne
 9c6803|Slet tabel
 531553|Række 1
 450423|Tilføj pristabel
-1aefc6|Du kan bruge:
-19002d|Svar i ét felt
 0db377|Generelt
 111082|Knaptekst
 8da5e2|Besked efter afsendelse
@@ -127,7 +125,6 @@ aac08d|Lad stå tomt for at vise beskeden i stedet.
 86dc8e|Beskyt formularen med den CAPTCHA, der er sat op under Indstillinger.
 539ec8|Der er ikke sat nogen CAPTCHA op endnu. Du kan tilføje en under SmokyForms > Indstillinger. Fældefeltet og tidskontrollen beskytter under alle omstændigheder alle formularer.
 74b72d|Notifikation til dig
-48ff32|SmokyForms gemmer ikke indsendelser; hver indsendelse sendes til dig på e-mail. Hvis e-mailen fejler, gemmes indsendelsen under SmokyForms > Ikke leveret.
 d245dd|Send mig en e-mail for hver indsendelse
 c973ca|Send til
 61739f|Adskil flere adresser med kommaer.
@@ -172,7 +169,6 @@ f75d8f|Webstedsnøgle
 783e8e|sekunder
 615249|Formularer, der sendes hurtigere end dette efter sideindlæsning, regnes som spam. 0 slår kontrollen fra.
 4def17|Notifikationer, der ikke blev leveret
-9f5630|SmokyForms gemmer ikke indsendelser; de sendes til dig på e-mail. Hvis en notifikation ikke kan sendes, gemmes indsendelsen, så den ikke går tabt, og du kan sende den igen under SmokyForms > Ikke leveret.
 f24a17|Gem i
 44fdec|dage
 c89567|SmokyForms: %s indsendelse kunne ikke sendes til dig på e-mail. ¦ SmokyForms: %s indsendelser kunne ikke sendes til dig på e-mail.
@@ -413,3 +409,26 @@ c75143|Billet
 abce00|Voksen – 25
 2d337d|Barn – 10
 ccdac9|%s kunne ikke uploades. Prøv igen.
+0869e1|Skjul smarte tags
+1e8fdb|Vis smarte tags
+6311ae|Andet
+928d86|HTML er tilladt, for eksempel <strong>, <a href="..."> eller <img src="...">.
+14614b|Titel på formularsiden
+af53b1|Webstedets adresse
+b044c3|Besøgendes IP-adresse
+c21d00|Vis formularens titel
+266cc8|Vis formularens beskrivelse
+ce7fc3|Beskrivelsen skrives i formularens indstillinger.
+019a87|Knapstil
+477bdd|Som standard ligner knapperne dit temas knapper. Vælg kun farver, hvis de skal se anderledes ud.
+a9ded1|Baggrund
+578392|Baggrund ved hover
+1f58ec|Tekst ved hover
+31fde7|Forhåndsvisning
+6d7da2|Brug temaets stil
+7df0ae|Formularbeskrivelse
+ffb213|Valgfrit. Vises over formularen, når "Vis formularens beskrivelse" er slået til i blokken, eller med %s. HTML er tilladt.
+31671a|Søg efter sider eller indsæt en adresse
+6cf0ea|Den gratis version af SmokyForms mailer dig hver indsendelse og gemmer den ikke. SmokyForms Pro (kommer snart) gemmer alle indsendelser i dit kontrolpanel med søgning og CSV-eksport. Hvis e-mailen fejler, gemmes indsendelsen under SmokyForms > Ikke leveret.
+babed6|Den gratis version af SmokyForms mailer dig hver indsendelse og gemmer den ikke. SmokyForms Pro (kommer snart) gemmer alle indsendelser i dit kontrolpanel med søgning og CSV-eksport. Hvis en notifikation ikke kan sendes, gemmes indsendelsen, så den ikke går tabt, og du kan sende den igen under SmokyForms > Ikke leveret.
+d72175|Tema

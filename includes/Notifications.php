@@ -42,6 +42,9 @@ final class Notifications {
 			'{admin_email}' => __( 'Site admin email', 'smokyforms' ),
 			'{date}'        => __( 'Date and time', 'smokyforms' ),
 			'{page_url}'    => __( 'Page of the form', 'smokyforms' ),
+			'{page_title}'  => __( 'Title of the form page', 'smokyforms' ),
+			'{site_url}'    => __( 'Site address', 'smokyforms' ),
+			'{user_ip}'     => __( 'Visitor IP address', 'smokyforms' ),
 		);
 	}
 
@@ -172,10 +175,14 @@ final class Notifications {
 			'{admin_email}' => get_option( 'admin_email' ),
 			'{date}'        => wp_date( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ) ),
 			'{page_url}'    => $page ? esc_url_raw( $page ) : '',
+			'{page_title}'  => $page && url_to_postid( $page ) ? wp_specialchars_decode( get_the_title( url_to_postid( $page ) ), ENT_QUOTES ) : '',
+			'{site_url}'    => home_url( '/' ),
+			'{user_ip}'     => self::ip(),
 		);
 		if ( $html ) {
-			$map = array_map( 'esc_html', $map );
-			$text = esc_html( $text );
+			// The text itself may contain HTML (kept to what posts allow); the answers are escaped.
+			$map  = array_map( 'esc_html', $map );
+			$text = wp_kses_post( $text );
 			$map['{all_fields}'] = self::table( $form, $values );
 		} else {
 			$map['{all_fields}'] = self::plain( $form, $values );
@@ -193,6 +200,16 @@ final class Notifications {
 			},
 			$text
 		);
+	}
+
+	/**
+	 * IP address of the visitor.
+	 *
+	 * @return string
+	 */
+	private static function ip() {
+		$ip = isset( $_SERVER['REMOTE_ADDR'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ) ) : '';
+		return filter_var( $ip, FILTER_VALIDATE_IP ) ? $ip : '';
 	}
 
 	/**
@@ -245,7 +262,7 @@ final class Notifications {
 		$parts = preg_split( '/(<table.*?<\/table>)/s', $content, -1, PREG_SPLIT_DELIM_CAPTURE );
 		$out   = '';
 		foreach ( $parts as $p ) {
-			$out .= 0 === strpos( $p, '<table' ) ? $p : nl2br( $p );
+			$out .= 0 === strpos( $p, '<table' ) ? $p : wpautop( $p );
 		}
 		return '<!DOCTYPE html><html><body style="font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.5;color:#1e1e1e;">' . $out . '</body></html>';
 	}

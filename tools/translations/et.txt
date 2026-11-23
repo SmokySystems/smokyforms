@@ -116,8 +116,6 @@ b61b8f|Lisa veerg
 9c6803|Kustuta tabel
 531553|Rida 1
 450423|Lisa hinnatabel
-1aefc6|Saad kasutada:
-19002d|Ühe välja vastus
 0db377|Üldine
 111082|Nupu tekst
 8da5e2|Teade pärast saatmist
@@ -127,7 +125,6 @@ aac08d|Jäta tühjaks, et näidata selle asemel teadet.
 86dc8e|Kaitse seda vormi seadetes määratud CAPTCHA-ga.
 539ec8|CAPTCHA-t pole veel seadistatud. Saad selle lisada jaotises SmokyForms > Seaded. Lõksväli ja ajakontroll kaitsevad igat vormi niikuinii.
 74b72d|Teavitus sulle
-48ff32|SmokyForms ei salvesta sisestusi; iga sisestus saadetakse sulle e-postiga. Kui e-kiri ebaõnnestub, säilitatakse sisestus jaotises SmokyForms > Kohale toimetamata.
 d245dd|Saada mulle e-kiri iga sisestuse kohta
 c973ca|Saaja
 61739f|Eralda mitu aadressi komadega.
@@ -172,7 +169,6 @@ f75d8f|Saidi võti
 783e8e|sekundit
 615249|Vorme, mis saadetakse pärast lehe laadimist sellest kiiremini, loetakse rämpspostiks. 0 lülitab kontrolli välja.
 4def17|Kohale toimetamata teavitused
-9f5630|SmokyForms ei salvesta sisestusi; need saadetakse sulle e-postiga. Kui teavituskirja ei saa saata, säilitatakse sisestus, et see kaduma ei läheks, ja saad selle uuesti saata jaotises SmokyForms > Kohale toimetamata.
 f24a17|Säilita
 44fdec|päeva
 c89567|SmokyForms: %s sisestust ei õnnestunud sulle e-postiga saata. ¦ SmokyForms: %s sisestust ei õnnestunud sulle e-postiga saata.
@@ -413,3 +409,26 @@ c75143|Pilet
 abce00|Täiskasvanu – 25
 2d337d|Laps – 10
 ccdac9|Faili %s ei õnnestunud üles laadida. Proovi uuesti.
+0869e1|Peida nutisildid
+1e8fdb|Näita nutisilte
+6311ae|Muu
+928d86|HTML on lubatud, näiteks <strong>, <a href="..."> või <img src="...">.
+14614b|Vormi lehe pealkiri
+af53b1|Saidi aadress
+b044c3|Külastaja IP-aadress
+c21d00|Näita vormi pealkirja
+266cc8|Näita vormi kirjeldust
+ce7fc3|Kirjeldus kirjutatakse vormi seadetes.
+019a87|Nupu stiil
+477bdd|Vaikimisi näevad nupud välja nagu sinu teema nupud. Vali värvid ainult siis, kui tahad neid teistsugusena.
+a9ded1|Taust
+578392|Taust hõljutamisel
+1f58ec|Tekst hõljutamisel
+31fde7|Eelvaade
+6d7da2|Kasuta teema stiili
+7df0ae|Vormi kirjeldus
+ffb213|Valikuline. Näidatakse vormi kohal, kui plokis on sees „Näita vormi kirjeldust”, või koodiga %s. HTML on lubatud.
+31671a|Otsi lehti või kleebi aadress
+6cf0ea|SmokyFormsi tasuta versioon saadab iga vastuse sulle meiliga ega salvesta seda. SmokyForms Pro (peagi) salvestab kõik vastused töölauale, otsingu ja CSV-ekspordiga. Kui e-kiri ebaõnnestub, säilitatakse sisestus jaotises SmokyForms > Kohale toimetamata.
+babed6|SmokyFormsi tasuta versioon saadab iga vastuse sulle meiliga ega salvesta seda. SmokyForms Pro (peagi) salvestab kõik vastused töölauale, otsingu ja CSV-ekspordiga. Kui teavituskirja ei saa saata, säilitatakse sisestus, et see kaduma ei läheks, ja saad selle uuesti saata jaotises SmokyForms > Kohale toimetamata.
+d72175|Teema

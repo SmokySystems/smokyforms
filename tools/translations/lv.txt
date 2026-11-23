@@ -116,8 +116,6 @@ b61b8f|Pievienot kolonnu
 9c6803|Dzēst tabulu
 531553|Rinda 1
 450423|Pievienot cenu tabulu
-1aefc6|Varat izmantot:
-19002d|Viena lauka atbilde
 0db377|Vispārīgi
 111082|Pogas teksts
 8da5e2|Ziņojums pēc nosūtīšanas
@@ -127,7 +125,6 @@ aac08d|Atstājiet tukšu, lai tā vietā rādītu ziņojumu.
 86dc8e|Aizsargāt šo veidlapu ar CAPTCHA, kas iestatīta sadaļā Iestatījumi.
 539ec8|CAPTCHA vēl nav iestatīta. To var pievienot sadaļā SmokyForms > Iestatījumi. Lamatu lauks un laika pārbaude tik un tā aizsargā katru veidlapu.
 74b72d|Paziņojums jums
-48ff32|SmokyForms neglabā iesniegumus; katrs iesniegums jums tiek nosūtīts pa e-pastu. Ja e-pastu neizdodas nosūtīt, iesniegums tiek saglabāts sadaļā SmokyForms > Nepiegādātie.
 d245dd|Sūtīt man e-pastu par katru iesniegumu
 c973ca|Sūtīt uz
 61739f|Vairākas adreses atdaliet ar komatiem.
@@ -172,7 +169,6 @@ f75d8f|Vietnes atslēga
 783e8e|sekundes
 615249|Veidlapas, kas nosūtītas ātrāk par šo laiku pēc lapas ielādes, tiek uzskatītas par surogātpastu. 0 izslēdz pārbaudi.
 4def17|Nepiegādātie paziņojumi
-9f5630|SmokyForms neglabā iesniegumus; tie jums tiek nosūtīti pa e-pastu. Ja paziņojuma e-pastu nevar nosūtīt, iesniegums tiek saglabāts, lai tas nepazustu, un to var nosūtīt vēlreiz sadaļā SmokyForms > Nepiegādātie.
 f24a17|Glabāt
 44fdec|dienas
 c89567|SmokyForms: %s iesniegumu neizdevās jums nosūtīt pa e-pastu. ¦ SmokyForms: %s iesniegumus neizdevās jums nosūtīt pa e-pastu. ¦ SmokyForms: %s iesniegumu neizdevās jums nosūtīt pa e-pastu.
@@ -413,3 +409,26 @@ c75143|Biļete
 abce00|Pieaugušais – 25
 2d337d|Bērns – 10
 ccdac9|Neizdevās augšupielādēt %s. Mēģiniet vēlreiz.
+0869e1|Paslēpt viedos tagus
+1e8fdb|Rādīt viedos tagus
+6311ae|Citi
+928d86|Var izmantot HTML, piemēram, <strong>, <a href="..."> vai <img src="...">.
+14614b|Formas lapas virsraksts
+af53b1|Vietnes adrese
+b044c3|Apmeklētāja IP adrese
+c21d00|Rādīt formas virsrakstu
+266cc8|Rādīt formas aprakstu
+ce7fc3|Aprakstu raksta formas iestatījumos.
+019a87|Pogas stils
+477bdd|Pēc noklusējuma pogas izskatās kā jūsu tēmas pogas. Izvēlieties krāsas tikai tad, ja vēlaties, lai tās atšķirtos.
+a9ded1|Fons
+578392|Fons, novietojot kursoru
+1f58ec|Teksts, novietojot kursoru
+31fde7|Priekšskatījums
+6d7da2|Izmantot tēmas stilu
+7df0ae|Formas apraksts
+ffb213|Neobligāti. Tiek rādīts virs formas, ja blokā ir ieslēgts “Rādīt formas aprakstu”, vai ar %s. Var izmantot HTML.
+31671a|Meklējiet lapas vai ielīmējiet adresi
+6cf0ea|SmokyForms bezmaksas versija katru iesniegumu nosūta jums pa e-pastu un to nesaglabā. SmokyForms Pro (drīzumā) saglabā visus iesniegumus vadības panelī, ar meklēšanu un CSV eksportu. Ja e-pastu neizdodas nosūtīt, iesniegums tiek saglabāts sadaļā SmokyForms > Nepiegādātie.
+babed6|SmokyForms bezmaksas versija katru iesniegumu nosūta jums pa e-pastu un to nesaglabā. SmokyForms Pro (drīzumā) saglabā visus iesniegumus vadības panelī, ar meklēšanu un CSV eksportu. Ja paziņojuma e-pastu nevar nosūtīt, iesniegums tiek saglabāts, lai tas nepazustu, un to var nosūtīt vēlreiz sadaļā SmokyForms > Nepiegādātie.
+d72175|Tēma

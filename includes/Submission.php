@@ -104,7 +104,7 @@ final class Submission {
 
 		$success = array(
 			'ok'       => true,
-			'message'  => wpautop( $form['settings']['success_message'] ),
+			'message'  => wpautop( Notifications::replace( $form['settings']['success_message'], $form, array(), true ) ),
 			'redirect' => $form['settings']['redirect'],
 		);
 
@@ -201,7 +201,8 @@ final class Submission {
 
 		Notifications::send( $form, $values );
 
-		$success = apply_filters( 'smokyforms_success_response', $success, $entry, $form );
+		$success['message'] = wpautop( Notifications::replace( $form['settings']['success_message'], $form, $values, true ) );
+		$success            = apply_filters( 'smokyforms_success_response', $success, $entry, $form );
 		return $success;
 	}
 

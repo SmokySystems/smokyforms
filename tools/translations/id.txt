@@ -116,8 +116,6 @@ b61b8f|Tambah kolom
 9c6803|Hapus tabel
 531553|Baris 1
 450423|Tambah tabel harga
-1aefc6|Anda bisa memakai:
-19002d|Jawaban satu kolom
 0db377|Umum
 111082|Teks tombol
 8da5e2|Pesan setelah dikirim
@@ -127,7 +125,6 @@ aac08d|Biarkan kosong untuk menampilkan pesan.
 86dc8e|Lindungi formulir ini dengan CAPTCHA yang diatur di Pengaturan.
 539ec8|Belum ada CAPTCHA yang diatur. Anda bisa menambahkannya di SmokyForms > Pengaturan. Kolom jebakan dan pemeriksaan waktu tetap melindungi setiap formulir.
 74b72d|Pemberitahuan untuk Anda
-48ff32|SmokyForms tidak menyimpan kiriman; setiap kiriman dikirim ke email Anda. Jika email gagal, kiriman disimpan di SmokyForms > Tak terkirim.
 d245dd|Kirimi saya email untuk setiap kiriman
 c973ca|Kirim ke
 61739f|Pisahkan beberapa alamat dengan koma.
@@ -172,7 +169,6 @@ f75d8f|Kunci situs
 783e8e|detik
 615249|Formulir yang dikirim lebih cepat dari ini setelah halaman dimuat dianggap spam. 0 mematikan pemeriksaan.
 4def17|Pemberitahuan tak terkirim
-9f5630|SmokyForms tidak menyimpan kiriman; kiriman dikirim ke email Anda. Jika email pemberitahuan tidak dapat dikirim, kiriman disimpan agar tidak hilang, dan Anda bisa mengirimnya lagi di SmokyForms > Tak terkirim.
 f24a17|Simpan selama
 44fdec|hari
 c89567|SmokyForms: %s kiriman tidak dapat dikirim ke email Anda.
@@ -413,3 +409,26 @@ c75143|Tiket
 abce00|Dewasa – 25
 2d337d|Anak – 10
 ccdac9|%s tidak dapat diunggah. Silakan coba lagi.
+0869e1|Sembunyikan tag pintar
+1e8fdb|Tampilkan tag pintar
+6311ae|Lainnya
+928d86|HTML diizinkan, misalnya <strong>, <a href="..."> atau <img src="...">.
+14614b|Judul halaman formulir
+af53b1|Alamat situs
+b044c3|Alamat IP pengunjung
+c21d00|Tampilkan judul formulir
+266cc8|Tampilkan deskripsi formulir
+ce7fc3|Deskripsi ditulis di pengaturan formulir.
+019a87|Gaya tombol
+477bdd|Secara bawaan tombol terlihat seperti tombol tema Anda. Pilih warna hanya jika Anda ingin berbeda.
+a9ded1|Latar
+578392|Latar saat disorot
+1f58ec|Teks saat disorot
+31fde7|Pratinjau
+6d7da2|Gunakan gaya tema
+7df0ae|Deskripsi formulir
+ffb213|Opsional. Ditampilkan di atas formulir jika "Tampilkan deskripsi formulir" aktif di blok, atau dengan %s. HTML diizinkan.
+31671a|Cari halaman atau tempel alamat
+6cf0ea|Versi gratis SmokyForms mengirim setiap kiriman ke email Anda dan tidak menyimpannya. SmokyForms Pro (segera hadir) menyimpan semua kiriman di dasbor Anda, dengan pencarian dan ekspor CSV. Jika email gagal, kiriman disimpan di SmokyForms > Tak terkirim.
+babed6|Versi gratis SmokyForms mengirim setiap kiriman ke email Anda dan tidak menyimpannya. SmokyForms Pro (segera hadir) menyimpan semua kiriman di dasbor Anda, dengan pencarian dan ekspor CSV. Jika email pemberitahuan tidak dapat dikirim, kiriman disimpan agar tidak hilang, dan Anda bisa mengirimnya lagi di SmokyForms > Tak terkirim.
+d72175|Tema

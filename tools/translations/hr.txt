@@ -116,8 +116,6 @@ b61b8f|Dodaj stupac
 9c6803|Izbriši tablicu
 531553|Redak 1
 450423|Dodaj cjenik
-1aefc6|Možete koristiti:
-19002d|Odgovor jednog polja
 0db377|Općenito
 111082|Tekst gumba
 8da5e2|Poruka nakon slanja
@@ -127,7 +125,6 @@ aac08d|Ostavite prazno da se umjesto toga prikaže poruka.
 86dc8e|Zaštiti ovaj obrazac CAPTCHA-om postavljenom u Postavkama.
 539ec8|Još nije postavljena CAPTCHA. Možete je dodati u SmokyForms > Postavke. Polje-zamka i provjera vremena ionako štite svaki obrazac.
 74b72d|Obavijest za vas
-48ff32|SmokyForms ne sprema unose; svaki unos šalje vam se e-poštom. Ako e-poruka ne uspije, unos se čuva u SmokyForms > Neisporučeno.
 d245dd|Pošalji mi e-poruku za svaki unos
 c973ca|Pošalji na
 61739f|Više adresa odvojite zarezima.
@@ -172,7 +169,6 @@ f75d8f|Ključ stranice
 783e8e|sekundi
 615249|Obrasci poslani brže od ovoga nakon učitavanja stranice smatraju se neželjenom poštom. 0 isključuje provjeru.
 4def17|Neisporučene obavijesti
-9f5630|SmokyForms ne sprema unose; šalju vam se e-poštom. Ako se obavijest ne može poslati, unos se čuva da se ne izgubi i možete ga ponovno poslati u SmokyForms > Neisporučeno.
 f24a17|Čuvaj
 44fdec|dana
 c89567|SmokyForms: %s unos nije vam bilo moguće poslati e-poštom. ¦ SmokyForms: %s unosa nije vam bilo moguće poslati e-poštom. ¦ SmokyForms: %s unosa nije vam bilo moguće poslati e-poštom.
@@ -413,3 +409,26 @@ c75143|Ulaznica
 abce00|Odrasli – 25
 2d337d|Dijete – 10
 ccdac9|Nije moguće učitati %s. Pokušajte ponovno.
+0869e1|Sakrij pametne oznake
+1e8fdb|Prikaži pametne oznake
+6311ae|Ostalo
+928d86|HTML je dopušten, na primjer <strong>, <a href="..."> ili <img src="...">.
+14614b|Naslov stranice s obrascem
+af53b1|Adresa web-mjesta
+b044c3|IP adresa posjetitelja
+c21d00|Prikaži naslov obrasca
+266cc8|Prikaži opis obrasca
+ce7fc3|Opis se piše u postavkama obrasca.
+019a87|Stil gumba
+477bdd|Prema zadanim postavkama gumbi izgledaju kao gumbi vaše teme. Odaberite boje samo ako želite da budu drukčiji.
+a9ded1|Pozadina
+578392|Pozadina pri prelasku mišem
+1f58ec|Tekst pri prelasku mišem
+31fde7|Pretpregled
+6d7da2|Koristi stil teme
+7df0ae|Opis obrasca
+ffb213|Neobavezno. Prikazuje se iznad obrasca kada je u bloku uključeno „Prikaži opis obrasca”, ili sa %s. HTML je dopušten.
+31671a|Pretražite stranice ili zalijepite adresu
+6cf0ea|Besplatna verzija SmokyForms šalje vam svaku prijavu e-poštom i ne sprema je. SmokyForms Pro (uskoro) sprema sve prijave na nadzornoj ploči, s pretraživanjem i CSV izvozom. Ako e-poruka ne uspije, unos se čuva u SmokyForms > Neisporučeno.
+babed6|Besplatna verzija SmokyForms šalje vam svaku prijavu e-poštom i ne sprema je. SmokyForms Pro (uskoro) sprema sve prijave na nadzornoj ploči, s pretraživanjem i CSV izvozom. Ako se obavijest ne može poslati, unos se čuva da se ne izgubi i možete ga ponovno poslati u SmokyForms > Neisporučeno.
+d72175|Tema

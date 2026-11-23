@@ -116,8 +116,6 @@ b61b8f|Dodaj stolpec
 9c6803|Izbriši tabelo
 531553|Vrstica 1
 450423|Dodaj cenik
-1aefc6|Uporabite lahko:
-19002d|Odgovor enega polja
 0db377|Splošno
 111082|Besedilo gumba
 8da5e2|Sporočilo po pošiljanju
@@ -127,7 +125,6 @@ aac08d|Pustite prazno, da se namesto tega prikaže sporočilo.
 86dc8e|Zaščiti ta obrazec s CAPTCHA, nastavljeno v Nastavitvah.
 539ec8|CAPTCHA še ni nastavljena. Dodate jo lahko v SmokyForms > Nastavitve. Polje-past in preverjanje časa tako ali tako ščitita vsak obrazec.
 74b72d|Obvestilo za vas
-48ff32|SmokyForms ne shranjuje vnosov; vsak vnos vam pošlje po e-pošti. Če e-pošta ne uspe, se vnos ohrani v SmokyForms > Nedostavljeno.
 d245dd|Pošlji mi e-pošto za vsak vnos
 c973ca|Pošlji na
 61739f|Več naslovov ločite z vejicami.
@@ -172,7 +169,6 @@ f75d8f|Ključ spletnega mesta
 783e8e|sekund
 615249|Obrazci, poslani hitreje od tega po nalaganju strani, veljajo za neželeno pošto. 0 izklopi preverjanje.
 4def17|Nedostavljena obvestila
-9f5630|SmokyForms ne shranjuje vnosov; pošiljajo se vam po e-pošti. Če obvestila ni mogoče poslati, se vnos ohrani, da se ne izgubi, in ga lahko znova pošljete v SmokyForms > Nedostavljeno.
 f24a17|Hrani
 44fdec|dni
 c89567|SmokyForms: %s vnosa vam ni bilo mogoče poslati po e-pošti. ¦ SmokyForms: %s vnosov vam ni bilo mogoče poslati po e-pošti. ¦ SmokyForms: %s vnosov vam ni bilo mogoče poslati po e-pošti. ¦ SmokyForms: %s vnosov vam ni bilo mogoče poslati po e-pošti.
@@ -413,3 +409,26 @@ c75143|Vstopnica
 abce00|Odrasli – 25
 2d337d|Otrok – 10
 ccdac9|%s ni bilo mogoče naložiti. Poskusite znova.
+0869e1|Skrij pametne oznake
+1e8fdb|Prikaži pametne oznake
+6311ae|Drugo
+928d86|HTML je dovoljen, na primer <strong>, <a href="..."> ali <img src="...">.
+14614b|Naslov strani z obrazcem
+af53b1|Naslov spletnega mesta
+b044c3|IP-naslov obiskovalca
+c21d00|Prikaži naslov obrazca
+266cc8|Prikaži opis obrazca
+ce7fc3|Opis se napiše v nastavitvah obrazca.
+019a87|Slog gumba
+477bdd|Privzeto so gumbi videti kot gumbi vaše teme. Barve izberite le, če želite, da so drugačni.
+a9ded1|Ozadje
+578392|Ozadje ob prehodu z miško
+1f58ec|Besedilo ob prehodu z miško
+31fde7|Predogled
+6d7da2|Uporabi slog teme
+7df0ae|Opis obrazca
+ffb213|Neobvezno. Prikaže se nad obrazcem, ko je v bloku vklopljeno »Prikaži opis obrazca«, ali s %s. HTML je dovoljen.
+31671a|Poiščite strani ali prilepite naslov
+6cf0ea|Brezplačna različica SmokyForms vam vsako oddajo pošlje po e-pošti in je ne shrani. SmokyForms Pro (kmalu) shrani vse oddaje na nadzorni plošči, z iskanjem in izvozom CSV. Če e-pošta ne uspe, se vnos ohrani v SmokyForms > Nedostavljeno.
+babed6|Brezplačna različica SmokyForms vam vsako oddajo pošlje po e-pošti in je ne shrani. SmokyForms Pro (kmalu) shrani vse oddaje na nadzorni plošči, z iskanjem in izvozom CSV. Če obvestila ni mogoče poslati, se vnos ohrani, da se ne izgubi, in ga lahko znova pošljete v SmokyForms > Nedostavljeno.
+d72175|Tema

@@ -116,8 +116,6 @@ b61b8f|Kolom toevoegen
 9c6803|Tabel verwijderen
 531553|Rij 1
 450423|Prijstabel toevoegen
-1aefc6|Je kunt gebruiken:
-19002d|Antwoord van één veld
 0db377|Algemeen
 111082|Knoptekst
 8da5e2|Bericht na verzenden
@@ -127,7 +125,6 @@ aac08d|Leeg laten om in plaats daarvan het bericht te tonen.
 86dc8e|Dit formulier beschermen met de CAPTCHA die onder Instellingen is ingesteld.
 539ec8|Er is nog geen CAPTCHA ingesteld. Je kunt er een toevoegen onder SmokyForms > Instellingen. Het valveld en de tijdcontrole beschermen elk formulier hoe dan ook.
 74b72d|Melding aan jou
-48ff32|SmokyForms slaat geen inzendingen op; elke inzending wordt je gemaild. Mislukt de e-mail, dan wordt de inzending bewaard onder SmokyForms > Niet bezorgd.
 d245dd|Stuur me een e-mail bij elke inzending
 c973ca|Versturen naar
 61739f|Scheid meerdere adressen met komma's.
@@ -172,7 +169,6 @@ f75d8f|Sitesleutel
 783e8e|seconden
 615249|Formulieren die sneller dan dit na het laden van de pagina verstuurd worden, gelden als spam. 0 zet de controle uit.
 4def17|Niet-bezorgde meldingen
-9f5630|SmokyForms slaat geen inzendingen op; ze worden je gemaild. Als een meldingsmail niet verstuurd kan worden, wordt de inzending bewaard zodat hij niet verloren gaat, en kun je hem opnieuw versturen onder SmokyForms > Niet bezorgd.
 f24a17|Bewaren gedurende
 44fdec|dagen
 c89567|SmokyForms: %s inzending kon niet naar je gemaild worden. ¦ SmokyForms: %s inzendingen konden niet naar je gemaild worden.
@@ -413,3 +409,26 @@ c75143|Ticket
 abce00|Volwassene – 25
 2d337d|Kind – 10
 ccdac9|%s kon niet worden geüpload. Probeer het opnieuw.
+0869e1|Slimme tags verbergen
+1e8fdb|Slimme tags tonen
+6311ae|Overig
+928d86|HTML is toegestaan, bijvoorbeeld <strong>, <a href="..."> of <img src="...">.
+14614b|Titel van de formulierpagina
+af53b1|Siteadres
+b044c3|IP-adres van de bezoeker
+c21d00|Formuliertitel tonen
+266cc8|Formulierbeschrijving tonen
+ce7fc3|De beschrijving schrijf je in de formulierinstellingen.
+019a87|Knopstijl
+477bdd|Standaard zien de knoppen eruit als die van je thema. Kies alleen kleuren als je ze anders wilt.
+a9ded1|Achtergrond
+578392|Achtergrond bij hover
+1f58ec|Tekst bij hover
+31fde7|Voorbeeld
+6d7da2|Stijl van het thema gebruiken
+7df0ae|Formulierbeschrijving
+ffb213|Optioneel. Wordt boven het formulier getoond als 'Formulierbeschrijving tonen' in het blok aan staat, of met %s. HTML is toegestaan.
+31671a|Zoek pagina's of plak een adres
+6cf0ea|De gratis versie van SmokyForms mailt je elke inzending en slaat die niet op. SmokyForms Pro (binnenkort) bewaart alle inzendingen in je dashboard, met zoeken en CSV-export. Mislukt de e-mail, dan wordt de inzending bewaard onder SmokyForms > Niet bezorgd.
+babed6|De gratis versie van SmokyForms mailt je elke inzending en slaat die niet op. SmokyForms Pro (binnenkort) bewaart alle inzendingen in je dashboard, met zoeken en CSV-export. Als een meldingsmail niet verstuurd kan worden, wordt de inzending bewaard zodat hij niet verloren gaat, en kun je hem opnieuw versturen onder SmokyForms > Niet bezorgd.
+d72175|Thema

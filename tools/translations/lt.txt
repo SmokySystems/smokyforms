@@ -116,8 +116,6 @@ b61b8f|Pridėti stulpelį
 9c6803|Ištrinti lentelę
 531553|Eilutė 1
 450423|Pridėti kainų lentelę
-1aefc6|Galite naudoti:
-19002d|Vieno lauko atsakymas
 0db377|Bendra
 111082|Mygtuko tekstas
 8da5e2|Pranešimas po išsiuntimo
@@ -127,7 +125,6 @@ aac08d|Palikite tuščią, kad būtų rodomas pranešimas.
 86dc8e|Apsaugoti šią formą CAPTCHA, nustatyta skiltyje „Nustatymai“.
 539ec8|CAPTCHA dar nenustatyta. Ją galite pridėti skiltyje SmokyForms > Nustatymai. Spąstų laukas ir laiko patikra ir taip saugo kiekvieną formą.
 74b72d|Pranešimas jums
-48ff32|SmokyForms nesaugo pateikimų; kiekvienas pateikimas siunčiamas jums el. paštu. Jei laiško išsiųsti nepavyksta, pateikimas išsaugomas skiltyje SmokyForms > Nepristatyti.
 d245dd|Siųsti man laišką apie kiekvieną pateikimą
 c973ca|Siųsti
 61739f|Kelis adresus atskirkite kableliais.
@@ -172,7 +169,6 @@ f75d8f|Svetainės raktas
 783e8e|sekundės
 615249|Formos, išsiųstos greičiau nei per šį laiką nuo puslapio įkėlimo, laikomos šlamštu. 0 išjungia patikrą.
 4def17|Nepristatyti pranešimai
-9f5630|SmokyForms nesaugo pateikimų; jie siunčiami jums el. paštu. Jei pranešimo laiško išsiųsti nepavyksta, pateikimas išsaugomas, kad nedingtų, ir galite jį išsiųsti iš naujo skiltyje SmokyForms > Nepristatyti.
 f24a17|Saugoti
 44fdec|dienas
 c89567|SmokyForms: %s pateikimo nepavyko išsiųsti jums el. paštu. ¦ SmokyForms: %s pateikimų nepavyko išsiųsti jums el. paštu. ¦ SmokyForms: %s pateikimų nepavyko išsiųsti jums el. paštu.
@@ -413,3 +409,26 @@ c75143|Bilietas
 abce00|Suaugęs – 25
 2d337d|Vaikas – 10
 ccdac9|Nepavyko įkelti %s. Bandykite dar kartą.
+0869e1|Slėpti išmaniąsias žymes
+1e8fdb|Rodyti išmaniąsias žymes
+6311ae|Kita
+928d86|Galima naudoti HTML, pavyzdžiui, <strong>, <a href="..."> arba <img src="...">.
+14614b|Formos puslapio pavadinimas
+af53b1|Svetainės adresas
+b044c3|Lankytojo IP adresas
+c21d00|Rodyti formos pavadinimą
+266cc8|Rodyti formos aprašymą
+ce7fc3|Aprašymas rašomas formos nustatymuose.
+019a87|Mygtuko stilius
+477bdd|Pagal numatymą mygtukai atrodo kaip jūsų temos mygtukai. Spalvas rinkitės tik tada, jei norite, kad jie atrodytų kitaip.
+a9ded1|Fonas
+578392|Fonas užvedus pelę
+1f58ec|Tekstas užvedus pelę
+31fde7|Peržiūra
+6d7da2|Naudoti temos stilių
+7df0ae|Formos aprašymas
+ffb213|Neprivaloma. Rodomas virš formos, kai bloke įjungta „Rodyti formos aprašymą“, arba su %s. Galima naudoti HTML.
+31671a|Ieškokite puslapių arba įklijuokite adresą
+6cf0ea|Nemokama SmokyForms versija kiekvieną pateikimą atsiunčia jums el. paštu ir jo neišsaugo. SmokyForms Pro (jau greitai) išsaugo visus pateikimus valdymo skydelyje, su paieška ir CSV eksportu. paštu. Jei laiško išsiųsti nepavyksta, pateikimas išsaugomas skiltyje SmokyForms > Nepristatyti.
+babed6|Nemokama SmokyForms versija kiekvieną pateikimą atsiunčia jums el. paštu ir jo neišsaugo. SmokyForms Pro (jau greitai) išsaugo visus pateikimus valdymo skydelyje, su paieška ir CSV eksportu. paštu. Jei pranešimo laiško išsiųsti nepavyksta, pateikimas išsaugomas, kad nedingtų, ir galite jį išsiųsti iš naujo skiltyje SmokyForms > Nepristatyti.
+d72175|Tema

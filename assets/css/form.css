@@ -293,3 +293,13 @@
 .smokyforms-type-file input[type="file"] {
 	padding: 0.4em;
 }
+/* Title and description (optional, block or shortcode option) */
+.smokyforms-header {
+	margin-block-end: 1.5em;
+}
+.smokyforms-title {
+	margin: 0 0 0.5em;
+}
+.smokyforms-description > :last-child {
+	margin-block-end: 0;
+}

@@ -116,8 +116,6 @@ b61b8f|Afegeix una columna
 9c6803|Suprimeix la taula
 531553|Fila 1
 450423|Afegeix una taula de preus
-1aefc6|Podeu fer servir:
-19002d|Resposta d’un camp
 0db377|General
 111082|Text del botó
 8da5e2|Missatge després de l’enviament
@@ -127,7 +125,6 @@ aac08d|Deixeu-ho buit per mostrar el missatge.
 86dc8e|Protegeix aquest formulari amb el CAPTCHA configurat a Configuració.
 539ec8|Encara no hi ha cap CAPTCHA configurat. En podeu afegir un a SmokyForms > Configuració. El camp trampa i el control de temps protegeixen igualment tots els formularis.
 74b72d|Avís per a vós
-48ff32|SmokyForms no desa les entrades; cada entrada se us envia per correu. Si el correu falla, l’entrada es conserva a SmokyForms > No lliurades.
 d245dd|Envia’m un correu per cada entrada
 c973ca|Envia a
 61739f|Separeu diverses adreces amb comes.
@@ -172,7 +169,6 @@ f75d8f|Clau del lloc
 783e8e|segons
 615249|Els formularis enviats més ràpid que això després de carregar la pàgina es consideren correu brossa. 0 desactiva el control.
 4def17|Avisos no lliurats
-9f5630|SmokyForms no desa les entrades; se us envien per correu. Quan un correu d’avís no es pot enviar, l’entrada es conserva perquè no es perdi i la podeu tornar a enviar a SmokyForms > No lliurades.
 f24a17|Conserva durant
 44fdec|dies
 c89567|SmokyForms: %s entrada no se us ha pogut enviar per correu. ¦ SmokyForms: %s entrades no se us han pogut enviar per correu.
@@ -413,3 +409,26 @@ c75143|Entrada
 abce00|Adult – 25
 2d337d|Infant – 10
 ccdac9|No s’ha pogut pujar %s. Torneu-ho a provar.
+0869e1|Amaga les etiquetes intel·ligents
+1e8fdb|Mostra les etiquetes intel·ligents
+6311ae|Altres
+928d86|Es permet HTML, per exemple <strong>, <a href="..."> o <img src="...">.
+14614b|Títol de la pàgina del formulari
+af53b1|Adreça del lloc
+b044c3|Adreça IP del visitant
+c21d00|Mostra el títol del formulari
+266cc8|Mostra la descripció del formulari
+ce7fc3|La descripció s’escriu als paràmetres del formulari.
+019a87|Estil del botó
+477bdd|Per defecte, els botons tenen l’aspecte dels del vostre tema. Trieu colors només si els voleu diferents.
+a9ded1|Fons
+578392|Fons en passar-hi el ratolí
+1f58ec|Text en passar-hi el ratolí
+31fde7|Previsualització
+6d7da2|Fes servir l’estil del tema
+7df0ae|Descripció del formulari
+ffb213|Opcional. Es mostra damunt del formulari quan «Mostra la descripció del formulari» està activat al bloc, o amb %s. Es permet HTML.
+31671a|Cerqueu pàgines o enganxeu una adreça
+6cf0ea|La versió gratuïta de SmokyForms us envia cada resposta per correu i no la desa. SmokyForms Pro (aviat) desa totes les respostes al vostre tauler, amb cerca i exportació CSV. Si el correu falla, l’entrada es conserva a SmokyForms > No lliurades.
+babed6|La versió gratuïta de SmokyForms us envia cada resposta per correu i no la desa. SmokyForms Pro (aviat) desa totes les respostes al vostre tauler, amb cerca i exportació CSV. Quan un correu d’avís no es pot enviar, l’entrada es conserva perquè no es perdi i la podeu tornar a enviar a SmokyForms > No lliurades.
+d72175|Tema
