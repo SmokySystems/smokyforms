@@ -323,3 +323,93 @@ c3a7ea|Lähettäjän nimi
 ee1851|Lähetä testiviesti
 7caa16|SmokyForms – Vedä ja pudota -lomakerakentaja laskelmilla
 9958f8|Vedä ja pudota -lomakerakentaja ilmaisilla laskelmilla. Luo yhteydenotto-, tarjous- ja tilauslomakkeita sekä laskureita kirjoittamatta kaavoja.
+b37875|Toistuva ryhmä
+d9f5f2|%s: rivien määrä
+16a3ac|%1$s: %2$s yhteensä
+1415c1|%s: tiedostojen määrä
+374bea|Seuraava sivu
+907db1|Ei vielä kenttiä
+5f78b2|Ehtologiikka
+a2a551|on
+b1b55b|ei ole
+bf943a|on tyhjä
+9de408|ei ole tyhjä
+3609cb|on suurempi kuin
+bed162|on pienempi kuin
+857af2|sisältää
+7bfdce|Näytä tai piilota tämä kenttä muiden vastausten mukaan.
+004bf6|Toiminto
+3b2035|Näytä tämä kenttä
+c739ca|Piilota tämä kenttä
+6da892|Täsmäys
+e77510|jos kaikki säännöt täyttyvät
+83e482|jos jokin sääntö täyttyy
+6f16a5|Kenttä
+f6c0e3|Vertailu
+964305|Poista sääntö
+9b5e7f|Lisää sääntö
+a1fa27|Tyyppi
+4589d5|Lisää kenttä
+a1177e|Seuraavan sivun otsikko
+415341|Valinnainen. Kaikki tämän sivunvaihdon alla seuraavaan asti on lomakkeen yksi sivu.
+b27e83|Tähtien määrä
+914ccb|Sallitut tiedostotyypit
+d39f1a|Tiedostopäätteet pilkuilla erotettuina. Vain WordPressin itsensä sallimia tyyppejä voi käyttää.
+d8b894|Suurin tiedosto (Mt)
+7d8c41|Palvelimesi sallii enintään %s Mt.
+18de35|Tiedostojen määrä
+fc09de|Liitä ilmoitussähköpostiin
+b8c34f|Sähköpostissa on aina linkki tiedostoon. Sähköpostipalvelimet voivat hylätä suuret liitteet.
+91d907|Kunkin rivin kentät
+cb5ffd|Vähiten rivejä
+161252|Eniten rivejä
+192d51|Lisäyspainikkeen teksti
+854a4e|Lisää toinen
+d9c320|Seuraava-painike
+10ac3d|Seuraava
+fab2df|Takaisin-painike
+dd1f77|Edellinen
+57518a|Näytä edistymispalkki
+0eb631|Lomakkeille, joissa on sivunvaihtoja: ”Vaihe 1/3” lomakkeen yläpuolella.
+851653|Ladatut tiedostot
+168038|Lomakkeella lähetetyt tiedostot ja allekirjoitukset tallennetaan kansioon uploads/smokyforms vaikeasti arvattavin linkein, ja sähköposti linkittää niihin.
+9ff4e0|Poista ladatut tiedostot, kun on kulunut
+138ce5|0 säilyttää tiedostot, kunnes poistat ne itse.
+dda9c0|Arvio
+c42655|Tiedoston lataus
+8c0900|Allekirjoitus
+fdd64f|Sivunvaihto
+86757c|Täytä vähintään %s rivi. ¦ Täytä vähintään %s riviä.
+2c2c5c|Täytä enintään %s rivi. ¦ Täytä enintään %s riviä.
+739100|Allekirjoitusta ei voitu lukea. Allekirjoita uudelleen.
+54e7ab|%s tähti ¦ %s tähteä
+0bd3e3|Sallitut tiedostotyypit: %1$s. Enintään %2$s Mt tiedostoa kohden.
+2e24c6|Voit ladata enintään %s tiedoston. ¦ Voit ladata enintään %s tiedostoa.
+02f371|Allekirjoittaminen vaatii JavaScriptin. Ota se käyttöön selaimessasi.
+fded2f|Poista tämä rivi
+d0e7dd|Vaihe %1$s/%2$s
+6d402b|%1$s on suurempi kuin %2$s Mt.
+2a8b08|%s: tämä tiedostotyyppi ei ole sallittu.
+969c43|Asiakaspalaute
+043168|Tähtiarvio ja jatkokysymyksiä, jotka riippuvat arviosta.
+3936da|Miten arvioisit kokemuksesi?
+f04b38|Mistä pidit eniten?
+4a179f|Mitä meidän pitäisi tehdä paremmin?
+c2be8a|Suosittelisitko meitä ystävällesi?
+d62968|Kiitos palautteestasi!
+47b537|Työhakemus
+155113|Kaksi sivua ja CV:n lataus.
+5fda1c|Hakemuksesi
+e22ca6|Tehtävä, jota haet
+755b7f|CV:si
+50521e|Saatekirje
+77657c|Kiitos! Saimme hakemuksesi.
+c1014b|Tapahtumailmoittautuminen
+b266f3|Ilmoita useita henkilöitä kerralla; summa seuraa lippuja.
+0bff4c|Osallistujat
+195693|Lisää henkilö
+f11b36|Koko nimi
+c75143|Lippu
+abce00|Aikuinen – 25
+2d337d|Lapsi – 10
+ccdac9|Tiedostoa %s ei voitu ladata. Yritä uudelleen.

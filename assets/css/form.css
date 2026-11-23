@@ -123,3 +123,173 @@
 	height: 1px;
 	overflow: hidden;
 }
+/* Steps */
+.smokyforms-step[hidden],
+.smokyforms-progress[hidden],
+.smokyforms-button[hidden],
+.smokyforms-captcha[hidden] {
+	display: none;
+}
+.smokyforms-step-title {
+	margin: 0 0 1em;
+}
+.smokyforms-step-title:focus {
+	outline: none;
+}
+.smokyforms-progress {
+	margin-block-end: 1.5em;
+}
+.smokyforms-progress-text {
+	margin: 0 0 0.4em;
+	font-size: 0.875em;
+}
+.smokyforms-progress-bar {
+	height: 6px;
+	border-radius: 3px;
+	background: rgba(127, 127, 127, 0.25);
+	overflow: hidden;
+}
+.smokyforms-progress-bar span {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: currentColor;
+	transition: width 0.2s ease;
+}
+.smokyforms-submit {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75em;
+}
+.smokyforms-prev {
+	order: -1;
+}
+/* Rating */
+.smokyforms-stars {
+	display: inline-flex;
+	gap: 0.15em;
+}
+.smokyforms-star-input {
+	position: absolute;
+	opacity: 0;
+	width: 1px;
+	height: 1px;
+}
+.smokyforms-star {
+	font-size: 1.75em;
+	line-height: 1;
+	cursor: pointer;
+	color: #f0b000;
+}
+.smokyforms-star-icon {
+	transition: opacity 0.1s;
+}
+/* Same specificity everywhere, so the order decides: filled up to the chosen or hovered star. */
+:where(.smokyforms-stars) .smokyforms-star-icon {
+	opacity: 0.25;
+}
+:where(.smokyforms-stars:has(input:checked)) .smokyforms-star-icon {
+	opacity: 1;
+}
+:where(.smokyforms-stars input:checked + .smokyforms-star ~ .smokyforms-star) .smokyforms-star-icon {
+	opacity: 0.25;
+}
+:where(.smokyforms-stars:hover) .smokyforms-star-icon {
+	opacity: 1;
+}
+:where(.smokyforms-star:hover ~ .smokyforms-star) .smokyforms-star-icon {
+	opacity: 0.25;
+}
+.smokyforms-star-input:focus-visible + .smokyforms-star {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+.smokyforms-sr {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+/* Signature */
+.smokyforms-signature {
+	position: relative;
+}
+.smokyforms-signature-pad {
+	display: block;
+	width: 100%;
+	height: 160px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	touch-action: none;
+	cursor: crosshair;
+}
+.smokyforms-signature-clear {
+	position: absolute;
+	inset-block-start: 0.4em;
+	inset-inline-end: 0.4em;
+	padding: 0.2em 0.6em;
+	font: inherit;
+	font-size: 0.8em;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+	background: Canvas;
+	color: CanvasText;
+	cursor: pointer;
+}
+/* Repeating group */
+.smokyforms-repeater {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	min-width: 0;
+}
+.smokyforms-repeater legend {
+	padding: 0;
+}
+.smokyforms-row {
+	position: relative;
+	padding: 1em 2.5em 1em 1em;
+	margin-block-end: 0.75em;
+	border: 1px solid rgba(127, 127, 127, 0.35);
+	border-radius: 4px;
+}
+.smokyforms-row .smokyforms-fields {
+	margin: 0;
+	gap: 1em;
+}
+.smokyforms-remove-row {
+	position: absolute;
+	inset-block-start: 0.4em;
+	inset-inline-end: 0.4em;
+	width: 1.8em;
+	height: 1.8em;
+	padding: 0;
+	font: inherit;
+	line-height: 1;
+	border: 0;
+	background: transparent;
+	color: inherit;
+	cursor: pointer;
+	font-size: 1.1em;
+}
+.smokyforms-remove-row[hidden],
+.smokyforms-add-row[hidden] {
+	display: none;
+}
+.smokyforms-add-row {
+	font: inherit;
+	cursor: pointer;
+}
+:where(.smokyforms-add-row) {
+	padding: 0.45em 1em;
+	border: 1px solid currentColor;
+	border-radius: 4px;
+	background: transparent;
+	color: inherit;
+}
+.smokyforms-type-file input[type="file"] {
+	padding: 0.4em;
+}

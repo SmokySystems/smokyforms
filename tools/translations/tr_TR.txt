@@ -323,3 +323,93 @@ c3a7ea|Gönderen adı
 ee1851|Deneme e-postası gönder
 7caa16|SmokyForms – Hesaplamalı sürükle bırak form oluşturucu
 9958f8|Hesaplamaların ücretsiz olduğu sürükle bırak form oluşturucu. İletişim formları, fiyat teklifi ve sipariş formları ile hesaplayıcıları formül yazmadan oluşturun.
+b37875|Tekrarlanan grup
+d9f5f2|%s: satır sayısı
+16a3ac|%1$s: %2$s toplamı
+1415c1|%s: dosya sayısı
+374bea|Sonraki sayfa
+907db1|Henüz alan yok
+5f78b2|Koşullu mantık
+a2a551|eşittir
+b1b55b|eşit değildir
+bf943a|boştur
+9de408|boş değildir
+3609cb|büyüktür
+bed162|küçüktür
+857af2|içerir
+7bfdce|Bu alanı diğer cevaplara göre gösterin ya da gizleyin.
+004bf6|İşlem
+3b2035|Bu alanı göster
+c739ca|Bu alanı gizle
+6da892|Eşleşme
+e77510|tüm kurallar uyarsa
+83e482|herhangi bir kural uyarsa
+6f16a5|Alan
+f6c0e3|Karşılaştırma
+964305|Kuralı kaldır
+9b5e7f|Kural ekle
+a1fa27|Tür
+4589d5|Alan ekle
+a1177e|Sonraki sayfanın başlığı
+415341|İsteğe bağlı. Bu sayfa sonundan bir sonrakine kadar olan her şey formun bir sayfasıdır.
+b27e83|Yıldız sayısı
+914ccb|İzin verilen dosya türleri
+d39f1a|Virgülle ayrılmış dosya uzantıları. Yalnızca WordPress'in kendisinin izin verdiği türler kullanılabilir.
+d8b894|En büyük dosya (MB)
+7d8c41|Sunucunuz en fazla %s MB'a izin veriyor.
+18de35|Dosya sayısı
+fc09de|Bildirim e-postasına ekle
+b8c34f|E-posta her zaman dosyanın bağlantısını içerir. Büyük ekler e-posta sunucuları tarafından reddedilebilir.
+91d907|Her satırın alanları
+cb5ffd|En az satır
+161252|En çok satır
+192d51|Ekleme düğmesinin metni
+854a4e|Bir tane daha ekle
+d9c320|İleri düğmesi
+10ac3d|İleri
+fab2df|Geri düğmesi
+dd1f77|Geri
+57518a|İlerleme çubuğunu göster
+0eb631|Sayfa sonu olan formlar için: formun üstünde "Adım 1 / 3".
+851653|Yüklenen dosyalar
+168038|Formla gönderilen dosyalar ve imzalar, tahmin edilmesi zor bağlantılarla uploads/smokyforms klasörüne kaydedilir ve e-posta bunlara bağlantı verir.
+9ff4e0|Yüklenen dosyaları şu süre sonra sil
+138ce5|0, dosyaları siz silene kadar saklar.
+dda9c0|Puanlama
+c42655|Dosya yükleme
+8c0900|İmza
+fdd64f|Sayfa sonu
+86757c|Lütfen en az %s satır doldurun. ¦ Lütfen en az %s satır doldurun.
+2c2c5c|Lütfen en fazla %s satır doldurun. ¦ Lütfen en fazla %s satır doldurun.
+739100|İmza okunamadı. Lütfen tekrar imzalayın.
+54e7ab|%s yıldız ¦ %s yıldız
+0bd3e3|İzin verilen dosya türleri: %1$s. Dosya başına en fazla %2$s MB.
+2e24c6|En fazla %s dosya yükleyebilirsiniz. ¦ En fazla %s dosya yükleyebilirsiniz.
+02f371|İmza atmak için JavaScript gerekir. Lütfen tarayıcınızda açın.
+fded2f|Bu satırı kaldır
+d0e7dd|Adım %1$s / %2$s
+6d402b|%1$s, %2$s MB'tan büyük.
+2a8b08|%s: bu dosya türüne izin verilmiyor.
+969c43|Müşteri geri bildirimi
+043168|Puana göre değişen ek sorularla yıldızlı puanlama.
+3936da|Deneyiminizi nasıl puanlarsınız?
+f04b38|En çok neyi beğendiniz?
+4a179f|Neyi daha iyi yapmalıyız?
+c2be8a|Bizi bir arkadaşınıza tavsiye eder misiniz?
+d62968|Geri bildiriminiz için teşekkürler!
+47b537|İş başvurusu
+155113|Özgeçmiş yüklemeli iki sayfa.
+5fda1c|Başvurunuz
+e22ca6|Başvurduğunuz pozisyon
+755b7f|Özgeçmişiniz
+50521e|Ön yazı
+77657c|Teşekkürler! Başvurunuzu aldık.
+c1014b|Etkinlik kaydı
+b266f3|Birden fazla kişiyi bir kerede kaydedin; toplam biletlere göre hesaplanır.
+0bff4c|Katılımcılar
+195693|Kişi ekle
+f11b36|Ad soyad
+c75143|Bilet
+abce00|Yetişkin – 25
+2d337d|Çocuk – 10
+ccdac9|%s yüklenemedi. Lütfen tekrar deneyin.

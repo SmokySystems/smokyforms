@@ -323,3 +323,93 @@ c3a7ea|Afzendernaam
 ee1851|Testmail versturen
 7caa16|SmokyForms – Drag-and-drop formulierbouwer met berekeningen
 9958f8|Drag-and-drop formulierbouwer met gratis berekeningen. Maak contact-, offerte- en bestelformulieren en rekenmachines zonder formules te schrijven.
+b37875|Herhaalbare groep
+d9f5f2|%s: aantal rijen
+16a3ac|%1$s: totaal van %2$s
+1415c1|%s: aantal bestanden
+374bea|Volgende pagina
+907db1|Nog geen velden
+5f78b2|Voorwaardelijke logica
+a2a551|is
+b1b55b|is niet
+bf943a|is leeg
+9de408|is niet leeg
+3609cb|is groter dan
+bed162|is kleiner dan
+857af2|bevat
+7bfdce|Toon of verberg dit veld afhankelijk van andere antwoorden.
+004bf6|Actie
+3b2035|Dit veld tonen
+c739ca|Dit veld verbergen
+6da892|Overeenkomst
+e77510|als alle regels kloppen
+83e482|als een regel klopt
+6f16a5|Veld
+f6c0e3|Vergelijking
+964305|Regel verwijderen
+9b5e7f|Regel toevoegen
+a1fa27|Type
+4589d5|Veld toevoegen
+a1177e|Titel van de volgende pagina
+415341|Optioneel. Alles onder dit pagina-einde, tot het volgende, is één pagina van het formulier.
+b27e83|Aantal sterren
+914ccb|Toegestane bestandstypen
+d39f1a|Bestandsextensies, gescheiden door komma's. Alleen typen die WordPress zelf toestaat, kunnen worden gebruikt.
+d8b894|Grootste bestand (MB)
+7d8c41|Je server staat tot %s MB toe.
+18de35|Aantal bestanden
+fc09de|Bijvoegen bij de melding per e-mail
+b8c34f|De e-mail linkt altijd naar het bestand. Grote bijlagen kunnen door mailservers worden geweigerd.
+91d907|Velden van elke rij
+cb5ffd|Minste rijen
+161252|Meeste rijen
+192d51|Tekst van de knop om toe te voegen
+854a4e|Nog een toevoegen
+d9c320|Knop Volgende
+10ac3d|Volgende
+fab2df|Knop Terug
+dd1f77|Vorige
+57518a|Voortgangsbalk tonen
+0eb631|Voor formulieren met pagina-einden: 'Stap 1 van 3' boven het formulier.
+851653|Geüploade bestanden
+168038|Bestanden en handtekeningen die met een formulier worden verstuurd, worden opgeslagen in de map uploads/smokyforms met moeilijk te raden links, en de e-mail linkt ernaar.
+9ff4e0|Geüploade bestanden verwijderen na
+138ce5|0 bewaart de bestanden tot je ze zelf verwijdert.
+dda9c0|Beoordeling
+c42655|Bestand uploaden
+8c0900|Handtekening
+fdd64f|Pagina-einde
+86757c|Vul minstens %s rij in. ¦ Vul minstens %s rijen in.
+2c2c5c|Vul hoogstens %s rij in. ¦ Vul hoogstens %s rijen in.
+739100|De handtekening kon niet worden gelezen. Teken opnieuw.
+54e7ab|%s ster ¦ %s sterren
+0bd3e3|Toegestane bestandstypen: %1$s. Tot %2$s MB per bestand.
+2e24c6|Je kunt hoogstens %s bestand uploaden. ¦ Je kunt hoogstens %s bestanden uploaden.
+02f371|Voor ondertekenen is JavaScript nodig. Zet het aan in je browser.
+fded2f|Deze rij verwijderen
+d0e7dd|Stap %1$s van %2$s
+6d402b|%1$s is groter dan %2$s MB.
+2a8b08|%s: dit bestandstype is niet toegestaan.
+969c43|Klantfeedback
+043168|Sterbeoordeling met vervolgvragen die van de beoordeling afhangen.
+3936da|Hoe beoordeel je je ervaring?
+f04b38|Wat vond je het leukst?
+4a179f|Wat kunnen we beter doen?
+c2be8a|Zou je ons aanraden aan een vriend?
+d62968|Bedankt voor je feedback!
+47b537|Sollicitatie
+155113|Twee pagina's met cv-upload.
+5fda1c|Je sollicitatie
+e22ca6|Functie waarop je solliciteert
+755b7f|Je cv
+50521e|Motivatiebrief
+77657c|Bedankt! We hebben je sollicitatie ontvangen.
+c1014b|Aanmelding voor een evenement
+b266f3|Meld meerdere personen tegelijk aan; het totaal volgt de tickets.
+0bff4c|Deelnemers
+195693|Persoon toevoegen
+f11b36|Volledige naam
+c75143|Ticket
+abce00|Volwassene – 25
+2d337d|Kind – 10
+ccdac9|%s kon niet worden geüpload. Probeer het opnieuw.

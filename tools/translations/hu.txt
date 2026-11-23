@@ -323,3 +323,93 @@ c3a7ea|Feladó neve
 ee1851|Teszt e-mail küldése
 7caa16|SmokyForms – Fogd és vidd űrlapkészítő számításokkal
 9958f8|Fogd és vidd űrlapkészítő ingyenes számításokkal. Készítsen kapcsolatfelvételi, árajánlat- és rendelési űrlapokat és kalkulátorokat képletek írása nélkül.
+b37875|Ismétlődő csoport
+d9f5f2|%s: sorok száma
+16a3ac|%1$s: %2$s összesen
+1415c1|%s: fájlok száma
+374bea|Következő oldal
+907db1|Még nincsenek mezők
+5f78b2|Feltételes logika
+a2a551|egyenlő
+b1b55b|nem egyenlő
+bf943a|üres
+9de408|nem üres
+3609cb|nagyobb, mint
+bed162|kisebb, mint
+857af2|tartalmazza
+7bfdce|A mező megjelenítése vagy elrejtése más válaszoktól függően.
+004bf6|Művelet
+3b2035|A mező megjelenítése
+c739ca|A mező elrejtése
+6da892|Egyezés
+e77510|ha minden szabály teljesül
+83e482|ha bármelyik szabály teljesül
+6f16a5|Mező
+f6c0e3|Összehasonlítás
+964305|Szabály eltávolítása
+9b5e7f|Szabály hozzáadása
+a1fa27|Típus
+4589d5|Mező hozzáadása
+a1177e|A következő oldal címe
+415341|Nem kötelező. Minden, ami e töréspont alatt van a következőig, az űrlap egy oldala.
+b27e83|Csillagok száma
+914ccb|Engedélyezett fájltípusok
+d39f1a|Fájlkiterjesztések vesszővel elválasztva. Csak a WordPress által engedélyezett típusok használhatók.
+d8b894|Legnagyobb fájl (MB)
+7d8c41|A szervere legfeljebb %s MB-ot enged.
+18de35|Fájlok száma
+fc09de|Csatolás az értesítő e-mailhez
+b8c34f|Az e-mail mindig tartalmaz hivatkozást a fájlra. A levelezőszerverek elutasíthatják a nagy mellékleteket.
+91d907|Az egyes sorok mezői
+cb5ffd|Legkevesebb sor
+161252|Legtöbb sor
+192d51|A hozzáadás gomb szövege
+854a4e|Még egy hozzáadása
+d9c320|Tovább gomb
+10ac3d|Tovább
+fab2df|Vissza gomb
+dd1f77|Vissza
+57518a|Folyamatjelző megjelenítése
+0eb631|Oldaltöréses űrlapoknál: „1. lépés / 3” az űrlap fölött.
+851653|Feltöltött fájlok
+168038|Az űrlappal küldött fájlok és aláírások nehezen kitalálható hivatkozásokkal az uploads/smokyforms mappába kerülnek, és az e-mail hivatkozik rájuk.
+9ff4e0|Feltöltött fájlok törlése ennyi idő után
+138ce5|0 esetén a fájlok megmaradnak, amíg Ön nem törli őket.
+dda9c0|Értékelés
+c42655|Fájlfeltöltés
+8c0900|Aláírás
+fdd64f|Oldaltörés
+86757c|Töltsön ki legalább %s sort. ¦ Töltsön ki legalább %s sort.
+2c2c5c|Legfeljebb %s sort töltsön ki. ¦ Legfeljebb %s sort töltsön ki.
+739100|Az aláírás nem olvasható. Kérjük, írja alá újra.
+54e7ab|%s csillag ¦ %s csillag
+0bd3e3|Engedélyezett fájltípusok: %1$s. Fájlonként legfeljebb %2$s MB.
+2e24c6|Legfeljebb %s fájlt tölthet fel. ¦ Legfeljebb %s fájlt tölthet fel.
+02f371|Az aláíráshoz JavaScript szükséges. Kérjük, kapcsolja be a böngészőben.
+fded2f|Sor eltávolítása
+d0e7dd|%1$s. lépés / %2$s
+6d402b|%1$s nagyobb, mint %2$s MB.
+2a8b08|%s: ez a fájltípus nem engedélyezett.
+969c43|Ügyfél-visszajelzés
+043168|Csillagos értékelés az értékeléstől függő kérdésekkel.
+3936da|Hogyan értékeli a tapasztalatát?
+f04b38|Mi tetszett a legjobban?
+4a179f|Min kellene javítanunk?
+c2be8a|Ajánlana minket egy barátjának?
+d62968|Köszönjük a visszajelzést!
+47b537|Álláspályázat
+155113|Két oldal önéletrajz-feltöltéssel.
+5fda1c|Az Ön pályázata
+e22ca6|A megpályázott pozíció
+755b7f|Az Ön önéletrajza
+50521e|Motivációs levél
+77657c|Köszönjük! Megkaptuk a pályázatát.
+c1014b|Rendezvényre jelentkezés
+b266f3|Több személy jelentkeztetése egyszerre; az összeg a jegyeket követi.
+0bff4c|Résztvevők
+195693|Személy hozzáadása
+f11b36|Teljes név
+c75143|Jegy
+abce00|Felnőtt – 25
+2d337d|Gyermek – 10
+ccdac9|%s nem tölthető fel. Próbálja újra.

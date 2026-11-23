@@ -323,3 +323,93 @@ c3a7ea|Nome do remetente
 ee1851|Enviar email de teste
 7caa16|SmokyForms – Criador de formulários arrastar e largar com cálculos
 9958f8|Criador de formulários arrastar e largar com cálculos gratuitos. Crie formulários de contacto, de orçamento e de encomenda e calculadoras sem escrever fórmulas.
+b37875|Grupo repetível
+d9f5f2|%s: número de linhas
+16a3ac|%1$s: total de %2$s
+1415c1|%s: número de ficheiros
+374bea|Página seguinte
+907db1|Ainda sem campos
+5f78b2|Lógica condicional
+a2a551|é
+b1b55b|não é
+bf943a|está vazio
+9de408|não está vazio
+3609cb|é maior que
+bed162|é menor que
+857af2|contém
+7bfdce|Mostre ou oculte este campo consoante outras respostas.
+004bf6|Ação
+3b2035|Mostrar este campo
+c739ca|Ocultar este campo
+6da892|Correspondência
+e77510|se todas as regras corresponderem
+83e482|se alguma regra corresponder
+6f16a5|Campo
+f6c0e3|Comparação
+964305|Remover regra
+9b5e7f|Adicionar regra
+a1fa27|Tipo
+4589d5|Adicionar campo
+a1177e|Título da página seguinte
+415341|Opcional. Tudo abaixo desta quebra, até à seguinte, é uma página do formulário.
+b27e83|Número de estrelas
+914ccb|Tipos de ficheiro permitidos
+d39f1a|Extensões de ficheiro separadas por vírgulas. Só podem ser usados tipos que o próprio WordPress permite.
+d8b894|Maior ficheiro (MB)
+7d8c41|O seu servidor permite até %s MB.
+18de35|Número de ficheiros
+fc09de|Anexar ao email de notificação
+b8c34f|O email tem sempre uma ligação para o ficheiro. Anexos grandes podem ser recusados pelos servidores de email.
+91d907|Campos de cada linha
+cb5ffd|Mínimo de linhas
+161252|Máximo de linhas
+192d51|Texto do botão de adicionar
+854a4e|Adicionar outro
+d9c320|Botão Seguinte
+10ac3d|Seguinte
+fab2df|Botão Voltar
+dd1f77|Anterior
+57518a|Mostrar a barra de progresso
+0eb631|Para formulários com quebras de página: “Passo 1 de 3” acima do formulário.
+851653|Ficheiros enviados
+168038|Os ficheiros e assinaturas enviados com um formulário são guardados na pasta uploads/smokyforms com ligações difíceis de adivinhar, e o email tem ligações para eles.
+9ff4e0|Eliminar ficheiros enviados após
+138ce5|0 mantém os ficheiros até que os elimine.
+dda9c0|Avaliação
+c42655|Envio de ficheiro
+8c0900|Assinatura
+fdd64f|Quebra de página
+86757c|Preencha pelo menos %s linha. ¦ Preencha pelo menos %s linhas.
+2c2c5c|Preencha no máximo %s linha. ¦ Preencha no máximo %s linhas.
+739100|Não foi possível ler a assinatura. Assine novamente.
+54e7ab|%s estrela ¦ %s estrelas
+0bd3e3|Tipos de ficheiro permitidos: %1$s. Até %2$s MB por ficheiro.
+2e24c6|Pode enviar no máximo %s ficheiro. ¦ Pode enviar no máximo %s ficheiros.
+02f371|Para assinar é necessário JavaScript. Ative-o no seu navegador.
+fded2f|Remover esta linha
+d0e7dd|Passo %1$s de %2$s
+6d402b|%1$s é maior do que %2$s MB.
+2a8b08|%s: este tipo de ficheiro não é permitido.
+969c43|Opinião do cliente
+043168|Avaliação por estrelas com perguntas que dependem da avaliação.
+3936da|Como avalia a sua experiência?
+f04b38|Do que mais gostou?
+4a179f|O que devemos melhorar?
+c2be8a|Recomendar-nos-ia a um amigo?
+d62968|Obrigado pela sua opinião!
+47b537|Candidatura a emprego
+155113|Duas páginas com envio do CV.
+5fda1c|A sua candidatura
+e22ca6|Função a que se candidata
+755b7f|O seu CV
+50521e|Carta de apresentação
+77657c|Obrigado! Recebemos a sua candidatura.
+c1014b|Inscrição em evento
+b266f3|Inscreva várias pessoas de uma vez; o total acompanha os bilhetes.
+0bff4c|Participantes
+195693|Adicionar uma pessoa
+f11b36|Nome completo
+c75143|Bilhete
+abce00|Adulto – 25
+2d337d|Criança – 10
+ccdac9|Não foi possível enviar %s. Tente novamente.

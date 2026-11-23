@@ -323,3 +323,93 @@ c3a7ea|Nafn sendanda
 ee1851|Senda prufupóst
 7caa16|SmokyForms – Eyðublaðasmiður með draga og sleppa og útreikningum
 9958f8|Eyðublaðasmiður með draga og sleppa og ókeypis útreikningum. Búðu til samskipta-, tilboðs- og pöntunareyðublöð og reiknivélar án þess að skrifa formúlur.
+b37875|Endurtekinn hópur
+d9f5f2|%s: fjöldi raða
+16a3ac|%1$s: samtals %2$s
+1415c1|%s: fjöldi skráa
+374bea|Næsta síða
+907db1|Engir reitir enn
+5f78b2|Skilyrt rökfræði
+a2a551|er
+b1b55b|er ekki
+bf943a|er tómt
+9de408|er ekki tómt
+3609cb|er stærra en
+bed162|er minna en
+857af2|inniheldur
+7bfdce|Sýna eða fela þennan reit eftir öðrum svörum.
+004bf6|Aðgerð
+3b2035|Sýna þennan reit
+c739ca|Fela þennan reit
+6da892|Samsvörun
+e77510|ef allar reglur passa
+83e482|ef einhver regla passar
+6f16a5|Reitur
+f6c0e3|Samanburður
+964305|Fjarlægja reglu
+9b5e7f|Bæta við reglu
+a1fa27|Tegund
+4589d5|Bæta við reit
+a1177e|Titill næstu síðu
+415341|Valfrjálst. Allt fyrir neðan þetta síðuskil, að þeim næstu, er ein síða formsins.
+b27e83|Fjöldi stjarna
+914ccb|Leyfðar skráagerðir
+d39f1a|Skráarendingar aðskildar með kommum. Aðeins gerðir sem WordPress sjálft leyfir má nota.
+d8b894|Stærsta skrá (MB)
+7d8c41|Þjónninn þinn leyfir allt að %s MB.
+18de35|Fjöldi skráa
+fc09de|Hengja við tilkynningarpóstinn
+b8c34f|Pósturinn tengir alltaf á skrána. Póstþjónar geta hafnað stórum viðhengjum.
+91d907|Reitir hverrar raðar
+cb5ffd|Fæstar raðir
+161252|Flestar raðir
+192d51|Texti bæta við-hnappsins
+854a4e|Bæta við öðrum
+d9c320|Áfram-hnappur
+10ac3d|Áfram
+fab2df|Til baka-hnappur
+dd1f77|Til baka
+57518a|Sýna framvindustiku
+0eb631|Fyrir form með síðuskilum: „Skref 1 af 3“ fyrir ofan formið.
+851653|Innsendar skrár
+168038|Skrár og undirskriftir sem sendar eru með formi eru vistaðar í möppunni uploads/smokyforms með tenglum sem erfitt er að giska á, og pósturinn tengir á þær.
+9ff4e0|Eyða innsendum skrám eftir
+138ce5|0 geymir skrárnar þar til þú eyðir þeim sjálf(ur).
+dda9c0|Einkunn
+c42655|Skráarsending
+8c0900|Undirskrift
+fdd64f|Síðuskil
+86757c|Fylltu út a.m.k. %s röð. ¦ Fylltu út a.m.k. %s raðir.
+2c2c5c|Fylltu út í mesta lagi %s röð. ¦ Fylltu út í mesta lagi %s raðir.
+739100|Ekki tókst að lesa undirskriftina. Skrifaðu undir aftur.
+54e7ab|%s stjarna ¦ %s stjörnur
+0bd3e3|Leyfðar skráagerðir: %1$s. Allt að %2$s MB á skrá.
+2e24c6|Þú getur sent í mesta lagi %s skrá. ¦ Þú getur sent í mesta lagi %s skrár.
+02f371|Til að skrifa undir þarf JavaScript. Kveiktu á því í vafranum.
+fded2f|Fjarlægja þessa röð
+d0e7dd|Skref %1$s af %2$s
+6d402b|%1$s er stærri en %2$s MB.
+2a8b08|%s: þessi skráagerð er ekki leyfð.
+969c43|Endurgjöf viðskiptavina
+043168|Stjörnugjöf með framhaldsspurningum sem fara eftir einkunninni.
+3936da|Hvernig myndir þú meta upplifun þína?
+f04b38|Hvað líkaði þér best?
+4a179f|Hvað ættum við að gera betur?
+c2be8a|Myndir þú mæla með okkur við vin?
+d62968|Takk fyrir endurgjöfina!
+47b537|Atvinnuumsókn
+155113|Tvær síður með ferilskrá.
+5fda1c|Umsóknin þín
+e22ca6|Starf sem þú sækir um
+755b7f|Ferilskráin þín
+50521e|Kynningarbréf
+77657c|Takk! Við höfum fengið umsóknina þína.
+c1014b|Skráning á viðburð
+b266f3|Skráðu marga í einu; upphæðin fylgir miðunum.
+0bff4c|Þátttakendur
+195693|Bæta við manneskju
+f11b36|Fullt nafn
+c75143|Miði
+abce00|Fullorðinn – 25
+2d337d|Barn – 10
+ccdac9|Ekki tókst að senda %s. Reyndu aftur.

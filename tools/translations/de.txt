@@ -323,3 +323,93 @@ c3a7ea|Absendername
 ee1851|Test-E-Mail senden
 7caa16|SmokyForms – Drag-and-Drop-Formular-Builder mit Berechnungen
 9958f8|Drag-and-Drop-Formular-Builder mit kostenlosen Berechnungen. Erstellen Sie Kontakt-, Angebots- und Bestellformulare und Rechner, ohne Formeln zu schreiben.
+b37875|Wiederholbare Gruppe
+d9f5f2|%s: Anzahl der Zeilen
+16a3ac|%1$s: Summe von %2$s
+1415c1|%s: Anzahl der Dateien
+374bea|Nächste Seite
+907db1|Noch keine Felder
+5f78b2|Bedingte Logik
+a2a551|ist
+b1b55b|ist nicht
+bf943a|ist leer
+9de408|ist nicht leer
+3609cb|ist größer als
+bed162|ist kleiner als
+857af2|enthält
+7bfdce|Dieses Feld abhängig von anderen Antworten ein- oder ausblenden.
+004bf6|Aktion
+3b2035|Dieses Feld anzeigen
+c739ca|Dieses Feld ausblenden
+6da892|Übereinstimmung
+e77510|wenn alle Regeln zutreffen
+83e482|wenn eine Regel zutrifft
+6f16a5|Feld
+f6c0e3|Vergleich
+964305|Regel entfernen
+9b5e7f|Regel hinzufügen
+a1fa27|Typ
+4589d5|Feld hinzufügen
+a1177e|Titel der nächsten Seite
+415341|Optional. Alles unter diesem Umbruch bis zum nächsten ist eine Seite des Formulars.
+b27e83|Anzahl der Sterne
+914ccb|Erlaubte Dateitypen
+d39f1a|Dateiendungen, durch Kommas getrennt. Nur Typen, die WordPress selbst erlaubt, sind möglich.
+d8b894|Größte Datei (MB)
+7d8c41|Ihr Server erlaubt bis zu %s MB.
+18de35|Anzahl der Dateien
+fc09de|An die Benachrichtigungs-E-Mail anhängen
+b8c34f|Die E-Mail enthält immer einen Link zur Datei. Große Anhänge können von Mailservern abgelehnt werden.
+91d907|Felder jeder Zeile
+cb5ffd|Wenigste Zeilen
+161252|Meiste Zeilen
+192d51|Text der Hinzufügen-Schaltfläche
+854a4e|Weitere hinzufügen
+d9c320|Weiter-Schaltfläche
+10ac3d|Weiter
+fab2df|Zurück-Schaltfläche
+dd1f77|Zurück
+57518a|Fortschrittsbalken anzeigen
+0eb631|Für Formulare mit Seitenumbrüchen: „Schritt 1 von 3“ über dem Formular.
+851653|Hochgeladene Dateien
+168038|Mit einem Formular gesendete Dateien und Unterschriften werden im Ordner uploads/smokyforms mit schwer zu erratenden Links gespeichert, und die E-Mail verlinkt sie.
+9ff4e0|Hochgeladene Dateien löschen nach
+138ce5|0 behält die Dateien, bis Sie sie selbst löschen.
+dda9c0|Bewertung
+c42655|Datei-Upload
+8c0900|Unterschrift
+fdd64f|Seitenumbruch
+86757c|Bitte füllen Sie mindestens %s Zeile aus. ¦ Bitte füllen Sie mindestens %s Zeilen aus.
+2c2c5c|Bitte füllen Sie höchstens %s Zeile aus. ¦ Bitte füllen Sie höchstens %s Zeilen aus.
+739100|Die Unterschrift konnte nicht gelesen werden. Bitte unterschreiben Sie erneut.
+54e7ab|%s Stern ¦ %s Sterne
+0bd3e3|Erlaubte Dateitypen: %1$s. Bis zu %2$s MB pro Datei.
+2e24c6|Sie können höchstens %s Datei hochladen. ¦ Sie können höchstens %s Dateien hochladen.
+02f371|Zum Unterschreiben wird JavaScript benötigt. Bitte aktivieren Sie es in Ihrem Browser.
+fded2f|Diese Zeile entfernen
+d0e7dd|Schritt %1$s von %2$s
+6d402b|%1$s ist größer als %2$s MB.
+2a8b08|%s: Dieser Dateityp ist nicht erlaubt.
+969c43|Kundenfeedback
+043168|Sternebewertung mit Folgefragen, die von der Bewertung abhängen.
+3936da|Wie bewerten Sie Ihre Erfahrung?
+f04b38|Was hat Ihnen am besten gefallen?
+4a179f|Was sollten wir besser machen?
+c2be8a|Würden Sie uns einem Freund empfehlen?
+d62968|Vielen Dank für Ihr Feedback!
+47b537|Bewerbung
+155113|Zwei Seiten mit Lebenslauf-Upload.
+5fda1c|Ihre Bewerbung
+e22ca6|Stelle, auf die Sie sich bewerben
+755b7f|Ihr Lebenslauf
+50521e|Anschreiben
+77657c|Vielen Dank! Wir haben Ihre Bewerbung erhalten.
+c1014b|Veranstaltungsanmeldung
+b266f3|Mehrere Personen auf einmal anmelden; die Summe richtet sich nach den Tickets.
+0bff4c|Teilnehmende
+195693|Person hinzufügen
+f11b36|Vollständiger Name
+c75143|Ticket
+abce00|Erwachsene – 25
+2d337d|Kind – 10
+ccdac9|%s konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut.

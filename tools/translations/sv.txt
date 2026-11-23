@@ -323,3 +323,93 @@ c3a7ea|Avsändarnamn
 ee1851|Skicka testmejl
 7caa16|SmokyForms – Formulärbyggare med dra och släpp och beräkningar
 9958f8|Formulärbyggare med dra och släpp och kostnadsfria beräkningar. Skapa kontakt-, offert- och beställningsformulär och kalkylatorer utan att skriva formler.
+b37875|Upprepad grupp
+d9f5f2|%s: antal rader
+16a3ac|%1$s: summa av %2$s
+1415c1|%s: antal filer
+374bea|Nästa sida
+907db1|Inga fält än
+5f78b2|Villkorlig logik
+a2a551|är
+b1b55b|är inte
+bf943a|är tomt
+9de408|är inte tomt
+3609cb|är större än
+bed162|är mindre än
+857af2|innehåller
+7bfdce|Visa eller dölj det här fältet beroende på andra svar.
+004bf6|Åtgärd
+3b2035|Visa det här fältet
+c739ca|Dölj det här fältet
+6da892|Matchning
+e77510|om alla regler stämmer
+83e482|om någon regel stämmer
+6f16a5|Fält
+f6c0e3|Jämförelse
+964305|Ta bort regel
+9b5e7f|Lägg till regel
+a1fa27|Typ
+4589d5|Lägg till fält
+a1177e|Rubrik för nästa sida
+415341|Valfritt. Allt under den här sidbrytningen, fram till nästa, är en sida i formuläret.
+b27e83|Antal stjärnor
+914ccb|Tillåtna filtyper
+d39f1a|Filändelser åtskilda med kommatecken. Endast typer som WordPress själv tillåter kan användas.
+d8b894|Största fil (MB)
+7d8c41|Din server tillåter upp till %s MB.
+18de35|Antal filer
+fc09de|Bifoga i aviseringsmejlet
+b8c34f|Mejlet länkar alltid till filen. Stora bilagor kan nekas av e-postservrar.
+91d907|Fält på varje rad
+cb5ffd|Minst antal rader
+161252|Högst antal rader
+192d51|Text på lägg till-knappen
+854a4e|Lägg till en till
+d9c320|Nästa-knapp
+10ac3d|Nästa
+fab2df|Tillbaka-knapp
+dd1f77|Föregående
+57518a|Visa förloppsindikatorn
+0eb631|För formulär med sidbrytningar: ”Steg 1 av 3” ovanför formuläret.
+851653|Uppladdade filer
+168038|Filer och signaturer som skickas med ett formulär sparas i mappen uploads/smokyforms med svårgissade länkar, och mejlet länkar till dem.
+9ff4e0|Radera uppladdade filer efter
+138ce5|0 behåller filerna tills du raderar dem själv.
+dda9c0|Betyg
+c42655|Filuppladdning
+8c0900|Signatur
+fdd64f|Sidbrytning
+86757c|Fyll i minst %s rad. ¦ Fyll i minst %s rader.
+2c2c5c|Fyll i högst %s rad. ¦ Fyll i högst %s rader.
+739100|Signaturen kunde inte läsas. Signera igen.
+54e7ab|%s stjärna ¦ %s stjärnor
+0bd3e3|Tillåtna filtyper: %1$s. Upp till %2$s MB per fil.
+2e24c6|Du kan ladda upp högst %s fil. ¦ Du kan ladda upp högst %s filer.
+02f371|För att signera behövs JavaScript. Slå på det i webbläsaren.
+fded2f|Ta bort den här raden
+d0e7dd|Steg %1$s av %2$s
+6d402b|%1$s är större än %2$s MB.
+2a8b08|%s: den här filtypen är inte tillåten.
+969c43|Kundfeedback
+043168|Stjärnbetyg med följdfrågor som beror på betyget.
+3936da|Hur skulle du betygsätta din upplevelse?
+f04b38|Vad gillade du mest?
+4a179f|Vad borde vi göra bättre?
+c2be8a|Skulle du rekommendera oss till en vän?
+d62968|Tack för din feedback!
+47b537|Jobbansökan
+155113|Två sidor med uppladdning av CV.
+5fda1c|Din ansökan
+e22ca6|Tjänst du söker
+755b7f|Ditt CV
+50521e|Personligt brev
+77657c|Tack! Vi har tagit emot din ansökan.
+c1014b|Anmälan till evenemang
+b266f3|Anmäl flera personer samtidigt; summan följer biljetterna.
+0bff4c|Deltagare
+195693|Lägg till en person
+f11b36|Fullständigt namn
+c75143|Biljett
+abce00|Vuxen – 25
+2d337d|Barn – 10
+ccdac9|%s kunde inte laddas upp. Försök igen.

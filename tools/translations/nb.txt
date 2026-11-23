@@ -323,3 +323,93 @@ c3a7ea|Avsendernavn
 ee1851|Send test-e-post
 7caa16|SmokyForms – Skjemabygger med dra og slipp og beregninger
 9958f8|Skjemabygger med dra og slipp og gratis beregninger. Lag kontakt-, tilbuds- og bestillingsskjemaer og kalkulatorer uten å skrive formler.
+b37875|Gjentakende gruppe
+d9f5f2|%s: antall rader
+16a3ac|%1$s: sum av %2$s
+1415c1|%s: antall filer
+374bea|Neste side
+907db1|Ingen felt ennå
+5f78b2|Betinget logikk
+a2a551|er
+b1b55b|er ikke
+bf943a|er tom
+9de408|er ikke tom
+3609cb|er større enn
+bed162|er mindre enn
+857af2|inneholder
+7bfdce|Vis eller skjul dette feltet avhengig av andre svar.
+004bf6|Handling
+3b2035|Vis dette feltet
+c739ca|Skjul dette feltet
+6da892|Samsvar
+e77510|hvis alle regler stemmer
+83e482|hvis en regel stemmer
+6f16a5|Felt
+f6c0e3|Sammenligning
+964305|Fjern regel
+9b5e7f|Legg til regel
+a1fa27|Type
+4589d5|Legg til felt
+a1177e|Tittel på neste side
+415341|Valgfritt. Alt under dette sideskiftet, frem til det neste, er én side i skjemaet.
+b27e83|Antall stjerner
+914ccb|Tillatte filtyper
+d39f1a|Filendelser skilt med komma. Bare typer som WordPress selv tillater, kan brukes.
+d8b894|Største fil (MB)
+7d8c41|Serveren din tillater opptil %s MB.
+18de35|Antall filer
+fc09de|Legg ved i varslings-e-posten
+b8c34f|E-posten lenker alltid til filen. Store vedlegg kan bli avvist av e-postservere.
+91d907|Felt i hver rad
+cb5ffd|Færrest rader
+161252|Flest rader
+192d51|Tekst på legg til-knappen
+854a4e|Legg til en til
+d9c320|Neste-knapp
+10ac3d|Neste
+fab2df|Tilbake-knapp
+dd1f77|Forrige
+57518a|Vis fremdriftslinjen
+0eb631|For skjemaer med sideskift: «Trinn 1 av 3» over skjemaet.
+851653|Opplastede filer
+168038|Filer og signaturer som sendes med et skjema, lagres i mappen uploads/smokyforms med lenker som er vanskelige å gjette, og e-posten lenker til dem.
+9ff4e0|Slett opplastede filer etter
+138ce5|0 beholder filene til du sletter dem selv.
+dda9c0|Vurdering
+c42655|Filopplasting
+8c0900|Signatur
+fdd64f|Sideskift
+86757c|Fyll ut minst %s rad. ¦ Fyll ut minst %s rader.
+2c2c5c|Fyll ut høyst %s rad. ¦ Fyll ut høyst %s rader.
+739100|Signaturen kunne ikke leses. Signer på nytt.
+54e7ab|%s stjerne ¦ %s stjerner
+0bd3e3|Tillatte filtyper: %1$s. Opptil %2$s MB per fil.
+2e24c6|Du kan laste opp høyst %s fil. ¦ Du kan laste opp høyst %s filer.
+02f371|Signering krever JavaScript. Slå det på i nettleseren.
+fded2f|Fjern denne raden
+d0e7dd|Trinn %1$s av %2$s
+6d402b|%1$s er større enn %2$s MB.
+2a8b08|%s: denne filtypen er ikke tillatt.
+969c43|Kundetilbakemelding
+043168|Stjernevurdering med oppfølgingsspørsmål som avhenger av vurderingen.
+3936da|Hvordan vil du vurdere opplevelsen din?
+f04b38|Hva likte du best?
+4a179f|Hva bør vi gjøre bedre?
+c2be8a|Vil du anbefale oss til en venn?
+d62968|Takk for tilbakemeldingen!
+47b537|Jobbsøknad
+155113|To sider med opplasting av CV.
+5fda1c|Søknaden din
+e22ca6|Stillingen du søker på
+755b7f|CV-en din
+50521e|Søknadsbrev
+77657c|Takk! Vi har mottatt søknaden din.
+c1014b|Påmelding til arrangement
+b266f3|Meld på flere personer samtidig; summen følger billettene.
+0bff4c|Deltakere
+195693|Legg til en person
+f11b36|Fullt navn
+c75143|Billett
+abce00|Voksen – 25
+2d337d|Barn – 10
+ccdac9|%s kunne ikke lastes opp. Prøv igjen.

@@ -323,3 +323,93 @@ c3a7ea|Nom del remitent
 ee1851|Envia un correu de prova
 7caa16|SmokyForms – Creador de formularis d’arrossegar i deixar anar amb càlculs
 9958f8|Creador de formularis d’arrossegar i deixar anar amb càlculs gratuïts. Creeu formularis de contacte, de pressupost i de comanda i calculadores sense escriure fórmules.
+b37875|Grup repetible
+d9f5f2|%s: nombre de files
+16a3ac|%1$s: total de %2$s
+1415c1|%s: nombre de fitxers
+374bea|Pàgina següent
+907db1|Encara no hi ha camps
+5f78b2|Lògica condicional
+a2a551|és
+b1b55b|no és
+bf943a|és buit
+9de408|no és buit
+3609cb|és més gran que
+bed162|és més petit que
+857af2|conté
+7bfdce|Mostreu o amagueu aquest camp segons altres respostes.
+004bf6|Acció
+3b2035|Mostra aquest camp
+c739ca|Amaga aquest camp
+6da892|Coincidència
+e77510|si es compleixen totes les regles
+83e482|si es compleix alguna regla
+6f16a5|Camp
+f6c0e3|Comparació
+964305|Elimina la regla
+9b5e7f|Afegeix una regla
+a1fa27|Tipus
+4589d5|Afegeix un camp
+a1177e|Títol de la pàgina següent
+415341|Opcional. Tot el que hi ha sota aquest salt, fins al següent, és una pàgina del formulari.
+b27e83|Nombre d’estrelles
+914ccb|Tipus de fitxer permesos
+d39f1a|Extensions de fitxer separades per comes. Només es poden fer servir els tipus que permet el mateix WordPress.
+d8b894|Fitxer més gran (MB)
+7d8c41|El vostre servidor permet fins a %s MB.
+18de35|Nombre de fitxers
+fc09de|Adjunta al correu de notificació
+b8c34f|El correu sempre enllaça al fitxer. Els servidors de correu poden rebutjar adjunts grans.
+91d907|Camps de cada fila
+cb5ffd|Mínim de files
+161252|Màxim de files
+192d51|Text del botó d’afegir
+854a4e|Afegeix-ne un altre
+d9c320|Botó Següent
+10ac3d|Següent
+fab2df|Botó Enrere
+dd1f77|Anterior
+57518a|Mostra la barra de progrés
+0eb631|Per a formularis amb salts de pàgina: «Pas 1 de 3» damunt del formulari.
+851653|Fitxers pujats
+168038|Els fitxers i les signatures enviats amb un formulari es desen a la carpeta uploads/smokyforms amb enllaços difícils d’endevinar, i el correu hi enllaça.
+9ff4e0|Suprimeix els fitxers pujats després de
+138ce5|0 conserva els fitxers fins que els suprimiu vosaltres.
+dda9c0|Valoració
+c42655|Pujada de fitxers
+8c0900|Signatura
+fdd64f|Salt de pàgina
+86757c|Ompliu almenys %s fila. ¦ Ompliu almenys %s files.
+2c2c5c|Ompliu com a màxim %s fila. ¦ Ompliu com a màxim %s files.
+739100|No s’ha pogut llegir la signatura. Torneu a signar.
+54e7ab|%s estrella ¦ %s estrelles
+0bd3e3|Tipus de fitxer permesos: %1$s. Fins a %2$s MB per fitxer.
+2e24c6|Podeu pujar com a màxim %s fitxer. ¦ Podeu pujar com a màxim %s fitxers.
+02f371|Per signar cal JavaScript. Activeu-lo al navegador.
+fded2f|Elimina aquesta fila
+d0e7dd|Pas %1$s de %2$s
+6d402b|%1$s supera els %2$s MB.
+2a8b08|%s: aquest tipus de fitxer no està permès.
+969c43|Opinió dels clients
+043168|Valoració amb estrelles i preguntes que depenen de la valoració.
+3936da|Com valoreu la vostra experiència?
+f04b38|Què us ha agradat més?
+4a179f|Què hauríem de millorar?
+c2be8a|Ens recomanaríeu a un amic?
+d62968|Gràcies per la vostra opinió!
+47b537|Sol·licitud de feina
+155113|Dues pàgines amb pujada del currículum.
+5fda1c|La vostra sol·licitud
+e22ca6|Lloc al qual us presenteu
+755b7f|El vostre currículum
+50521e|Carta de presentació
+77657c|Gràcies! Hem rebut la vostra sol·licitud.
+c1014b|Inscripció a un esdeveniment
+b266f3|Inscriviu diverses persones alhora; el total segueix les entrades.
+0bff4c|Assistents
+195693|Afegeix una persona
+f11b36|Nom complet
+c75143|Entrada
+abce00|Adult – 25
+2d337d|Infant – 10
+ccdac9|No s’ha pogut pujar %s. Torneu-ho a provar.

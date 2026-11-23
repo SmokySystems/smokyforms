@@ -111,6 +111,18 @@ final class Settings {
 						</td>
 					</tr>
 				</table>
+				<h2><?php esc_html_e( 'Uploaded files', 'smokyforms' ); ?></h2>
+				<p><?php esc_html_e( 'Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them.', 'smokyforms' ); ?></p>
+				<table class="form-table" role="presentation">
+					<tr>
+						<th scope="row"><label for="smokyforms-keep-files"><?php esc_html_e( 'Delete uploaded files after', 'smokyforms' ); ?></label></th>
+						<td>
+							<input type="number" id="smokyforms-keep-files" class="small-text" min="0" max="3650" name="<?php echo esc_attr( $name ); ?>[keep_files]" value="<?php echo esc_attr( (string) $s['keep_files'] ); ?>">
+							<?php esc_html_e( 'days', 'smokyforms' ); ?>
+							<p class="description"><?php esc_html_e( '0 keeps the files until you delete them yourself.', 'smokyforms' ); ?></p>
+						</td>
+					</tr>
+				</table>
 				<?php submit_button(); ?>
 			</form>
 			<?php endif; ?>

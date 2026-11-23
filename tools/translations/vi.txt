@@ -323,3 +323,93 @@ c3a7ea|Tên người gửi
 ee1851|Gửi email thử
 7caa16|SmokyForms – Trình tạo biểu mẫu kéo thả có tính toán
 9958f8|Trình tạo biểu mẫu kéo thả với tính năng tính toán miễn phí. Tạo biểu mẫu liên hệ, báo giá, đặt hàng và máy tính mà không cần viết công thức.
+b37875|Nhóm lặp lại
+d9f5f2|%s: số hàng
+16a3ac|%1$s: tổng %2$s
+1415c1|%s: số tệp
+374bea|Trang tiếp theo
+907db1|Chưa có trường nào
+5f78b2|Logic điều kiện
+a2a551|bằng
+b1b55b|không bằng
+bf943a|trống
+9de408|không trống
+3609cb|lớn hơn
+bed162|nhỏ hơn
+857af2|chứa
+7bfdce|Hiện hoặc ẩn trường này tùy theo các câu trả lời khác.
+004bf6|Hành động
+3b2035|Hiện trường này
+c739ca|Ẩn trường này
+6da892|Khớp
+e77510|nếu mọi quy tắc khớp
+83e482|nếu có quy tắc nào khớp
+6f16a5|Trường
+f6c0e3|So sánh
+964305|Xóa quy tắc
+9b5e7f|Thêm quy tắc
+a1fa27|Loại
+4589d5|Thêm trường
+a1177e|Tiêu đề trang tiếp theo
+415341|Không bắt buộc. Mọi thứ bên dưới ngắt này, đến ngắt tiếp theo, là một trang của biểu mẫu.
+b27e83|Số sao
+914ccb|Loại tệp được phép
+d39f1a|Phần mở rộng tệp, cách nhau bằng dấu phẩy. Chỉ dùng được các loại mà chính WordPress cho phép.
+d8b894|Tệp lớn nhất (MB)
+7d8c41|Máy chủ của bạn cho phép tối đa %s MB.
+18de35|Số tệp
+fc09de|Đính kèm vào email thông báo
+b8c34f|Email luôn có liên kết đến tệp. Máy chủ thư có thể từ chối tệp đính kèm lớn.
+91d907|Các trường của mỗi hàng
+cb5ffd|Ít hàng nhất
+161252|Nhiều hàng nhất
+192d51|Chữ trên nút thêm
+854a4e|Thêm một mục nữa
+d9c320|Nút Tiếp
+10ac3d|Tiếp
+fab2df|Nút Quay lại
+dd1f77|Trước
+57518a|Hiện thanh tiến trình
+0eb631|Cho biểu mẫu có ngắt trang: "Bước 1/3" phía trên biểu mẫu.
+851653|Tệp đã tải lên
+168038|Tệp và chữ ký gửi kèm biểu mẫu được lưu trong thư mục uploads/smokyforms với liên kết khó đoán, và email có liên kết đến chúng.
+9ff4e0|Xóa tệp đã tải lên sau
+138ce5|0 giữ tệp cho đến khi bạn tự xóa.
+dda9c0|Đánh giá
+c42655|Tải tệp lên
+8c0900|Chữ ký
+fdd64f|Ngắt trang
+86757c|Vui lòng điền ít nhất %s hàng.
+2c2c5c|Vui lòng điền tối đa %s hàng.
+739100|Không đọc được chữ ký. Vui lòng ký lại.
+54e7ab|%s sao
+0bd3e3|Loại tệp được phép: %1$s. Tối đa %2$s MB mỗi tệp.
+2e24c6|Bạn có thể tải lên tối đa %s tệp.
+02f371|Cần JavaScript để ký. Vui lòng bật nó trong trình duyệt.
+fded2f|Xóa hàng này
+d0e7dd|Bước %1$s/%2$s
+6d402b|%1$s lớn hơn %2$s MB.
+2a8b08|%s: loại tệp này không được phép.
+969c43|Phản hồi của khách hàng
+043168|Đánh giá sao với các câu hỏi tiếp theo tùy theo điểm đánh giá.
+3936da|Bạn đánh giá trải nghiệm của mình thế nào?
+f04b38|Bạn thích điều gì nhất?
+4a179f|Chúng tôi nên cải thiện điều gì?
+c2be8a|Bạn có giới thiệu chúng tôi cho bạn bè không?
+d62968|Cảm ơn phản hồi của bạn!
+47b537|Đơn xin việc
+155113|Hai trang kèm tải CV lên.
+5fda1c|Đơn của bạn
+e22ca6|Vị trí bạn ứng tuyển
+755b7f|CV của bạn
+50521e|Thư xin việc
+77657c|Cảm ơn! Chúng tôi đã nhận được đơn của bạn.
+c1014b|Đăng ký sự kiện
+b266f3|Đăng ký nhiều người cùng lúc; tổng tiền theo số vé.
+0bff4c|Người tham dự
+195693|Thêm người
+f11b36|Họ và tên
+c75143|Vé
+abce00|Người lớn – 25
+2d337d|Trẻ em – 10
+ccdac9|Không thể tải lên %s. Vui lòng thử lại.

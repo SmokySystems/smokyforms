@@ -42,6 +42,7 @@ final class Settings {
 			'captcha_secret'   => '',
 			'min_seconds'      => 3,
 			'keep_undelivered' => 30,
+			'keep_files'       => 0,
 		);
 	}
 
@@ -82,6 +83,7 @@ final class Settings {
 		$out['captcha_secret']   = isset( $input['captcha_secret'] ) ? sanitize_text_field( $input['captcha_secret'] ) : '';
 		$out['min_seconds']      = isset( $input['min_seconds'] ) ? max( 0, min( 60, absint( $input['min_seconds'] ) ) ) : 3;
 		$out['keep_undelivered'] = isset( $input['keep_undelivered'] ) ? max( 1, min( 365, absint( $input['keep_undelivered'] ) ) ) : 30;
+		$out['keep_files']       = isset( $input['keep_files'] ) ? min( 3650, absint( $input['keep_files'] ) ) : 0;
 
 		// Keep the stored secret when the field was left empty.
 		if ( '' === $out['captcha_secret'] ) {

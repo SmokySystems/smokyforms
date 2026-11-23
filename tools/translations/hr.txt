@@ -323,3 +323,93 @@ c3a7ea|Ime pošiljatelja
 ee1851|Pošalji probnu e-poruku
 7caa16|SmokyForms – Alat za izradu obrazaca povlačenjem s izračunima
 9958f8|Alat za izradu obrazaca povlačenjem s besplatnim izračunima. Izradite kontaktne obrasce, obrasce za ponude i narudžbe te kalkulatore bez pisanja formula.
+b37875|Ponavljajuća grupa
+d9f5f2|%s: broj redaka
+16a3ac|%1$s: ukupno %2$s
+1415c1|%s: broj datoteka
+374bea|Sljedeća stranica
+907db1|Još nema polja
+5f78b2|Uvjetna logika
+a2a551|je
+b1b55b|nije
+bf943a|je prazno
+9de408|nije prazno
+3609cb|je veće od
+bed162|je manje od
+857af2|sadrži
+7bfdce|Prikažite ili sakrijte ovo polje ovisno o drugim odgovorima.
+004bf6|Radnja
+3b2035|Prikaži ovo polje
+c739ca|Sakrij ovo polje
+6da892|Podudaranje
+e77510|ako vrijede sva pravila
+83e482|ako vrijedi bilo koje pravilo
+6f16a5|Polje
+f6c0e3|Usporedba
+964305|Ukloni pravilo
+9b5e7f|Dodaj pravilo
+a1fa27|Vrsta
+4589d5|Dodaj polje
+a1177e|Naslov sljedeće stranice
+415341|Neobavezno. Sve ispod ovog prijeloma, do sljedećeg, jedna je stranica obrasca.
+b27e83|Broj zvjezdica
+914ccb|Dopuštene vrste datoteka
+d39f1a|Nastavci datoteka odvojeni zarezima. Mogu se koristiti samo vrste koje dopušta sam WordPress.
+d8b894|Najveća datoteka (MB)
+7d8c41|Vaš poslužitelj dopušta do %s MB.
+18de35|Broj datoteka
+fc09de|Priloži e-poruci s obavijesti
+b8c34f|E-poruka uvijek sadrži poveznicu na datoteku. Poslužitelji pošte mogu odbiti velike privitke.
+91d907|Polja svakog retka
+cb5ffd|Najmanje redaka
+161252|Najviše redaka
+192d51|Tekst gumba za dodavanje
+854a4e|Dodaj još jedan
+d9c320|Gumb Dalje
+10ac3d|Dalje
+fab2df|Gumb Natrag
+dd1f77|Prethodno
+57518a|Prikaži traku napretka
+0eb631|Za obrasce s prijelomima stranica: „Korak 1 od 3” iznad obrasca.
+851653|Učitane datoteke
+168038|Datoteke i potpisi poslani obrascem spremaju se u mapu uploads/smokyforms s poveznicama koje je teško pogoditi, a e-poruka sadrži poveznice na njih.
+9ff4e0|Izbriši učitane datoteke nakon
+138ce5|0 čuva datoteke dok ih sami ne izbrišete.
+dda9c0|Ocjena
+c42655|Učitavanje datoteke
+8c0900|Potpis
+fdd64f|Prijelom stranice
+86757c|Ispunite barem %s redak. ¦ Ispunite barem %s retka. ¦ Ispunite barem %s redaka.
+2c2c5c|Ispunite najviše %s redak. ¦ Ispunite najviše %s retka. ¦ Ispunite najviše %s redaka.
+739100|Potpis nije moguće pročitati. Potpišite se ponovno.
+54e7ab|%s zvjezdica ¦ %s zvjezdice ¦ %s zvjezdica
+0bd3e3|Dopuštene vrste datoteka: %1$s. Do %2$s MB po datoteci.
+2e24c6|Možete učitati najviše %s datoteku. ¦ Možete učitati najviše %s datoteke. ¦ Možete učitati najviše %s datoteka.
+02f371|Za potpis je potreban JavaScript. Uključite ga u pregledniku.
+fded2f|Ukloni ovaj redak
+d0e7dd|Korak %1$s od %2$s
+6d402b|%1$s je veća od %2$s MB.
+2a8b08|%s: ova vrsta datoteke nije dopuštena.
+969c43|Povratne informacije kupaca
+043168|Ocjena zvjezdicama s pitanjima koja ovise o ocjeni.
+3936da|Kako biste ocijenili svoje iskustvo?
+f04b38|Što vam se najviše svidjelo?
+4a179f|Što bismo trebali poboljšati?
+c2be8a|Biste li nas preporučili prijatelju?
+d62968|Hvala na povratnim informacijama!
+47b537|Prijava za posao
+155113|Dvije stranice s učitavanjem životopisa.
+5fda1c|Vaša prijava
+e22ca6|Radno mjesto za koje se prijavljujete
+755b7f|Vaš životopis
+50521e|Motivacijsko pismo
+77657c|Hvala! Primili smo vašu prijavu.
+c1014b|Prijava na događaj
+b266f3|Prijavite više osoba odjednom; ukupni iznos prati ulaznice.
+0bff4c|Sudionici
+195693|Dodaj osobu
+f11b36|Ime i prezime
+c75143|Ulaznica
+abce00|Odrasli – 25
+2d337d|Dijete – 10
+ccdac9|Nije moguće učitati %s. Pokušajte ponovno.

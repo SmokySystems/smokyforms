@@ -323,3 +323,93 @@ c3a7ea|Nama pengirim
 ee1851|Kirim email uji
 7caa16|SmokyForms – Pembuat formulir seret dan lepas dengan perhitungan
 9958f8|Pembuat formulir seret dan lepas dengan perhitungan gratis. Buat formulir kontak, penawaran, dan pesanan serta kalkulator tanpa menulis rumus.
+b37875|Grup berulang
+d9f5f2|%s: jumlah baris
+16a3ac|%1$s: total %2$s
+1415c1|%s: jumlah file
+374bea|Halaman berikutnya
+907db1|Belum ada kolom
+5f78b2|Logika bersyarat
+a2a551|sama dengan
+b1b55b|tidak sama dengan
+bf943a|kosong
+9de408|tidak kosong
+3609cb|lebih besar dari
+bed162|lebih kecil dari
+857af2|berisi
+7bfdce|Tampilkan atau sembunyikan kolom ini tergantung jawaban lain.
+004bf6|Tindakan
+3b2035|Tampilkan kolom ini
+c739ca|Sembunyikan kolom ini
+6da892|Kecocokan
+e77510|jika semua aturan cocok
+83e482|jika salah satu aturan cocok
+6f16a5|Kolom
+f6c0e3|Perbandingan
+964305|Hapus aturan
+9b5e7f|Tambah aturan
+a1fa27|Jenis
+4589d5|Tambah kolom
+a1177e|Judul halaman berikutnya
+415341|Opsional. Semua yang ada di bawah pemisah ini, sampai pemisah berikutnya, adalah satu halaman formulir.
+b27e83|Jumlah bintang
+914ccb|Jenis file yang diizinkan
+d39f1a|Ekstensi file dipisahkan koma. Hanya jenis yang diizinkan WordPress sendiri yang bisa digunakan.
+d8b894|File terbesar (MB)
+7d8c41|Server Anda mengizinkan hingga %s MB.
+18de35|Jumlah file
+fc09de|Lampirkan ke email notifikasi
+b8c34f|Email selalu berisi tautan ke file. Lampiran besar bisa ditolak oleh server email.
+91d907|Kolom setiap baris
+cb5ffd|Baris paling sedikit
+161252|Baris paling banyak
+192d51|Teks tombol tambah
+854a4e|Tambah lagi
+d9c320|Tombol Berikutnya
+10ac3d|Berikutnya
+fab2df|Tombol Kembali
+dd1f77|Sebelumnya
+57518a|Tampilkan bilah kemajuan
+0eb631|Untuk formulir dengan pemisah halaman: "Langkah 1 dari 3" di atas formulir.
+851653|File yang diunggah
+168038|File dan tanda tangan yang dikirim dengan formulir disimpan di folder uploads/smokyforms dengan tautan yang sulit ditebak, dan email berisi tautan ke sana.
+9ff4e0|Hapus file yang diunggah setelah
+138ce5|0 menyimpan file sampai Anda menghapusnya sendiri.
+dda9c0|Penilaian
+c42655|Unggah file
+8c0900|Tanda tangan
+fdd64f|Pemisah halaman
+86757c|Isi setidaknya %s baris.
+2c2c5c|Isi paling banyak %s baris.
+739100|Tanda tangan tidak dapat dibaca. Silakan tanda tangan lagi.
+54e7ab|%s bintang
+0bd3e3|Jenis file yang diizinkan: %1$s. Hingga %2$s MB per file.
+2e24c6|Anda dapat mengunggah paling banyak %s file.
+02f371|Tanda tangan memerlukan JavaScript. Aktifkan di peramban Anda.
+fded2f|Hapus baris ini
+d0e7dd|Langkah %1$s dari %2$s
+6d402b|%1$s lebih besar dari %2$s MB.
+2a8b08|%s: jenis file ini tidak diizinkan.
+969c43|Masukan pelanggan
+043168|Penilaian bintang dengan pertanyaan lanjutan yang tergantung pada penilaian.
+3936da|Bagaimana Anda menilai pengalaman Anda?
+f04b38|Apa yang paling Anda sukai?
+4a179f|Apa yang harus kami perbaiki?
+c2be8a|Apakah Anda akan merekomendasikan kami kepada teman?
+d62968|Terima kasih atas masukan Anda!
+47b537|Lamaran kerja
+155113|Dua halaman dengan unggahan CV.
+5fda1c|Lamaran Anda
+e22ca6|Posisi yang Anda lamar
+755b7f|CV Anda
+50521e|Surat lamaran
+77657c|Terima kasih! Kami sudah menerima lamaran Anda.
+c1014b|Pendaftaran acara
+b266f3|Daftarkan beberapa orang sekaligus; total mengikuti tiket.
+0bff4c|Peserta
+195693|Tambah orang
+f11b36|Nama lengkap
+c75143|Tiket
+abce00|Dewasa – 25
+2d337d|Anak – 10
+ccdac9|%s tidak dapat diunggah. Silakan coba lagi.

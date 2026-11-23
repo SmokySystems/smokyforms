@@ -4,11 +4,11 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Form builder with calculations included for free. Contact forms, quote and order forms, booking forms and calculators, without writing formulas.
+Form builder with free calculations, conditional logic, multi-page forms, file uploads and signatures. Quote and order forms, bookings, calculators.
 
 == Description ==
 
@@ -25,6 +25,7 @@ You build a calculation by clicking: pick a field, an operator, another field, a
 * **Dates.** Days between two dates, for nights of a stay or days of a rental.
 * **Price tables.** A price for each answer, or for each combination of two answers, such as zone and parcel size.
 * **Functions.** Round, round up, round down, smallest, largest, square root, power.
+* **Repeating groups.** Add up a field over all rows, for example tickets for every person, or count the rows.
 * **Calculations that use calculations.** Subtotal, discount and total as separate steps. A step can be hidden in the form and still appear in the email.
 * **Checked on the server.** The result is calculated again when the form is sent, so a total changed in the browser never reaches your email.
 * **Try it in the builder.** Enter sample answers and see the result before you publish.
@@ -32,9 +33,14 @@ You build a calculation by clicking: pick a field, an operator, another field, a
 = Forms =
 
 * Drag and drop builder with field settings beside the form.
-* Fields: single line text, paragraph, email, phone, website, number, dropdown, multiple choice, checkboxes, date, hidden field, consent checkbox, calculation, section heading and text block.
+* Fields: single line text, paragraph, email, phone, website, number, dropdown, multiple choice, checkboxes, star rating, date, file upload, signature, repeating group, hidden field, consent checkbox, calculation, section heading, text block and page break.
+* **Conditional logic.** Show or hide any field depending on other answers, calculation results included.
+* **Multi-page forms.** Split a long form into steps with a progress bar; each step is checked before the next one opens.
+* **File uploads.** Choose the file types, size and number of files. Files are linked in the email and can be attached.
+* **Signature.** Visitors sign with a mouse, finger or pen; the signature is shown in the email.
+* **Repeating groups.** Let visitors add rows, for example one row per guest or product.
 * Full width or half width fields.
-* Templates: contact form, quote request, order form, booking with nights, price table, BMI calculator, loan calculator. All free.
+* Templates: contact form, quote request, order form, booking with nights, price table, BMI calculator, loan calculator, customer feedback, job application and event registration. All free.
 * Add a form with the SmokyForms block or the shortcode `[smokyforms id="123"]`.
 * Works without JavaScript too.
 
@@ -45,6 +51,10 @@ You build a calculation by clicking: pick a field, an operator, another field, a
 * Smart tags: `{all_fields}`, `{form_title}`, `{site_name}`, `{date}`, `{page_url}` and `{field:ID}` for one answer.
 * **Built-in SMTP.** Send through the SMTP account of your email provider so emails do not land in spam. No separate SMTP plugin needed. Test email included.
 * **No lost entries.** SmokyForms does not store entries; they are emailed to you. If a notification email fails, the entry is kept for a number of days you choose, and you can read it or send it again.
+
+= Uploaded files =
+
+Files and signatures are saved in the folder `wp-content/uploads/smokyforms` with long random folder names, so their links cannot be guessed. Directory listing and scripts are switched off in that folder, and only file types that WordPress allows can be uploaded. You can have them deleted automatically after a number of days under SmokyForms > Settings.
 
 = Spam protection =
 
@@ -106,6 +116,10 @@ Set up the SMTP account of your email provider under SmokyForms > Settings > Ema
 
 Then SmokyForms leaves email sending to it and its own SMTP settings are not used.
 
+= Where are uploaded files saved? =
+
+In `wp-content/uploads/smokyforms`, in folders with random names. The notification email links to them and can attach them. Under SmokyForms > Settings you can have them deleted after a number of days.
+
 = Can a visitor change the total in the browser? =
 
 No. The calculations are done again on the server when the form is sent, and only that result is emailed.
@@ -123,6 +137,13 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.2.0 =
+* Conditional logic: show or hide fields depending on other answers.
+* Multi-page forms with a progress bar.
+* New fields: star rating, file upload, signature, repeating group and page break.
+* Calculations can count rows and add up a field over the rows of a repeating group.
+* New templates: customer feedback, job application, event registration.
 
 = 0.1.0 =
 * First release: drag and drop form builder, calculations (click to build, conditions, dates, price tables, templates), notification and confirmation emails, built-in SMTP, undelivered entries kept, spam protection, block and shortcode, 63 languages.

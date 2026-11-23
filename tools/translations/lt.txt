@@ -323,3 +323,93 @@ c3a7ea|Siuntėjo vardas
 ee1851|Siųsti bandomąjį laišką
 7caa16|SmokyForms – Formų kūrėjas su vilkimu ir skaičiavimais
 9958f8|Formų kūrėjas su vilkimu ir nemokamais skaičiavimais. Kurkite kontaktines, kainos užklausų ir užsakymų formas bei skaičiuokles nerašydami formulių.
+b37875|Kartojama grupė
+d9f5f2|%s: eilučių skaičius
+16a3ac|%1$s: %2$s suma
+1415c1|%s: failų skaičius
+374bea|Kitas puslapis
+907db1|Laukų dar nėra
+5f78b2|Sąlyginė logika
+a2a551|yra
+b1b55b|nėra
+bf943a|tuščias
+9de408|netuščias
+3609cb|didesnis nei
+bed162|mažesnis nei
+857af2|turi
+7bfdce|Rodykite arba slėpkite šį lauką pagal kitus atsakymus.
+004bf6|Veiksmas
+3b2035|Rodyti šį lauką
+c739ca|Slėpti šį lauką
+6da892|Atitiktis
+e77510|jei tinka visos taisyklės
+83e482|jei tinka bet kuri taisyklė
+6f16a5|Laukas
+f6c0e3|Palyginimas
+964305|Šalinti taisyklę
+9b5e7f|Pridėti taisyklę
+a1fa27|Tipas
+4589d5|Pridėti lauką
+a1177e|Kito puslapio pavadinimas
+415341|Neprivaloma. Viskas po šiuo puslapio skirtuku iki kito yra vienas formos puslapis.
+b27e83|Žvaigždučių skaičius
+914ccb|Leidžiami failų tipai
+d39f1a|Failų plėtiniai, atskirti kableliais. Galima naudoti tik tuos tipus, kuriuos leidžia pats WordPress.
+d8b894|Didžiausias failas (MB)
+7d8c41|Jūsų serveris leidžia iki %s MB.
+18de35|Failų skaičius
+fc09de|Pridėti prie pranešimo el. laiško
+b8c34f|El. laiške visada yra nuoroda į failą. Pašto serveriai gali atmesti didelius priedus.
+91d907|Kiekvienos eilutės laukai
+cb5ffd|Mažiausiai eilučių
+161252|Daugiausiai eilučių
+192d51|Pridėjimo mygtuko tekstas
+854a4e|Pridėti dar vieną
+d9c320|Mygtukas „Toliau“
+10ac3d|Toliau
+fab2df|Mygtukas „Atgal“
+dd1f77|Atgal
+57518a|Rodyti eigos juostą
+0eb631|Formoms su puslapių skirtukais: „1 žingsnis iš 3“ virš formos.
+851653|Įkelti failai
+168038|Su forma siunčiami failai ir parašai išsaugomi aplanke uploads/smokyforms su sunkiai atspėjamomis nuorodomis, o el. laiške pateikiamos nuorodos į juos.
+9ff4e0|Ištrinti įkeltus failus po
+138ce5|0 – failai laikomi, kol patys jų neištrinsite.
+dda9c0|Įvertinimas
+c42655|Failo įkėlimas
+8c0900|Parašas
+fdd64f|Puslapio skirtukas
+86757c|Užpildykite bent %s eilutę. ¦ Užpildykite bent %s eilutes. ¦ Užpildykite bent %s eilučių.
+2c2c5c|Užpildykite ne daugiau kaip %s eilutę. ¦ Užpildykite ne daugiau kaip %s eilutes. ¦ Užpildykite ne daugiau kaip %s eilučių.
+739100|Nepavyko perskaityti parašo. Pasirašykite dar kartą.
+54e7ab|%s žvaigždutė ¦ %s žvaigždutės ¦ %s žvaigždučių
+0bd3e3|Leidžiami failų tipai: %1$s. Iki %2$s MB vienam failui.
+2e24c6|Galite įkelti ne daugiau kaip %s failą. ¦ Galite įkelti ne daugiau kaip %s failus. ¦ Galite įkelti ne daugiau kaip %s failų.
+02f371|Pasirašymui reikia JavaScript. Įjunkite jį naršyklėje.
+fded2f|Šalinti šią eilutę
+d0e7dd|%1$s žingsnis iš %2$s
+6d402b|%1$s didesnis nei %2$s MB.
+2a8b08|%s: šis failo tipas neleidžiamas.
+969c43|Klientų atsiliepimai
+043168|Įvertinimas žvaigždutėmis su klausimais, priklausančiais nuo įvertinimo.
+3936da|Kaip įvertintumėte savo patirtį?
+f04b38|Kas jums labiausiai patiko?
+4a179f|Ką turėtume daryti geriau?
+c2be8a|Ar rekomenduotumėte mus draugui?
+d62968|Ačiū už atsiliepimą!
+47b537|Prašymas dėl darbo
+155113|Du puslapiai su CV įkėlimu.
+5fda1c|Jūsų prašymas
+e22ca6|Pareigos, į kurias kandidatuojate
+755b7f|Jūsų CV
+50521e|Motyvacinis laiškas
+77657c|Ačiū! Gavome jūsų prašymą.
+c1014b|Registracija į renginį
+b266f3|Užregistruokite kelis žmones iš karto; suma priklauso nuo bilietų.
+0bff4c|Dalyviai
+195693|Pridėti asmenį
+f11b36|Vardas ir pavardė
+c75143|Bilietas
+abce00|Suaugęs – 25
+2d337d|Vaikas – 10
+ccdac9|Nepavyko įkelti %s. Bandykite dar kartą.

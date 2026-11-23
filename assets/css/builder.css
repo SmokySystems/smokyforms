@@ -122,3 +122,83 @@
 .smokyforms-template.card:hover, .smokyforms-template.card:focus-visible { border-color: var(--sf-accent); box-shadow: 0 0 0 1px var(--sf-accent); outline: none; }
 .smokyforms-template strong { font-size: 15px; }
 .smokyforms-badge { align-self: flex-start; font-size: 11px; padding: 2px 8px; border-radius: 10px; background: var(--sf-accent); color: #fff; }
+.smokyforms-preview-page {
+	border-top: 2px dashed #8c8f94;
+	padding-top: 6px;
+}
+.smokyforms-preview-stars {
+	color: #f0b000;
+	letter-spacing: 2px;
+}
+.smokyforms-logic {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.smokyforms-logic-rule {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 6px;
+	align-items: center;
+	padding: 8px;
+	background: #f6f7f7;
+	border-radius: 2px;
+}
+.smokyforms-logic-rule > .components-button {
+	justify-self: end;
+	grid-column: 2;
+}
+.smokyforms-logic > .components-button {
+	align-self: flex-start;
+}
+.smokyforms-subfields {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.smokyforms-subfield {
+	padding: 8px;
+	border: 1px solid #dcdcde;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.smokyforms-subfield-actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px 12px;
+}
+.smokyforms-subfield-id {
+	font-family: monospace;
+	font-size: 11px;
+	color: #646970;
+	margin-inline-start: auto;
+}
+.smokyforms-subfields > .components-button {
+	align-self: flex-start;
+}
+.smokyforms-subfield-actions {
+	flex-wrap: nowrap;
+}
+.smokyforms-subfield-id {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.smokyforms-subfield-buttons {
+	display: inline-flex;
+	flex: none;
+}
+.smokyforms-preview-logic {
+	margin-inline-start: 8px;
+	padding: 0 6px;
+	border-radius: 8px;
+	background: #f0f6fc;
+	color: #2271b1;
+	text-transform: none;
+	letter-spacing: 0;
+}

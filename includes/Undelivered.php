@@ -158,7 +158,7 @@ final class Undelivered {
 		}
 		$subject = Notifications::replace( $form['settings']['notify']['subject'], $form, $values, false );
 		$body    = Notifications::html( Notifications::replace( $form['settings']['notify']['message'], $form, $values, true ) );
-		$ok      = Notifications::mail( $to, $subject, $body, array( 'Content-Type: text/html; charset=UTF-8' ) );
+		$ok      = Notifications::mail( $to, $subject, $body, array( 'Content-Type: text/html; charset=UTF-8' ), Uploads::attachments( $form, $values ) );
 		if ( $ok ) {
 			self::delete( $id );
 		}

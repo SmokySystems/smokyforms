@@ -323,3 +323,93 @@ c3a7ea|Nome del mittente
 ee1851|Invia email di prova
 7caa16|SmokyForms – Costruttore di moduli drag and drop con calcoli
 9958f8|Costruttore di moduli drag and drop con calcoli gratuiti. Crea moduli di contatto, di preventivo e d’ordine e calcolatori senza scrivere formule.
+b37875|Gruppo ripetibile
+d9f5f2|%s: numero di righe
+16a3ac|%1$s: totale di %2$s
+1415c1|%s: numero di file
+374bea|Pagina successiva
+907db1|Ancora nessun campo
+5f78b2|Logica condizionale
+a2a551|è
+b1b55b|non è
+bf943a|è vuoto
+9de408|non è vuoto
+3609cb|è maggiore di
+bed162|è minore di
+857af2|contiene
+7bfdce|Mostra o nascondi questo campo in base ad altre risposte.
+004bf6|Azione
+3b2035|Mostra questo campo
+c739ca|Nascondi questo campo
+6da892|Corrispondenza
+e77510|se tutte le regole corrispondono
+83e482|se una regola corrisponde
+6f16a5|Campo
+f6c0e3|Confronto
+964305|Rimuovi regola
+9b5e7f|Aggiungi regola
+a1fa27|Tipo
+4589d5|Aggiungi campo
+a1177e|Titolo della pagina successiva
+415341|Facoltativo. Tutto ciò che sta sotto questa interruzione, fino alla successiva, è una pagina del modulo.
+b27e83|Numero di stelle
+914ccb|Tipi di file consentiti
+d39f1a|Estensioni dei file separate da virgole. Si possono usare solo i tipi consentiti da WordPress stesso.
+d8b894|File più grande (MB)
+7d8c41|Il tuo server consente fino a %s MB.
+18de35|Numero di file
+fc09de|Allega all’email di notifica
+b8c34f|L’email contiene sempre il link al file. Gli allegati grandi possono essere rifiutati dai server di posta.
+91d907|Campi di ogni riga
+cb5ffd|Righe minime
+161252|Righe massime
+192d51|Testo del pulsante di aggiunta
+854a4e|Aggiungi un altro
+d9c320|Pulsante Avanti
+10ac3d|Avanti
+fab2df|Pulsante Indietro
+dd1f77|Indietro
+57518a|Mostra la barra di avanzamento
+0eb631|Per i moduli con interruzioni di pagina: “Passo 1 di 3” sopra il modulo.
+851653|File caricati
+168038|I file e le firme inviati con un modulo vengono salvati nella cartella uploads/smokyforms con link difficili da indovinare, e l’email contiene i link.
+9ff4e0|Elimina i file caricati dopo
+138ce5|0 conserva i file finché non li elimini tu.
+dda9c0|Valutazione
+c42655|Caricamento file
+8c0900|Firma
+fdd64f|Interruzione di pagina
+86757c|Compila almeno %s riga. ¦ Compila almeno %s righe.
+2c2c5c|Compila al massimo %s riga. ¦ Compila al massimo %s righe.
+739100|Impossibile leggere la firma. Firma di nuovo.
+54e7ab|%s stella ¦ %s stelle
+0bd3e3|Tipi di file consentiti: %1$s. Fino a %2$s MB per file.
+2e24c6|Puoi caricare al massimo %s file. ¦ Puoi caricare al massimo %s file.
+02f371|Per firmare serve JavaScript. Attivalo nel tuo browser.
+fded2f|Rimuovi questa riga
+d0e7dd|Passo %1$s di %2$s
+6d402b|%1$s supera %2$s MB.
+2a8b08|%s: questo tipo di file non è consentito.
+969c43|Feedback dei clienti
+043168|Valutazione a stelle con domande che dipendono dalla valutazione.
+3936da|Come valuti la tua esperienza?
+f04b38|Cosa ti è piaciuto di più?
+4a179f|Cosa dovremmo migliorare?
+c2be8a|Ci consiglieresti a un amico?
+d62968|Grazie per il tuo feedback!
+47b537|Candidatura di lavoro
+155113|Due pagine con caricamento del CV.
+5fda1c|La tua candidatura
+e22ca6|Posizione per cui ti candidi
+755b7f|Il tuo CV
+50521e|Lettera di presentazione
+77657c|Grazie! Abbiamo ricevuto la tua candidatura.
+c1014b|Iscrizione a un evento
+b266f3|Iscrivi più persone insieme; il totale segue i biglietti.
+0bff4c|Partecipanti
+195693|Aggiungi una persona
+f11b36|Nome e cognome
+c75143|Biglietto
+abce00|Adulto – 25
+2d337d|Bambino – 10
+ccdac9|Impossibile caricare %s. Riprova.

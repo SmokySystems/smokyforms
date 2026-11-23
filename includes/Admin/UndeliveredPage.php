@@ -117,8 +117,8 @@ final class UndeliveredPage {
 							foreach ( $values as $key => $value ) {
 								$field = $form ? Forms::field( $form, $key ) : null;
 								$label = $field && '' !== $field['label'] ? $field['label'] : $key;
-								$text  = $field ? Fields::display( $field, $value ) : ( is_array( $value ) ? implode( ', ', $value ) : (string) $value );
-								echo '<tr><th style="width:30%;">' . esc_html( $label ) . '</th><td>' . nl2br( esc_html( $text ) ) . '</td></tr>';
+								$html  = $field ? Fields::display_html( $field, $value ) : esc_html( is_scalar( $value ) ? (string) $value : wp_json_encode( $value ) );
+								echo '<tr><th style="width:30%;">' . esc_html( $label ) . '</th><td>' . $html . '</td></tr>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- display_html() escapes.
 							}
 							?>
 							</tbody>

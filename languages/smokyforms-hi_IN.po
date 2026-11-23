@@ -30,7 +30,7 @@ msgstr "यहाँ दिखाने के लिए फ़ॉर्म च�
 msgid "Basic fields"
 msgstr "बुनियादी फ़ील्ड"
 
-#: assets/js/builder.js:24 assets/js/builder.js:729
+#: assets/js/builder.js:24 assets/js/builder.js:1061
 msgid "Choices"
 msgstr "विकल्प"
 
@@ -58,7 +58,7 @@ msgstr "पूर्णांकन"
 msgid "round(value, decimals)"
 msgstr "round(मान, दशमलव अंक)"
 
-#: assets/js/builder.js:32 assets/js/builder.js:735
+#: assets/js/builder.js:32 assets/js/builder.js:1067
 msgid "Smallest"
 msgstr "सबसे छोटा"
 
@@ -66,7 +66,7 @@ msgstr "सबसे छोटा"
 msgid "min(a, b, …)"
 msgstr "min(a, b, …)"
 
-#: assets/js/builder.js:33 assets/js/builder.js:735
+#: assets/js/builder.js:33 assets/js/builder.js:1067
 msgid "Largest"
 msgstr "सबसे बड़ा"
 
@@ -118,514 +118,710 @@ msgstr "सहमति"
 msgid "I agree to the storage and handling of my data by this website."
 msgstr "मैं सहमत हूँ कि यह वेबसाइट मेरा डेटा सहेजे और इस्तेमाल करे।"
 
-#: assets/js/builder.js:105 includes/Fields.php:41
+#: assets/js/builder.js:105 includes/Fields.php:45
 msgid "Text block"
 msgstr "टेक्स्ट ब्लॉक"
 
-#: assets/js/builder.js:109 includes/Fields.php:40
+#: assets/js/builder.js:109 includes/Fields.php:44
 msgid "Section heading"
 msgstr "अनुभाग शीर्षक"
 
-#: assets/js/builder.js:159
+#: assets/js/builder.js:124 includes/Fields.php:42
+msgid "Repeating group"
+msgstr "दोहराया जाने वाला समूह"
+
+#: assets/js/builder.js:157
+#, php-format
+msgid "%s: number of rows"
+msgstr "%s: पंक्तियों की संख्या"
+
+#: assets/js/builder.js:160
+#, php-format
+msgid "%1$s: total of %2$s"
+msgstr "%1$s: %2$s का योग"
+
+#: assets/js/builder.js:166
+#, php-format
+msgid "%s: number of files"
+msgstr "%s: फ़ाइलों की संख्या"
+
+#: assets/js/builder.js:225
 msgid "and"
 msgstr "और"
 
-#: assets/js/builder.js:159
+#: assets/js/builder.js:225
 msgid "or"
 msgstr "या"
 
-#: assets/js/builder.js:215
+#: assets/js/builder.js:281
 msgid "Empty text block"
 msgstr "खाली टेक्स्ट ब्लॉक"
 
-#: assets/js/builder.js:231
+#: assets/js/builder.js:297
 msgid "No formula yet"
 msgstr "अभी कोई सूत्र नहीं"
 
-#: assets/js/builder.js:250
+#: assets/js/builder.js:305
+msgid "Next page"
+msgstr "अगला पेज"
+
+#: assets/js/builder.js:322
+msgid "No fields yet"
+msgstr "अभी कोई फ़ील्ड नहीं"
+
+#: assets/js/builder.js:341
 msgid "No label"
 msgstr "कोई लेबल नहीं"
 
-#: assets/js/builder.js:281
+#: assets/js/builder.js:348 assets/js/builder.js:819
+msgid "Conditional logic"
+msgstr "सशर्त तर्क"
+
+#: assets/js/builder.js:372
 msgid "Click or drag fields from the list on the left."
 msgstr "बाईं ओर की सूची से फ़ील्ड पर क्लिक करें या उन्हें खींचें।"
 
-#: assets/js/builder.js:328
+#: assets/js/builder.js:419
 #, php-format
 msgid "Field: %s"
 msgstr "फ़ील्ड: %s"
 
-#: assets/js/builder.js:336
+#: assets/js/builder.js:427 assets/js/builder.js:1003
 msgid "Move up"
 msgstr "ऊपर ले जाएँ"
 
-#: assets/js/builder.js:339
+#: assets/js/builder.js:430
 msgid "Move down"
 msgstr "नीचे ले जाएँ"
 
-#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+#: assets/js/builder.js:433 includes/Admin/Menu.php:189
 msgid "Duplicate"
 msgstr "डुप्लिकेट करें"
 
-#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:133
 msgid "Delete"
 msgstr "हटाएँ"
 
-#: assets/js/builder.js:381 assets/js/builder.js:389
+#: assets/js/builder.js:472 assets/js/builder.js:480
 msgid "Choice"
 msgstr "विकल्प"
 
-#: assets/js/builder.js:382 assets/js/builder.js:392
+#: assets/js/builder.js:473 assets/js/builder.js:483
 msgid "Value in calculations"
 msgstr "गणना में मान"
 
-#: assets/js/builder.js:383 assets/js/builder.js:395
+#: assets/js/builder.js:474 assets/js/builder.js:486
 msgid "Default"
 msgstr "डिफ़ॉल्ट"
 
-#: assets/js/builder.js:403
+#: assets/js/builder.js:494
 msgid "Remove choice"
 msgstr "विकल्प हटाएँ"
 
-#: assets/js/builder.js:411
+#: assets/js/builder.js:502
 #, php-format
 msgid "Choice %d"
 msgstr "विकल्प %d"
 
-#: assets/js/builder.js:412
+#: assets/js/builder.js:503
 msgid "Add choice"
 msgstr "विकल्प जोड़ें"
 
-#: assets/js/builder.js:413
+#: assets/js/builder.js:504
 msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
 msgstr "मान वह है जो यह विकल्प गणना में गिना जाता है, जैसे इसकी कीमत। चेकबॉक्स में चुने गए सभी विकल्पों के मान जोड़े जाते हैं।"
 
-#: assets/js/builder.js:495
+#: assets/js/builder.js:585 assets/js/builder.js:899
 #, php-format
 msgid "Missing field: %s"
 msgstr "फ़ील्ड नहीं मिला: %s"
 
-#: assets/js/builder.js:503
+#: assets/js/builder.js:593
 msgid "Click fields and operators below to build the calculation."
 msgstr "गणना बनाने के लिए नीचे दिए फ़ील्ड और ऑपरेटर पर क्लिक करें।"
 
-#: assets/js/builder.js:515
+#: assets/js/builder.js:605
 msgid "Build by clicking"
 msgstr "क्लिक करके बनाएँ"
 
-#: assets/js/builder.js:518
+#: assets/js/builder.js:608
 msgid "Write the formula"
 msgstr "सूत्र लिखें"
 
-#: assets/js/builder.js:527
+#: assets/js/builder.js:617
 msgid "Undo"
 msgstr "पूर्ववत करें"
 
-#: assets/js/builder.js:530
+#: assets/js/builder.js:620 includes/Renderer.php:337
 msgid "Clear"
 msgstr "साफ़ करें"
 
-#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1602 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "फ़ील्ड"
 
-#: assets/js/builder.js:541
+#: assets/js/builder.js:631
 msgid "Add number, choice or date fields first; they appear here."
 msgstr "पहले संख्या, विकल्प या तारीख वाले फ़ील्ड जोड़ें; वे यहाँ दिखेंगे।"
 
-#: assets/js/builder.js:542
+#: assets/js/builder.js:632
 msgid "Operators"
 msgstr "ऑपरेटर"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Power"
 msgstr "घात"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Remainder"
 msgstr "शेषफल"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Comma (between values of a function)"
 msgstr "कॉमा (फ़ंक्शन के मानों के बीच)"
 
-#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+#: assets/js/builder.js:642 assets/js/builder.js:653 includes/Fields.php:32
 msgid "Number"
 msgstr "संख्या"
 
-#: assets/js/builder.js:566
+#: assets/js/builder.js:656
 msgid "Add number"
 msgstr "संख्या जोड़ें"
 
-#: assets/js/builder.js:568
+#: assets/js/builder.js:658
 msgid "Conditions"
 msgstr "शर्तें"
 
-#: assets/js/builder.js:578
+#: assets/js/builder.js:668
 msgid "Functions"
 msgstr "फ़ंक्शन"
 
-#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+#: assets/js/builder.js:681 assets/js/builder.js:1365 includes/Templates.php:242
 msgid "Price table"
 msgstr "मूल्य तालिका"
 
-#: assets/js/builder.js:596
+#: assets/js/builder.js:686
 msgid "Table"
 msgstr "तालिका"
 
-#: assets/js/builder.js:607
+#: assets/js/builder.js:697
 msgid "Row from the answer of"
 msgstr "पंक्ति इस फ़ील्ड के जवाब से"
 
-#: assets/js/builder.js:618
+#: assets/js/builder.js:708
 msgid "Column from the answer of"
 msgstr "कॉलम इस फ़ील्ड के जवाब से"
 
-#: assets/js/builder.js:620
+#: assets/js/builder.js:710
 msgid "Only one column"
 msgstr "सिर्फ़ एक कॉलम"
 
-#: assets/js/builder.js:630
+#: assets/js/builder.js:720
 msgid "Insert price"
 msgstr "कीमत डालें"
 
-#: assets/js/builder.js:634
+#: assets/js/builder.js:724
 msgid "Formula"
 msgstr "सूत्र"
 
-#: assets/js/builder.js:635
+#: assets/js/builder.js:725
 msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
 msgstr "फ़ील्ड {field_id} के रूप में लिखे जाते हैं। उदाहरण: {price} * {quantity} + 5"
 
-#: assets/js/builder.js:645
+#: assets/js/builder.js:735
 msgid "The formula is not complete yet. Check brackets, commas and operators."
 msgstr "सूत्र अभी पूरा नहीं है। कोष्ठक, कॉमा और ऑपरेटर जाँचें।"
 
-#: assets/js/builder.js:645
+#: assets/js/builder.js:735
 msgid "The formula is valid."
 msgstr "सूत्र सही है।"
 
-#: assets/js/builder.js:650
+#: assets/js/builder.js:740
 msgid "Try it"
 msgstr "आज़माएँ"
 
-#: assets/js/builder.js:685
+#: assets/js/builder.js:789
 msgid "Result:"
 msgstr "परिणाम:"
 
-#: assets/js/builder.js:695
-msgid "Select a field to change its settings."
-msgstr "सेटिंग बदलने के लिए कोई फ़ील्ड चुनें।"
+#: assets/js/builder.js:797
+msgid "is"
+msgstr "है"
 
-#: assets/js/builder.js:703
-msgid "Heading"
-msgstr "शीर्षक"
+#: assets/js/builder.js:798
+msgid "is not"
+msgstr "नहीं है"
 
-#: assets/js/builder.js:703
+#: assets/js/builder.js:799
+msgid "is empty"
+msgstr "खाली है"
+
+#: assets/js/builder.js:800
+msgid "is not empty"
+msgstr "खाली नहीं है"
+
+#: assets/js/builder.js:801
+msgid "is greater than"
+msgstr "से बड़ा है"
+
+#: assets/js/builder.js:802
+msgid "is less than"
+msgstr "से छोटा है"
+
+#: assets/js/builder.js:803
+msgid "contains"
+msgstr "में शामिल है"
+
+#: assets/js/builder.js:820
+msgid "Show or hide this field depending on other answers."
+msgstr "दूसरे जवाबों के अनुसार इस फ़ील्ड को दिखाएँ या छिपाएँ।"
+
+#: assets/js/builder.js:839
+msgid "Action"
+msgstr "कार्रवाई"
+
+#: assets/js/builder.js:842
+msgid "Show this field"
+msgstr "यह फ़ील्ड दिखाएँ"
+
+#: assets/js/builder.js:842
+msgid "Hide this field"
+msgstr "यह फ़ील्ड छिपाएँ"
+
+#: assets/js/builder.js:849
+msgid "Match"
+msgstr "मिलान"
+
+#: assets/js/builder.js:852
+msgid "if all rules match"
+msgstr "अगर सभी नियम मेल खाएँ"
+
+#: assets/js/builder.js:852
+msgid "if any rule matches"
+msgstr "अगर कोई भी नियम मेल खाए"
+
+#: assets/js/builder.js:867 assets/js/builder.js:882 assets/js/builder.js:884 assets/js/builder.js:1313 assets/js/builder.js:1330
+msgid "Value"
+msgstr "मान"
+
+#: assets/js/builder.js:896
+msgid "Field"
+msgstr "फ़ील्ड"
+
+#: assets/js/builder.js:908
+msgid "Comparison"
+msgstr "तुलना"
+
+#: assets/js/builder.js:920
+msgid "Remove rule"
+msgstr "नियम हटाएँ"
+
+#: assets/js/builder.js:931
+msgid "Add rule"
+msgstr "नियम जोड़ें"
+
+#: assets/js/builder.js:969 assets/js/builder.js:1035
 msgid "Label"
 msgstr "लेबल"
 
-#: assets/js/builder.js:714
+#: assets/js/builder.js:979
+msgid "Type"
+msgstr "प्रकार"
+
+#: assets/js/builder.js:996 assets/js/builder.js:1046
 msgid "Required"
 msgstr "ज़रूरी"
 
-#: assets/js/builder.js:719
-msgid "Text before a choice is made"
-msgstr "चुनने से पहले का टेक्स्ट"
-
-#: assets/js/builder.js:719
-msgid "Placeholder"
-msgstr "प्लेसहोल्डर"
-
-#: assets/js/builder.js:724
-msgid "Default value"
-msgstr "डिफ़ॉल्ट मान"
-
-#: assets/js/builder.js:735
-msgid "Step"
-msgstr "स्टेप"
-
-#: assets/js/builder.js:745
-msgid "Text next to the checkbox"
-msgstr "चेकबॉक्स के पास का टेक्स्ट"
-
-#: assets/js/builder.js:745
-msgid "Links are allowed, for example to your privacy policy."
-msgstr "लिंक जोड़ सकते हैं, जैसे आपकी गोपनीयता नीति का लिंक।"
-
-#: assets/js/builder.js:750
-msgid "Text"
-msgstr "टेक्स्ट"
-
-#: assets/js/builder.js:750
-msgid "Basic HTML is allowed."
-msgstr "बुनियादी HTML की अनुमति है।"
-
-#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
-msgid "Calculation"
-msgstr "गणना"
-
-#: assets/js/builder.js:759
-msgid "Before the result"
-msgstr "परिणाम से पहले"
-
-#: assets/js/builder.js:759
-msgid "For example $"
-msgstr "उदाहरण के लिए ₹"
-
-#: assets/js/builder.js:762
-msgid "After the result"
-msgstr "परिणाम के बाद"
-
-#: assets/js/builder.js:762
-msgid "For example € or kg"
-msgstr "उदाहरण के लिए € या kg"
-
-#: assets/js/builder.js:765
-msgid "Decimals"
-msgstr "दशमलव अंक"
-
-#: assets/js/builder.js:769
-msgid "Show the result in the form"
-msgstr "परिणाम फ़ॉर्म में दिखाएँ"
-
-#: assets/js/builder.js:769
-msgid "Switch off for a step that only other calculations use. The result is still in the email."
-msgstr "ऐसे बीच के चरण के लिए बंद करें जिसे सिर्फ़ दूसरी गणनाएँ इस्तेमाल करती हैं। परिणाम ईमेल में फिर भी रहेगा।"
-
-#: assets/js/builder.js:774
-msgid "Help text"
-msgstr "सहायता टेक्स्ट"
-
-#: assets/js/builder.js:781
-msgid "Width"
-msgstr "चौड़ाई"
-
-#: assets/js/builder.js:783
-msgid "Full width"
-msgstr "पूरी चौड़ाई"
-
-#: assets/js/builder.js:783
+#: assets/js/builder.js:999 assets/js/builder.js:1177
 msgid "Half width"
 msgstr "आधी चौड़ाई"
 
-#: assets/js/builder.js:795
+#: assets/js/builder.js:1018
+msgid "Add field"
+msgstr "फ़ील्ड जोड़ें"
+
+#: assets/js/builder.js:1027
+msgid "Select a field to change its settings."
+msgstr "सेटिंग बदलने के लिए कोई फ़ील्ड चुनें।"
+
+#: assets/js/builder.js:1035
+msgid "Heading"
+msgstr "शीर्षक"
+
+#: assets/js/builder.js:1035
+msgid "Title of the next page"
+msgstr "अगले पेज का शीर्षक"
+
+#: assets/js/builder.js:1035
+msgid "Optional. Everything below this break, up to the next one, is one page of the form."
+msgstr "वैकल्पिक। इस ब्रेक के नीचे, अगले ब्रेक तक, सब कुछ फ़ॉर्म का एक पेज है।"
+
+#: assets/js/builder.js:1051
+msgid "Text before a choice is made"
+msgstr "चुनने से पहले का टेक्स्ट"
+
+#: assets/js/builder.js:1051
+msgid "Placeholder"
+msgstr "प्लेसहोल्डर"
+
+#: assets/js/builder.js:1056
+msgid "Default value"
+msgstr "डिफ़ॉल्ट मान"
+
+#: assets/js/builder.js:1067
+msgid "Step"
+msgstr "स्टेप"
+
+#: assets/js/builder.js:1077
+msgid "Text next to the checkbox"
+msgstr "चेकबॉक्स के पास का टेक्स्ट"
+
+#: assets/js/builder.js:1077
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "लिंक जोड़ सकते हैं, जैसे आपकी गोपनीयता नीति का लिंक।"
+
+#: assets/js/builder.js:1082
+msgid "Text"
+msgstr "टेक्स्ट"
+
+#: assets/js/builder.js:1082
+msgid "Basic HTML is allowed."
+msgstr "बुनियादी HTML की अनुमति है।"
+
+#: assets/js/builder.js:1089
+msgid "Number of stars"
+msgstr "तारों की संख्या"
+
+#: assets/js/builder.js:1101
+msgid "Allowed file types"
+msgstr "अनुमत फ़ाइल प्रकार"
+
+#: assets/js/builder.js:1101
+msgid "File extensions, separated by commas. Only types WordPress itself allows can be used."
+msgstr "अल्पविराम से अलग की गई फ़ाइल एक्सटेंशन। केवल वही प्रकार इस्तेमाल हो सकते हैं जिनकी WordPress स्वयं अनुमति देता है।"
+
+#: assets/js/builder.js:1107
+msgid "Largest file (MB)"
+msgstr "सबसे बड़ी फ़ाइल (MB)"
+
+#: assets/js/builder.js:1107
+#, php-format
+msgid "Your server allows up to %s MB."
+msgstr "आपका सर्वर अधिकतम %s MB की अनुमति देता है।"
+
+#: assets/js/builder.js:1110
+msgid "Number of files"
+msgstr "फ़ाइलों की संख्या"
+
+#: assets/js/builder.js:1116
+msgid "Attach to the notification email"
+msgstr "सूचना ईमेल के साथ संलग्न करें"
+
+#: assets/js/builder.js:1116
+msgid "The email always links to the file. Large attachments can be refused by mail servers."
+msgstr "ईमेल में हमेशा फ़ाइल का लिंक होता है। मेल सर्वर बड़ी अटैचमेंट अस्वीकार कर सकते हैं।"
+
+#: assets/js/builder.js:1121
+msgid "Fields of each row"
+msgstr "हर पंक्ति के फ़ील्ड"
+
+#: assets/js/builder.js:1125
+msgid "Fewest rows"
+msgstr "कम से कम पंक्तियाँ"
+
+#: assets/js/builder.js:1128
+msgid "Most rows"
+msgstr "अधिकतम पंक्तियाँ"
+
+#: assets/js/builder.js:1132
+msgid "Text of the add button"
+msgstr "जोड़ें बटन का टेक्स्ट"
+
+#: assets/js/builder.js:1132 includes/Renderer.php:348
+msgid "Add another"
+msgstr "एक और जोड़ें"
+
+#: assets/js/builder.js:1140
+msgid "Next button"
+msgstr "अगला बटन"
+
+#: assets/js/builder.js:1140 includes/Renderer.php:178
+msgid "Next"
+msgstr "अगला"
+
+#: assets/js/builder.js:1143
+msgid "Back button"
+msgstr "वापस बटन"
+
+#: assets/js/builder.js:1143 includes/Renderer.php:179
+msgid "Previous"
+msgstr "पिछला"
+
+#: assets/js/builder.js:1149 assets/js/builder.js:1497 includes/Fields.php:43
+msgid "Calculation"
+msgstr "गणना"
+
+#: assets/js/builder.js:1153
+msgid "Before the result"
+msgstr "परिणाम से पहले"
+
+#: assets/js/builder.js:1153
+msgid "For example $"
+msgstr "उदाहरण के लिए ₹"
+
+#: assets/js/builder.js:1156
+msgid "After the result"
+msgstr "परिणाम के बाद"
+
+#: assets/js/builder.js:1156
+msgid "For example € or kg"
+msgstr "उदाहरण के लिए € या kg"
+
+#: assets/js/builder.js:1159
+msgid "Decimals"
+msgstr "दशमलव अंक"
+
+#: assets/js/builder.js:1163
+msgid "Show the result in the form"
+msgstr "परिणाम फ़ॉर्म में दिखाएँ"
+
+#: assets/js/builder.js:1163
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "ऐसे बीच के चरण के लिए बंद करें जिसे सिर्फ़ दूसरी गणनाएँ इस्तेमाल करती हैं। परिणाम ईमेल में फिर भी रहेगा।"
+
+#: assets/js/builder.js:1168
+msgid "Help text"
+msgstr "सहायता टेक्स्ट"
+
+#: assets/js/builder.js:1175
+msgid "Width"
+msgstr "चौड़ाई"
+
+#: assets/js/builder.js:1177
+msgid "Full width"
+msgstr "पूरी चौड़ाई"
+
+#: assets/js/builder.js:1192
 msgid "Field ID"
 msgstr "फ़ील्ड ID"
 
-#: assets/js/builder.js:796
+#: assets/js/builder.js:1193
 #, php-format
 msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
 msgstr "सूत्रों में {%1$s} और ईमेल में {field:%1$s} के रूप में इस्तेमाल होता है। बदलने पर इस फ़ॉर्म के सूत्र भी अपडेट हो जाते हैं।"
 
-#: assets/js/builder.js:845
+#: assets/js/builder.js:1242
 msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
 msgstr "मूल्य तालिका हर जवाब के लिए, या दो जवाबों के हर मेल के लिए (जैसे ज़ोन और पार्सल का आकार) एक मान देती है। इसे गणना में \"मूल्य तालिका\" से इस्तेमाल करें। पंक्तियों और कॉलम के नाम फ़ील्ड के विकल्पों जैसे ही लिखे होने चाहिए।"
 
-#: assets/js/builder.js:853 includes/Templates.php:66
+#: assets/js/builder.js:1250 includes/Templates.php:89 includes/Templates.php:336
 msgid "Name"
 msgstr "नाम"
 
-#: assets/js/builder.js:856
+#: assets/js/builder.js:1253
 #, php-format
 msgid "ID: %s"
 msgstr "ID: %s"
 
-#: assets/js/builder.js:862
+#: assets/js/builder.js:1259
 msgid "Rows from the choices of"
 msgstr "पंक्तियाँ इस फ़ील्ड के विकल्पों से"
 
-#: assets/js/builder.js:880
+#: assets/js/builder.js:1277
 msgid "Columns from the choices of"
 msgstr "कॉलम इस फ़ील्ड के विकल्पों से"
 
-#: assets/js/builder.js:912
+#: assets/js/builder.js:1309
 msgid "Column name"
 msgstr "कॉलम का नाम"
 
-#: assets/js/builder.js:916 assets/js/builder.js:933
-msgid "Value"
-msgstr "मान"
-
-#: assets/js/builder.js:927
+#: assets/js/builder.js:1324
 msgid "Row name"
 msgstr "पंक्ति का नाम"
 
-#: assets/js/builder.js:948
+#: assets/js/builder.js:1345
 #, php-format
 msgid "Row %d"
 msgstr "पंक्ति %d"
 
-#: assets/js/builder.js:949
+#: assets/js/builder.js:1346
 msgid "Add row"
 msgstr "पंक्ति जोड़ें"
 
-#: assets/js/builder.js:951
+#: assets/js/builder.js:1348
 #, php-format
 msgid "Column %d"
 msgstr "कॉलम %d"
 
-#: assets/js/builder.js:952
+#: assets/js/builder.js:1349
 msgid "Add column"
 msgstr "कॉलम जोड़ें"
 
-#: assets/js/builder.js:955
+#: assets/js/builder.js:1352
 msgid "Remove last row"
 msgstr "आख़िरी पंक्ति हटाएँ"
 
-#: assets/js/builder.js:958
+#: assets/js/builder.js:1355
 msgid "Remove last column"
 msgstr "आख़िरी कॉलम हटाएँ"
 
-#: assets/js/builder.js:963
+#: assets/js/builder.js:1360
 msgid "Delete table"
 msgstr "तालिका हटाएँ"
 
-#: assets/js/builder.js:968
+#: assets/js/builder.js:1365
 msgid "Row 1"
 msgstr "पंक्ति 1"
 
-#: assets/js/builder.js:969
+#: assets/js/builder.js:1366
 msgid "Add price table"
 msgstr "मूल्य तालिका जोड़ें"
 
-#: assets/js/builder.js:990
+#: assets/js/builder.js:1387
 msgid "You can use:"
 msgstr "आप इस्तेमाल कर सकते हैं:"
 
-#: assets/js/builder.js:996
+#: assets/js/builder.js:1393
 msgid "Answer of one field"
 msgstr "एक फ़ील्ड का जवाब"
 
-#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1400 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "सामान्य"
 
-#: assets/js/builder.js:1004
+#: assets/js/builder.js:1401
 msgid "Button text"
 msgstr "बटन टेक्स्ट"
 
-#: assets/js/builder.js:1007
+#: assets/js/builder.js:1404
 msgid "Message after sending"
 msgstr "भेजने के बाद संदेश"
 
-#: assets/js/builder.js:1010
+#: assets/js/builder.js:1407
 msgid "Or go to this page after sending"
 msgstr "या भेजने के बाद इस पेज पर जाएँ"
 
-#: assets/js/builder.js:1010
+#: assets/js/builder.js:1407
 msgid "Leave empty to show the message instead."
 msgstr "इसके बजाय संदेश दिखाने के लिए खाली छोड़ें।"
 
-#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1412
+msgid "Show the progress bar"
+msgstr "प्रगति पट्टी दिखाएँ"
+
+#: assets/js/builder.js:1412
+msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
+msgstr "पेज ब्रेक वाले फ़ॉर्म के लिए: फ़ॉर्म के ऊपर \"चरण 1 / 3\"।"
+
+#: assets/js/builder.js:1416 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1015
+#: assets/js/builder.js:1417
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "सेटिंग में सेट किए गए CAPTCHA से इस फ़ॉर्म को सुरक्षित करें।"
 
-#: assets/js/builder.js:1015
+#: assets/js/builder.js:1417
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "अभी कोई CAPTCHA सेट नहीं है। आप इसे SmokyForms > सेटिंग में जोड़ सकते हैं। ट्रैप फ़ील्ड और समय जाँच हर फ़ॉर्म को वैसे भी सुरक्षित रखते हैं।"
 
-#: assets/js/builder.js:1025
+#: assets/js/builder.js:1427
 msgid "Notification to you"
 msgstr "आपके लिए सूचना"
 
-#: assets/js/builder.js:1026
+#: assets/js/builder.js:1428
 msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "SmokyForms प्रविष्टियाँ सहेजता नहीं है; हर प्रविष्टि आपको ईमेल से भेजी जाती है। ईमेल न जा पाए तो प्रविष्टि SmokyForms > नहीं पहुँचीं में रखी जाती है।"
 
-#: assets/js/builder.js:1027
+#: assets/js/builder.js:1429
 msgid "Send me an email for every entry"
 msgstr "हर प्रविष्टि पर मुझे ईमेल भेजें"
 
-#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1435 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "इन्हें भेजें"
 
-#: assets/js/builder.js:1033
+#: assets/js/builder.js:1435
 msgid "Separate several addresses with commas."
 msgstr "कई पतों को कॉमा से अलग करें।"
 
-#: assets/js/builder.js:1036 assets/js/builder.js:1065
+#: assets/js/builder.js:1438 assets/js/builder.js:1467
 msgid "Subject"
 msgstr "विषय"
 
-#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+#: assets/js/builder.js:1441 assets/js/builder.js:1470 includes/Templates.php:92
 msgid "Message"
 msgstr "संदेश"
 
-#: assets/js/builder.js:1047
+#: assets/js/builder.js:1449
 msgid "Confirmation to the visitor"
 msgstr "आगंतुक को पुष्टि"
 
-#: assets/js/builder.js:1048
+#: assets/js/builder.js:1450
 msgid "Send the visitor a confirmation email"
 msgstr "आगंतुक को पुष्टि ईमेल भेजें"
 
-#: assets/js/builder.js:1055
+#: assets/js/builder.js:1457
 msgid "Address from the field"
 msgstr "पता इस फ़ील्ड से"
 
-#: assets/js/builder.js:1064
+#: assets/js/builder.js:1466
 msgid "Add an Email field to the form first."
 msgstr "पहले फ़ॉर्म में ईमेल फ़ील्ड जोड़ें।"
 
-#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1485 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "नया फ़ॉर्म जोड़ें"
 
-#: assets/js/builder.js:1084
+#: assets/js/builder.js:1486
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "तैयार फ़ॉर्म या खाली फ़ॉर्म से शुरू करें। कैलकुलेटर समेत सभी टेम्पलेट मुफ़्त हैं।"
 
-#: assets/js/builder.js:1175
+#: assets/js/builder.js:1577
 msgid "The form could not be saved."
 msgstr "फ़ॉर्म सहेजा नहीं जा सका।"
 
-#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1588 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "सभी फ़ॉर्म"
 
-#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+#: assets/js/builder.js:1589 assets/js/builder.js:1589 includes/Notifications.php:40
 msgid "Form name"
 msgstr "फ़ॉर्म का नाम"
 
-#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1593 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "शॉर्टकोड"
 
-#: assets/js/builder.js:1194
+#: assets/js/builder.js:1596
 msgid "Saving…"
 msgstr "सहेजा जा रहा है…"
 
-#: assets/js/builder.js:1194
+#: assets/js/builder.js:1596
 msgid "Save form"
 msgstr "फ़ॉर्म सहेजें"
 
-#: assets/js/builder.js:1200
+#: assets/js/builder.js:1602
 msgid "Price tables"
 msgstr "मूल्य तालिकाएँ"
 
-#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1602 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "सेटिंग"
 
-#: assets/js/builder.js:1314
+#: assets/js/builder.js:1724
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "इसे SmokyForms ब्लॉक या शॉर्टकोड से किसी पेज में जोड़ें।"
 
-#: assets/js/builder.js:1315
+#: assets/js/builder.js:1725
 msgid "You have unsaved changes."
 msgstr "आपके कुछ बदलाव सहेजे नहीं गए हैं।"
 
-#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:217 includes/Submission.php:101
 msgid "This form does not exist."
 msgstr "यह फ़ॉर्म मौजूद नहीं है।"
 
-#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:108
 msgid "Untitled form"
 msgstr "बिना नाम का फ़ॉर्म"
 
@@ -639,19 +835,19 @@ msgstr "फ़ॉर्म सहेजा गया।"
 msgid "Edit Form &lsaquo; %s"
 msgstr "फ़ॉर्म संपादित करें &lsaquo; %s"
 
-#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:213 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
 msgid "You are not allowed to do this."
 msgstr "आपको यह करने की अनुमति नहीं है।"
 
-#: includes/Admin/Builder.php:213 includes/Forms.php:32
+#: includes/Admin/Builder.php:217 includes/Forms.php:32
 msgid "Edit Form"
 msgstr "फ़ॉर्म संपादित करें"
 
-#: includes/Admin/Builder.php:216
+#: includes/Admin/Builder.php:220
 msgid "Loading the form builder…"
 msgstr "फ़ॉर्म बिल्डर लोड हो रहा है…"
 
-#: includes/Admin/Builder.php:216
+#: includes/Admin/Builder.php:220
 msgid "The form builder needs JavaScript."
 msgstr "फ़ॉर्म बिल्डर को JavaScript चाहिए।"
 
@@ -725,9 +921,25 @@ msgstr "SmokyForms प्रविष्टियाँ सहेजता न�
 msgid "Keep for"
 msgstr "इतने समय तक रखें"
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:110 includes/Admin/Settings.php:121
 msgid "days"
 msgstr "दिन"
+
+#: includes/Admin/Settings.php:114
+msgid "Uploaded files"
+msgstr "अपलोड की गई फ़ाइलें"
+
+#: includes/Admin/Settings.php:115
+msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
+msgstr "फ़ॉर्म के साथ भेजी गई फ़ाइलें और हस्ताक्षर uploads/smokyforms फ़ोल्डर में ऐसे लिंक के साथ सहेजे जाते हैं जिनका अनुमान लगाना कठिन है, और ईमेल में उनके लिंक होते हैं।"
+
+#: includes/Admin/Settings.php:118
+msgid "Delete uploaded files after"
+msgstr "अपलोड की गई फ़ाइलें इतने समय बाद हटाएँ"
+
+#: includes/Admin/Settings.php:122
+msgid "0 keeps the files until you delete them yourself."
+msgstr "0 फ़ाइलों को तब तक रखता है जब तक आप उन्हें स्वयं न हटाएँ।"
 
 #. translators: %s: number of entries
 #: includes/Admin/UndeliveredPage.php:50
@@ -805,11 +1017,11 @@ msgstr "एक पंक्ति का टेक्स्ट"
 msgid "Paragraph text"
 msgstr "पैराग्राफ़ टेक्स्ट"
 
-#: includes/Fields.php:29 includes/Templates.php:67
+#: includes/Fields.php:29 includes/Templates.php:90 includes/Templates.php:337 includes/Templates.php:351
 msgid "Email"
 msgstr "ईमेल"
 
-#: includes/Fields.php:30 includes/Templates.php:68
+#: includes/Fields.php:30 includes/Templates.php:91 includes/Templates.php:352
 msgid "Phone"
 msgstr "फ़ोन"
 
@@ -830,62 +1042,98 @@ msgid "Checkboxes"
 msgstr "चेकबॉक्स"
 
 #: includes/Fields.php:36
+msgid "Rating"
+msgstr "रेटिंग"
+
+#: includes/Fields.php:37
 msgid "Date"
 msgstr "तारीख"
 
-#: includes/Fields.php:37
+#: includes/Fields.php:38
 msgid "Hidden field"
 msgstr "छिपा फ़ील्ड"
 
-#: includes/Fields.php:38
+#: includes/Fields.php:39
 msgid "Consent checkbox"
 msgstr "सहमति चेकबॉक्स"
 
-#: includes/Fields.php:152 includes/Renderer.php:335
+#: includes/Fields.php:40
+msgid "File upload"
+msgstr "फ़ाइल अपलोड"
+
+#: includes/Fields.php:41
+msgid "Signature"
+msgstr "हस्ताक्षर"
+
+#: includes/Fields.php:46
+msgid "Page break"
+msgstr "पेज ब्रेक"
+
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:557 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "यह फ़ील्ड ज़रूरी है।"
 
-#: includes/Fields.php:178 includes/Renderer.php:336
+#. translators: %s: number of rows
+#: includes/Fields.php:265
+#, php-format
+msgid "Please fill in at least %s row."
+msgid_plural "Please fill in at least %s rows."
+msgstr[0] "कृपया कम से कम %s पंक्ति भरें।"
+msgstr[1] "कृपया कम से कम %s पंक्तियाँ भरें।"
+
+#. translators: %s: number of rows
+#: includes/Fields.php:268
+#, php-format
+msgid "Please fill in at most %s row."
+msgid_plural "Please fill in at most %s rows."
+msgstr[0] "कृपया अधिकतम %s पंक्ति भरें।"
+msgstr[1] "कृपया अधिकतम %s पंक्तियाँ भरें।"
+
+#: includes/Fields.php:299
+msgid "The signature could not be read. Please sign again."
+msgstr "हस्ताक्षर पढ़ा नहीं जा सका। कृपया फिर से हस्ताक्षर करें।"
+
+#: includes/Fields.php:316 includes/Renderer.php:558
 msgid "Please enter a valid email address."
 msgstr "कृपया सही ईमेल पता डालें।"
 
-#: includes/Fields.php:186 includes/Renderer.php:337
+#: includes/Fields.php:324 includes/Renderer.php:559
 msgid "Please enter a valid website address."
 msgstr "कृपया सही वेबसाइट पता डालें।"
 
-#: includes/Fields.php:192
+#: includes/Fields.php:330
 msgid "Please enter a valid phone number."
 msgstr "कृपया सही फ़ोन नंबर डालें।"
 
-#: includes/Fields.php:198 includes/Renderer.php:338
+#: includes/Fields.php:336 includes/Renderer.php:560
 msgid "Please enter a number."
 msgstr "कृपया एक संख्या डालें।"
 
 #. translators: %s: smallest allowed number
-#: includes/Fields.php:203
+#: includes/Fields.php:341
 #, php-format
 msgid "Please enter a number of at least %s."
 msgstr "कृपया कम से कम %s की संख्या डालें।"
 
 #. translators: %s: largest allowed number
-#: includes/Fields.php:207
+#: includes/Fields.php:345
 #, php-format
 msgid "Please enter a number of at most %s."
 msgstr "कृपया ज़्यादा से ज़्यादा %s की संख्या डालें।"
 
-#: includes/Fields.php:214
+#: includes/Fields.php:352
 msgid "Please enter a valid date."
 msgstr "कृपया सही तारीख डालें।"
 
-#: includes/Fields.php:220
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:570
 msgid "Please choose one of the options."
 msgstr "कृपया कोई एक विकल्प चुनें।"
 
-#: includes/Fields.php:271
+#: includes/Fields.php:446 includes/Templates.php:335
 msgid "Yes"
 msgstr "हाँ"
 
-#: includes/Fields.php:271
+#: includes/Fields.php:446 includes/Templates.php:335
 msgid "No"
 msgstr "नहीं"
 
@@ -913,11 +1161,11 @@ msgstr "धन्यवाद! आपका संदेश भेज दिय�
 msgid "New entry: {form_title}"
 msgstr "नई प्रविष्टि: {form_title}"
 
-#: includes/Forms.php:71 includes/Templates.php:74
+#: includes/Forms.php:71 includes/Templates.php:97
 msgid "Thank you for your message"
 msgstr "आपके संदेश के लिए धन्यवाद"
 
-#: includes/Forms.php:72 includes/Templates.php:75
+#: includes/Forms.php:72 includes/Templates.php:98
 msgid ""
 "Hello,\n"
 "\n"
@@ -951,287 +1199,429 @@ msgstr "तारीख और समय"
 msgid "Page of the form"
 msgstr "फ़ॉर्म का पेज"
 
-#: includes/Notifications.php:108
+#: includes/Notifications.php:109
 msgid "The site could not send the email."
 msgstr "साइट ईमेल नहीं भेज सकी।"
 
-#: includes/Renderer.php:83
+#: includes/Renderer.php:84
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: यह फ़ॉर्म मौजूद नहीं है।"
 
-#: includes/Renderer.php:129
+#: includes/Renderer.php:196
 msgid "Leave this field empty"
 msgstr "यह फ़ील्ड खाली छोड़ें"
 
-#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+#: includes/Renderer.php:215 includes/Renderer.php:562 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "कृपया फ़ॉर्म जाँचें और फिर से कोशिश करें।"
 
-#: includes/Renderer.php:190
+#. translators: %s: number of stars
+#: includes/Renderer.php:309
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s तारा"
+msgstr[1] "%s तारे"
+
+#. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
+#: includes/Renderer.php:321
+#, php-format
+msgid "Allowed file types: %1$s. Up to %2$s MB per file."
+msgstr "अनुमत फ़ाइल प्रकार: %1$s। हर फ़ाइल अधिकतम %2$s MB।"
+
+#. translators: %s: number of files
+#: includes/Renderer.php:323 includes/Uploads.php:112
+#, php-format
+msgid "You can upload at most %s file."
+msgid_plural "You can upload at most %s files."
+msgstr[0] "आप अधिकतम %s फ़ाइल अपलोड कर सकते हैं।"
+msgstr[1] "आप अधिकतम %s फ़ाइलें अपलोड कर सकते हैं।"
+
+#: includes/Renderer.php:339
+msgid "Signing needs JavaScript. Please switch it on in your browser."
+msgstr "हस्ताक्षर के लिए JavaScript ज़रूरी है। कृपया इसे अपने ब्राउज़र में चालू करें।"
+
+#: includes/Renderer.php:361
 msgid "Choose…"
 msgstr "चुनें…"
 
-#: includes/Renderer.php:339
+#: includes/Renderer.php:447 includes/Renderer.php:447
+msgid "Remove this row"
+msgstr "यह पंक्ति हटाएँ"
+
+#: includes/Renderer.php:561
 msgid "Sending…"
 msgstr "भेजा जा रहा है…"
 
-#: includes/Renderer.php:341
+#: includes/Renderer.php:563
 msgid "The form could not be sent. Please try again."
 msgstr "फ़ॉर्म नहीं भेजा जा सका। कृपया फिर से कोशिश करें।"
+
+#. translators: 1: number of the current step, 2: number of steps
+#: includes/Renderer.php:565
+#, php-format
+msgid "Step %1$s of %2$s"
+msgstr "चरण %1$s / %2$s"
+
+#. translators: 1: file name, 2: size in MB
+#: includes/Renderer.php:567 includes/Uploads.php:125
+#, php-format
+msgid "%1$s is larger than %2$s MB."
+msgstr "%1$s %2$s MB से बड़ी है।"
+
+#. translators: %s: file name
+#: includes/Renderer.php:569 includes/Uploads.php:130
+#, php-format
+msgid "%s: this file type is not allowed."
+msgstr "%s: इस प्रकार की फ़ाइल की अनुमति नहीं है।"
 
 #: includes/Settings.php:26
 msgid "None"
 msgstr "कोई नहीं"
 
-#: includes/Submission.php:184
+#: includes/Submission.php:220
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "फ़ॉर्म की जाँच नहीं हो सकी। कृपया पेज दोबारा लोड करके फिर से कोशिश करें।"
 
-#: includes/Submission.php:187
+#: includes/Submission.php:223
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "यह बहुत जल्दी था। थोड़ा रुककर फ़ॉर्म फिर से भेजें।"
 
-#: includes/Submission.php:195
+#: includes/Submission.php:231
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "बहुत ज़्यादा प्रविष्टियाँ। एक मिनट रुककर फिर से कोशिश करें।"
 
-#: includes/Templates.php:82
+#: includes/Templates.php:105
 msgid "Blank form"
 msgstr "खाली फ़ॉर्म"
 
-#: includes/Templates.php:83
+#: includes/Templates.php:106
 msgid "Start from an empty form."
 msgstr "खाली फ़ॉर्म से शुरू करें।"
 
-#: includes/Templates.php:90 includes/Templates.php:93
+#: includes/Templates.php:113 includes/Templates.php:116
 msgid "Contact form"
 msgstr "संपर्क फ़ॉर्म"
 
-#: includes/Templates.php:91
+#: includes/Templates.php:114
 msgid "Name, email, phone and message."
 msgstr "नाम, ईमेल, फ़ोन और संदेश।"
 
-#: includes/Templates.php:104 includes/Templates.php:107
+#: includes/Templates.php:127 includes/Templates.php:130
 msgid "Quote request"
 msgstr "कोटेशन अनुरोध"
 
-#: includes/Templates.php:105
+#: includes/Templates.php:128
 msgid "Service, extras and size give an estimated price."
 msgstr "सेवा, अतिरिक्त चीज़ें और आकार से अनुमानित कीमत मिलती है।"
 
-#: includes/Templates.php:112
+#: includes/Templates.php:135
 msgid "Service"
 msgstr "सेवा"
 
-#: includes/Templates.php:117
+#: includes/Templates.php:140
 msgid "Basic cleaning"
 msgstr "सामान्य सफ़ाई"
 
-#: includes/Templates.php:118
+#: includes/Templates.php:141
 msgid "Deep cleaning"
 msgstr "गहरी सफ़ाई"
 
-#: includes/Templates.php:123
+#: includes/Templates.php:146
 msgid "Size (m²)"
 msgstr "आकार (m²)"
 
-#: includes/Templates.php:127
+#: includes/Templates.php:150
 msgid "Extras"
 msgstr "अतिरिक्त"
 
-#: includes/Templates.php:131
+#: includes/Templates.php:154
 msgid "Windows"
 msgstr "खिड़कियाँ"
 
-#: includes/Templates.php:132
+#: includes/Templates.php:155
 msgid "Balcony"
 msgstr "बालकनी"
 
-#: includes/Templates.php:133
+#: includes/Templates.php:156
 msgid "Oven"
 msgstr "ओवन"
 
-#: includes/Templates.php:141
+#: includes/Templates.php:164
 msgid "Estimated price"
 msgstr "अनुमानित कीमत"
 
-#: includes/Templates.php:157 includes/Templates.php:160
+#: includes/Templates.php:180 includes/Templates.php:183
 msgid "Order form"
 msgstr "ऑर्डर फ़ॉर्म"
 
-#: includes/Templates.php:158
+#: includes/Templates.php:181
 msgid "Products with quantities, delivery and a discount over an amount."
 msgstr "मात्रा वाले उत्पाद, डिलीवरी और तय रकम से ऊपर छूट।"
 
-#: includes/Templates.php:162
+#: includes/Templates.php:185
 msgid "Product A – 12.00 each"
 msgstr "उत्पाद A – 12.00 प्रति नग"
 
-#: includes/Templates.php:163
+#: includes/Templates.php:186
 msgid "Product B – 18.50 each"
 msgstr "उत्पाद B – 18.50 प्रति नग"
 
-#: includes/Templates.php:167
+#: includes/Templates.php:190
 msgid "Delivery"
 msgstr "डिलीवरी"
 
-#: includes/Templates.php:172
+#: includes/Templates.php:195
 msgid "Pick up"
 msgstr "ख़ुद ले जाएँ"
 
-#: includes/Templates.php:173
+#: includes/Templates.php:196
 msgid "Standard"
 msgstr "सामान्य"
 
-#: includes/Templates.php:174
+#: includes/Templates.php:197
 msgid "Express"
 msgstr "एक्सप्रेस"
 
-#: includes/Templates.php:179
+#: includes/Templates.php:202
 msgid "Subtotal"
 msgstr "उप-योग"
 
-#: includes/Templates.php:180
+#: includes/Templates.php:203
 #, php-format
 msgid "Discount (10% over 100)"
 msgstr "छूट (100 से ऊपर 10%)"
 
-#: includes/Templates.php:181
+#: includes/Templates.php:204 includes/Templates.php:384
 msgid "Total"
 msgstr "कुल"
 
-#: includes/Templates.php:189
+#: includes/Templates.php:212
 msgid "Booking with nights"
 msgstr "रातों के हिसाब से बुकिंग"
 
-#: includes/Templates.php:190
+#: includes/Templates.php:213
 msgid "Arrival and departure dates give the number of nights and the price."
 msgstr "आने और जाने की तारीख से रातों की संख्या और कीमत मिलती है।"
 
-#: includes/Templates.php:192
+#: includes/Templates.php:215
 msgid "Booking request"
 msgstr "बुकिंग अनुरोध"
 
-#: includes/Templates.php:194
+#: includes/Templates.php:217
 msgid "Arrival"
 msgstr "आगमन"
 
-#: includes/Templates.php:195
+#: includes/Templates.php:218
 msgid "Departure"
 msgstr "प्रस्थान"
 
-#: includes/Templates.php:199
+#: includes/Templates.php:222
 msgid "Room"
 msgstr "कमरा"
 
-#: includes/Templates.php:204
+#: includes/Templates.php:227
 msgid "Standard – 80 per night"
 msgstr "स्टैंडर्ड – 80 प्रति रात"
 
-#: includes/Templates.php:205
+#: includes/Templates.php:228
 msgid "Suite – 140 per night"
 msgstr "सुइट – 140 प्रति रात"
 
-#: includes/Templates.php:210
+#: includes/Templates.php:233
 msgid "Nights"
 msgstr "रातें"
 
-#: includes/Templates.php:211
+#: includes/Templates.php:234
 msgid "Price"
 msgstr "कीमत"
 
-#: includes/Templates.php:220
+#: includes/Templates.php:243
 msgid "Shipping price from a table of zones and parcel sizes."
 msgstr "ज़ोन और पार्सल आकार की तालिका से शिपिंग कीमत।"
 
-#: includes/Templates.php:222 includes/Templates.php:256
+#: includes/Templates.php:245 includes/Templates.php:279
 msgid "Shipping price"
 msgstr "शिपिंग कीमत"
 
-#: includes/Templates.php:227
+#: includes/Templates.php:250
 msgid "Zone"
 msgstr "ज़ोन"
 
-#: includes/Templates.php:233 includes/Templates.php:263
+#: includes/Templates.php:256 includes/Templates.php:286
 msgid "Zone 1"
 msgstr "ज़ोन 1"
 
-#: includes/Templates.php:234 includes/Templates.php:263
+#: includes/Templates.php:257 includes/Templates.php:286
 msgid "Zone 2"
 msgstr "ज़ोन 2"
 
-#: includes/Templates.php:235 includes/Templates.php:263
+#: includes/Templates.php:258 includes/Templates.php:286
 msgid "Zone 3"
 msgstr "ज़ोन 3"
 
-#: includes/Templates.php:243
+#: includes/Templates.php:266
 msgid "Parcel"
 msgstr "पार्सल"
 
-#: includes/Templates.php:249 includes/Templates.php:264
+#: includes/Templates.php:272 includes/Templates.php:287
 msgid "Small"
 msgstr "छोटा"
 
-#: includes/Templates.php:250 includes/Templates.php:264
+#: includes/Templates.php:273 includes/Templates.php:287
 msgid "Medium"
 msgstr "मध्यम"
 
-#: includes/Templates.php:251 includes/Templates.php:264
+#: includes/Templates.php:274 includes/Templates.php:287
 msgid "Large"
 msgstr "बड़ा"
 
-#: includes/Templates.php:262
+#: includes/Templates.php:285
 msgid "Shipping prices"
 msgstr "शिपिंग कीमतें"
 
-#: includes/Templates.php:271 includes/Templates.php:274
+#: includes/Templates.php:294 includes/Templates.php:297
 msgid "BMI calculator"
 msgstr "BMI कैलकुलेटर"
 
-#: includes/Templates.php:272
+#: includes/Templates.php:295
 msgid "Body mass index from height and weight."
 msgstr "लंबाई और वज़न से बॉडी मास इंडेक्स।"
 
-#: includes/Templates.php:276
+#: includes/Templates.php:299
 msgid "Height (cm)"
 msgstr "लंबाई (cm)"
 
-#: includes/Templates.php:277
+#: includes/Templates.php:300
 msgid "Weight (kg)"
 msgstr "वज़न (kg)"
 
-#: includes/Templates.php:278
+#: includes/Templates.php:301
 msgid "Your BMI"
 msgstr "आपका BMI"
 
-#: includes/Templates.php:282 includes/Templates.php:299
+#: includes/Templates.php:305 includes/Templates.php:322
 msgid "Send"
 msgstr "भेजें"
 
-#: includes/Templates.php:287 includes/Templates.php:290
+#: includes/Templates.php:310 includes/Templates.php:313
 msgid "Loan calculator"
 msgstr "लोन कैलकुलेटर"
 
-#: includes/Templates.php:288
+#: includes/Templates.php:311
 msgid "Monthly payment from amount, interest rate and term."
 msgstr "रकम, ब्याज दर और अवधि से मासिक किस्त।"
 
-#: includes/Templates.php:292
+#: includes/Templates.php:315
 msgid "Loan amount"
 msgstr "लोन की रकम"
 
-#: includes/Templates.php:293
+#: includes/Templates.php:316
 #, php-format
 msgid "Yearly interest rate (%)"
 msgstr "सालाना ब्याज दर (%)"
 
-#: includes/Templates.php:294
+#: includes/Templates.php:317
 msgid "Term (months)"
 msgstr "अवधि (महीने)"
 
-#: includes/Templates.php:295
+#: includes/Templates.php:318
 msgid "Monthly payment"
 msgstr "मासिक किस्त"
+
+#: includes/Templates.php:327 includes/Templates.php:330
+msgid "Customer feedback"
+msgstr "ग्राहक प्रतिक्रिया"
+
+#: includes/Templates.php:328
+msgid "Star rating with follow-up questions that depend on the rating."
+msgstr "स्टार रेटिंग, रेटिंग पर निर्भर अगले सवालों के साथ।"
+
+#: includes/Templates.php:332
+msgid "How would you rate your experience?"
+msgstr "आप अपने अनुभव को कैसी रेटिंग देंगे?"
+
+#: includes/Templates.php:333
+msgid "What did you like most?"
+msgstr "आपको सबसे ज़्यादा क्या पसंद आया?"
+
+#: includes/Templates.php:334
+msgid "What should we do better?"
+msgstr "हमें क्या बेहतर करना चाहिए?"
+
+#: includes/Templates.php:335
+msgid "Would you recommend us to a friend?"
+msgstr "क्या आप हमें किसी दोस्त को सुझाएँगे?"
+
+#: includes/Templates.php:340
+msgid "Thank you for your feedback!"
+msgstr "आपकी प्रतिक्रिया के लिए धन्यवाद!"
+
+#: includes/Templates.php:345 includes/Templates.php:348
+msgid "Job application"
+msgstr "नौकरी के लिए आवेदन"
+
+#: includes/Templates.php:346
+msgid "Two pages with a CV upload."
+msgstr "CV अपलोड के साथ दो पेज।"
+
+#: includes/Templates.php:353
+msgid "Your application"
+msgstr "आपका आवेदन"
+
+#: includes/Templates.php:354
+msgid "Position you are applying for"
+msgstr "जिस पद के लिए आप आवेदन कर रहे हैं"
+
+#: includes/Templates.php:355
+msgid "Your CV"
+msgstr "आपका CV"
+
+#: includes/Templates.php:356
+msgid "Cover letter"
+msgstr "कवर लेटर"
+
+#: includes/Templates.php:358
+msgid "Thank you! We received your application."
+msgstr "धन्यवाद! हमें आपका आवेदन मिल गया है।"
+
+#: includes/Templates.php:362 includes/Templates.php:365
+msgid "Event registration"
+msgstr "इवेंट पंजीकरण"
+
+#: includes/Templates.php:363
+msgid "Register several people at once; the total follows the tickets."
+msgstr "एक साथ कई लोगों का पंजीकरण करें; कुल राशि टिकटों के अनुसार होती है।"
+
+#: includes/Templates.php:372
+msgid "Attendees"
+msgstr "प्रतिभागी"
+
+#: includes/Templates.php:377
+msgid "Add a person"
+msgstr "व्यक्ति जोड़ें"
+
+#: includes/Templates.php:379
+msgid "Full name"
+msgstr "पूरा नाम"
+
+#: includes/Templates.php:380
+msgid "Ticket"
+msgstr "टिकट"
+
+#: includes/Templates.php:380
+msgid "Adult – 25"
+msgstr "वयस्क – 25"
+
+#: includes/Templates.php:380
+msgid "Child – 10"
+msgstr "बच्चा – 10"
+
+#. translators: %s: file name
+#: includes/Uploads.php:121
+#, php-format
+msgid "%s could not be uploaded. Please try again."
+msgstr "%s अपलोड नहीं हो सका। कृपया फिर से कोशिश करें।"
 
 #: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
 msgid "Test email"

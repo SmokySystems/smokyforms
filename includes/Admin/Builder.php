@@ -191,6 +191,10 @@ final class Builder {
 					'listUrl'       => admin_url( Menu::PARENT ),
 					'settingsUrl'   => admin_url( Menu::PARENT . '&page=' . Settings::SLUG ),
 					'builderUrl'    => Menu::builder_url(),
+					'upload'        => array(
+						'extensions' => Fields::DEFAULT_EXTENSIONS,
+						'maxSize'    => max( 1, floor( wp_max_upload_size() / MB_IN_BYTES ) ),
+					),
 					'number'        => array(
 						'decimal'   => $wp_locale->number_format['decimal_point'] ?? '.',
 						'thousands' => $wp_locale->number_format['thousands_sep'] ?? ',',

@@ -51,6 +51,7 @@ final class Plugin {
 		Submission::boot();
 		add_action( 'rest_api_init', array( Admin\Builder::class, 'routes' ) );
 		add_action( Undelivered::CRON, array( Undelivered::class, 'purge' ) );
+		add_action( Undelivered::CRON, array( Uploads::class, 'purge' ) );
 		add_action( 'wp_mail_failed', array( Notifications::class, 'remember_failure' ) );
 
 		if ( is_admin() ) {

@@ -323,3 +323,93 @@ c3a7ea|Nom d’expédition
 ee1851|Envoyer un e-mail de test
 7caa16|SmokyForms – Constructeur de formulaires glisser-déposer avec calculs
 9958f8|Constructeur de formulaires glisser-déposer avec calculs gratuits. Créez des formulaires de contact, de devis et de commande ainsi que des calculateurs sans écrire de formules.
+b37875|Groupe répétable
+d9f5f2|%s : nombre de lignes
+16a3ac|%1$s : total de %2$s
+1415c1|%s : nombre de fichiers
+374bea|Page suivante
+907db1|Aucun champ pour l’instant
+5f78b2|Logique conditionnelle
+a2a551|est
+b1b55b|n’est pas
+bf943a|est vide
+9de408|n’est pas vide
+3609cb|est supérieur à
+bed162|est inférieur à
+857af2|contient
+7bfdce|Afficher ou masquer ce champ selon d’autres réponses.
+004bf6|Action
+3b2035|Afficher ce champ
+c739ca|Masquer ce champ
+6da892|Correspondance
+e77510|si toutes les règles correspondent
+83e482|si une règle correspond
+6f16a5|Champ
+f6c0e3|Comparaison
+964305|Supprimer la règle
+9b5e7f|Ajouter une règle
+a1fa27|Type
+4589d5|Ajouter un champ
+a1177e|Titre de la page suivante
+415341|Facultatif. Tout ce qui se trouve sous ce saut, jusqu’au suivant, forme une page du formulaire.
+b27e83|Nombre d’étoiles
+914ccb|Types de fichiers autorisés
+d39f1a|Extensions de fichier séparées par des virgules. Seuls les types autorisés par WordPress lui-même peuvent être utilisés.
+d8b894|Fichier le plus lourd (Mo)
+7d8c41|Votre serveur autorise jusqu’à %s Mo.
+18de35|Nombre de fichiers
+fc09de|Joindre à l’e-mail de notification
+b8c34f|L’e-mail contient toujours un lien vers le fichier. Les pièces jointes volumineuses peuvent être refusées par les serveurs de messagerie.
+91d907|Champs de chaque ligne
+cb5ffd|Nombre minimum de lignes
+161252|Nombre maximum de lignes
+192d51|Texte du bouton d’ajout
+854a4e|Ajouter un autre
+d9c320|Bouton Suivant
+10ac3d|Suivant
+fab2df|Bouton Retour
+dd1f77|Précédent
+57518a|Afficher la barre de progression
+0eb631|Pour les formulaires avec sauts de page : « Étape 1 sur 3 » au-dessus du formulaire.
+851653|Fichiers envoyés
+168038|Les fichiers et signatures envoyés avec un formulaire sont enregistrés dans le dossier uploads/smokyforms avec des liens difficiles à deviner, et l’e-mail contient des liens vers eux.
+9ff4e0|Supprimer les fichiers envoyés après
+138ce5|0 conserve les fichiers jusqu’à ce que vous les supprimiez vous-même.
+dda9c0|Note
+c42655|Envoi de fichier
+8c0900|Signature
+fdd64f|Saut de page
+86757c|Veuillez remplir au moins %s ligne. ¦ Veuillez remplir au moins %s lignes.
+2c2c5c|Veuillez remplir au plus %s ligne. ¦ Veuillez remplir au plus %s lignes.
+739100|La signature n’a pas pu être lue. Veuillez signer à nouveau.
+54e7ab|%s étoile ¦ %s étoiles
+0bd3e3|Types de fichiers autorisés : %1$s. Jusqu’à %2$s Mo par fichier.
+2e24c6|Vous pouvez envoyer au plus %s fichier. ¦ Vous pouvez envoyer au plus %s fichiers.
+02f371|La signature nécessite JavaScript. Veuillez l’activer dans votre navigateur.
+fded2f|Supprimer cette ligne
+d0e7dd|Étape %1$s sur %2$s
+6d402b|%1$s dépasse %2$s Mo.
+2a8b08|%s : ce type de fichier n’est pas autorisé.
+969c43|Avis client
+043168|Note par étoiles avec des questions de suivi selon la note.
+3936da|Comment évaluez-vous votre expérience ?
+f04b38|Qu’avez-vous le plus apprécié ?
+4a179f|Que devrions-nous améliorer ?
+c2be8a|Nous recommanderiez-vous à un ami ?
+d62968|Merci pour votre avis !
+47b537|Candidature
+155113|Deux pages avec envoi du CV.
+5fda1c|Votre candidature
+e22ca6|Poste pour lequel vous postulez
+755b7f|Votre CV
+50521e|Lettre de motivation
+77657c|Merci ! Nous avons bien reçu votre candidature.
+c1014b|Inscription à un événement
+b266f3|Inscrivez plusieurs personnes à la fois ; le total suit les billets.
+0bff4c|Participants
+195693|Ajouter une personne
+f11b36|Nom complet
+c75143|Billet
+abce00|Adulte – 25
+2d337d|Enfant – 10
+ccdac9|%s n’a pas pu être envoyé. Veuillez réessayer.

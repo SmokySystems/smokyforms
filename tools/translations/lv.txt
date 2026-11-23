@@ -323,3 +323,93 @@ c3a7ea|Sūtītāja vārds
 ee1851|Nosūtīt testa e-pastu
 7caa16|SmokyForms – Veidlapu veidotājs ar vilkšanu un aprēķiniem
 9958f8|Veidlapu veidotājs ar vilkšanu un bezmaksas aprēķiniem. Veidojiet kontaktu, cenu pieprasījumu un pasūtījumu veidlapas un kalkulatorus, nerakstot formulas.
+b37875|Atkārtojama grupa
+d9f5f2|%s: rindu skaits
+16a3ac|%1$s: %2$s kopā
+1415c1|%s: failu skaits
+374bea|Nākamā lapa
+907db1|Lauku vēl nav
+5f78b2|Nosacījumu loģika
+a2a551|ir
+b1b55b|nav
+bf943a|ir tukšs
+9de408|nav tukšs
+3609cb|ir lielāks par
+bed162|ir mazāks par
+857af2|satur
+7bfdce|Rādiet vai paslēpiet šo lauku atkarībā no citām atbildēm.
+004bf6|Darbība
+3b2035|Rādīt šo lauku
+c739ca|Paslēpt šo lauku
+6da892|Atbilstība
+e77510|ja atbilst visi noteikumi
+83e482|ja atbilst jebkurš noteikums
+6f16a5|Lauks
+f6c0e3|Salīdzinājums
+964305|Noņemt noteikumu
+9b5e7f|Pievienot noteikumu
+a1fa27|Veids
+4589d5|Pievienot lauku
+a1177e|Nākamās lapas virsraksts
+415341|Neobligāti. Viss zem šī lapas pārtraukuma līdz nākamajam ir viena formas lapa.
+b27e83|Zvaigžņu skaits
+914ccb|Atļautie failu veidi
+d39f1a|Failu paplašinājumi, atdalīti ar komatiem. Var izmantot tikai tos veidus, ko atļauj pats WordPress.
+d8b894|Lielākais fails (MB)
+7d8c41|Jūsu serveris atļauj līdz %s MB.
+18de35|Failu skaits
+fc09de|Pievienot paziņojuma e-pastam
+b8c34f|E-pastā vienmēr ir saite uz failu. Pasta serveri var noraidīt lielus pielikumus.
+91d907|Katras rindas lauki
+cb5ffd|Mazākais rindu skaits
+161252|Lielākais rindu skaits
+192d51|Pievienošanas pogas teksts
+854a4e|Pievienot vēl vienu
+d9c320|Poga “Tālāk”
+10ac3d|Tālāk
+fab2df|Poga “Atpakaļ”
+dd1f77|Atpakaļ
+57518a|Rādīt progresa joslu
+0eb631|Formām ar lapu pārtraukumiem: “1. solis no 3” virs formas.
+851653|Augšupielādētie faili
+168038|Ar formu nosūtītie faili un paraksti tiek saglabāti mapē uploads/smokyforms ar grūti uzminamām saitēm, un e-pastā ir saites uz tiem.
+9ff4e0|Dzēst augšupielādētos failus pēc
+138ce5|0 saglabā failus, līdz jūs tos izdzēšat paši.
+dda9c0|Vērtējums
+c42655|Faila augšupielāde
+8c0900|Paraksts
+fdd64f|Lapas pārtraukums
+86757c|Lūdzu, aizpildiet vismaz %s rindu. ¦ Lūdzu, aizpildiet vismaz %s rindas. ¦ Lūdzu, aizpildiet vismaz %s rindu.
+2c2c5c|Lūdzu, aizpildiet ne vairāk kā %s rindu. ¦ Lūdzu, aizpildiet ne vairāk kā %s rindas. ¦ Lūdzu, aizpildiet ne vairāk kā %s rindu.
+739100|Parakstu neizdevās nolasīt. Lūdzu, parakstieties vēlreiz.
+54e7ab|%s zvaigzne ¦ %s zvaigznes ¦ %s zvaigžņu
+0bd3e3|Atļautie failu veidi: %1$s. Līdz %2$s MB vienam failam.
+2e24c6|Varat augšupielādēt ne vairāk kā %s failu. ¦ Varat augšupielādēt ne vairāk kā %s failus. ¦ Varat augšupielādēt ne vairāk kā %s failu.
+02f371|Parakstīšanai nepieciešams JavaScript. Lūdzu, ieslēdziet to pārlūkā.
+fded2f|Noņemt šo rindu
+d0e7dd|%1$s. solis no %2$s
+6d402b|%1$s ir lielāks par %2$s MB.
+2a8b08|%s: šis faila veids nav atļauts.
+969c43|Klientu atsauksmes
+043168|Vērtējums ar zvaigznēm un jautājumi, kas atkarīgi no vērtējuma.
+3936da|Kā jūs vērtētu savu pieredzi?
+f04b38|Kas jums patika visvairāk?
+4a179f|Ko mums vajadzētu darīt labāk?
+c2be8a|Vai jūs mūs ieteiktu draugam?
+d62968|Paldies par atsauksmi!
+47b537|Darba pieteikums
+155113|Divas lapas ar CV augšupielādi.
+5fda1c|Jūsu pieteikums
+e22ca6|Amats, uz kuru piesakāties
+755b7f|Jūsu CV
+50521e|Motivācijas vēstule
+77657c|Paldies! Mēs saņēmām jūsu pieteikumu.
+c1014b|Reģistrācija pasākumam
+b266f3|Reģistrējiet vairākus cilvēkus uzreiz; summa seko biļetēm.
+0bff4c|Dalībnieki
+195693|Pievienot personu
+f11b36|Vārds un uzvārds
+c75143|Biļete
+abce00|Pieaugušais – 25
+2d337d|Bērns – 10
+ccdac9|Neizdevās augšupielādēt %s. Mēģiniet vēlreiz.

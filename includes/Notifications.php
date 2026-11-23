@@ -67,7 +67,7 @@ final class Notifications {
 				}
 				$subject = self::replace( $notify['subject'], $form, $values, false );
 				$body    = self::html( self::replace( $notify['message'], $form, $values, true ) );
-				$ok      = self::mail( $to, $subject, $body, $headers );
+				$ok      = self::mail( $to, $subject, $body, $headers, Uploads::attachments( $form, $values ) );
 				if ( ! $ok ) {
 					Undelivered::store( $form, $values, $to, self::$last_error );
 				}
@@ -93,13 +93,14 @@ final class Notifications {
 	 * @param string          $subject Subject.
 	 * @param string          $body    HTML body.
 	 * @param string[]        $headers Headers.
+	 * @param string[]        $files   Attachments.
 	 * @return bool
 	 */
-	public static function mail( $to, $subject, $body, $headers ) {
+	public static function mail( $to, $subject, $body, $headers, $files = array() ) {
 		self::$last_error = '';
 		self::$sending    = true;
-		$send             = static function () use ( $to, $subject, $body, $headers ) {
-			return wp_mail( $to, $subject, $body, $headers );
+		$send             = static function () use ( $to, $subject, $body, $headers, $files ) {
+			return wp_mail( $to, $subject, $body, $headers, $files );
 		};
 		// The shared SMTP module sends through the SMTP account when one is set up.
 		$ok = class_exists( '\SmokySystems\Mail\Module' ) ? \SmokySystems\Mail\Module::wrap( $send ) : $send();
@@ -204,13 +205,14 @@ final class Notifications {
 	public static function table( $form, $values ) {
 		$rows = '';
 		foreach ( $form['fields'] as $f ) {
-			if ( ! Fields::is_input( $f['type'] ) || 'hidden' === $f['type'] && '' === ( $values[ $f['id'] ] ?? '' ) ) {
+			// Fields hidden by conditional logic have no value at all and are left out.
+			if ( ! Fields::is_input( $f['type'] ) || ! array_key_exists( $f['id'], $values ) || 'hidden' === $f['type'] && '' === $values[ $f['id'] ] ) {
 				continue;
 			}
-			$v     = Fields::display( $f, $values[ $f['id'] ] ?? '' );
+			$v     = Fields::display_html( $f, $values[ $f['id'] ] );
 			$label = '' !== $f['label'] ? $f['label'] : $f['id'];
 			$rows .= '<tr><th style="text-align:left;vertical-align:top;padding:8px 12px 8px 0;border-bottom:1px solid #e5e5e5;">' . esc_html( $label ) . '</th>'
-				. '<td style="padding:8px 0;border-bottom:1px solid #e5e5e5;">' . ( '' === $v ? '&ndash;' : nl2br( esc_html( $v ) ) ) . '</td></tr>';
+				. '<td style="padding:8px 0;border-bottom:1px solid #e5e5e5;">' . ( '' === $v ? '&ndash;' : $v ) . '</td></tr>';
 		}
 		return '<table cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%;max-width:640px;">' . $rows . '</table>';
 	}
@@ -225,8 +227,9 @@ final class Notifications {
 	private static function plain( $form, $values ) {
 		$lines = array();
 		foreach ( $form['fields'] as $f ) {
-			if ( Fields::is_input( $f['type'] ) ) {
-				$lines[] = ( '' !== $f['label'] ? $f['label'] : $f['id'] ) . ': ' . Fields::display( $f, $values[ $f['id'] ] ?? '' );
+			if ( Fields::is_input( $f['type'] ) && array_key_exists( $f['id'], $values ) ) {
+				$v       = Fields::display( $f, $values[ $f['id'] ] );
+				$lines[] = ( '' !== $f['label'] ? $f['label'] : $f['id'] ) . ':' . ( false !== strpos( $v, "\n" ) ? "\n" : ' ' ) . $v;
 			}
 		}
 		return implode( "\n", $lines );

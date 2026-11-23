@@ -323,3 +323,93 @@ c3a7ea|Saatja nimi
 ee1851|Saada testkiri
 7caa16|SmokyForms – Lohista ja kukuta vormilooja arvutustega
 9958f8|Lohista ja kukuta vormilooja tasuta arvutustega. Loo kontakti-, hinnapäringu- ja tellimisvorme ning kalkulaatoreid ilma valemeid kirjutamata.
+b37875|Korduv rühm
+d9f5f2|%s: ridade arv
+16a3ac|%1$s: %2$s kokku
+1415c1|%s: failide arv
+374bea|Järgmine leht
+907db1|Välju veel pole
+5f78b2|Tingimusloogika
+a2a551|on
+b1b55b|ei ole
+bf943a|on tühi
+9de408|ei ole tühi
+3609cb|on suurem kui
+bed162|on väiksem kui
+857af2|sisaldab
+7bfdce|Näita või peida see väli olenevalt teistest vastustest.
+004bf6|Toiming
+3b2035|Näita seda välja
+c739ca|Peida see väli
+6da892|Vastavus
+e77510|kui kõik reeglid kehtivad
+83e482|kui mõni reegel kehtib
+6f16a5|Väli
+f6c0e3|Võrdlus
+964305|Eemalda reegel
+9b5e7f|Lisa reegel
+a1fa27|Tüüp
+4589d5|Lisa väli
+a1177e|Järgmise lehe pealkiri
+415341|Valikuline. Kõik selle lehepiiri all kuni järgmiseni on vormi üks leht.
+b27e83|Tähtede arv
+914ccb|Lubatud failitüübid
+d39f1a|Faililaiendid komadega eraldatult. Kasutada saab ainult tüüpe, mida WordPress ise lubab.
+d8b894|Suurim fail (MB)
+7d8c41|Sinu server lubab kuni %s MB.
+18de35|Failide arv
+fc09de|Lisa teavituskirjale manusena
+b8c34f|Kirjas on alati link failile. Meiliserverid võivad suuri manuseid tagasi lükata.
+91d907|Iga rea väljad
+cb5ffd|Vähim ridade arv
+161252|Suurim ridade arv
+192d51|Lisamisnupu tekst
+854a4e|Lisa veel üks
+d9c320|Edasi-nupp
+10ac3d|Edasi
+fab2df|Tagasi-nupp
+dd1f77|Tagasi
+57518a|Näita edenemisriba
+0eb631|Lehepiiridega vormidele: „Samm 1/3” vormi kohal.
+851653|Üles laaditud failid
+168038|Vormiga saadetud failid ja allkirjad salvestatakse kausta uploads/smokyforms raskesti arvatavate linkidega ning kiri viitab neile.
+9ff4e0|Kustuta üles laaditud failid pärast
+138ce5|0 hoiab faile, kuni need ise kustutad.
+dda9c0|Hinnang
+c42655|Faili üleslaadimine
+8c0900|Allkiri
+fdd64f|Lehepiir
+86757c|Täida vähemalt %s rida. ¦ Täida vähemalt %s rida.
+2c2c5c|Täida kõige rohkem %s rida. ¦ Täida kõige rohkem %s rida.
+739100|Allkirja ei õnnestunud lugeda. Allkirjasta uuesti.
+54e7ab|%s täht ¦ %s tähte
+0bd3e3|Lubatud failitüübid: %1$s. Kuni %2$s MB faili kohta.
+2e24c6|Saad üles laadida kõige rohkem %s faili. ¦ Saad üles laadida kõige rohkem %s faili.
+02f371|Allkirjastamiseks on vaja JavaScripti. Lülita see brauseris sisse.
+fded2f|Eemalda see rida
+d0e7dd|Samm %1$s/%2$s
+6d402b|%1$s on suurem kui %2$s MB.
+2a8b08|%s: see failitüüp pole lubatud.
+969c43|Kliendi tagasiside
+043168|Tähtedega hinnang ja hinnangust sõltuvad lisaküsimused.
+3936da|Kuidas hindaksid oma kogemust?
+f04b38|Mis sulle kõige rohkem meeldis?
+4a179f|Mida peaksime paremini tegema?
+c2be8a|Kas soovitaksid meid sõbrale?
+d62968|Aitäh tagasiside eest!
+47b537|Tööavaldus
+155113|Kaks lehte CV üleslaadimisega.
+5fda1c|Sinu avaldus
+e22ca6|Ametikoht, millele kandideerid
+755b7f|Sinu CV
+50521e|Motivatsioonikiri
+77657c|Aitäh! Saime sinu avalduse kätte.
+c1014b|Üritusele registreerumine
+b266f3|Registreeri mitu inimest korraga; summa järgib pileteid.
+0bff4c|Osalejad
+195693|Lisa inimene
+f11b36|Täisnimi
+c75143|Pilet
+abce00|Täiskasvanu – 25
+2d337d|Laps – 10
+ccdac9|Faili %s ei õnnestunud üles laadida. Proovi uuesti.

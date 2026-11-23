@@ -323,3 +323,93 @@ c3a7ea|Afsendernavn
 ee1851|Send test-e-mail
 7caa16|SmokyForms – Formularbygger med træk og slip og beregninger
 9958f8|Formularbygger med træk og slip og gratis beregninger. Lav kontakt-, tilbuds- og bestillingsformularer og beregnere uden at skrive formler.
+b37875|Gentagen gruppe
+d9f5f2|%s: antal rækker
+16a3ac|%1$s: i alt af %2$s
+1415c1|%s: antal filer
+374bea|Næste side
+907db1|Ingen felter endnu
+5f78b2|Betinget logik
+a2a551|er
+b1b55b|er ikke
+bf943a|er tom
+9de408|er ikke tom
+3609cb|er større end
+bed162|er mindre end
+857af2|indeholder
+7bfdce|Vis eller skjul dette felt afhængigt af andre svar.
+004bf6|Handling
+3b2035|Vis dette felt
+c739ca|Skjul dette felt
+6da892|Match
+e77510|hvis alle regler passer
+83e482|hvis en regel passer
+6f16a5|Felt
+f6c0e3|Sammenligning
+964305|Fjern regel
+9b5e7f|Tilføj regel
+a1fa27|Type
+4589d5|Tilføj felt
+a1177e|Titel på næste side
+415341|Valgfrit. Alt under dette sideskift, til det næste, er én side i formularen.
+b27e83|Antal stjerner
+914ccb|Tilladte filtyper
+d39f1a|Filendelser adskilt med kommaer. Kun typer, som WordPress selv tillader, kan bruges.
+d8b894|Største fil (MB)
+7d8c41|Din server tillader op til %s MB.
+18de35|Antal filer
+fc09de|Vedhæft til notifikationsmailen
+b8c34f|Mailen linker altid til filen. Store vedhæftninger kan blive afvist af mailservere.
+91d907|Felter i hver række
+cb5ffd|Færreste rækker
+161252|Flest rækker
+192d51|Tekst på tilføj-knappen
+854a4e|Tilføj en til
+d9c320|Næste-knap
+10ac3d|Næste
+fab2df|Tilbage-knap
+dd1f77|Forrige
+57518a|Vis statuslinjen
+0eb631|For formularer med sideskift: "Trin 1 af 3" over formularen.
+851653|Uploadede filer
+168038|Filer og underskrifter sendt med en formular gemmes i mappen uploads/smokyforms med links, der er svære at gætte, og mailen linker til dem.
+9ff4e0|Slet uploadede filer efter
+138ce5|0 beholder filerne, indtil du selv sletter dem.
+dda9c0|Bedømmelse
+c42655|Filupload
+8c0900|Underskrift
+fdd64f|Sideskift
+86757c|Udfyld mindst %s række. ¦ Udfyld mindst %s rækker.
+2c2c5c|Udfyld højst %s række. ¦ Udfyld højst %s rækker.
+739100|Underskriften kunne ikke læses. Skriv under igen.
+54e7ab|%s stjerne ¦ %s stjerner
+0bd3e3|Tilladte filtyper: %1$s. Op til %2$s MB pr. fil.
+2e24c6|Du kan højst uploade %s fil. ¦ Du kan højst uploade %s filer.
+02f371|Underskrift kræver JavaScript. Slå det til i din browser.
+fded2f|Fjern denne række
+d0e7dd|Trin %1$s af %2$s
+6d402b|%1$s er større end %2$s MB.
+2a8b08|%s: denne filtype er ikke tilladt.
+969c43|Kundefeedback
+043168|Stjernebedømmelse med opfølgende spørgsmål, der afhænger af bedømmelsen.
+3936da|Hvordan vil du bedømme din oplevelse?
+f04b38|Hvad kunne du bedst lide?
+4a179f|Hvad kan vi gøre bedre?
+c2be8a|Vil du anbefale os til en ven?
+d62968|Tak for din feedback!
+47b537|Jobansøgning
+155113|To sider med upload af CV.
+5fda1c|Din ansøgning
+e22ca6|Stilling, du søger
+755b7f|Dit CV
+50521e|Ansøgning
+77657c|Tak! Vi har modtaget din ansøgning.
+c1014b|Tilmelding til arrangement
+b266f3|Tilmeld flere personer på én gang; beløbet følger billetterne.
+0bff4c|Deltagere
+195693|Tilføj en person
+f11b36|Fulde navn
+c75143|Billet
+abce00|Voksen – 25
+2d337d|Barn – 10
+ccdac9|%s kunne ikke uploades. Prøv igen.

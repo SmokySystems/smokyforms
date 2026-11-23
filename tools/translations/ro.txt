@@ -323,3 +323,93 @@ c3a7ea|Numele expeditorului
 ee1851|Trimite email de test
 7caa16|SmokyForms – Constructor de formulare drag and drop cu calcule
 9958f8|Constructor de formulare drag and drop cu calcule gratuite. Creează formulare de contact, de ofertă și de comandă și calculatoare fără să scrii formule.
+b37875|Grup repetabil
+d9f5f2|%s: numărul de rânduri
+16a3ac|%1$s: totalul pentru %2$s
+1415c1|%s: numărul de fișiere
+374bea|Pagina următoare
+907db1|Încă nu există câmpuri
+5f78b2|Logică condițională
+a2a551|este
+b1b55b|nu este
+bf943a|este gol
+9de408|nu este gol
+3609cb|este mai mare decât
+bed162|este mai mic decât
+857af2|conține
+7bfdce|Afișează sau ascunde acest câmp în funcție de alte răspunsuri.
+004bf6|Acțiune
+3b2035|Afișează acest câmp
+c739ca|Ascunde acest câmp
+6da892|Potrivire
+e77510|dacă toate regulile se potrivesc
+83e482|dacă oricare regulă se potrivește
+6f16a5|Câmp
+f6c0e3|Comparație
+964305|Elimină regula
+9b5e7f|Adaugă o regulă
+a1fa27|Tip
+4589d5|Adaugă un câmp
+a1177e|Titlul paginii următoare
+415341|Opțional. Tot ce este sub această întrerupere, până la următoarea, este o pagină a formularului.
+b27e83|Număr de stele
+914ccb|Tipuri de fișiere permise
+d39f1a|Extensii de fișiere separate prin virgule. Se pot folosi doar tipurile permise chiar de WordPress.
+d8b894|Cel mai mare fișier (MB)
+7d8c41|Serverul tău permite până la %s MB.
+18de35|Număr de fișiere
+fc09de|Atașează la emailul de notificare
+b8c34f|Emailul conține mereu un link către fișier. Serverele de email pot refuza atașamentele mari.
+91d907|Câmpurile fiecărui rând
+cb5ffd|Cele mai puține rânduri
+161252|Cele mai multe rânduri
+192d51|Textul butonului de adăugare
+854a4e|Adaugă încă unul
+d9c320|Butonul Înainte
+10ac3d|Înainte
+fab2df|Butonul Înapoi
+dd1f77|Înapoi
+57518a|Afișează bara de progres
+0eb631|Pentru formulare cu întreruperi de pagină: „Pasul 1 din 3” deasupra formularului.
+851653|Fișiere încărcate
+168038|Fișierele și semnăturile trimise cu un formular sunt salvate în dosarul uploads/smokyforms cu linkuri greu de ghicit, iar emailul conține linkuri către ele.
+9ff4e0|Șterge fișierele încărcate după
+138ce5|0 păstrează fișierele până le ștergi tu.
+dda9c0|Evaluare
+c42655|Încărcare fișier
+8c0900|Semnătură
+fdd64f|Întrerupere de pagină
+86757c|Completează cel puțin %s rând. ¦ Completează cel puțin %s rânduri. ¦ Completează cel puțin %s de rânduri.
+2c2c5c|Completează cel mult %s rând. ¦ Completează cel mult %s rânduri. ¦ Completează cel mult %s de rânduri.
+739100|Semnătura nu a putut fi citită. Semnează din nou.
+54e7ab|%s stea ¦ %s stele ¦ %s de stele
+0bd3e3|Tipuri de fișiere permise: %1$s. Până la %2$s MB pe fișier.
+2e24c6|Poți încărca cel mult %s fișier. ¦ Poți încărca cel mult %s fișiere. ¦ Poți încărca cel mult %s de fișiere.
+02f371|Pentru semnătură este nevoie de JavaScript. Activează-l în browser.
+fded2f|Elimină acest rând
+d0e7dd|Pasul %1$s din %2$s
+6d402b|%1$s depășește %2$s MB.
+2a8b08|%s: acest tip de fișier nu este permis.
+969c43|Feedback de la clienți
+043168|Evaluare cu stele și întrebări care depind de evaluare.
+3936da|Cum îți evaluezi experiența?
+f04b38|Ce ți-a plăcut cel mai mult?
+4a179f|Ce ar trebui să facem mai bine?
+c2be8a|Ne-ai recomanda unui prieten?
+d62968|Mulțumim pentru feedback!
+47b537|Cerere de angajare
+155113|Două pagini cu încărcarea CV-ului.
+5fda1c|Cererea ta
+e22ca6|Postul pentru care aplici
+755b7f|CV-ul tău
+50521e|Scrisoare de intenție
+77657c|Mulțumim! Am primit cererea ta.
+c1014b|Înscriere la eveniment
+b266f3|Înscrie mai multe persoane deodată; totalul urmează biletele.
+0bff4c|Participanți
+195693|Adaugă o persoană
+f11b36|Nume complet
+c75143|Bilet
+abce00|Adult – 25
+2d337d|Copil – 10
+ccdac9|%s nu a putut fi încărcat. Încearcă din nou.

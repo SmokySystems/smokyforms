@@ -72,6 +72,7 @@ final class Forms {
 				'message' => __( "Hello,\n\nthank you for contacting us. We received your message and will reply soon.\n\n{all_fields}", 'smokyforms' ),
 			),
 			'captcha'         => true,
+			'progress'        => true,
 		);
 	}
 
@@ -173,6 +174,7 @@ final class Forms {
 				'message' => isset( $s['confirm']['message'] ) ? sanitize_textarea_field( $s['confirm']['message'] ) : $defaults['confirm']['message'],
 			),
 			'captcha'         => isset( $s['captcha'] ) ? ! empty( $s['captcha'] ) : true,
+			'progress'        => isset( $s['progress'] ) ? ! empty( $s['progress'] ) : true,
 		);
 		if ( '' === trim( $settings['notify']['message'] ) ) {
 			$settings['notify']['message'] = '{all_fields}';
@@ -241,6 +243,34 @@ final class Forms {
 	}
 
 	/**
+	 * Value of a {group.field} reference: the sum of that field over the rows of a repeating group.
+	 *
+	 * @param array  $by_id  Fields by id.
+	 * @param array  $values Values.
+	 * @param string $ref    Reference.
+	 * @return float
+	 */
+	private static function group_sum( $by_id, $values, $ref ) {
+		$parts = explode( '.', $ref, 2 );
+		if ( ! isset( $parts[1], $by_id[ $parts[0] ] ) || 'repeater' !== $by_id[ $parts[0] ]['type'] ) {
+			return 0.0;
+		}
+		$sub = null;
+		foreach ( $by_id[ $parts[0] ]['subfields'] as $s ) {
+			if ( $s['id'] === $parts[1] ) {
+				$sub = $s;
+			}
+		}
+		$sum = 0.0;
+		if ( $sub && isset( $values[ $parts[0] ] ) && is_array( $values[ $parts[0] ] ) ) {
+			foreach ( $values[ $parts[0] ] as $row ) {
+				$sum += Fields::numeric( $sub, $row[ $parts[1] ] ?? '' );
+			}
+		}
+		return $sum;
+	}
+
+	/**
 	 * Computes every calculation field from the submitted values.
 	 *
 	 * Calculations may use other calculations; they are evaluated in dependency order,
@@ -260,10 +290,10 @@ final class Forms {
 
 		$num = null;
 		$num = static function ( $id ) use ( &$num, &$values, &$done, &$stack, $by_id, $form ) {
-			if ( ! isset( $by_id[ $id ] ) ) {
-				return 0.0;
+			$f = $by_id[ $id ] ?? null;
+			if ( ! $f ) {
+				return self::group_sum( $by_id, $values, $id );
 			}
-			$f = $by_id[ $id ];
 			if ( 'calculation' !== $f['type'] ) {
 				return Fields::numeric( $f, $values[ $id ] ?? '' );
 			}
@@ -275,8 +305,13 @@ final class Forms {
 			}
 			$stack[ $id ] = true;
 			$text         = static function ( $ref ) use ( &$values ) {
-				$v = $values[ $ref ] ?? '';
-				return is_array( $v ) ? (string) reset( $v ) : (string) $v;
+				$parts = explode( '.', $ref, 2 );
+				$v     = $values[ $parts[0] ] ?? '';
+				if ( isset( $parts[1] ) ) {
+					$v = is_array( $v ) && isset( $v[0][ $parts[1] ] ) ? $v[0][ $parts[1] ] : '';
+				}
+				$v = is_array( $v ) ? reset( $v ) : $v;
+				return is_scalar( $v ) ? (string) $v : '';
 			};
 			$result       = Formula::evaluate( $f['formula'], $num, $text, $form['tables'] );
 			unset( $stack[ $id ] );

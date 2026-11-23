@@ -87,11 +87,12 @@ final class Submission {
 	/**
 	 * Handles one submission.
 	 *
-	 * @param int   $id   Form id.
-	 * @param array $post Posted data (slashes removed or not, values are cleaned per field).
+	 * @param int        $id    Form id.
+	 * @param array      $post  Posted data (slashes removed or not, values are cleaned per field).
+	 * @param array|null $files Uploaded files in the $_FILES format (default: $_FILES).
 	 * @return array ok, message, errors, redirect
 	 */
-	public static function process( $id, $post ) {
+	public static function process( $id, $post, $files = null ) {
 		$form = Forms::get( $id );
 		if ( ! $form || 'publish' !== $form['status'] ) {
 			return array(
@@ -122,19 +123,51 @@ final class Submission {
 			);
 		}
 
-		$raw    = isset( $post['smokyforms'] ) && is_array( $post['smokyforms'] ) ? $post['smokyforms'] : array();
-		$values = array();
-		$errors = array();
+		$raw     = isset( $post['smokyforms'] ) && is_array( $post['smokyforms'] ) ? $post['smokyforms'] : array();
+		$files   = null === $files ? $_FILES : $files; // phpcs:ignore WordPress.Security.NonceVerification.Missing
+		$values  = array();
+		$errors  = array();
+		$pending = array();
 		foreach ( $form['fields'] as $f ) {
 			if ( ! Fields::is_input( $f['type'] ) || 'calculation' === $f['type'] ) {
 				continue;
 			}
-			list( $value, $error ) = Fields::validate( $f, $raw[ $f['id'] ] ?? null );
-			$values[ $f['id'] ]    = $value;
+			if ( 'repeater' === $f['type'] ) {
+				list( $value, $errs ) = Fields::validate_rows( $f, $raw[ $f['id'] ] ?? null );
+				$values[ $f['id'] ]   = $value;
+				$errors               = array_merge( $errors, $errs );
+				continue;
+			}
+			if ( 'file' === $f['type'] ) {
+				list( $value, $error ) = Uploads::validate( $f, Uploads::from_request( $files, $f['id'] ) );
+				$pending[ $f['id'] ]   = $value;
+				$values[ $f['id'] ]    = array();
+			} else {
+				list( $value, $error ) = Fields::validate( $f, $raw[ $f['id'] ] ?? null );
+				$values[ $f['id'] ]    = $value;
+			}
 			if ( '' !== $error ) {
 				$errors[ $f['id'] ] = $error;
 			}
 		}
+
+		// Conditional logic: hidden fields count as empty, are not checked and are left out of the e-mails.
+		$hidden = array();
+		for ( $pass = 0; $pass < 5; $pass++ ) {
+			$visible = array_diff_key( $values, $hidden );
+			$now     = Logic::hidden( $form, Forms::calculate( $form, $visible ) );
+			if ( $now === $hidden ) {
+				break;
+			}
+			$hidden = $now;
+		}
+		foreach ( array_keys( $errors ) as $key ) {
+			if ( isset( $hidden[ explode( '.', (string) $key )[0] ] ) ) {
+				unset( $errors[ $key ] );
+			}
+		}
+		$values = array_diff_key( $values, $hidden );
+
 		$errors = apply_filters( 'smokyforms_validation_errors', $errors, $form, $values );
 		if ( $errors ) {
 			return array(
@@ -146,7 +179,10 @@ final class Submission {
 		}
 
 		// Never trust a total from the browser: calculations are done again here.
-		$values = Forms::calculate( $form, $values );
+		$values = array_diff_key( Forms::calculate( $form, $values ), $hidden );
+
+		// Files are saved only now that the whole submission is valid.
+		$values = Uploads::store( $form, $values, $pending );
 
 		$entry = array(
 			'form_id' => $form['id'],

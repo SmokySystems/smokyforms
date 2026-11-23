@@ -30,7 +30,7 @@ msgstr "Pilih formulir yang akan ditampilkan di sini."
 msgid "Basic fields"
 msgstr "Kolom dasar"
 
-#: assets/js/builder.js:24 assets/js/builder.js:729
+#: assets/js/builder.js:24 assets/js/builder.js:1061
 msgid "Choices"
 msgstr "Pilihan"
 
@@ -58,7 +58,7 @@ msgstr "Bulatkan"
 msgid "round(value, decimals)"
 msgstr "round(nilai, desimal)"
 
-#: assets/js/builder.js:32 assets/js/builder.js:735
+#: assets/js/builder.js:32 assets/js/builder.js:1067
 msgid "Smallest"
 msgstr "Terkecil"
 
@@ -66,7 +66,7 @@ msgstr "Terkecil"
 msgid "min(a, b, …)"
 msgstr "min(a, b, …)"
 
-#: assets/js/builder.js:33 assets/js/builder.js:735
+#: assets/js/builder.js:33 assets/js/builder.js:1067
 msgid "Largest"
 msgstr "Terbesar"
 
@@ -118,514 +118,710 @@ msgstr "Persetujuan"
 msgid "I agree to the storage and handling of my data by this website."
 msgstr "Saya setuju data saya disimpan dan diolah oleh situs ini."
 
-#: assets/js/builder.js:105 includes/Fields.php:41
+#: assets/js/builder.js:105 includes/Fields.php:45
 msgid "Text block"
 msgstr "Blok teks"
 
-#: assets/js/builder.js:109 includes/Fields.php:40
+#: assets/js/builder.js:109 includes/Fields.php:44
 msgid "Section heading"
 msgstr "Judul bagian"
 
-#: assets/js/builder.js:159
+#: assets/js/builder.js:124 includes/Fields.php:42
+msgid "Repeating group"
+msgstr "Grup berulang"
+
+#: assets/js/builder.js:157
+#, php-format
+msgid "%s: number of rows"
+msgstr "%s: jumlah baris"
+
+#: assets/js/builder.js:160
+#, php-format
+msgid "%1$s: total of %2$s"
+msgstr "%1$s: total %2$s"
+
+#: assets/js/builder.js:166
+#, php-format
+msgid "%s: number of files"
+msgstr "%s: jumlah file"
+
+#: assets/js/builder.js:225
 msgid "and"
 msgstr "dan"
 
-#: assets/js/builder.js:159
+#: assets/js/builder.js:225
 msgid "or"
 msgstr "atau"
 
-#: assets/js/builder.js:215
+#: assets/js/builder.js:281
 msgid "Empty text block"
 msgstr "Blok teks kosong"
 
-#: assets/js/builder.js:231
+#: assets/js/builder.js:297
 msgid "No formula yet"
 msgstr "Belum ada rumus"
 
-#: assets/js/builder.js:250
+#: assets/js/builder.js:305
+msgid "Next page"
+msgstr "Halaman berikutnya"
+
+#: assets/js/builder.js:322
+msgid "No fields yet"
+msgstr "Belum ada kolom"
+
+#: assets/js/builder.js:341
 msgid "No label"
 msgstr "Tanpa label"
 
-#: assets/js/builder.js:281
+#: assets/js/builder.js:348 assets/js/builder.js:819
+msgid "Conditional logic"
+msgstr "Logika bersyarat"
+
+#: assets/js/builder.js:372
 msgid "Click or drag fields from the list on the left."
 msgstr "Klik atau seret kolom dari daftar di sebelah kiri."
 
-#: assets/js/builder.js:328
+#: assets/js/builder.js:419
 #, php-format
 msgid "Field: %s"
 msgstr "Kolom: %s"
 
-#: assets/js/builder.js:336
+#: assets/js/builder.js:427 assets/js/builder.js:1003
 msgid "Move up"
 msgstr "Pindah ke atas"
 
-#: assets/js/builder.js:339
+#: assets/js/builder.js:430
 msgid "Move down"
 msgstr "Pindah ke bawah"
 
-#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+#: assets/js/builder.js:433 includes/Admin/Menu.php:189
 msgid "Duplicate"
 msgstr "Duplikat"
 
-#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:133
 msgid "Delete"
 msgstr "Hapus"
 
-#: assets/js/builder.js:381 assets/js/builder.js:389
+#: assets/js/builder.js:472 assets/js/builder.js:480
 msgid "Choice"
 msgstr "Pilihan"
 
-#: assets/js/builder.js:382 assets/js/builder.js:392
+#: assets/js/builder.js:473 assets/js/builder.js:483
 msgid "Value in calculations"
 msgstr "Nilai dalam perhitungan"
 
-#: assets/js/builder.js:383 assets/js/builder.js:395
+#: assets/js/builder.js:474 assets/js/builder.js:486
 msgid "Default"
 msgstr "Bawaan"
 
-#: assets/js/builder.js:403
+#: assets/js/builder.js:494
 msgid "Remove choice"
 msgstr "Hapus pilihan"
 
-#: assets/js/builder.js:411
+#: assets/js/builder.js:502
 #, php-format
 msgid "Choice %d"
 msgstr "Pilihan %d"
 
-#: assets/js/builder.js:412
+#: assets/js/builder.js:503
 msgid "Add choice"
 msgstr "Tambah pilihan"
 
-#: assets/js/builder.js:413
+#: assets/js/builder.js:504
 msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
 msgstr "Nilai adalah angka yang dihitung untuk pilihan ini, misalnya harganya. Untuk kotak centang, nilai semua pilihan yang dicentang dijumlahkan."
 
-#: assets/js/builder.js:495
+#: assets/js/builder.js:585 assets/js/builder.js:899
 #, php-format
 msgid "Missing field: %s"
 msgstr "Kolom tidak ada: %s"
 
-#: assets/js/builder.js:503
+#: assets/js/builder.js:593
 msgid "Click fields and operators below to build the calculation."
 msgstr "Klik kolom dan operator di bawah untuk menyusun perhitungan."
 
-#: assets/js/builder.js:515
+#: assets/js/builder.js:605
 msgid "Build by clicking"
 msgstr "Susun dengan klik"
 
-#: assets/js/builder.js:518
+#: assets/js/builder.js:608
 msgid "Write the formula"
 msgstr "Tulis rumus"
 
-#: assets/js/builder.js:527
+#: assets/js/builder.js:617
 msgid "Undo"
 msgstr "Urungkan"
 
-#: assets/js/builder.js:530
+#: assets/js/builder.js:620 includes/Renderer.php:337
 msgid "Clear"
 msgstr "Kosongkan"
 
-#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1602 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Kolom"
 
-#: assets/js/builder.js:541
+#: assets/js/builder.js:631
 msgid "Add number, choice or date fields first; they appear here."
 msgstr "Tambahkan dulu kolom angka, pilihan, atau tanggal; kolom itu akan muncul di sini."
 
-#: assets/js/builder.js:542
+#: assets/js/builder.js:632
 msgid "Operators"
 msgstr "Operator"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Power"
 msgstr "Pangkat"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Remainder"
 msgstr "Sisa bagi"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Comma (between values of a function)"
 msgstr "Koma (di antara nilai sebuah fungsi)"
 
-#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+#: assets/js/builder.js:642 assets/js/builder.js:653 includes/Fields.php:32
 msgid "Number"
 msgstr "Angka"
 
-#: assets/js/builder.js:566
+#: assets/js/builder.js:656
 msgid "Add number"
 msgstr "Tambah angka"
 
-#: assets/js/builder.js:568
+#: assets/js/builder.js:658
 msgid "Conditions"
 msgstr "Syarat"
 
-#: assets/js/builder.js:578
+#: assets/js/builder.js:668
 msgid "Functions"
 msgstr "Fungsi"
 
-#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+#: assets/js/builder.js:681 assets/js/builder.js:1365 includes/Templates.php:242
 msgid "Price table"
 msgstr "Tabel harga"
 
-#: assets/js/builder.js:596
+#: assets/js/builder.js:686
 msgid "Table"
 msgstr "Tabel"
 
-#: assets/js/builder.js:607
+#: assets/js/builder.js:697
 msgid "Row from the answer of"
 msgstr "Baris dari jawaban kolom"
 
-#: assets/js/builder.js:618
+#: assets/js/builder.js:708
 msgid "Column from the answer of"
 msgstr "Kolom tabel dari jawaban kolom"
 
-#: assets/js/builder.js:620
+#: assets/js/builder.js:710
 msgid "Only one column"
 msgstr "Hanya satu kolom"
 
-#: assets/js/builder.js:630
+#: assets/js/builder.js:720
 msgid "Insert price"
 msgstr "Sisipkan harga"
 
-#: assets/js/builder.js:634
+#: assets/js/builder.js:724
 msgid "Formula"
 msgstr "Rumus"
 
-#: assets/js/builder.js:635
+#: assets/js/builder.js:725
 msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
 msgstr "Kolom ditulis sebagai {field_id}. Contoh: {price} * {quantity} + 5"
 
-#: assets/js/builder.js:645
+#: assets/js/builder.js:735
 msgid "The formula is not complete yet. Check brackets, commas and operators."
 msgstr "Rumus belum lengkap. Periksa tanda kurung, koma, dan operator."
 
-#: assets/js/builder.js:645
+#: assets/js/builder.js:735
 msgid "The formula is valid."
 msgstr "Rumus sudah benar."
 
-#: assets/js/builder.js:650
+#: assets/js/builder.js:740
 msgid "Try it"
 msgstr "Coba"
 
-#: assets/js/builder.js:685
+#: assets/js/builder.js:789
 msgid "Result:"
 msgstr "Hasil:"
 
-#: assets/js/builder.js:695
-msgid "Select a field to change its settings."
-msgstr "Pilih kolom untuk mengubah pengaturannya."
+#: assets/js/builder.js:797
+msgid "is"
+msgstr "sama dengan"
 
-#: assets/js/builder.js:703
-msgid "Heading"
-msgstr "Judul"
+#: assets/js/builder.js:798
+msgid "is not"
+msgstr "tidak sama dengan"
 
-#: assets/js/builder.js:703
+#: assets/js/builder.js:799
+msgid "is empty"
+msgstr "kosong"
+
+#: assets/js/builder.js:800
+msgid "is not empty"
+msgstr "tidak kosong"
+
+#: assets/js/builder.js:801
+msgid "is greater than"
+msgstr "lebih besar dari"
+
+#: assets/js/builder.js:802
+msgid "is less than"
+msgstr "lebih kecil dari"
+
+#: assets/js/builder.js:803
+msgid "contains"
+msgstr "berisi"
+
+#: assets/js/builder.js:820
+msgid "Show or hide this field depending on other answers."
+msgstr "Tampilkan atau sembunyikan kolom ini tergantung jawaban lain."
+
+#: assets/js/builder.js:839
+msgid "Action"
+msgstr "Tindakan"
+
+#: assets/js/builder.js:842
+msgid "Show this field"
+msgstr "Tampilkan kolom ini"
+
+#: assets/js/builder.js:842
+msgid "Hide this field"
+msgstr "Sembunyikan kolom ini"
+
+#: assets/js/builder.js:849
+msgid "Match"
+msgstr "Kecocokan"
+
+#: assets/js/builder.js:852
+msgid "if all rules match"
+msgstr "jika semua aturan cocok"
+
+#: assets/js/builder.js:852
+msgid "if any rule matches"
+msgstr "jika salah satu aturan cocok"
+
+#: assets/js/builder.js:867 assets/js/builder.js:882 assets/js/builder.js:884 assets/js/builder.js:1313 assets/js/builder.js:1330
+msgid "Value"
+msgstr "Nilai"
+
+#: assets/js/builder.js:896
+msgid "Field"
+msgstr "Kolom"
+
+#: assets/js/builder.js:908
+msgid "Comparison"
+msgstr "Perbandingan"
+
+#: assets/js/builder.js:920
+msgid "Remove rule"
+msgstr "Hapus aturan"
+
+#: assets/js/builder.js:931
+msgid "Add rule"
+msgstr "Tambah aturan"
+
+#: assets/js/builder.js:969 assets/js/builder.js:1035
 msgid "Label"
 msgstr "Label"
 
-#: assets/js/builder.js:714
+#: assets/js/builder.js:979
+msgid "Type"
+msgstr "Jenis"
+
+#: assets/js/builder.js:996 assets/js/builder.js:1046
 msgid "Required"
 msgstr "Wajib"
 
-#: assets/js/builder.js:719
-msgid "Text before a choice is made"
-msgstr "Teks sebelum memilih"
-
-#: assets/js/builder.js:719
-msgid "Placeholder"
-msgstr "Teks contoh"
-
-#: assets/js/builder.js:724
-msgid "Default value"
-msgstr "Nilai bawaan"
-
-#: assets/js/builder.js:735
-msgid "Step"
-msgstr "Langkah"
-
-#: assets/js/builder.js:745
-msgid "Text next to the checkbox"
-msgstr "Teks di samping kotak centang"
-
-#: assets/js/builder.js:745
-msgid "Links are allowed, for example to your privacy policy."
-msgstr "Tautan boleh dipakai, misalnya ke kebijakan privasi Anda."
-
-#: assets/js/builder.js:750
-msgid "Text"
-msgstr "Teks"
-
-#: assets/js/builder.js:750
-msgid "Basic HTML is allowed."
-msgstr "HTML dasar boleh dipakai."
-
-#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
-msgid "Calculation"
-msgstr "Perhitungan"
-
-#: assets/js/builder.js:759
-msgid "Before the result"
-msgstr "Sebelum hasil"
-
-#: assets/js/builder.js:759
-msgid "For example $"
-msgstr "Misalnya Rp"
-
-#: assets/js/builder.js:762
-msgid "After the result"
-msgstr "Sesudah hasil"
-
-#: assets/js/builder.js:762
-msgid "For example € or kg"
-msgstr "Misalnya € atau kg"
-
-#: assets/js/builder.js:765
-msgid "Decimals"
-msgstr "Desimal"
-
-#: assets/js/builder.js:769
-msgid "Show the result in the form"
-msgstr "Tampilkan hasil di formulir"
-
-#: assets/js/builder.js:769
-msgid "Switch off for a step that only other calculations use. The result is still in the email."
-msgstr "Matikan untuk langkah perantara yang hanya dipakai perhitungan lain. Hasilnya tetap ada di email."
-
-#: assets/js/builder.js:774
-msgid "Help text"
-msgstr "Teks bantuan"
-
-#: assets/js/builder.js:781
-msgid "Width"
-msgstr "Lebar"
-
-#: assets/js/builder.js:783
-msgid "Full width"
-msgstr "Lebar penuh"
-
-#: assets/js/builder.js:783
+#: assets/js/builder.js:999 assets/js/builder.js:1177
 msgid "Half width"
 msgstr "Setengah lebar"
 
-#: assets/js/builder.js:795
+#: assets/js/builder.js:1018
+msgid "Add field"
+msgstr "Tambah kolom"
+
+#: assets/js/builder.js:1027
+msgid "Select a field to change its settings."
+msgstr "Pilih kolom untuk mengubah pengaturannya."
+
+#: assets/js/builder.js:1035
+msgid "Heading"
+msgstr "Judul"
+
+#: assets/js/builder.js:1035
+msgid "Title of the next page"
+msgstr "Judul halaman berikutnya"
+
+#: assets/js/builder.js:1035
+msgid "Optional. Everything below this break, up to the next one, is one page of the form."
+msgstr "Opsional. Semua yang ada di bawah pemisah ini, sampai pemisah berikutnya, adalah satu halaman formulir."
+
+#: assets/js/builder.js:1051
+msgid "Text before a choice is made"
+msgstr "Teks sebelum memilih"
+
+#: assets/js/builder.js:1051
+msgid "Placeholder"
+msgstr "Teks contoh"
+
+#: assets/js/builder.js:1056
+msgid "Default value"
+msgstr "Nilai bawaan"
+
+#: assets/js/builder.js:1067
+msgid "Step"
+msgstr "Langkah"
+
+#: assets/js/builder.js:1077
+msgid "Text next to the checkbox"
+msgstr "Teks di samping kotak centang"
+
+#: assets/js/builder.js:1077
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Tautan boleh dipakai, misalnya ke kebijakan privasi Anda."
+
+#: assets/js/builder.js:1082
+msgid "Text"
+msgstr "Teks"
+
+#: assets/js/builder.js:1082
+msgid "Basic HTML is allowed."
+msgstr "HTML dasar boleh dipakai."
+
+#: assets/js/builder.js:1089
+msgid "Number of stars"
+msgstr "Jumlah bintang"
+
+#: assets/js/builder.js:1101
+msgid "Allowed file types"
+msgstr "Jenis file yang diizinkan"
+
+#: assets/js/builder.js:1101
+msgid "File extensions, separated by commas. Only types WordPress itself allows can be used."
+msgstr "Ekstensi file dipisahkan koma. Hanya jenis yang diizinkan WordPress sendiri yang bisa digunakan."
+
+#: assets/js/builder.js:1107
+msgid "Largest file (MB)"
+msgstr "File terbesar (MB)"
+
+#: assets/js/builder.js:1107
+#, php-format
+msgid "Your server allows up to %s MB."
+msgstr "Server Anda mengizinkan hingga %s MB."
+
+#: assets/js/builder.js:1110
+msgid "Number of files"
+msgstr "Jumlah file"
+
+#: assets/js/builder.js:1116
+msgid "Attach to the notification email"
+msgstr "Lampirkan ke email notifikasi"
+
+#: assets/js/builder.js:1116
+msgid "The email always links to the file. Large attachments can be refused by mail servers."
+msgstr "Email selalu berisi tautan ke file. Lampiran besar bisa ditolak oleh server email."
+
+#: assets/js/builder.js:1121
+msgid "Fields of each row"
+msgstr "Kolom setiap baris"
+
+#: assets/js/builder.js:1125
+msgid "Fewest rows"
+msgstr "Baris paling sedikit"
+
+#: assets/js/builder.js:1128
+msgid "Most rows"
+msgstr "Baris paling banyak"
+
+#: assets/js/builder.js:1132
+msgid "Text of the add button"
+msgstr "Teks tombol tambah"
+
+#: assets/js/builder.js:1132 includes/Renderer.php:348
+msgid "Add another"
+msgstr "Tambah lagi"
+
+#: assets/js/builder.js:1140
+msgid "Next button"
+msgstr "Tombol Berikutnya"
+
+#: assets/js/builder.js:1140 includes/Renderer.php:178
+msgid "Next"
+msgstr "Berikutnya"
+
+#: assets/js/builder.js:1143
+msgid "Back button"
+msgstr "Tombol Kembali"
+
+#: assets/js/builder.js:1143 includes/Renderer.php:179
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: assets/js/builder.js:1149 assets/js/builder.js:1497 includes/Fields.php:43
+msgid "Calculation"
+msgstr "Perhitungan"
+
+#: assets/js/builder.js:1153
+msgid "Before the result"
+msgstr "Sebelum hasil"
+
+#: assets/js/builder.js:1153
+msgid "For example $"
+msgstr "Misalnya Rp"
+
+#: assets/js/builder.js:1156
+msgid "After the result"
+msgstr "Sesudah hasil"
+
+#: assets/js/builder.js:1156
+msgid "For example € or kg"
+msgstr "Misalnya € atau kg"
+
+#: assets/js/builder.js:1159
+msgid "Decimals"
+msgstr "Desimal"
+
+#: assets/js/builder.js:1163
+msgid "Show the result in the form"
+msgstr "Tampilkan hasil di formulir"
+
+#: assets/js/builder.js:1163
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Matikan untuk langkah perantara yang hanya dipakai perhitungan lain. Hasilnya tetap ada di email."
+
+#: assets/js/builder.js:1168
+msgid "Help text"
+msgstr "Teks bantuan"
+
+#: assets/js/builder.js:1175
+msgid "Width"
+msgstr "Lebar"
+
+#: assets/js/builder.js:1177
+msgid "Full width"
+msgstr "Lebar penuh"
+
+#: assets/js/builder.js:1192
 msgid "Field ID"
 msgstr "ID kolom"
 
-#: assets/js/builder.js:796
+#: assets/js/builder.js:1193
 #, php-format
 msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
 msgstr "Dipakai dalam rumus sebagai {%1$s} dan dalam email sebagai {field:%1$s}. Jika diubah, rumus di formulir ini ikut diperbarui."
 
-#: assets/js/builder.js:845
+#: assets/js/builder.js:1242
 msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
 msgstr "Tabel harga memberi nilai untuk setiap jawaban, atau untuk setiap kombinasi dua jawaban (misalnya zona dan ukuran paket). Gunakan dalam perhitungan lewat \"Tabel harga\". Nama baris dan kolom harus ditulis persis seperti pilihan pada kolom formulir."
 
-#: assets/js/builder.js:853 includes/Templates.php:66
+#: assets/js/builder.js:1250 includes/Templates.php:89 includes/Templates.php:336
 msgid "Name"
 msgstr "Nama"
 
-#: assets/js/builder.js:856
+#: assets/js/builder.js:1253
 #, php-format
 msgid "ID: %s"
 msgstr "ID: %s"
 
-#: assets/js/builder.js:862
+#: assets/js/builder.js:1259
 msgid "Rows from the choices of"
 msgstr "Baris dari pilihan kolom"
 
-#: assets/js/builder.js:880
+#: assets/js/builder.js:1277
 msgid "Columns from the choices of"
 msgstr "Kolom tabel dari pilihan kolom"
 
-#: assets/js/builder.js:912
+#: assets/js/builder.js:1309
 msgid "Column name"
 msgstr "Nama kolom"
 
-#: assets/js/builder.js:916 assets/js/builder.js:933
-msgid "Value"
-msgstr "Nilai"
-
-#: assets/js/builder.js:927
+#: assets/js/builder.js:1324
 msgid "Row name"
 msgstr "Nama baris"
 
-#: assets/js/builder.js:948
+#: assets/js/builder.js:1345
 #, php-format
 msgid "Row %d"
 msgstr "Baris %d"
 
-#: assets/js/builder.js:949
+#: assets/js/builder.js:1346
 msgid "Add row"
 msgstr "Tambah baris"
 
-#: assets/js/builder.js:951
+#: assets/js/builder.js:1348
 #, php-format
 msgid "Column %d"
 msgstr "Kolom %d"
 
-#: assets/js/builder.js:952
+#: assets/js/builder.js:1349
 msgid "Add column"
 msgstr "Tambah kolom"
 
-#: assets/js/builder.js:955
+#: assets/js/builder.js:1352
 msgid "Remove last row"
 msgstr "Hapus baris terakhir"
 
-#: assets/js/builder.js:958
+#: assets/js/builder.js:1355
 msgid "Remove last column"
 msgstr "Hapus kolom terakhir"
 
-#: assets/js/builder.js:963
+#: assets/js/builder.js:1360
 msgid "Delete table"
 msgstr "Hapus tabel"
 
-#: assets/js/builder.js:968
+#: assets/js/builder.js:1365
 msgid "Row 1"
 msgstr "Baris 1"
 
-#: assets/js/builder.js:969
+#: assets/js/builder.js:1366
 msgid "Add price table"
 msgstr "Tambah tabel harga"
 
-#: assets/js/builder.js:990
+#: assets/js/builder.js:1387
 msgid "You can use:"
 msgstr "Anda bisa memakai:"
 
-#: assets/js/builder.js:996
+#: assets/js/builder.js:1393
 msgid "Answer of one field"
 msgstr "Jawaban satu kolom"
 
-#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1400 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "Umum"
 
-#: assets/js/builder.js:1004
+#: assets/js/builder.js:1401
 msgid "Button text"
 msgstr "Teks tombol"
 
-#: assets/js/builder.js:1007
+#: assets/js/builder.js:1404
 msgid "Message after sending"
 msgstr "Pesan setelah dikirim"
 
-#: assets/js/builder.js:1010
+#: assets/js/builder.js:1407
 msgid "Or go to this page after sending"
 msgstr "Atau buka halaman ini setelah dikirim"
 
-#: assets/js/builder.js:1010
+#: assets/js/builder.js:1407
 msgid "Leave empty to show the message instead."
 msgstr "Biarkan kosong untuk menampilkan pesan."
 
-#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1412
+msgid "Show the progress bar"
+msgstr "Tampilkan bilah kemajuan"
+
+#: assets/js/builder.js:1412
+msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
+msgstr "Untuk formulir dengan pemisah halaman: \"Langkah 1 dari 3\" di atas formulir."
+
+#: assets/js/builder.js:1416 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1015
+#: assets/js/builder.js:1417
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Lindungi formulir ini dengan CAPTCHA yang diatur di Pengaturan."
 
-#: assets/js/builder.js:1015
+#: assets/js/builder.js:1417
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Belum ada CAPTCHA yang diatur. Anda bisa menambahkannya di SmokyForms > Pengaturan. Kolom jebakan dan pemeriksaan waktu tetap melindungi setiap formulir."
 
-#: assets/js/builder.js:1025
+#: assets/js/builder.js:1427
 msgid "Notification to you"
 msgstr "Pemberitahuan untuk Anda"
 
-#: assets/js/builder.js:1026
+#: assets/js/builder.js:1428
 msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "SmokyForms tidak menyimpan kiriman; setiap kiriman dikirim ke email Anda. Jika email gagal, kiriman disimpan di SmokyForms > Tak terkirim."
 
-#: assets/js/builder.js:1027
+#: assets/js/builder.js:1429
 msgid "Send me an email for every entry"
 msgstr "Kirimi saya email untuk setiap kiriman"
 
-#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1435 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Kirim ke"
 
-#: assets/js/builder.js:1033
+#: assets/js/builder.js:1435
 msgid "Separate several addresses with commas."
 msgstr "Pisahkan beberapa alamat dengan koma."
 
-#: assets/js/builder.js:1036 assets/js/builder.js:1065
+#: assets/js/builder.js:1438 assets/js/builder.js:1467
 msgid "Subject"
 msgstr "Subjek"
 
-#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+#: assets/js/builder.js:1441 assets/js/builder.js:1470 includes/Templates.php:92
 msgid "Message"
 msgstr "Pesan"
 
-#: assets/js/builder.js:1047
+#: assets/js/builder.js:1449
 msgid "Confirmation to the visitor"
 msgstr "Konfirmasi untuk pengunjung"
 
-#: assets/js/builder.js:1048
+#: assets/js/builder.js:1450
 msgid "Send the visitor a confirmation email"
 msgstr "Kirim email konfirmasi ke pengunjung"
 
-#: assets/js/builder.js:1055
+#: assets/js/builder.js:1457
 msgid "Address from the field"
 msgstr "Alamat dari kolom"
 
-#: assets/js/builder.js:1064
+#: assets/js/builder.js:1466
 msgid "Add an Email field to the form first."
 msgstr "Tambahkan dulu kolom email ke formulir."
 
-#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1485 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Tambah formulir baru"
 
-#: assets/js/builder.js:1084
+#: assets/js/builder.js:1486
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Mulai dengan formulir siap pakai atau formulir kosong. Semua templat, termasuk kalkulator, gratis."
 
-#: assets/js/builder.js:1175
+#: assets/js/builder.js:1577
 msgid "The form could not be saved."
 msgstr "Formulir tidak dapat disimpan."
 
-#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1588 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Semua formulir"
 
-#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+#: assets/js/builder.js:1589 assets/js/builder.js:1589 includes/Notifications.php:40
 msgid "Form name"
 msgstr "Nama formulir"
 
-#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1593 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Kode pendek"
 
-#: assets/js/builder.js:1194
+#: assets/js/builder.js:1596
 msgid "Saving…"
 msgstr "Menyimpan…"
 
-#: assets/js/builder.js:1194
+#: assets/js/builder.js:1596
 msgid "Save form"
 msgstr "Simpan formulir"
 
-#: assets/js/builder.js:1200
+#: assets/js/builder.js:1602
 msgid "Price tables"
 msgstr "Tabel harga"
 
-#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1602 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Pengaturan"
 
-#: assets/js/builder.js:1314
+#: assets/js/builder.js:1724
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Tambahkan ke halaman dengan blok SmokyForms atau kode pendek."
 
-#: assets/js/builder.js:1315
+#: assets/js/builder.js:1725
 msgid "You have unsaved changes."
 msgstr "Ada perubahan yang belum disimpan."
 
-#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:217 includes/Submission.php:101
 msgid "This form does not exist."
 msgstr "Formulir ini tidak ada."
 
-#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:108
 msgid "Untitled form"
 msgstr "Formulir tanpa judul"
 
@@ -639,19 +835,19 @@ msgstr "Formulir disimpan."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Edit formulir &lsaquo; %s"
 
-#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:213 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
 msgid "You are not allowed to do this."
 msgstr "Anda tidak diizinkan melakukan ini."
 
-#: includes/Admin/Builder.php:213 includes/Forms.php:32
+#: includes/Admin/Builder.php:217 includes/Forms.php:32
 msgid "Edit Form"
 msgstr "Edit formulir"
 
-#: includes/Admin/Builder.php:216
+#: includes/Admin/Builder.php:220
 msgid "Loading the form builder…"
 msgstr "Memuat pembuat formulir…"
 
-#: includes/Admin/Builder.php:216
+#: includes/Admin/Builder.php:220
 msgid "The form builder needs JavaScript."
 msgstr "Pembuat formulir memerlukan JavaScript."
 
@@ -725,9 +921,25 @@ msgstr "SmokyForms tidak menyimpan kiriman; kiriman dikirim ke email Anda. Jika 
 msgid "Keep for"
 msgstr "Simpan selama"
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:110 includes/Admin/Settings.php:121
 msgid "days"
 msgstr "hari"
+
+#: includes/Admin/Settings.php:114
+msgid "Uploaded files"
+msgstr "File yang diunggah"
+
+#: includes/Admin/Settings.php:115
+msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
+msgstr "File dan tanda tangan yang dikirim dengan formulir disimpan di folder uploads/smokyforms dengan tautan yang sulit ditebak, dan email berisi tautan ke sana."
+
+#: includes/Admin/Settings.php:118
+msgid "Delete uploaded files after"
+msgstr "Hapus file yang diunggah setelah"
+
+#: includes/Admin/Settings.php:122
+msgid "0 keeps the files until you delete them yourself."
+msgstr "0 menyimpan file sampai Anda menghapusnya sendiri."
 
 #. translators: %s: number of entries
 #: includes/Admin/UndeliveredPage.php:50
@@ -804,11 +1016,11 @@ msgstr "Teks satu baris"
 msgid "Paragraph text"
 msgstr "Teks paragraf"
 
-#: includes/Fields.php:29 includes/Templates.php:67
+#: includes/Fields.php:29 includes/Templates.php:90 includes/Templates.php:337 includes/Templates.php:351
 msgid "Email"
 msgstr "Email"
 
-#: includes/Fields.php:30 includes/Templates.php:68
+#: includes/Fields.php:30 includes/Templates.php:91 includes/Templates.php:352
 msgid "Phone"
 msgstr "Telepon"
 
@@ -829,62 +1041,96 @@ msgid "Checkboxes"
 msgstr "Kotak centang"
 
 #: includes/Fields.php:36
+msgid "Rating"
+msgstr "Penilaian"
+
+#: includes/Fields.php:37
 msgid "Date"
 msgstr "Tanggal"
 
-#: includes/Fields.php:37
+#: includes/Fields.php:38
 msgid "Hidden field"
 msgstr "Kolom tersembunyi"
 
-#: includes/Fields.php:38
+#: includes/Fields.php:39
 msgid "Consent checkbox"
 msgstr "Kotak persetujuan"
 
-#: includes/Fields.php:152 includes/Renderer.php:335
+#: includes/Fields.php:40
+msgid "File upload"
+msgstr "Unggah file"
+
+#: includes/Fields.php:41
+msgid "Signature"
+msgstr "Tanda tangan"
+
+#: includes/Fields.php:46
+msgid "Page break"
+msgstr "Pemisah halaman"
+
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:557 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "Kolom ini wajib diisi."
 
-#: includes/Fields.php:178 includes/Renderer.php:336
+#. translators: %s: number of rows
+#: includes/Fields.php:265
+#, php-format
+msgid "Please fill in at least %s row."
+msgid_plural "Please fill in at least %s rows."
+msgstr[0] "Isi setidaknya %s baris."
+
+#. translators: %s: number of rows
+#: includes/Fields.php:268
+#, php-format
+msgid "Please fill in at most %s row."
+msgid_plural "Please fill in at most %s rows."
+msgstr[0] "Isi paling banyak %s baris."
+
+#: includes/Fields.php:299
+msgid "The signature could not be read. Please sign again."
+msgstr "Tanda tangan tidak dapat dibaca. Silakan tanda tangan lagi."
+
+#: includes/Fields.php:316 includes/Renderer.php:558
 msgid "Please enter a valid email address."
 msgstr "Masukkan alamat email yang valid."
 
-#: includes/Fields.php:186 includes/Renderer.php:337
+#: includes/Fields.php:324 includes/Renderer.php:559
 msgid "Please enter a valid website address."
 msgstr "Masukkan alamat situs web yang valid."
 
-#: includes/Fields.php:192
+#: includes/Fields.php:330
 msgid "Please enter a valid phone number."
 msgstr "Masukkan nomor telepon yang valid."
 
-#: includes/Fields.php:198 includes/Renderer.php:338
+#: includes/Fields.php:336 includes/Renderer.php:560
 msgid "Please enter a number."
 msgstr "Masukkan angka."
 
 #. translators: %s: smallest allowed number
-#: includes/Fields.php:203
+#: includes/Fields.php:341
 #, php-format
 msgid "Please enter a number of at least %s."
 msgstr "Masukkan angka minimal %s."
 
 #. translators: %s: largest allowed number
-#: includes/Fields.php:207
+#: includes/Fields.php:345
 #, php-format
 msgid "Please enter a number of at most %s."
 msgstr "Masukkan angka maksimal %s."
 
-#: includes/Fields.php:214
+#: includes/Fields.php:352
 msgid "Please enter a valid date."
 msgstr "Masukkan tanggal yang valid."
 
-#: includes/Fields.php:220
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:570
 msgid "Please choose one of the options."
 msgstr "Pilih salah satu opsi."
 
-#: includes/Fields.php:271
+#: includes/Fields.php:446 includes/Templates.php:335
 msgid "Yes"
 msgstr "Ya"
 
-#: includes/Fields.php:271
+#: includes/Fields.php:446 includes/Templates.php:335
 msgid "No"
 msgstr "Tidak"
 
@@ -912,11 +1158,11 @@ msgstr "Terima kasih! Pesan Anda sudah terkirim."
 msgid "New entry: {form_title}"
 msgstr "Kiriman baru: {form_title}"
 
-#: includes/Forms.php:71 includes/Templates.php:74
+#: includes/Forms.php:71 includes/Templates.php:97
 msgid "Thank you for your message"
 msgstr "Terima kasih atas pesan Anda"
 
-#: includes/Forms.php:72 includes/Templates.php:75
+#: includes/Forms.php:72 includes/Templates.php:98
 msgid ""
 "Hello,\n"
 "\n"
@@ -950,287 +1196,427 @@ msgstr "Tanggal dan waktu"
 msgid "Page of the form"
 msgstr "Halaman formulir"
 
-#: includes/Notifications.php:108
+#: includes/Notifications.php:109
 msgid "The site could not send the email."
 msgstr "Situs tidak dapat mengirim email."
 
-#: includes/Renderer.php:83
+#: includes/Renderer.php:84
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: formulir ini tidak ada."
 
-#: includes/Renderer.php:129
+#: includes/Renderer.php:196
 msgid "Leave this field empty"
 msgstr "Biarkan kolom ini kosong"
 
-#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+#: includes/Renderer.php:215 includes/Renderer.php:562 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "Periksa formulir dan coba lagi."
 
-#: includes/Renderer.php:190
+#. translators: %s: number of stars
+#: includes/Renderer.php:309
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s bintang"
+
+#. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
+#: includes/Renderer.php:321
+#, php-format
+msgid "Allowed file types: %1$s. Up to %2$s MB per file."
+msgstr "Jenis file yang diizinkan: %1$s. Hingga %2$s MB per file."
+
+#. translators: %s: number of files
+#: includes/Renderer.php:323 includes/Uploads.php:112
+#, php-format
+msgid "You can upload at most %s file."
+msgid_plural "You can upload at most %s files."
+msgstr[0] "Anda dapat mengunggah paling banyak %s file."
+
+#: includes/Renderer.php:339
+msgid "Signing needs JavaScript. Please switch it on in your browser."
+msgstr "Tanda tangan memerlukan JavaScript. Aktifkan di peramban Anda."
+
+#: includes/Renderer.php:361
 msgid "Choose…"
 msgstr "Pilih…"
 
-#: includes/Renderer.php:339
+#: includes/Renderer.php:447 includes/Renderer.php:447
+msgid "Remove this row"
+msgstr "Hapus baris ini"
+
+#: includes/Renderer.php:561
 msgid "Sending…"
 msgstr "Mengirim…"
 
-#: includes/Renderer.php:341
+#: includes/Renderer.php:563
 msgid "The form could not be sent. Please try again."
 msgstr "Formulir tidak dapat dikirim. Coba lagi."
+
+#. translators: 1: number of the current step, 2: number of steps
+#: includes/Renderer.php:565
+#, php-format
+msgid "Step %1$s of %2$s"
+msgstr "Langkah %1$s dari %2$s"
+
+#. translators: 1: file name, 2: size in MB
+#: includes/Renderer.php:567 includes/Uploads.php:125
+#, php-format
+msgid "%1$s is larger than %2$s MB."
+msgstr "%1$s lebih besar dari %2$s MB."
+
+#. translators: %s: file name
+#: includes/Renderer.php:569 includes/Uploads.php:130
+#, php-format
+msgid "%s: this file type is not allowed."
+msgstr "%s: jenis file ini tidak diizinkan."
 
 #: includes/Settings.php:26
 msgid "None"
 msgstr "Tidak ada"
 
-#: includes/Submission.php:184
+#: includes/Submission.php:220
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "Formulir tidak dapat diperiksa. Muat ulang halaman lalu coba lagi."
 
-#: includes/Submission.php:187
+#: includes/Submission.php:223
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "Terlalu cepat. Tunggu sebentar lalu kirim formulir lagi."
 
-#: includes/Submission.php:195
+#: includes/Submission.php:231
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "Terlalu banyak kiriman. Tunggu satu menit lalu coba lagi."
 
-#: includes/Templates.php:82
+#: includes/Templates.php:105
 msgid "Blank form"
 msgstr "Formulir kosong"
 
-#: includes/Templates.php:83
+#: includes/Templates.php:106
 msgid "Start from an empty form."
 msgstr "Mulai dari formulir kosong."
 
-#: includes/Templates.php:90 includes/Templates.php:93
+#: includes/Templates.php:113 includes/Templates.php:116
 msgid "Contact form"
 msgstr "Formulir kontak"
 
-#: includes/Templates.php:91
+#: includes/Templates.php:114
 msgid "Name, email, phone and message."
 msgstr "Nama, email, telepon, dan pesan."
 
-#: includes/Templates.php:104 includes/Templates.php:107
+#: includes/Templates.php:127 includes/Templates.php:130
 msgid "Quote request"
 msgstr "Permintaan penawaran"
 
-#: includes/Templates.php:105
+#: includes/Templates.php:128
 msgid "Service, extras and size give an estimated price."
 msgstr "Layanan, tambahan, dan luas memberi perkiraan harga."
 
-#: includes/Templates.php:112
+#: includes/Templates.php:135
 msgid "Service"
 msgstr "Layanan"
 
-#: includes/Templates.php:117
+#: includes/Templates.php:140
 msgid "Basic cleaning"
 msgstr "Pembersihan dasar"
 
-#: includes/Templates.php:118
+#: includes/Templates.php:141
 msgid "Deep cleaning"
 msgstr "Pembersihan menyeluruh"
 
-#: includes/Templates.php:123
+#: includes/Templates.php:146
 msgid "Size (m²)"
 msgstr "Luas (m²)"
 
-#: includes/Templates.php:127
+#: includes/Templates.php:150
 msgid "Extras"
 msgstr "Tambahan"
 
-#: includes/Templates.php:131
+#: includes/Templates.php:154
 msgid "Windows"
 msgstr "Jendela"
 
-#: includes/Templates.php:132
+#: includes/Templates.php:155
 msgid "Balcony"
 msgstr "Balkon"
 
-#: includes/Templates.php:133
+#: includes/Templates.php:156
 msgid "Oven"
 msgstr "Oven"
 
-#: includes/Templates.php:141
+#: includes/Templates.php:164
 msgid "Estimated price"
 msgstr "Perkiraan harga"
 
-#: includes/Templates.php:157 includes/Templates.php:160
+#: includes/Templates.php:180 includes/Templates.php:183
 msgid "Order form"
 msgstr "Formulir pesanan"
 
-#: includes/Templates.php:158
+#: includes/Templates.php:181
 msgid "Products with quantities, delivery and a discount over an amount."
 msgstr "Produk dengan jumlah, pengiriman, dan diskon di atas nominal tertentu."
 
-#: includes/Templates.php:162
+#: includes/Templates.php:185
 msgid "Product A – 12.00 each"
 msgstr "Produk A – 12.00 per buah"
 
-#: includes/Templates.php:163
+#: includes/Templates.php:186
 msgid "Product B – 18.50 each"
 msgstr "Produk B – 18.50 per buah"
 
-#: includes/Templates.php:167
+#: includes/Templates.php:190
 msgid "Delivery"
 msgstr "Pengiriman"
 
-#: includes/Templates.php:172
+#: includes/Templates.php:195
 msgid "Pick up"
 msgstr "Ambil sendiri"
 
-#: includes/Templates.php:173
+#: includes/Templates.php:196
 msgid "Standard"
 msgstr "Reguler"
 
-#: includes/Templates.php:174
+#: includes/Templates.php:197
 msgid "Express"
 msgstr "Ekspres"
 
-#: includes/Templates.php:179
+#: includes/Templates.php:202
 msgid "Subtotal"
 msgstr "Subtotal"
 
-#: includes/Templates.php:180
+#: includes/Templates.php:203
 #, php-format
 msgid "Discount (10% over 100)"
 msgstr "Diskon (10% di atas 100)"
 
-#: includes/Templates.php:181
+#: includes/Templates.php:204 includes/Templates.php:384
 msgid "Total"
 msgstr "Total"
 
-#: includes/Templates.php:189
+#: includes/Templates.php:212
 msgid "Booking with nights"
 msgstr "Pemesanan per malam"
 
-#: includes/Templates.php:190
+#: includes/Templates.php:213
 msgid "Arrival and departure dates give the number of nights and the price."
 msgstr "Tanggal datang dan pergi memberi jumlah malam dan harga."
 
-#: includes/Templates.php:192
+#: includes/Templates.php:215
 msgid "Booking request"
 msgstr "Permintaan pemesanan"
 
-#: includes/Templates.php:194
+#: includes/Templates.php:217
 msgid "Arrival"
 msgstr "Kedatangan"
 
-#: includes/Templates.php:195
+#: includes/Templates.php:218
 msgid "Departure"
 msgstr "Keberangkatan"
 
-#: includes/Templates.php:199
+#: includes/Templates.php:222
 msgid "Room"
 msgstr "Kamar"
 
-#: includes/Templates.php:204
+#: includes/Templates.php:227
 msgid "Standard – 80 per night"
 msgstr "Standar – 80 per malam"
 
-#: includes/Templates.php:205
+#: includes/Templates.php:228
 msgid "Suite – 140 per night"
 msgstr "Suite – 140 per malam"
 
-#: includes/Templates.php:210
+#: includes/Templates.php:233
 msgid "Nights"
 msgstr "Malam"
 
-#: includes/Templates.php:211
+#: includes/Templates.php:234
 msgid "Price"
 msgstr "Harga"
 
-#: includes/Templates.php:220
+#: includes/Templates.php:243
 msgid "Shipping price from a table of zones and parcel sizes."
 msgstr "Ongkos kirim dari tabel zona dan ukuran paket."
 
-#: includes/Templates.php:222 includes/Templates.php:256
+#: includes/Templates.php:245 includes/Templates.php:279
 msgid "Shipping price"
 msgstr "Ongkos kirim"
 
-#: includes/Templates.php:227
+#: includes/Templates.php:250
 msgid "Zone"
 msgstr "Zona"
 
-#: includes/Templates.php:233 includes/Templates.php:263
+#: includes/Templates.php:256 includes/Templates.php:286
 msgid "Zone 1"
 msgstr "Zona 1"
 
-#: includes/Templates.php:234 includes/Templates.php:263
+#: includes/Templates.php:257 includes/Templates.php:286
 msgid "Zone 2"
 msgstr "Zona 2"
 
-#: includes/Templates.php:235 includes/Templates.php:263
+#: includes/Templates.php:258 includes/Templates.php:286
 msgid "Zone 3"
 msgstr "Zona 3"
 
-#: includes/Templates.php:243
+#: includes/Templates.php:266
 msgid "Parcel"
 msgstr "Paket"
 
-#: includes/Templates.php:249 includes/Templates.php:264
+#: includes/Templates.php:272 includes/Templates.php:287
 msgid "Small"
 msgstr "Kecil"
 
-#: includes/Templates.php:250 includes/Templates.php:264
+#: includes/Templates.php:273 includes/Templates.php:287
 msgid "Medium"
 msgstr "Sedang"
 
-#: includes/Templates.php:251 includes/Templates.php:264
+#: includes/Templates.php:274 includes/Templates.php:287
 msgid "Large"
 msgstr "Besar"
 
-#: includes/Templates.php:262
+#: includes/Templates.php:285
 msgid "Shipping prices"
 msgstr "Tarif ongkos kirim"
 
-#: includes/Templates.php:271 includes/Templates.php:274
+#: includes/Templates.php:294 includes/Templates.php:297
 msgid "BMI calculator"
 msgstr "Kalkulator BMI"
 
-#: includes/Templates.php:272
+#: includes/Templates.php:295
 msgid "Body mass index from height and weight."
 msgstr "Indeks massa tubuh dari tinggi dan berat badan."
 
-#: includes/Templates.php:276
+#: includes/Templates.php:299
 msgid "Height (cm)"
 msgstr "Tinggi (cm)"
 
-#: includes/Templates.php:277
+#: includes/Templates.php:300
 msgid "Weight (kg)"
 msgstr "Berat (kg)"
 
-#: includes/Templates.php:278
+#: includes/Templates.php:301
 msgid "Your BMI"
 msgstr "BMI Anda"
 
-#: includes/Templates.php:282 includes/Templates.php:299
+#: includes/Templates.php:305 includes/Templates.php:322
 msgid "Send"
 msgstr "Kirim"
 
-#: includes/Templates.php:287 includes/Templates.php:290
+#: includes/Templates.php:310 includes/Templates.php:313
 msgid "Loan calculator"
 msgstr "Kalkulator pinjaman"
 
-#: includes/Templates.php:288
+#: includes/Templates.php:311
 msgid "Monthly payment from amount, interest rate and term."
 msgstr "Cicilan bulanan dari jumlah, suku bunga, dan jangka waktu."
 
-#: includes/Templates.php:292
+#: includes/Templates.php:315
 msgid "Loan amount"
 msgstr "Jumlah pinjaman"
 
-#: includes/Templates.php:293
+#: includes/Templates.php:316
 #, php-format
 msgid "Yearly interest rate (%)"
 msgstr "Suku bunga tahunan (%)"
 
-#: includes/Templates.php:294
+#: includes/Templates.php:317
 msgid "Term (months)"
 msgstr "Jangka waktu (bulan)"
 
-#: includes/Templates.php:295
+#: includes/Templates.php:318
 msgid "Monthly payment"
 msgstr "Cicilan bulanan"
+
+#: includes/Templates.php:327 includes/Templates.php:330
+msgid "Customer feedback"
+msgstr "Masukan pelanggan"
+
+#: includes/Templates.php:328
+msgid "Star rating with follow-up questions that depend on the rating."
+msgstr "Penilaian bintang dengan pertanyaan lanjutan yang tergantung pada penilaian."
+
+#: includes/Templates.php:332
+msgid "How would you rate your experience?"
+msgstr "Bagaimana Anda menilai pengalaman Anda?"
+
+#: includes/Templates.php:333
+msgid "What did you like most?"
+msgstr "Apa yang paling Anda sukai?"
+
+#: includes/Templates.php:334
+msgid "What should we do better?"
+msgstr "Apa yang harus kami perbaiki?"
+
+#: includes/Templates.php:335
+msgid "Would you recommend us to a friend?"
+msgstr "Apakah Anda akan merekomendasikan kami kepada teman?"
+
+#: includes/Templates.php:340
+msgid "Thank you for your feedback!"
+msgstr "Terima kasih atas masukan Anda!"
+
+#: includes/Templates.php:345 includes/Templates.php:348
+msgid "Job application"
+msgstr "Lamaran kerja"
+
+#: includes/Templates.php:346
+msgid "Two pages with a CV upload."
+msgstr "Dua halaman dengan unggahan CV."
+
+#: includes/Templates.php:353
+msgid "Your application"
+msgstr "Lamaran Anda"
+
+#: includes/Templates.php:354
+msgid "Position you are applying for"
+msgstr "Posisi yang Anda lamar"
+
+#: includes/Templates.php:355
+msgid "Your CV"
+msgstr "CV Anda"
+
+#: includes/Templates.php:356
+msgid "Cover letter"
+msgstr "Surat lamaran"
+
+#: includes/Templates.php:358
+msgid "Thank you! We received your application."
+msgstr "Terima kasih! Kami sudah menerima lamaran Anda."
+
+#: includes/Templates.php:362 includes/Templates.php:365
+msgid "Event registration"
+msgstr "Pendaftaran acara"
+
+#: includes/Templates.php:363
+msgid "Register several people at once; the total follows the tickets."
+msgstr "Daftarkan beberapa orang sekaligus; total mengikuti tiket."
+
+#: includes/Templates.php:372
+msgid "Attendees"
+msgstr "Peserta"
+
+#: includes/Templates.php:377
+msgid "Add a person"
+msgstr "Tambah orang"
+
+#: includes/Templates.php:379
+msgid "Full name"
+msgstr "Nama lengkap"
+
+#: includes/Templates.php:380
+msgid "Ticket"
+msgstr "Tiket"
+
+#: includes/Templates.php:380
+msgid "Adult – 25"
+msgstr "Dewasa – 25"
+
+#: includes/Templates.php:380
+msgid "Child – 10"
+msgstr "Anak – 10"
+
+#. translators: %s: file name
+#: includes/Uploads.php:121
+#, php-format
+msgid "%s could not be uploaded. Please try again."
+msgstr "%s tidak dapat diunggah. Silakan coba lagi."
 
 #: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
 msgid "Test email"

@@ -30,7 +30,7 @@ msgstr "Välj formuläret som ska visas här."
 msgid "Basic fields"
 msgstr "Grundfält"
 
-#: assets/js/builder.js:24 assets/js/builder.js:729
+#: assets/js/builder.js:24 assets/js/builder.js:1061
 msgid "Choices"
 msgstr "Val"
 
@@ -58,7 +58,7 @@ msgstr "Avrunda"
 msgid "round(value, decimals)"
 msgstr "round(värde, decimaler)"
 
-#: assets/js/builder.js:32 assets/js/builder.js:735
+#: assets/js/builder.js:32 assets/js/builder.js:1067
 msgid "Smallest"
 msgstr "Minsta"
 
@@ -66,7 +66,7 @@ msgstr "Minsta"
 msgid "min(a, b, …)"
 msgstr "min(a, b, …)"
 
-#: assets/js/builder.js:33 assets/js/builder.js:735
+#: assets/js/builder.js:33 assets/js/builder.js:1067
 msgid "Largest"
 msgstr "Största"
 
@@ -118,514 +118,710 @@ msgstr "Samtycke"
 msgid "I agree to the storage and handling of my data by this website."
 msgstr "Jag godkänner att den här webbplatsen lagrar och behandlar mina uppgifter."
 
-#: assets/js/builder.js:105 includes/Fields.php:41
+#: assets/js/builder.js:105 includes/Fields.php:45
 msgid "Text block"
 msgstr "Textblock"
 
-#: assets/js/builder.js:109 includes/Fields.php:40
+#: assets/js/builder.js:109 includes/Fields.php:44
 msgid "Section heading"
 msgstr "Avsnittsrubrik"
 
-#: assets/js/builder.js:159
+#: assets/js/builder.js:124 includes/Fields.php:42
+msgid "Repeating group"
+msgstr "Upprepad grupp"
+
+#: assets/js/builder.js:157
+#, php-format
+msgid "%s: number of rows"
+msgstr "%s: antal rader"
+
+#: assets/js/builder.js:160
+#, php-format
+msgid "%1$s: total of %2$s"
+msgstr "%1$s: summa av %2$s"
+
+#: assets/js/builder.js:166
+#, php-format
+msgid "%s: number of files"
+msgstr "%s: antal filer"
+
+#: assets/js/builder.js:225
 msgid "and"
 msgstr "och"
 
-#: assets/js/builder.js:159
+#: assets/js/builder.js:225
 msgid "or"
 msgstr "eller"
 
-#: assets/js/builder.js:215
+#: assets/js/builder.js:281
 msgid "Empty text block"
 msgstr "Tomt textblock"
 
-#: assets/js/builder.js:231
+#: assets/js/builder.js:297
 msgid "No formula yet"
 msgstr "Ingen formel ännu"
 
-#: assets/js/builder.js:250
+#: assets/js/builder.js:305
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: assets/js/builder.js:322
+msgid "No fields yet"
+msgstr "Inga fält än"
+
+#: assets/js/builder.js:341
 msgid "No label"
 msgstr "Ingen etikett"
 
-#: assets/js/builder.js:281
+#: assets/js/builder.js:348 assets/js/builder.js:819
+msgid "Conditional logic"
+msgstr "Villkorlig logik"
+
+#: assets/js/builder.js:372
 msgid "Click or drag fields from the list on the left."
 msgstr "Klicka på eller dra fält från listan till vänster."
 
-#: assets/js/builder.js:328
+#: assets/js/builder.js:419
 #, php-format
 msgid "Field: %s"
 msgstr "Fält: %s"
 
-#: assets/js/builder.js:336
+#: assets/js/builder.js:427 assets/js/builder.js:1003
 msgid "Move up"
 msgstr "Flytta upp"
 
-#: assets/js/builder.js:339
+#: assets/js/builder.js:430
 msgid "Move down"
 msgstr "Flytta ner"
 
-#: assets/js/builder.js:342 includes/Admin/Menu.php:189
+#: assets/js/builder.js:433 includes/Admin/Menu.php:189
 msgid "Duplicate"
 msgstr "Duplicera"
 
-#: assets/js/builder.js:345 includes/Admin/UndeliveredPage.php:133
+#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:133
 msgid "Delete"
 msgstr "Ta bort"
 
-#: assets/js/builder.js:381 assets/js/builder.js:389
+#: assets/js/builder.js:472 assets/js/builder.js:480
 msgid "Choice"
 msgstr "Val"
 
-#: assets/js/builder.js:382 assets/js/builder.js:392
+#: assets/js/builder.js:473 assets/js/builder.js:483
 msgid "Value in calculations"
 msgstr "Värde i beräkningar"
 
-#: assets/js/builder.js:383 assets/js/builder.js:395
+#: assets/js/builder.js:474 assets/js/builder.js:486
 msgid "Default"
 msgstr "Förval"
 
-#: assets/js/builder.js:403
+#: assets/js/builder.js:494
 msgid "Remove choice"
 msgstr "Ta bort val"
 
-#: assets/js/builder.js:411
+#: assets/js/builder.js:502
 #, php-format
 msgid "Choice %d"
 msgstr "Val %d"
 
-#: assets/js/builder.js:412
+#: assets/js/builder.js:503
 msgid "Add choice"
 msgstr "Lägg till val"
 
-#: assets/js/builder.js:413
+#: assets/js/builder.js:504
 msgid "The value is what this choice counts as in a calculation, for example its price. For checkboxes the values of all ticked choices are added up."
 msgstr "Värdet är vad valet räknas som i en beräkning, till exempel priset. För kryssrutor summeras värdena för alla ikryssade val."
 
-#: assets/js/builder.js:495
+#: assets/js/builder.js:585 assets/js/builder.js:899
 #, php-format
 msgid "Missing field: %s"
 msgstr "Fält saknas: %s"
 
-#: assets/js/builder.js:503
+#: assets/js/builder.js:593
 msgid "Click fields and operators below to build the calculation."
 msgstr "Klicka på fält och operatorer nedan för att bygga beräkningen."
 
-#: assets/js/builder.js:515
+#: assets/js/builder.js:605
 msgid "Build by clicking"
 msgstr "Bygg med klick"
 
-#: assets/js/builder.js:518
+#: assets/js/builder.js:608
 msgid "Write the formula"
 msgstr "Skriv formeln"
 
-#: assets/js/builder.js:527
+#: assets/js/builder.js:617
 msgid "Undo"
 msgstr "Ångra"
 
-#: assets/js/builder.js:530
+#: assets/js/builder.js:620 includes/Renderer.php:337
 msgid "Clear"
 msgstr "Rensa"
 
-#: assets/js/builder.js:532 assets/js/builder.js:1200 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1602 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Fält"
 
-#: assets/js/builder.js:541
+#: assets/js/builder.js:631
 msgid "Add number, choice or date fields first; they appear here."
 msgstr "Lägg först till nummer-, val- eller datumfält; de visas här."
 
-#: assets/js/builder.js:542
+#: assets/js/builder.js:632
 msgid "Operators"
 msgstr "Operatorer"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Power"
 msgstr "Potens"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Remainder"
 msgstr "Rest"
 
-#: assets/js/builder.js:547
+#: assets/js/builder.js:637
 msgid "Comma (between values of a function)"
 msgstr "Kommatecken (mellan värdena i en funktion)"
 
-#: assets/js/builder.js:552 assets/js/builder.js:563 includes/Fields.php:32
+#: assets/js/builder.js:642 assets/js/builder.js:653 includes/Fields.php:32
 msgid "Number"
 msgstr "Tal"
 
-#: assets/js/builder.js:566
+#: assets/js/builder.js:656
 msgid "Add number"
 msgstr "Lägg till tal"
 
-#: assets/js/builder.js:568
+#: assets/js/builder.js:658
 msgid "Conditions"
 msgstr "Villkor"
 
-#: assets/js/builder.js:578
+#: assets/js/builder.js:668
 msgid "Functions"
 msgstr "Funktioner"
 
-#: assets/js/builder.js:591 assets/js/builder.js:968 includes/Templates.php:219
+#: assets/js/builder.js:681 assets/js/builder.js:1365 includes/Templates.php:242
 msgid "Price table"
 msgstr "Pristabell"
 
-#: assets/js/builder.js:596
+#: assets/js/builder.js:686
 msgid "Table"
 msgstr "Tabell"
 
-#: assets/js/builder.js:607
+#: assets/js/builder.js:697
 msgid "Row from the answer of"
 msgstr "Rad utifrån svaret i"
 
-#: assets/js/builder.js:618
+#: assets/js/builder.js:708
 msgid "Column from the answer of"
 msgstr "Kolumn utifrån svaret i"
 
-#: assets/js/builder.js:620
+#: assets/js/builder.js:710
 msgid "Only one column"
 msgstr "Bara en kolumn"
 
-#: assets/js/builder.js:630
+#: assets/js/builder.js:720
 msgid "Insert price"
 msgstr "Infoga pris"
 
-#: assets/js/builder.js:634
+#: assets/js/builder.js:724
 msgid "Formula"
 msgstr "Formel"
 
-#: assets/js/builder.js:635
+#: assets/js/builder.js:725
 msgid "Fields are written as {field_id}. Example: {price} * {quantity} + 5"
 msgstr "Fält skrivs som {field_id}. Exempel: {price} * {quantity} + 5"
 
-#: assets/js/builder.js:645
+#: assets/js/builder.js:735
 msgid "The formula is not complete yet. Check brackets, commas and operators."
 msgstr "Formeln är inte klar ännu. Kontrollera parenteser, kommatecken och operatorer."
 
-#: assets/js/builder.js:645
+#: assets/js/builder.js:735
 msgid "The formula is valid."
 msgstr "Formeln är giltig."
 
-#: assets/js/builder.js:650
+#: assets/js/builder.js:740
 msgid "Try it"
 msgstr "Prova"
 
-#: assets/js/builder.js:685
+#: assets/js/builder.js:789
 msgid "Result:"
 msgstr "Resultat:"
 
-#: assets/js/builder.js:695
-msgid "Select a field to change its settings."
-msgstr "Välj ett fält för att ändra dess inställningar."
+#: assets/js/builder.js:797
+msgid "is"
+msgstr "är"
 
-#: assets/js/builder.js:703
-msgid "Heading"
-msgstr "Rubrik"
+#: assets/js/builder.js:798
+msgid "is not"
+msgstr "är inte"
 
-#: assets/js/builder.js:703
+#: assets/js/builder.js:799
+msgid "is empty"
+msgstr "är tomt"
+
+#: assets/js/builder.js:800
+msgid "is not empty"
+msgstr "är inte tomt"
+
+#: assets/js/builder.js:801
+msgid "is greater than"
+msgstr "är större än"
+
+#: assets/js/builder.js:802
+msgid "is less than"
+msgstr "är mindre än"
+
+#: assets/js/builder.js:803
+msgid "contains"
+msgstr "innehåller"
+
+#: assets/js/builder.js:820
+msgid "Show or hide this field depending on other answers."
+msgstr "Visa eller dölj det här fältet beroende på andra svar."
+
+#: assets/js/builder.js:839
+msgid "Action"
+msgstr "Åtgärd"
+
+#: assets/js/builder.js:842
+msgid "Show this field"
+msgstr "Visa det här fältet"
+
+#: assets/js/builder.js:842
+msgid "Hide this field"
+msgstr "Dölj det här fältet"
+
+#: assets/js/builder.js:849
+msgid "Match"
+msgstr "Matchning"
+
+#: assets/js/builder.js:852
+msgid "if all rules match"
+msgstr "om alla regler stämmer"
+
+#: assets/js/builder.js:852
+msgid "if any rule matches"
+msgstr "om någon regel stämmer"
+
+#: assets/js/builder.js:867 assets/js/builder.js:882 assets/js/builder.js:884 assets/js/builder.js:1313 assets/js/builder.js:1330
+msgid "Value"
+msgstr "Värde"
+
+#: assets/js/builder.js:896
+msgid "Field"
+msgstr "Fält"
+
+#: assets/js/builder.js:908
+msgid "Comparison"
+msgstr "Jämförelse"
+
+#: assets/js/builder.js:920
+msgid "Remove rule"
+msgstr "Ta bort regel"
+
+#: assets/js/builder.js:931
+msgid "Add rule"
+msgstr "Lägg till regel"
+
+#: assets/js/builder.js:969 assets/js/builder.js:1035
 msgid "Label"
 msgstr "Etikett"
 
-#: assets/js/builder.js:714
+#: assets/js/builder.js:979
+msgid "Type"
+msgstr "Typ"
+
+#: assets/js/builder.js:996 assets/js/builder.js:1046
 msgid "Required"
 msgstr "Obligatoriskt"
 
-#: assets/js/builder.js:719
-msgid "Text before a choice is made"
-msgstr "Text innan ett val görs"
-
-#: assets/js/builder.js:719
-msgid "Placeholder"
-msgstr "Platshållare"
-
-#: assets/js/builder.js:724
-msgid "Default value"
-msgstr "Standardvärde"
-
-#: assets/js/builder.js:735
-msgid "Step"
-msgstr "Steg"
-
-#: assets/js/builder.js:745
-msgid "Text next to the checkbox"
-msgstr "Text bredvid kryssrutan"
-
-#: assets/js/builder.js:745
-msgid "Links are allowed, for example to your privacy policy."
-msgstr "Länkar är tillåtna, till exempel till din integritetspolicy."
-
-#: assets/js/builder.js:750
-msgid "Text"
-msgstr "Text"
-
-#: assets/js/builder.js:750
-msgid "Basic HTML is allowed."
-msgstr "Enkel HTML är tillåten."
-
-#: assets/js/builder.js:755 assets/js/builder.js:1095 includes/Fields.php:39
-msgid "Calculation"
-msgstr "Beräkning"
-
-#: assets/js/builder.js:759
-msgid "Before the result"
-msgstr "Före resultatet"
-
-#: assets/js/builder.js:759
-msgid "For example $"
-msgstr "Till exempel $"
-
-#: assets/js/builder.js:762
-msgid "After the result"
-msgstr "Efter resultatet"
-
-#: assets/js/builder.js:762
-msgid "For example € or kg"
-msgstr "Till exempel € eller kg"
-
-#: assets/js/builder.js:765
-msgid "Decimals"
-msgstr "Decimaler"
-
-#: assets/js/builder.js:769
-msgid "Show the result in the form"
-msgstr "Visa resultatet i formuläret"
-
-#: assets/js/builder.js:769
-msgid "Switch off for a step that only other calculations use. The result is still in the email."
-msgstr "Stäng av för ett mellansteg som bara andra beräkningar använder. Resultatet finns ändå i e-postmeddelandet."
-
-#: assets/js/builder.js:774
-msgid "Help text"
-msgstr "Hjälptext"
-
-#: assets/js/builder.js:781
-msgid "Width"
-msgstr "Bredd"
-
-#: assets/js/builder.js:783
-msgid "Full width"
-msgstr "Full bredd"
-
-#: assets/js/builder.js:783
+#: assets/js/builder.js:999 assets/js/builder.js:1177
 msgid "Half width"
 msgstr "Halv bredd"
 
-#: assets/js/builder.js:795
+#: assets/js/builder.js:1018
+msgid "Add field"
+msgstr "Lägg till fält"
+
+#: assets/js/builder.js:1027
+msgid "Select a field to change its settings."
+msgstr "Välj ett fält för att ändra dess inställningar."
+
+#: assets/js/builder.js:1035
+msgid "Heading"
+msgstr "Rubrik"
+
+#: assets/js/builder.js:1035
+msgid "Title of the next page"
+msgstr "Rubrik för nästa sida"
+
+#: assets/js/builder.js:1035
+msgid "Optional. Everything below this break, up to the next one, is one page of the form."
+msgstr "Valfritt. Allt under den här sidbrytningen, fram till nästa, är en sida i formuläret."
+
+#: assets/js/builder.js:1051
+msgid "Text before a choice is made"
+msgstr "Text innan ett val görs"
+
+#: assets/js/builder.js:1051
+msgid "Placeholder"
+msgstr "Platshållare"
+
+#: assets/js/builder.js:1056
+msgid "Default value"
+msgstr "Standardvärde"
+
+#: assets/js/builder.js:1067
+msgid "Step"
+msgstr "Steg"
+
+#: assets/js/builder.js:1077
+msgid "Text next to the checkbox"
+msgstr "Text bredvid kryssrutan"
+
+#: assets/js/builder.js:1077
+msgid "Links are allowed, for example to your privacy policy."
+msgstr "Länkar är tillåtna, till exempel till din integritetspolicy."
+
+#: assets/js/builder.js:1082
+msgid "Text"
+msgstr "Text"
+
+#: assets/js/builder.js:1082
+msgid "Basic HTML is allowed."
+msgstr "Enkel HTML är tillåten."
+
+#: assets/js/builder.js:1089
+msgid "Number of stars"
+msgstr "Antal stjärnor"
+
+#: assets/js/builder.js:1101
+msgid "Allowed file types"
+msgstr "Tillåtna filtyper"
+
+#: assets/js/builder.js:1101
+msgid "File extensions, separated by commas. Only types WordPress itself allows can be used."
+msgstr "Filändelser åtskilda med kommatecken. Endast typer som WordPress själv tillåter kan användas."
+
+#: assets/js/builder.js:1107
+msgid "Largest file (MB)"
+msgstr "Största fil (MB)"
+
+#: assets/js/builder.js:1107
+#, php-format
+msgid "Your server allows up to %s MB."
+msgstr "Din server tillåter upp till %s MB."
+
+#: assets/js/builder.js:1110
+msgid "Number of files"
+msgstr "Antal filer"
+
+#: assets/js/builder.js:1116
+msgid "Attach to the notification email"
+msgstr "Bifoga i aviseringsmejlet"
+
+#: assets/js/builder.js:1116
+msgid "The email always links to the file. Large attachments can be refused by mail servers."
+msgstr "Mejlet länkar alltid till filen. Stora bilagor kan nekas av e-postservrar."
+
+#: assets/js/builder.js:1121
+msgid "Fields of each row"
+msgstr "Fält på varje rad"
+
+#: assets/js/builder.js:1125
+msgid "Fewest rows"
+msgstr "Minst antal rader"
+
+#: assets/js/builder.js:1128
+msgid "Most rows"
+msgstr "Högst antal rader"
+
+#: assets/js/builder.js:1132
+msgid "Text of the add button"
+msgstr "Text på lägg till-knappen"
+
+#: assets/js/builder.js:1132 includes/Renderer.php:348
+msgid "Add another"
+msgstr "Lägg till en till"
+
+#: assets/js/builder.js:1140
+msgid "Next button"
+msgstr "Nästa-knapp"
+
+#: assets/js/builder.js:1140 includes/Renderer.php:178
+msgid "Next"
+msgstr "Nästa"
+
+#: assets/js/builder.js:1143
+msgid "Back button"
+msgstr "Tillbaka-knapp"
+
+#: assets/js/builder.js:1143 includes/Renderer.php:179
+msgid "Previous"
+msgstr "Föregående"
+
+#: assets/js/builder.js:1149 assets/js/builder.js:1497 includes/Fields.php:43
+msgid "Calculation"
+msgstr "Beräkning"
+
+#: assets/js/builder.js:1153
+msgid "Before the result"
+msgstr "Före resultatet"
+
+#: assets/js/builder.js:1153
+msgid "For example $"
+msgstr "Till exempel $"
+
+#: assets/js/builder.js:1156
+msgid "After the result"
+msgstr "Efter resultatet"
+
+#: assets/js/builder.js:1156
+msgid "For example € or kg"
+msgstr "Till exempel € eller kg"
+
+#: assets/js/builder.js:1159
+msgid "Decimals"
+msgstr "Decimaler"
+
+#: assets/js/builder.js:1163
+msgid "Show the result in the form"
+msgstr "Visa resultatet i formuläret"
+
+#: assets/js/builder.js:1163
+msgid "Switch off for a step that only other calculations use. The result is still in the email."
+msgstr "Stäng av för ett mellansteg som bara andra beräkningar använder. Resultatet finns ändå i e-postmeddelandet."
+
+#: assets/js/builder.js:1168
+msgid "Help text"
+msgstr "Hjälptext"
+
+#: assets/js/builder.js:1175
+msgid "Width"
+msgstr "Bredd"
+
+#: assets/js/builder.js:1177
+msgid "Full width"
+msgstr "Full bredd"
+
+#: assets/js/builder.js:1192
 msgid "Field ID"
 msgstr "Fält-ID"
 
-#: assets/js/builder.js:796
+#: assets/js/builder.js:1193
 #, php-format
 msgid "Used in formulas as {%1$s} and in emails as {field:%1$s}. Changing it updates the formulas of this form."
 msgstr "Används i formler som {%1$s} och i e-post som {field:%1$s}. Om du ändrar det uppdateras formlerna i formuläret."
 
-#: assets/js/builder.js:845
+#: assets/js/builder.js:1242
 msgid "A price table gives a value for each answer, or for each combination of two answers (for example zone and parcel size). Use it in a calculation with \"Price table\". Row and column names must be written exactly like the choices of the fields."
 msgstr "En pristabell ger ett värde för varje svar, eller för varje kombination av två svar (till exempel zon och paketstorlek). Använd den i en beräkning med ”Pristabell”. Rad- och kolumnnamn måste skrivas exakt som fältens val."
 
-#: assets/js/builder.js:853 includes/Templates.php:66
+#: assets/js/builder.js:1250 includes/Templates.php:89 includes/Templates.php:336
 msgid "Name"
 msgstr "Namn"
 
-#: assets/js/builder.js:856
+#: assets/js/builder.js:1253
 #, php-format
 msgid "ID: %s"
 msgstr "ID: %s"
 
-#: assets/js/builder.js:862
+#: assets/js/builder.js:1259
 msgid "Rows from the choices of"
 msgstr "Rader från valen i"
 
-#: assets/js/builder.js:880
+#: assets/js/builder.js:1277
 msgid "Columns from the choices of"
 msgstr "Kolumner från valen i"
 
-#: assets/js/builder.js:912
+#: assets/js/builder.js:1309
 msgid "Column name"
 msgstr "Kolumnnamn"
 
-#: assets/js/builder.js:916 assets/js/builder.js:933
-msgid "Value"
-msgstr "Värde"
-
-#: assets/js/builder.js:927
+#: assets/js/builder.js:1324
 msgid "Row name"
 msgstr "Radnamn"
 
-#: assets/js/builder.js:948
+#: assets/js/builder.js:1345
 #, php-format
 msgid "Row %d"
 msgstr "Rad %d"
 
-#: assets/js/builder.js:949
+#: assets/js/builder.js:1346
 msgid "Add row"
 msgstr "Lägg till rad"
 
-#: assets/js/builder.js:951
+#: assets/js/builder.js:1348
 #, php-format
 msgid "Column %d"
 msgstr "Kolumn %d"
 
-#: assets/js/builder.js:952
+#: assets/js/builder.js:1349
 msgid "Add column"
 msgstr "Lägg till kolumn"
 
-#: assets/js/builder.js:955
+#: assets/js/builder.js:1352
 msgid "Remove last row"
 msgstr "Ta bort sista raden"
 
-#: assets/js/builder.js:958
+#: assets/js/builder.js:1355
 msgid "Remove last column"
 msgstr "Ta bort sista kolumnen"
 
-#: assets/js/builder.js:963
+#: assets/js/builder.js:1360
 msgid "Delete table"
 msgstr "Ta bort tabell"
 
-#: assets/js/builder.js:968
+#: assets/js/builder.js:1365
 msgid "Row 1"
 msgstr "Rad 1"
 
-#: assets/js/builder.js:969
+#: assets/js/builder.js:1366
 msgid "Add price table"
 msgstr "Lägg till pristabell"
 
-#: assets/js/builder.js:990
+#: assets/js/builder.js:1387
 msgid "You can use:"
 msgstr "Du kan använda:"
 
-#: assets/js/builder.js:996
+#: assets/js/builder.js:1393
 msgid "Answer of one field"
 msgstr "Svar i ett fält"
 
-#: assets/js/builder.js:1003 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1400 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "Allmänt"
 
-#: assets/js/builder.js:1004
+#: assets/js/builder.js:1401
 msgid "Button text"
 msgstr "Knapptext"
 
-#: assets/js/builder.js:1007
+#: assets/js/builder.js:1404
 msgid "Message after sending"
 msgstr "Meddelande efter inskick"
 
-#: assets/js/builder.js:1010
+#: assets/js/builder.js:1407
 msgid "Or go to this page after sending"
 msgstr "Eller gå till den här sidan efter inskick"
 
-#: assets/js/builder.js:1010
+#: assets/js/builder.js:1407
 msgid "Leave empty to show the message instead."
 msgstr "Lämna tomt för att visa meddelandet i stället."
 
-#: assets/js/builder.js:1014 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1412
+msgid "Show the progress bar"
+msgstr "Visa förloppsindikatorn"
+
+#: assets/js/builder.js:1412
+msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
+msgstr "För formulär med sidbrytningar: ”Steg 1 av 3” ovanför formuläret."
+
+#: assets/js/builder.js:1416 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1015
+#: assets/js/builder.js:1417
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Skydda formuläret med den CAPTCHA som är inställd under Inställningar."
 
-#: assets/js/builder.js:1015
+#: assets/js/builder.js:1417
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Ingen CAPTCHA är inställd ännu. Du kan lägga till en under SmokyForms > Inställningar. Fällfältet och tidskontrollen skyddar ändå alla formulär."
 
-#: assets/js/builder.js:1025
+#: assets/js/builder.js:1427
 msgid "Notification to you"
 msgstr "Avisering till dig"
 
-#: assets/js/builder.js:1026
+#: assets/js/builder.js:1428
 msgid "SmokyForms does not store entries; every entry is emailed to you. If the email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "SmokyForms sparar inte inskick; varje inskick skickas till dig med e-post. Om e-postmeddelandet misslyckas sparas inskicket under SmokyForms > Ej levererade."
 
-#: assets/js/builder.js:1027
+#: assets/js/builder.js:1429
 msgid "Send me an email for every entry"
 msgstr "Skicka e-post till mig för varje inskick"
 
-#: assets/js/builder.js:1033 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1435 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Skicka till"
 
-#: assets/js/builder.js:1033
+#: assets/js/builder.js:1435
 msgid "Separate several addresses with commas."
 msgstr "Skilj flera adresser åt med kommatecken."
 
-#: assets/js/builder.js:1036 assets/js/builder.js:1065
+#: assets/js/builder.js:1438 assets/js/builder.js:1467
 msgid "Subject"
 msgstr "Ämne"
 
-#: assets/js/builder.js:1039 assets/js/builder.js:1068 includes/Templates.php:69
+#: assets/js/builder.js:1441 assets/js/builder.js:1470 includes/Templates.php:92
 msgid "Message"
 msgstr "Meddelande"
 
-#: assets/js/builder.js:1047
+#: assets/js/builder.js:1449
 msgid "Confirmation to the visitor"
 msgstr "Bekräftelse till besökaren"
 
-#: assets/js/builder.js:1048
+#: assets/js/builder.js:1450
 msgid "Send the visitor a confirmation email"
 msgstr "Skicka ett bekräftelsemejl till besökaren"
 
-#: assets/js/builder.js:1055
+#: assets/js/builder.js:1457
 msgid "Address from the field"
 msgstr "Adress från fältet"
 
-#: assets/js/builder.js:1064
+#: assets/js/builder.js:1466
 msgid "Add an Email field to the form first."
 msgstr "Lägg först till ett e-postfält i formuläret."
 
-#: assets/js/builder.js:1083 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1485 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Lägg till nytt formulär"
 
-#: assets/js/builder.js:1084
+#: assets/js/builder.js:1486
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Börja med ett färdigt formulär eller ett tomt. Alla mallar, även kalkylatorerna, är gratis."
 
-#: assets/js/builder.js:1175
+#: assets/js/builder.js:1577
 msgid "The form could not be saved."
 msgstr "Formuläret kunde inte sparas."
 
-#: assets/js/builder.js:1186 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1588 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Alla formulär"
 
-#: assets/js/builder.js:1187 assets/js/builder.js:1187 includes/Notifications.php:40
+#: assets/js/builder.js:1589 assets/js/builder.js:1589 includes/Notifications.php:40
 msgid "Form name"
 msgstr "Formulärets namn"
 
-#: assets/js/builder.js:1191 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1593 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Kortkod"
 
-#: assets/js/builder.js:1194
+#: assets/js/builder.js:1596
 msgid "Saving…"
 msgstr "Sparar…"
 
-#: assets/js/builder.js:1194
+#: assets/js/builder.js:1596
 msgid "Save form"
 msgstr "Spara formulär"
 
-#: assets/js/builder.js:1200
+#: assets/js/builder.js:1602
 msgid "Price tables"
 msgstr "Pristabeller"
 
-#: assets/js/builder.js:1200 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1602 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Inställningar"
 
-#: assets/js/builder.js:1314
+#: assets/js/builder.js:1724
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Lägg till det på en sida med SmokyForms-blocket eller kortkoden."
 
-#: assets/js/builder.js:1315
+#: assets/js/builder.js:1725
 msgid "You have unsaved changes."
 msgstr "Du har osparade ändringar."
 
-#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:213 includes/Submission.php:100
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:217 includes/Submission.php:101
 msgid "This form does not exist."
 msgstr "Formuläret finns inte."
 
-#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:85
+#: includes/Admin/Builder.php:71 includes/Admin/Builder.php:105 includes/Templates.php:108
 msgid "Untitled form"
 msgstr "Namnlöst formulär"
 
@@ -639,19 +835,19 @@ msgstr "Formuläret har sparats."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Redigera formulär &lsaquo; %s"
 
-#: includes/Admin/Builder.php:209 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:213 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
 msgid "You are not allowed to do this."
 msgstr "Du har inte behörighet att göra detta."
 
-#: includes/Admin/Builder.php:213 includes/Forms.php:32
+#: includes/Admin/Builder.php:217 includes/Forms.php:32
 msgid "Edit Form"
 msgstr "Redigera formulär"
 
-#: includes/Admin/Builder.php:216
+#: includes/Admin/Builder.php:220
 msgid "Loading the form builder…"
 msgstr "Formulärbyggaren laddas…"
 
-#: includes/Admin/Builder.php:216
+#: includes/Admin/Builder.php:220
 msgid "The form builder needs JavaScript."
 msgstr "Formulärbyggaren kräver JavaScript."
 
@@ -725,9 +921,25 @@ msgstr "SmokyForms sparar inte inskick; de skickas till dig med e-post. Om ett a
 msgid "Keep for"
 msgstr "Spara i"
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:110 includes/Admin/Settings.php:121
 msgid "days"
 msgstr "dagar"
+
+#: includes/Admin/Settings.php:114
+msgid "Uploaded files"
+msgstr "Uppladdade filer"
+
+#: includes/Admin/Settings.php:115
+msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
+msgstr "Filer och signaturer som skickas med ett formulär sparas i mappen uploads/smokyforms med svårgissade länkar, och mejlet länkar till dem."
+
+#: includes/Admin/Settings.php:118
+msgid "Delete uploaded files after"
+msgstr "Radera uppladdade filer efter"
+
+#: includes/Admin/Settings.php:122
+msgid "0 keeps the files until you delete them yourself."
+msgstr "0 behåller filerna tills du raderar dem själv."
 
 #. translators: %s: number of entries
 #: includes/Admin/UndeliveredPage.php:50
@@ -805,11 +1017,11 @@ msgstr "Text på en rad"
 msgid "Paragraph text"
 msgstr "Stycketext"
 
-#: includes/Fields.php:29 includes/Templates.php:67
+#: includes/Fields.php:29 includes/Templates.php:90 includes/Templates.php:337 includes/Templates.php:351
 msgid "Email"
 msgstr "E-post"
 
-#: includes/Fields.php:30 includes/Templates.php:68
+#: includes/Fields.php:30 includes/Templates.php:91 includes/Templates.php:352
 msgid "Phone"
 msgstr "Telefon"
 
@@ -830,62 +1042,98 @@ msgid "Checkboxes"
 msgstr "Kryssrutor"
 
 #: includes/Fields.php:36
+msgid "Rating"
+msgstr "Betyg"
+
+#: includes/Fields.php:37
 msgid "Date"
 msgstr "Datum"
 
-#: includes/Fields.php:37
+#: includes/Fields.php:38
 msgid "Hidden field"
 msgstr "Dolt fält"
 
-#: includes/Fields.php:38
+#: includes/Fields.php:39
 msgid "Consent checkbox"
 msgstr "Samtyckesruta"
 
-#: includes/Fields.php:152 includes/Renderer.php:335
+#: includes/Fields.php:40
+msgid "File upload"
+msgstr "Filuppladdning"
+
+#: includes/Fields.php:41
+msgid "Signature"
+msgstr "Signatur"
+
+#: includes/Fields.php:46
+msgid "Page break"
+msgstr "Sidbrytning"
+
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:557 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "Fältet är obligatoriskt."
 
-#: includes/Fields.php:178 includes/Renderer.php:336
+#. translators: %s: number of rows
+#: includes/Fields.php:265
+#, php-format
+msgid "Please fill in at least %s row."
+msgid_plural "Please fill in at least %s rows."
+msgstr[0] "Fyll i minst %s rad."
+msgstr[1] "Fyll i minst %s rader."
+
+#. translators: %s: number of rows
+#: includes/Fields.php:268
+#, php-format
+msgid "Please fill in at most %s row."
+msgid_plural "Please fill in at most %s rows."
+msgstr[0] "Fyll i högst %s rad."
+msgstr[1] "Fyll i högst %s rader."
+
+#: includes/Fields.php:299
+msgid "The signature could not be read. Please sign again."
+msgstr "Signaturen kunde inte läsas. Signera igen."
+
+#: includes/Fields.php:316 includes/Renderer.php:558
 msgid "Please enter a valid email address."
 msgstr "Ange en giltig e-postadress."
 
-#: includes/Fields.php:186 includes/Renderer.php:337
+#: includes/Fields.php:324 includes/Renderer.php:559
 msgid "Please enter a valid website address."
 msgstr "Ange en giltig webbadress."
 
-#: includes/Fields.php:192
+#: includes/Fields.php:330
 msgid "Please enter a valid phone number."
 msgstr "Ange ett giltigt telefonnummer."
 
-#: includes/Fields.php:198 includes/Renderer.php:338
+#: includes/Fields.php:336 includes/Renderer.php:560
 msgid "Please enter a number."
 msgstr "Ange ett tal."
 
 #. translators: %s: smallest allowed number
-#: includes/Fields.php:203
+#: includes/Fields.php:341
 #, php-format
 msgid "Please enter a number of at least %s."
 msgstr "Ange ett tal som är minst %s."
 
 #. translators: %s: largest allowed number
-#: includes/Fields.php:207
+#: includes/Fields.php:345
 #, php-format
 msgid "Please enter a number of at most %s."
 msgstr "Ange ett tal som är högst %s."
 
-#: includes/Fields.php:214
+#: includes/Fields.php:352
 msgid "Please enter a valid date."
 msgstr "Ange ett giltigt datum."
 
-#: includes/Fields.php:220
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:570
 msgid "Please choose one of the options."
 msgstr "Välj ett av alternativen."
 
-#: includes/Fields.php:271
+#: includes/Fields.php:446 includes/Templates.php:335
 msgid "Yes"
 msgstr "Ja"
 
-#: includes/Fields.php:271
+#: includes/Fields.php:446 includes/Templates.php:335
 msgid "No"
 msgstr "Nej"
 
@@ -913,11 +1161,11 @@ msgstr "Tack! Ditt meddelande har skickats."
 msgid "New entry: {form_title}"
 msgstr "Nytt inskick: {form_title}"
 
-#: includes/Forms.php:71 includes/Templates.php:74
+#: includes/Forms.php:71 includes/Templates.php:97
 msgid "Thank you for your message"
 msgstr "Tack för ditt meddelande"
 
-#: includes/Forms.php:72 includes/Templates.php:75
+#: includes/Forms.php:72 includes/Templates.php:98
 msgid ""
 "Hello,\n"
 "\n"
@@ -951,287 +1199,429 @@ msgstr "Datum och tid"
 msgid "Page of the form"
 msgstr "Formulärets sida"
 
-#: includes/Notifications.php:108
+#: includes/Notifications.php:109
 msgid "The site could not send the email."
 msgstr "Webbplatsen kunde inte skicka e-postmeddelandet."
 
-#: includes/Renderer.php:83
+#: includes/Renderer.php:84
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: formuläret finns inte."
 
-#: includes/Renderer.php:129
+#: includes/Renderer.php:196
 msgid "Leave this field empty"
 msgstr "Lämna fältet tomt"
 
-#: includes/Renderer.php:144 includes/Renderer.php:340 includes/Submission.php:143
+#: includes/Renderer.php:215 includes/Renderer.php:562 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "Kontrollera formuläret och försök igen."
 
-#: includes/Renderer.php:190
+#. translators: %s: number of stars
+#: includes/Renderer.php:309
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s stjärna"
+msgstr[1] "%s stjärnor"
+
+#. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
+#: includes/Renderer.php:321
+#, php-format
+msgid "Allowed file types: %1$s. Up to %2$s MB per file."
+msgstr "Tillåtna filtyper: %1$s. Upp till %2$s MB per fil."
+
+#. translators: %s: number of files
+#: includes/Renderer.php:323 includes/Uploads.php:112
+#, php-format
+msgid "You can upload at most %s file."
+msgid_plural "You can upload at most %s files."
+msgstr[0] "Du kan ladda upp högst %s fil."
+msgstr[1] "Du kan ladda upp högst %s filer."
+
+#: includes/Renderer.php:339
+msgid "Signing needs JavaScript. Please switch it on in your browser."
+msgstr "För att signera behövs JavaScript. Slå på det i webbläsaren."
+
+#: includes/Renderer.php:361
 msgid "Choose…"
 msgstr "Välj…"
 
-#: includes/Renderer.php:339
+#: includes/Renderer.php:447 includes/Renderer.php:447
+msgid "Remove this row"
+msgstr "Ta bort den här raden"
+
+#: includes/Renderer.php:561
 msgid "Sending…"
 msgstr "Skickar…"
 
-#: includes/Renderer.php:341
+#: includes/Renderer.php:563
 msgid "The form could not be sent. Please try again."
 msgstr "Formuläret kunde inte skickas. Försök igen."
+
+#. translators: 1: number of the current step, 2: number of steps
+#: includes/Renderer.php:565
+#, php-format
+msgid "Step %1$s of %2$s"
+msgstr "Steg %1$s av %2$s"
+
+#. translators: 1: file name, 2: size in MB
+#: includes/Renderer.php:567 includes/Uploads.php:125
+#, php-format
+msgid "%1$s is larger than %2$s MB."
+msgstr "%1$s är större än %2$s MB."
+
+#. translators: %s: file name
+#: includes/Renderer.php:569 includes/Uploads.php:130
+#, php-format
+msgid "%s: this file type is not allowed."
+msgstr "%s: den här filtypen är inte tillåten."
 
 #: includes/Settings.php:26
 msgid "None"
 msgstr "Ingen"
 
-#: includes/Submission.php:184
+#: includes/Submission.php:220
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "Formuläret kunde inte kontrolleras. Ladda om sidan och försök igen."
 
-#: includes/Submission.php:187
+#: includes/Submission.php:223
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "Det gick väldigt fort. Vänta en stund och skicka formuläret igen."
 
-#: includes/Submission.php:195
+#: includes/Submission.php:231
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "För många inskick. Vänta en minut och försök igen."
 
-#: includes/Templates.php:82
+#: includes/Templates.php:105
 msgid "Blank form"
 msgstr "Tomt formulär"
 
-#: includes/Templates.php:83
+#: includes/Templates.php:106
 msgid "Start from an empty form."
 msgstr "Börja med ett tomt formulär."
 
-#: includes/Templates.php:90 includes/Templates.php:93
+#: includes/Templates.php:113 includes/Templates.php:116
 msgid "Contact form"
 msgstr "Kontaktformulär"
 
-#: includes/Templates.php:91
+#: includes/Templates.php:114
 msgid "Name, email, phone and message."
 msgstr "Namn, e-post, telefon och meddelande."
 
-#: includes/Templates.php:104 includes/Templates.php:107
+#: includes/Templates.php:127 includes/Templates.php:130
 msgid "Quote request"
 msgstr "Offertförfrågan"
 
-#: includes/Templates.php:105
+#: includes/Templates.php:128
 msgid "Service, extras and size give an estimated price."
 msgstr "Tjänst, tillval och yta ger ett uppskattat pris."
 
-#: includes/Templates.php:112
+#: includes/Templates.php:135
 msgid "Service"
 msgstr "Tjänst"
 
-#: includes/Templates.php:117
+#: includes/Templates.php:140
 msgid "Basic cleaning"
 msgstr "Grundstädning"
 
-#: includes/Templates.php:118
+#: includes/Templates.php:141
 msgid "Deep cleaning"
 msgstr "Storstädning"
 
-#: includes/Templates.php:123
+#: includes/Templates.php:146
 msgid "Size (m²)"
 msgstr "Yta (m²)"
 
-#: includes/Templates.php:127
+#: includes/Templates.php:150
 msgid "Extras"
 msgstr "Tillval"
 
-#: includes/Templates.php:131
+#: includes/Templates.php:154
 msgid "Windows"
 msgstr "Fönster"
 
-#: includes/Templates.php:132
+#: includes/Templates.php:155
 msgid "Balcony"
 msgstr "Balkong"
 
-#: includes/Templates.php:133
+#: includes/Templates.php:156
 msgid "Oven"
 msgstr "Ugn"
 
-#: includes/Templates.php:141
+#: includes/Templates.php:164
 msgid "Estimated price"
 msgstr "Uppskattat pris"
 
-#: includes/Templates.php:157 includes/Templates.php:160
+#: includes/Templates.php:180 includes/Templates.php:183
 msgid "Order form"
 msgstr "Beställningsformulär"
 
-#: includes/Templates.php:158
+#: includes/Templates.php:181
 msgid "Products with quantities, delivery and a discount over an amount."
 msgstr "Produkter med antal, leverans och rabatt över ett belopp."
 
-#: includes/Templates.php:162
+#: includes/Templates.php:185
 msgid "Product A – 12.00 each"
 msgstr "Produkt A – 12.00 st"
 
-#: includes/Templates.php:163
+#: includes/Templates.php:186
 msgid "Product B – 18.50 each"
 msgstr "Produkt B – 18.50 st"
 
-#: includes/Templates.php:167
+#: includes/Templates.php:190
 msgid "Delivery"
 msgstr "Leverans"
 
-#: includes/Templates.php:172
+#: includes/Templates.php:195
 msgid "Pick up"
 msgstr "Hämta själv"
 
-#: includes/Templates.php:173
+#: includes/Templates.php:196
 msgid "Standard"
 msgstr "Standard"
 
-#: includes/Templates.php:174
+#: includes/Templates.php:197
 msgid "Express"
 msgstr "Express"
 
-#: includes/Templates.php:179
+#: includes/Templates.php:202
 msgid "Subtotal"
 msgstr "Delsumma"
 
-#: includes/Templates.php:180
+#: includes/Templates.php:203
 #, php-format
 msgid "Discount (10% over 100)"
 msgstr "Rabatt (10 % över 100)"
 
-#: includes/Templates.php:181
+#: includes/Templates.php:204 includes/Templates.php:384
 msgid "Total"
 msgstr "Totalt"
 
-#: includes/Templates.php:189
+#: includes/Templates.php:212
 msgid "Booking with nights"
 msgstr "Bokning med nätter"
 
-#: includes/Templates.php:190
+#: includes/Templates.php:213
 msgid "Arrival and departure dates give the number of nights and the price."
 msgstr "Ankomst- och avresedatum ger antal nätter och priset."
 
-#: includes/Templates.php:192
+#: includes/Templates.php:215
 msgid "Booking request"
 msgstr "Bokningsförfrågan"
 
-#: includes/Templates.php:194
+#: includes/Templates.php:217
 msgid "Arrival"
 msgstr "Ankomst"
 
-#: includes/Templates.php:195
+#: includes/Templates.php:218
 msgid "Departure"
 msgstr "Avresa"
 
-#: includes/Templates.php:199
+#: includes/Templates.php:222
 msgid "Room"
 msgstr "Rum"
 
-#: includes/Templates.php:204
+#: includes/Templates.php:227
 msgid "Standard – 80 per night"
 msgstr "Standard – 80 per natt"
 
-#: includes/Templates.php:205
+#: includes/Templates.php:228
 msgid "Suite – 140 per night"
 msgstr "Svit – 140 per natt"
 
-#: includes/Templates.php:210
+#: includes/Templates.php:233
 msgid "Nights"
 msgstr "Nätter"
 
-#: includes/Templates.php:211
+#: includes/Templates.php:234
 msgid "Price"
 msgstr "Pris"
 
-#: includes/Templates.php:220
+#: includes/Templates.php:243
 msgid "Shipping price from a table of zones and parcel sizes."
 msgstr "Fraktpris från en tabell med zoner och paketstorlekar."
 
-#: includes/Templates.php:222 includes/Templates.php:256
+#: includes/Templates.php:245 includes/Templates.php:279
 msgid "Shipping price"
 msgstr "Fraktpris"
 
-#: includes/Templates.php:227
+#: includes/Templates.php:250
 msgid "Zone"
 msgstr "Zon"
 
-#: includes/Templates.php:233 includes/Templates.php:263
+#: includes/Templates.php:256 includes/Templates.php:286
 msgid "Zone 1"
 msgstr "Zon 1"
 
-#: includes/Templates.php:234 includes/Templates.php:263
+#: includes/Templates.php:257 includes/Templates.php:286
 msgid "Zone 2"
 msgstr "Zon 2"
 
-#: includes/Templates.php:235 includes/Templates.php:263
+#: includes/Templates.php:258 includes/Templates.php:286
 msgid "Zone 3"
 msgstr "Zon 3"
 
-#: includes/Templates.php:243
+#: includes/Templates.php:266
 msgid "Parcel"
 msgstr "Paket"
 
-#: includes/Templates.php:249 includes/Templates.php:264
+#: includes/Templates.php:272 includes/Templates.php:287
 msgid "Small"
 msgstr "Litet"
 
-#: includes/Templates.php:250 includes/Templates.php:264
+#: includes/Templates.php:273 includes/Templates.php:287
 msgid "Medium"
 msgstr "Mellan"
 
-#: includes/Templates.php:251 includes/Templates.php:264
+#: includes/Templates.php:274 includes/Templates.php:287
 msgid "Large"
 msgstr "Stort"
 
-#: includes/Templates.php:262
+#: includes/Templates.php:285
 msgid "Shipping prices"
 msgstr "Fraktpriser"
 
-#: includes/Templates.php:271 includes/Templates.php:274
+#: includes/Templates.php:294 includes/Templates.php:297
 msgid "BMI calculator"
 msgstr "BMI-kalkylator"
 
-#: includes/Templates.php:272
+#: includes/Templates.php:295
 msgid "Body mass index from height and weight."
 msgstr "Kroppsmasseindex utifrån längd och vikt."
 
-#: includes/Templates.php:276
+#: includes/Templates.php:299
 msgid "Height (cm)"
 msgstr "Längd (cm)"
 
-#: includes/Templates.php:277
+#: includes/Templates.php:300
 msgid "Weight (kg)"
 msgstr "Vikt (kg)"
 
-#: includes/Templates.php:278
+#: includes/Templates.php:301
 msgid "Your BMI"
 msgstr "Ditt BMI"
 
-#: includes/Templates.php:282 includes/Templates.php:299
+#: includes/Templates.php:305 includes/Templates.php:322
 msgid "Send"
 msgstr "Skicka"
 
-#: includes/Templates.php:287 includes/Templates.php:290
+#: includes/Templates.php:310 includes/Templates.php:313
 msgid "Loan calculator"
 msgstr "Lånekalkylator"
 
-#: includes/Templates.php:288
+#: includes/Templates.php:311
 msgid "Monthly payment from amount, interest rate and term."
 msgstr "Månadsbelopp utifrån lånebelopp, ränta och löptid."
 
-#: includes/Templates.php:292
+#: includes/Templates.php:315
 msgid "Loan amount"
 msgstr "Lånebelopp"
 
-#: includes/Templates.php:293
+#: includes/Templates.php:316
 #, php-format
 msgid "Yearly interest rate (%)"
 msgstr "Årsränta (%)"
 
-#: includes/Templates.php:294
+#: includes/Templates.php:317
 msgid "Term (months)"
 msgstr "Löptid (månader)"
 
-#: includes/Templates.php:295
+#: includes/Templates.php:318
 msgid "Monthly payment"
 msgstr "Månadsbelopp"
+
+#: includes/Templates.php:327 includes/Templates.php:330
+msgid "Customer feedback"
+msgstr "Kundfeedback"
+
+#: includes/Templates.php:328
+msgid "Star rating with follow-up questions that depend on the rating."
+msgstr "Stjärnbetyg med följdfrågor som beror på betyget."
+
+#: includes/Templates.php:332
+msgid "How would you rate your experience?"
+msgstr "Hur skulle du betygsätta din upplevelse?"
+
+#: includes/Templates.php:333
+msgid "What did you like most?"
+msgstr "Vad gillade du mest?"
+
+#: includes/Templates.php:334
+msgid "What should we do better?"
+msgstr "Vad borde vi göra bättre?"
+
+#: includes/Templates.php:335
+msgid "Would you recommend us to a friend?"
+msgstr "Skulle du rekommendera oss till en vän?"
+
+#: includes/Templates.php:340
+msgid "Thank you for your feedback!"
+msgstr "Tack för din feedback!"
+
+#: includes/Templates.php:345 includes/Templates.php:348
+msgid "Job application"
+msgstr "Jobbansökan"
+
+#: includes/Templates.php:346
+msgid "Two pages with a CV upload."
+msgstr "Två sidor med uppladdning av CV."
+
+#: includes/Templates.php:353
+msgid "Your application"
+msgstr "Din ansökan"
+
+#: includes/Templates.php:354
+msgid "Position you are applying for"
+msgstr "Tjänst du söker"
+
+#: includes/Templates.php:355
+msgid "Your CV"
+msgstr "Ditt CV"
+
+#: includes/Templates.php:356
+msgid "Cover letter"
+msgstr "Personligt brev"
+
+#: includes/Templates.php:358
+msgid "Thank you! We received your application."
+msgstr "Tack! Vi har tagit emot din ansökan."
+
+#: includes/Templates.php:362 includes/Templates.php:365
+msgid "Event registration"
+msgstr "Anmälan till evenemang"
+
+#: includes/Templates.php:363
+msgid "Register several people at once; the total follows the tickets."
+msgstr "Anmäl flera personer samtidigt; summan följer biljetterna."
+
+#: includes/Templates.php:372
+msgid "Attendees"
+msgstr "Deltagare"
+
+#: includes/Templates.php:377
+msgid "Add a person"
+msgstr "Lägg till en person"
+
+#: includes/Templates.php:379
+msgid "Full name"
+msgstr "Fullständigt namn"
+
+#: includes/Templates.php:380
+msgid "Ticket"
+msgstr "Biljett"
+
+#: includes/Templates.php:380
+msgid "Adult – 25"
+msgstr "Vuxen – 25"
+
+#: includes/Templates.php:380
+msgid "Child – 10"
+msgstr "Barn – 10"
+
+#. translators: %s: file name
+#: includes/Uploads.php:121
+#, php-format
+msgid "%s could not be uploaded. Please try again."
+msgstr "%s kunde inte laddas upp. Försök igen."
 
 #: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
 msgid "Test email"

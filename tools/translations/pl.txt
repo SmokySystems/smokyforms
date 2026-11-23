@@ -323,3 +323,93 @@ c3a7ea|Nazwa nadawcy
 ee1851|Wyślij e-mail testowy
 7caa16|SmokyForms – Kreator formularzy „przeciągnij i upuść” z obliczeniami
 9958f8|Kreator formularzy „przeciągnij i upuść” z bezpłatnymi obliczeniami. Twórz formularze kontaktowe, wyceny i zamówień oraz kalkulatory bez pisania formuł.
+b37875|Grupa powtarzalna
+d9f5f2|%s: liczba wierszy
+16a3ac|%1$s: suma %2$s
+1415c1|%s: liczba plików
+374bea|Następna strona
+907db1|Brak pól
+5f78b2|Logika warunkowa
+a2a551|jest
+b1b55b|nie jest
+bf943a|jest puste
+9de408|nie jest puste
+3609cb|jest większe niż
+bed162|jest mniejsze niż
+857af2|zawiera
+7bfdce|Pokaż lub ukryj to pole w zależności od innych odpowiedzi.
+004bf6|Działanie
+3b2035|Pokaż to pole
+c739ca|Ukryj to pole
+6da892|Dopasowanie
+e77510|jeśli wszystkie reguły pasują
+83e482|jeśli którakolwiek reguła pasuje
+6f16a5|Pole
+f6c0e3|Porównanie
+964305|Usuń regułę
+9b5e7f|Dodaj regułę
+a1fa27|Typ
+4589d5|Dodaj pole
+a1177e|Tytuł następnej strony
+415341|Opcjonalnie. Wszystko pod tym podziałem, aż do następnego, to jedna strona formularza.
+b27e83|Liczba gwiazdek
+914ccb|Dozwolone typy plików
+d39f1a|Rozszerzenia plików oddzielone przecinkami. Można używać tylko typów, na które pozwala sam WordPress.
+d8b894|Największy plik (MB)
+7d8c41|Twój serwer pozwala na maksymalnie %s MB.
+18de35|Liczba plików
+fc09de|Dołącz do e-maila z powiadomieniem
+b8c34f|E-mail zawsze zawiera link do pliku. Serwery pocztowe mogą odrzucać duże załączniki.
+91d907|Pola każdego wiersza
+cb5ffd|Najmniej wierszy
+161252|Najwięcej wierszy
+192d51|Tekst przycisku dodawania
+854a4e|Dodaj kolejny
+d9c320|Przycisk Dalej
+10ac3d|Dalej
+fab2df|Przycisk Wstecz
+dd1f77|Wstecz
+57518a|Pokaż pasek postępu
+0eb631|Dla formularzy z podziałem stron: „Krok 1 z 3” nad formularzem.
+851653|Przesłane pliki
+168038|Pliki i podpisy wysłane z formularzem są zapisywane w folderze uploads/smokyforms z trudnymi do odgadnięcia linkami, a e-mail zawiera do nich linki.
+9ff4e0|Usuń przesłane pliki po
+138ce5|0 zachowuje pliki, dopóki sam ich nie usuniesz.
+dda9c0|Ocena
+c42655|Przesyłanie plików
+8c0900|Podpis
+fdd64f|Podział strony
+86757c|Wypełnij co najmniej %s wiersz. ¦ Wypełnij co najmniej %s wiersze. ¦ Wypełnij co najmniej %s wierszy.
+2c2c5c|Wypełnij najwyżej %s wiersz. ¦ Wypełnij najwyżej %s wiersze. ¦ Wypełnij najwyżej %s wierszy.
+739100|Nie udało się odczytać podpisu. Podpisz się ponownie.
+54e7ab|%s gwiazdka ¦ %s gwiazdki ¦ %s gwiazdek
+0bd3e3|Dozwolone typy plików: %1$s. Do %2$s MB na plik.
+2e24c6|Możesz przesłać najwyżej %s plik. ¦ Możesz przesłać najwyżej %s pliki. ¦ Możesz przesłać najwyżej %s plików.
+02f371|Do podpisu potrzebny jest JavaScript. Włącz go w przeglądarce.
+fded2f|Usuń ten wiersz
+d0e7dd|Krok %1$s z %2$s
+6d402b|%1$s jest większy niż %2$s MB.
+2a8b08|%s: ten typ pliku jest niedozwolony.
+969c43|Opinie klientów
+043168|Ocena gwiazdkowa z pytaniami zależnymi od oceny.
+3936da|Jak oceniasz swoje doświadczenie?
+f04b38|Co podobało Ci się najbardziej?
+4a179f|Co powinniśmy poprawić?
+c2be8a|Czy poleciłbyś nas znajomemu?
+d62968|Dziękujemy za opinię!
+47b537|Aplikacja o pracę
+155113|Dwie strony z przesyłaniem CV.
+5fda1c|Twoja aplikacja
+e22ca6|Stanowisko, o które się ubiegasz
+755b7f|Twoje CV
+50521e|List motywacyjny
+77657c|Dziękujemy! Otrzymaliśmy Twoją aplikację.
+c1014b|Rejestracja na wydarzenie
+b266f3|Zarejestruj kilka osób naraz; suma zależy od biletów.
+0bff4c|Uczestnicy
+195693|Dodaj osobę
+f11b36|Imię i nazwisko
+c75143|Bilet
+abce00|Dorosły – 25
+2d337d|Dziecko – 10
+ccdac9|Nie udało się przesłać pliku %s. Spróbuj ponownie.

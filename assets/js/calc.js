@@ -22,7 +22,7 @@
 				continue;
 			}
 			if ( c === '{' ) {
-				m = /^\{([a-z0-9_]+)\}/.exec( s.slice( i ) );
+				m = /^\{([a-z0-9_]+(?:\.[a-z0-9_]+)?)\}/.exec( s.slice( i ) );
 				if ( ! m ) {
 					throw new Error( 'Bad field reference' );
 				}
@@ -333,6 +333,10 @@
 				out = [], i, el;
 			for ( i = 0; i < items.length; i++ ) {
 				el = items[ i ];
+				// Fields hidden by conditional logic are disabled and count as empty.
+				if ( el.disabled ) {
+					continue;
+				}
 				if ( el.type === 'radio' || el.type === 'checkbox' ) {
 					if ( el.checked ) {
 						out.push( el.value );
@@ -344,16 +348,79 @@
 			return out;
 		}
 
+		// Filled rows of a repeating group: name => value of each field of the row.
+		function rows( id ) {
+			var box = form.querySelector( '.smokyforms-field[data-field="' + id + '"]' ), list = [], items, i, j, row, el, filled, key, m;
+			if ( ! box || box.closest( '[data-logic][hidden]' ) ) {
+				return list;
+			}
+			items = box.querySelectorAll( '.smokyforms-row' );
+			for ( i = 0; i < items.length; i++ ) {
+				row = {};
+				filled = false;
+				el = items[ i ].querySelectorAll( 'input, select, textarea' );
+				for ( j = 0; j < el.length; j++ ) {
+					m = /\]\[[^\]]*\]\[([a-z0-9_]+)\]$/.exec( el[ j ].name );
+					if ( ! m ) {
+						continue;
+					}
+					key = m[ 1 ];
+					row[ key ] = el[ j ].value;
+					if ( String( el[ j ].value ).trim() !== '' ) {
+						filled = true;
+					}
+				}
+				if ( filled ) {
+					list.push( row );
+				}
+			}
+			return list;
+		}
+
+		// {group.field}: the sum of that field over the rows.
+		function group( ref ) {
+			var parts = ref.split( '.' ), f = config.fields[ parts[ 0 ] ], sub, list, sum = 0, i, v;
+			if ( ! f || f.type !== 'repeater' || ! parts[ 1 ] || ! f.subs || ! f.subs[ parts[ 1 ] ] ) {
+				return 0;
+			}
+			sub = f.subs[ parts[ 1 ] ];
+			list = rows( parts[ 0 ] );
+			for ( i = 0; i < list.length; i++ ) {
+				v = list[ i ][ parts[ 1 ] ];
+				if ( sub.options ) {
+					sum += Object.prototype.hasOwnProperty.call( sub.options, v ) ? Number( sub.options[ v ] ) || 0 : 0;
+				} else if ( sub.type === 'date' ) {
+					sum += dayNumber( v );
+				} else {
+					v = parseFloat( String( v || '' ).replace( ',', '.' ) );
+					sum += isFinite( v ) ? v : 0;
+				}
+			}
+			return sum;
+		}
+
 		function run() {
 			var done = {}, stack = {}, i, c, out, hidden, num, text;
 			text = function ( id ) {
-				var v = raw( id );
+				var parts = id.split( '.' ), v, list;
+				if ( parts[ 1 ] ) {
+					list = rows( parts[ 0 ] );
+					return list.length && list[ 0 ][ parts[ 1 ] ] !== undefined ? String( list[ 0 ][ parts[ 1 ] ] ) : '';
+				}
+				v = raw( id );
 				return v.length ? v[ 0 ] : '';
 			};
 			num = function ( id ) {
 				var f = config.fields[ id ], v, sum, j, calc;
 				if ( ! f ) {
-					return 0;
+					return group( id );
+				}
+				if ( f.type === 'repeater' ) {
+					return rows( id ).length;
+				}
+				if ( f.type === 'file' ) {
+					v = form.querySelector( '[name="smokyforms_files[' + id + '][]"]' );
+					return v && ! v.disabled && v.files ? v.files.length : 0;
 				}
 				if ( f.type === 'calculation' ) {
 					if ( Object.prototype.hasOwnProperty.call( done, id ) ) {
@@ -403,6 +470,7 @@
 			}
 		}
 
+		form.smokyformsCalc = run;
 		form.addEventListener( 'input', run );
 		form.addEventListener( 'change', run );
 		form.addEventListener( 'reset', function () {

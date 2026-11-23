@@ -58,6 +58,29 @@ final class Templates {
 	}
 
 	/**
+	 * Conditional logic with one rule: show the field when the rule matches.
+	 *
+	 * @param string $field Field id.
+	 * @param string $op    Operator.
+	 * @param string $value Value.
+	 * @return array
+	 */
+	private static function when( $field, $op, $value ) {
+		return array(
+			'enabled' => true,
+			'action'  => 'show',
+			'match'   => 'all',
+			'rules'   => array(
+				array(
+					'field' => $field,
+					'op'    => $op,
+					'value' => $value,
+				),
+			),
+		);
+	}
+
+	/**
 	 * All templates.
 	 *
 	 * @return array<int,array> key, name, description, calc (bool), title, fields, tables, settings
@@ -298,6 +321,69 @@ final class Templates {
 					'notify'       => array( 'enabled' => false ),
 					'submit_label' => __( 'Send', 'smokyforms' ),
 				),
+			),
+			array(
+				'key'         => 'feedback',
+				'name'        => __( 'Customer feedback', 'smokyforms' ),
+				'description' => __( 'Star rating with follow-up questions that depend on the rating.', 'smokyforms' ),
+				'calc'        => false,
+				'title'       => __( 'Customer feedback', 'smokyforms' ),
+				'fields'      => array(
+					self::f( 'rating', 'rating', __( 'How would you rate your experience?', 'smokyforms' ), array( 'required' => true, 'max' => 5 ) ),
+					self::f( 'liked', 'textarea', __( 'What did you like most?', 'smokyforms' ), array( 'logic' => self::when( 'rating', 'gt', '3' ) ) ),
+					self::f( 'improve', 'textarea', __( 'What should we do better?', 'smokyforms' ), array( 'logic' => self::when( 'rating', 'lt', '4' ) ) ),
+					self::f( 'recommend', 'radio', __( 'Would you recommend us to a friend?', 'smokyforms' ), array( 'options' => self::options( array( __( 'Yes', 'smokyforms' ) => 0, __( 'No', 'smokyforms' ) => 0 ) ) ) ),
+					self::f( 'name', 'text', __( 'Name', 'smokyforms' ), array( 'width' => 'half' ) ),
+					self::f( 'email', 'email', __( 'Email', 'smokyforms' ), array( 'width' => 'half' ) ),
+				),
+				'settings'    => array(
+					'success_message' => __( 'Thank you for your feedback!', 'smokyforms' ),
+				),
+			),
+			array(
+				'key'         => 'application',
+				'name'        => __( 'Job application', 'smokyforms' ),
+				'description' => __( 'Two pages with a CV upload.', 'smokyforms' ),
+				'calc'        => false,
+				'title'       => __( 'Job application', 'smokyforms' ),
+				'fields'      => array(
+					$name,
+					self::f( 'email', 'email', __( 'Email', 'smokyforms' ), array( 'required' => true, 'width' => 'half' ) ),
+					self::f( 'phone', 'phone', __( 'Phone', 'smokyforms' ), array( 'width' => 'half' ) ),
+					self::f( 'step2', 'page', __( 'Your application', 'smokyforms' ), array( 'prev_label' => '', 'next_label' => '' ) ),
+					self::f( 'position', 'text', __( 'Position you are applying for', 'smokyforms' ), array( 'required' => true ) ),
+					self::f( 'cv', 'file', __( 'Your CV', 'smokyforms' ), array( 'required' => true, 'extensions' => 'pdf, doc, docx, odt', 'max_size' => 5, 'max_files' => 1, 'attach' => true ) ),
+					self::f( 'letter', 'textarea', __( 'Cover letter', 'smokyforms' ) ),
+				),
+				'settings'    => array_merge( $confirm, array( 'success_message' => __( 'Thank you! We received your application.', 'smokyforms' ) ) ),
+			),
+			array(
+				'key'         => 'event',
+				'name'        => __( 'Event registration', 'smokyforms' ),
+				'description' => __( 'Register several people at once; the total follows the tickets.', 'smokyforms' ),
+				'calc'        => true,
+				'title'       => __( 'Event registration', 'smokyforms' ),
+				'fields'      => array(
+					$name,
+					$email,
+					self::f(
+						'attendees',
+						'repeater',
+						__( 'Attendees', 'smokyforms' ),
+						array(
+							'required'  => true,
+							'min_rows'  => 1,
+							'max_rows'  => 10,
+							'add_label' => __( 'Add a person', 'smokyforms' ),
+							'subfields' => array(
+								self::f( 'person', 'text', __( 'Full name', 'smokyforms' ), array( 'required' => true, 'width' => 'half' ) ),
+								self::f( 'ticket', 'select', __( 'Ticket', 'smokyforms' ), array( 'required' => true, 'width' => 'half', 'options' => self::options( array( __( 'Adult – 25', 'smokyforms' ) => 25, __( 'Child – 10', 'smokyforms' ) => 10 ) ) ) ),
+							),
+						)
+					),
+					self::f( 'total', 'calculation', __( 'Total', 'smokyforms' ), array( 'formula' => '{attendees.ticket}', 'decimals' => 2, 'prefix' => '', 'suffix' => '', 'visible' => true ) ),
+				),
+				'settings'    => $confirm,
 			),
 		);
 

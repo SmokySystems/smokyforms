@@ -323,3 +323,93 @@ c3a7ea|Meno odosielateľa
 ee1851|Odoslať testovací e-mail
 7caa16|SmokyForms – Tvorca formulárov presúvaním s výpočtami
 9958f8|Tvorca formulárov presúvaním s výpočtami zadarmo. Vytvárajte kontaktné, dopytové a objednávkové formuláre aj kalkulačky bez písania vzorcov.
+b37875|Opakovaná skupina
+d9f5f2|%s: počet riadkov
+16a3ac|%1$s: súčet %2$s
+1415c1|%s: počet súborov
+374bea|Ďalšia stránka
+907db1|Zatiaľ žiadne polia
+5f78b2|Podmienená logika
+a2a551|je
+b1b55b|nie je
+bf943a|je prázdne
+9de408|nie je prázdne
+3609cb|je väčšie ako
+bed162|je menšie ako
+857af2|obsahuje
+7bfdce|Zobrazte alebo skryte toto pole podľa iných odpovedí.
+004bf6|Akcia
+3b2035|Zobraziť toto pole
+c739ca|Skryť toto pole
+6da892|Zhoda
+e77510|ak platia všetky pravidlá
+83e482|ak platí niektoré pravidlo
+6f16a5|Pole
+f6c0e3|Porovnanie
+964305|Odstrániť pravidlo
+9b5e7f|Pridať pravidlo
+a1fa27|Typ
+4589d5|Pridať pole
+a1177e|Názov ďalšej stránky
+415341|Voliteľné. Všetko pod týmto zalomením až po ďalšie je jedna stránka formulára.
+b27e83|Počet hviezdičiek
+914ccb|Povolené typy súborov
+d39f1a|Prípony súborov oddelené čiarkami. Možno použiť len typy, ktoré povoľuje samotný WordPress.
+d8b894|Najväčší súbor (MB)
+7d8c41|Váš server povoľuje až %s MB.
+18de35|Počet súborov
+fc09de|Priložiť k oznamovaciemu e-mailu
+b8c34f|E-mail vždy obsahuje odkaz na súbor. Poštové servery môžu veľké prílohy odmietnuť.
+91d907|Polia každého riadku
+cb5ffd|Najmenej riadkov
+161252|Najviac riadkov
+192d51|Text tlačidla na pridanie
+854a4e|Pridať ďalší
+d9c320|Tlačidlo Ďalej
+10ac3d|Ďalej
+fab2df|Tlačidlo Späť
+dd1f77|Predchádzajúce
+57518a|Zobraziť ukazovateľ priebehu
+0eb631|Pre formuláre so zalomením stránok: „Krok 1 z 3“ nad formulárom.
+851653|Nahrané súbory
+168038|Súbory a podpisy odoslané formulárom sa ukladajú do priečinka uploads/smokyforms s ťažko uhádnuteľnými odkazmi a e-mail na ne odkazuje.
+9ff4e0|Vymazať nahrané súbory po
+138ce5|0 ponechá súbory, kým ich sami nevymažete.
+dda9c0|Hodnotenie
+c42655|Nahranie súboru
+8c0900|Podpis
+fdd64f|Zalomenie stránky
+86757c|Vyplňte aspoň %s riadok. ¦ Vyplňte aspoň %s riadky. ¦ Vyplňte aspoň %s riadkov.
+2c2c5c|Vyplňte najviac %s riadok. ¦ Vyplňte najviac %s riadky. ¦ Vyplňte najviac %s riadkov.
+739100|Podpis sa nepodarilo prečítať. Podpíšte sa znova.
+54e7ab|%s hviezdička ¦ %s hviezdičky ¦ %s hviezdičiek
+0bd3e3|Povolené typy súborov: %1$s. Až %2$s MB na súbor.
+2e24c6|Môžete nahrať najviac %s súbor. ¦ Môžete nahrať najviac %s súbory. ¦ Môžete nahrať najviac %s súborov.
+02f371|Na podpis je potrebný JavaScript. Zapnite ho v prehliadači.
+fded2f|Odstrániť tento riadok
+d0e7dd|Krok %1$s z %2$s
+6d402b|%1$s je väčší ako %2$s MB.
+2a8b08|%s: tento typ súboru nie je povolený.
+969c43|Spätná väzba zákazníkov
+043168|Hodnotenie hviezdičkami s doplňujúcimi otázkami podľa hodnotenia.
+3936da|Ako hodnotíte svoju skúsenosť?
+f04b38|Čo sa vám páčilo najviac?
+4a179f|Čo by sme mali zlepšiť?
+c2be8a|Odporučili by ste nás priateľovi?
+d62968|Ďakujeme za spätnú väzbu!
+47b537|Žiadosť o zamestnanie
+155113|Dve stránky s nahraním životopisu.
+5fda1c|Vaša žiadosť
+e22ca6|Pozícia, o ktorú sa uchádzate
+755b7f|Váš životopis
+50521e|Motivačný list
+77657c|Ďakujeme! Vašu žiadosť sme dostali.
+c1014b|Registrácia na podujatie
+b266f3|Zaregistrujte viac osôb naraz; súčet sa riadi vstupenkami.
+0bff4c|Účastníci
+195693|Pridať osobu
+f11b36|Celé meno
+c75143|Vstupenka
+abce00|Dospelý – 25
+2d337d|Dieťa – 10
+ccdac9|Súbor %s sa nepodarilo nahrať. Skúste to znova.

@@ -323,3 +323,93 @@ c3a7ea|Nombre del remitente
 ee1851|Enviar correo de prueba
 7caa16|SmokyForms – Creador de formularios de arrastrar y soltar con cálculos
 9958f8|Creador de formularios de arrastrar y soltar con cálculos gratis. Crea formularios de contacto, de presupuesto y de pedido, y calculadoras, sin escribir fórmulas.
+b37875|Grupo repetible
+d9f5f2|%s: número de filas
+16a3ac|%1$s: total de %2$s
+1415c1|%s: número de archivos
+374bea|Página siguiente
+907db1|Aún no hay campos
+5f78b2|Lógica condicional
+a2a551|es
+b1b55b|no es
+bf943a|está vacío
+9de408|no está vacío
+3609cb|es mayor que
+bed162|es menor que
+857af2|contiene
+7bfdce|Muestra u oculta este campo según otras respuestas.
+004bf6|Acción
+3b2035|Mostrar este campo
+c739ca|Ocultar este campo
+6da892|Coincidencia
+e77510|si se cumplen todas las reglas
+83e482|si se cumple alguna regla
+6f16a5|Campo
+f6c0e3|Comparación
+964305|Quitar regla
+9b5e7f|Añadir regla
+a1fa27|Tipo
+4589d5|Añadir campo
+a1177e|Título de la página siguiente
+415341|Opcional. Todo lo que está debajo de este salto, hasta el siguiente, es una página del formulario.
+b27e83|Número de estrellas
+914ccb|Tipos de archivo permitidos
+d39f1a|Extensiones de archivo separadas por comas. Solo se pueden usar los tipos que el propio WordPress permite.
+d8b894|Archivo más grande (MB)
+7d8c41|Tu servidor permite hasta %s MB.
+18de35|Número de archivos
+fc09de|Adjuntar al correo de aviso
+b8c34f|El correo siempre enlaza al archivo. Los servidores de correo pueden rechazar adjuntos grandes.
+91d907|Campos de cada fila
+cb5ffd|Mínimo de filas
+161252|Máximo de filas
+192d51|Texto del botón de añadir
+854a4e|Añadir otro
+d9c320|Botón Siguiente
+10ac3d|Siguiente
+fab2df|Botón Atrás
+dd1f77|Anterior
+57518a|Mostrar la barra de progreso
+0eb631|Para formularios con saltos de página: «Paso 1 de 3» encima del formulario.
+851653|Archivos subidos
+168038|Los archivos y firmas enviados con un formulario se guardan en la carpeta uploads/smokyforms con enlaces difíciles de adivinar, y el correo enlaza a ellos.
+9ff4e0|Borrar los archivos subidos después de
+138ce5|0 conserva los archivos hasta que los borres tú.
+dda9c0|Valoración
+c42655|Subida de archivos
+8c0900|Firma
+fdd64f|Salto de página
+86757c|Rellena al menos %s fila. ¦ Rellena al menos %s filas.
+2c2c5c|Rellena como máximo %s fila. ¦ Rellena como máximo %s filas.
+739100|No se ha podido leer la firma. Vuelve a firmar.
+54e7ab|%s estrella ¦ %s estrellas
+0bd3e3|Tipos de archivo permitidos: %1$s. Hasta %2$s MB por archivo.
+2e24c6|Puedes subir como máximo %s archivo. ¦ Puedes subir como máximo %s archivos.
+02f371|Para firmar se necesita JavaScript. Actívalo en tu navegador.
+fded2f|Quitar esta fila
+d0e7dd|Paso %1$s de %2$s
+6d402b|%1$s supera los %2$s MB.
+2a8b08|%s: este tipo de archivo no está permitido.
+969c43|Opinión de clientes
+043168|Valoración con estrellas y preguntas que dependen de la valoración.
+3936da|¿Cómo valorarías tu experiencia?
+f04b38|¿Qué es lo que más te ha gustado?
+4a179f|¿Qué deberíamos mejorar?
+c2be8a|¿Nos recomendarías a un amigo?
+d62968|¡Gracias por tu opinión!
+47b537|Solicitud de empleo
+155113|Dos páginas con subida del currículum.
+5fda1c|Tu solicitud
+e22ca6|Puesto al que te presentas
+755b7f|Tu currículum
+50521e|Carta de presentación
+77657c|¡Gracias! Hemos recibido tu solicitud.
+c1014b|Inscripción a un evento
+b266f3|Inscribe a varias personas a la vez; el total sigue a las entradas.
+0bff4c|Asistentes
+195693|Añadir una persona
+f11b36|Nombre completo
+c75143|Entrada
+abce00|Adulto – 25
+2d337d|Niño – 10
+ccdac9|No se ha podido subir %s. Inténtalo de nuevo.

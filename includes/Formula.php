@@ -78,7 +78,7 @@ final class Formula {
 	 * @return string[]
 	 */
 	public static function refs( $formula ) {
-		preg_match_all( '/\{([a-z0-9_]+)\}/', (string) $formula, $m );
+		preg_match_all( '/\{([a-z0-9_]+(?:\.[a-z0-9_]+)?)\}/', (string) $formula, $m );
 		return array_values( array_unique( $m[1] ) );
 	}
 
@@ -166,7 +166,7 @@ final class Formula {
 				continue;
 			}
 			if ( '{' === $c ) {
-				if ( ! preg_match( '/\G\{([a-z0-9_]+)\}/', $s, $m, 0, $i ) ) {
+				if ( ! preg_match( '/\G\{([a-z0-9_]+(?:\.[a-z0-9_]+)?)\}/', $s, $m, 0, $i ) ) {
 					throw new \InvalidArgumentException( 'Bad field reference' );
 				}
 				$out[] = array( 'ref', $m[1] );

@@ -323,3 +323,93 @@ c3a7ea|Ime pošiljatelja
 ee1851|Pošlji preizkusno e-pošto
 7caa16|SmokyForms – Graditelj obrazcev s povleci in spusti ter izračuni
 9958f8|Graditelj obrazcev s povleci in spusti ter brezplačnimi izračuni. Ustvarite kontaktne obrazce, obrazce za ponudbe in naročila ter kalkulatorje brez pisanja formul.
+b37875|Ponavljajoča se skupina
+d9f5f2|%s: število vrstic
+16a3ac|%1$s: skupaj %2$s
+1415c1|%s: število datotek
+374bea|Naslednja stran
+907db1|Še ni polj
+5f78b2|Pogojna logika
+a2a551|je
+b1b55b|ni
+bf943a|je prazno
+9de408|ni prazno
+3609cb|je večje od
+bed162|je manjše od
+857af2|vsebuje
+7bfdce|Prikažite ali skrijte to polje glede na druge odgovore.
+004bf6|Dejanje
+3b2035|Prikaži to polje
+c739ca|Skrij to polje
+6da892|Ujemanje
+e77510|če veljajo vsa pravila
+83e482|če velja katero koli pravilo
+6f16a5|Polje
+f6c0e3|Primerjava
+964305|Odstrani pravilo
+9b5e7f|Dodaj pravilo
+a1fa27|Vrsta
+4589d5|Dodaj polje
+a1177e|Naslov naslednje strani
+415341|Neobvezno. Vse pod tem prelomom, do naslednjega, je ena stran obrazca.
+b27e83|Število zvezdic
+914ccb|Dovoljene vrste datotek
+d39f1a|Končnice datotek, ločene z vejicami. Uporabiti je mogoče le vrste, ki jih dovoli sam WordPress.
+d8b894|Največja datoteka (MB)
+7d8c41|Vaš strežnik dovoli do %s MB.
+18de35|Število datotek
+fc09de|Priloži e-poštnemu obvestilu
+b8c34f|E-pošta vedno vsebuje povezavo do datoteke. Poštni strežniki lahko velike priponke zavrnejo.
+91d907|Polja vsake vrstice
+cb5ffd|Najmanj vrstic
+161252|Največ vrstic
+192d51|Besedilo gumba za dodajanje
+854a4e|Dodaj še enega
+d9c320|Gumb Naprej
+10ac3d|Naprej
+fab2df|Gumb Nazaj
+dd1f77|Nazaj
+57518a|Prikaži vrstico napredka
+0eb631|Za obrazce s prelomi strani: »Korak 1 od 3« nad obrazcem.
+851653|Naložene datoteke
+168038|Datoteke in podpisi, poslani z obrazcem, se shranijo v mapo uploads/smokyforms s povezavami, ki jih je težko uganiti, e-pošta pa vsebuje povezave do njih.
+9ff4e0|Izbriši naložene datoteke po
+138ce5|0 ohrani datoteke, dokler jih sami ne izbrišete.
+dda9c0|Ocena
+c42655|Nalaganje datotek
+8c0900|Podpis
+fdd64f|Prelom strani
+86757c|Izpolnite vsaj %s vrstico. ¦ Izpolnite vsaj %s vrstici. ¦ Izpolnite vsaj %s vrstice. ¦ Izpolnite vsaj %s vrstic.
+2c2c5c|Izpolnite največ %s vrstico. ¦ Izpolnite največ %s vrstici. ¦ Izpolnite največ %s vrstice. ¦ Izpolnite največ %s vrstic.
+739100|Podpisa ni bilo mogoče prebrati. Podpišite se znova.
+54e7ab|%s zvezdica ¦ %s zvezdici ¦ %s zvezdice ¦ %s zvezdic
+0bd3e3|Dovoljene vrste datotek: %1$s. Do %2$s MB na datoteko.
+2e24c6|Naložite lahko največ %s datoteko. ¦ Naložite lahko največ %s datoteki. ¦ Naložite lahko največ %s datoteke. ¦ Naložite lahko največ %s datotek.
+02f371|Za podpis je potreben JavaScript. Vklopite ga v brskalniku.
+fded2f|Odstrani to vrstico
+d0e7dd|Korak %1$s od %2$s
+6d402b|%1$s je večja od %2$s MB.
+2a8b08|%s: ta vrsta datoteke ni dovoljena.
+969c43|Povratne informacije strank
+043168|Ocena z zvezdicami in vprašanja, ki so odvisna od ocene.
+3936da|Kako bi ocenili svojo izkušnjo?
+f04b38|Kaj vam je bilo najbolj všeč?
+4a179f|Kaj bi morali izboljšati?
+c2be8a|Bi nas priporočili prijatelju?
+d62968|Hvala za povratne informacije!
+47b537|Prijava na delovno mesto
+155113|Dve strani z nalaganjem življenjepisa.
+5fda1c|Vaša prijava
+e22ca6|Delovno mesto, za katerega se prijavljate
+755b7f|Vaš življenjepis
+50521e|Spremno pismo
+77657c|Hvala! Prejeli smo vašo prijavo.
+c1014b|Prijava na dogodek
+b266f3|Prijavite več oseb hkrati; skupni znesek sledi vstopnicam.
+0bff4c|Udeleženci
+195693|Dodaj osebo
+f11b36|Ime in priimek
+c75143|Vstopnica
+abce00|Odrasli – 25
+2d337d|Otrok – 10
+ccdac9|%s ni bilo mogoče naložiti. Poskusite znova.
