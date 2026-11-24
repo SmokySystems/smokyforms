@@ -263,7 +263,12 @@ final class Uploads {
 	 * Daily clean-up: deletes upload folders older than the "Delete uploaded files after" setting.
 	 */
 	public static function purge() {
-		$days = (int) Settings::get( 'keep_files' );
+		/**
+		 * Days to keep uploaded files (0 = keep). SmokyForms Pro returns 0 because stored entries link to their files.
+		 *
+		 * @param int $days Setting under SmokyForms > Settings.
+		 */
+		$days = (int) apply_filters( 'smokyforms_keep_files_days', (int) Settings::get( 'keep_files' ) );
 		$base = self::base()['path'];
 		if ( $days < 1 || ! is_dir( $base ) ) {
 			return;
