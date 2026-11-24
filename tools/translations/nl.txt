@@ -432,3 +432,23 @@ ffb213|Optioneel. Wordt boven het formulier getoond als 'Formulierbeschrijving t
 6cf0ea|De gratis versie van SmokyForms mailt je elke inzending en slaat die niet op. SmokyForms Pro (binnenkort) bewaart alle inzendingen in je dashboard, met zoeken en CSV-export. Mislukt de e-mail, dan wordt de inzending bewaard onder SmokyForms > Niet bezorgd.
 babed6|De gratis versie van SmokyForms mailt je elke inzending en slaat die niet op. SmokyForms Pro (binnenkort) bewaart alle inzendingen in je dashboard, met zoeken en CSV-export. Als een meldingsmail niet verstuurd kan worden, wordt de inzending bewaard zodat hij niet verloren gaat, en kun je hem opnieuw versturen onder SmokyForms > Niet bezorgd.
 d72175|Thema
+8488fd|Unieke waarde (een referentienummer voor elke inzending)
+7f33b6|Formulier-ID
+20fb21|Datum in je eigen notatie
+81d3fe|ID van de formulierpagina
+cbf765|Parameter in het pagina-adres
+ec0c43|Pagina waar de bezoeker vandaan kwam
+787602|Auteur van de formulierpagina
+5b77c1|E-mail van de pagina-auteur
+48f19a|ID van de pagina-auteur
+316c29|Ingelogde gebruiker: ID
+46154b|Ingelogde gebruiker: weergavenaam
+7bc7f8|Ingelogde gebruiker: volledige naam
+e30b67|Ingelogde gebruiker: voornaam
+d46f2b|Ingelogde gebruiker: achternaam
+2b1fed|Ingelogde gebruiker: e-mail
+2fe616|Ingelogde gebruiker: profielveld
+45fb2d|Inlogadres
+a1782e|Uitlogadres
+500aa5|Registratieadres
+b4494a|Adres voor wachtwoord vergeten

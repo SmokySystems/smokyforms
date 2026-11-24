@@ -626,7 +626,10 @@
 	}
 
 	function setup( form ) {
-		var groups = form.querySelectorAll( '.smokyforms-repeater' ), i;
+		var groups = form.querySelectorAll( '.smokyforms-repeater' ), i, ref = form.querySelector( '[name="smokyforms_referrer"]' );
+		if ( ref ) {
+			ref.value = document.referrer || '';
+		}
 		for ( i = 0; i < groups.length; i++ ) {
 			setupRepeater( form, groups[ i ] );
 		}

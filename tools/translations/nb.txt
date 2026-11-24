@@ -432,3 +432,23 @@ ffb213|Valgfritt. Vises over skjemaet når «Vis skjemaets beskrivelse» er på 
 6cf0ea|Gratisversjonen av SmokyForms sender deg hver innsending på e-post og lagrer den ikke. SmokyForms Pro (kommer snart) lagrer alle innsendinger i kontrollpanelet ditt, med søk og CSV-eksport. Hvis e-posten feiler, beholdes innsendingen under SmokyForms > Ikke levert.
 babed6|Gratisversjonen av SmokyForms sender deg hver innsending på e-post og lagrer den ikke. SmokyForms Pro (kommer snart) lagrer alle innsendinger i kontrollpanelet ditt, med søk og CSV-eksport. Hvis et varsel ikke kan sendes, beholdes innsendingen slik at den ikke går tapt, og du kan sende den på nytt under SmokyForms > Ikke levert.
 d72175|Tema
+8488fd|Unik verdi (et referansenummer for hver innsending)
+7f33b6|Skjema-ID
+20fb21|Dato i ditt eget format
+81d3fe|ID for skjemasiden
+cbf765|Parameter i sideadressen
+ec0c43|Siden den besøkende kom fra
+787602|Forfatter av skjemasiden
+5b77c1|Sideforfatterens e-post
+48f19a|Sideforfatterens ID
+316c29|Innlogget bruker: ID
+46154b|Innlogget bruker: visningsnavn
+7bc7f8|Innlogget bruker: fullt navn
+e30b67|Innlogget bruker: fornavn
+d46f2b|Innlogget bruker: etternavn
+2b1fed|Innlogget bruker: e-post
+2fe616|Innlogget bruker: profilfelt
+45fb2d|Innloggingsadresse
+a1782e|Utloggingsadresse
+500aa5|Registreringsadresse
+b4494a|Adresse for glemt passord

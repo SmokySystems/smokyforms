@@ -432,3 +432,23 @@ ffb213|Neobvezno. Prikaže se nad obrazcem, ko je v bloku vklopljeno »Prikaži 
 6cf0ea|Brezplačna različica SmokyForms vam vsako oddajo pošlje po e-pošti in je ne shrani. SmokyForms Pro (kmalu) shrani vse oddaje na nadzorni plošči, z iskanjem in izvozom CSV. Če e-pošta ne uspe, se vnos ohrani v SmokyForms > Nedostavljeno.
 babed6|Brezplačna različica SmokyForms vam vsako oddajo pošlje po e-pošti in je ne shrani. SmokyForms Pro (kmalu) shrani vse oddaje na nadzorni plošči, z iskanjem in izvozom CSV. Če obvestila ni mogoče poslati, se vnos ohrani, da se ne izgubi, in ga lahko znova pošljete v SmokyForms > Nedostavljeno.
 d72175|Tema
+8488fd|Enolična vrednost (referenčna številka za vsako oddajo)
+7f33b6|ID obrazca
+20fb21|Datum v vaši obliki
+81d3fe|ID strani z obrazcem
+cbf765|Parameter v naslovu strani
+ec0c43|Stran, s katere je prišel obiskovalec
+787602|Avtor strani z obrazcem
+5b77c1|E-pošta avtorja strani
+48f19a|ID avtorja strani
+316c29|Prijavljeni uporabnik: ID
+46154b|Prijavljeni uporabnik: prikazno ime
+7bc7f8|Prijavljeni uporabnik: ime in priimek
+e30b67|Prijavljeni uporabnik: ime
+d46f2b|Prijavljeni uporabnik: priimek
+2b1fed|Prijavljeni uporabnik: e-pošta
+2fe616|Prijavljeni uporabnik: polje profila
+45fb2d|Naslov za prijavo
+a1782e|Naslov za odjavo
+500aa5|Naslov za registracijo
+b4494a|Naslov za pozabljeno geslo

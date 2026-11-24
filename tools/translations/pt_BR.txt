@@ -432,3 +432,23 @@ ffb213|Opcional. Aparece acima do formulário quando “Mostrar a descrição do
 6cf0ea|A versão gratuita do SmokyForms envia cada resposta para você por e-mail e não a salva. O SmokyForms Pro (em breve) salva todas as respostas no seu painel, com busca e exportação CSV. Se o e-mail falhar, o envio fica guardado em SmokyForms > Não entregues.
 babed6|A versão gratuita do SmokyForms envia cada resposta para você por e-mail e não a salva. O SmokyForms Pro (em breve) salva todas as respostas no seu painel, com busca e exportação CSV. Quando um e-mail de notificação não pode ser enviado, o envio é guardado para não se perder, e você pode reenviá-lo em SmokyForms > Não entregues.
 d72175|Tema
+8488fd|Valor único (um número de referência para cada resposta)
+7f33b6|ID do formulário
+20fb21|Data no seu próprio formato
+81d3fe|ID da página do formulário
+cbf765|Parâmetro no endereço da página
+ec0c43|Página de onde o visitante veio
+787602|Autor da página do formulário
+5b77c1|E-mail do autor da página
+48f19a|ID do autor da página
+316c29|Usuário conectado: ID
+46154b|Usuário conectado: nome de exibição
+7bc7f8|Usuário conectado: nome completo
+e30b67|Usuário conectado: nome
+d46f2b|Usuário conectado: sobrenome
+2b1fed|Usuário conectado: e-mail
+2fe616|Usuário conectado: campo do perfil
+45fb2d|Endereço de login
+a1782e|Endereço de saída
+500aa5|Endereço de cadastro
+b4494a|Endereço de senha perdida

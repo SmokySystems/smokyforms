@@ -432,3 +432,23 @@ ffb213|Neprivaloma. Rodomas virš formos, kai bloke įjungta „Rodyti formos ap
 6cf0ea|Nemokama SmokyForms versija kiekvieną pateikimą atsiunčia jums el. paštu ir jo neišsaugo. SmokyForms Pro (jau greitai) išsaugo visus pateikimus valdymo skydelyje, su paieška ir CSV eksportu. paštu. Jei laiško išsiųsti nepavyksta, pateikimas išsaugomas skiltyje SmokyForms > Nepristatyti.
 babed6|Nemokama SmokyForms versija kiekvieną pateikimą atsiunčia jums el. paštu ir jo neišsaugo. SmokyForms Pro (jau greitai) išsaugo visus pateikimus valdymo skydelyje, su paieška ir CSV eksportu. paštu. Jei pranešimo laiško išsiųsti nepavyksta, pateikimas išsaugomas, kad nedingtų, ir galite jį išsiųsti iš naujo skiltyje SmokyForms > Nepristatyti.
 d72175|Tema
+8488fd|Unikali reikšmė (kiekvieno pateikimo numeris)
+7f33b6|Formos ID
+20fb21|Data jūsų formatu
+81d3fe|Formos puslapio ID
+cbf765|Parametras puslapio adrese
+ec0c43|Puslapis, iš kurio atėjo lankytojas
+787602|Formos puslapio autorius
+5b77c1|Puslapio autoriaus el. paštas
+48f19a|Puslapio autoriaus ID
+316c29|Prisijungęs naudotojas: ID
+46154b|Prisijungęs naudotojas: rodomas vardas
+7bc7f8|Prisijungęs naudotojas: vardas ir pavardė
+e30b67|Prisijungęs naudotojas: vardas
+d46f2b|Prisijungęs naudotojas: pavardė
+2b1fed|Prisijungęs naudotojas: el. paštas
+2fe616|Prisijungęs naudotojas: profilio laukas
+45fb2d|Prisijungimo adresas
+a1782e|Atsijungimo adresas
+500aa5|Registracijos adresas
+b4494a|Pamiršto slaptažodžio adresas

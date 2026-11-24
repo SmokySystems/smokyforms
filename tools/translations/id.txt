@@ -432,3 +432,23 @@ ffb213|Opsional. Ditampilkan di atas formulir jika "Tampilkan deskripsi formulir
 6cf0ea|Versi gratis SmokyForms mengirim setiap kiriman ke email Anda dan tidak menyimpannya. SmokyForms Pro (segera hadir) menyimpan semua kiriman di dasbor Anda, dengan pencarian dan ekspor CSV. Jika email gagal, kiriman disimpan di SmokyForms > Tak terkirim.
 babed6|Versi gratis SmokyForms mengirim setiap kiriman ke email Anda dan tidak menyimpannya. SmokyForms Pro (segera hadir) menyimpan semua kiriman di dasbor Anda, dengan pencarian dan ekspor CSV. Jika email pemberitahuan tidak dapat dikirim, kiriman disimpan agar tidak hilang, dan Anda bisa mengirimnya lagi di SmokyForms > Tak terkirim.
 d72175|Tema
+8488fd|Nilai unik (nomor referensi untuk setiap kiriman)
+7f33b6|ID formulir
+20fb21|Tanggal dalam format Anda sendiri
+81d3fe|ID halaman formulir
+cbf765|Parameter di alamat halaman
+ec0c43|Halaman asal pengunjung
+787602|Penulis halaman formulir
+5b77c1|Email penulis halaman
+48f19a|ID penulis halaman
+316c29|Pengguna yang masuk: ID
+46154b|Pengguna yang masuk: nama tampilan
+7bc7f8|Pengguna yang masuk: nama lengkap
+e30b67|Pengguna yang masuk: nama depan
+d46f2b|Pengguna yang masuk: nama belakang
+2b1fed|Pengguna yang masuk: email
+2fe616|Pengguna yang masuk: kolom profil
+45fb2d|Alamat masuk
+a1782e|Alamat keluar
+500aa5|Alamat pendaftaran
+b4494a|Alamat lupa kata sandi

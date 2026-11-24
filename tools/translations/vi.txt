@@ -432,3 +432,23 @@ ffb213|Không bắt buộc. Hiện phía trên biểu mẫu khi bật "Hiện m�
 6cf0ea|Phiên bản miễn phí của SmokyForms gửi mỗi lượt gửi cho bạn qua email và không lưu lại. SmokyForms Pro (sắp ra mắt) lưu mọi lượt gửi trong bảng tin, có tìm kiếm và xuất CSV. Nếu email gửi không được, bài gửi sẽ được giữ trong SmokyForms > Chưa gửi được.
 babed6|Phiên bản miễn phí của SmokyForms gửi mỗi lượt gửi cho bạn qua email và không lưu lại. SmokyForms Pro (sắp ra mắt) lưu mọi lượt gửi trong bảng tin, có tìm kiếm và xuất CSV. Nếu email thông báo không gửi được, bài gửi được giữ lại để không bị mất, và bạn có thể gửi lại trong SmokyForms > Chưa gửi được.
 d72175|Giao diện
+8488fd|Giá trị duy nhất (số tham chiếu cho mỗi lượt gửi)
+7f33b6|ID biểu mẫu
+20fb21|Ngày theo định dạng của bạn
+81d3fe|ID trang chứa biểu mẫu
+cbf765|Tham số trong địa chỉ trang
+ec0c43|Trang mà khách truy cập đến từ đó
+787602|Tác giả trang chứa biểu mẫu
+5b77c1|Email tác giả trang
+48f19a|ID tác giả trang
+316c29|Người dùng đã đăng nhập: ID
+46154b|Người dùng đã đăng nhập: tên hiển thị
+7bc7f8|Người dùng đã đăng nhập: họ tên
+e30b67|Người dùng đã đăng nhập: tên
+d46f2b|Người dùng đã đăng nhập: họ
+2b1fed|Người dùng đã đăng nhập: email
+2fe616|Người dùng đã đăng nhập: trường hồ sơ
+45fb2d|Địa chỉ đăng nhập
+a1782e|Địa chỉ đăng xuất
+500aa5|Địa chỉ đăng ký
+b4494a|Địa chỉ quên mật khẩu

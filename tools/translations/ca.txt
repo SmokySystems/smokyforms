@@ -432,3 +432,23 @@ ffb213|Opcional. Es mostra damunt del formulari quan «Mostra la descripció del
 6cf0ea|La versió gratuïta de SmokyForms us envia cada resposta per correu i no la desa. SmokyForms Pro (aviat) desa totes les respostes al vostre tauler, amb cerca i exportació CSV. Si el correu falla, l’entrada es conserva a SmokyForms > No lliurades.
 babed6|La versió gratuïta de SmokyForms us envia cada resposta per correu i no la desa. SmokyForms Pro (aviat) desa totes les respostes al vostre tauler, amb cerca i exportació CSV. Quan un correu d’avís no es pot enviar, l’entrada es conserva perquè no es perdi i la podeu tornar a enviar a SmokyForms > No lliurades.
 d72175|Tema
+8488fd|Valor únic (un número de referència per a cada resposta)
+7f33b6|ID del formulari
+20fb21|Data en el vostre format
+81d3fe|ID de la pàgina del formulari
+cbf765|Paràmetre de l’adreça de la pàgina
+ec0c43|Pàgina d’on ve el visitant
+787602|Autor de la pàgina del formulari
+5b77c1|Correu de l’autor de la pàgina
+48f19a|ID de l’autor de la pàgina
+316c29|Usuari connectat: ID
+46154b|Usuari connectat: nom visible
+7bc7f8|Usuari connectat: nom complet
+e30b67|Usuari connectat: nom
+d46f2b|Usuari connectat: cognoms
+2b1fed|Usuari connectat: correu
+2fe616|Usuari connectat: camp del perfil
+45fb2d|Adreça d’accés
+a1782e|Adreça de sortida
+500aa5|Adreça de registre
+b4494a|Adreça de contrasenya oblidada

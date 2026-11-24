@@ -432,3 +432,23 @@ ffb213|Opțional. Apare deasupra formularului când „Afișează descrierea for
 6cf0ea|Versiunea gratuită SmokyForms îți trimite fiecare răspuns pe email și nu îl salvează. SmokyForms Pro (în curând) salvează toate răspunsurile în panoul tău, cu căutare și export CSV. Dacă emailul eșuează, înregistrarea este păstrată în SmokyForms > Nelivrate.
 babed6|Versiunea gratuită SmokyForms îți trimite fiecare răspuns pe email și nu îl salvează. SmokyForms Pro (în curând) salvează toate răspunsurile în panoul tău, cu căutare și export CSV. Când un email de notificare nu poate fi trimis, înregistrarea este păstrată ca să nu se piardă și o poți trimite din nou din SmokyForms > Nelivrate.
 d72175|Temă
+8488fd|Valoare unică (un număr de referință pentru fiecare răspuns)
+7f33b6|ID-ul formularului
+20fb21|Data în formatul tău
+81d3fe|ID-ul paginii cu formularul
+cbf765|Parametru din adresa paginii
+ec0c43|Pagina de pe care a venit vizitatorul
+787602|Autorul paginii cu formularul
+5b77c1|Emailul autorului paginii
+48f19a|ID-ul autorului paginii
+316c29|Utilizator autentificat: ID
+46154b|Utilizator autentificat: nume afișat
+7bc7f8|Utilizator autentificat: nume complet
+e30b67|Utilizator autentificat: prenume
+d46f2b|Utilizator autentificat: nume de familie
+2b1fed|Utilizator autentificat: email
+2fe616|Utilizator autentificat: câmp din profil
+45fb2d|Adresa de autentificare
+a1782e|Adresa de dezautentificare
+500aa5|Adresa de înregistrare
+b4494a|Adresa pentru parola pierdută

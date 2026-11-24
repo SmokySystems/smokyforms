@@ -432,3 +432,23 @@ ffb213|Facultatif. Affichée au-dessus du formulaire quand « Afficher la descri
 6cf0ea|La version gratuite de SmokyForms vous envoie chaque réponse par e-mail et ne l’enregistre pas. SmokyForms Pro (bientôt disponible) enregistre toutes les réponses dans votre tableau de bord, avec recherche et export CSV. Si l’e-mail échoue, l’entrée est conservée dans SmokyForms > Non distribuées.
 babed6|La version gratuite de SmokyForms vous envoie chaque réponse par e-mail et ne l’enregistre pas. SmokyForms Pro (bientôt disponible) enregistre toutes les réponses dans votre tableau de bord, avec recherche et export CSV. Si un e-mail de notification ne peut pas être envoyé, l’entrée est conservée pour ne pas être perdue, et vous pouvez la renvoyer dans SmokyForms > Non distribuées.
 d72175|Thème
+8488fd|Valeur unique (un numéro de référence pour chaque réponse)
+7f33b6|ID du formulaire
+20fb21|Date dans votre propre format
+81d3fe|ID de la page du formulaire
+cbf765|Paramètre dans l’adresse de la page
+ec0c43|Page d’où vient le visiteur
+787602|Auteur de la page du formulaire
+5b77c1|E-mail de l’auteur de la page
+48f19a|ID de l’auteur de la page
+316c29|Utilisateur connecté : ID
+46154b|Utilisateur connecté : nom affiché
+7bc7f8|Utilisateur connecté : nom complet
+e30b67|Utilisateur connecté : prénom
+d46f2b|Utilisateur connecté : nom
+2b1fed|Utilisateur connecté : e-mail
+2fe616|Utilisateur connecté : champ du profil
+45fb2d|Adresse de connexion
+a1782e|Adresse de déconnexion
+500aa5|Adresse d’inscription
+b4494a|Adresse de mot de passe oublié

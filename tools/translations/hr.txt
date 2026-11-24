@@ -432,3 +432,23 @@ ffb213|Neobavezno. Prikazuje se iznad obrasca kada je u bloku uključeno „Prik
 6cf0ea|Besplatna verzija SmokyForms šalje vam svaku prijavu e-poštom i ne sprema je. SmokyForms Pro (uskoro) sprema sve prijave na nadzornoj ploči, s pretraživanjem i CSV izvozom. Ako e-poruka ne uspije, unos se čuva u SmokyForms > Neisporučeno.
 babed6|Besplatna verzija SmokyForms šalje vam svaku prijavu e-poštom i ne sprema je. SmokyForms Pro (uskoro) sprema sve prijave na nadzornoj ploči, s pretraživanjem i CSV izvozom. Ako se obavijest ne može poslati, unos se čuva da se ne izgubi i možete ga ponovno poslati u SmokyForms > Neisporučeno.
 d72175|Tema
+8488fd|Jedinstvena vrijednost (referentni broj za svaku prijavu)
+7f33b6|ID obrasca
+20fb21|Datum u vašem formatu
+81d3fe|ID stranice s obrascem
+cbf765|Parametar u adresi stranice
+ec0c43|Stranica s koje je posjetitelj došao
+787602|Autor stranice s obrascem
+5b77c1|E-pošta autora stranice
+48f19a|ID autora stranice
+316c29|Prijavljeni korisnik: ID
+46154b|Prijavljeni korisnik: ime za prikaz
+7bc7f8|Prijavljeni korisnik: ime i prezime
+e30b67|Prijavljeni korisnik: ime
+d46f2b|Prijavljeni korisnik: prezime
+2b1fed|Prijavljeni korisnik: e-pošta
+2fe616|Prijavljeni korisnik: polje profila
+45fb2d|Adresa za prijavu
+a1782e|Adresa za odjavu
+500aa5|Adresa za registraciju
+b4494a|Adresa za zaboravljenu lozinku

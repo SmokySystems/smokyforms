@@ -432,3 +432,23 @@ ffb213|Optional. Wird über dem Formular angezeigt, wenn im Block „Formularbes
 6cf0ea|Die kostenlose Version von SmokyForms schickt Ihnen jede Einsendung per E-Mail und speichert sie nicht. SmokyForms Pro (bald verfügbar) speichert alle Einsendungen in Ihrem Dashboard, mit Suche und CSV-Export. Schlägt die E-Mail fehl, wird der Eintrag unter SmokyForms > Nicht zugestellt aufbewahrt.
 babed6|Die kostenlose Version von SmokyForms schickt Ihnen jede Einsendung per E-Mail und speichert sie nicht. SmokyForms Pro (bald verfügbar) speichert alle Einsendungen in Ihrem Dashboard, mit Suche und CSV-Export. Kann eine Benachrichtigung nicht gesendet werden, wird der Eintrag aufbewahrt, damit er nicht verloren geht, und Sie können ihn unter SmokyForms > Nicht zugestellt erneut senden.
 d72175|Theme
+8488fd|Eindeutiger Wert (eine Referenznummer für jede Einsendung)
+7f33b6|Formular-ID
+20fb21|Datum im eigenen Format
+81d3fe|ID der Formularseite
+cbf765|Parameter in der Seitenadresse
+ec0c43|Seite, von der die Besucher kamen
+787602|Autor der Formularseite
+5b77c1|E-Mail des Seitenautors
+48f19a|ID des Seitenautors
+316c29|Angemeldeter Benutzer: ID
+46154b|Angemeldeter Benutzer: Anzeigename
+7bc7f8|Angemeldeter Benutzer: vollständiger Name
+e30b67|Angemeldeter Benutzer: Vorname
+d46f2b|Angemeldeter Benutzer: Nachname
+2b1fed|Angemeldeter Benutzer: E-Mail
+2fe616|Angemeldeter Benutzer: Profilfeld
+45fb2d|Anmeldeadresse
+a1782e|Abmeldeadresse
+500aa5|Registrierungsadresse
+b4494a|Adresse für vergessene Passwörter

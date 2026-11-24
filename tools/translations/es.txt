@@ -432,3 +432,23 @@ ffb213|Opcional. Se muestra encima del formulario cuando «Mostrar la descripci�
 6cf0ea|La versión gratuita de SmokyForms te envía cada envío por correo y no lo guarda. SmokyForms Pro (próximamente) guarda todos los envíos en tu escritorio, con búsqueda y exportación CSV. Si el correo falla, la entrada se conserva en SmokyForms > No entregadas.
 babed6|La versión gratuita de SmokyForms te envía cada envío por correo y no lo guarda. SmokyForms Pro (próximamente) guarda todos los envíos en tu escritorio, con búsqueda y exportación CSV. Si un correo de aviso no se puede enviar, la entrada se conserva para que no se pierda y puedes volver a enviarla en SmokyForms > No entregadas.
 d72175|Tema
+8488fd|Valor único (un número de referencia para cada envío)
+7f33b6|ID del formulario
+20fb21|Fecha en tu propio formato
+81d3fe|ID de la página del formulario
+cbf765|Parámetro en la dirección de la página
+ec0c43|Página desde la que llegó el visitante
+787602|Autor de la página del formulario
+5b77c1|Correo del autor de la página
+48f19a|ID del autor de la página
+316c29|Usuario conectado: ID
+46154b|Usuario conectado: nombre visible
+7bc7f8|Usuario conectado: nombre completo
+e30b67|Usuario conectado: nombre
+d46f2b|Usuario conectado: apellidos
+2b1fed|Usuario conectado: correo
+2fe616|Usuario conectado: campo del perfil
+45fb2d|Dirección de acceso
+a1782e|Dirección de cierre de sesión
+500aa5|Dirección de registro
+b4494a|Dirección de contraseña olvidada

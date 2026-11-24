@@ -432,3 +432,23 @@ ffb213|Valfrjálst. Birtist fyrir ofan formið þegar „Sýna lýsingu formsins
 6cf0ea|Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvupósti og vistar hana ekki. SmokyForms Pro (væntanlegt) vistar allar innsendingar í stjórnborðinu, með leit og CSV-útflutningi. Ef tölvupósturinn mistekst er innsendingin geymd undir SmokyForms > Óafhent.
 babed6|Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvupósti og vistar hana ekki. SmokyForms Pro (væntanlegt) vistar allar innsendingar í stjórnborðinu, með leit og CSV-útflutningi. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent.
 d72175|Þema
+8488fd|Einkvæmt gildi (tilvísunarnúmer fyrir hverja innsendingu)
+7f33b6|Auðkenni forms
+20fb21|Dagsetning á þínu sniði
+81d3fe|Auðkenni síðu formsins
+cbf765|Færibreyta í veffangi síðunnar
+ec0c43|Síðan sem gesturinn kom frá
+787602|Höfundur síðu formsins
+5b77c1|Netfang höfundar síðunnar
+48f19a|Auðkenni höfundar síðunnar
+316c29|Innskráður notandi: auðkenni
+46154b|Innskráður notandi: birtingarnafn
+7bc7f8|Innskráður notandi: fullt nafn
+e30b67|Innskráður notandi: fornafn
+d46f2b|Innskráður notandi: eftirnafn
+2b1fed|Innskráður notandi: netfang
+2fe616|Innskráður notandi: prófílreitur
+45fb2d|Innskráningarslóð
+a1782e|Útskráningarslóð
+500aa5|Nýskráningarslóð
+b4494a|Slóð fyrir gleymt lykilorð

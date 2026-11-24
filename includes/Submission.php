@@ -184,10 +184,12 @@ final class Submission {
 		// Files are saved only now that the whole submission is valid.
 		$values = Uploads::store( $form, $values, $pending );
 
-		$entry = array(
+		$page              = isset( $post['_wp_http_referer'] ) ? esc_url_raw( wp_unslash( $post['_wp_http_referer'] ) ) : (string) wp_get_raw_referer();
+		$values['_meta']   = Notifications::context( $page, isset( $post['smokyforms_referrer'] ) && is_string( $post['smokyforms_referrer'] ) ? wp_unslash( $post['smokyforms_referrer'] ) : '' );
+		$entry             = array(
 			'form_id' => $form['id'],
 			'values'  => $values,
-			'page'    => isset( $post['_wp_http_referer'] ) ? esc_url_raw( $post['_wp_http_referer'] ) : wp_get_raw_referer(),
+			'page'    => $page,
 			'date'    => current_time( 'mysql', true ),
 		);
 

@@ -210,7 +210,7 @@ msgstr "下移"
 msgid "Duplicate"
 msgstr "复制"
 
-#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:133
+#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:136
 msgid "Delete"
 msgstr "删除"
 
@@ -264,11 +264,11 @@ msgstr "编写公式"
 msgid "Undo"
 msgstr "撤销"
 
-#: assets/js/builder.js:620 includes/Renderer.php:403
+#: assets/js/builder.js:620 includes/Renderer.php:404
 msgid "Clear"
 msgstr "清除"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1423 assets/js/builder.js:1812 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1426 assets/js/builder.js:1814 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "字段"
 
@@ -492,7 +492,7 @@ msgstr "复选框旁的文字"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "可以添加链接，例如链接到您的隐私政策。"
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1572
+#: assets/js/builder.js:1082 assets/js/builder.js:1574
 msgid "Text"
 msgstr "文字"
 
@@ -549,7 +549,7 @@ msgstr "最多行数"
 msgid "Text of the add button"
 msgstr "添加按钮的文字"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:414
+#: assets/js/builder.js:1132 includes/Renderer.php:415
 msgid "Add another"
 msgstr "再添加一项"
 
@@ -557,7 +557,7 @@ msgstr "再添加一项"
 msgid "Next button"
 msgstr "下一步按钮"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:222
+#: assets/js/builder.js:1140 includes/Renderer.php:223
 msgid "Next"
 msgstr "下一步"
 
@@ -565,11 +565,11 @@ msgstr "下一步"
 msgid "Back button"
 msgstr "返回按钮"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:223
+#: assets/js/builder.js:1143 includes/Renderer.php:224
 msgid "Previous"
 msgstr "上一步"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1707 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1709 includes/Fields.php:43
 msgid "Calculation"
 msgstr "计算"
 
@@ -689,196 +689,196 @@ msgstr "第 1 行"
 msgid "Add price table"
 msgstr "添加价格表"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Hide smart tags"
 msgstr "隐藏智能标签"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Show smart tags"
 msgstr "显示智能标签"
 
-#: assets/js/builder.js:1429 assets/js/builder.js:1677
-msgid "Add an Email field to the form first."
-msgstr "请先在表单中添加邮箱字段。"
-
-#: assets/js/builder.js:1430
+#: assets/js/builder.js:1432
 msgid "Other"
 msgstr "其他"
 
-#: assets/js/builder.js:1475
+#: assets/js/builder.js:1477
 msgid "Search pages or paste an address"
 msgstr "搜索页面或粘贴地址"
 
-#: assets/js/builder.js:1545
+#: assets/js/builder.js:1547
 msgid "Theme"
 msgstr "主题"
 
-#: assets/js/builder.js:1559 assets/js/builder.js:1585
+#: assets/js/builder.js:1561 assets/js/builder.js:1587
 msgid "Use the theme style"
 msgstr "使用主题样式"
 
-#: assets/js/builder.js:1567
+#: assets/js/builder.js:1569
 msgid "Button style"
 msgstr "按钮样式"
 
-#: assets/js/builder.js:1568
+#: assets/js/builder.js:1570
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "默认情况下按钮与主题的按钮外观相同。只有想要不同外观时才需要选择颜色。"
 
-#: assets/js/builder.js:1570
+#: assets/js/builder.js:1572
 msgid "Background"
 msgstr "背景"
 
-#: assets/js/builder.js:1571
+#: assets/js/builder.js:1573
 msgid "Background on hover"
 msgstr "悬停时背景"
 
-#: assets/js/builder.js:1573
+#: assets/js/builder.js:1575
 msgid "Text on hover"
 msgstr "悬停时文字"
 
-#: assets/js/builder.js:1576
+#: assets/js/builder.js:1578
 msgid "Preview"
 msgstr "预览"
 
-#: assets/js/builder.js:1606 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1608 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "常规"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 msgid "Form description"
 msgstr "表单描述"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "可选。在区块中开启“显示表单描述”或使用 %s 时显示在表单上方。可以使用 HTML。"
 
-#: assets/js/builder.js:1610
+#: assets/js/builder.js:1612
 msgid "Button text"
 msgstr "按钮文字"
 
-#: assets/js/builder.js:1613
+#: assets/js/builder.js:1615
 msgid "Message after sending"
 msgstr "提交后的消息"
 
-#: assets/js/builder.js:1613 assets/js/builder.js:1653 assets/js/builder.js:1681
+#: assets/js/builder.js:1615 assets/js/builder.js:1655 assets/js/builder.js:1683
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "可以使用 HTML，例如 <strong>、<a href=\"...\"> 或 <img src=\"...\">。"
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Or go to this page after sending"
 msgstr "或提交后跳转到此页面"
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Leave empty to show the message instead."
 msgstr "留空则显示消息。"
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "Show the progress bar"
 msgstr "显示进度条"
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "用于带分页的表单：在表单上方显示“第 1 步，共 3 步”。"
 
-#: assets/js/builder.js:1625 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1627 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "验证码"
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "使用设置中配置的验证码保护此表单。"
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "尚未配置验证码。您可以在 SmokyForms > 设置 中添加。陷阱字段和时间检查始终会保护每个表单。"
 
-#: assets/js/builder.js:1639
+#: assets/js/builder.js:1641
 msgid "Notification to you"
 msgstr "发给您的通知"
 
-#: assets/js/builder.js:1640
+#: assets/js/builder.js:1642
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "SmokyForms 免费版会把每条提交通过邮件发给您，但不会保存。SmokyForms Pro（即将推出）会把所有提交保存在后台，并支持搜索和 CSV 导出。如果邮件发送失败，提交内容会保存在 SmokyForms > 未送达 中。"
 
-#: assets/js/builder.js:1641
+#: assets/js/builder.js:1643
 msgid "Send me an email for every entry"
 msgstr "每次提交都给我发送邮件"
 
-#: assets/js/builder.js:1647 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1649 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "发送至"
 
-#: assets/js/builder.js:1647
+#: assets/js/builder.js:1649
 msgid "Separate several addresses with commas."
 msgstr "多个地址请用逗号分隔。"
 
-#: assets/js/builder.js:1650 assets/js/builder.js:1678
+#: assets/js/builder.js:1652 assets/js/builder.js:1680
 msgid "Subject"
 msgstr "主题"
 
-#: assets/js/builder.js:1653 assets/js/builder.js:1681 includes/Templates.php:92
+#: assets/js/builder.js:1655 assets/js/builder.js:1683 includes/Templates.php:92
 msgid "Message"
 msgstr "内容"
 
-#: assets/js/builder.js:1660
+#: assets/js/builder.js:1662
 msgid "Confirmation to the visitor"
 msgstr "发给访客的确认"
 
-#: assets/js/builder.js:1661
+#: assets/js/builder.js:1663
 msgid "Send the visitor a confirmation email"
 msgstr "向访客发送确认邮件"
 
-#: assets/js/builder.js:1668
+#: assets/js/builder.js:1670
 msgid "Address from the field"
 msgstr "地址来自字段"
 
-#: assets/js/builder.js:1695 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1679
+msgid "Add an Email field to the form first."
+msgstr "请先在表单中添加邮箱字段。"
+
+#: assets/js/builder.js:1697 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "添加新表单"
 
-#: assets/js/builder.js:1696
+#: assets/js/builder.js:1698
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "从现成的表单或空白表单开始。所有模板（包括计算器）都是免费的。"
 
-#: assets/js/builder.js:1787
+#: assets/js/builder.js:1789
 msgid "The form could not be saved."
 msgstr "无法保存表单。"
 
-#: assets/js/builder.js:1798 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1800 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "所有表单"
 
-#: assets/js/builder.js:1799 assets/js/builder.js:1799 includes/Notifications.php:40
+#: assets/js/builder.js:1801 assets/js/builder.js:1801 includes/Notifications.php:41
 msgid "Form name"
 msgstr "表单名称"
 
-#: assets/js/builder.js:1803 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1805 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "简码"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Saving…"
 msgstr "正在保存…"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Save form"
 msgstr "保存表单"
 
-#: assets/js/builder.js:1812
+#: assets/js/builder.js:1814
 msgid "Price tables"
 msgstr "价格表"
 
-#: assets/js/builder.js:1812 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1814 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "设置"
 
-#: assets/js/builder.js:1934
+#: assets/js/builder.js:1936
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "使用 SmokyForms 区块或简码将其添加到页面。"
 
-#: assets/js/builder.js:1935
+#: assets/js/builder.js:1937
 msgid "You have unsaved changes."
 msgstr "您有未保存的更改。"
 
@@ -1053,15 +1053,15 @@ msgstr "已删除的表单"
 msgid "Reason:"
 msgstr "原因："
 
-#: includes/Admin/UndeliveredPage.php:130
+#: includes/Admin/UndeliveredPage.php:133
 msgid "Send again"
 msgstr "重新发送"
 
-#: includes/Admin/UndeliveredPage.php:138
+#: includes/Admin/UndeliveredPage.php:141
 msgid "Delete this entry for good?"
 msgstr "永久删除此提交内容？"
 
-#: includes/Admin/UndeliveredPage.php:139
+#: includes/Admin/UndeliveredPage.php:142
 msgid "Yes, delete"
 msgstr "是，删除"
 
@@ -1133,7 +1133,7 @@ msgstr "签名"
 msgid "Page break"
 msgstr "分页"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:623 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:624 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "此项为必填项。"
 
@@ -1155,11 +1155,11 @@ msgstr[0] "请最多填写 %s 行。"
 msgid "The signature could not be read. Please sign again."
 msgstr "无法读取签名。请重新签名。"
 
-#: includes/Fields.php:316 includes/Renderer.php:624
+#: includes/Fields.php:316 includes/Renderer.php:625
 msgid "Please enter a valid email address."
 msgstr "请输入有效的邮箱地址。"
 
-#: includes/Fields.php:324 includes/Renderer.php:625
+#: includes/Fields.php:324 includes/Renderer.php:626
 msgid "Please enter a valid website address."
 msgstr "请输入有效的网址。"
 
@@ -1167,7 +1167,7 @@ msgstr "请输入有效的网址。"
 msgid "Please enter a valid phone number."
 msgstr "请输入有效的电话号码。"
 
-#: includes/Fields.php:336 includes/Renderer.php:626
+#: includes/Fields.php:336 includes/Renderer.php:627
 msgid "Please enter a number."
 msgstr "请输入数字。"
 
@@ -1187,7 +1187,7 @@ msgstr "请输入不大于 %s 的数字。"
 msgid "Please enter a valid date."
 msgstr "请输入有效的日期。"
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:636
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:637
 msgid "Please choose one of the options."
 msgstr "请选择其中一个选项。"
 
@@ -1245,35 +1245,115 @@ msgstr ""
 msgid "All answers"
 msgstr "所有回答"
 
-#: includes/Notifications.php:41
-msgid "Site name"
-msgstr "站点名称"
+#: includes/Notifications.php:40
+msgid "Unique value (a reference number for each entry)"
+msgstr "唯一值（每条提交的参考编号）"
 
 #: includes/Notifications.php:42
-msgid "Site admin email"
-msgstr "站点管理员邮箱"
+msgid "Form ID"
+msgstr "表单 ID"
 
 #: includes/Notifications.php:43
 msgid "Date and time"
 msgstr "日期和时间"
 
 #: includes/Notifications.php:44
-msgid "Page of the form"
-msgstr "表单所在页面"
+msgid "Date in your own format"
+msgstr "自定义格式的日期"
 
 #: includes/Notifications.php:45
-msgid "Title of the form page"
-msgstr "表单所在页面的标题"
+msgid "Site name"
+msgstr "站点名称"
 
 #: includes/Notifications.php:46
 msgid "Site address"
 msgstr "网站地址"
 
 #: includes/Notifications.php:47
+msgid "Site admin email"
+msgstr "站点管理员邮箱"
+
+#: includes/Notifications.php:48
+msgid "Page of the form"
+msgstr "表单所在页面"
+
+#: includes/Notifications.php:49
+msgid "Title of the form page"
+msgstr "表单所在页面的标题"
+
+#: includes/Notifications.php:50
+msgid "ID of the form page"
+msgstr "表单所在页面的 ID"
+
+#: includes/Notifications.php:51
+msgid "Parameter in the page address"
+msgstr "页面地址中的参数"
+
+#: includes/Notifications.php:52
+msgid "Page the visitor came from"
+msgstr "访客来源页面"
+
+#: includes/Notifications.php:53
+msgid "Author of the form page"
+msgstr "表单所在页面的作者"
+
+#: includes/Notifications.php:54
+msgid "Email of the page author"
+msgstr "页面作者的邮箱"
+
+#: includes/Notifications.php:55
+msgid "ID of the page author"
+msgstr "页面作者的 ID"
+
+#: includes/Notifications.php:56
 msgid "Visitor IP address"
 msgstr "访客 IP 地址"
 
-#: includes/Notifications.php:112
+#: includes/Notifications.php:57
+msgid "Logged-in user: ID"
+msgstr "已登录用户：ID"
+
+#: includes/Notifications.php:58
+msgid "Logged-in user: display name"
+msgstr "已登录用户：显示名称"
+
+#: includes/Notifications.php:59
+msgid "Logged-in user: full name"
+msgstr "已登录用户：全名"
+
+#: includes/Notifications.php:60
+msgid "Logged-in user: first name"
+msgstr "已登录用户：名"
+
+#: includes/Notifications.php:61
+msgid "Logged-in user: last name"
+msgstr "已登录用户：姓"
+
+#: includes/Notifications.php:62
+msgid "Logged-in user: email"
+msgstr "已登录用户：邮箱"
+
+#: includes/Notifications.php:63
+msgid "Logged-in user: profile field"
+msgstr "已登录用户：个人资料字段"
+
+#: includes/Notifications.php:64
+msgid "Login address"
+msgstr "登录地址"
+
+#: includes/Notifications.php:65
+msgid "Logout address"
+msgstr "退出地址"
+
+#: includes/Notifications.php:66
+msgid "Registration address"
+msgstr "注册地址"
+
+#: includes/Notifications.php:67
+msgid "Lost password address"
+msgstr "找回密码地址"
+
+#: includes/Notifications.php:151
 msgid "The site could not send the email."
 msgstr "站点无法发送邮件。"
 
@@ -1281,68 +1361,68 @@ msgstr "站点无法发送邮件。"
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms：此表单不存在。"
 
-#: includes/Renderer.php:240
+#: includes/Renderer.php:241
 msgid "Leave this field empty"
 msgstr "请将此字段留空"
 
-#: includes/Renderer.php:259 includes/Renderer.php:628 includes/Submission.php:176
+#: includes/Renderer.php:260 includes/Renderer.php:629 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "请检查表单后重试。"
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:375
+#: includes/Renderer.php:376
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
 msgstr[0] "%s 颗星"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:387
+#: includes/Renderer.php:388
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "允许的文件类型：%1$s。每个文件最大 %2$s MB。"
 
 #. translators: %s: number of files
-#: includes/Renderer.php:389 includes/Uploads.php:112
+#: includes/Renderer.php:390 includes/Uploads.php:112
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "最多可以上传 %s 个文件。"
 
-#: includes/Renderer.php:405
+#: includes/Renderer.php:406
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "签名需要 JavaScript。请在浏览器中启用。"
 
-#: includes/Renderer.php:427
+#: includes/Renderer.php:428
 msgid "Choose…"
 msgstr "请选择…"
 
-#: includes/Renderer.php:513 includes/Renderer.php:513
+#: includes/Renderer.php:514 includes/Renderer.php:514
 msgid "Remove this row"
 msgstr "删除此行"
 
-#: includes/Renderer.php:627
+#: includes/Renderer.php:628
 msgid "Sending…"
 msgstr "正在发送…"
 
-#: includes/Renderer.php:629
+#: includes/Renderer.php:630
 msgid "The form could not be sent. Please try again."
 msgstr "无法发送表单。请重试。"
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:631
+#: includes/Renderer.php:632
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "第 %1$s 步，共 %2$s 步"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:633 includes/Uploads.php:125
+#: includes/Renderer.php:634 includes/Uploads.php:125
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s 超过 %2$s MB。"
 
 #. translators: %s: file name
-#: includes/Renderer.php:635 includes/Uploads.php:130
+#: includes/Renderer.php:636 includes/Uploads.php:130
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s：不允许此文件类型。"
@@ -1351,15 +1431,15 @@ msgstr "%s：不允许此文件类型。"
 msgid "None"
 msgstr "无"
 
-#: includes/Submission.php:221
+#: includes/Submission.php:223
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "无法验证表单。请刷新页面后重试。"
 
-#: includes/Submission.php:224
+#: includes/Submission.php:226
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "提交得太快了。请稍等片刻后重新提交。"
 
-#: includes/Submission.php:232
+#: includes/Submission.php:234
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "提交次数过多。请等待一分钟后重试。"
 

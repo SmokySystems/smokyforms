@@ -1377,7 +1377,10 @@
 				return TYPES[ x.type ] && TYPES[ x.type ].input && ( ! props.only || props.only.indexOf( x.type ) !== -1 );
 			} ),
 			general = Object.keys( data.tags ).filter( function ( tag ) {
-				return ! props.only && ( props.allFields || tag !== '{all_fields}' );
+				if ( props.only ) {
+					return [ '{admin_email}', '{user_email}', '{author_email}' ].indexOf( tag ) !== -1;
+				}
+				return props.allFields || tag !== '{all_fields}';
 			} ),
 			id = 'smokyforms-tags-' + props.name;
 		function insert( tag ) {
@@ -1390,6 +1393,8 @@
 			}
 			if ( props.separator && start === value.length && value.trim() !== '' && ! /[,\s]$/.test( value ) ) {
 				tag = props.separator + tag;
+			} else if ( ! props.separator && start > 0 && ! /[\s(#>]/.test( value.charAt( start - 1 ) ) ) {
+				tag = ' ' + tag;
 			}
 			props.onChange( value.slice( 0, start ) + tag + value.slice( end ) );
 			open[ 1 ]( false );
@@ -1426,7 +1431,6 @@
 						insert( '{field:' + x.id + '}' );
 					} }, x.label || x.id );
 				} ),
-				! fields.length && props.only ? el( 'span', { className: 'description' }, __( 'Add an Email field to the form first.', 'smokyforms' ) ) : null,
 				general.length ? el( 'strong', null, __( 'Other', 'smokyforms' ) ) : null,
 				general.map( function ( tag ) {
 					return el( c.Button, { key: tag, variant: 'secondary', size: 'compact', title: tag, onClick: function () {

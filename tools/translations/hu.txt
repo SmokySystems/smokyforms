@@ -432,3 +432,23 @@ ffb213|Nem kötelező. Az űrlap fölött jelenik meg, ha a blokkban be van kapc
 6cf0ea|A SmokyForms ingyenes verziója minden beküldést e-mailben küld el Önnek, és nem menti el. A SmokyForms Pro (hamarosan) minden beküldést elment a vezérlőpulton, kereséssel és CSV-exporttal. Ha az e-mail sikertelen, a beküldés megmarad a SmokyForms > Kézbesítetlen menüpontban.
 babed6|A SmokyForms ingyenes verziója minden beküldést e-mailben küld el Önnek, és nem menti el. A SmokyForms Pro (hamarosan) minden beküldést elment a vezérlőpulton, kereséssel és CSV-exporttal. Ha egy értesítő e-mailt nem lehet elküldeni, a beküldés megmarad, hogy ne vesszen el, és újra elküldheti a SmokyForms > Kézbesítetlen menüpontban.
 d72175|Sablon
+8488fd|Egyedi érték (hivatkozási szám minden beküldéshez)
+7f33b6|Űrlapazonosító
+20fb21|Dátum saját formátumban
+81d3fe|Az űrlapot tartalmazó oldal azonosítója
+cbf765|Paraméter az oldal címében
+ec0c43|Az oldal, ahonnan a látogató érkezett
+787602|Az űrlapot tartalmazó oldal szerzője
+5b77c1|Az oldal szerzőjének e-mail-címe
+48f19a|Az oldal szerzőjének azonosítója
+316c29|Bejelentkezett felhasználó: azonosító
+46154b|Bejelentkezett felhasználó: megjelenített név
+7bc7f8|Bejelentkezett felhasználó: teljes név
+e30b67|Bejelentkezett felhasználó: keresztnév
+d46f2b|Bejelentkezett felhasználó: vezetéknév
+2b1fed|Bejelentkezett felhasználó: e-mail
+2fe616|Bejelentkezett felhasználó: profilmező
+45fb2d|Bejelentkezési cím
+a1782e|Kijelentkezési cím
+500aa5|Regisztrációs cím
+b4494a|Elfelejtett jelszó címe

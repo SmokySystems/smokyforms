@@ -115,6 +115,9 @@ final class UndeliveredPage {
 							<tbody>
 							<?php
 							foreach ( $values as $key => $value ) {
+								if ( '_' === substr( (string) $key, 0, 1 ) ) {
+									continue;
+								}
 								$field = $form ? Forms::field( $form, $key ) : null;
 								$label = $field && '' !== $field['label'] ? $field['label'] : $key;
 								$html  = $field ? Fields::display_html( $field, $value ) : esc_html( is_scalar( $value ) ? (string) $value : wp_json_encode( $value ) );

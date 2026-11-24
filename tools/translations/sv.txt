@@ -432,3 +432,23 @@ ffb213|Valfritt. Visas ovanför formuläret när ”Visa formulärets beskrivnin
 6cf0ea|Gratisversionen av SmokyForms mejlar dig varje inskick och sparar det inte. SmokyForms Pro (kommer snart) sparar alla inskick i din adminpanel, med sökning och CSV-export. Om e-postmeddelandet misslyckas sparas inskicket under SmokyForms > Ej levererade.
 babed6|Gratisversionen av SmokyForms mejlar dig varje inskick och sparar det inte. SmokyForms Pro (kommer snart) sparar alla inskick i din adminpanel, med sökning och CSV-export. Om ett aviseringsmejl inte kan skickas sparas inskicket så att det inte går förlorat, och du kan skicka det igen under SmokyForms > Ej levererade.
 d72175|Tema
+8488fd|Unikt värde (ett referensnummer för varje inskick)
+7f33b6|Formulär-ID
+20fb21|Datum i eget format
+81d3fe|ID för formulärsidan
+cbf765|Parameter i sidans adress
+ec0c43|Sidan besökaren kom från
+787602|Författare till formulärsidan
+5b77c1|Sidförfattarens e-post
+48f19a|Sidförfattarens ID
+316c29|Inloggad användare: ID
+46154b|Inloggad användare: visningsnamn
+7bc7f8|Inloggad användare: fullständigt namn
+e30b67|Inloggad användare: förnamn
+d46f2b|Inloggad användare: efternamn
+2b1fed|Inloggad användare: e-post
+2fe616|Inloggad användare: profilfält
+45fb2d|Inloggningsadress
+a1782e|Utloggningsadress
+500aa5|Registreringsadress
+b4494a|Adress för glömt lösenord

@@ -432,3 +432,23 @@ ffb213|İsteğe bağlı. Blokta "Form açıklamasını göster" açıkken ya da 
 6cf0ea|SmokyForms'un ücretsiz sürümü her gönderimi size e-postayla iletir, kaydetmez. SmokyForms Pro (yakında) tüm gönderimleri arama ve CSV dışa aktarma ile panelinizde saklar. E-posta gönderilemezse gönderim SmokyForms > Ulaşmayanlar altında tutulur.
 babed6|SmokyForms'un ücretsiz sürümü her gönderimi size e-postayla iletir, kaydetmez. SmokyForms Pro (yakında) tüm gönderimleri arama ve CSV dışa aktarma ile panelinizde saklar. Bir bildirim e-postası gönderilemezse gönderim kaybolmasın diye tutulur ve SmokyForms > Ulaşmayanlar altından tekrar gönderebilirsiniz.
 d72175|Tema
+8488fd|Eşsiz değer (her gönderim için bir referans numarası)
+7f33b6|Form kimliği
+20fb21|Kendi biçiminizde tarih
+81d3fe|Form sayfasının kimliği
+cbf765|Sayfa adresindeki parametre
+ec0c43|Ziyaretçinin geldiği sayfa
+787602|Form sayfasının yazarı
+5b77c1|Sayfa yazarının e-postası
+48f19a|Sayfa yazarının kimliği
+316c29|Giriş yapmış kullanıcı: kimlik
+46154b|Giriş yapmış kullanıcı: görünen ad
+7bc7f8|Giriş yapmış kullanıcı: ad soyad
+e30b67|Giriş yapmış kullanıcı: ad
+d46f2b|Giriş yapmış kullanıcı: soyad
+2b1fed|Giriş yapmış kullanıcı: e-posta
+2fe616|Giriş yapmış kullanıcı: profil alanı
+45fb2d|Giriş adresi
+a1782e|Çıkış adresi
+500aa5|Kayıt adresi
+b4494a|Parola sıfırlama adresi

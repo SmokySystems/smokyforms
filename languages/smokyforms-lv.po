@@ -210,7 +210,7 @@ msgstr "Pārvietot uz leju"
 msgid "Duplicate"
 msgstr "Dublēt"
 
-#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:133
+#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:136
 msgid "Delete"
 msgstr "Dzēst"
 
@@ -264,11 +264,11 @@ msgstr "Rakstīt formulu"
 msgid "Undo"
 msgstr "Atsaukt"
 
-#: assets/js/builder.js:620 includes/Renderer.php:403
+#: assets/js/builder.js:620 includes/Renderer.php:404
 msgid "Clear"
 msgstr "Notīrīt"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1423 assets/js/builder.js:1812 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1426 assets/js/builder.js:1814 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Lauki"
 
@@ -492,7 +492,7 @@ msgstr "Teksts blakus izvēles rūtiņai"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Saites ir atļautas, piemēram, uz jūsu privātuma politiku."
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1572
+#: assets/js/builder.js:1082 assets/js/builder.js:1574
 msgid "Text"
 msgstr "Teksts"
 
@@ -549,7 +549,7 @@ msgstr "Lielākais rindu skaits"
 msgid "Text of the add button"
 msgstr "Pievienošanas pogas teksts"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:414
+#: assets/js/builder.js:1132 includes/Renderer.php:415
 msgid "Add another"
 msgstr "Pievienot vēl vienu"
 
@@ -557,7 +557,7 @@ msgstr "Pievienot vēl vienu"
 msgid "Next button"
 msgstr "Poga “Tālāk”"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:222
+#: assets/js/builder.js:1140 includes/Renderer.php:223
 msgid "Next"
 msgstr "Tālāk"
 
@@ -565,11 +565,11 @@ msgstr "Tālāk"
 msgid "Back button"
 msgstr "Poga “Atpakaļ”"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:223
+#: assets/js/builder.js:1143 includes/Renderer.php:224
 msgid "Previous"
 msgstr "Atpakaļ"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1707 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1709 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Aprēķins"
 
@@ -689,196 +689,196 @@ msgstr "Rinda 1"
 msgid "Add price table"
 msgstr "Pievienot cenu tabulu"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Hide smart tags"
 msgstr "Paslēpt viedos tagus"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Show smart tags"
 msgstr "Rādīt viedos tagus"
 
-#: assets/js/builder.js:1429 assets/js/builder.js:1677
-msgid "Add an Email field to the form first."
-msgstr "Vispirms veidlapai pievienojiet e-pasta lauku."
-
-#: assets/js/builder.js:1430
+#: assets/js/builder.js:1432
 msgid "Other"
 msgstr "Citi"
 
-#: assets/js/builder.js:1475
+#: assets/js/builder.js:1477
 msgid "Search pages or paste an address"
 msgstr "Meklējiet lapas vai ielīmējiet adresi"
 
-#: assets/js/builder.js:1545
+#: assets/js/builder.js:1547
 msgid "Theme"
 msgstr "Tēma"
 
-#: assets/js/builder.js:1559 assets/js/builder.js:1585
+#: assets/js/builder.js:1561 assets/js/builder.js:1587
 msgid "Use the theme style"
 msgstr "Izmantot tēmas stilu"
 
-#: assets/js/builder.js:1567
+#: assets/js/builder.js:1569
 msgid "Button style"
 msgstr "Pogas stils"
 
-#: assets/js/builder.js:1568
+#: assets/js/builder.js:1570
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "Pēc noklusējuma pogas izskatās kā jūsu tēmas pogas. Izvēlieties krāsas tikai tad, ja vēlaties, lai tās atšķirtos."
 
-#: assets/js/builder.js:1570
+#: assets/js/builder.js:1572
 msgid "Background"
 msgstr "Fons"
 
-#: assets/js/builder.js:1571
+#: assets/js/builder.js:1573
 msgid "Background on hover"
 msgstr "Fons, novietojot kursoru"
 
-#: assets/js/builder.js:1573
+#: assets/js/builder.js:1575
 msgid "Text on hover"
 msgstr "Teksts, novietojot kursoru"
 
-#: assets/js/builder.js:1576
+#: assets/js/builder.js:1578
 msgid "Preview"
 msgstr "Priekšskatījums"
 
-#: assets/js/builder.js:1606 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1608 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "Vispārīgi"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 msgid "Form description"
 msgstr "Formas apraksts"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "Neobligāti. Tiek rādīts virs formas, ja blokā ir ieslēgts “Rādīt formas aprakstu”, vai ar %s. Var izmantot HTML."
 
-#: assets/js/builder.js:1610
+#: assets/js/builder.js:1612
 msgid "Button text"
 msgstr "Pogas teksts"
 
-#: assets/js/builder.js:1613
+#: assets/js/builder.js:1615
 msgid "Message after sending"
 msgstr "Ziņojums pēc nosūtīšanas"
 
-#: assets/js/builder.js:1613 assets/js/builder.js:1653 assets/js/builder.js:1681
+#: assets/js/builder.js:1615 assets/js/builder.js:1655 assets/js/builder.js:1683
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "Var izmantot HTML, piemēram, <strong>, <a href=\"...\"> vai <img src=\"...\">."
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Or go to this page after sending"
 msgstr "Vai pēc nosūtīšanas doties uz šo lapu"
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Leave empty to show the message instead."
 msgstr "Atstājiet tukšu, lai tā vietā rādītu ziņojumu."
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "Show the progress bar"
 msgstr "Rādīt progresa joslu"
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Formām ar lapu pārtraukumiem: “1. solis no 3” virs formas."
 
-#: assets/js/builder.js:1625 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1627 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Aizsargāt šo veidlapu ar CAPTCHA, kas iestatīta sadaļā Iestatījumi."
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "CAPTCHA vēl nav iestatīta. To var pievienot sadaļā SmokyForms > Iestatījumi. Lamatu lauks un laika pārbaude tik un tā aizsargā katru veidlapu."
 
-#: assets/js/builder.js:1639
+#: assets/js/builder.js:1641
 msgid "Notification to you"
 msgstr "Paziņojums jums"
 
-#: assets/js/builder.js:1640
+#: assets/js/builder.js:1642
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "SmokyForms bezmaksas versija katru iesniegumu nosūta jums pa e-pastu un to nesaglabā. SmokyForms Pro (drīzumā) saglabā visus iesniegumus vadības panelī, ar meklēšanu un CSV eksportu. Ja e-pastu neizdodas nosūtīt, iesniegums tiek saglabāts sadaļā SmokyForms > Nepiegādātie."
 
-#: assets/js/builder.js:1641
+#: assets/js/builder.js:1643
 msgid "Send me an email for every entry"
 msgstr "Sūtīt man e-pastu par katru iesniegumu"
 
-#: assets/js/builder.js:1647 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1649 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Sūtīt uz"
 
-#: assets/js/builder.js:1647
+#: assets/js/builder.js:1649
 msgid "Separate several addresses with commas."
 msgstr "Vairākas adreses atdaliet ar komatiem."
 
-#: assets/js/builder.js:1650 assets/js/builder.js:1678
+#: assets/js/builder.js:1652 assets/js/builder.js:1680
 msgid "Subject"
 msgstr "Temats"
 
-#: assets/js/builder.js:1653 assets/js/builder.js:1681 includes/Templates.php:92
+#: assets/js/builder.js:1655 assets/js/builder.js:1683 includes/Templates.php:92
 msgid "Message"
 msgstr "Ziņojums"
 
-#: assets/js/builder.js:1660
+#: assets/js/builder.js:1662
 msgid "Confirmation to the visitor"
 msgstr "Apstiprinājums apmeklētājam"
 
-#: assets/js/builder.js:1661
+#: assets/js/builder.js:1663
 msgid "Send the visitor a confirmation email"
 msgstr "Nosūtīt apmeklētājam apstiprinājuma e-pastu"
 
-#: assets/js/builder.js:1668
+#: assets/js/builder.js:1670
 msgid "Address from the field"
 msgstr "Adrese no lauka"
 
-#: assets/js/builder.js:1695 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1679
+msgid "Add an Email field to the form first."
+msgstr "Vispirms veidlapai pievienojiet e-pasta lauku."
+
+#: assets/js/builder.js:1697 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Pievienot jaunu veidlapu"
 
-#: assets/js/builder.js:1696
+#: assets/js/builder.js:1698
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Sāciet ar gatavu vai tukšu veidlapu. Visas veidnes, arī kalkulatori, ir bezmaksas."
 
-#: assets/js/builder.js:1787
+#: assets/js/builder.js:1789
 msgid "The form could not be saved."
 msgstr "Veidlapu neizdevās saglabāt."
 
-#: assets/js/builder.js:1798 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1800 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Visas veidlapas"
 
-#: assets/js/builder.js:1799 assets/js/builder.js:1799 includes/Notifications.php:40
+#: assets/js/builder.js:1801 assets/js/builder.js:1801 includes/Notifications.php:41
 msgid "Form name"
 msgstr "Veidlapas nosaukums"
 
-#: assets/js/builder.js:1803 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1805 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Īskods"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Saving…"
 msgstr "Saglabā…"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Save form"
 msgstr "Saglabāt veidlapu"
 
-#: assets/js/builder.js:1812
+#: assets/js/builder.js:1814
 msgid "Price tables"
 msgstr "Cenu tabulas"
 
-#: assets/js/builder.js:1812 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1814 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Iestatījumi"
 
-#: assets/js/builder.js:1934
+#: assets/js/builder.js:1936
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Pievienojiet to lapai ar SmokyForms bloku vai īskodu."
 
-#: assets/js/builder.js:1935
+#: assets/js/builder.js:1937
 msgid "You have unsaved changes."
 msgstr "Jums ir nesaglabātas izmaiņas."
 
@@ -1055,15 +1055,15 @@ msgstr "Dzēsta veidlapa"
 msgid "Reason:"
 msgstr "Iemesls:"
 
-#: includes/Admin/UndeliveredPage.php:130
+#: includes/Admin/UndeliveredPage.php:133
 msgid "Send again"
 msgstr "Sūtīt vēlreiz"
 
-#: includes/Admin/UndeliveredPage.php:138
+#: includes/Admin/UndeliveredPage.php:141
 msgid "Delete this entry for good?"
 msgstr "Dzēst šo iesniegumu neatgriezeniski?"
 
-#: includes/Admin/UndeliveredPage.php:139
+#: includes/Admin/UndeliveredPage.php:142
 msgid "Yes, delete"
 msgstr "Jā, dzēst"
 
@@ -1135,7 +1135,7 @@ msgstr "Paraksts"
 msgid "Page break"
 msgstr "Lapas pārtraukums"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:623 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:624 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "Šis lauks ir obligāts."
 
@@ -1161,11 +1161,11 @@ msgstr[2] "Lūdzu, aizpildiet ne vairāk kā %s rindu."
 msgid "The signature could not be read. Please sign again."
 msgstr "Parakstu neizdevās nolasīt. Lūdzu, parakstieties vēlreiz."
 
-#: includes/Fields.php:316 includes/Renderer.php:624
+#: includes/Fields.php:316 includes/Renderer.php:625
 msgid "Please enter a valid email address."
 msgstr "Ievadiet derīgu e-pasta adresi."
 
-#: includes/Fields.php:324 includes/Renderer.php:625
+#: includes/Fields.php:324 includes/Renderer.php:626
 msgid "Please enter a valid website address."
 msgstr "Ievadiet derīgu vietnes adresi."
 
@@ -1173,7 +1173,7 @@ msgstr "Ievadiet derīgu vietnes adresi."
 msgid "Please enter a valid phone number."
 msgstr "Ievadiet derīgu tālruņa numuru."
 
-#: includes/Fields.php:336 includes/Renderer.php:626
+#: includes/Fields.php:336 includes/Renderer.php:627
 msgid "Please enter a number."
 msgstr "Ievadiet skaitli."
 
@@ -1193,7 +1193,7 @@ msgstr "Ievadiet skaitli, kas nav lielāks par %s."
 msgid "Please enter a valid date."
 msgstr "Ievadiet derīgu datumu."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:636
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:637
 msgid "Please choose one of the options."
 msgstr "Izvēlieties vienu no iespējām."
 
@@ -1251,35 +1251,115 @@ msgstr ""
 msgid "All answers"
 msgstr "Visas atbildes"
 
-#: includes/Notifications.php:41
-msgid "Site name"
-msgstr "Vietnes nosaukums"
+#: includes/Notifications.php:40
+msgid "Unique value (a reference number for each entry)"
+msgstr "Unikāla vērtība (atsauces numurs katram iesniegumam)"
 
 #: includes/Notifications.php:42
-msgid "Site admin email"
-msgstr "Vietnes administratora e-pasts"
+msgid "Form ID"
+msgstr "Formas ID"
 
 #: includes/Notifications.php:43
 msgid "Date and time"
 msgstr "Datums un laiks"
 
 #: includes/Notifications.php:44
-msgid "Page of the form"
-msgstr "Veidlapas lapa"
+msgid "Date in your own format"
+msgstr "Datums jūsu formātā"
 
 #: includes/Notifications.php:45
-msgid "Title of the form page"
-msgstr "Formas lapas virsraksts"
+msgid "Site name"
+msgstr "Vietnes nosaukums"
 
 #: includes/Notifications.php:46
 msgid "Site address"
 msgstr "Vietnes adrese"
 
 #: includes/Notifications.php:47
+msgid "Site admin email"
+msgstr "Vietnes administratora e-pasts"
+
+#: includes/Notifications.php:48
+msgid "Page of the form"
+msgstr "Veidlapas lapa"
+
+#: includes/Notifications.php:49
+msgid "Title of the form page"
+msgstr "Formas lapas virsraksts"
+
+#: includes/Notifications.php:50
+msgid "ID of the form page"
+msgstr "Formas lapas ID"
+
+#: includes/Notifications.php:51
+msgid "Parameter in the page address"
+msgstr "Parametrs lapas adresē"
+
+#: includes/Notifications.php:52
+msgid "Page the visitor came from"
+msgstr "Lapa, no kuras atnāca apmeklētājs"
+
+#: includes/Notifications.php:53
+msgid "Author of the form page"
+msgstr "Formas lapas autors"
+
+#: includes/Notifications.php:54
+msgid "Email of the page author"
+msgstr "Lapas autora e-pasts"
+
+#: includes/Notifications.php:55
+msgid "ID of the page author"
+msgstr "Lapas autora ID"
+
+#: includes/Notifications.php:56
 msgid "Visitor IP address"
 msgstr "Apmeklētāja IP adrese"
 
-#: includes/Notifications.php:112
+#: includes/Notifications.php:57
+msgid "Logged-in user: ID"
+msgstr "Pieteicies lietotājs: ID"
+
+#: includes/Notifications.php:58
+msgid "Logged-in user: display name"
+msgstr "Pieteicies lietotājs: attēlojamais vārds"
+
+#: includes/Notifications.php:59
+msgid "Logged-in user: full name"
+msgstr "Pieteicies lietotājs: vārds un uzvārds"
+
+#: includes/Notifications.php:60
+msgid "Logged-in user: first name"
+msgstr "Pieteicies lietotājs: vārds"
+
+#: includes/Notifications.php:61
+msgid "Logged-in user: last name"
+msgstr "Pieteicies lietotājs: uzvārds"
+
+#: includes/Notifications.php:62
+msgid "Logged-in user: email"
+msgstr "Pieteicies lietotājs: e-pasts"
+
+#: includes/Notifications.php:63
+msgid "Logged-in user: profile field"
+msgstr "Pieteicies lietotājs: profila lauks"
+
+#: includes/Notifications.php:64
+msgid "Login address"
+msgstr "Pieteikšanās adrese"
+
+#: includes/Notifications.php:65
+msgid "Logout address"
+msgstr "Atteikšanās adrese"
+
+#: includes/Notifications.php:66
+msgid "Registration address"
+msgstr "Reģistrācijas adrese"
+
+#: includes/Notifications.php:67
+msgid "Lost password address"
+msgstr "Aizmirstas paroles adrese"
+
+#: includes/Notifications.php:151
 msgid "The site could not send the email."
 msgstr "Vietne nevarēja nosūtīt e-pastu."
 
@@ -1287,16 +1367,16 @@ msgstr "Vietne nevarēja nosūtīt e-pastu."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: šī veidlapa neeksistē."
 
-#: includes/Renderer.php:240
+#: includes/Renderer.php:241
 msgid "Leave this field empty"
 msgstr "Atstājiet šo lauku tukšu"
 
-#: includes/Renderer.php:259 includes/Renderer.php:628 includes/Submission.php:176
+#: includes/Renderer.php:260 includes/Renderer.php:629 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "Pārbaudiet veidlapu un mēģiniet vēlreiz."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:375
+#: includes/Renderer.php:376
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1305,13 +1385,13 @@ msgstr[1] "%s zvaigznes"
 msgstr[2] "%s zvaigžņu"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:387
+#: includes/Renderer.php:388
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Atļautie failu veidi: %1$s. Līdz %2$s MB vienam failam."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:389 includes/Uploads.php:112
+#: includes/Renderer.php:390 includes/Uploads.php:112
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
@@ -1319,40 +1399,40 @@ msgstr[0] "Varat augšupielādēt ne vairāk kā %s failu."
 msgstr[1] "Varat augšupielādēt ne vairāk kā %s failus."
 msgstr[2] "Varat augšupielādēt ne vairāk kā %s failu."
 
-#: includes/Renderer.php:405
+#: includes/Renderer.php:406
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "Parakstīšanai nepieciešams JavaScript. Lūdzu, ieslēdziet to pārlūkā."
 
-#: includes/Renderer.php:427
+#: includes/Renderer.php:428
 msgid "Choose…"
 msgstr "Izvēlieties…"
 
-#: includes/Renderer.php:513 includes/Renderer.php:513
+#: includes/Renderer.php:514 includes/Renderer.php:514
 msgid "Remove this row"
 msgstr "Noņemt šo rindu"
 
-#: includes/Renderer.php:627
+#: includes/Renderer.php:628
 msgid "Sending…"
 msgstr "Sūta…"
 
-#: includes/Renderer.php:629
+#: includes/Renderer.php:630
 msgid "The form could not be sent. Please try again."
 msgstr "Veidlapu neizdevās nosūtīt. Mēģiniet vēlreiz."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:631
+#: includes/Renderer.php:632
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "%1$s. solis no %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:633 includes/Uploads.php:125
+#: includes/Renderer.php:634 includes/Uploads.php:125
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s ir lielāks par %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:635 includes/Uploads.php:130
+#: includes/Renderer.php:636 includes/Uploads.php:130
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: šis faila veids nav atļauts."
@@ -1361,15 +1441,15 @@ msgstr "%s: šis faila veids nav atļauts."
 msgid "None"
 msgstr "Nav"
 
-#: includes/Submission.php:221
+#: includes/Submission.php:223
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "Veidlapu neizdevās pārbaudīt. Pārlādējiet lapu un mēģiniet vēlreiz."
 
-#: includes/Submission.php:224
+#: includes/Submission.php:226
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "Tas bija ļoti ātri. Mazliet uzgaidiet un nosūtiet veidlapu vēlreiz."
 
-#: includes/Submission.php:232
+#: includes/Submission.php:234
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "Pārāk daudz iesniegumu. Uzgaidiet minūti un mēģiniet vēlreiz."
 

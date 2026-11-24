@@ -432,3 +432,23 @@ ffb213|Valgfrit. Vises over formularen, når "Vis formularens beskrivelse" er sl
 6cf0ea|Den gratis version af SmokyForms mailer dig hver indsendelse og gemmer den ikke. SmokyForms Pro (kommer snart) gemmer alle indsendelser i dit kontrolpanel med søgning og CSV-eksport. Hvis e-mailen fejler, gemmes indsendelsen under SmokyForms > Ikke leveret.
 babed6|Den gratis version af SmokyForms mailer dig hver indsendelse og gemmer den ikke. SmokyForms Pro (kommer snart) gemmer alle indsendelser i dit kontrolpanel med søgning og CSV-eksport. Hvis en notifikation ikke kan sendes, gemmes indsendelsen, så den ikke går tabt, og du kan sende den igen under SmokyForms > Ikke leveret.
 d72175|Tema
+8488fd|Unik værdi (et referencenummer for hver indsendelse)
+7f33b6|Formular-ID
+20fb21|Dato i dit eget format
+81d3fe|ID for formularsiden
+cbf765|Parameter i sidens adresse
+ec0c43|Siden, den besøgende kom fra
+787602|Forfatter af formularsiden
+5b77c1|Sideforfatterens e-mail
+48f19a|Sideforfatterens ID
+316c29|Logget ind-bruger: ID
+46154b|Logget ind-bruger: visningsnavn
+7bc7f8|Logget ind-bruger: fulde navn
+e30b67|Logget ind-bruger: fornavn
+d46f2b|Logget ind-bruger: efternavn
+2b1fed|Logget ind-bruger: e-mail
+2fe616|Logget ind-bruger: profilfelt
+45fb2d|Login-adresse
+a1782e|Log ud-adresse
+500aa5|Registreringsadresse
+b4494a|Adresse for glemt adgangskode

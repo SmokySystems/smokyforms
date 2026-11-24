@@ -432,3 +432,23 @@ ffb213|Neobligāti. Tiek rādīts virs formas, ja blokā ir ieslēgts “Rādīt
 6cf0ea|SmokyForms bezmaksas versija katru iesniegumu nosūta jums pa e-pastu un to nesaglabā. SmokyForms Pro (drīzumā) saglabā visus iesniegumus vadības panelī, ar meklēšanu un CSV eksportu. Ja e-pastu neizdodas nosūtīt, iesniegums tiek saglabāts sadaļā SmokyForms > Nepiegādātie.
 babed6|SmokyForms bezmaksas versija katru iesniegumu nosūta jums pa e-pastu un to nesaglabā. SmokyForms Pro (drīzumā) saglabā visus iesniegumus vadības panelī, ar meklēšanu un CSV eksportu. Ja paziņojuma e-pastu nevar nosūtīt, iesniegums tiek saglabāts, lai tas nepazustu, un to var nosūtīt vēlreiz sadaļā SmokyForms > Nepiegādātie.
 d72175|Tēma
+8488fd|Unikāla vērtība (atsauces numurs katram iesniegumam)
+7f33b6|Formas ID
+20fb21|Datums jūsu formātā
+81d3fe|Formas lapas ID
+cbf765|Parametrs lapas adresē
+ec0c43|Lapa, no kuras atnāca apmeklētājs
+787602|Formas lapas autors
+5b77c1|Lapas autora e-pasts
+48f19a|Lapas autora ID
+316c29|Pieteicies lietotājs: ID
+46154b|Pieteicies lietotājs: attēlojamais vārds
+7bc7f8|Pieteicies lietotājs: vārds un uzvārds
+e30b67|Pieteicies lietotājs: vārds
+d46f2b|Pieteicies lietotājs: uzvārds
+2b1fed|Pieteicies lietotājs: e-pasts
+2fe616|Pieteicies lietotājs: profila lauks
+45fb2d|Pieteikšanās adrese
+a1782e|Atteikšanās adrese
+500aa5|Reģistrācijas adrese
+b4494a|Aizmirstas paroles adrese

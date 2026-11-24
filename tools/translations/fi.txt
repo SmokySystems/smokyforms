@@ -432,3 +432,23 @@ ffb213|Valinnainen. Näytetään lomakkeen yläpuolella, kun lohkossa on pääll
 6cf0ea|SmokyFormsin ilmaisversio lähettää jokaisen vastauksen sinulle sähköpostilla eikä tallenna sitä. SmokyForms Pro (tulossa pian) tallentaa kaikki vastaukset hallintapaneeliisi, haun ja CSV-viennin kanssa. Jos sähköposti epäonnistuu, lähetys säilytetään kohdassa SmokyForms > Toimittamatta.
 babed6|SmokyFormsin ilmaisversio lähettää jokaisen vastauksen sinulle sähköpostilla eikä tallenna sitä. SmokyForms Pro (tulossa pian) tallentaa kaikki vastaukset hallintapaneeliisi, haun ja CSV-viennin kanssa. Jos ilmoitusta ei voida lähettää, lähetys säilytetään, jotta se ei katoa, ja voit lähettää sen uudelleen kohdassa SmokyForms > Toimittamatta.
 d72175|Teema
+8488fd|Yksilöllinen arvo (viitenumero jokaiselle vastaukselle)
+7f33b6|Lomakkeen tunniste
+20fb21|Päivämäärä omassa muodossa
+81d3fe|Lomakesivun tunniste
+cbf765|Sivun osoitteen parametri
+ec0c43|Sivu, jolta kävijä tuli
+787602|Lomakesivun kirjoittaja
+5b77c1|Sivun kirjoittajan sähköposti
+48f19a|Sivun kirjoittajan tunniste
+316c29|Kirjautunut käyttäjä: tunniste
+46154b|Kirjautunut käyttäjä: näyttönimi
+7bc7f8|Kirjautunut käyttäjä: koko nimi
+e30b67|Kirjautunut käyttäjä: etunimi
+d46f2b|Kirjautunut käyttäjä: sukunimi
+2b1fed|Kirjautunut käyttäjä: sähköposti
+2fe616|Kirjautunut käyttäjä: profiilin kenttä
+45fb2d|Kirjautumisosoite
+a1782e|Uloskirjautumisosoite
+500aa5|Rekisteröitymisosoite
+b4494a|Unohtuneen salasanan osoite

@@ -432,3 +432,23 @@ ffb213|Opcjonalnie. Wyświetlany nad formularzem, gdy w bloku włączono „Poka
 6cf0ea|Darmowa wersja SmokyForms wysyła Ci każde zgłoszenie e-mailem i go nie zapisuje. SmokyForms Pro (wkrótce) zapisuje wszystkie zgłoszenia w kokpicie, z wyszukiwaniem i eksportem CSV. Jeśli e-mail się nie powiedzie, zgłoszenie jest zachowywane w SmokyForms > Niedostarczone.
 babed6|Darmowa wersja SmokyForms wysyła Ci każde zgłoszenie e-mailem i go nie zapisuje. SmokyForms Pro (wkrótce) zapisuje wszystkie zgłoszenia w kokpicie, z wyszukiwaniem i eksportem CSV. Gdy e-mail z powiadomieniem nie może zostać wysłany, zgłoszenie jest zachowywane, aby nie przepadło, i możesz je wysłać ponownie w SmokyForms > Niedostarczone.
 d72175|Motyw
+8488fd|Unikalna wartość (numer referencyjny każdego zgłoszenia)
+7f33b6|ID formularza
+20fb21|Data we własnym formacie
+81d3fe|ID strony z formularzem
+cbf765|Parametr w adresie strony
+ec0c43|Strona, z której przyszedł odwiedzający
+787602|Autor strony z formularzem
+5b77c1|E-mail autora strony
+48f19a|ID autora strony
+316c29|Zalogowany użytkownik: ID
+46154b|Zalogowany użytkownik: nazwa wyświetlana
+7bc7f8|Zalogowany użytkownik: imię i nazwisko
+e30b67|Zalogowany użytkownik: imię
+d46f2b|Zalogowany użytkownik: nazwisko
+2b1fed|Zalogowany użytkownik: e-mail
+2fe616|Zalogowany użytkownik: pole profilu
+45fb2d|Adres logowania
+a1782e|Adres wylogowania
+500aa5|Adres rejestracji
+b4494a|Adres odzyskiwania hasła

@@ -210,7 +210,7 @@ msgstr "Le"
 msgid "Duplicate"
 msgstr "Másolat"
 
-#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:133
+#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:136
 msgid "Delete"
 msgstr "Törlés"
 
@@ -264,11 +264,11 @@ msgstr "Képlet írása"
 msgid "Undo"
 msgstr "Visszavonás"
 
-#: assets/js/builder.js:620 includes/Renderer.php:403
+#: assets/js/builder.js:620 includes/Renderer.php:404
 msgid "Clear"
 msgstr "Törlés"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1423 assets/js/builder.js:1812 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1426 assets/js/builder.js:1814 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Mezők"
 
@@ -492,7 +492,7 @@ msgstr "Szöveg a jelölőnégyzet mellett"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Hivatkozások megengedettek, például az adatkezelési tájékoztatóra."
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1572
+#: assets/js/builder.js:1082 assets/js/builder.js:1574
 msgid "Text"
 msgstr "Szöveg"
 
@@ -549,7 +549,7 @@ msgstr "Legtöbb sor"
 msgid "Text of the add button"
 msgstr "A hozzáadás gomb szövege"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:414
+#: assets/js/builder.js:1132 includes/Renderer.php:415
 msgid "Add another"
 msgstr "Még egy hozzáadása"
 
@@ -557,7 +557,7 @@ msgstr "Még egy hozzáadása"
 msgid "Next button"
 msgstr "Tovább gomb"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:222
+#: assets/js/builder.js:1140 includes/Renderer.php:223
 msgid "Next"
 msgstr "Tovább"
 
@@ -565,11 +565,11 @@ msgstr "Tovább"
 msgid "Back button"
 msgstr "Vissza gomb"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:223
+#: assets/js/builder.js:1143 includes/Renderer.php:224
 msgid "Previous"
 msgstr "Vissza"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1707 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1709 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Számítás"
 
@@ -689,196 +689,196 @@ msgstr "1. sor"
 msgid "Add price table"
 msgstr "Ártáblázat hozzáadása"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Hide smart tags"
 msgstr "Intelligens címkék elrejtése"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Show smart tags"
 msgstr "Intelligens címkék megjelenítése"
 
-#: assets/js/builder.js:1429 assets/js/builder.js:1677
-msgid "Add an Email field to the form first."
-msgstr "Előbb adjon hozzá egy E-mail mezőt az űrlaphoz."
-
-#: assets/js/builder.js:1430
+#: assets/js/builder.js:1432
 msgid "Other"
 msgstr "Egyéb"
 
-#: assets/js/builder.js:1475
+#: assets/js/builder.js:1477
 msgid "Search pages or paste an address"
 msgstr "Oldalak keresése vagy cím beillesztése"
 
-#: assets/js/builder.js:1545
+#: assets/js/builder.js:1547
 msgid "Theme"
 msgstr "Sablon"
 
-#: assets/js/builder.js:1559 assets/js/builder.js:1585
+#: assets/js/builder.js:1561 assets/js/builder.js:1587
 msgid "Use the theme style"
 msgstr "A sablon stílusának használata"
 
-#: assets/js/builder.js:1567
+#: assets/js/builder.js:1569
 msgid "Button style"
 msgstr "Gomb stílusa"
 
-#: assets/js/builder.js:1568
+#: assets/js/builder.js:1570
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "Alapértelmezés szerint a gombok a sablon gombjaihoz hasonlítanak. Csak akkor válasszon színt, ha másmilyennek szeretné őket."
 
-#: assets/js/builder.js:1570
+#: assets/js/builder.js:1572
 msgid "Background"
 msgstr "Háttér"
 
-#: assets/js/builder.js:1571
+#: assets/js/builder.js:1573
 msgid "Background on hover"
 msgstr "Háttér rámutatáskor"
 
-#: assets/js/builder.js:1573
+#: assets/js/builder.js:1575
 msgid "Text on hover"
 msgstr "Szöveg rámutatáskor"
 
-#: assets/js/builder.js:1576
+#: assets/js/builder.js:1578
 msgid "Preview"
 msgstr "Előnézet"
 
-#: assets/js/builder.js:1606 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1608 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "Általános"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 msgid "Form description"
 msgstr "Űrlap leírása"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "Nem kötelező. Az űrlap fölött jelenik meg, ha a blokkban be van kapcsolva az „Űrlap leírásának megjelenítése”, vagy ezzel: %s. HTML használható."
 
-#: assets/js/builder.js:1610
+#: assets/js/builder.js:1612
 msgid "Button text"
 msgstr "Gomb szövege"
 
-#: assets/js/builder.js:1613
+#: assets/js/builder.js:1615
 msgid "Message after sending"
 msgstr "Üzenet küldés után"
 
-#: assets/js/builder.js:1613 assets/js/builder.js:1653 assets/js/builder.js:1681
+#: assets/js/builder.js:1615 assets/js/builder.js:1655 assets/js/builder.js:1683
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "HTML használható, például <strong>, <a href=\"...\"> vagy <img src=\"...\">."
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Or go to this page after sending"
 msgstr "Vagy küldés után ugrás erre az oldalra"
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Leave empty to show the message instead."
 msgstr "Hagyja üresen, hogy helyette az üzenet jelenjen meg."
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "Show the progress bar"
 msgstr "Folyamatjelző megjelenítése"
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Oldaltöréses űrlapoknál: „1. lépés / 3” az űrlap fölött."
 
-#: assets/js/builder.js:1625 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1627 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Az űrlap védelme a Beállításokban megadott CAPTCHA-val."
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Még nincs beállítva CAPTCHA. A SmokyForms > Beállítások menüpontban adhat hozzá. A csapdamező és az időellenőrzés így is véd minden űrlapot."
 
-#: assets/js/builder.js:1639
+#: assets/js/builder.js:1641
 msgid "Notification to you"
 msgstr "Értesítés Önnek"
 
-#: assets/js/builder.js:1640
+#: assets/js/builder.js:1642
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "A SmokyForms ingyenes verziója minden beküldést e-mailben küld el Önnek, és nem menti el. A SmokyForms Pro (hamarosan) minden beküldést elment a vezérlőpulton, kereséssel és CSV-exporttal. Ha az e-mail sikertelen, a beküldés megmarad a SmokyForms > Kézbesítetlen menüpontban."
 
-#: assets/js/builder.js:1641
+#: assets/js/builder.js:1643
 msgid "Send me an email for every entry"
 msgstr "E-mail küldése nekem minden beküldésről"
 
-#: assets/js/builder.js:1647 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1649 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Címzett"
 
-#: assets/js/builder.js:1647
+#: assets/js/builder.js:1649
 msgid "Separate several addresses with commas."
 msgstr "Több címet vesszővel válasszon el."
 
-#: assets/js/builder.js:1650 assets/js/builder.js:1678
+#: assets/js/builder.js:1652 assets/js/builder.js:1680
 msgid "Subject"
 msgstr "Tárgy"
 
-#: assets/js/builder.js:1653 assets/js/builder.js:1681 includes/Templates.php:92
+#: assets/js/builder.js:1655 assets/js/builder.js:1683 includes/Templates.php:92
 msgid "Message"
 msgstr "Üzenet"
 
-#: assets/js/builder.js:1660
+#: assets/js/builder.js:1662
 msgid "Confirmation to the visitor"
 msgstr "Visszaigazolás a látogatónak"
 
-#: assets/js/builder.js:1661
+#: assets/js/builder.js:1663
 msgid "Send the visitor a confirmation email"
 msgstr "Visszaigazoló e-mail küldése a látogatónak"
 
-#: assets/js/builder.js:1668
+#: assets/js/builder.js:1670
 msgid "Address from the field"
 msgstr "Cím a következő mezőből"
 
-#: assets/js/builder.js:1695 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1679
+msgid "Add an Email field to the form first."
+msgstr "Előbb adjon hozzá egy E-mail mezőt az űrlaphoz."
+
+#: assets/js/builder.js:1697 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Új űrlap hozzáadása"
 
-#: assets/js/builder.js:1696
+#: assets/js/builder.js:1698
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Kezdjen kész vagy üres űrlappal. Minden sablon, a kalkulátorokat is beleértve, ingyenes."
 
-#: assets/js/builder.js:1787
+#: assets/js/builder.js:1789
 msgid "The form could not be saved."
 msgstr "Az űrlapot nem sikerült menteni."
 
-#: assets/js/builder.js:1798 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1800 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Összes űrlap"
 
-#: assets/js/builder.js:1799 assets/js/builder.js:1799 includes/Notifications.php:40
+#: assets/js/builder.js:1801 assets/js/builder.js:1801 includes/Notifications.php:41
 msgid "Form name"
 msgstr "Űrlap neve"
 
-#: assets/js/builder.js:1803 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1805 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Rövidkód"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Saving…"
 msgstr "Mentés…"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Save form"
 msgstr "Űrlap mentése"
 
-#: assets/js/builder.js:1812
+#: assets/js/builder.js:1814
 msgid "Price tables"
 msgstr "Ártáblázatok"
 
-#: assets/js/builder.js:1812 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1814 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Beállítások"
 
-#: assets/js/builder.js:1934
+#: assets/js/builder.js:1936
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Adja hozzá egy oldalhoz a SmokyForms blokkal vagy a rövidkóddal."
 
-#: assets/js/builder.js:1935
+#: assets/js/builder.js:1937
 msgid "You have unsaved changes."
 msgstr "Nem mentett módosításai vannak."
 
@@ -1054,15 +1054,15 @@ msgstr "Törölt űrlap"
 msgid "Reason:"
 msgstr "Ok:"
 
-#: includes/Admin/UndeliveredPage.php:130
+#: includes/Admin/UndeliveredPage.php:133
 msgid "Send again"
 msgstr "Újraküldés"
 
-#: includes/Admin/UndeliveredPage.php:138
+#: includes/Admin/UndeliveredPage.php:141
 msgid "Delete this entry for good?"
 msgstr "Véglegesen törli ezt a beküldést?"
 
-#: includes/Admin/UndeliveredPage.php:139
+#: includes/Admin/UndeliveredPage.php:142
 msgid "Yes, delete"
 msgstr "Igen, törlés"
 
@@ -1134,7 +1134,7 @@ msgstr "Aláírás"
 msgid "Page break"
 msgstr "Oldaltörés"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:623 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:624 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "Ez a mező kötelező."
 
@@ -1158,11 +1158,11 @@ msgstr[1] "Legfeljebb %s sort töltsön ki."
 msgid "The signature could not be read. Please sign again."
 msgstr "Az aláírás nem olvasható. Kérjük, írja alá újra."
 
-#: includes/Fields.php:316 includes/Renderer.php:624
+#: includes/Fields.php:316 includes/Renderer.php:625
 msgid "Please enter a valid email address."
 msgstr "Adjon meg érvényes e-mail-címet."
 
-#: includes/Fields.php:324 includes/Renderer.php:625
+#: includes/Fields.php:324 includes/Renderer.php:626
 msgid "Please enter a valid website address."
 msgstr "Adjon meg érvényes webcímet."
 
@@ -1170,7 +1170,7 @@ msgstr "Adjon meg érvényes webcímet."
 msgid "Please enter a valid phone number."
 msgstr "Adjon meg érvényes telefonszámot."
 
-#: includes/Fields.php:336 includes/Renderer.php:626
+#: includes/Fields.php:336 includes/Renderer.php:627
 msgid "Please enter a number."
 msgstr "Adjon meg egy számot."
 
@@ -1190,7 +1190,7 @@ msgstr "Adjon meg legfeljebb %s értékű számot."
 msgid "Please enter a valid date."
 msgstr "Adjon meg érvényes dátumot."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:636
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:637
 msgid "Please choose one of the options."
 msgstr "Válasszon a lehetőségek közül."
 
@@ -1248,35 +1248,115 @@ msgstr ""
 msgid "All answers"
 msgstr "Összes válasz"
 
-#: includes/Notifications.php:41
-msgid "Site name"
-msgstr "Webhely neve"
+#: includes/Notifications.php:40
+msgid "Unique value (a reference number for each entry)"
+msgstr "Egyedi érték (hivatkozási szám minden beküldéshez)"
 
 #: includes/Notifications.php:42
-msgid "Site admin email"
-msgstr "Webhely adminisztrátorának e-mail-címe"
+msgid "Form ID"
+msgstr "Űrlapazonosító"
 
 #: includes/Notifications.php:43
 msgid "Date and time"
 msgstr "Dátum és idő"
 
 #: includes/Notifications.php:44
-msgid "Page of the form"
-msgstr "Az űrlap oldala"
+msgid "Date in your own format"
+msgstr "Dátum saját formátumban"
 
 #: includes/Notifications.php:45
-msgid "Title of the form page"
-msgstr "Az űrlapot tartalmazó oldal címe"
+msgid "Site name"
+msgstr "Webhely neve"
 
 #: includes/Notifications.php:46
 msgid "Site address"
 msgstr "Webhely címe"
 
 #: includes/Notifications.php:47
+msgid "Site admin email"
+msgstr "Webhely adminisztrátorának e-mail-címe"
+
+#: includes/Notifications.php:48
+msgid "Page of the form"
+msgstr "Az űrlap oldala"
+
+#: includes/Notifications.php:49
+msgid "Title of the form page"
+msgstr "Az űrlapot tartalmazó oldal címe"
+
+#: includes/Notifications.php:50
+msgid "ID of the form page"
+msgstr "Az űrlapot tartalmazó oldal azonosítója"
+
+#: includes/Notifications.php:51
+msgid "Parameter in the page address"
+msgstr "Paraméter az oldal címében"
+
+#: includes/Notifications.php:52
+msgid "Page the visitor came from"
+msgstr "Az oldal, ahonnan a látogató érkezett"
+
+#: includes/Notifications.php:53
+msgid "Author of the form page"
+msgstr "Az űrlapot tartalmazó oldal szerzője"
+
+#: includes/Notifications.php:54
+msgid "Email of the page author"
+msgstr "Az oldal szerzőjének e-mail-címe"
+
+#: includes/Notifications.php:55
+msgid "ID of the page author"
+msgstr "Az oldal szerzőjének azonosítója"
+
+#: includes/Notifications.php:56
 msgid "Visitor IP address"
 msgstr "A látogató IP-címe"
 
-#: includes/Notifications.php:112
+#: includes/Notifications.php:57
+msgid "Logged-in user: ID"
+msgstr "Bejelentkezett felhasználó: azonosító"
+
+#: includes/Notifications.php:58
+msgid "Logged-in user: display name"
+msgstr "Bejelentkezett felhasználó: megjelenített név"
+
+#: includes/Notifications.php:59
+msgid "Logged-in user: full name"
+msgstr "Bejelentkezett felhasználó: teljes név"
+
+#: includes/Notifications.php:60
+msgid "Logged-in user: first name"
+msgstr "Bejelentkezett felhasználó: keresztnév"
+
+#: includes/Notifications.php:61
+msgid "Logged-in user: last name"
+msgstr "Bejelentkezett felhasználó: vezetéknév"
+
+#: includes/Notifications.php:62
+msgid "Logged-in user: email"
+msgstr "Bejelentkezett felhasználó: e-mail"
+
+#: includes/Notifications.php:63
+msgid "Logged-in user: profile field"
+msgstr "Bejelentkezett felhasználó: profilmező"
+
+#: includes/Notifications.php:64
+msgid "Login address"
+msgstr "Bejelentkezési cím"
+
+#: includes/Notifications.php:65
+msgid "Logout address"
+msgstr "Kijelentkezési cím"
+
+#: includes/Notifications.php:66
+msgid "Registration address"
+msgstr "Regisztrációs cím"
+
+#: includes/Notifications.php:67
+msgid "Lost password address"
+msgstr "Elfelejtett jelszó címe"
+
+#: includes/Notifications.php:151
 msgid "The site could not send the email."
 msgstr "A webhely nem tudta elküldeni az e-mailt."
 
@@ -1284,16 +1364,16 @@ msgstr "A webhely nem tudta elküldeni az e-mailt."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: ez az űrlap nem létezik."
 
-#: includes/Renderer.php:240
+#: includes/Renderer.php:241
 msgid "Leave this field empty"
 msgstr "Hagyja üresen ezt a mezőt"
 
-#: includes/Renderer.php:259 includes/Renderer.php:628 includes/Submission.php:176
+#: includes/Renderer.php:260 includes/Renderer.php:629 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "Ellenőrizze az űrlapot, és próbálja újra."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:375
+#: includes/Renderer.php:376
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1301,53 +1381,53 @@ msgstr[0] "%s csillag"
 msgstr[1] "%s csillag"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:387
+#: includes/Renderer.php:388
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Engedélyezett fájltípusok: %1$s. Fájlonként legfeljebb %2$s MB."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:389 includes/Uploads.php:112
+#: includes/Renderer.php:390 includes/Uploads.php:112
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Legfeljebb %s fájlt tölthet fel."
 msgstr[1] "Legfeljebb %s fájlt tölthet fel."
 
-#: includes/Renderer.php:405
+#: includes/Renderer.php:406
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "Az aláíráshoz JavaScript szükséges. Kérjük, kapcsolja be a böngészőben."
 
-#: includes/Renderer.php:427
+#: includes/Renderer.php:428
 msgid "Choose…"
 msgstr "Válasszon…"
 
-#: includes/Renderer.php:513 includes/Renderer.php:513
+#: includes/Renderer.php:514 includes/Renderer.php:514
 msgid "Remove this row"
 msgstr "Sor eltávolítása"
 
-#: includes/Renderer.php:627
+#: includes/Renderer.php:628
 msgid "Sending…"
 msgstr "Küldés…"
 
-#: includes/Renderer.php:629
+#: includes/Renderer.php:630
 msgid "The form could not be sent. Please try again."
 msgstr "Az űrlapot nem sikerült elküldeni. Próbálja újra."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:631
+#: includes/Renderer.php:632
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "%1$s. lépés / %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:633 includes/Uploads.php:125
+#: includes/Renderer.php:634 includes/Uploads.php:125
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s nagyobb, mint %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:635 includes/Uploads.php:130
+#: includes/Renderer.php:636 includes/Uploads.php:130
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: ez a fájltípus nem engedélyezett."
@@ -1356,15 +1436,15 @@ msgstr "%s: ez a fájltípus nem engedélyezett."
 msgid "None"
 msgstr "Nincs"
 
-#: includes/Submission.php:221
+#: includes/Submission.php:223
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "Az űrlapot nem sikerült ellenőrizni. Töltse újra az oldalt, és próbálja újra."
 
-#: includes/Submission.php:224
+#: includes/Submission.php:226
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "Ez nagyon gyors volt. Várjon egy kicsit, és küldje el újra az űrlapot."
 
-#: includes/Submission.php:232
+#: includes/Submission.php:234
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "Túl sok beküldés. Várjon egy percet, és próbálja újra."
 

@@ -432,3 +432,23 @@ ffb213|Voliteľné. Zobrazí sa nad formulárom, keď je v bloku zapnuté „Zob
 6cf0ea|Bezplatná verzia SmokyForms vám každý záznam pošle e-mailom a neukladá ho. SmokyForms Pro (čoskoro) ukladá všetky záznamy do nástenky, s vyhľadávaním a exportom do CSV. Ak sa e-mail nepodarí odoslať, záznam sa uchová v SmokyForms > Nedoručené.
 babed6|Bezplatná verzia SmokyForms vám každý záznam pošle e-mailom a neukladá ho. SmokyForms Pro (čoskoro) ukladá všetky záznamy do nástenky, s vyhľadávaním a exportom do CSV. Ak upozornenie nemožno odoslať, záznam sa uchová, aby sa nestratil, a môžete ho znova odoslať v SmokyForms > Nedoručené.
 d72175|Téma
+8488fd|Jedinečná hodnota (referenčné číslo každého záznamu)
+7f33b6|ID formulára
+20fb21|Dátum vo vlastnom formáte
+81d3fe|ID stránky s formulárom
+cbf765|Parameter v adrese stránky
+ec0c43|Stránka, z ktorej návštevník prišiel
+787602|Autor stránky s formulárom
+5b77c1|E-mail autora stránky
+48f19a|ID autora stránky
+316c29|Prihlásený používateľ: ID
+46154b|Prihlásený používateľ: zobrazované meno
+7bc7f8|Prihlásený používateľ: celé meno
+e30b67|Prihlásený používateľ: meno
+d46f2b|Prihlásený používateľ: priezvisko
+2b1fed|Prihlásený používateľ: e-mail
+2fe616|Prihlásený používateľ: pole profilu
+45fb2d|Adresa prihlásenia
+a1782e|Adresa odhlásenia
+500aa5|Adresa registrácie
+b4494a|Adresa pre zabudnuté heslo

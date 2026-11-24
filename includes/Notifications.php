@@ -36,15 +36,54 @@ final class Notifications {
 	 */
 	public static function tags() {
 		return array(
-			'{all_fields}'  => __( 'All answers', 'smokyforms' ),
-			'{form_title}'  => __( 'Form name', 'smokyforms' ),
-			'{site_name}'   => __( 'Site name', 'smokyforms' ),
-			'{admin_email}' => __( 'Site admin email', 'smokyforms' ),
-			'{date}'        => __( 'Date and time', 'smokyforms' ),
-			'{page_url}'    => __( 'Page of the form', 'smokyforms' ),
-			'{page_title}'  => __( 'Title of the form page', 'smokyforms' ),
-			'{site_url}'    => __( 'Site address', 'smokyforms' ),
-			'{user_ip}'     => __( 'Visitor IP address', 'smokyforms' ),
+			'{all_fields}'           => __( 'All answers', 'smokyforms' ),
+			'{unique_value}'         => __( 'Unique value (a reference number for each entry)', 'smokyforms' ),
+			'{form_title}'           => __( 'Form name', 'smokyforms' ),
+			'{form_id}'              => __( 'Form ID', 'smokyforms' ),
+			'{date}'                 => __( 'Date and time', 'smokyforms' ),
+			'{date:d.m.Y}'           => __( 'Date in your own format', 'smokyforms' ),
+			'{site_name}'            => __( 'Site name', 'smokyforms' ),
+			'{site_url}'             => __( 'Site address', 'smokyforms' ),
+			'{admin_email}'          => __( 'Site admin email', 'smokyforms' ),
+			'{page_url}'             => __( 'Page of the form', 'smokyforms' ),
+			'{page_title}'           => __( 'Title of the form page', 'smokyforms' ),
+			'{page_id}'              => __( 'ID of the form page', 'smokyforms' ),
+			'{query_var:utm_source}' => __( 'Parameter in the page address', 'smokyforms' ),
+			'{url_referer}'          => __( 'Page the visitor came from', 'smokyforms' ),
+			'{author_display}'       => __( 'Author of the form page', 'smokyforms' ),
+			'{author_email}'         => __( 'Email of the page author', 'smokyforms' ),
+			'{author_id}'            => __( 'ID of the page author', 'smokyforms' ),
+			'{user_ip}'              => __( 'Visitor IP address', 'smokyforms' ),
+			'{user_id}'              => __( 'Logged-in user: ID', 'smokyforms' ),
+			'{user_display}'         => __( 'Logged-in user: display name', 'smokyforms' ),
+			'{user_full_name}'       => __( 'Logged-in user: full name', 'smokyforms' ),
+			'{user_first_name}'      => __( 'Logged-in user: first name', 'smokyforms' ),
+			'{user_last_name}'       => __( 'Logged-in user: last name', 'smokyforms' ),
+			'{user_email}'           => __( 'Logged-in user: email', 'smokyforms' ),
+			'{user_meta:nickname}'   => __( 'Logged-in user: profile field', 'smokyforms' ),
+			'{url_login}'            => __( 'Login address', 'smokyforms' ),
+			'{url_logout}'           => __( 'Logout address', 'smokyforms' ),
+			'{url_register}'         => __( 'Registration address', 'smokyforms' ),
+			'{url_lost_password}'    => __( 'Lost password address', 'smokyforms' ),
+		);
+	}
+
+	/**
+	 * Details of one submission that smart tags use, kept with the values (key "_meta")
+	 * so that a resend from Undelivered shows the same reference number, page and visitor.
+	 *
+	 * @param string $page     Page of the form.
+	 * @param string $referrer Page the visitor came from.
+	 * @return array
+	 */
+	public static function context( $page = '', $referrer = '' ) {
+		return array(
+			'unique'   => strtoupper( bin2hex( random_bytes( 6 ) ) ),
+			'page'     => $page ? esc_url_raw( $page ) : '',
+			'referrer' => $referrer ? esc_url_raw( $referrer ) : '',
+			'ip'       => self::ip(),
+			'user'     => get_current_user_id(),
+			'time'     => time(),
 		);
 	}
 
@@ -168,16 +207,59 @@ final class Notifications {
 	 * @return string
 	 */
 	public static function replace( $text, $form, $values, $html ) {
-		$page = wp_get_raw_referer();
+		$meta = isset( $values['_meta'] ) && is_array( $values['_meta'] ) ? $values['_meta'] : self::context( (string) wp_get_raw_referer() );
+		$page = (string) ( $meta['page'] ?? '' );
+		$time = (int) ( $meta['time'] ?? time() );
+		$pid  = $page ? url_to_postid( $page ) : 0;
+		$post = $pid ? get_post( $pid ) : null;
+		$auth = $post ? get_userdata( (int) $post->post_author ) : false;
+		$user = ! empty( $meta['user'] ) ? get_userdata( (int) $meta['user'] ) : false;
 		$map  = array(
-			'{form_title}'  => $form['title'],
-			'{site_name}'   => wp_specialchars_decode( get_bloginfo( 'name' ), ENT_QUOTES ),
-			'{admin_email}' => get_option( 'admin_email' ),
-			'{date}'        => wp_date( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ) ),
-			'{page_url}'    => $page ? esc_url_raw( $page ) : '',
-			'{page_title}'  => $page && url_to_postid( $page ) ? wp_specialchars_decode( get_the_title( url_to_postid( $page ) ), ENT_QUOTES ) : '',
-			'{site_url}'    => home_url( '/' ),
-			'{user_ip}'     => self::ip(),
+			'{unique_value}'      => (string) ( $meta['unique'] ?? '' ),
+			'{form_title}'        => $form['title'],
+			'{form_id}'           => (string) $form['id'],
+			'{site_name}'         => wp_specialchars_decode( get_bloginfo( 'name' ), ENT_QUOTES ),
+			'{site_url}'          => home_url( '/' ),
+			'{admin_email}'       => get_option( 'admin_email' ),
+			'{date}'              => wp_date( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), $time ),
+			'{page_url}'          => $page,
+			'{page_title}'        => $post ? wp_specialchars_decode( get_the_title( $post ), ENT_QUOTES ) : '',
+			'{page_id}'           => $pid ? (string) $pid : '',
+			'{url_referer}'       => (string) ( $meta['referrer'] ?? '' ),
+			'{author_display}'    => $auth ? $auth->display_name : '',
+			'{author_email}'      => $auth ? $auth->user_email : '',
+			'{author_id}'         => $auth ? (string) $auth->ID : '',
+			'{user_ip}'           => (string) ( $meta['ip'] ?? '' ),
+			'{user_id}'           => $user ? (string) $user->ID : '',
+			'{user_display}'      => $user ? $user->display_name : '',
+			'{user_full_name}'    => $user ? trim( $user->first_name . ' ' . $user->last_name ) : '',
+			'{user_first_name}'   => $user ? $user->first_name : '',
+			'{user_last_name}'    => $user ? $user->last_name : '',
+			'{user_email}'        => $user ? $user->user_email : '',
+			'{url_login}'         => wp_login_url(),
+			'{url_logout}'        => wp_logout_url(),
+			'{url_register}'      => wp_registration_url(),
+			'{url_lost_password}' => wp_lostpassword_url(),
+		);
+		// Tags with a value of their own: {date:FORMAT}, {query_var:NAME}, {user_meta:KEY}.
+		$args = array();
+		parse_str( (string) wp_parse_url( $page, PHP_URL_QUERY ), $args );
+		$text = preg_replace_callback(
+			'/\{(date|query_var|user_meta):([^}]{1,60})\}/',
+			static function ( $m ) use ( $time, $args, $user, &$map ) {
+				$v = '';
+				if ( 'date' === $m[1] ) {
+					$v = wp_date( $m[2], $time );
+				} elseif ( 'query_var' === $m[1] ) {
+					$v = isset( $args[ $m[2] ] ) && is_scalar( $args[ $m[2] ] ) ? sanitize_text_field( (string) $args[ $m[2] ] ) : '';
+				} elseif ( $user && ! is_protected_meta( $m[2], 'user' ) && false === stripos( $m[2], 'pass' ) && false === stripos( $m[2], 'token' ) && false === stripos( $m[2], 'session' ) ) {
+					$meta = get_user_meta( $user->ID, $m[2], true );
+					$v    = is_scalar( $meta ) ? (string) $meta : '';
+				}
+				$map[ $m[0] ] = (string) $v;
+				return $m[0];
+			},
+			$text
 		);
 		if ( $html ) {
 			// The text itself may contain HTML (kept to what posts allow); the answers are escaped.

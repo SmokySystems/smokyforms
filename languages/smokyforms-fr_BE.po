@@ -210,7 +210,7 @@ msgstr "Descendre"
 msgid "Duplicate"
 msgstr "Dupliquer"
 
-#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:133
+#: assets/js/builder.js:436 assets/js/builder.js:1008 includes/Admin/UndeliveredPage.php:136
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -264,11 +264,11 @@ msgstr "Écrire la formule"
 msgid "Undo"
 msgstr "Annuler"
 
-#: assets/js/builder.js:620 includes/Renderer.php:403
+#: assets/js/builder.js:620 includes/Renderer.php:404
 msgid "Clear"
 msgstr "Effacer"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1423 assets/js/builder.js:1812 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1426 assets/js/builder.js:1814 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Champs"
 
@@ -492,7 +492,7 @@ msgstr "Texte à côté de la case"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Les liens sont autorisés, par exemple vers votre politique de confidentialité."
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1572
+#: assets/js/builder.js:1082 assets/js/builder.js:1574
 msgid "Text"
 msgstr "Texte"
 
@@ -549,7 +549,7 @@ msgstr "Nombre maximum de lignes"
 msgid "Text of the add button"
 msgstr "Texte du bouton d’ajout"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:414
+#: assets/js/builder.js:1132 includes/Renderer.php:415
 msgid "Add another"
 msgstr "Ajouter un autre"
 
@@ -557,7 +557,7 @@ msgstr "Ajouter un autre"
 msgid "Next button"
 msgstr "Bouton Suivant"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:222
+#: assets/js/builder.js:1140 includes/Renderer.php:223
 msgid "Next"
 msgstr "Suivant"
 
@@ -565,11 +565,11 @@ msgstr "Suivant"
 msgid "Back button"
 msgstr "Bouton Retour"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:223
+#: assets/js/builder.js:1143 includes/Renderer.php:224
 msgid "Previous"
 msgstr "Précédent"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1707 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1709 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Calcul"
 
@@ -689,196 +689,196 @@ msgstr "Ligne 1"
 msgid "Add price table"
 msgstr "Ajouter une grille tarifaire"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Hide smart tags"
 msgstr "Masquer les balises dynamiques"
 
-#: assets/js/builder.js:1418
+#: assets/js/builder.js:1421
 msgid "Show smart tags"
 msgstr "Afficher les balises dynamiques"
 
-#: assets/js/builder.js:1429 assets/js/builder.js:1677
-msgid "Add an Email field to the form first."
-msgstr "Ajoutez d’abord un champ E-mail au formulaire."
-
-#: assets/js/builder.js:1430
+#: assets/js/builder.js:1432
 msgid "Other"
 msgstr "Autres"
 
-#: assets/js/builder.js:1475
+#: assets/js/builder.js:1477
 msgid "Search pages or paste an address"
 msgstr "Rechercher des pages ou coller une adresse"
 
-#: assets/js/builder.js:1545
+#: assets/js/builder.js:1547
 msgid "Theme"
 msgstr "Thème"
 
-#: assets/js/builder.js:1559 assets/js/builder.js:1585
+#: assets/js/builder.js:1561 assets/js/builder.js:1587
 msgid "Use the theme style"
 msgstr "Utiliser le style du thème"
 
-#: assets/js/builder.js:1567
+#: assets/js/builder.js:1569
 msgid "Button style"
 msgstr "Style du bouton"
 
-#: assets/js/builder.js:1568
+#: assets/js/builder.js:1570
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "Par défaut, les boutons ressemblent à ceux de votre thème. Choisissez des couleurs seulement si vous les voulez différents."
 
-#: assets/js/builder.js:1570
+#: assets/js/builder.js:1572
 msgid "Background"
 msgstr "Arrière-plan"
 
-#: assets/js/builder.js:1571
+#: assets/js/builder.js:1573
 msgid "Background on hover"
 msgstr "Arrière-plan au survol"
 
-#: assets/js/builder.js:1573
+#: assets/js/builder.js:1575
 msgid "Text on hover"
 msgstr "Texte au survol"
 
-#: assets/js/builder.js:1576
+#: assets/js/builder.js:1578
 msgid "Preview"
 msgstr "Aperçu"
 
-#: assets/js/builder.js:1606 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1608 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "Général"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 msgid "Form description"
 msgstr "Description du formulaire"
 
-#: assets/js/builder.js:1607
+#: assets/js/builder.js:1609
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "Facultatif. Affichée au-dessus du formulaire quand « Afficher la description du formulaire » est activé dans le bloc, ou avec %s. Le HTML est autorisé."
 
-#: assets/js/builder.js:1610
+#: assets/js/builder.js:1612
 msgid "Button text"
 msgstr "Texte du bouton"
 
-#: assets/js/builder.js:1613
+#: assets/js/builder.js:1615
 msgid "Message after sending"
 msgstr "Message après l’envoi"
 
-#: assets/js/builder.js:1613 assets/js/builder.js:1653 assets/js/builder.js:1681
+#: assets/js/builder.js:1615 assets/js/builder.js:1655 assets/js/builder.js:1683
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "Le HTML est autorisé, par exemple <strong>, <a href=\"...\"> ou <img src=\"...\">."
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Or go to this page after sending"
 msgstr "Ou aller à cette page après l’envoi"
 
-#: assets/js/builder.js:1616
+#: assets/js/builder.js:1618
 msgid "Leave empty to show the message instead."
 msgstr "Laissez vide pour afficher le message à la place."
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "Show the progress bar"
 msgstr "Afficher la barre de progression"
 
-#: assets/js/builder.js:1621
+#: assets/js/builder.js:1623
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Pour les formulaires avec sauts de page : « Étape 1 sur 3 » au-dessus du formulaire."
 
-#: assets/js/builder.js:1625 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1627 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Protéger ce formulaire avec le CAPTCHA configuré dans les réglages."
 
-#: assets/js/builder.js:1626
+#: assets/js/builder.js:1628
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Aucun CAPTCHA n’est encore configuré. Vous pouvez en ajouter un dans SmokyForms > Réglages. Le champ piège et le contrôle du temps protègent de toute façon chaque formulaire."
 
-#: assets/js/builder.js:1639
+#: assets/js/builder.js:1641
 msgid "Notification to you"
 msgstr "Notification pour vous"
 
-#: assets/js/builder.js:1640
+#: assets/js/builder.js:1642
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "La version gratuite de SmokyForms vous envoie chaque réponse par e-mail et ne l’enregistre pas. SmokyForms Pro (bientôt disponible) enregistre toutes les réponses dans votre tableau de bord, avec recherche et export CSV. Si l’e-mail échoue, l’entrée est conservée dans SmokyForms > Non distribuées."
 
-#: assets/js/builder.js:1641
+#: assets/js/builder.js:1643
 msgid "Send me an email for every entry"
 msgstr "M’envoyer un e-mail pour chaque entrée"
 
-#: assets/js/builder.js:1647 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1649 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Envoyer à"
 
-#: assets/js/builder.js:1647
+#: assets/js/builder.js:1649
 msgid "Separate several addresses with commas."
 msgstr "Séparez plusieurs adresses par des virgules."
 
-#: assets/js/builder.js:1650 assets/js/builder.js:1678
+#: assets/js/builder.js:1652 assets/js/builder.js:1680
 msgid "Subject"
 msgstr "Objet"
 
-#: assets/js/builder.js:1653 assets/js/builder.js:1681 includes/Templates.php:92
+#: assets/js/builder.js:1655 assets/js/builder.js:1683 includes/Templates.php:92
 msgid "Message"
 msgstr "Message"
 
-#: assets/js/builder.js:1660
+#: assets/js/builder.js:1662
 msgid "Confirmation to the visitor"
 msgstr "Confirmation au visiteur"
 
-#: assets/js/builder.js:1661
+#: assets/js/builder.js:1663
 msgid "Send the visitor a confirmation email"
 msgstr "Envoyer un e-mail de confirmation au visiteur"
 
-#: assets/js/builder.js:1668
+#: assets/js/builder.js:1670
 msgid "Address from the field"
 msgstr "Adresse prise dans le champ"
 
-#: assets/js/builder.js:1695 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1679
+msgid "Add an Email field to the form first."
+msgstr "Ajoutez d’abord un champ E-mail au formulaire."
+
+#: assets/js/builder.js:1697 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Ajouter un formulaire"
 
-#: assets/js/builder.js:1696
+#: assets/js/builder.js:1698
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Commencez avec un formulaire prêt à l’emploi ou un formulaire vide. Tous les modèles, calculateurs compris, sont gratuits."
 
-#: assets/js/builder.js:1787
+#: assets/js/builder.js:1789
 msgid "The form could not be saved."
 msgstr "Le formulaire n’a pas pu être enregistré."
 
-#: assets/js/builder.js:1798 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1800 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Tous les formulaires"
 
-#: assets/js/builder.js:1799 assets/js/builder.js:1799 includes/Notifications.php:40
+#: assets/js/builder.js:1801 assets/js/builder.js:1801 includes/Notifications.php:41
 msgid "Form name"
 msgstr "Nom du formulaire"
 
-#: assets/js/builder.js:1803 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1805 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Code court"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Saving…"
 msgstr "Enregistrement…"
 
-#: assets/js/builder.js:1806
+#: assets/js/builder.js:1808
 msgid "Save form"
 msgstr "Enregistrer le formulaire"
 
-#: assets/js/builder.js:1812
+#: assets/js/builder.js:1814
 msgid "Price tables"
 msgstr "Grilles tarifaires"
 
-#: assets/js/builder.js:1812 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1814 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Réglages"
 
-#: assets/js/builder.js:1934
+#: assets/js/builder.js:1936
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Ajoutez-le à une page avec le bloc SmokyForms ou le code court."
 
-#: assets/js/builder.js:1935
+#: assets/js/builder.js:1937
 msgid "You have unsaved changes."
 msgstr "Vous avez des modifications non enregistrées."
 
@@ -1054,15 +1054,15 @@ msgstr "Formulaire supprimé"
 msgid "Reason:"
 msgstr "Raison :"
 
-#: includes/Admin/UndeliveredPage.php:130
+#: includes/Admin/UndeliveredPage.php:133
 msgid "Send again"
 msgstr "Renvoyer"
 
-#: includes/Admin/UndeliveredPage.php:138
+#: includes/Admin/UndeliveredPage.php:141
 msgid "Delete this entry for good?"
 msgstr "Supprimer définitivement cette entrée ?"
 
-#: includes/Admin/UndeliveredPage.php:139
+#: includes/Admin/UndeliveredPage.php:142
 msgid "Yes, delete"
 msgstr "Oui, supprimer"
 
@@ -1134,7 +1134,7 @@ msgstr "Signature"
 msgid "Page break"
 msgstr "Saut de page"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:623 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:624 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "Ce champ est obligatoire."
 
@@ -1158,11 +1158,11 @@ msgstr[1] "Veuillez remplir au plus %s lignes."
 msgid "The signature could not be read. Please sign again."
 msgstr "La signature n’a pas pu être lue. Veuillez signer à nouveau."
 
-#: includes/Fields.php:316 includes/Renderer.php:624
+#: includes/Fields.php:316 includes/Renderer.php:625
 msgid "Please enter a valid email address."
 msgstr "Veuillez saisir une adresse e-mail valide."
 
-#: includes/Fields.php:324 includes/Renderer.php:625
+#: includes/Fields.php:324 includes/Renderer.php:626
 msgid "Please enter a valid website address."
 msgstr "Veuillez saisir une adresse de site web valide."
 
@@ -1170,7 +1170,7 @@ msgstr "Veuillez saisir une adresse de site web valide."
 msgid "Please enter a valid phone number."
 msgstr "Veuillez saisir un numéro de téléphone valide."
 
-#: includes/Fields.php:336 includes/Renderer.php:626
+#: includes/Fields.php:336 includes/Renderer.php:627
 msgid "Please enter a number."
 msgstr "Veuillez saisir un nombre."
 
@@ -1190,7 +1190,7 @@ msgstr "Veuillez saisir un nombre d’au plus %s."
 msgid "Please enter a valid date."
 msgstr "Veuillez saisir une date valide."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:636
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:637
 msgid "Please choose one of the options."
 msgstr "Veuillez choisir l’une des options."
 
@@ -1248,35 +1248,115 @@ msgstr ""
 msgid "All answers"
 msgstr "Toutes les réponses"
 
-#: includes/Notifications.php:41
-msgid "Site name"
-msgstr "Nom du site"
+#: includes/Notifications.php:40
+msgid "Unique value (a reference number for each entry)"
+msgstr "Valeur unique (un numéro de référence pour chaque réponse)"
 
 #: includes/Notifications.php:42
-msgid "Site admin email"
-msgstr "E-mail de l’administrateur du site"
+msgid "Form ID"
+msgstr "ID du formulaire"
 
 #: includes/Notifications.php:43
 msgid "Date and time"
 msgstr "Date et heure"
 
 #: includes/Notifications.php:44
-msgid "Page of the form"
-msgstr "Page du formulaire"
+msgid "Date in your own format"
+msgstr "Date dans votre propre format"
 
 #: includes/Notifications.php:45
-msgid "Title of the form page"
-msgstr "Titre de la page du formulaire"
+msgid "Site name"
+msgstr "Nom du site"
 
 #: includes/Notifications.php:46
 msgid "Site address"
 msgstr "Adresse du site"
 
 #: includes/Notifications.php:47
+msgid "Site admin email"
+msgstr "E-mail de l’administrateur du site"
+
+#: includes/Notifications.php:48
+msgid "Page of the form"
+msgstr "Page du formulaire"
+
+#: includes/Notifications.php:49
+msgid "Title of the form page"
+msgstr "Titre de la page du formulaire"
+
+#: includes/Notifications.php:50
+msgid "ID of the form page"
+msgstr "ID de la page du formulaire"
+
+#: includes/Notifications.php:51
+msgid "Parameter in the page address"
+msgstr "Paramètre dans l’adresse de la page"
+
+#: includes/Notifications.php:52
+msgid "Page the visitor came from"
+msgstr "Page d’où vient le visiteur"
+
+#: includes/Notifications.php:53
+msgid "Author of the form page"
+msgstr "Auteur de la page du formulaire"
+
+#: includes/Notifications.php:54
+msgid "Email of the page author"
+msgstr "E-mail de l’auteur de la page"
+
+#: includes/Notifications.php:55
+msgid "ID of the page author"
+msgstr "ID de l’auteur de la page"
+
+#: includes/Notifications.php:56
 msgid "Visitor IP address"
 msgstr "Adresse IP du visiteur"
 
-#: includes/Notifications.php:112
+#: includes/Notifications.php:57
+msgid "Logged-in user: ID"
+msgstr "Utilisateur connecté : ID"
+
+#: includes/Notifications.php:58
+msgid "Logged-in user: display name"
+msgstr "Utilisateur connecté : nom affiché"
+
+#: includes/Notifications.php:59
+msgid "Logged-in user: full name"
+msgstr "Utilisateur connecté : nom complet"
+
+#: includes/Notifications.php:60
+msgid "Logged-in user: first name"
+msgstr "Utilisateur connecté : prénom"
+
+#: includes/Notifications.php:61
+msgid "Logged-in user: last name"
+msgstr "Utilisateur connecté : nom"
+
+#: includes/Notifications.php:62
+msgid "Logged-in user: email"
+msgstr "Utilisateur connecté : e-mail"
+
+#: includes/Notifications.php:63
+msgid "Logged-in user: profile field"
+msgstr "Utilisateur connecté : champ du profil"
+
+#: includes/Notifications.php:64
+msgid "Login address"
+msgstr "Adresse de connexion"
+
+#: includes/Notifications.php:65
+msgid "Logout address"
+msgstr "Adresse de déconnexion"
+
+#: includes/Notifications.php:66
+msgid "Registration address"
+msgstr "Adresse d’inscription"
+
+#: includes/Notifications.php:67
+msgid "Lost password address"
+msgstr "Adresse de mot de passe oublié"
+
+#: includes/Notifications.php:151
 msgid "The site could not send the email."
 msgstr "Le site n’a pas pu envoyer l’e-mail."
 
@@ -1284,16 +1364,16 @@ msgstr "Le site n’a pas pu envoyer l’e-mail."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms : ce formulaire n’existe pas."
 
-#: includes/Renderer.php:240
+#: includes/Renderer.php:241
 msgid "Leave this field empty"
 msgstr "Laissez ce champ vide"
 
-#: includes/Renderer.php:259 includes/Renderer.php:628 includes/Submission.php:176
+#: includes/Renderer.php:260 includes/Renderer.php:629 includes/Submission.php:176
 msgid "Please check the form and try again."
 msgstr "Veuillez vérifier le formulaire et réessayer."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:375
+#: includes/Renderer.php:376
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1301,53 +1381,53 @@ msgstr[0] "%s étoile"
 msgstr[1] "%s étoiles"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:387
+#: includes/Renderer.php:388
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Types de fichiers autorisés : %1$s. Jusqu’à %2$s Mo par fichier."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:389 includes/Uploads.php:112
+#: includes/Renderer.php:390 includes/Uploads.php:112
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Vous pouvez envoyer au plus %s fichier."
 msgstr[1] "Vous pouvez envoyer au plus %s fichiers."
 
-#: includes/Renderer.php:405
+#: includes/Renderer.php:406
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "La signature nécessite JavaScript. Veuillez l’activer dans votre navigateur."
 
-#: includes/Renderer.php:427
+#: includes/Renderer.php:428
 msgid "Choose…"
 msgstr "Choisir…"
 
-#: includes/Renderer.php:513 includes/Renderer.php:513
+#: includes/Renderer.php:514 includes/Renderer.php:514
 msgid "Remove this row"
 msgstr "Supprimer cette ligne"
 
-#: includes/Renderer.php:627
+#: includes/Renderer.php:628
 msgid "Sending…"
 msgstr "Envoi…"
 
-#: includes/Renderer.php:629
+#: includes/Renderer.php:630
 msgid "The form could not be sent. Please try again."
 msgstr "Le formulaire n’a pas pu être envoyé. Veuillez réessayer."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:631
+#: includes/Renderer.php:632
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Étape %1$s sur %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:633 includes/Uploads.php:125
+#: includes/Renderer.php:634 includes/Uploads.php:125
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s dépasse %2$s Mo."
 
 #. translators: %s: file name
-#: includes/Renderer.php:635 includes/Uploads.php:130
+#: includes/Renderer.php:636 includes/Uploads.php:130
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s : ce type de fichier n’est pas autorisé."
@@ -1356,15 +1436,15 @@ msgstr "%s : ce type de fichier n’est pas autorisé."
 msgid "None"
 msgstr "Aucun"
 
-#: includes/Submission.php:221
+#: includes/Submission.php:223
 msgid "The form could not be checked. Please reload the page and try again."
 msgstr "Le formulaire n’a pas pu être vérifié. Veuillez recharger la page et réessayer."
 
-#: includes/Submission.php:224
+#: includes/Submission.php:226
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "C’était très rapide. Patientez un instant et renvoyez le formulaire."
 
-#: includes/Submission.php:232
+#: includes/Submission.php:234
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "Trop d’envois. Patientez une minute et réessayez."
 

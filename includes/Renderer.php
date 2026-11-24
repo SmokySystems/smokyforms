@@ -197,6 +197,7 @@ final class Renderer {
 			<input type="hidden" name="action" value="smokyforms_submit">
 			<input type="hidden" name="smokyforms_id" value="<?php echo esc_attr( (string) $form['id'] ); ?>">
 			<input type="hidden" name="smokyforms_t" value="<?php echo esc_attr( Submission::time_token() ); ?>">
+			<input type="hidden" name="smokyforms_referrer" value="">
 			<?php if ( ! empty( $show['title'] ) || ( ! empty( $show['description'] ) && '' !== trim( $form['settings']['description'] ) ) ) : ?>
 			<div class="smokyforms-header">
 				<?php if ( ! empty( $show['title'] ) ) : ?>

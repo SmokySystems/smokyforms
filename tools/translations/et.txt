@@ -432,3 +432,23 @@ ffb213|Valikuline. Näidatakse vormi kohal, kui plokis on sees „Näita vormi k
 6cf0ea|SmokyFormsi tasuta versioon saadab iga vastuse sulle meiliga ega salvesta seda. SmokyForms Pro (peagi) salvestab kõik vastused töölauale, otsingu ja CSV-ekspordiga. Kui e-kiri ebaõnnestub, säilitatakse sisestus jaotises SmokyForms > Kohale toimetamata.
 babed6|SmokyFormsi tasuta versioon saadab iga vastuse sulle meiliga ega salvesta seda. SmokyForms Pro (peagi) salvestab kõik vastused töölauale, otsingu ja CSV-ekspordiga. Kui teavituskirja ei saa saata, säilitatakse sisestus, et see kaduma ei läheks, ja saad selle uuesti saata jaotises SmokyForms > Kohale toimetamata.
 d72175|Teema
+8488fd|Unikaalne väärtus (iga vastuse viitenumber)
+7f33b6|Vormi ID
+20fb21|Kuupäev sinu enda vormingus
+81d3fe|Vormi lehe ID
+cbf765|Parameeter lehe aadressis
+ec0c43|Leht, kust külastaja tuli
+787602|Vormi lehe autor
+5b77c1|Lehe autori e-post
+48f19a|Lehe autori ID
+316c29|Sisselogitud kasutaja: ID
+46154b|Sisselogitud kasutaja: kuvatav nimi
+7bc7f8|Sisselogitud kasutaja: täisnimi
+e30b67|Sisselogitud kasutaja: eesnimi
+d46f2b|Sisselogitud kasutaja: perekonnanimi
+2b1fed|Sisselogitud kasutaja: e-post
+2fe616|Sisselogitud kasutaja: profiiliväli
+45fb2d|Sisselogimise aadress
+a1782e|Väljalogimise aadress
+500aa5|Registreerumise aadress
+b4494a|Unustatud parooli aadress
