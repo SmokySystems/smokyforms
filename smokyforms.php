@@ -3,7 +3,7 @@
  * Plugin Name:       SmokyForms – Drag and Drop Form Builder with Calculations
  * Plugin URI:        https://www.smokyforms.com
  * Description:       Drag and drop form builder with calculations included for free. Build contact forms, quote and order forms and calculators without writing formulas.
- * Version:           0.2.5
+ * Version:           0.2.6
  * Requires at least: 6.2
  * Requires PHP:      7.4
  * Author:            SmokySystems
@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SMOKYFORMS_VERSION', '0.2.5' );
+define( 'SMOKYFORMS_VERSION', '0.2.6' );
 define( 'SMOKYFORMS_FILE', __FILE__ );
 define( 'SMOKYFORMS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SMOKYFORMS_URL', plugin_dir_url( __FILE__ ) );

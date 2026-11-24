@@ -213,7 +213,7 @@ final class Formula {
 	 */
 	private function expect( $op ) {
 		if ( ! $this->is( $op ) ) {
-			throw new \InvalidArgumentException( 'Expected ' . $op );
+			throw new \InvalidArgumentException( 'Expected ' . esc_html( $op ) );
 		}
 		$this->p++;
 	}
@@ -472,7 +472,7 @@ final class Formula {
 				}
 				return ( 0.0 == $args[0] || 0.0 == $args[1] ) ? 0.0 : $args[1] - $args[0]; // phpcs:ignore Universal.Operators.StrictComparisons
 		}
-		throw new \InvalidArgumentException( 'Unknown function or wrong arguments: ' . $name );
+		throw new \InvalidArgumentException( 'Unknown function or wrong arguments: ' . esc_html( $name ) );
 	}
 
 	/**

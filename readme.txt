@@ -4,7 +4,7 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.5
+Stable tag: 0.2.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -139,6 +139,9 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.2.6 =
+* Error messages from the formula parser are escaped, as the plugin directory checks require.
 
 = 0.2.5 =
 * New: a simple math question (such as 7 + 4) as spam protection. It needs no account, key or outside service, and works alone or together with a CAPTCHA. Switch it on under SmokyForms > Settings.
