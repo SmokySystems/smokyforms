@@ -4,7 +4,7 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.3
+Stable tag: 0.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -139,6 +139,10 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.2.4 =
+* Updates show up straight away on sites that strip the version number from script and style addresses (before, the browser could keep the old files).
+* The form builder no longer says there are unsaved changes just because the settings tab was opened.
 
 = 0.2.3 =
 * Smart tags are picked from a tag icon next to each email and message setting.

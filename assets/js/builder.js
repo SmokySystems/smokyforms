@@ -1402,8 +1402,17 @@
 					height: 200,
 					toolbar1: 'formatselect,bold,italic,underline,bullist,numlist,blockquote,alignleft,aligncenter,alignright,link,unlink,forecolor,undo,redo',
 					setup: function ( editor ) {
+						var baseline = null;
+						editor.on( 'init', function () {
+							baseline = editor.getContent();
+						} );
 						editor.on( 'change keyup input SetContent ExecCommand', function () {
-							latest.current( editor.getContent() );
+							var content = editor.getContent();
+							if ( baseline === null || content === baseline ) {
+								return;
+							}
+							baseline = content;
+							latest.current( content );
 						} );
 					},
 				},
