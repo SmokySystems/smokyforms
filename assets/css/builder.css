@@ -314,3 +314,17 @@
 	font-size: 13px !important;
 	font-weight: 500;
 }
+.smokyforms-tag-toggle.components-button {
+	gap: 4px;
+	color: #2271b1;
+}
+.smokyforms-tag-toggle.is-pressed {
+	background: #f0f6fc;
+}
+.smokyforms-tag-input .wp-editor-wrap {
+	margin-top: 4px;
+}
+.smokyforms-tag-input .wp-editor-area {
+	font-family: Menlo, Consolas, monospace;
+	font-size: 12px;
+}

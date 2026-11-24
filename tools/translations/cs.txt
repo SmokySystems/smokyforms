@@ -452,3 +452,4 @@ d46f2b|Přihlášený uživatel: příjmení
 a1782e|Adresa odhlášení
 500aa5|Adresa registrace
 b4494a|Adresa pro zapomenuté heslo
+98400a|Chytré značky

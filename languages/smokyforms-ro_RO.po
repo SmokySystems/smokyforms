@@ -268,7 +268,7 @@ msgstr "Anulează"
 msgid "Clear"
 msgstr "Golește"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1426 assets/js/builder.js:1814 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1489 assets/js/builder.js:1881 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Câmpuri"
 
@@ -492,7 +492,7 @@ msgstr "Text lângă casetă"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Sunt permise linkuri, de exemplu către politica de confidențialitate."
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1574
+#: assets/js/builder.js:1082 assets/js/builder.js:1641
 msgid "Text"
 msgstr "Text"
 
@@ -569,7 +569,7 @@ msgstr "Butonul Înapoi"
 msgid "Previous"
 msgstr "Înapoi"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1709 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1776 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Calcul"
 
@@ -689,200 +689,204 @@ msgstr "Rândul 1"
 msgid "Add price table"
 msgstr "Adaugă tabel de prețuri"
 
-#: assets/js/builder.js:1421
+#: assets/js/builder.js:1478
 msgid "Hide smart tags"
 msgstr "Ascunde etichetele inteligente"
 
-#: assets/js/builder.js:1421
+#: assets/js/builder.js:1478
 msgid "Show smart tags"
 msgstr "Arată etichetele inteligente"
 
-#: assets/js/builder.js:1432
+#: assets/js/builder.js:1484
+msgid "Smart tags"
+msgstr "Etichete inteligente"
+
+#: assets/js/builder.js:1497
 msgid "Other"
 msgstr "Altele"
 
-#: assets/js/builder.js:1477
+#: assets/js/builder.js:1544
 msgid "Search pages or paste an address"
 msgstr "Caută pagini sau lipește o adresă"
 
-#: assets/js/builder.js:1547
+#: assets/js/builder.js:1614
 msgid "Theme"
 msgstr "Temă"
 
-#: assets/js/builder.js:1561 assets/js/builder.js:1587
+#: assets/js/builder.js:1628 assets/js/builder.js:1654
 msgid "Use the theme style"
 msgstr "Folosește stilul temei"
 
-#: assets/js/builder.js:1569
+#: assets/js/builder.js:1636
 msgid "Button style"
 msgstr "Stilul butonului"
 
-#: assets/js/builder.js:1570
+#: assets/js/builder.js:1637
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "Implicit, butoanele arată ca butoanele temei tale. Alege culori doar dacă le vrei diferite."
 
-#: assets/js/builder.js:1572
+#: assets/js/builder.js:1639
 msgid "Background"
 msgstr "Fundal"
 
-#: assets/js/builder.js:1573
+#: assets/js/builder.js:1640
 msgid "Background on hover"
 msgstr "Fundal la trecerea cu mouse-ul"
 
-#: assets/js/builder.js:1575
+#: assets/js/builder.js:1642
 msgid "Text on hover"
 msgstr "Text la trecerea cu mouse-ul"
 
-#: assets/js/builder.js:1578
+#: assets/js/builder.js:1645
 msgid "Preview"
 msgstr "Previzualizare"
 
-#: assets/js/builder.js:1608 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1675 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "General"
 
-#: assets/js/builder.js:1609
+#: assets/js/builder.js:1676
 msgid "Form description"
 msgstr "Descrierea formularului"
 
-#: assets/js/builder.js:1609
+#: assets/js/builder.js:1676
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "Opțional. Apare deasupra formularului când „Afișează descrierea formularului” este activat în bloc, sau cu %s. HTML este permis."
 
-#: assets/js/builder.js:1612
+#: assets/js/builder.js:1679
 msgid "Button text"
 msgstr "Textul butonului"
 
-#: assets/js/builder.js:1615
+#: assets/js/builder.js:1682
 msgid "Message after sending"
 msgstr "Mesaj după trimitere"
 
-#: assets/js/builder.js:1615 assets/js/builder.js:1655 assets/js/builder.js:1683
+#: assets/js/builder.js:1682 assets/js/builder.js:1722 assets/js/builder.js:1750
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "HTML este permis, de exemplu <strong>, <a href=\"...\"> sau <img src=\"...\">."
 
-#: assets/js/builder.js:1618
+#: assets/js/builder.js:1685
 msgid "Or go to this page after sending"
 msgstr "Sau mergi la această pagină după trimitere"
 
-#: assets/js/builder.js:1618
+#: assets/js/builder.js:1685
 msgid "Leave empty to show the message instead."
 msgstr "Lasă gol pentru a afișa în schimb mesajul."
 
-#: assets/js/builder.js:1623
+#: assets/js/builder.js:1690
 msgid "Show the progress bar"
 msgstr "Afișează bara de progres"
 
-#: assets/js/builder.js:1623
+#: assets/js/builder.js:1690
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Pentru formulare cu întreruperi de pagină: „Pasul 1 din 3” deasupra formularului."
 
-#: assets/js/builder.js:1627 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1694 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1628
+#: assets/js/builder.js:1695
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Protejează acest formular cu CAPTCHA configurat în Setări."
 
-#: assets/js/builder.js:1628
+#: assets/js/builder.js:1695
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Încă nu este configurat niciun CAPTCHA. Poți adăuga unul în SmokyForms > Setări. Câmpul capcană și verificarea timpului protejează oricum fiecare formular."
 
-#: assets/js/builder.js:1641
+#: assets/js/builder.js:1708
 msgid "Notification to you"
 msgstr "Notificare pentru tine"
 
-#: assets/js/builder.js:1642
+#: assets/js/builder.js:1709
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "Versiunea gratuită SmokyForms îți trimite fiecare răspuns pe email și nu îl salvează. SmokyForms Pro (în curând) salvează toate răspunsurile în panoul tău, cu căutare și export CSV. Dacă emailul eșuează, înregistrarea este păstrată în SmokyForms > Nelivrate."
 
-#: assets/js/builder.js:1643
+#: assets/js/builder.js:1710
 msgid "Send me an email for every entry"
 msgstr "Trimite-mi un email pentru fiecare înregistrare"
 
-#: assets/js/builder.js:1649 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1716 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Trimite la"
 
-#: assets/js/builder.js:1649
+#: assets/js/builder.js:1716
 msgid "Separate several addresses with commas."
 msgstr "Separă mai multe adrese prin virgule."
 
-#: assets/js/builder.js:1652 assets/js/builder.js:1680
+#: assets/js/builder.js:1719 assets/js/builder.js:1747
 msgid "Subject"
 msgstr "Subiect"
 
-#: assets/js/builder.js:1655 assets/js/builder.js:1683 includes/Templates.php:92
+#: assets/js/builder.js:1722 assets/js/builder.js:1750 includes/Templates.php:92
 msgid "Message"
 msgstr "Mesaj"
 
-#: assets/js/builder.js:1662
+#: assets/js/builder.js:1729
 msgid "Confirmation to the visitor"
 msgstr "Confirmare pentru vizitator"
 
-#: assets/js/builder.js:1663
+#: assets/js/builder.js:1730
 msgid "Send the visitor a confirmation email"
 msgstr "Trimite vizitatorului un email de confirmare"
 
-#: assets/js/builder.js:1670
+#: assets/js/builder.js:1737
 msgid "Address from the field"
 msgstr "Adresa din câmpul"
 
-#: assets/js/builder.js:1679
+#: assets/js/builder.js:1746
 msgid "Add an Email field to the form first."
 msgstr "Adaugă mai întâi un câmp Email în formular."
 
-#: assets/js/builder.js:1697 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1764 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Adaugă un formular nou"
 
-#: assets/js/builder.js:1698
+#: assets/js/builder.js:1765
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Începe cu un formular gata făcut sau cu unul gol. Toate șabloanele, inclusiv calculatoarele, sunt gratuite."
 
-#: assets/js/builder.js:1789
+#: assets/js/builder.js:1856
 msgid "The form could not be saved."
 msgstr "Formularul nu a putut fi salvat."
 
-#: assets/js/builder.js:1800 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1867 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Toate formularele"
 
-#: assets/js/builder.js:1801 assets/js/builder.js:1801 includes/Notifications.php:41
+#: assets/js/builder.js:1868 assets/js/builder.js:1868 includes/Notifications.php:41
 msgid "Form name"
 msgstr "Numele formularului"
 
-#: assets/js/builder.js:1805 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1872 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Cod scurt"
 
-#: assets/js/builder.js:1808
+#: assets/js/builder.js:1875
 msgid "Saving…"
 msgstr "Se salvează…"
 
-#: assets/js/builder.js:1808
+#: assets/js/builder.js:1875
 msgid "Save form"
 msgstr "Salvează formularul"
 
-#: assets/js/builder.js:1814
+#: assets/js/builder.js:1881
 msgid "Price tables"
 msgstr "Tabele de prețuri"
 
-#: assets/js/builder.js:1814 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1881 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Setări"
 
-#: assets/js/builder.js:1936
+#: assets/js/builder.js:2003
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Adaugă-l într-o pagină cu blocul SmokyForms sau cu codul scurt."
 
-#: assets/js/builder.js:1937
+#: assets/js/builder.js:2004
 msgid "You have unsaved changes."
 msgstr "Ai modificări nesalvate."
 
-#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:217 includes/Submission.php:101
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:219 includes/Submission.php:101
 msgid "This form does not exist."
 msgstr "Acest formular nu există."
 
@@ -900,19 +904,19 @@ msgstr "Formular salvat."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Editează formularul &lsaquo; %s"
 
-#: includes/Admin/Builder.php:213 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
 msgid "You are not allowed to do this."
 msgstr "Nu ai permisiunea să faci asta."
 
-#: includes/Admin/Builder.php:217 includes/Forms.php:32
+#: includes/Admin/Builder.php:219 includes/Forms.php:32
 msgid "Edit Form"
 msgstr "Editează formularul"
 
-#: includes/Admin/Builder.php:220
+#: includes/Admin/Builder.php:222
 msgid "Loading the form builder…"
 msgstr "Se încarcă constructorul de formulare…"
 
-#: includes/Admin/Builder.php:220
+#: includes/Admin/Builder.php:222
 msgid "The form builder needs JavaScript."
 msgstr "Constructorul de formulare are nevoie de JavaScript."
 

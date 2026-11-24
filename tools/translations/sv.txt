@@ -452,3 +452,4 @@ d46f2b|Inloggad användare: efternamn
 a1782e|Utloggningsadress
 500aa5|Registreringsadress
 b4494a|Adress för glömt lösenord
+98400a|Smarta taggar

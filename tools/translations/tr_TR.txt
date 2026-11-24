@@ -452,3 +452,4 @@ d46f2b|Giriş yapmış kullanıcı: soyad
 a1782e|Çıkış adresi
 500aa5|Kayıt adresi
 b4494a|Parola sıfırlama adresi
+98400a|Akıllı etiketler

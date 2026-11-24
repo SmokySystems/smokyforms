@@ -452,3 +452,4 @@ d46f2b|Prihlásený používateľ: priezvisko
 a1782e|Adresa odhlásenia
 500aa5|Adresa registrácie
 b4494a|Adresa pre zabudnuté heslo
+98400a|Inteligentné značky

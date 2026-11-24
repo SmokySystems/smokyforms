@@ -452,3 +452,4 @@ d46f2b|Usuario conectado: apellidos
 a1782e|Dirección de cierre de sesión
 500aa5|Dirección de registro
 b4494a|Dirección de contraseña olvidada
+98400a|Etiquetas inteligentes

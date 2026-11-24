@@ -268,7 +268,7 @@ msgstr "Poništi"
 msgid "Clear"
 msgstr "Očisti"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1426 assets/js/builder.js:1814 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1489 assets/js/builder.js:1881 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Polja"
 
@@ -492,7 +492,7 @@ msgstr "Tekst pokraj potvrdnog okvira"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Poveznice su dopuštene, na primjer na vašu politiku privatnosti."
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1574
+#: assets/js/builder.js:1082 assets/js/builder.js:1641
 msgid "Text"
 msgstr "Tekst"
 
@@ -569,7 +569,7 @@ msgstr "Gumb Natrag"
 msgid "Previous"
 msgstr "Prethodno"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1709 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1776 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Izračun"
 
@@ -689,200 +689,204 @@ msgstr "Redak 1"
 msgid "Add price table"
 msgstr "Dodaj cjenik"
 
-#: assets/js/builder.js:1421
+#: assets/js/builder.js:1478
 msgid "Hide smart tags"
 msgstr "Sakrij pametne oznake"
 
-#: assets/js/builder.js:1421
+#: assets/js/builder.js:1478
 msgid "Show smart tags"
 msgstr "Prikaži pametne oznake"
 
-#: assets/js/builder.js:1432
+#: assets/js/builder.js:1484
+msgid "Smart tags"
+msgstr "Pametne oznake"
+
+#: assets/js/builder.js:1497
 msgid "Other"
 msgstr "Ostalo"
 
-#: assets/js/builder.js:1477
+#: assets/js/builder.js:1544
 msgid "Search pages or paste an address"
 msgstr "Pretražite stranice ili zalijepite adresu"
 
-#: assets/js/builder.js:1547
+#: assets/js/builder.js:1614
 msgid "Theme"
 msgstr "Tema"
 
-#: assets/js/builder.js:1561 assets/js/builder.js:1587
+#: assets/js/builder.js:1628 assets/js/builder.js:1654
 msgid "Use the theme style"
 msgstr "Koristi stil teme"
 
-#: assets/js/builder.js:1569
+#: assets/js/builder.js:1636
 msgid "Button style"
 msgstr "Stil gumba"
 
-#: assets/js/builder.js:1570
+#: assets/js/builder.js:1637
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "Prema zadanim postavkama gumbi izgledaju kao gumbi vaše teme. Odaberite boje samo ako želite da budu drukčiji."
 
-#: assets/js/builder.js:1572
+#: assets/js/builder.js:1639
 msgid "Background"
 msgstr "Pozadina"
 
-#: assets/js/builder.js:1573
+#: assets/js/builder.js:1640
 msgid "Background on hover"
 msgstr "Pozadina pri prelasku mišem"
 
-#: assets/js/builder.js:1575
+#: assets/js/builder.js:1642
 msgid "Text on hover"
 msgstr "Tekst pri prelasku mišem"
 
-#: assets/js/builder.js:1578
+#: assets/js/builder.js:1645
 msgid "Preview"
 msgstr "Pretpregled"
 
-#: assets/js/builder.js:1608 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1675 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "Općenito"
 
-#: assets/js/builder.js:1609
+#: assets/js/builder.js:1676
 msgid "Form description"
 msgstr "Opis obrasca"
 
-#: assets/js/builder.js:1609
+#: assets/js/builder.js:1676
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "Neobavezno. Prikazuje se iznad obrasca kada je u bloku uključeno „Prikaži opis obrasca”, ili sa %s. HTML je dopušten."
 
-#: assets/js/builder.js:1612
+#: assets/js/builder.js:1679
 msgid "Button text"
 msgstr "Tekst gumba"
 
-#: assets/js/builder.js:1615
+#: assets/js/builder.js:1682
 msgid "Message after sending"
 msgstr "Poruka nakon slanja"
 
-#: assets/js/builder.js:1615 assets/js/builder.js:1655 assets/js/builder.js:1683
+#: assets/js/builder.js:1682 assets/js/builder.js:1722 assets/js/builder.js:1750
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "HTML je dopušten, na primjer <strong>, <a href=\"...\"> ili <img src=\"...\">."
 
-#: assets/js/builder.js:1618
+#: assets/js/builder.js:1685
 msgid "Or go to this page after sending"
 msgstr "Ili nakon slanja idi na ovu stranicu"
 
-#: assets/js/builder.js:1618
+#: assets/js/builder.js:1685
 msgid "Leave empty to show the message instead."
 msgstr "Ostavite prazno da se umjesto toga prikaže poruka."
 
-#: assets/js/builder.js:1623
+#: assets/js/builder.js:1690
 msgid "Show the progress bar"
 msgstr "Prikaži traku napretka"
 
-#: assets/js/builder.js:1623
+#: assets/js/builder.js:1690
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Za obrasce s prijelomima stranica: „Korak 1 od 3” iznad obrasca."
 
-#: assets/js/builder.js:1627 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1694 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1628
+#: assets/js/builder.js:1695
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Zaštiti ovaj obrazac CAPTCHA-om postavljenom u Postavkama."
 
-#: assets/js/builder.js:1628
+#: assets/js/builder.js:1695
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Još nije postavljena CAPTCHA. Možete je dodati u SmokyForms > Postavke. Polje-zamka i provjera vremena ionako štite svaki obrazac."
 
-#: assets/js/builder.js:1641
+#: assets/js/builder.js:1708
 msgid "Notification to you"
 msgstr "Obavijest za vas"
 
-#: assets/js/builder.js:1642
+#: assets/js/builder.js:1709
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "Besplatna verzija SmokyForms šalje vam svaku prijavu e-poštom i ne sprema je. SmokyForms Pro (uskoro) sprema sve prijave na nadzornoj ploči, s pretraživanjem i CSV izvozom. Ako e-poruka ne uspije, unos se čuva u SmokyForms > Neisporučeno."
 
-#: assets/js/builder.js:1643
+#: assets/js/builder.js:1710
 msgid "Send me an email for every entry"
 msgstr "Pošalji mi e-poruku za svaki unos"
 
-#: assets/js/builder.js:1649 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1716 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Pošalji na"
 
-#: assets/js/builder.js:1649
+#: assets/js/builder.js:1716
 msgid "Separate several addresses with commas."
 msgstr "Više adresa odvojite zarezima."
 
-#: assets/js/builder.js:1652 assets/js/builder.js:1680
+#: assets/js/builder.js:1719 assets/js/builder.js:1747
 msgid "Subject"
 msgstr "Predmet"
 
-#: assets/js/builder.js:1655 assets/js/builder.js:1683 includes/Templates.php:92
+#: assets/js/builder.js:1722 assets/js/builder.js:1750 includes/Templates.php:92
 msgid "Message"
 msgstr "Poruka"
 
-#: assets/js/builder.js:1662
+#: assets/js/builder.js:1729
 msgid "Confirmation to the visitor"
 msgstr "Potvrda posjetitelju"
 
-#: assets/js/builder.js:1663
+#: assets/js/builder.js:1730
 msgid "Send the visitor a confirmation email"
 msgstr "Pošalji posjetitelju e-poruku potvrde"
 
-#: assets/js/builder.js:1670
+#: assets/js/builder.js:1737
 msgid "Address from the field"
 msgstr "Adresa iz polja"
 
-#: assets/js/builder.js:1679
+#: assets/js/builder.js:1746
 msgid "Add an Email field to the form first."
 msgstr "Najprije u obrazac dodajte polje za e-poštu."
 
-#: assets/js/builder.js:1697 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1764 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Dodaj novi obrazac"
 
-#: assets/js/builder.js:1698
+#: assets/js/builder.js:1765
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Počnite s gotovim ili praznim obrascem. Svi predlošci, uključujući kalkulatore, besplatni su."
 
-#: assets/js/builder.js:1789
+#: assets/js/builder.js:1856
 msgid "The form could not be saved."
 msgstr "Obrazac nije moguće spremiti."
 
-#: assets/js/builder.js:1800 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1867 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Svi obrasci"
 
-#: assets/js/builder.js:1801 assets/js/builder.js:1801 includes/Notifications.php:41
+#: assets/js/builder.js:1868 assets/js/builder.js:1868 includes/Notifications.php:41
 msgid "Form name"
 msgstr "Naziv obrasca"
 
-#: assets/js/builder.js:1805 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1872 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Kratki kod"
 
-#: assets/js/builder.js:1808
+#: assets/js/builder.js:1875
 msgid "Saving…"
 msgstr "Spremanje…"
 
-#: assets/js/builder.js:1808
+#: assets/js/builder.js:1875
 msgid "Save form"
 msgstr "Spremi obrazac"
 
-#: assets/js/builder.js:1814
+#: assets/js/builder.js:1881
 msgid "Price tables"
 msgstr "Cjenici"
 
-#: assets/js/builder.js:1814 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1881 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Postavke"
 
-#: assets/js/builder.js:1936
+#: assets/js/builder.js:2003
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Dodajte ga na stranicu blokom SmokyForms ili kratkim kodom."
 
-#: assets/js/builder.js:1937
+#: assets/js/builder.js:2004
 msgid "You have unsaved changes."
 msgstr "Imate nespremljene promjene."
 
-#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:217 includes/Submission.php:101
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:219 includes/Submission.php:101
 msgid "This form does not exist."
 msgstr "Ovaj obrazac ne postoji."
 
@@ -900,19 +904,19 @@ msgstr "Obrazac je spremljen."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Uredi obrazac &lsaquo; %s"
 
-#: includes/Admin/Builder.php:213 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
 msgid "You are not allowed to do this."
 msgstr "Nemate dopuštenje za to."
 
-#: includes/Admin/Builder.php:217 includes/Forms.php:32
+#: includes/Admin/Builder.php:219 includes/Forms.php:32
 msgid "Edit Form"
 msgstr "Uredi obrazac"
 
-#: includes/Admin/Builder.php:220
+#: includes/Admin/Builder.php:222
 msgid "Loading the form builder…"
 msgstr "Učitavanje alata za izradu obrazaca…"
 
-#: includes/Admin/Builder.php:220
+#: includes/Admin/Builder.php:222
 msgid "The form builder needs JavaScript."
 msgstr "Alat za izradu obrazaca treba JavaScript."
 

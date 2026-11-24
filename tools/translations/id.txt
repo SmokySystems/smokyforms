@@ -452,3 +452,4 @@ d46f2b|Pengguna yang masuk: nama belakang
 a1782e|Alamat keluar
 500aa5|Alamat pendaftaran
 b4494a|Alamat lupa kata sandi
+98400a|Tag pintar

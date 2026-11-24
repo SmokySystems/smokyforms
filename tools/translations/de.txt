@@ -452,3 +452,4 @@ d46f2b|Angemeldeter Benutzer: Nachname
 a1782e|Abmeldeadresse
 500aa5|Registrierungsadresse
 b4494a|Adresse für vergessene Passwörter
+98400a|Smart Tags

@@ -452,3 +452,4 @@ d46f2b|Usuário conectado: sobrenome
 a1782e|Endereço de saída
 500aa5|Endereço de cadastro
 b4494a|Endereço de senha perdida
+98400a|Tags inteligentes

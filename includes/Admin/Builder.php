@@ -155,6 +155,8 @@ final class Builder {
 		$form = $id ? Forms::get( $id ) : null;
 
 		wp_enqueue_style( 'wp-components' );
+		// Classic editor (Visual / Code tabs) for the messages that may contain HTML.
+		wp_enqueue_editor();
 		wp_enqueue_style( 'smokyforms-builder', SMOKYFORMS_URL . 'assets/css/builder.css', array( 'wp-components' ), SMOKYFORMS_VERSION );
 		wp_enqueue_script( 'smokyforms-calc', SMOKYFORMS_URL . 'assets/js/calc.js', array(), SMOKYFORMS_VERSION, true );
 		wp_enqueue_script(

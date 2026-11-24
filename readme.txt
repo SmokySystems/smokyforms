@@ -4,7 +4,7 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.2
+Stable tag: 0.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -139,6 +139,10 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.2.3 =
+* Smart tags are picked from a tag icon next to each email and message setting.
+* The message after sending and the email messages have a Visual / Code editor.
 
 = 0.2.2 =
 * More smart tags: unique value (a reference number for each entry), form ID, date in your own format, page ID, address parameters, referring page, page author, logged-in user details and login/logout/registration addresses.

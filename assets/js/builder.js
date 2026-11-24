@@ -1369,10 +1369,14 @@
 
 	/* Form settings */
 
-	/* Text with smart tags: a button lists the tags and inserts one where the cursor is. */
+	/* Text with smart tags: a tag icon lists the tags and inserts one where the cursor is. */
+
+	function classicEditor() {
+		return window.wp && ( wp.oldEditor || wp.editor ) && ( wp.oldEditor || wp.editor ).initialize ? wp.oldEditor || wp.editor : null;
+	}
 
 	function TagInput( props ) {
-		var ref = useRef( null ), open = useState( false ),
+		var ref = useRef( null ), open = useState( false ), latest = useRef( props.onChange ),
 			fields = props.fields.filter( function ( x ) {
 				return TYPES[ x.type ] && TYPES[ x.type ].input && ( ! props.only || props.only.indexOf( x.type ) !== -1 );
 			} ),
@@ -1382,14 +1386,53 @@
 				}
 				return props.allFields || tag !== '{all_fields}';
 			} ),
-			id = 'smokyforms-tags-' + props.name;
+			id = 'smokyforms-tags-' + props.name,
+			rich = props.html && classicEditor();
+		latest.current = props.onChange;
+
+		// Visual / Code editor for HTML messages.
+		useEffect( function () {
+			var ed = props.html && classicEditor(), mce;
+			if ( ! ed ) {
+				return undefined;
+			}
+			ed.initialize( id, {
+				tinymce: {
+					wpautop: true,
+					height: 200,
+					toolbar1: 'formatselect,bold,italic,underline,bullist,numlist,blockquote,alignleft,aligncenter,alignright,link,unlink,forecolor,undo,redo',
+					setup: function ( editor ) {
+						editor.on( 'change keyup input SetContent ExecCommand', function () {
+							latest.current( editor.getContent() );
+						} );
+					},
+				},
+				quicktags: { buttons: 'strong,em,link,ul,ol,li,img,close' },
+				mediaButtons: true,
+			} );
+			mce = document.getElementById( id );
+			if ( mce ) {
+				mce.addEventListener( 'input', function () {
+					latest.current( mce.value );
+				} );
+			}
+			return function () {
+				ed.remove( id );
+			};
+		}, [] );
+
 		function insert( tag ) {
-			var input = ref.current, value = props.value || '', start = value.length, end = value.length;
-			if ( input && typeof input.selectionStart === 'number' && document.activeElement === input ) {
-				start = input.selectionStart;
-				end = input.selectionEnd;
-			} else if ( input && input.getAttribute( 'data-pos' ) ) {
-				start = end = Math.min( value.length, parseInt( input.getAttribute( 'data-pos' ), 10 ) );
+			var input = ref.current, value = props.value || '', start = value.length, end = value.length, mce = window.tinymce && window.tinymce.get( id );
+			open[ 1 ]( false );
+			if ( mce && ! mce.isHidden() ) {
+				mce.focus();
+				mce.insertContent( tag );
+				latest.current( mce.getContent() );
+				return;
+			}
+			if ( input && input.getAttribute( 'data-pos' ) ) {
+				start = Math.min( value.length, parseInt( input.getAttribute( 'data-pos' ), 10 ) );
+				end = Math.min( value.length, parseInt( input.getAttribute( 'data-end' ) || start, 10 ) );
 			}
 			if ( props.separator && start === value.length && value.trim() !== '' && ! /[,\s]$/.test( value ) ) {
 				tag = props.separator + tag;
@@ -1397,20 +1440,30 @@
 				tag = ' ' + tag;
 			}
 			props.onChange( value.slice( 0, start ) + tag + value.slice( end ) );
-			open[ 1 ]( false );
 			setTimeout( function () {
 				if ( input ) {
 					input.focus();
 					input.setSelectionRange( start + tag.length, start + tag.length );
+					input.setAttribute( 'data-pos', String( start + tag.length ) );
+					input.setAttribute( 'data-end', String( start + tag.length ) );
 				}
 			}, 0 );
 		}
 		function remember( e ) {
 			e.target.setAttribute( 'data-pos', String( e.target.selectionStart ) );
+			e.target.setAttribute( 'data-end', String( e.target.selectionEnd ) );
 		}
-		var attrs = { id: id, ref: ref, className: props.multiline ? 'components-textarea-control__input' : 'components-text-control__input', value: props.value || '', rows: props.rows, onKeyUp: remember, onClick: remember, onBlur: remember, onChange: function ( e ) {
-			props.onChange( e.target.value );
-		} };
+		var attrs = { id: id, ref: ref, className: props.multiline ? 'components-textarea-control__input' : 'components-text-control__input', rows: props.rows, onKeyUp: remember, onClick: remember, onBlur: remember };
+		if ( rich ) {
+			// The editor owns the textarea once it starts; React only gives the first value.
+			attrs.defaultValue = props.value || '';
+			attrs.className = 'wp-editor-area';
+		} else {
+			attrs.value = props.value || '';
+			attrs.onChange = function ( e ) {
+				props.onChange( e.target.value );
+			};
+		}
 		return el(
 			'div',
 			{ className: 'components-base-control smokyforms-tag-input' },
@@ -1418,22 +1471,34 @@
 				'div',
 				{ className: 'smokyforms-tag-input-head' },
 				el( 'label', { className: 'components-base-control__label', htmlFor: id }, props.label ),
-				el( c.Button, { variant: 'link', className: 'smokyforms-tag-toggle', 'aria-expanded': open[ 0 ], onClick: function () {
-					open[ 1 ]( ! open[ 0 ] );
-				} }, open[ 0 ] ? __( 'Hide smart tags', 'smokyforms' ) : __( 'Show smart tags', 'smokyforms' ) )
+				el( c.Button, {
+					icon: 'tag',
+					size: 'small',
+					className: 'smokyforms-tag-toggle' + ( open[ 0 ] ? ' is-pressed' : '' ),
+					label: open[ 0 ] ? __( 'Hide smart tags', 'smokyforms' ) : __( 'Show smart tags', 'smokyforms' ),
+					showTooltip: true,
+					'aria-expanded': open[ 0 ],
+					onClick: function () {
+						open[ 1 ]( ! open[ 0 ] );
+					},
+				}, __( 'Smart tags', 'smokyforms' ) )
 			),
 			open[ 0 ] ? el(
 				'div',
 				{ className: 'smokyforms-tag-list' },
 				fields.length ? el( 'strong', null, __( 'Fields', 'smokyforms' ) ) : null,
 				fields.map( function ( x ) {
-					return el( c.Button, { key: x.id, variant: 'secondary', size: 'compact', onClick: function () {
+					return el( c.Button, { key: x.id, variant: 'secondary', size: 'compact', onMouseDown: function ( e ) {
+						e.preventDefault();
+					}, onClick: function () {
 						insert( '{field:' + x.id + '}' );
 					} }, x.label || x.id );
 				} ),
 				general.length ? el( 'strong', null, __( 'Other', 'smokyforms' ) ) : null,
 				general.map( function ( tag ) {
-					return el( c.Button, { key: tag, variant: 'secondary', size: 'compact', title: tag, onClick: function () {
+					return el( c.Button, { key: tag, variant: 'secondary', size: 'compact', title: tag, onMouseDown: function ( e ) {
+						e.preventDefault();
+					}, onClick: function () {
 						insert( tag );
 					} }, data.tags[ tag ] );
 				} )
@@ -1614,7 +1679,7 @@
 				el( c.TextControl, { label: __( 'Button text', 'smokyforms' ), value: s.submit_label, onChange: function ( v ) {
 					set( 'submit_label', v );
 				}, __nextHasNoMarginBottom: true } ),
-				el( TagInput, { name: 'success', multiline: true, rows: 4, allFields: true, fields: props.fields, label: __( 'Message after sending', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.success_message, onChange: function ( v ) {
+				el( TagInput, { name: 'success', html: true, multiline: true, rows: 4, allFields: true, fields: props.fields, label: __( 'Message after sending', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.success_message, onChange: function ( v ) {
 					set( 'success_message', v );
 				} } ),
 				el( PagePicker, { label: __( 'Or go to this page after sending', 'smokyforms' ), help: __( 'Leave empty to show the message instead.', 'smokyforms' ), value: s.redirect, onChange: function ( v ) {
@@ -1654,7 +1719,7 @@
 					el( TagInput, { name: 'notify-subject', fields: props.fields, label: __( 'Subject', 'smokyforms' ), value: s.notify.subject, onChange: function ( v ) {
 						set( 'notify.subject', v );
 					} } ),
-					el( TagInput, { name: 'notify-message', multiline: true, rows: 6, allFields: true, fields: props.fields, label: __( 'Message', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.notify.message, onChange: function ( v ) {
+					el( TagInput, { name: 'notify-message', html: true, multiline: true, rows: 6, allFields: true, fields: props.fields, label: __( 'Message', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.notify.message, onChange: function ( v ) {
 						set( 'notify.message', v );
 					} } )
 				) : null
@@ -1682,7 +1747,7 @@
 					el( TagInput, { name: 'confirm-subject', fields: props.fields, label: __( 'Subject', 'smokyforms' ), value: s.confirm.subject, onChange: function ( v ) {
 						set( 'confirm.subject', v );
 					} } ),
-					el( TagInput, { name: 'confirm-message', multiline: true, rows: 8, allFields: true, fields: props.fields, label: __( 'Message', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.confirm.message, onChange: function ( v ) {
+					el( TagInput, { name: 'confirm-message', html: true, multiline: true, rows: 8, allFields: true, fields: props.fields, label: __( 'Message', 'smokyforms' ), help: __( 'HTML is allowed, for example <strong>, <a href="..."> or <img src="...">.', 'smokyforms' ), value: s.confirm.message, onChange: function ( v ) {
 						set( 'confirm.message', v );
 					} } )
 				) : null

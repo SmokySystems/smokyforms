@@ -452,3 +452,4 @@ d46f2b|Người dùng đã đăng nhập: họ
 a1782e|Địa chỉ đăng xuất
 500aa5|Địa chỉ đăng ký
 b4494a|Địa chỉ quên mật khẩu
+98400a|Thẻ thông minh

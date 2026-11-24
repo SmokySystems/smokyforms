@@ -452,3 +452,4 @@ d46f2b|Zalogowany użytkownik: nazwisko
 a1782e|Adres wylogowania
 500aa5|Adres rejestracji
 b4494a|Adres odzyskiwania hasła
+98400a|Inteligentne znaczniki

@@ -452,3 +452,4 @@ d46f2b|Prijavljeni uporabnik: priimek
 a1782e|Naslov za odjavo
 500aa5|Naslov za registracijo
 b4494a|Naslov za pozabljeno geslo
+98400a|Pametne oznake

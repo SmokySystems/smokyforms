@@ -452,3 +452,4 @@ d46f2b|Sisselogitud kasutaja: perekonnanimi
 a1782e|Väljalogimise aadress
 500aa5|Registreerumise aadress
 b4494a|Unustatud parooli aadress
+98400a|Nutisildid

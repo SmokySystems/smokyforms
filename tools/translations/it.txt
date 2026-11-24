@@ -452,3 +452,4 @@ d46f2b|Utente connesso: cognome
 a1782e|Indirizzo di uscita
 500aa5|Indirizzo di registrazione
 b4494a|Indirizzo per la password dimenticata
+98400a|Tag intelligenti

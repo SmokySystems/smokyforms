@@ -32,6 +32,7 @@
 		);
 
 		var picker = el( c.SelectControl, {
+			hideLabelFromVision: true,
 			label: __( 'Form', 'smokyforms' ),
 			value: formId,
 			options: options,

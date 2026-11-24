@@ -452,3 +452,4 @@ d46f2b|Bejelentkezett felhasználó: vezetéknév
 a1782e|Kijelentkezési cím
 500aa5|Regisztrációs cím
 b4494a|Elfelejtett jelszó címe
+98400a|Intelligens címkék

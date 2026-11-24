@@ -268,7 +268,7 @@ msgstr "Urungkan"
 msgid "Clear"
 msgstr "Kosongkan"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1426 assets/js/builder.js:1814 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1489 assets/js/builder.js:1881 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Kolom"
 
@@ -492,7 +492,7 @@ msgstr "Teks di samping kotak centang"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Tautan boleh dipakai, misalnya ke kebijakan privasi Anda."
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1574
+#: assets/js/builder.js:1082 assets/js/builder.js:1641
 msgid "Text"
 msgstr "Teks"
 
@@ -569,7 +569,7 @@ msgstr "Tombol Kembali"
 msgid "Previous"
 msgstr "Sebelumnya"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1709 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1776 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Perhitungan"
 
@@ -689,200 +689,204 @@ msgstr "Baris 1"
 msgid "Add price table"
 msgstr "Tambah tabel harga"
 
-#: assets/js/builder.js:1421
+#: assets/js/builder.js:1478
 msgid "Hide smart tags"
 msgstr "Sembunyikan tag pintar"
 
-#: assets/js/builder.js:1421
+#: assets/js/builder.js:1478
 msgid "Show smart tags"
 msgstr "Tampilkan tag pintar"
 
-#: assets/js/builder.js:1432
+#: assets/js/builder.js:1484
+msgid "Smart tags"
+msgstr "Tag pintar"
+
+#: assets/js/builder.js:1497
 msgid "Other"
 msgstr "Lainnya"
 
-#: assets/js/builder.js:1477
+#: assets/js/builder.js:1544
 msgid "Search pages or paste an address"
 msgstr "Cari halaman atau tempel alamat"
 
-#: assets/js/builder.js:1547
+#: assets/js/builder.js:1614
 msgid "Theme"
 msgstr "Tema"
 
-#: assets/js/builder.js:1561 assets/js/builder.js:1587
+#: assets/js/builder.js:1628 assets/js/builder.js:1654
 msgid "Use the theme style"
 msgstr "Gunakan gaya tema"
 
-#: assets/js/builder.js:1569
+#: assets/js/builder.js:1636
 msgid "Button style"
 msgstr "Gaya tombol"
 
-#: assets/js/builder.js:1570
+#: assets/js/builder.js:1637
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "Secara bawaan tombol terlihat seperti tombol tema Anda. Pilih warna hanya jika Anda ingin berbeda."
 
-#: assets/js/builder.js:1572
+#: assets/js/builder.js:1639
 msgid "Background"
 msgstr "Latar"
 
-#: assets/js/builder.js:1573
+#: assets/js/builder.js:1640
 msgid "Background on hover"
 msgstr "Latar saat disorot"
 
-#: assets/js/builder.js:1575
+#: assets/js/builder.js:1642
 msgid "Text on hover"
 msgstr "Teks saat disorot"
 
-#: assets/js/builder.js:1578
+#: assets/js/builder.js:1645
 msgid "Preview"
 msgstr "Pratinjau"
 
-#: assets/js/builder.js:1608 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1675 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "Umum"
 
-#: assets/js/builder.js:1609
+#: assets/js/builder.js:1676
 msgid "Form description"
 msgstr "Deskripsi formulir"
 
-#: assets/js/builder.js:1609
+#: assets/js/builder.js:1676
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "Opsional. Ditampilkan di atas formulir jika \"Tampilkan deskripsi formulir\" aktif di blok, atau dengan %s. HTML diizinkan."
 
-#: assets/js/builder.js:1612
+#: assets/js/builder.js:1679
 msgid "Button text"
 msgstr "Teks tombol"
 
-#: assets/js/builder.js:1615
+#: assets/js/builder.js:1682
 msgid "Message after sending"
 msgstr "Pesan setelah dikirim"
 
-#: assets/js/builder.js:1615 assets/js/builder.js:1655 assets/js/builder.js:1683
+#: assets/js/builder.js:1682 assets/js/builder.js:1722 assets/js/builder.js:1750
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "HTML diizinkan, misalnya <strong>, <a href=\"...\"> atau <img src=\"...\">."
 
-#: assets/js/builder.js:1618
+#: assets/js/builder.js:1685
 msgid "Or go to this page after sending"
 msgstr "Atau buka halaman ini setelah dikirim"
 
-#: assets/js/builder.js:1618
+#: assets/js/builder.js:1685
 msgid "Leave empty to show the message instead."
 msgstr "Biarkan kosong untuk menampilkan pesan."
 
-#: assets/js/builder.js:1623
+#: assets/js/builder.js:1690
 msgid "Show the progress bar"
 msgstr "Tampilkan bilah kemajuan"
 
-#: assets/js/builder.js:1623
+#: assets/js/builder.js:1690
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Untuk formulir dengan pemisah halaman: \"Langkah 1 dari 3\" di atas formulir."
 
-#: assets/js/builder.js:1627 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1694 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1628
+#: assets/js/builder.js:1695
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Lindungi formulir ini dengan CAPTCHA yang diatur di Pengaturan."
 
-#: assets/js/builder.js:1628
+#: assets/js/builder.js:1695
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Belum ada CAPTCHA yang diatur. Anda bisa menambahkannya di SmokyForms > Pengaturan. Kolom jebakan dan pemeriksaan waktu tetap melindungi setiap formulir."
 
-#: assets/js/builder.js:1641
+#: assets/js/builder.js:1708
 msgid "Notification to you"
 msgstr "Pemberitahuan untuk Anda"
 
-#: assets/js/builder.js:1642
+#: assets/js/builder.js:1709
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "Versi gratis SmokyForms mengirim setiap kiriman ke email Anda dan tidak menyimpannya. SmokyForms Pro (segera hadir) menyimpan semua kiriman di dasbor Anda, dengan pencarian dan ekspor CSV. Jika email gagal, kiriman disimpan di SmokyForms > Tak terkirim."
 
-#: assets/js/builder.js:1643
+#: assets/js/builder.js:1710
 msgid "Send me an email for every entry"
 msgstr "Kirimi saya email untuk setiap kiriman"
 
-#: assets/js/builder.js:1649 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1716 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Kirim ke"
 
-#: assets/js/builder.js:1649
+#: assets/js/builder.js:1716
 msgid "Separate several addresses with commas."
 msgstr "Pisahkan beberapa alamat dengan koma."
 
-#: assets/js/builder.js:1652 assets/js/builder.js:1680
+#: assets/js/builder.js:1719 assets/js/builder.js:1747
 msgid "Subject"
 msgstr "Subjek"
 
-#: assets/js/builder.js:1655 assets/js/builder.js:1683 includes/Templates.php:92
+#: assets/js/builder.js:1722 assets/js/builder.js:1750 includes/Templates.php:92
 msgid "Message"
 msgstr "Pesan"
 
-#: assets/js/builder.js:1662
+#: assets/js/builder.js:1729
 msgid "Confirmation to the visitor"
 msgstr "Konfirmasi untuk pengunjung"
 
-#: assets/js/builder.js:1663
+#: assets/js/builder.js:1730
 msgid "Send the visitor a confirmation email"
 msgstr "Kirim email konfirmasi ke pengunjung"
 
-#: assets/js/builder.js:1670
+#: assets/js/builder.js:1737
 msgid "Address from the field"
 msgstr "Alamat dari kolom"
 
-#: assets/js/builder.js:1679
+#: assets/js/builder.js:1746
 msgid "Add an Email field to the form first."
 msgstr "Tambahkan dulu kolom email ke formulir."
 
-#: assets/js/builder.js:1697 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1764 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Tambah formulir baru"
 
-#: assets/js/builder.js:1698
+#: assets/js/builder.js:1765
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Mulai dengan formulir siap pakai atau formulir kosong. Semua templat, termasuk kalkulator, gratis."
 
-#: assets/js/builder.js:1789
+#: assets/js/builder.js:1856
 msgid "The form could not be saved."
 msgstr "Formulir tidak dapat disimpan."
 
-#: assets/js/builder.js:1800 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1867 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Semua formulir"
 
-#: assets/js/builder.js:1801 assets/js/builder.js:1801 includes/Notifications.php:41
+#: assets/js/builder.js:1868 assets/js/builder.js:1868 includes/Notifications.php:41
 msgid "Form name"
 msgstr "Nama formulir"
 
-#: assets/js/builder.js:1805 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1872 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Kode pendek"
 
-#: assets/js/builder.js:1808
+#: assets/js/builder.js:1875
 msgid "Saving…"
 msgstr "Menyimpan…"
 
-#: assets/js/builder.js:1808
+#: assets/js/builder.js:1875
 msgid "Save form"
 msgstr "Simpan formulir"
 
-#: assets/js/builder.js:1814
+#: assets/js/builder.js:1881
 msgid "Price tables"
 msgstr "Tabel harga"
 
-#: assets/js/builder.js:1814 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1881 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Pengaturan"
 
-#: assets/js/builder.js:1936
+#: assets/js/builder.js:2003
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Tambahkan ke halaman dengan blok SmokyForms atau kode pendek."
 
-#: assets/js/builder.js:1937
+#: assets/js/builder.js:2004
 msgid "You have unsaved changes."
 msgstr "Ada perubahan yang belum disimpan."
 
-#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:217 includes/Submission.php:101
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:219 includes/Submission.php:101
 msgid "This form does not exist."
 msgstr "Formulir ini tidak ada."
 
@@ -900,19 +904,19 @@ msgstr "Formulir disimpan."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Edit formulir &lsaquo; %s"
 
-#: includes/Admin/Builder.php:213 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
 msgid "You are not allowed to do this."
 msgstr "Anda tidak diizinkan melakukan ini."
 
-#: includes/Admin/Builder.php:217 includes/Forms.php:32
+#: includes/Admin/Builder.php:219 includes/Forms.php:32
 msgid "Edit Form"
 msgstr "Edit formulir"
 
-#: includes/Admin/Builder.php:220
+#: includes/Admin/Builder.php:222
 msgid "Loading the form builder…"
 msgstr "Memuat pembuat formulir…"
 
-#: includes/Admin/Builder.php:220
+#: includes/Admin/Builder.php:222
 msgid "The form builder needs JavaScript."
 msgstr "Pembuat formulir memerlukan JavaScript."
 

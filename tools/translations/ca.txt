@@ -452,3 +452,4 @@ d46f2b|Usuari connectat: cognoms
 a1782e|Adreça de sortida
 500aa5|Adreça de registre
 b4494a|Adreça de contrasenya oblidada
+98400a|Etiquetes intel·ligents

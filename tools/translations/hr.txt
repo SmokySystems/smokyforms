@@ -452,3 +452,4 @@ d46f2b|Prijavljeni korisnik: prezime
 a1782e|Adresa za odjavu
 500aa5|Adresa za registraciju
 b4494a|Adresa za zaboravljenu lozinku
+98400a|Pametne oznake

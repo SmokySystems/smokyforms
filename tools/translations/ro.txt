@@ -452,3 +452,4 @@ d46f2b|Utilizator autentificat: nume de familie
 a1782e|Adresa de dezautentificare
 500aa5|Adresa de înregistrare
 b4494a|Adresa pentru parola pierdută
+98400a|Etichete inteligente

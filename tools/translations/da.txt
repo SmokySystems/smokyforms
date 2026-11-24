@@ -452,3 +452,4 @@ d46f2b|Logget ind-bruger: efternavn
 a1782e|Log ud-adresse
 500aa5|Registreringsadresse
 b4494a|Adresse for glemt adgangskode
+98400a|Smarte tags

@@ -452,3 +452,4 @@ d46f2b|Kirjautunut käyttäjä: sukunimi
 a1782e|Uloskirjautumisosoite
 500aa5|Rekisteröitymisosoite
 b4494a|Unohtuneen salasanan osoite
+98400a|Älytunnisteet

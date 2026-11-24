@@ -452,3 +452,4 @@ d46f2b|Innskráður notandi: eftirnafn
 a1782e|Útskráningarslóð
 500aa5|Nýskráningarslóð
 b4494a|Slóð fyrir gleymt lykilorð
+98400a|Snjallmerki

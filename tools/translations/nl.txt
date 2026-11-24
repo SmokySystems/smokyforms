@@ -452,3 +452,4 @@ d46f2b|Ingelogde gebruiker: achternaam
 a1782e|Uitlogadres
 500aa5|Registratieadres
 b4494a|Adres voor wachtwoord vergeten
+98400a|Slimme tags

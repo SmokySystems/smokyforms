@@ -452,3 +452,4 @@ d46f2b|Utilizador com sessão iniciada: apelido
 a1782e|Endereço de fim de sessão
 500aa5|Endereço de registo
 b4494a|Endereço de palavra-passe perdida
+98400a|Etiquetas inteligentes

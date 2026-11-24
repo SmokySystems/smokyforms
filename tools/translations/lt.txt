@@ -452,3 +452,4 @@ d46f2b|Prisijungęs naudotojas: pavardė
 a1782e|Atsijungimo adresas
 500aa5|Registracijos adresas
 b4494a|Pamiršto slaptažodžio adresas
+98400a|Išmaniosios žymės

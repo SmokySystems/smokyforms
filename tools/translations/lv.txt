@@ -452,3 +452,4 @@ d46f2b|Pieteicies lietotājs: uzvārds
 a1782e|Atteikšanās adrese
 500aa5|Reģistrācijas adrese
 b4494a|Aizmirstas paroles adrese
+98400a|Viedie tagi
