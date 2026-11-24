@@ -82,6 +82,13 @@ final class Settings {
 						</td>
 					</tr>
 					<tr>
+						<th scope="row"><label for="smokyforms-math"><?php esc_html_e( 'Math question', 'smokyforms' ); ?></label></th>
+						<td>
+							<label><input type="checkbox" id="smokyforms-math" name="<?php echo esc_attr( $name ); ?>[math]" value="1" <?php checked( ! empty( $s['math'] ) ); ?>> <?php esc_html_e( 'Ask a simple math question', 'smokyforms' ); ?></label>
+							<p class="description"><?php esc_html_e( 'Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA.', 'smokyforms' ); ?></p>
+						</td>
+					</tr>
+					<tr>
 						<th scope="row"><label for="smokyforms-site-key"><?php esc_html_e( 'Site key', 'smokyforms' ); ?></label></th>
 						<td><input type="text" id="smokyforms-site-key" class="regular-text code" name="<?php echo esc_attr( $name ); ?>[captcha_site_key]" value="<?php echo esc_attr( $s['captcha_site_key'] ); ?>" autocomplete="off"></td>
 					</tr>

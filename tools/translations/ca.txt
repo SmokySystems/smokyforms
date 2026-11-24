@@ -453,3 +453,9 @@ a1782e|Adreça de sortida
 500aa5|Adreça de registre
 b4494a|Adreça de contrasenya oblidada
 98400a|Etiquetes intel·ligents
+ae5c96|Pregunta de matemàtiques
+d551e9|Fes una pregunta de matemàtiques senzilla
+e3c30f|Els visitants resolen una suma petita, com ara 7 + 4. No cal cap compte ni clau, i funciona sol o juntament amb un CAPTCHA.
+c74c74|Responeu la pregunta de matemàtiques.
+fa4e2a|La resposta a la pregunta de matemàtiques no és correcta.
+1b1e7a|Pregunta de seguretat

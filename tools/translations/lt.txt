@@ -453,3 +453,9 @@ a1782e|Atsijungimo adresas
 500aa5|Registracijos adresas
 b4494a|Pamiršto slaptažodžio adresas
 98400a|Išmaniosios žymės
+ae5c96|Skaičiavimo klausimas
+d551e9|Užduoti paprastą skaičiavimo klausimą
+e3c30f|Lankytojai išsprendžia nedidelį uždavinį, pavyzdžiui, 7 + 4. Nereikia paskyros ar rakto, veikia atskirai arba kartu su CAPTCHA.
+c74c74|Atsakykite į skaičiavimo klausimą.
+fa4e2a|Atsakymas į skaičiavimo klausimą neteisingas.
+1b1e7a|Saugos klausimas

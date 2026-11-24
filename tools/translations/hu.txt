@@ -453,3 +453,9 @@ a1782e|Kijelentkezési cím
 500aa5|Regisztrációs cím
 b4494a|Elfelejtett jelszó címe
 98400a|Intelligens címkék
+ae5c96|Számolási kérdés
+d551e9|Egyszerű számolási kérdés feltevése
+e3c30f|A látogatók megoldanak egy kis műveletet, például 7 + 4. Nem kell hozzá fiók vagy kulcs, és önmagában vagy CAPTCHA mellett is működik.
+c74c74|Kérjük, válaszoljon a számolási kérdésre.
+fa4e2a|A számolási kérdésre adott válasz nem helyes.
+1b1e7a|Biztonsági kérdés

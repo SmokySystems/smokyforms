@@ -453,3 +453,9 @@ a1782e|Adresse de déconnexion
 500aa5|Adresse d’inscription
 b4494a|Adresse de mot de passe oublié
 98400a|Balises dynamiques
+ae5c96|Question de calcul
+d551e9|Poser une question de calcul simple
+e3c30f|Les visiteurs résolvent une petite addition comme 7 + 4. Aucun compte ni clé n’est nécessaire, et cela fonctionne seul ou avec un CAPTCHA.
+c74c74|Veuillez répondre à la question de calcul.
+fa4e2a|La réponse à la question de calcul n’est pas correcte.
+1b1e7a|Question de sécurité

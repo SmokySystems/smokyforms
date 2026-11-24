@@ -453,3 +453,9 @@ a1782e|Útskráningarslóð
 500aa5|Nýskráningarslóð
 b4494a|Slóð fyrir gleymt lykilorð
 98400a|Snjallmerki
+ae5c96|Reikningsspurning
+d551e9|Spyrja einfaldrar reikningsspurningar
+e3c30f|Gestir leysa lítið dæmi eins og 7 + 4. Það þarf hvorki aðgang né lykil og virkar eitt og sér eða með CAPTCHA.
+c74c74|Svaraðu reikningsspurningunni.
+fa4e2a|Svarið við reikningsspurningunni er ekki rétt.
+1b1e7a|Öryggisspurning

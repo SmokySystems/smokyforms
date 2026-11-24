@@ -453,3 +453,9 @@ a1782e|Endereço de fim de sessão
 500aa5|Endereço de registo
 b4494a|Endereço de palavra-passe perdida
 98400a|Etiquetas inteligentes
+ae5c96|Pergunta de matemática
+d551e9|Fazer uma pergunta de matemática simples
+e3c30f|Os visitantes resolvem uma conta pequena, como 7 + 4. Não precisa de conta nem de chave e funciona sozinha ou em conjunto com um CAPTCHA.
+c74c74|Responda à pergunta de matemática.
+fa4e2a|A resposta à pergunta de matemática não está correta.
+1b1e7a|Pergunta de segurança

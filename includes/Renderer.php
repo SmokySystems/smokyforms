@@ -590,22 +590,35 @@ final class Renderer {
 	 * @return string
 	 */
 	private static function captcha( $form ) {
-		$service = Settings::get( 'captcha' );
-		$key     = Settings::get( 'captcha_site_key' );
-		if ( empty( $form['settings']['captcha'] ) || 'none' === $service || '' === $key ) {
+		if ( empty( $form['settings']['captcha'] ) ) {
 			return '';
 		}
+		$html = '';
+		if ( Captcha::math_enabled() ) {
+			static $count = 0;
+			++$count;
+			$id        = 'smokyforms-math-' . (int) $form['id'] . '-' . $count;
+			$challenge = Captcha::challenge();
+			$html     .= '<div class="smokyforms-math"><label for="' . esc_attr( $id ) . '"><span class="smokyforms-math-label">' . esc_html__( 'Security question', 'smokyforms' ) . '</span> <span class="smokyforms-math-question">' . esc_html( $challenge['a'] . ' ' . $challenge['symbol'] . ' ' . $challenge['b'] . ' = ?' ) . '</span></label>'
+				. '<input type="text" id="' . esc_attr( $id ) . '" class="smokyforms-math-input" name="smokyforms_math" inputmode="numeric" pattern="[0-9]*" maxlength="3" autocomplete="off" required>'
+				. '<input type="hidden" name="smokyforms_math_token" value="' . esc_attr( $challenge['token'] ) . '"></div>';
+		}
+		$service = Settings::get( 'captcha' );
+		$key     = Settings::get( 'captcha_site_key' );
 		$scripts = array(
 			'turnstile' => array( 'https://challenges.cloudflare.com/turnstile/v0/api.js', 'cf-turnstile' ),
 			'recaptcha' => array( 'https://www.google.com/recaptcha/api.js', 'g-recaptcha' ),
 			'hcaptcha'  => array( 'https://js.hcaptcha.com/1/api.js', 'h-captcha' ),
 		);
-		if ( ! isset( $scripts[ $service ] ) ) {
+		if ( 'none' !== $service && '' !== $key && isset( $scripts[ $service ] ) ) {
+			// The provider's own script is required by its terms; it is loaded only on pages with a protected form.
+			wp_enqueue_script( 'smokyforms-captcha-' . $service, $scripts[ $service ][0], array(), null, array( 'in_footer' => true, 'strategy' => 'defer' ) ); // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
+			$html .= '<div class="' . esc_attr( $scripts[ $service ][1] ) . '" data-sitekey="' . esc_attr( $key ) . '"></div>';
+		}
+		if ( '' === $html ) {
 			return '';
 		}
-		// The provider's own script is required by its terms; it is loaded only on pages with a protected form.
-		wp_enqueue_script( 'smokyforms-captcha-' . $service, $scripts[ $service ][0], array(), null, array( 'in_footer' => true, 'strategy' => 'defer' ) ); // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
-		return '<div class="smokyforms-captcha"><div class="' . esc_attr( $scripts[ $service ][1] ) . '" data-sitekey="' . esc_attr( $key ) . '"></div><p class="smokyforms-error" data-captcha-error hidden></p></div>';
+		return '<div class="smokyforms-captcha">' . $html . '<p class="smokyforms-error" data-captcha-error hidden></p></div>';
 	}
 
 	/**

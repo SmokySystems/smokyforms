@@ -453,3 +453,9 @@ a1782e|Naslov za odjavo
 500aa5|Naslov za registracijo
 b4494a|Naslov za pozabljeno geslo
 98400a|Pametne oznake
+ae5c96|Računsko vprašanje
+d551e9|Postavi preprosto računsko vprašanje
+e3c30f|Obiskovalci rešijo majhen račun, na primer 7 + 4. Ne potrebuje računa ali ključa in deluje samostojno ali skupaj s CAPTCHA.
+c74c74|Odgovorite na računsko vprašanje.
+fa4e2a|Odgovor na računsko vprašanje ni pravilen.
+1b1e7a|Varnostno vprašanje

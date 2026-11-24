@@ -53,6 +53,14 @@ final class Submission {
 	 */
 	public static function rest( $request ) {
 		$result = self::process( (int) $request['id'], $request->get_body_params() );
+		if ( Captcha::math_enabled() ) {
+			// A fresh question for the next try; the one just sent is used up.
+			$challenge      = Captcha::challenge();
+			$result['math'] = array(
+				'question' => $challenge['a'] . ' ' . $challenge['symbol'] . ' ' . $challenge['b'] . ' = ?',
+				'token'    => $challenge['token'],
+			);
+		}
 		return new \WP_REST_Response( $result, $result['ok'] ? 200 : ( $result['status'] ?? 422 ) );
 	}
 
@@ -176,6 +184,9 @@ final class Submission {
 				'message' => __( 'Please check the form and try again.', 'smokyforms' ),
 				'errors'  => $errors,
 			);
+		}
+		if ( ! empty( $form['settings']['captcha'] ) && Captcha::math_enabled() ) {
+			Captcha::use_math( $post );
 		}
 
 		// Never trust a total from the browser: calculations are done again here.

@@ -453,3 +453,9 @@ a1782e|Uitlogadres
 500aa5|Registratieadres
 b4494a|Adres voor wachtwoord vergeten
 98400a|Slimme tags
+ae5c96|Rekenvraag
+d551e9|Een eenvoudige rekenvraag stellen
+e3c30f|Bezoekers lossen een kleine som op, zoals 7 + 4. Er is geen account of sleutel nodig en het werkt los of samen met een CAPTCHA.
+c74c74|Beantwoord de rekenvraag.
+fa4e2a|Het antwoord op de rekenvraag is niet juist.
+1b1e7a|Beveiligingsvraag

@@ -453,3 +453,9 @@ a1782e|Địa chỉ đăng xuất
 500aa5|Địa chỉ đăng ký
 b4494a|Địa chỉ quên mật khẩu
 98400a|Thẻ thông minh
+ae5c96|Câu hỏi toán
+d551e9|Đặt một câu hỏi toán đơn giản
+e3c30f|Khách truy cập giải một phép tính nhỏ như 7 + 4. Không cần tài khoản hay khóa, và hoạt động riêng hoặc cùng CAPTCHA.
+c74c74|Vui lòng trả lời câu hỏi toán.
+fa4e2a|Đáp án của câu hỏi toán chưa đúng.
+1b1e7a|Câu hỏi bảo mật

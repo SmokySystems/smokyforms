@@ -40,6 +40,7 @@ final class Settings {
 			'captcha'          => 'none',
 			'captcha_site_key' => '',
 			'captcha_secret'   => '',
+			'math'             => false,
 			'min_seconds'      => 3,
 			'keep_undelivered' => 30,
 			'keep_files'       => 0,
@@ -80,6 +81,7 @@ final class Settings {
 		$captcha = isset( $input['captcha'] ) ? sanitize_key( $input['captcha'] ) : 'none';
 		$out['captcha']          = array_key_exists( $captcha, self::captcha_services() ) ? $captcha : 'none';
 		$out['captcha_site_key'] = isset( $input['captcha_site_key'] ) ? sanitize_text_field( $input['captcha_site_key'] ) : '';
+		$out['math']             = ! empty( $input['math'] );
 		$out['captcha_secret']   = isset( $input['captcha_secret'] ) ? sanitize_text_field( $input['captcha_secret'] ) : '';
 		$out['min_seconds']      = isset( $input['min_seconds'] ) ? max( 0, min( 60, absint( $input['min_seconds'] ) ) ) : 3;
 		$out['keep_undelivered'] = isset( $input['keep_undelivered'] ) ? max( 1, min( 365, absint( $input['keep_undelivered'] ) ) ) : 30;

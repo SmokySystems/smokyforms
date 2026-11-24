@@ -516,6 +516,19 @@
 		return d.innerHTML;
 	}
 
+	// Shows the next math question and clears the answer.
+	function refreshMath( form, math ) {
+		var q = form.querySelector( '.smokyforms-math-question' ), t = form.querySelector( 'input[name="smokyforms_math_token"]' ),
+			input = form.querySelector( '.smokyforms-math-input' );
+		if ( math && q && t ) {
+			q.textContent = math.question;
+			t.value = math.token;
+		}
+		if ( input ) {
+			input.value = '';
+		}
+	}
+
 	function resetCaptcha() {
 		try {
 			if ( window.turnstile ) {
@@ -587,6 +600,7 @@
 						return;
 					}
 					form.reset();
+					refreshMath( form, res.math );
 					setMessage( form, 'success', res.message || '' );
 					box = form.querySelector( '.smokyforms-message' );
 					if ( box ) {
@@ -608,6 +622,10 @@
 					}
 				}
 				setMessage( form, 'error', '<p>' + escapeHtml( ( res && res.message ) || text.failed ) + '</p>' );
+				if ( res && ! focus && ! ( res.errors && Object.keys( res.errors ).length ) ) {
+					// Not a field problem (for example a wrong answer): ask a new question.
+					refreshMath( form, res.math );
+				}
 				if ( focus ) {
 					focusField( form, focus );
 				}

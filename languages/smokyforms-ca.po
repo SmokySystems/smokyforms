@@ -14,27 +14,27 @@ msgstr ""
 msgid "Choose a form"
 msgstr "Trieu un formulari"
 
-#: assets/js/block.js:35 assets/js/block.js:50 includes/Admin/Menu.php:153 includes/Forms.php:29
+#: assets/js/block.js:36 assets/js/block.js:51 includes/Admin/Menu.php:153 includes/Forms.php:29
 msgid "Form"
 msgstr "Formulari"
 
-#: assets/js/block.js:52
+#: assets/js/block.js:53
 msgid "Show the form title"
 msgstr "Mostra el títol del formulari"
 
-#: assets/js/block.js:55
+#: assets/js/block.js:56
 msgid "Show the form description"
 msgstr "Mostra la descripció del formulari"
 
-#: assets/js/block.js:55
+#: assets/js/block.js:56
 msgid "The description is written in the form settings."
 msgstr "La descripció s’escriu als paràmetres del formulari."
 
-#: assets/js/block.js:68
+#: assets/js/block.js:69
 msgid "You have no forms yet. Create one under SmokyForms in the admin menu."
 msgstr "Encara no teniu formularis. Creeu-ne un a SmokyForms, al menú d’administració."
 
-#: assets/js/block.js:68
+#: assets/js/block.js:69
 msgid "Choose the form to show here."
 msgstr "Trieu el formulari que es mostrarà aquí."
 
@@ -268,7 +268,7 @@ msgstr "Desfés"
 msgid "Clear"
 msgstr "Esborra"
 
-#: assets/js/builder.js:622 assets/js/builder.js:1489 assets/js/builder.js:1881 includes/Admin/Menu.php:155
+#: assets/js/builder.js:622 assets/js/builder.js:1498 assets/js/builder.js:1890 includes/Admin/Menu.php:155
 msgid "Fields"
 msgstr "Camps"
 
@@ -492,7 +492,7 @@ msgstr "Text al costat de la casella"
 msgid "Links are allowed, for example to your privacy policy."
 msgstr "Es permeten enllaços, per exemple a la vostra política de privadesa."
 
-#: assets/js/builder.js:1082 assets/js/builder.js:1641
+#: assets/js/builder.js:1082 assets/js/builder.js:1650
 msgid "Text"
 msgstr "Text"
 
@@ -569,7 +569,7 @@ msgstr "Botó Enrere"
 msgid "Previous"
 msgstr "Anterior"
 
-#: assets/js/builder.js:1149 assets/js/builder.js:1776 includes/Fields.php:43
+#: assets/js/builder.js:1149 assets/js/builder.js:1785 includes/Fields.php:43
 msgid "Calculation"
 msgstr "Càlcul"
 
@@ -689,204 +689,204 @@ msgstr "Fila 1"
 msgid "Add price table"
 msgstr "Afegeix una taula de preus"
 
-#: assets/js/builder.js:1478
+#: assets/js/builder.js:1487
 msgid "Hide smart tags"
 msgstr "Amaga les etiquetes intel·ligents"
 
-#: assets/js/builder.js:1478
+#: assets/js/builder.js:1487
 msgid "Show smart tags"
 msgstr "Mostra les etiquetes intel·ligents"
 
-#: assets/js/builder.js:1484
+#: assets/js/builder.js:1493
 msgid "Smart tags"
 msgstr "Etiquetes intel·ligents"
 
-#: assets/js/builder.js:1497
+#: assets/js/builder.js:1506
 msgid "Other"
 msgstr "Altres"
 
-#: assets/js/builder.js:1544
+#: assets/js/builder.js:1553
 msgid "Search pages or paste an address"
 msgstr "Cerqueu pàgines o enganxeu una adreça"
 
-#: assets/js/builder.js:1614
+#: assets/js/builder.js:1623
 msgid "Theme"
 msgstr "Tema"
 
-#: assets/js/builder.js:1628 assets/js/builder.js:1654
+#: assets/js/builder.js:1637 assets/js/builder.js:1663
 msgid "Use the theme style"
 msgstr "Fes servir l’estil del tema"
 
-#: assets/js/builder.js:1636
+#: assets/js/builder.js:1645
 msgid "Button style"
 msgstr "Estil del botó"
 
-#: assets/js/builder.js:1637
+#: assets/js/builder.js:1646
 msgid "By default the buttons look like the buttons of your theme. Choose colours only if you want them different."
 msgstr "Per defecte, els botons tenen l’aspecte dels del vostre tema. Trieu colors només si els voleu diferents."
 
-#: assets/js/builder.js:1639
+#: assets/js/builder.js:1648
 msgid "Background"
 msgstr "Fons"
 
-#: assets/js/builder.js:1640
+#: assets/js/builder.js:1649
 msgid "Background on hover"
 msgstr "Fons en passar-hi el ratolí"
 
-#: assets/js/builder.js:1642
+#: assets/js/builder.js:1651
 msgid "Text on hover"
 msgstr "Text en passar-hi el ratolí"
 
-#: assets/js/builder.js:1645
+#: assets/js/builder.js:1654
 msgid "Preview"
 msgstr "Previsualització"
 
-#: assets/js/builder.js:1675 includes/Admin/Settings.php:58
+#: assets/js/builder.js:1684 includes/Admin/Settings.php:58
 msgid "General"
 msgstr "General"
 
-#: assets/js/builder.js:1676
+#: assets/js/builder.js:1685
 msgid "Form description"
 msgstr "Descripció del formulari"
 
-#: assets/js/builder.js:1676
+#: assets/js/builder.js:1685
 #, php-format
 msgid "Optional. Shown above the form when \"Show the form description\" is on in the block, or with %s. HTML is allowed."
 msgstr "Opcional. Es mostra damunt del formulari quan «Mostra la descripció del formulari» està activat al bloc, o amb %s. Es permet HTML."
 
-#: assets/js/builder.js:1679
+#: assets/js/builder.js:1688
 msgid "Button text"
 msgstr "Text del botó"
 
-#: assets/js/builder.js:1682
+#: assets/js/builder.js:1691
 msgid "Message after sending"
 msgstr "Missatge després de l’enviament"
 
-#: assets/js/builder.js:1682 assets/js/builder.js:1722 assets/js/builder.js:1750
+#: assets/js/builder.js:1691 assets/js/builder.js:1731 assets/js/builder.js:1759
 msgid "HTML is allowed, for example <strong>, <a href=\"...\"> or <img src=\"...\">."
 msgstr "Es permet HTML, per exemple <strong>, <a href=\"...\"> o <img src=\"...\">."
 
-#: assets/js/builder.js:1685
+#: assets/js/builder.js:1694
 msgid "Or go to this page after sending"
 msgstr "O ves a aquesta pàgina després de l’enviament"
 
-#: assets/js/builder.js:1685
+#: assets/js/builder.js:1694
 msgid "Leave empty to show the message instead."
 msgstr "Deixeu-ho buit per mostrar el missatge."
 
-#: assets/js/builder.js:1690
+#: assets/js/builder.js:1699
 msgid "Show the progress bar"
 msgstr "Mostra la barra de progrés"
 
-#: assets/js/builder.js:1690
+#: assets/js/builder.js:1699
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Per a formularis amb salts de pàgina: «Pas 1 de 3» damunt del formulari."
 
-#: assets/js/builder.js:1694 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: assets/js/builder.js:1695
+#: assets/js/builder.js:1704
 msgid "Protect this form with the CAPTCHA set up under Settings."
 msgstr "Protegeix aquest formulari amb el CAPTCHA configurat a Configuració."
 
-#: assets/js/builder.js:1695
+#: assets/js/builder.js:1704
 msgid "No CAPTCHA is set up yet. You can add one under SmokyForms > Settings. The trap field and time check protect every form anyway."
 msgstr "Encara no hi ha cap CAPTCHA configurat. En podeu afegir un a SmokyForms > Configuració. El camp trampa i el control de temps protegeixen igualment tots els formularis."
 
-#: assets/js/builder.js:1708
+#: assets/js/builder.js:1717
 msgid "Notification to you"
 msgstr "Avís per a vós"
 
-#: assets/js/builder.js:1709
+#: assets/js/builder.js:1718
 msgid "The free version of SmokyForms emails every entry to you and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. If an email fails, the entry is kept under SmokyForms > Undelivered."
 msgstr "La versió gratuïta de SmokyForms us envia cada resposta per correu i no la desa. SmokyForms Pro (aviat) desa totes les respostes al vostre tauler, amb cerca i exportació CSV. Si el correu falla, l’entrada es conserva a SmokyForms > No lliurades."
 
-#: assets/js/builder.js:1710
+#: assets/js/builder.js:1719
 msgid "Send me an email for every entry"
 msgstr "Envia’m un correu per cada entrada"
 
-#: assets/js/builder.js:1716 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
 msgid "Send to"
 msgstr "Envia a"
 
-#: assets/js/builder.js:1716
+#: assets/js/builder.js:1725
 msgid "Separate several addresses with commas."
 msgstr "Separeu diverses adreces amb comes."
 
-#: assets/js/builder.js:1719 assets/js/builder.js:1747
+#: assets/js/builder.js:1728 assets/js/builder.js:1756
 msgid "Subject"
 msgstr "Assumpte"
 
-#: assets/js/builder.js:1722 assets/js/builder.js:1750 includes/Templates.php:92
+#: assets/js/builder.js:1731 assets/js/builder.js:1759 includes/Templates.php:92
 msgid "Message"
 msgstr "Missatge"
 
-#: assets/js/builder.js:1729
+#: assets/js/builder.js:1738
 msgid "Confirmation to the visitor"
 msgstr "Confirmació al visitant"
 
-#: assets/js/builder.js:1730
+#: assets/js/builder.js:1739
 msgid "Send the visitor a confirmation email"
 msgstr "Envia al visitant un correu de confirmació"
 
-#: assets/js/builder.js:1737
+#: assets/js/builder.js:1746
 msgid "Address from the field"
 msgstr "Adreça del camp"
 
-#: assets/js/builder.js:1746
+#: assets/js/builder.js:1755
 msgid "Add an Email field to the form first."
 msgstr "Primer afegiu un camp de correu electrònic al formulari."
 
-#: assets/js/builder.js:1764 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
+#: assets/js/builder.js:1773 includes/Admin/Menu.php:86 includes/Admin/Menu.php:86 includes/Forms.php:30 includes/Forms.php:31
 msgid "Add New Form"
 msgstr "Afegeix un formulari nou"
 
-#: assets/js/builder.js:1765
+#: assets/js/builder.js:1774
 msgid "Start with a ready-made form or an empty one. Every template, calculators included, is free."
 msgstr "Comenceu amb un formulari fet o amb un de buit. Totes les plantilles, calculadores incloses, són gratuïtes."
 
-#: assets/js/builder.js:1856
+#: assets/js/builder.js:1865
 msgid "The form could not be saved."
 msgstr "No s’ha pogut desar el formulari."
 
-#: assets/js/builder.js:1867 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
+#: assets/js/builder.js:1876 includes/Admin/Menu.php:85 includes/Admin/Menu.php:85 includes/Forms.php:33
 msgid "All Forms"
 msgstr "Tots els formularis"
 
-#: assets/js/builder.js:1868 assets/js/builder.js:1868 includes/Notifications.php:41
+#: assets/js/builder.js:1877 assets/js/builder.js:1877 includes/Notifications.php:41
 msgid "Form name"
 msgstr "Nom del formulari"
 
-#: assets/js/builder.js:1872 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
+#: assets/js/builder.js:1881 includes/Admin/Menu.php:154 includes/Admin/Menu.php:168
 msgid "Shortcode"
 msgstr "Codi curt"
 
-#: assets/js/builder.js:1875
+#: assets/js/builder.js:1884
 msgid "Saving…"
 msgstr "S’està desant…"
 
-#: assets/js/builder.js:1875
+#: assets/js/builder.js:1884
 msgid "Save form"
 msgstr "Desa el formulari"
 
-#: assets/js/builder.js:1881
+#: assets/js/builder.js:1890
 msgid "Price tables"
 msgstr "Taules de preus"
 
-#: assets/js/builder.js:1881 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
+#: assets/js/builder.js:1890 includes/Admin/Menu.php:87 includes/Admin/Menu.php:87 includes/Admin/Menu.php:222
 msgid "Settings"
 msgstr "Configuració"
 
-#: assets/js/builder.js:2003
+#: assets/js/builder.js:2012
 msgid "Add it to a page with the SmokyForms block or the shortcode."
 msgstr "Afegiu-lo a una pàgina amb el bloc SmokyForms o amb el codi curt."
 
-#: assets/js/builder.js:2004
+#: assets/js/builder.js:2013
 msgid "You have unsaved changes."
 msgstr "Teniu canvis sense desar."
 
-#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:219 includes/Submission.php:101
+#: includes/Admin/Builder.php:68 includes/Admin/Builder.php:219 includes/Submission.php:109
 msgid "This form does not exist."
 msgstr "Aquest formulari no existeix."
 
@@ -955,58 +955,70 @@ msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visito
 msgstr "Cloudflare Turnstile és gratuït i normalment no demana cap trencaclosques als visitants."
 
 #: includes/Admin/Settings.php:85
+msgid "Math question"
+msgstr "Pregunta de matemàtiques"
+
+#: includes/Admin/Settings.php:87
+msgid "Ask a simple math question"
+msgstr "Fes una pregunta de matemàtiques senzilla"
+
+#: includes/Admin/Settings.php:88
+msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
+msgstr "Els visitants resolen una suma petita, com ara 7 + 4. No cal cap compte ni clau, i funciona sol o juntament amb un CAPTCHA."
+
+#: includes/Admin/Settings.php:92
 msgid "Site key"
 msgstr "Clau del lloc"
 
-#: includes/Admin/Settings.php:89
+#: includes/Admin/Settings.php:96
 msgid "Secret key"
 msgstr "Clau secreta"
 
-#: includes/Admin/Settings.php:91
+#: includes/Admin/Settings.php:98
 msgid "Saved. Leave empty to keep it."
 msgstr "Desada. Deixeu-ho buit per mantenir-la."
 
-#: includes/Admin/Settings.php:95
+#: includes/Admin/Settings.php:102
 msgid "Time check"
 msgstr "Control de temps"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:105
 msgid "seconds"
 msgstr "segons"
 
-#: includes/Admin/Settings.php:99
+#: includes/Admin/Settings.php:106
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "Els formularis enviats més ràpid que això després de carregar la pàgina es consideren correu brossa. 0 desactiva el control."
 
-#: includes/Admin/Settings.php:103
+#: includes/Admin/Settings.php:110
 msgid "Undelivered notifications"
 msgstr "Avisos no lliurats"
 
-#: includes/Admin/Settings.php:104
+#: includes/Admin/Settings.php:111
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "La versió gratuïta de SmokyForms us envia cada resposta per correu i no la desa. SmokyForms Pro (aviat) desa totes les respostes al vostre tauler, amb cerca i exportació CSV. Quan un correu d’avís no es pot enviar, l’entrada es conserva perquè no es perdi i la podeu tornar a enviar a SmokyForms > No lliurades."
 
-#: includes/Admin/Settings.php:107
+#: includes/Admin/Settings.php:114
 msgid "Keep for"
 msgstr "Conserva durant"
 
-#: includes/Admin/Settings.php:110 includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
 msgid "days"
 msgstr "dies"
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:121
 msgid "Uploaded files"
 msgstr "Fitxers pujats"
 
-#: includes/Admin/Settings.php:115
+#: includes/Admin/Settings.php:122
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "Els fitxers i les signatures enviats amb un formulari es desen a la carpeta uploads/smokyforms amb enllaços difícils d’endevinar, i el correu hi enllaça."
 
-#: includes/Admin/Settings.php:118
+#: includes/Admin/Settings.php:125
 msgid "Delete uploaded files after"
 msgstr "Suprimeix els fitxers pujats després de"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:129
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 conserva els fitxers fins que els suprimiu vosaltres."
 
@@ -1070,11 +1082,23 @@ msgstr "Voleu suprimir aquesta entrada definitivament?"
 msgid "Yes, delete"
 msgstr "Sí, suprimeix"
 
-#: includes/Captcha.php:40
+#: includes/Captcha.php:87 includes/Captcha.php:91 includes/Submission.php:234
+msgid "The form could not be checked. Please reload the page and try again."
+msgstr "No s’ha pogut comprovar el formulari. Recarregueu la pàgina i torneu-ho a provar."
+
+#: includes/Captcha.php:94
+msgid "Please answer the math question."
+msgstr "Responeu la pregunta de matemàtiques."
+
+#: includes/Captcha.php:106
+msgid "The answer to the math question is not right."
+msgstr "La resposta a la pregunta de matemàtiques no és correcta."
+
+#: includes/Captcha.php:153
 msgid "Please confirm that you are not a robot."
 msgstr "Confirmeu que no sou un robot."
 
-#: includes/Captcha.php:59
+#: includes/Captcha.php:172
 msgid "The robot check failed. Please try again."
 msgstr "La comprovació antirobot ha fallat. Torneu-ho a provar."
 
@@ -1138,7 +1162,7 @@ msgstr "Signatura"
 msgid "Page break"
 msgstr "Salt de pàgina"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:624 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
 msgid "This field is required."
 msgstr "Aquest camp és obligatori."
 
@@ -1162,11 +1186,11 @@ msgstr[1] "Ompliu com a màxim %s files."
 msgid "The signature could not be read. Please sign again."
 msgstr "No s’ha pogut llegir la signatura. Torneu a signar."
 
-#: includes/Fields.php:316 includes/Renderer.php:625
+#: includes/Fields.php:316 includes/Renderer.php:638
 msgid "Please enter a valid email address."
 msgstr "Introduïu una adreça de correu vàlida."
 
-#: includes/Fields.php:324 includes/Renderer.php:626
+#: includes/Fields.php:324 includes/Renderer.php:639
 msgid "Please enter a valid website address."
 msgstr "Introduïu una adreça web vàlida."
 
@@ -1174,7 +1198,7 @@ msgstr "Introduïu una adreça web vàlida."
 msgid "Please enter a valid phone number."
 msgstr "Introduïu un número de telèfon vàlid."
 
-#: includes/Fields.php:336 includes/Renderer.php:627
+#: includes/Fields.php:336 includes/Renderer.php:640
 msgid "Please enter a number."
 msgstr "Introduïu un número."
 
@@ -1194,7 +1218,7 @@ msgstr "Introduïu un número de com a màxim %s."
 msgid "Please enter a valid date."
 msgstr "Introduïu una data vàlida."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:637
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
 msgid "Please choose one of the options."
 msgstr "Trieu una de les opcions."
 
@@ -1372,7 +1396,7 @@ msgstr "SmokyForms: aquest formulari no existeix."
 msgid "Leave this field empty"
 msgstr "Deixeu aquest camp buit"
 
-#: includes/Renderer.php:260 includes/Renderer.php:629 includes/Submission.php:176
+#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "Reviseu el formulari i torneu-ho a provar."
 
@@ -1410,28 +1434,32 @@ msgstr "Trieu…"
 msgid "Remove this row"
 msgstr "Elimina aquesta fila"
 
-#: includes/Renderer.php:628
+#: includes/Renderer.php:602
+msgid "Security question"
+msgstr "Pregunta de seguretat"
+
+#: includes/Renderer.php:641
 msgid "Sending…"
 msgstr "S’està enviant…"
 
-#: includes/Renderer.php:630
+#: includes/Renderer.php:643
 msgid "The form could not be sent. Please try again."
 msgstr "No s’ha pogut enviar el formulari. Torneu-ho a provar."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:632
+#: includes/Renderer.php:645
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Pas %1$s de %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:634 includes/Uploads.php:125
+#: includes/Renderer.php:647 includes/Uploads.php:125
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s supera els %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:636 includes/Uploads.php:130
+#: includes/Renderer.php:649 includes/Uploads.php:130
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: aquest tipus de fitxer no està permès."
@@ -1440,15 +1468,11 @@ msgstr "%s: aquest tipus de fitxer no està permès."
 msgid "None"
 msgstr "Cap"
 
-#: includes/Submission.php:223
-msgid "The form could not be checked. Please reload the page and try again."
-msgstr "No s’ha pogut comprovar el formulari. Recarregueu la pàgina i torneu-ho a provar."
-
-#: includes/Submission.php:226
+#: includes/Submission.php:237
 msgid "That was very fast. Please wait a moment and send the form again."
 msgstr "Ha estat molt ràpid. Espereu un moment i torneu a enviar el formulari."
 
-#: includes/Submission.php:234
+#: includes/Submission.php:245
 msgid "Too many submissions. Please wait a minute and try again."
 msgstr "Massa enviaments. Espereu un minut i torneu-ho a provar."
 

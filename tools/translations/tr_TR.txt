@@ -453,3 +453,9 @@ a1782e|Çıkış adresi
 500aa5|Kayıt adresi
 b4494a|Parola sıfırlama adresi
 98400a|Akıllı etiketler
+ae5c96|Matematik sorusu
+d551e9|Basit bir matematik sorusu sor
+e3c30f|Ziyaretçiler 7 + 4 gibi küçük bir toplama çözer. Hesap ya da anahtar gerekmez; tek başına veya CAPTCHA ile birlikte çalışır.
+c74c74|Lütfen matematik sorusunu yanıtlayın.
+fa4e2a|Matematik sorusunun cevabı doğru değil.
+1b1e7a|Güvenlik sorusu

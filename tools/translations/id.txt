@@ -453,3 +453,9 @@ a1782e|Alamat keluar
 500aa5|Alamat pendaftaran
 b4494a|Alamat lupa kata sandi
 98400a|Tag pintar
+ae5c96|Pertanyaan matematika
+d551e9|Ajukan pertanyaan matematika sederhana
+e3c30f|Pengunjung menyelesaikan penjumlahan kecil seperti 7 + 4. Tidak perlu akun atau kunci, dan dapat dipakai sendiri atau bersama CAPTCHA.
+c74c74|Silakan jawab pertanyaan matematika.
+fa4e2a|Jawaban pertanyaan matematika tidak benar.
+1b1e7a|Pertanyaan keamanan

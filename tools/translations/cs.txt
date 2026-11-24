@@ -453,3 +453,9 @@ a1782e|Adresa odhlášení
 500aa5|Adresa registrace
 b4494a|Adresa pro zapomenuté heslo
 98400a|Chytré značky
+ae5c96|Početní otázka
+d551e9|Položit jednoduchou početní otázku
+e3c30f|Návštěvníci vyřeší malý příklad, například 7 + 4. Nepotřebuje účet ani klíč a funguje samostatně i spolu s CAPTCHA.
+c74c74|Odpovězte prosím na početní otázku.
+fa4e2a|Odpověď na početní otázku není správná.
+1b1e7a|Bezpečnostní otázka

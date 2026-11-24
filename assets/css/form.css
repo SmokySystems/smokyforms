@@ -34,7 +34,7 @@
 }
 /* Base sizing for themes that do not style form fields. :where() keeps it at zero specificity,
    so any theme style wins. The theme's font is used. */
-:where(.smokyforms-field) :where(input:not([type="checkbox"]):not([type="radio"]), select, textarea) {
+:where(.smokyforms-field, .smokyforms-math) :where(input:not([type="checkbox"]):not([type="radio"]), select, textarea) {
 	font: inherit;
 	padding: 0.6em 0.75em;
 	border: 1px solid #8c8f94;
@@ -101,6 +101,25 @@
 }
 .smokyforms-captcha {
 	margin-block-end: 1.25em;
+}
+.smokyforms-math {
+	margin-block-end: 1em;
+}
+.smokyforms-math label {
+	display: block;
+	margin-block-end: 0.35em;
+	font-weight: 600;
+}
+.smokyforms-math-label {
+	font-weight: 600;
+}
+.smokyforms-math-question {
+	font-weight: 600;
+}
+.smokyforms-math input {
+	box-sizing: border-box;
+	width: 9em;
+	max-width: 100%;
 }
 .smokyforms-message {
 	margin-block-start: 1em;

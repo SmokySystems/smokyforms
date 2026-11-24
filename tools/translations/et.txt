@@ -453,3 +453,9 @@ a1782e|Väljalogimise aadress
 500aa5|Registreerumise aadress
 b4494a|Unustatud parooli aadress
 98400a|Nutisildid
+ae5c96|Arvutusülesanne
+d551e9|Esita lihtne arvutusülesanne
+e3c30f|Külastajad lahendavad väikese tehte, näiteks 7 + 4. See ei vaja kontot ega võtit ning töötab eraldi või koos CAPTCHAga.
+c74c74|Vasta arvutusülesandele.
+fa4e2a|Vastus arvutusülesandele pole õige.
+1b1e7a|Turvaküsimus

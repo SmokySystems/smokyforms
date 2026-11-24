@@ -453,3 +453,9 @@ a1782e|Utloggingsadresse
 500aa5|Registreringsadresse
 b4494a|Adresse for glemt passord
 98400a|Smarte tagger
+ae5c96|Regnespørsmål
+d551e9|Still et enkelt regnespørsmål
+e3c30f|Besøkende løser et lite regnestykke som 7 + 4. Det krever ingen konto eller nøkkel og fungerer alene eller sammen med en CAPTCHA.
+c74c74|Svar på regnespørsmålet.
+fa4e2a|Svaret på regnespørsmålet er ikke riktig.
+1b1e7a|Sikkerhetsspørsmål

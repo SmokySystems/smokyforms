@@ -453,3 +453,9 @@ a1782e|Utloggningsadress
 500aa5|Registreringsadress
 b4494a|Adress för glömt lösenord
 98400a|Smarta taggar
+ae5c96|Räknefråga
+d551e9|Ställ en enkel räknefråga
+e3c30f|Besökare löser ett litet tal som 7 + 4. Det kräver varken konto eller nyckel och fungerar ensamt eller tillsammans med en CAPTCHA.
+c74c74|Svara på räknefrågan.
+fa4e2a|Svaret på räknefrågan är inte rätt.
+1b1e7a|Säkerhetsfråga

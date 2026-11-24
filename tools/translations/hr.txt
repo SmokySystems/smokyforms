@@ -453,3 +453,9 @@ a1782e|Adresa za odjavu
 500aa5|Adresa za registraciju
 b4494a|Adresa za zaboravljenu lozinku
 98400a|Pametne oznake
+ae5c96|Računsko pitanje
+d551e9|Postavi jednostavno računsko pitanje
+e3c30f|Posjetitelji rješavaju mali zadatak poput 7 + 4. Ne treba račun ni ključ, a radi samostalno ili zajedno s CAPTCHA-om.
+c74c74|Odgovorite na računsko pitanje.
+fa4e2a|Odgovor na računsko pitanje nije točan.
+1b1e7a|Sigurnosno pitanje

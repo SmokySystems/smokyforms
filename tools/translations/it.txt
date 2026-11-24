@@ -453,3 +453,9 @@ a1782e|Indirizzo di uscita
 500aa5|Indirizzo di registrazione
 b4494a|Indirizzo per la password dimenticata
 98400a|Tag intelligenti
+ae5c96|Domanda di calcolo
+d551e9|Poni una semplice domanda di calcolo
+e3c30f|I visitatori risolvono una piccola operazione come 7 + 4. Non servono account né chiavi e funziona da sola o insieme a un CAPTCHA.
+c74c74|Rispondi alla domanda di calcolo.
+fa4e2a|La risposta alla domanda di calcolo non è corretta.
+1b1e7a|Domanda di sicurezza

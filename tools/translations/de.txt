@@ -453,3 +453,9 @@ a1782e|Abmeldeadresse
 500aa5|Registrierungsadresse
 b4494a|Adresse für vergessene Passwörter
 98400a|Smart Tags
+ae5c96|Rechenaufgabe
+d551e9|Eine einfache Rechenaufgabe stellen
+e3c30f|Besucher lösen eine kleine Aufgabe wie 7 + 4. Dafür sind weder Konto noch Schlüssel nötig, und sie funktioniert allein oder zusammen mit einem CAPTCHA.
+c74c74|Bitte beantworten Sie die Rechenaufgabe.
+fa4e2a|Die Antwort auf die Rechenaufgabe ist nicht richtig.
+1b1e7a|Sicherheitsfrage

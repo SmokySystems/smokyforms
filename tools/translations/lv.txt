@@ -453,3 +453,9 @@ a1782e|Atteikšanās adrese
 500aa5|Reģistrācijas adrese
 b4494a|Aizmirstas paroles adrese
 98400a|Viedie tagi
+ae5c96|Rēķināšanas jautājums
+d551e9|Uzdot vienkāršu rēķināšanas jautājumu
+e3c30f|Apmeklētāji atrisina nelielu uzdevumu, piemēram, 7 + 4. Nav vajadzīgs konts vai atslēga, un tas darbojas atsevišķi vai kopā ar CAPTCHA.
+c74c74|Lūdzu, atbildiet uz rēķināšanas jautājumu.
+fa4e2a|Atbilde uz rēķināšanas jautājumu nav pareiza.
+1b1e7a|Drošības jautājums

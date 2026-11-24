@@ -453,3 +453,9 @@ a1782e|Dirección de cierre de sesión
 500aa5|Dirección de registro
 b4494a|Dirección de contraseña olvidada
 98400a|Etiquetas inteligentes
+ae5c96|Pregunta matemática
+d551e9|Hacer una pregunta matemática sencilla
+e3c30f|Los visitantes resuelven una suma pequeña como 7 + 4. No necesita cuenta ni clave, y funciona sola o junto con un CAPTCHA.
+c74c74|Responde a la pregunta matemática.
+fa4e2a|La respuesta a la pregunta matemática no es correcta.
+1b1e7a|Pregunta de seguridad

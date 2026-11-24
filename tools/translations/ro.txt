@@ -453,3 +453,9 @@ a1782e|Adresa de dezautentificare
 500aa5|Adresa de înregistrare
 b4494a|Adresa pentru parola pierdută
 98400a|Etichete inteligente
+ae5c96|Întrebare de matematică
+d551e9|Pune o întrebare simplă de matematică
+e3c30f|Vizitatorii rezolvă un calcul mic, cum ar fi 7 + 4. Nu are nevoie de cont sau cheie și funcționează singur sau împreună cu un CAPTCHA.
+c74c74|Răspunde la întrebarea de matematică.
+fa4e2a|Răspunsul la întrebarea de matematică nu este corect.
+1b1e7a|Întrebare de securitate

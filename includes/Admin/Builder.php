@@ -189,7 +189,7 @@ final class Builder {
 					'types'         => $types,
 					'templates'     => Templates::all(),
 					'tags'          => Notifications::tags(),
-					'captchaReady'  => 'none' !== PluginSettings::get( 'captcha' ) && '' !== PluginSettings::get( 'captcha_site_key' ),
+					'captchaReady'  => ! empty( PluginSettings::get( 'math' ) ) || ( 'none' !== PluginSettings::get( 'captcha' ) && '' !== PluginSettings::get( 'captcha_site_key' ) ),
 					'listUrl'       => admin_url( Menu::PARENT ),
 					'settingsUrl'   => admin_url( Menu::PARENT . '&page=' . Settings::SLUG ),
 					'builderUrl'    => Menu::builder_url(),

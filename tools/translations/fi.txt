@@ -453,3 +453,9 @@ a1782e|Uloskirjautumisosoite
 500aa5|Rekisteröitymisosoite
 b4494a|Unohtuneen salasanan osoite
 98400a|Älytunnisteet
+ae5c96|Laskutehtävä
+d551e9|Kysy yksinkertainen laskutehtävä
+e3c30f|Kävijät ratkaisevat pienen laskun, esimerkiksi 7 + 4. Se ei tarvitse tiliä eikä avainta ja toimii yksinään tai CAPTCHAn kanssa.
+c74c74|Vastaa laskutehtävään.
+fa4e2a|Vastaus laskutehtävään ei ole oikein.
+1b1e7a|Turvakysymys

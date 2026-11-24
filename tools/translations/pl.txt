@@ -453,3 +453,9 @@ a1782e|Adres wylogowania
 500aa5|Adres rejestracji
 b4494a|Adres odzyskiwania hasła
 98400a|Inteligentne znaczniki
+ae5c96|Pytanie matematyczne
+d551e9|Zadaj proste pytanie matematyczne
+e3c30f|Odwiedzający rozwiązują małe działanie, na przykład 7 + 4. Nie potrzeba konta ani klucza, a działa samodzielnie lub razem z CAPTCHA.
+c74c74|Odpowiedz na pytanie matematyczne.
+fa4e2a|Odpowiedź na pytanie matematyczne jest nieprawidłowa.
+1b1e7a|Pytanie zabezpieczające

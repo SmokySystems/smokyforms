@@ -4,7 +4,7 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.4
+Stable tag: 0.2.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,7 +61,7 @@ Files and signatures are saved in the folder `wp-content/uploads/smokyforms` wit
 = Spam protection =
 
 * Hidden trap field and a time check on every form.
-* Optional Cloudflare Turnstile, Google reCAPTCHA v2 or hCaptcha.
+* Optional math question (no account or outside service) and Cloudflare Turnstile, Google reCAPTCHA v2 or hCaptcha, alone or together.
 * At most 10 submissions per minute per visitor and form.
 
 = Light and fast =
@@ -139,6 +139,9 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.2.5 =
+* New: a simple math question (such as 7 + 4) as spam protection. It needs no account, key or outside service, and works alone or together with a CAPTCHA. Switch it on under SmokyForms > Settings.
 
 = 0.2.4 =
 * Updates show up straight away on sites that strip the version number from script and style addresses (before, the browser could keep the old files).
