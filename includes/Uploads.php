@@ -11,9 +11,9 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Files are saved under uploads/smokyforms/<year>/<month>/<random>/ only after the whole
- * submission is valid. The random folder name keeps the links unguessable; directory
- * listing and scripts are switched off there. The e-mail links to the files and can
- * attach them. They can be deleted automatically after a number of days (Settings).
+ * submission is valid. Direct access to the folder is denied; the e-mail and the entries
+ * link to signed addresses that this class serves. The e-mail can attach the files too. They
+ * can be deleted automatically after a number of days (Settings).
  */
 final class Uploads {
 
@@ -31,6 +31,94 @@ final class Uploads {
 	}
 
 	/**
+	 * Registers the download address of saved files.
+	 */
+	public static function boot() {
+		add_action( 'admin_post_smokyforms_file', array( __CLASS__, 'serve' ) );
+		add_action( 'admin_post_nopriv_smokyforms_file', array( __CLASS__, 'serve' ) );
+	}
+
+	/**
+	 * Signature of a file path below uploads/smokyforms.
+	 *
+	 * @param string $rel Path below the base folder.
+	 * @return string
+	 */
+	private static function sign( $rel ) {
+		return substr( hash_hmac( 'sha256', 'smokyforms-file|' . $rel, wp_salt( 'auth' ) ), 0, 32 );
+	}
+
+	/**
+	 * Signed address of a saved file.
+	 *
+	 * @param string $rel Path below the base folder.
+	 * @return string
+	 */
+	public static function link( $rel ) {
+		return add_query_arg(
+			array(
+				'action' => 'smokyforms_file',
+				'f'      => $rel,
+				's'      => self::sign( $rel ),
+			),
+			admin_url( 'admin-post.php' )
+		);
+	}
+
+	/**
+	 * Sends a saved file when the address carries the right signature.
+	 */
+	public static function serve() {
+		// phpcs:disable WordPress.Security.NonceVerification.Recommended -- the signature in the address is the check (the links are in e-mails).
+		$rel = isset( $_GET['f'] ) ? sanitize_text_field( wp_unslash( $_GET['f'] ) ) : '';
+		$sig = isset( $_GET['s'] ) ? sanitize_text_field( wp_unslash( $_GET['s'] ) ) : '';
+		// phpcs:enable
+		$base = realpath( self::base()['path'] );
+		$path = '' !== $rel && $base ? realpath( $base . '/' . $rel ) : false;
+		if ( ! $path || 0 !== strpos( $path, $base . DIRECTORY_SEPARATOR ) || ! is_file( $path ) || ! hash_equals( self::sign( $rel ), $sig ) ) {
+			status_header( 404 );
+			nocache_headers();
+			exit;
+		}
+		$type = wp_check_filetype( $path );
+		$mime = $type['type'] ? $type['type'] : 'application/octet-stream';
+		$show = 0 === strpos( $mime, 'image/' ) && 'image/svg+xml' !== $mime;
+		nocache_headers();
+		header( 'Content-Type: ' . $mime );
+		header( 'X-Content-Type-Options: nosniff' );
+		header( 'Content-Length: ' . filesize( $path ) );
+		header( 'Content-Disposition: ' . ( $show || 'application/pdf' === $mime ? 'inline' : 'attachment' ) . '; filename="' . sanitize_file_name( basename( $path ) ) . '"' );
+		readfile( $path ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_readfile
+		exit;
+	}
+
+	/**
+	 * Runs $callback with the WordPress upload functions pointed at one folder.
+	 *
+	 * @param string   $folder   Folder below the base folder.
+	 * @param callable $callback Callback.
+	 * @return mixed
+	 */
+	private static function in_folder( $folder, $callback ) {
+		$base   = self::base();
+		$filter = static function ( $dirs ) use ( $base, $folder ) {
+			$dirs['path']    = $base['path'] . '/' . $folder;
+			$dirs['url']     = $base['url'] . '/' . $folder;
+			$dirs['subdir']  = '/smokyforms/' . $folder;
+			$dirs['basedir'] = $base['path'];
+			$dirs['baseurl'] = $base['url'];
+			$dirs['error']   = false;
+			return $dirs;
+		};
+		add_filter( 'upload_dir', $filter, 99 );
+		try {
+			return call_user_func( $callback );
+		} finally {
+			remove_filter( 'upload_dir', $filter, 99 );
+		}
+	}
+
+	/**
 	 * Creates the base folder with its protection files.
 	 *
 	 * @return string Base path.
@@ -41,11 +129,9 @@ final class Uploads {
 		if ( ! file_exists( $base . '/index.php' ) ) {
 			file_put_contents( $base . '/index.php', "<?php\n// Silence is golden.\n" ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents
 		}
-		if ( ! file_exists( $base . '/.htaccess' ) ) {
-			file_put_contents( // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents
-				$base . '/.htaccess',
-				"Options -Indexes\n<FilesMatch \"\\.(php|php\\d|phtml|phar|pht|cgi|pl|py|sh|shtml|asp|aspx|jsp)$\">\n\t<IfModule mod_authz_core.c>\n\t\tRequire all denied\n\t</IfModule>\n\t<IfModule !mod_authz_core.c>\n\t\tDeny from all\n\t</IfModule>\n</FilesMatch>\n"
-			);
+		$rules = "Options -Indexes\n<IfModule mod_authz_core.c>\n\tRequire all denied\n</IfModule>\n<IfModule !mod_authz_core.c>\n\tDeny from all\n</IfModule>\n";
+		if ( ! file_exists( $base . '/.htaccess' ) || file_get_contents( $base . '/.htaccess' ) !== $rules ) { // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
+			file_put_contents( $base . '/.htaccess', $rules ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents
 		}
 		return $base;
 	}
@@ -135,6 +221,7 @@ final class Uploads {
 			$pending[] = array(
 				'tmp'  => $file['tmp_name'],
 				'name' => $name,
+				'type' => $check['type'],
 				'size' => $file['size'],
 			);
 		}
@@ -192,18 +279,36 @@ final class Uploads {
 			}
 			return $dir;
 		};
-		$url    = self::base()['url'];
-
 		foreach ( $form['fields'] as $f ) {
 			if ( 'file' === $f['type'] && array_key_exists( $f['id'], $values ) ) {
 				$saved = array();
 				foreach ( $pending[ $f['id'] ] ?? array() as $file ) {
-					$target = wp_unique_filename( $open(), $file['name'] );
-					if ( @move_uploaded_file( $file['tmp'], $dir . '/' . $target ) ) { // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged, Generic.PHP.ForbiddenFunctions.Found
-						chmod( $dir . '/' . $target, 0644 ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_chmod
+					$open();
+					require_once ABSPATH . 'wp-admin/includes/file.php';
+					$moved = self::in_folder(
+						$folder,
+						static function () use ( $file ) {
+							$upload = array(
+								'name'     => $file['name'],
+								'type'     => $file['type'] ?? '',
+								'tmp_name' => $file['tmp'],
+								'error'    => 0,
+								'size'     => (int) $file['size'],
+							);
+							return wp_handle_upload(
+								$upload,
+								array(
+									'test_form' => false,
+									'test_type' => false, // The type was checked against the field's list in validate().
+								)
+							);
+						}
+					);
+					if ( is_array( $moved ) && empty( $moved['error'] ) && ! empty( $moved['file'] ) ) {
+						$target  = wp_basename( $moved['file'] );
 						$saved[] = array(
 							'name' => $file['name'],
-							'url'  => $url . '/' . $folder . '/' . rawurlencode( $target ),
+							'url'  => self::link( $folder . '/' . $target ),
 							'file' => $folder . '/' . $target,
 							'size' => (int) $file['size'],
 						);
@@ -215,12 +320,19 @@ final class Uploads {
 				$png = '' !== $values[ $f['id'] ] ? self::signature_png( (string) $values[ $f['id'] ] ) : false;
 				$values[ $f['id'] ] = array();
 				if ( $png ) {
-					$target = wp_unique_filename( $open(), 'signature-' . $f['id'] . '.png' );
-					if ( false !== file_put_contents( $dir . '/' . $target, $png ) ) { // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents
+					$open();
+					$bits = self::in_folder(
+						$folder,
+						static function () use ( $f, $png ) {
+							return wp_upload_bits( 'signature-' . $f['id'] . '.png', null, $png );
+						}
+					);
+					if ( is_array( $bits ) && empty( $bits['error'] ) && ! empty( $bits['file'] ) ) {
+						$target             = wp_basename( $bits['file'] );
 						$values[ $f['id'] ] = array(
 							array(
 								'name' => $target,
-								'url'  => $url . '/' . $folder . '/' . $target,
+								'url'  => self::link( $folder . '/' . $target ),
 								'file' => $folder . '/' . $target,
 								'size' => strlen( $png ),
 							),

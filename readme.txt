@@ -4,7 +4,7 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.7
+Stable tag: 0.2.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,7 +73,7 @@ Files and signatures are saved in the folder `wp-content/uploads/smokyforms` wit
 
 = Your language =
 
-English by default, the plugin follows your site language. 63 languages are included, and every text can be translated. The Turkish translation is checked by a native speaker; the others were translated with care but not yet reviewed by native speakers. Translators are welcome on [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/smokyforms/).
+English by default, the plugin follows your site language. Every text can be translated, and translations are delivered through translate.wordpress.org. Translators are welcome on [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/smokyforms/).
 
 = Support =
 
@@ -139,6 +139,11 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.2.8 =
+* Uploaded files and signatures are saved with WordPress' own upload functions and can only be opened through signed links.
+* Button colours are added with WordPress' inline style function.
+* Translations are delivered through translate.wordpress.org.
 
 = 0.2.7 =
 * New menu icon.

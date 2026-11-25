@@ -173,9 +173,13 @@ final class Renderer {
 		// Message after a submission without JavaScript (see Submission::fallback()).
 		$sent = isset( $_GET['smokyforms_sent'] ) ? absint( $_GET['smokyforms_sent'] ) : 0; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 		$fail = isset( $_GET['smokyforms_error'] ) ? absint( $_GET['smokyforms_error'] ) : 0; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-		echo self::button_style( $form, $uid ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- colours are sanitize_hex_color() values.
+		$button_css = self::button_style( $form, $uid );
+		if ( '' !== $button_css ) {
+			wp_add_inline_style( 'smokyforms', $button_css );
+		}
 		if ( $hidden && 1 === self::$count ) {
-			echo '<noscript><style>.smokyforms .smokyforms-field[data-logic][hidden]{display:block!important}</style></noscript>';
+			// Without JavaScript the fields hidden by logic are shown again.
+			echo '<noscript><link rel="stylesheet" href="' . esc_url( SMOKYFORMS_URL . 'assets/css/noscript.css?ver=' . SMOKYFORMS_VERSION ) . '"></noscript>';
 		}
 		?>
 		<form id="<?php echo esc_attr( $uid ); ?>" class="smokyforms" method="post" novalidate
@@ -285,7 +289,7 @@ final class Renderer {
 		if ( $over ) {
 			$css .= $sel . ':hover,' . $sel . ':focus-visible{' . $over . '}';
 		}
-		return $css ? '<style>' . $css . '</style>' : '';
+		return $css;
 	}
 
 	/**

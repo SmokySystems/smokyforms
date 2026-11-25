@@ -28,7 +28,7 @@ jobs:
 
       - name: Build zip
         run: |
-          zip -qr "smokyforms-${{ steps.v.outputs.version }}.zip" smokyforms -x 'smokyforms/tools/*' 'smokyforms/.git*' 'smokyforms/README.md' 'smokyforms/.github/*' 'smokyforms/.wordpress-org/*' '*/__pycache__/*'
+          zip -qr "smokyforms-${{ steps.v.outputs.version }}.zip" smokyforms -x 'smokyforms/tools/*' 'smokyforms/.git*' 'smokyforms/README.md' 'smokyforms/.github/*' 'smokyforms/.wordpress-org/*' 'smokyforms/languages/*.po' 'smokyforms/languages/*.mo' 'smokyforms/languages/*.php' '*/__pycache__/*'
           unzip -l "smokyforms-${{ steps.v.outputs.version }}.zip" | tail -1
 
       - name: Create release if this version has none

@@ -37,18 +37,11 @@ final class Plugin {
 	 * Registers hooks.
 	 */
 	private function __construct() {
-		// Bundled translations (translate.wordpress.org language packs take priority when installed).
-		add_action(
-			'init',
-			static function () {
-				load_plugin_textdomain( 'smokyforms', false, dirname( plugin_basename( SMOKYFORMS_FILE ) ) . '/languages' );
-			},
-			0
-		);
 		add_action( 'init', array( Forms::class, 'register' ) );
 		add_action( 'init', array( Renderer::class, 'register' ) );
 		add_action( 'rest_api_init', array( Submission::class, 'routes' ) );
 		Submission::boot();
+		Uploads::boot();
 		add_action( 'rest_api_init', array( Admin\Builder::class, 'routes' ) );
 		add_action( Undelivered::CRON, array( Undelivered::class, 'purge' ) );
 		add_action( Undelivered::CRON, array( Uploads::class, 'purge' ) );
