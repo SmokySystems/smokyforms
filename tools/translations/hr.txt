@@ -298,7 +298,6 @@ a7498e|Ovo je probna e-poruka. Ako je možete pročitati, slanje e-pošte radi.
 a3fb23|Probna e-poruka poslana je na %s. Provjerite ulaznu poštu i mapu neželjene pošte.
 33de89|Probnu e-poruku nije moguće poslati.
 3a9486|Mnogi hostinzi dostavljaju e-poštu WordPressa sa zakašnjenjem ili u neželjenu poštu. Slanje putem SMTP računa vašeg pružatelja e-pošte to rješava bez zasebnog SMTP dodatka.
-05449a|Ove postavke dijeli %s.
 51e4ba|%s je aktivan i brine o slanju e-pošte pa se ove postavke ne koriste.
 c2239a|SMTP
 4d7db2|Šalji e-poštu putem SMTP računa

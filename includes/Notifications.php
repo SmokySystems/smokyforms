@@ -144,8 +144,8 @@ final class Notifications {
 		$send             = static function () use ( $to, $subject, $body, $headers, $files ) {
 			return wp_mail( $to, $subject, $body, $headers, $files );
 		};
-		// The shared SMTP module sends through the SMTP account when one is set up.
-		$ok = class_exists( '\SmokySystems\Mail\Module' ) ? \SmokySystems\Mail\Module::wrap( $send ) : $send();
+		// Sends through the SMTP account when one is set up (Settings > Email sending).
+		$ok = Mail::wrap( $send );
 		self::$sending    = false;
 		if ( ! $ok && '' === self::$last_error ) {
 			self::$last_error = __( 'The site could not send the email.', 'smokyforms' );

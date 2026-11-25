@@ -12,7 +12,7 @@ A WordPress form builder where calculations are free. Build quote forms, order f
 - Values for choices (prices for options), ticked checkboxes added up
 - Templates: contact form, quote request, order form, booking with nights, price table, BMI and loan calculators
 - Notification and confirmation emails with smart tags
-- Built-in SMTP settings (shared with other SmokySystems plugins), test email
+- Built-in SMTP settings (SmokyForms keeps its own), test email
 - Entries are emailed, not stored; if an email fails, the entry is kept so it is not lost
 - Spam protection: trap field, time check, rate limit, optional Cloudflare Turnstile, reCAPTCHA or hCaptcha
 - Block and shortcode `[smokyforms id="123"]`, works without JavaScript
@@ -21,8 +21,8 @@ A WordPress form builder where calculations are free. Build quote forms, order f
 
 ## Repository
 
-- `smokyforms.php`, `includes/`, `assets/`, `blocks/`, `lib/`, `languages/` – the plugin
-- `lib/smokysystems-mail/` – shared SMTP module; only the newest copy among the installed SmokySystems plugins runs
+- `smokyforms.php`, `includes/`, `assets/`, `blocks/`, `languages/` – the plugin
+- `includes/Mail.php` – SMTP sending with its own settings (option `smokyforms_mail`)
 - `tools/` – development tools (string extraction, translation build), not part of the release
 
 Build the language files: `python3 tools/build-languages.py`

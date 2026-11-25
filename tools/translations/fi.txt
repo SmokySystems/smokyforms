@@ -298,7 +298,6 @@ a7498e|Tämä on testiviesti. Jos voit lukea sen, sähköpostien lähetys toimii
 a3fb23|Testiviesti lähetettiin osoitteeseen %s. Tarkista saapuneet ja roskapostikansio.
 33de89|Testiviestiä ei voitu lähettää.
 3a9486|Monet palveluntarjoajat toimittavat WordPressin sähköpostit myöhässä tai roskapostiin. Lähettäminen sähköpostipalvelusi SMTP-tilin kautta korjaa tämän ilman erillistä SMTP-lisäosaa.
-05449a|Nämä asetukset jakaa %s.
 51e4ba|%s on käytössä ja hoitaa sähköpostien lähetyksen, joten näitä asetuksia ei käytetä.
 c2239a|SMTP
 4d7db2|Lähetä sähköpostit SMTP-tilin kautta

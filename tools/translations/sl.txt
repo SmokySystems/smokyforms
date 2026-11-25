@@ -298,7 +298,6 @@ a7498e|To je preizkusna e-pošta. Če jo lahko preberete, pošiljanje e-pošte d
 a3fb23|Preizkusna e-pošta je bila poslana na %s. Preverite prejeto pošto in mapo z neželeno pošto.
 33de89|Preizkusne e-pošte ni bilo mogoče poslati.
 3a9486|Veliko gostiteljev dostavlja e-pošto WordPressa pozno ali med neželeno pošto. Pošiljanje prek SMTP računa vašega ponudnika e-pošte to reši brez ločenega vtičnika SMTP.
-05449a|Te nastavitve si deli %s.
 51e4ba|%s je aktiven in skrbi za pošiljanje e-pošte, zato se te nastavitve ne uporabljajo.
 c2239a|SMTP
 4d7db2|Pošiljaj e-pošto prek SMTP računa

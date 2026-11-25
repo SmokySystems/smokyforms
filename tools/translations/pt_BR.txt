@@ -298,7 +298,6 @@ a7498e|Este é um e-mail de teste. Se você consegue lê-lo, o envio de e-mails 
 a3fb23|O e-mail de teste foi enviado para %s. Verifique a caixa de entrada e a pasta de spam.
 33de89|Não foi possível enviar o e-mail de teste.
 3a9486|Muitas hospedagens entregam os e-mails do WordPress com atraso ou na pasta de spam. Enviá-los pela conta SMTP do seu provedor de e-mail resolve isso, sem um plugin SMTP separado.
-05449a|Estas configurações são compartilhadas por %s.
 51e4ba|%s está ativo e cuida do envio de e-mails, então estas configurações não são usadas.
 c2239a|SMTP
 4d7db2|Enviar e-mails por uma conta SMTP

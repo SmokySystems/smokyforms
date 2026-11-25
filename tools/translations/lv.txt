@@ -298,7 +298,6 @@ a7498e|Šis ir testa e-pasts. Ja varat to izlasīt, e-pastu sūtīšana darbojas
 a3fb23|Testa e-pasts tika nosūtīts uz %s. Pārbaudiet iesūtni un surogātpasta mapi.
 33de89|Testa e-pastu neizdevās nosūtīt.
 3a9486|Daudzi mitināšanas pakalpojumi WordPress e-pastus piegādā ar kavēšanos vai surogātpastā. Sūtīšana caur jūsu e-pasta pakalpojuma SMTP kontu to atrisina bez atsevišķa SMTP spraudņa.
-05449a|Šos iestatījumus koplieto %s.
 51e4ba|%s ir aktīvs un nodrošina e-pastu sūtīšanu, tāpēc šie iestatījumi netiek izmantoti.
 c2239a|SMTP
 4d7db2|Sūtīt e-pastus caur SMTP kontu

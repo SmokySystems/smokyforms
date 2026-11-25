@@ -264,7 +264,7 @@ msgstr "Skrifa formúluna"
 msgid "Undo"
 msgstr "Afturkalla"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "Hreinsa"
 
@@ -549,7 +549,7 @@ msgstr "Flestar raðir"
 msgid "Text of the add button"
 msgstr "Texti bæta við-hnappsins"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "Bæta við öðrum"
 
@@ -557,7 +557,7 @@ msgstr "Bæta við öðrum"
 msgid "Next button"
 msgstr "Áfram-hnappur"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "Áfram"
 
@@ -565,7 +565,7 @@ msgstr "Áfram"
 msgid "Back button"
 msgstr "Til baka-hnappur"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "Til baka"
 
@@ -782,7 +782,7 @@ msgstr "Sýna framvindustiku"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Fyrir form með síðuskilum: „Skref 1 af 3“ fyrir ofan formið."
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvup�
 msgid "Send me an email for every entry"
 msgstr "Sendu mér tölvupóst fyrir hverja innsendingu"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "Senda til"
 
@@ -904,7 +904,7 @@ msgstr "Eyðublaðið var vistað."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Breyta eyðublaði &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "Þú hefur ekki heimild til þess."
 
@@ -942,83 +942,83 @@ msgstr "Stillingar SmokyForms"
 msgid "Email sending"
 msgstr "Sending tölvupósts"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "Ruslpóstvörn"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "Hvert eyðublað hefur falinn gildrureit og tímaathugun. Auk þess geturðu bætt við CAPTCHA; það er notað á öllum eyðublöðum þar sem kveikt er á því í stillingum eyðublaðsins."
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile er ókeypis og biður gesti yfirleitt ekki um að leysa þrautir."
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "Reikningsspurning"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "Spyrja einfaldrar reikningsspurningar"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "Gestir leysa lítið dæmi eins og 7 + 4. Það þarf hvorki aðgang né lykil og virkar eitt og sér eða með CAPTCHA."
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "Vefsvæðislykill"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "Leynilykill"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "Vistað. Hafðu autt til að halda honum."
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "Tímaathugun"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "sekúndur"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "Eyðublöð sem eru send hraðar en þetta eftir að síðan hlóðst teljast ruslpóstur. 0 slekkur á athuguninni."
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "Óafhentar tilkynningar"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "Ókeypis útgáfa SmokyForms sendir þér hverja innsendingu í tölvupósti og vistar hana ekki. SmokyForms Pro (væntanlegt) vistar allar innsendingar í stjórnborðinu, með leit og CSV-útflutningi. Ef ekki er hægt að senda tilkynningu er innsendingin geymd svo hún glatist ekki og þú getur sent hana aftur undir SmokyForms > Óafhent."
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "Geyma í"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "daga"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "Innsendar skrár"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "Skrár og undirskriftir sem sendar eru með formi eru vistaðar í möppunni uploads/smokyforms með tenglum sem erfitt er að giska á, og pósturinn tengir á þær."
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "Eyða innsendum skrám eftir"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 geymir skrárnar þar til þú eyðir þeim sjálf(ur)."
 
@@ -1162,7 +1162,7 @@ msgstr "Undirskrift"
 msgid "Page break"
 msgstr "Síðuskil"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "Þessi reitur er áskilinn."
 
@@ -1186,11 +1186,11 @@ msgstr[1] "Fylltu út í mesta lagi %s raðir."
 msgid "The signature could not be read. Please sign again."
 msgstr "Ekki tókst að lesa undirskriftina. Skrifaðu undir aftur."
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "Sláðu inn gilt netfang."
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "Sláðu inn gilda vefslóð."
 
@@ -1198,7 +1198,7 @@ msgstr "Sláðu inn gilda vefslóð."
 msgid "Please enter a valid phone number."
 msgstr "Sláðu inn gilt símanúmer."
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "Sláðu inn tölu."
 
@@ -1218,7 +1218,7 @@ msgstr "Sláðu inn tölu sem er í mesta lagi %s."
 msgid "Please enter a valid date."
 msgstr "Sláðu inn gilda dagsetningu."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "Veldu einn af valkostunum."
 
@@ -1271,6 +1271,106 @@ msgstr ""
 "takk fyrir að hafa samband. Við höfum fengið skilaboðin þín og svörum fljótlega.\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "Prufupóstur"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Þetta er prufupóstur. Ef þú getur lesið hann virkar sending tölvupósts."
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "Stillingar vistaðar."
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Prufupósturinn var sendur á %s. Athugaðu innhólfið og ruslpóstmöppuna."
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "Ekki tókst að senda prufupóstinn."
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Margir hýsingaraðilar skila tölvupósti WordPress seint eða í ruslpóst. Að senda hann í gegnum SMTP-reikning tölvupóstþjónustunnar þinnar leysir það, án sérstakrar SMTP-viðbótar."
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s er virkt og sér um sendingu tölvupósts, svo þessar stillingar eru ekki notaðar."
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "Senda tölvupóst í gegnum SMTP-reikning"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Aðeins tölvupóstur SmokySystems-viðbóta"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "Allur tölvupóstur þessa vefs"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "SMTP-þjónn"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "Gátt"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "Dulkóðun"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "Engin dulkóðun"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "Notandanafn"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "Lykilorð"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "Lykilorðið er stillt í wp-config.php."
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Lykilorð er vistað. Hafðu autt til að halda því."
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "Fjarlægja vistaða lykilorðið"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "Netfang sendanda"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Notaðu netfang SMTP-reikningsins, annars hafna margar þjónustur tölvupóstinum."
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "Nafn sendanda"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "Senda prufupóst"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1392,16 +1492,16 @@ msgstr "Vefurinn gat ekki sent tölvupóstinn."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: þetta eyðublað er ekki til."
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "Hafðu þennan reit auðan"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "Athugaðu eyðublaðið og reyndu aftur."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1409,57 +1509,57 @@ msgstr[0] "%s stjarna"
 msgstr[1] "%s stjörnur"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Leyfðar skráagerðir: %1$s. Allt að %2$s MB á skrá."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Þú getur sent í mesta lagi %s skrá."
 msgstr[1] "Þú getur sent í mesta lagi %s skrár."
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "Til að skrifa undir þarf JavaScript. Kveiktu á því í vafranum."
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "Veldu…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "Fjarlægja þessa röð"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "Öryggisspurning"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "Sendi…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "Ekki tókst að senda eyðublaðið. Reyndu aftur."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Skref %1$s af %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s er stærri en %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: þessi skráagerð er ekki leyfð."
@@ -1803,116 +1903,10 @@ msgid "Child – 10"
 msgstr "Barn – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "Ekki tókst að senda %s. Reyndu aftur."
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "Prufupóstur"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "Þetta er prufupóstur. Ef þú getur lesið hann virkar sending tölvupósts."
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "Stillingar vistaðar."
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "Prufupósturinn var sendur á %s. Athugaðu innhólfið og ruslpóstmöppuna."
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "Ekki tókst að senda prufupóstinn."
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "Margir hýsingaraðilar skila tölvupósti WordPress seint eða í ruslpóst. Að senda hann í gegnum SMTP-reikning tölvupóstþjónustunnar þinnar leysir það, án sérstakrar SMTP-viðbótar."
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "Þessar stillingar deila %s."
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s er virkt og sér um sendingu tölvupósts, svo þessar stillingar eru ekki notaðar."
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "Senda tölvupóst í gegnum SMTP-reikning"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "Aðeins tölvupóstur SmokySystems-viðbóta"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "Allur tölvupóstur þessa vefs"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "SMTP-þjónn"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "Gátt"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "Dulkóðun"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "Engin dulkóðun"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "Notandanafn"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "Lykilorð"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "Lykilorðið er stillt í wp-config.php."
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "Lykilorð er vistað. Hafðu autt til að halda því."
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "Fjarlægja vistaða lykilorðið"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "Netfang sendanda"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "Notaðu netfang SMTP-reikningsins, annars hafna margar þjónustur tölvupóstinum."
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "Nafn sendanda"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "Senda prufupóst"
 
 #. Name of the plugin
 #: smokyforms.php:3

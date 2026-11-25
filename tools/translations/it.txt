@@ -298,7 +298,6 @@ a7498e|Questa è un’email di prova. Se riesci a leggerla, l’invio delle emai
 a3fb23|L’email di prova è stata inviata a %s. Controlla la posta in arrivo e la cartella spam.
 33de89|Non è stato possibile inviare l’email di prova.
 3a9486|Molti hosting consegnano le email di WordPress in ritardo o nella cartella spam. Inviarle tramite l’account SMTP del tuo provider di posta risolve il problema, senza un plugin SMTP separato.
-05449a|Queste impostazioni sono condivise da %s.
 51e4ba|%s è attivo e gestisce l’invio delle email, quindi queste impostazioni non vengono usate.
 c2239a|SMTP
 4d7db2|Invia le email tramite un account SMTP

@@ -298,7 +298,6 @@ a7498e|Bu bir deneme e-postasıdır. Okuyabiliyorsanız e-posta gönderimi çal�
 a3fb23|Deneme e-postası %s adresine gönderildi. Gelen kutusunu ve istenmeyen klasörünü kontrol edin.
 33de89|Deneme e-postası gönderilemedi.
 3a9486|Birçok barındırma firması WordPress e-postalarını geç ya da istenmeyen klasörüne iletir. E-postaları e-posta sağlayıcınızın SMTP hesabı üzerinden göndermek, ayrı bir SMTP eklentisine gerek kalmadan bunu çözer.
-05449a|Bu ayarlar şunlar tarafından ortak kullanılır: %s.
 51e4ba|%s etkin ve e-posta gönderimini yönetiyor, bu yüzden bu ayarlar kullanılmıyor.
 c2239a|SMTP
 4d7db2|E-postaları bir SMTP hesabı üzerinden gönder

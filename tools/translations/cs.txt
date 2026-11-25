@@ -298,7 +298,6 @@ a7498e|Toto je testovací e-mail. Pokud jej čtete, odesílání e-mailů funguj
 a3fb23|Testovací e-mail byl odeslán na %s. Zkontrolujte doručenou poštu a složku se spamem.
 33de89|Testovací e-mail se nepodařilo odeslat.
 3a9486|Mnoho hostingů doručuje e-maily WordPressu pozdě nebo do spamu. Odesílání přes SMTP účet vašeho poskytovatele e-mailu to vyřeší bez samostatného SMTP pluginu.
-05449a|Tato nastavení sdílí %s.
 51e4ba|%s je aktivní a obstarává odesílání e-mailů, takže se tato nastavení nepoužívají.
 c2239a|SMTP
 4d7db2|Odesílat e-maily přes SMTP účet

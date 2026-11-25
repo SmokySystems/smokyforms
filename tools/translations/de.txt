@@ -298,7 +298,6 @@ a7498e|Dies ist eine Test-E-Mail. Wenn Sie sie lesen können, funktioniert der E
 a3fb23|Die Test-E-Mail wurde an %s gesendet. Prüfen Sie den Posteingang und den Spam-Ordner.
 33de89|Die Test-E-Mail konnte nicht gesendet werden.
 3a9486|Viele Hoster stellen die E-Mails von WordPress verspätet oder im Spam-Ordner zu. Der Versand über das SMTP-Konto Ihres E-Mail-Anbieters behebt das, ohne separates SMTP-Plugin.
-05449a|Diese Einstellungen werden gemeinsam genutzt von %s.
 51e4ba|%s ist aktiv und übernimmt den E-Mail-Versand, daher werden diese Einstellungen nicht verwendet.
 c2239a|SMTP
 4d7db2|E-Mails über ein SMTP-Konto senden

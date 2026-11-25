@@ -298,7 +298,6 @@ a7498e|Ini email uji. Jika Anda bisa membacanya, pengiriman email berjalan baik.
 a3fb23|Email uji telah dikirim ke %s. Periksa kotak masuk dan folder spam.
 33de89|Email uji tidak dapat dikirim.
 3a9486|Banyak hosting mengirim email WordPress terlambat atau ke folder spam. Mengirimnya lewat akun SMTP penyedia email Anda mengatasi hal itu, tanpa plugin SMTP terpisah.
-05449a|Pengaturan ini dipakai bersama oleh %s.
 51e4ba|%s aktif dan menangani pengiriman email, jadi pengaturan ini tidak dipakai.
 c2239a|SMTP
 4d7db2|Kirim email lewat akun SMTP

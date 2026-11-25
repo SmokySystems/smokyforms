@@ -298,7 +298,6 @@ a7498e|Acesta este un email de test. Dacă îl poți citi, trimiterea emailurilo
 a3fb23|Emailul de test a fost trimis la %s. Verifică inboxul și dosarul spam.
 33de89|Emailul de test nu a putut fi trimis.
 3a9486|Multe găzduiri livrează emailurile WordPress cu întârziere sau în spam. Trimiterea lor prin contul SMTP al furnizorului tău de email rezolvă asta, fără un modul SMTP separat.
-05449a|Aceste setări sunt comune pentru %s.
 51e4ba|%s este activ și se ocupă de trimiterea emailurilor, așa că aceste setări nu sunt folosite.
 c2239a|SMTP
 4d7db2|Trimite emailurile printr-un cont SMTP

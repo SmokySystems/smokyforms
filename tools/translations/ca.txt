@@ -298,7 +298,6 @@ a7498e|Aquest és un correu de prova. Si el podeu llegir, l’enviament de corre
 a3fb23|El correu de prova s’ha enviat a %s. Reviseu la safata d’entrada i la carpeta de correu brossa.
 33de89|No s’ha pogut enviar el correu de prova.
 3a9486|Molts allotjaments lliuren els correus de WordPress tard o a la carpeta de correu brossa. Enviar-los per mitjà del compte SMTP del vostre proveïdor de correu ho soluciona, sense una extensió SMTP a part.
-05449a|Aquesta configuració la comparteixen %s.
 51e4ba|%s està actiu i s’encarrega de l’enviament de correus, així que aquesta configuració no s’utilitza.
 c2239a|SMTP
 4d7db2|Envia els correus per mitjà d’un compte SMTP

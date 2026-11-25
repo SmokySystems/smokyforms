@@ -298,7 +298,6 @@ a7498e|Este es un correo de prueba. Si puedes leerlo, el envío de correos funci
 a3fb23|El correo de prueba se envió a %s. Revisa la bandeja de entrada y la carpeta de spam.
 33de89|No se pudo enviar el correo de prueba.
 3a9486|Muchos alojamientos entregan los correos de WordPress tarde o en la carpeta de spam. Enviarlos a través de la cuenta SMTP de tu proveedor de correo lo soluciona, sin un plugin SMTP aparte.
-05449a|Estos ajustes los comparten %s.
 51e4ba|%s está activo y gestiona el envío de correos, así que estos ajustes no se usan.
 c2239a|SMTP
 4d7db2|Enviar los correos a través de una cuenta SMTP

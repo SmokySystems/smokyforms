@@ -264,7 +264,7 @@ msgstr "数式を書く"
 msgid "Undo"
 msgstr "元に戻す"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "クリア"
 
@@ -549,7 +549,7 @@ msgstr "最大行数"
 msgid "Text of the add button"
 msgstr "追加ボタンのテキスト"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "もう 1 つ追加"
 
@@ -557,7 +557,7 @@ msgstr "もう 1 つ追加"
 msgid "Next button"
 msgstr "次へボタン"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "次へ"
 
@@ -565,7 +565,7 @@ msgstr "次へ"
 msgid "Back button"
 msgstr "戻るボタン"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "前へ"
 
@@ -782,7 +782,7 @@ msgstr "進行状況バーを表示"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "ページ区切りのあるフォーム用: フォームの上に「ステップ 1 / 3」を表示します。"
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "SmokyForms の無料版は送信内容をすべてメールでお届け�
 msgid "Send me an email for every entry"
 msgstr "送信があるたびにメールで知らせる"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "送信先"
 
@@ -904,7 +904,7 @@ msgstr "フォームを保存しました。"
 msgid "Edit Form &lsaquo; %s"
 msgstr "フォームを編集 &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "この操作を行う権限がありません。"
 
@@ -942,83 +942,83 @@ msgstr "SmokyForms 設定"
 msgid "Email sending"
 msgstr "メール送信"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "スパム対策"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "すべてのフォームには隠しトラップ用フィールドと時間チェックがあります。さらに CAPTCHA も追加でき、フォーム設定で有効にしたフォームで使用されます。"
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile は無料で、通常は訪問者にパズルを解かせません。"
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "計算問題"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "簡単な計算問題を出す"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "訪問者は 7 + 4 のような簡単な計算を解きます。アカウントやキーは不要で、単独でも CAPTCHA と併用しても使えます。"
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "サイトキー"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "シークレットキー"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "保存済みです。変更しない場合は空欄のままにしてください。"
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "時間チェック"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "秒"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "ページ読み込み後これより早く送信されたフォームはスパムとして扱われます。0 でチェックを無効にします。"
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "未配信の通知"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "SmokyForms の無料版は送信内容をすべてメールでお届けし、保存はしません。SmokyForms Pro（近日公開）では、すべての送信内容を管理画面に保存し、検索や CSV 書き出しもできます。通知メールを送れなかった場合は、失われないよう送信内容を保管し、SmokyForms > 未配信 から再送できます。"
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "保管期間"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "日"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "アップロードされたファイル"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "フォームで送られたファイルと署名は、推測しにくいリンクで uploads/smokyforms フォルダーに保存され、メールにそのリンクが入ります。"
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "アップロードされたファイルを削除するまでの日数"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 にすると、ご自身で削除するまでファイルを保持します。"
 
@@ -1161,7 +1161,7 @@ msgstr "署名"
 msgid "Page break"
 msgstr "ページ区切り"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "この項目は必須です。"
 
@@ -1183,11 +1183,11 @@ msgstr[0] "%s 行以内で入力してください。"
 msgid "The signature could not be read. Please sign again."
 msgstr "署名を読み取れませんでした。もう一度署名してください。"
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "有効なメールアドレスを入力してください。"
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "有効なウェブサイトのアドレスを入力してください。"
 
@@ -1195,7 +1195,7 @@ msgstr "有効なウェブサイトのアドレスを入力してください。
 msgid "Please enter a valid phone number."
 msgstr "有効な電話番号を入力してください。"
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "数値を入力してください。"
 
@@ -1215,7 +1215,7 @@ msgstr "%s 以下の数値を入力してください。"
 msgid "Please enter a valid date."
 msgstr "有効な日付を入力してください。"
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "選択肢から 1 つ選んでください。"
 
@@ -1268,6 +1268,106 @@ msgstr ""
 "お問い合わせいただきありがとうございます。メッセージを受け取りました。近日中にご返信いたします。\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "テストメール"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "これはテストメールです。読めていれば、メール送信は正常に動作しています。"
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "テストメールを %s に送信しました。受信トレイと迷惑メールフォルダーを確認してください。"
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "テストメールを送信できませんでした。"
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "多くのホスティングでは WordPress のメールが遅れて届いたり、迷惑メールに入ったりします。メールサービスの SMTP アカウント経由で送ると、別の SMTP プラグインなしで解決します。"
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s が有効でメール送信を担当しているため、これらの設定は使われません。"
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "SMTP アカウント経由でメールを送信"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "SmokySystems のプラグインのメールのみ"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "このサイトのすべてのメール"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "SMTP サーバー"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "ポート"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "暗号化"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "暗号化なし"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "ユーザー名"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "パスワードは wp-config.php で設定されています。"
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "パスワードは保存済みです。変更しない場合は空欄のままにしてください。"
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "保存したパスワードを削除"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "送信元メールアドレス"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "SMTP アカウントのアドレスを使ってください。そうでないと多くのサービスでメールが拒否されます。"
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "送信者名"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "テストメールを送信"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1389,72 +1489,72 @@ msgstr "サイトからメールを送信できませんでした。"
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: このフォームは存在しません。"
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "この項目は空欄のままにしてください"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "フォームを確認して、もう一度お試しください。"
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
 msgstr[0] "星 %s 個"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "許可するファイル形式: %1$s。1 ファイルあたり最大 %2$s MB。"
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "アップロードできるファイルは最大 %s 個です。"
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "署名には JavaScript が必要です。ブラウザーで有効にしてください。"
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "選択してください…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "この行を削除"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "セキュリティ質問"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "送信中…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "フォームを送信できませんでした。もう一度お試しください。"
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "ステップ %1$s / %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s は %2$s MB を超えています。"
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: このファイル形式は許可されていません。"
@@ -1798,116 +1898,10 @@ msgid "Child – 10"
 msgstr "子ども – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "%s をアップロードできませんでした。もう一度お試しください。"
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "テストメール"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "これはテストメールです。読めていれば、メール送信は正常に動作しています。"
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "設定を保存しました。"
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "テストメールを %s に送信しました。受信トレイと迷惑メールフォルダーを確認してください。"
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "テストメールを送信できませんでした。"
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "多くのホスティングでは WordPress のメールが遅れて届いたり、迷惑メールに入ったりします。メールサービスの SMTP アカウント経由で送ると、別の SMTP プラグインなしで解決します。"
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "これらの設定は %s で共有されています。"
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s が有効でメール送信を担当しているため、これらの設定は使われません。"
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "SMTP アカウント経由でメールを送信"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "SmokySystems のプラグインのメールのみ"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "このサイトのすべてのメール"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "SMTP サーバー"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "ポート"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "暗号化"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "暗号化なし"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "ユーザー名"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "パスワード"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "パスワードは wp-config.php で設定されています。"
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "パスワードは保存済みです。変更しない場合は空欄のままにしてください。"
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "保存したパスワードを削除"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "送信元メールアドレス"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "SMTP アカウントのアドレスを使ってください。そうでないと多くのサービスでメールが拒否されます。"
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "送信者名"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "テストメールを送信"
 
 #. Name of the plugin
 #: smokyforms.php:3

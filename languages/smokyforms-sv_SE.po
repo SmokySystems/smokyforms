@@ -264,7 +264,7 @@ msgstr "Skriv formeln"
 msgid "Undo"
 msgstr "Ångra"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "Rensa"
 
@@ -549,7 +549,7 @@ msgstr "Högst antal rader"
 msgid "Text of the add button"
 msgstr "Text på lägg till-knappen"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "Lägg till en till"
 
@@ -557,7 +557,7 @@ msgstr "Lägg till en till"
 msgid "Next button"
 msgstr "Nästa-knapp"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "Nästa"
 
@@ -565,7 +565,7 @@ msgstr "Nästa"
 msgid "Back button"
 msgstr "Tillbaka-knapp"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "Föregående"
 
@@ -782,7 +782,7 @@ msgstr "Visa förloppsindikatorn"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "För formulär med sidbrytningar: ”Steg 1 av 3” ovanför formuläret."
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "Gratisversionen av SmokyForms mejlar dig varje inskick och sparar det in
 msgid "Send me an email for every entry"
 msgstr "Skicka e-post till mig för varje inskick"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "Skicka till"
 
@@ -904,7 +904,7 @@ msgstr "Formuläret har sparats."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Redigera formulär &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "Du har inte behörighet att göra detta."
 
@@ -942,83 +942,83 @@ msgstr "SmokyForms-inställningar"
 msgid "Email sending"
 msgstr "E-postutskick"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "Skydd mot skräppost"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "Varje formulär har ett dolt fällfält och en tidskontroll. Du kan dessutom lägga till en CAPTCHA; den används i alla formulär där den är påslagen i formulärinställningarna."
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile är gratis och kräver oftast inget pussel av dina besökare."
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "Räknefråga"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "Ställ en enkel räknefråga"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "Besökare löser ett litet tal som 7 + 4. Det kräver varken konto eller nyckel och fungerar ensamt eller tillsammans med en CAPTCHA."
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "Webbplatsnyckel"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "Hemlig nyckel"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "Sparad. Lämna tomt för att behålla den."
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "Tidskontroll"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "sekunder"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "Formulär som skickas snabbare än så efter att sidan laddats räknas som skräppost. 0 stänger av kontrollen."
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "Ej levererade aviseringar"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "Gratisversionen av SmokyForms mejlar dig varje inskick och sparar det inte. SmokyForms Pro (kommer snart) sparar alla inskick i din adminpanel, med sökning och CSV-export. Om ett aviseringsmejl inte kan skickas sparas inskicket så att det inte går förlorat, och du kan skicka det igen under SmokyForms > Ej levererade."
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "Spara i"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "dagar"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "Uppladdade filer"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "Filer och signaturer som skickas med ett formulär sparas i mappen uploads/smokyforms med svårgissade länkar, och mejlet länkar till dem."
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "Radera uppladdade filer efter"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 behåller filerna tills du raderar dem själv."
 
@@ -1162,7 +1162,7 @@ msgstr "Signatur"
 msgid "Page break"
 msgstr "Sidbrytning"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "Fältet är obligatoriskt."
 
@@ -1186,11 +1186,11 @@ msgstr[1] "Fyll i högst %s rader."
 msgid "The signature could not be read. Please sign again."
 msgstr "Signaturen kunde inte läsas. Signera igen."
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "Ange en giltig e-postadress."
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "Ange en giltig webbadress."
 
@@ -1198,7 +1198,7 @@ msgstr "Ange en giltig webbadress."
 msgid "Please enter a valid phone number."
 msgstr "Ange ett giltigt telefonnummer."
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "Ange ett tal."
 
@@ -1218,7 +1218,7 @@ msgstr "Ange ett tal som är högst %s."
 msgid "Please enter a valid date."
 msgstr "Ange ett giltigt datum."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "Välj ett av alternativen."
 
@@ -1271,6 +1271,106 @@ msgstr ""
 "tack för att du kontaktade oss. Vi har fått ditt meddelande och svarar snart.\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "Testmejl"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Detta är ett testmejl. Om du kan läsa det fungerar e-postutskicken."
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "Inställningarna har sparats."
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Testmejlet skickades till %s. Kontrollera inkorgen och skräppostmappen."
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "Testmejlet kunde inte skickas."
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Många webbhotell levererar WordPress e-post sent eller till skräppost. Att skicka via SMTP-kontot hos din e-postleverantör löser det, utan ett separat SMTP-tillägg."
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s är aktivt och sköter e-postutskicken, så dessa inställningar används inte."
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "Skicka e-post via ett SMTP-konto"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Bara e-post från SmokySystems-tillägg"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "All e-post från den här webbplatsen"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "SMTP-server"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "Port"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "Kryptering"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "Ingen kryptering"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "Användarnamn"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "Lösenord"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "Lösenordet är angivet i wp-config.php."
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Ett lösenord är sparat. Lämna tomt för att behålla det."
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "Ta bort det sparade lösenordet"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "Avsändaradress"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Använd en adress från SMTP-kontot, annars avvisar många leverantörer e-postmeddelandet."
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "Avsändarnamn"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "Skicka testmejl"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1392,16 +1492,16 @@ msgstr "Webbplatsen kunde inte skicka e-postmeddelandet."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: formuläret finns inte."
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "Lämna fältet tomt"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "Kontrollera formuläret och försök igen."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1409,57 +1509,57 @@ msgstr[0] "%s stjärna"
 msgstr[1] "%s stjärnor"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Tillåtna filtyper: %1$s. Upp till %2$s MB per fil."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Du kan ladda upp högst %s fil."
 msgstr[1] "Du kan ladda upp högst %s filer."
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "För att signera behövs JavaScript. Slå på det i webbläsaren."
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "Välj…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "Ta bort den här raden"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "Säkerhetsfråga"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "Skickar…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "Formuläret kunde inte skickas. Försök igen."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Steg %1$s av %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s är större än %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: den här filtypen är inte tillåten."
@@ -1803,116 +1903,10 @@ msgid "Child – 10"
 msgstr "Barn – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "%s kunde inte laddas upp. Försök igen."
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "Testmejl"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "Detta är ett testmejl. Om du kan läsa det fungerar e-postutskicken."
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "Inställningarna har sparats."
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "Testmejlet skickades till %s. Kontrollera inkorgen och skräppostmappen."
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "Testmejlet kunde inte skickas."
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "Många webbhotell levererar WordPress e-post sent eller till skräppost. Att skicka via SMTP-kontot hos din e-postleverantör löser det, utan ett separat SMTP-tillägg."
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "Inställningarna delas av %s."
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s är aktivt och sköter e-postutskicken, så dessa inställningar används inte."
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "Skicka e-post via ett SMTP-konto"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "Bara e-post från SmokySystems-tillägg"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "All e-post från den här webbplatsen"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "SMTP-server"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "Port"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "Kryptering"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "Ingen kryptering"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "Användarnamn"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "Lösenord"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "Lösenordet är angivet i wp-config.php."
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "Ett lösenord är sparat. Lämna tomt för att behålla det."
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "Ta bort det sparade lösenordet"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "Avsändaradress"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "Använd en adress från SMTP-kontot, annars avvisar många leverantörer e-postmeddelandet."
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "Avsändarnamn"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "Skicka testmejl"
 
 #. Name of the plugin
 #: smokyforms.php:3

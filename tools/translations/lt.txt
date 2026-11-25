@@ -298,7 +298,6 @@ a7498e|Tai bandomasis laiškas. Jei galite jį perskaityti, laiškų siuntimas v
 a3fb23|Bandomasis laiškas išsiųstas adresu %s. Patikrinkite gautuosius ir šlamšto aplanką.
 33de89|Bandomojo laiško išsiųsti nepavyko.
 3a9486|Daugelis talpinimo paslaugų WordPress laiškus pristato vėluodamos arba į šlamštą. Siuntimas per jūsų el. pašto paslaugos SMTP paskyrą tai išsprendžia be atskiro SMTP įskiepio.
-05449a|Šiais nustatymais dalijasi %s.
 51e4ba|%s yra aktyvus ir rūpinasi laiškų siuntimu, todėl šie nustatymai nenaudojami.
 c2239a|SMTP
 4d7db2|Siųsti laiškus per SMTP paskyrą

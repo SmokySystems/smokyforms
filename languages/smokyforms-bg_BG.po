@@ -264,7 +264,7 @@ msgstr "Писане на формулата"
 msgid "Undo"
 msgstr "Отмяна"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "Изчистване"
 
@@ -549,7 +549,7 @@ msgstr "Най-много редове"
 msgid "Text of the add button"
 msgstr "Текст на бутона за добавяне"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "Добавяне на още"
 
@@ -557,7 +557,7 @@ msgstr "Добавяне на още"
 msgid "Next button"
 msgstr "Бутон „Напред“"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "Напред"
 
@@ -565,7 +565,7 @@ msgstr "Напред"
 msgid "Back button"
 msgstr "Бутон „Назад“"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "Назад"
 
@@ -782,7 +782,7 @@ msgstr "Показване на лентата за напредък"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "За формуляри с разделители на страници: „Стъпка 1 от 3“ над формуляра."
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "Безплатната версия на SmokyForms ви изпраща 
 msgid "Send me an email for every entry"
 msgstr "Изпращай ми имейл за всеки запис"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "Изпращане до"
 
@@ -904,7 +904,7 @@ msgstr "Формулярът е запазен."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Редактиране на формуляр &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "Нямате права за това."
 
@@ -942,83 +942,83 @@ msgstr "Настройки на SmokyForms"
 msgid "Email sending"
 msgstr "Изпращане на имейли"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "Защита от спам"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "Всеки формуляр има скрито поле капан и проверка на времето. Освен това можете да добавите CAPTCHA; тя се използва във всеки формуляр, в който е включена в настройките му."
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile е безплатна и обикновено не кара посетителите да решават главоблъсканици."
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "Математически въпрос"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "Задай прост математически въпрос"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "Посетителите решават малка сметка, например 7 + 4. Не са нужни акаунт или ключ и работи самостоятелно или заедно с CAPTCHA."
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "Ключ на сайта"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "Таен ключ"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "Запазен. Оставете празно, за да го запазите."
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "Проверка на времето"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "секунди"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "Формуляри, изпратени по-бързо от това след зареждане на страницата, се смятат за спам. 0 изключва проверката."
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "Недоставени известия"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "Безплатната версия на SmokyForms ви изпраща всяко попълване по имейл и не го записва. SmokyForms Pro (скоро) записва всички попълвания в таблото ви, с търсене и експорт в CSV. Когато имейл с известие не може да бъде изпратен, записът се пази, за да не се загуби, и можете да го изпратите отново от SmokyForms > Недоставени."
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "Пазене за"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "дни"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "Качени файлове"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "Файловете и подписите, изпратени с формуляр, се записват в папката uploads/smokyforms с трудни за отгатване връзки, а имейлът съдържа връзки към тях."
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "Изтриване на качените файлове след"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 пази файловете, докато не ги изтриете сами."
 
@@ -1162,7 +1162,7 @@ msgstr "Подпис"
 msgid "Page break"
 msgstr "Разделител на страници"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "Това поле е задължително."
 
@@ -1186,11 +1186,11 @@ msgstr[1] "Попълнете най-много %s реда."
 msgid "The signature could not be read. Please sign again."
 msgstr "Подписът не можа да бъде прочетен. Моля, подпишете отново."
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "Въведете валиден имейл адрес."
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "Въведете валиден адрес на уебсайт."
 
@@ -1198,7 +1198,7 @@ msgstr "Въведете валиден адрес на уебсайт."
 msgid "Please enter a valid phone number."
 msgstr "Въведете валиден телефонен номер."
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "Въведете число."
 
@@ -1218,7 +1218,7 @@ msgstr "Въведете число не по-голямо от %s."
 msgid "Please enter a valid date."
 msgstr "Въведете валидна дата."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "Изберете една от възможностите."
 
@@ -1271,6 +1271,106 @@ msgstr ""
 "благодарим, че се свързахте с нас. Получихме съобщението ви и скоро ще отговорим.\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "Тестов имейл"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Това е тестов имейл. Ако можете да го прочетете, изпращането на имейли работи."
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "Настройките са запазени."
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Тестовият имейл беше изпратен до %s. Проверете входящата поща и папката за спам."
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "Тестовият имейл не можа да бъде изпратен."
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Много хостинги доставят имейлите на WordPress със закъснение или в спама. Изпращането им през SMTP акаунта на доставчика ви на имейл решава това без отделен SMTP плъгин."
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s е активен и отговаря за изпращането на имейли, затова тези настройки не се използват."
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "Изпращане на имейли през SMTP акаунт"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Само имейлите на плъгините на SmokySystems"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "Всички имейли на този сайт"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "SMTP сървър"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "Порт"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "Криптиране"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "Без криптиране"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "Потребителско име"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "Парола"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "Паролата е зададена в wp-config.php."
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Има запазена парола. Оставете празно, за да я запазите."
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "Премахване на запазената парола"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "Имейл на подателя"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Използвайте адрес на SMTP акаунта, иначе много доставчици отхвърлят имейла."
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "Име на подателя"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "Изпращане на тестов имейл"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1392,16 +1492,16 @@ msgstr "Сайтът не можа да изпрати имейла."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: този формуляр не съществува."
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "Оставете това поле празно"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "Проверете формуляра и опитайте отново."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1409,57 +1509,57 @@ msgstr[0] "%s звезда"
 msgstr[1] "%s звезди"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Разрешени типове файлове: %1$s. До %2$s MB на файл."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Можете да качите най-много %s файл."
 msgstr[1] "Можете да качите най-много %s файла."
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "За подписване е нужен JavaScript. Моля, включете го в браузъра."
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "Изберете…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "Премахване на този ред"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "Въпрос за сигурност"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "Изпращане…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "Формулярът не можа да бъде изпратен. Опитайте отново."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Стъпка %1$s от %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s е по-голям от %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: този тип файл не е разрешен."
@@ -1803,116 +1903,10 @@ msgid "Child – 10"
 msgstr "Дете – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "%s не можа да бъде качен. Опитайте отново."
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "Тестов имейл"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "Това е тестов имейл. Ако можете да го прочетете, изпращането на имейли работи."
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "Настройките са запазени."
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "Тестовият имейл беше изпратен до %s. Проверете входящата поща и папката за спам."
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "Тестовият имейл не можа да бъде изпратен."
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "Много хостинги доставят имейлите на WordPress със закъснение или в спама. Изпращането им през SMTP акаунта на доставчика ви на имейл решава това без отделен SMTP плъгин."
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "Тези настройки се споделят от %s."
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s е активен и отговаря за изпращането на имейли, затова тези настройки не се използват."
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "Изпращане на имейли през SMTP акаунт"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "Само имейлите на плъгините на SmokySystems"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "Всички имейли на този сайт"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "SMTP сървър"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "Порт"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "Криптиране"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "Без криптиране"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "Потребителско име"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "Парола"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "Паролата е зададена в wp-config.php."
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "Има запазена парола. Оставете празно, за да я запазите."
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "Премахване на запазената парола"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "Имейл на подателя"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "Използвайте адрес на SMTP акаунта, иначе много доставчици отхвърлят имейла."
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "Име на подателя"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "Изпращане на тестов имейл"
 
 #. Name of the plugin
 #: smokyforms.php:3

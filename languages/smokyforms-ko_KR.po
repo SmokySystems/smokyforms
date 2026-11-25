@@ -264,7 +264,7 @@ msgstr "수식 직접 쓰기"
 msgid "Undo"
 msgstr "실행 취소"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "지우기"
 
@@ -549,7 +549,7 @@ msgstr "최대 행 수"
 msgid "Text of the add button"
 msgstr "추가 버튼 텍스트"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "하나 더 추가"
 
@@ -557,7 +557,7 @@ msgstr "하나 더 추가"
 msgid "Next button"
 msgstr "다음 버튼"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "다음"
 
@@ -565,7 +565,7 @@ msgstr "다음"
 msgid "Back button"
 msgstr "이전 버튼"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "이전"
 
@@ -782,7 +782,7 @@ msgstr "진행 표시줄 표시"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "페이지 나누기가 있는 폼: 폼 위에 \"3단계 중 1단계\"를 표시합니다."
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "SmokyForms 무료 버전은 모든 제출 내용을 이메일로 보내�
 msgid "Send me an email for every entry"
 msgstr "제출될 때마다 이메일 받기"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "받는 사람"
 
@@ -904,7 +904,7 @@ msgstr "양식을 저장했습니다."
 msgid "Edit Form &lsaquo; %s"
 msgstr "양식 편집 &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "이 작업을 할 권한이 없습니다."
 
@@ -942,83 +942,83 @@ msgstr "SmokyForms 설정"
 msgid "Email sending"
 msgstr "이메일 전송"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "스팸 방지"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "모든 양식에는 숨은 함정 필드와 시간 검사가 있습니다. 여기에 CAPTCHA를 더할 수 있으며, 양식 설정에서 켠 양식에서 사용됩니다."
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile은 무료이며 대개 방문자에게 퍼즐을 요구하지 않습니다."
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "계산 문제"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "간단한 계산 문제 내기"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "방문자는 7 + 4 같은 간단한 계산을 풉니다. 계정이나 키가 필요 없으며 단독으로 또는 CAPTCHA와 함께 사용할 수 있습니다."
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "사이트 키"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "비밀 키"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "저장됨. 유지하려면 비워 두세요."
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "시간 검사"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "초"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "페이지가 열린 뒤 이보다 빨리 제출된 양식은 스팸으로 처리됩니다. 0이면 검사를 끕니다."
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "전송되지 않은 알림"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "SmokyForms 무료 버전은 모든 제출 내용을 이메일로 보내고 저장하지 않습니다. SmokyForms Pro(출시 예정)는 모든 제출 내용을 대시보드에 저장하며 검색과 CSV 내보내기를 지원합니다. 알림 이메일을 보낼 수 없으면 제출 내용을 잃지 않도록 보관하며, SmokyForms > 미전송에서 다시 보낼 수 있습니다."
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "보관 기간"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "일"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "업로드된 파일"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "폼으로 보낸 파일과 서명은 추측하기 어려운 링크로 uploads/smokyforms 폴더에 저장되며, 이메일에 링크가 들어갑니다."
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "업로드된 파일 삭제 기간"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0이면 직접 삭제할 때까지 파일을 보관합니다."
 
@@ -1161,7 +1161,7 @@ msgstr "서명"
 msgid "Page break"
 msgstr "페이지 나누기"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "필수 항목입니다."
 
@@ -1183,11 +1183,11 @@ msgstr[0] "최대 %s개 행까지 입력하세요."
 msgid "The signature could not be read. Please sign again."
 msgstr "서명을 읽을 수 없습니다. 다시 서명하세요."
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "올바른 이메일 주소를 입력하세요."
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "올바른 웹사이트 주소를 입력하세요."
 
@@ -1195,7 +1195,7 @@ msgstr "올바른 웹사이트 주소를 입력하세요."
 msgid "Please enter a valid phone number."
 msgstr "올바른 전화번호를 입력하세요."
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "숫자를 입력하세요."
 
@@ -1215,7 +1215,7 @@ msgstr "%s 이하인 숫자를 입력하세요."
 msgid "Please enter a valid date."
 msgstr "올바른 날짜를 입력하세요."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "선택지 중 하나를 고르세요."
 
@@ -1268,6 +1268,106 @@ msgstr ""
 "문의해 주셔서 감사합니다. 메시지를 잘 받았으며 곧 답변드리겠습니다.\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "테스트 이메일"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "테스트 이메일입니다. 이 메일을 읽을 수 있다면 이메일 전송이 잘 되고 있습니다."
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "설정을 저장했습니다."
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "테스트 이메일을 %s(으)로 보냈습니다. 받은편지함과 스팸함을 확인하세요."
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "테스트 이메일을 보낼 수 없습니다."
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "많은 호스팅에서 WordPress 이메일이 늦게 도착하거나 스팸함으로 갑니다. 이메일 서비스의 SMTP 계정으로 보내면 별도의 SMTP 플러그인 없이 해결됩니다."
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s이(가) 활성화되어 이메일 전송을 맡고 있으므로 이 설정은 쓰이지 않습니다."
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "SMTP 계정으로 이메일 보내기"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "SmokySystems 플러그인의 이메일만"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "이 사이트의 모든 이메일"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "SMTP 서버"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "포트"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "암호화"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "암호화 없음"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "사용자 이름"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "비밀번호"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "비밀번호가 wp-config.php에 설정되어 있습니다."
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "저장된 비밀번호가 있습니다. 유지하려면 비워 두세요."
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "저장된 비밀번호 제거"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "보내는 사람 이메일"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "SMTP 계정의 주소를 쓰세요. 그렇지 않으면 많은 서비스가 이메일을 거부합니다."
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "보내는 사람 이름"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "테스트 이메일 보내기"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1389,72 +1489,72 @@ msgstr "사이트에서 이메일을 보낼 수 없습니다."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: 이 양식은 존재하지 않습니다."
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "이 필드는 비워 두세요"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "양식을 확인하고 다시 시도하세요."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
 msgstr[0] "별 %s개"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "허용되는 파일 형식: %1$s. 파일당 최대 %2$s MB."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "최대 %s개 파일을 업로드할 수 있습니다."
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "서명하려면 JavaScript가 필요합니다. 브라우저에서 켜 주세요."
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "선택하세요…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "이 행 삭제"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "보안 질문"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "보내는 중…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "양식을 보낼 수 없습니다. 다시 시도하세요."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "%2$s단계 중 %1$s단계"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s 파일이 %2$s MB보다 큽니다."
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: 이 파일 형식은 허용되지 않습니다."
@@ -1798,116 +1898,10 @@ msgid "Child – 10"
 msgstr "어린이 – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "%s 파일을 업로드할 수 없습니다. 다시 시도하세요."
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "테스트 이메일"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "테스트 이메일입니다. 이 메일을 읽을 수 있다면 이메일 전송이 잘 되고 있습니다."
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "설정을 저장했습니다."
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "테스트 이메일을 %s(으)로 보냈습니다. 받은편지함과 스팸함을 확인하세요."
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "테스트 이메일을 보낼 수 없습니다."
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "많은 호스팅에서 WordPress 이메일이 늦게 도착하거나 스팸함으로 갑니다. 이메일 서비스의 SMTP 계정으로 보내면 별도의 SMTP 플러그인 없이 해결됩니다."
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "이 설정은 다음 플러그인이 함께 씁니다: %s."
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s이(가) 활성화되어 이메일 전송을 맡고 있으므로 이 설정은 쓰이지 않습니다."
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "SMTP 계정으로 이메일 보내기"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "SmokySystems 플러그인의 이메일만"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "이 사이트의 모든 이메일"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "SMTP 서버"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "포트"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "암호화"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "암호화 없음"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "사용자 이름"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "비밀번호"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "비밀번호가 wp-config.php에 설정되어 있습니다."
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "저장된 비밀번호가 있습니다. 유지하려면 비워 두세요."
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "저장된 비밀번호 제거"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "보내는 사람 이메일"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "SMTP 계정의 주소를 쓰세요. 그렇지 않으면 많은 서비스가 이메일을 거부합니다."
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "보내는 사람 이름"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "테스트 이메일 보내기"
 
 #. Name of the plugin
 #: smokyforms.php:3

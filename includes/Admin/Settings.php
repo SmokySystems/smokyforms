@@ -12,7 +12,7 @@ use SmokySystems\SmokyForms\Settings as Options;
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Spam protection, the undelivered safety net and e-mail sending (shared SMTP module).
+ * Spam protection, the undelivered safety net and e-mail sending (SMTP).
  */
 final class Settings {
 
@@ -59,11 +59,7 @@ final class Settings {
 				<a href="<?php echo esc_url( add_query_arg( 'tab', 'email', $base ) ); ?>" class="nav-tab <?php echo 'email' === $tab ? 'nav-tab-active' : ''; ?>"><?php esc_html_e( 'Email sending', 'smokyforms' ); ?></a>
 			</nav>
 			<?php if ( 'email' === $tab ) : ?>
-				<?php
-				if ( class_exists( '\SmokySystems\Mail\Module' ) ) {
-					\SmokySystems\Mail\Module::settings_page( add_query_arg( 'tab', 'email', $base ) );
-				}
-				?>
+				<?php \SmokySystems\SmokyForms\Mail::settings_page( add_query_arg( 'tab', 'email', $base ) ); ?>
 			<?php else : ?>
 			<form method="post" action="options.php" novalidate>
 				<?php settings_fields( 'smokyforms_settings' ); ?>

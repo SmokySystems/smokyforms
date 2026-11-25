@@ -264,7 +264,7 @@ msgstr "Scrivi la formula"
 msgid "Undo"
 msgstr "Annulla"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "Svuota"
 
@@ -549,7 +549,7 @@ msgstr "Righe massime"
 msgid "Text of the add button"
 msgstr "Testo del pulsante di aggiunta"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "Aggiungi un altro"
 
@@ -557,7 +557,7 @@ msgstr "Aggiungi un altro"
 msgid "Next button"
 msgstr "Pulsante Avanti"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "Avanti"
 
@@ -565,7 +565,7 @@ msgstr "Avanti"
 msgid "Back button"
 msgstr "Pulsante Indietro"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "Indietro"
 
@@ -782,7 +782,7 @@ msgstr "Mostra la barra di avanzamento"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Per i moduli con interruzioni di pagina: “Passo 1 di 3” sopra il modulo."
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "La versione gratuita di SmokyForms ti invia ogni risposta via email e no
 msgid "Send me an email for every entry"
 msgstr "Inviami un’email per ogni voce"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "Invia a"
 
@@ -904,7 +904,7 @@ msgstr "Modulo salvato."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Modifica modulo &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "Non hai il permesso di farlo."
 
@@ -942,83 +942,83 @@ msgstr "Impostazioni di SmokyForms"
 msgid "Email sending"
 msgstr "Invio email"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "Protezione dallo spam"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "Ogni modulo ha un campo trappola nascosto e un controllo del tempo. In più puoi aggiungere un CAPTCHA; viene usato in ogni modulo in cui è attivato nelle impostazioni del modulo."
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile è gratuito e di solito non chiede rompicapi ai tuoi visitatori."
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "Domanda di calcolo"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "Poni una semplice domanda di calcolo"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "I visitatori risolvono una piccola operazione come 7 + 4. Non servono account né chiavi e funziona da sola o insieme a un CAPTCHA."
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "Chiave del sito"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "Chiave segreta"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "Salvata. Lascia vuoto per mantenerla."
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "Controllo del tempo"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "secondi"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "I moduli inviati più velocemente di così dopo il caricamento della pagina sono considerati spam. 0 disattiva il controllo."
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "Notifiche non consegnate"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "La versione gratuita di SmokyForms ti invia ogni risposta via email e non la salva. SmokyForms Pro (in arrivo) salva tutte le risposte nella tua bacheca, con ricerca ed esportazione CSV. Se un’email di notifica non può essere inviata, la voce viene conservata per non perderla e puoi inviarla di nuovo da SmokyForms > Non consegnate."
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "Conserva per"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "giorni"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "File caricati"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "I file e le firme inviati con un modulo vengono salvati nella cartella uploads/smokyforms con link difficili da indovinare, e l’email contiene i link."
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "Elimina i file caricati dopo"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 conserva i file finché non li elimini tu."
 
@@ -1162,7 +1162,7 @@ msgstr "Firma"
 msgid "Page break"
 msgstr "Interruzione di pagina"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "Questo campo è obbligatorio."
 
@@ -1186,11 +1186,11 @@ msgstr[1] "Compila al massimo %s righe."
 msgid "The signature could not be read. Please sign again."
 msgstr "Impossibile leggere la firma. Firma di nuovo."
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "Inserisci un indirizzo email valido."
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "Inserisci un indirizzo web valido."
 
@@ -1198,7 +1198,7 @@ msgstr "Inserisci un indirizzo web valido."
 msgid "Please enter a valid phone number."
 msgstr "Inserisci un numero di telefono valido."
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "Inserisci un numero."
 
@@ -1218,7 +1218,7 @@ msgstr "Inserisci un numero di al massimo %s."
 msgid "Please enter a valid date."
 msgstr "Inserisci una data valida."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "Scegli una delle opzioni."
 
@@ -1271,6 +1271,106 @@ msgstr ""
 "grazie per averci contattato. Abbiamo ricevuto il tuo messaggio e ti risponderemo presto.\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "Email di prova"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Questa è un’email di prova. Se riesci a leggerla, l’invio delle email funziona."
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "L’email di prova è stata inviata a %s. Controlla la posta in arrivo e la cartella spam."
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "Non è stato possibile inviare l’email di prova."
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Molti hosting consegnano le email di WordPress in ritardo o nella cartella spam. Inviarle tramite l’account SMTP del tuo provider di posta risolve il problema, senza un plugin SMTP separato."
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s è attivo e gestisce l’invio delle email, quindi queste impostazioni non vengono usate."
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "Invia le email tramite un account SMTP"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Solo le email dei plugin SmokySystems"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "Tutte le email di questo sito"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "Server SMTP"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "Porta"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "Crittografia"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "Nessuna crittografia"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "Nome utente"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "Password"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "La password è impostata in wp-config.php."
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "È salvata una password. Lascia vuoto per mantenerla."
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "Rimuovi la password salvata"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "Email del mittente"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Usa un indirizzo dell’account SMTP, altrimenti molti provider rifiutano l’email."
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "Nome del mittente"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "Invia email di prova"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1392,16 +1492,16 @@ msgstr "Il sito non è riuscito a inviare l’email."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: questo modulo non esiste."
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "Lascia vuoto questo campo"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "Controlla il modulo e riprova."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1409,57 +1509,57 @@ msgstr[0] "%s stella"
 msgstr[1] "%s stelle"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Tipi di file consentiti: %1$s. Fino a %2$s MB per file."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Puoi caricare al massimo %s file."
 msgstr[1] "Puoi caricare al massimo %s file."
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "Per firmare serve JavaScript. Attivalo nel tuo browser."
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "Scegli…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "Rimuovi questa riga"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "Domanda di sicurezza"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "Invio in corso…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "Non è stato possibile inviare il modulo. Riprova."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Passo %1$s di %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s supera %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: questo tipo di file non è consentito."
@@ -1803,116 +1903,10 @@ msgid "Child – 10"
 msgstr "Bambino – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "Impossibile caricare %s. Riprova."
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "Email di prova"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "Questa è un’email di prova. Se riesci a leggerla, l’invio delle email funziona."
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "Impostazioni salvate."
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "L’email di prova è stata inviata a %s. Controlla la posta in arrivo e la cartella spam."
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "Non è stato possibile inviare l’email di prova."
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "Molti hosting consegnano le email di WordPress in ritardo o nella cartella spam. Inviarle tramite l’account SMTP del tuo provider di posta risolve il problema, senza un plugin SMTP separato."
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "Queste impostazioni sono condivise da %s."
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s è attivo e gestisce l’invio delle email, quindi queste impostazioni non vengono usate."
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "Invia le email tramite un account SMTP"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "Solo le email dei plugin SmokySystems"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "Tutte le email di questo sito"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "Server SMTP"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "Porta"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "Crittografia"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "Nessuna crittografia"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "Nome utente"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "Password"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "La password è impostata in wp-config.php."
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "È salvata una password. Lascia vuoto per mantenerla."
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "Rimuovi la password salvata"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "Email del mittente"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "Usa un indirizzo dell’account SMTP, altrimenti molti provider rifiutano l’email."
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "Nome del mittente"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "Invia email di prova"
 
 #. Name of the plugin
 #: smokyforms.php:3

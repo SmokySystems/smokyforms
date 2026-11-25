@@ -264,7 +264,7 @@ msgstr "撰寫公式"
 msgid "Undo"
 msgstr "復原"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "清除"
 
@@ -549,7 +549,7 @@ msgstr "最多列數"
 msgid "Text of the add button"
 msgstr "新增按鈕的文字"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "再新增一項"
 
@@ -557,7 +557,7 @@ msgstr "再新增一項"
 msgid "Next button"
 msgstr "下一步按鈕"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "下一步"
 
@@ -565,7 +565,7 @@ msgstr "下一步"
 msgid "Back button"
 msgstr "返回按鈕"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "上一步"
 
@@ -782,7 +782,7 @@ msgstr "顯示進度列"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "用於有分頁的表單：在表單上方顯示「第 1 步，共 3 步」。"
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "SmokyForms 免費版會把每筆提交以電子郵件寄給您，但不�
 msgid "Send me an email for every entry"
 msgstr "每次有人送出時寄電子郵件給我"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "寄送至"
 
@@ -904,7 +904,7 @@ msgstr "表單已儲存。"
 msgid "Edit Form &lsaquo; %s"
 msgstr "編輯表單 &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "你沒有權限執行此操作。"
 
@@ -942,83 +942,83 @@ msgstr "SmokyForms 設定"
 msgid "Email sending"
 msgstr "電子郵件寄送"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "垃圾訊息防護"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "每個表單都有隱藏的陷阱欄位和時間檢查。你還可以另外加入 CAPTCHA；在表單設定中啟用後就會生效。"
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile 是免費的，通常不會要求訪客解謎。"
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "算術題"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "提出一道簡單的算術題"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "訪客回答一道簡單的算術題，例如 7 + 4。不需要帳號或金鑰，可單獨使用，也可與 CAPTCHA 一併使用。"
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "網站金鑰"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "密鑰"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "已儲存。留白則保留不變。"
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "時間檢查"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "秒"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "頁面載入後在此時間內送出的表單會被視為垃圾訊息。設為 0 即關閉檢查。"
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "未送達的通知"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "SmokyForms 免費版會把每筆提交以電子郵件寄給您，但不會儲存。SmokyForms Pro（即將推出）會把所有提交儲存在控制台，並支援搜尋和 CSV 匯出。若通知郵件無法寄出，送出內容會被保留以免遺失，你可以在 SmokyForms > 未送達 中重新寄送。"
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "保留"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "天"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "上傳的檔案"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "隨表單送出的檔案和簽名會以難以猜測的連結儲存在 uploads/smokyforms 資料夾中，電子郵件會附上連結。"
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "在此天數後刪除上傳的檔案"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 表示保留檔案，直到您自行刪除。"
 
@@ -1161,7 +1161,7 @@ msgstr "簽名"
 msgid "Page break"
 msgstr "分頁"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "此欄位為必填。"
 
@@ -1183,11 +1183,11 @@ msgstr[0] "請最多填寫 %s 列。"
 msgid "The signature could not be read. Please sign again."
 msgstr "無法讀取簽名。請重新簽名。"
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "請輸入有效的電子郵件地址。"
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "請輸入有效的網址。"
 
@@ -1195,7 +1195,7 @@ msgstr "請輸入有效的網址。"
 msgid "Please enter a valid phone number."
 msgstr "請輸入有效的電話號碼。"
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "請輸入數字。"
 
@@ -1215,7 +1215,7 @@ msgstr "請輸入不大於 %s 的數字。"
 msgid "Please enter a valid date."
 msgstr "請輸入有效的日期。"
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "請從選項中擇一。"
 
@@ -1268,6 +1268,106 @@ msgstr ""
 "感謝你與我們聯絡。我們已收到你的訊息，會盡快回覆。\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "測試郵件"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "這是一封測試郵件。如果你能看到它，表示電子郵件寄送正常。"
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "測試郵件已寄至 %s。請檢查收件匣和垃圾郵件資料夾。"
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "無法寄出測試郵件。"
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "許多主機寄出的 WordPress 郵件會延遲送達或進入垃圾郵件。透過你的電子郵件服務商的 SMTP 帳號寄送即可解決，不需另外安裝 SMTP 外掛。"
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s 已啟用並負責寄送電子郵件，因此這些設定不會使用。"
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "透過 SMTP 帳號寄送電子郵件"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "僅限 SmokySystems 外掛的電子郵件"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "本網站的所有電子郵件"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "SMTP 伺服器"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "連接埠"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "加密"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "不加密"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "使用者名稱"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "密碼"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "密碼已在 wp-config.php 中設定。"
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "已儲存密碼。留白則保留不變。"
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "移除已儲存的密碼"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "寄件者電子郵件"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "請使用 SMTP 帳號中的地址，否則許多服務商會拒收郵件。"
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "寄件者名稱"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "寄送測試郵件"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1389,72 +1489,72 @@ msgstr "網站無法寄出電子郵件。"
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms：此表單不存在。"
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "請將此欄位留白"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "請檢查表單後再試一次。"
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
 msgstr[0] "%s 顆星"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "允許的檔案類型：%1$s。每個檔案最大 %2$s MB。"
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "最多可以上傳 %s 個檔案。"
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "簽名需要 JavaScript。請在瀏覽器中啟用。"
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "請選擇…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "移除此列"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "安全問題"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "傳送中…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "無法送出表單。請再試一次。"
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "第 %1$s 步，共 %2$s 步"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s 超過 %2$s MB。"
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s：不允許此檔案類型。"
@@ -1798,116 +1898,10 @@ msgid "Child – 10"
 msgstr "兒童 – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "無法上傳 %s。請再試一次。"
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "測試郵件"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "這是一封測試郵件。如果你能看到它，表示電子郵件寄送正常。"
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "設定已儲存。"
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "測試郵件已寄至 %s。請檢查收件匣和垃圾郵件資料夾。"
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "無法寄出測試郵件。"
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "許多主機寄出的 WordPress 郵件會延遲送達或進入垃圾郵件。透過你的電子郵件服務商的 SMTP 帳號寄送即可解決，不需另外安裝 SMTP 外掛。"
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "以下外掛共用這些設定：%s。"
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s 已啟用並負責寄送電子郵件，因此這些設定不會使用。"
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "透過 SMTP 帳號寄送電子郵件"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "僅限 SmokySystems 外掛的電子郵件"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "本網站的所有電子郵件"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "SMTP 伺服器"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "連接埠"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "加密"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "不加密"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "使用者名稱"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "密碼"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "密碼已在 wp-config.php 中設定。"
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "已儲存密碼。留白則保留不變。"
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "移除已儲存的密碼"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "寄件者電子郵件"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "請使用 SMTP 帳號中的地址，否則許多服務商會拒收郵件。"
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "寄件者名稱"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "寄送測試郵件"
 
 #. Name of the plugin
 #: smokyforms.php:3

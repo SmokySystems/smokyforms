@@ -298,7 +298,6 @@ a7498e|Dette er en test-e-mail. Hvis du kan læse den, virker afsendelsen af e-m
 a3fb23|Test-e-mailen blev sendt til %s. Tjek indbakken og spammappen.
 33de89|Test-e-mailen kunne ikke sendes.
 3a9486|Mange webhoteller leverer WordPress-e-mails sent eller i spammappen. At sende dem via SMTP-kontoen hos din e-mailudbyder løser det uden et separat SMTP-plugin.
-05449a|Disse indstillinger deles af %s.
 51e4ba|%s er aktiv og står for afsendelsen af e-mails, så disse indstillinger bruges ikke.
 c2239a|SMTP
 4d7db2|Send e-mails via en SMTP-konto

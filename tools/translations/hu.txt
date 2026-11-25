@@ -298,7 +298,6 @@ a7498e|Ez egy teszt e-mail. Ha el tudja olvasni, az e-mail küldés működik.
 a3fb23|A teszt e-mail elküldve ide: %s. Nézze meg a beérkezett üzeneteket és a spam mappát.
 33de89|A teszt e-mailt nem sikerült elküldeni.
 3a9486|Sok tárhely késve vagy a spam mappába kézbesíti a WordPress e-mailjeit. Ha e-mail-szolgáltatója SMTP-fiókján keresztül küldi őket, ez megoldódik külön SMTP bővítmény nélkül.
-05449a|Ezeken a beállításokon osztozik: %s.
 51e4ba|A(z) %s aktív és kezeli az e-mail küldést, ezért ezek a beállítások nincsenek használatban.
 c2239a|SMTP
 4d7db2|E-mailek küldése SMTP-fiókon keresztül

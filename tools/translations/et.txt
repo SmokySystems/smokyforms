@@ -298,7 +298,6 @@ a7498e|See on testkiri. Kui saad seda lugeda, siis e-kirjade saatmine töötab.
 a3fb23|Testkiri saadeti aadressile %s. Kontrolli postkasti ja rämpsposti kausta.
 33de89|Testkirja ei õnnestunud saata.
 3a9486|Paljud majutajad toimetavad WordPressi e-kirjad kohale hilinemisega või rämpsposti. Saatmine sinu e-posti teenusepakkuja SMTP-konto kaudu lahendab selle ilma eraldi SMTP-pluginata.
-05449a|Neid seadeid jagavad %s.
 51e4ba|%s on aktiivne ja tegeleb e-kirjade saatmisega, seega neid seadeid ei kasutata.
 c2239a|SMTP
 4d7db2|Saada e-kirjad SMTP-konto kaudu

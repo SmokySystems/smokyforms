@@ -264,7 +264,7 @@ msgstr "Escriu la fórmula"
 msgid "Undo"
 msgstr "Desfés"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "Esborra"
 
@@ -549,7 +549,7 @@ msgstr "Màxim de files"
 msgid "Text of the add button"
 msgstr "Text del botó d’afegir"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "Afegeix-ne un altre"
 
@@ -557,7 +557,7 @@ msgstr "Afegeix-ne un altre"
 msgid "Next button"
 msgstr "Botó Següent"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "Següent"
 
@@ -565,7 +565,7 @@ msgstr "Següent"
 msgid "Back button"
 msgstr "Botó Enrere"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "Anterior"
 
@@ -782,7 +782,7 @@ msgstr "Mostra la barra de progrés"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Per a formularis amb salts de pàgina: «Pas 1 de 3» damunt del formulari."
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "La versió gratuïta de SmokyForms us envia cada resposta per correu i n
 msgid "Send me an email for every entry"
 msgstr "Envia’m un correu per cada entrada"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "Envia a"
 
@@ -904,7 +904,7 @@ msgstr "S’ha desat el formulari."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Edita el formulari &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "No teniu permís per fer això."
 
@@ -942,83 +942,83 @@ msgstr "Configuració de SmokyForms"
 msgid "Email sending"
 msgstr "Enviament de correus"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "Protecció contra el correu brossa"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "Cada formulari té un camp trampa ocult i un control de temps. A més, podeu afegir un CAPTCHA; s’utilitza a tots els formularis on estigui activat a la configuració del formulari."
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile és gratuït i normalment no demana cap trencaclosques als visitants."
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "Pregunta de matemàtiques"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "Fes una pregunta de matemàtiques senzilla"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "Els visitants resolen una suma petita, com ara 7 + 4. No cal cap compte ni clau, i funciona sol o juntament amb un CAPTCHA."
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "Clau del lloc"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "Clau secreta"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "Desada. Deixeu-ho buit per mantenir-la."
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "Control de temps"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "segons"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "Els formularis enviats més ràpid que això després de carregar la pàgina es consideren correu brossa. 0 desactiva el control."
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "Avisos no lliurats"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "La versió gratuïta de SmokyForms us envia cada resposta per correu i no la desa. SmokyForms Pro (aviat) desa totes les respostes al vostre tauler, amb cerca i exportació CSV. Quan un correu d’avís no es pot enviar, l’entrada es conserva perquè no es perdi i la podeu tornar a enviar a SmokyForms > No lliurades."
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "Conserva durant"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "dies"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "Fitxers pujats"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "Els fitxers i les signatures enviats amb un formulari es desen a la carpeta uploads/smokyforms amb enllaços difícils d’endevinar, i el correu hi enllaça."
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "Suprimeix els fitxers pujats després de"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 conserva els fitxers fins que els suprimiu vosaltres."
 
@@ -1162,7 +1162,7 @@ msgstr "Signatura"
 msgid "Page break"
 msgstr "Salt de pàgina"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "Aquest camp és obligatori."
 
@@ -1186,11 +1186,11 @@ msgstr[1] "Ompliu com a màxim %s files."
 msgid "The signature could not be read. Please sign again."
 msgstr "No s’ha pogut llegir la signatura. Torneu a signar."
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "Introduïu una adreça de correu vàlida."
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "Introduïu una adreça web vàlida."
 
@@ -1198,7 +1198,7 @@ msgstr "Introduïu una adreça web vàlida."
 msgid "Please enter a valid phone number."
 msgstr "Introduïu un número de telèfon vàlid."
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "Introduïu un número."
 
@@ -1218,7 +1218,7 @@ msgstr "Introduïu un número de com a màxim %s."
 msgid "Please enter a valid date."
 msgstr "Introduïu una data vàlida."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "Trieu una de les opcions."
 
@@ -1271,6 +1271,106 @@ msgstr ""
 "gràcies per contactar amb nosaltres. Hem rebut el vostre missatge i us respondrem aviat.\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "Correu de prova"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Aquest és un correu de prova. Si el podeu llegir, l’enviament de correus funciona."
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "S’ha desat la configuració."
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "El correu de prova s’ha enviat a %s. Reviseu la safata d’entrada i la carpeta de correu brossa."
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "No s’ha pogut enviar el correu de prova."
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Molts allotjaments lliuren els correus de WordPress tard o a la carpeta de correu brossa. Enviar-los per mitjà del compte SMTP del vostre proveïdor de correu ho soluciona, sense una extensió SMTP a part."
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s està actiu i s’encarrega de l’enviament de correus, així que aquesta configuració no s’utilitza."
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "Envia els correus per mitjà d’un compte SMTP"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Només els correus de les extensions de SmokySystems"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "Tots els correus d’aquest lloc"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "Servidor SMTP"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "Port"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "Xifratge"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "Sense xifratge"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "Nom d’usuari"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "Contrasenya"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "La contrasenya està definida a wp-config.php."
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Hi ha una contrasenya desada. Deixeu-ho buit per mantenir-la."
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "Elimina la contrasenya desada"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "Correu del remitent"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Feu servir una adreça del compte SMTP; si no, molts proveïdors rebutgen el correu."
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "Nom del remitent"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "Envia un correu de prova"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1392,16 +1492,16 @@ msgstr "El lloc no ha pogut enviar el correu."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: aquest formulari no existeix."
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "Deixeu aquest camp buit"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "Reviseu el formulari i torneu-ho a provar."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1409,57 +1509,57 @@ msgstr[0] "%s estrella"
 msgstr[1] "%s estrelles"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Tipus de fitxer permesos: %1$s. Fins a %2$s MB per fitxer."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
 msgstr[0] "Podeu pujar com a màxim %s fitxer."
 msgstr[1] "Podeu pujar com a màxim %s fitxers."
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "Per signar cal JavaScript. Activeu-lo al navegador."
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "Trieu…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "Elimina aquesta fila"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "Pregunta de seguretat"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "S’està enviant…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "No s’ha pogut enviar el formulari. Torneu-ho a provar."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "Pas %1$s de %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s supera els %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: aquest tipus de fitxer no està permès."
@@ -1803,116 +1903,10 @@ msgid "Child – 10"
 msgstr "Infant – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "No s’ha pogut pujar %s. Torneu-ho a provar."
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "Correu de prova"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "Aquest és un correu de prova. Si el podeu llegir, l’enviament de correus funciona."
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "S’ha desat la configuració."
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "El correu de prova s’ha enviat a %s. Reviseu la safata d’entrada i la carpeta de correu brossa."
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "No s’ha pogut enviar el correu de prova."
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "Molts allotjaments lliuren els correus de WordPress tard o a la carpeta de correu brossa. Enviar-los per mitjà del compte SMTP del vostre proveïdor de correu ho soluciona, sense una extensió SMTP a part."
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "Aquesta configuració la comparteixen %s."
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s està actiu i s’encarrega de l’enviament de correus, així que aquesta configuració no s’utilitza."
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "Envia els correus per mitjà d’un compte SMTP"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "Només els correus de les extensions de SmokySystems"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "Tots els correus d’aquest lloc"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "Servidor SMTP"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "Port"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "Xifratge"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "Sense xifratge"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "Nom d’usuari"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "Contrasenya"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "La contrasenya està definida a wp-config.php."
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "Hi ha una contrasenya desada. Deixeu-ho buit per mantenir-la."
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "Elimina la contrasenya desada"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "Correu del remitent"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "Feu servir una adreça del compte SMTP; si no, molts proveïdors rebutgen el correu."
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "Nom del remitent"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "Envia un correu de prova"
 
 #. Name of the plugin
 #: smokyforms.php:3

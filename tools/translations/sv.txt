@@ -298,7 +298,6 @@ a7498e|Detta är ett testmejl. Om du kan läsa det fungerar e-postutskicken.
 a3fb23|Testmejlet skickades till %s. Kontrollera inkorgen och skräppostmappen.
 33de89|Testmejlet kunde inte skickas.
 3a9486|Många webbhotell levererar WordPress e-post sent eller till skräppost. Att skicka via SMTP-kontot hos din e-postleverantör löser det, utan ett separat SMTP-tillägg.
-05449a|Inställningarna delas av %s.
 51e4ba|%s är aktivt och sköter e-postutskicken, så dessa inställningar används inte.
 c2239a|SMTP
 4d7db2|Skicka e-post via ett SMTP-konto

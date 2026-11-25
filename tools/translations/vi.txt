@@ -298,7 +298,6 @@ a7498e|Đây là email thử. Nếu bạn đọc được email này thì việc
 a3fb23|Email thử đã được gửi đến %s. Hãy kiểm tra hộp thư đến và thư mục thư rác.
 33de89|Không gửi được email thử.
 3a9486|Nhiều nhà cung cấp hosting gửi email của WordPress chậm hoặc vào thư rác. Gửi qua tài khoản SMTP của nhà cung cấp email sẽ khắc phục điều đó mà không cần plugin SMTP riêng.
-05449a|Các cài đặt này được dùng chung bởi %s.
 51e4ba|%s đang bật và xử lý việc gửi email, vì vậy các cài đặt này không được dùng.
 c2239a|SMTP
 4d7db2|Gửi email qua tài khoản SMTP

@@ -298,7 +298,6 @@ a7498e|Ceci est un e-mail de test. Si vous pouvez le lire, l’envoi des e-mails
 a3fb23|L’e-mail de test a été envoyé à %s. Vérifiez la boîte de réception et le dossier spam.
 33de89|L’e-mail de test n’a pas pu être envoyé.
 3a9486|De nombreux hébergeurs distribuent les e-mails de WordPress en retard ou dans le dossier spam. Les envoyer via le compte SMTP de votre fournisseur de messagerie règle ce problème, sans extension SMTP séparée.
-05449a|Ces réglages sont partagés par %s.
 51e4ba|%s est actif et gère l’envoi des e-mails, ces réglages ne sont donc pas utilisés.
 c2239a|SMTP
 4d7db2|Envoyer les e-mails via un compte SMTP

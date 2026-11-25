@@ -264,7 +264,7 @@ msgstr "Rakstīt formulu"
 msgid "Undo"
 msgstr "Atsaukt"
 
-#: assets/js/builder.js:620 includes/Renderer.php:404
+#: assets/js/builder.js:620 includes/Renderer.php:408
 msgid "Clear"
 msgstr "Notīrīt"
 
@@ -549,7 +549,7 @@ msgstr "Lielākais rindu skaits"
 msgid "Text of the add button"
 msgstr "Pievienošanas pogas teksts"
 
-#: assets/js/builder.js:1132 includes/Renderer.php:415
+#: assets/js/builder.js:1132 includes/Renderer.php:419
 msgid "Add another"
 msgstr "Pievienot vēl vienu"
 
@@ -557,7 +557,7 @@ msgstr "Pievienot vēl vienu"
 msgid "Next button"
 msgstr "Poga “Tālāk”"
 
-#: assets/js/builder.js:1140 includes/Renderer.php:223
+#: assets/js/builder.js:1140 includes/Renderer.php:227
 msgid "Next"
 msgstr "Tālāk"
 
@@ -565,7 +565,7 @@ msgstr "Tālāk"
 msgid "Back button"
 msgstr "Poga “Atpakaļ”"
 
-#: assets/js/builder.js:1143 includes/Renderer.php:224
+#: assets/js/builder.js:1143 includes/Renderer.php:228
 msgid "Previous"
 msgstr "Atpakaļ"
 
@@ -782,7 +782,7 @@ msgstr "Rādīt progresa joslu"
 msgid "For forms with page breaks: \"Step 1 of 3\" above the form."
 msgstr "Formām ar lapu pārtraukumiem: “1. solis no 3” virs formas."
 
-#: assets/js/builder.js:1703 includes/Admin/Settings.php:74
+#: assets/js/builder.js:1703 includes/Admin/Settings.php:70
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -806,7 +806,7 @@ msgstr "SmokyForms bezmaksas versija katru iesniegumu nosūta jums pa e-pastu un
 msgid "Send me an email for every entry"
 msgstr "Sūtīt man e-pastu par katru iesniegumu"
 
-#: assets/js/builder.js:1725 lib/smokysystems-mail/Module.php:476
+#: assets/js/builder.js:1725 includes/Mail.php:426
 msgid "Send to"
 msgstr "Sūtīt uz"
 
@@ -904,7 +904,7 @@ msgstr "Veidlapa saglabāta."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Rediģēt veidlapu &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 lib/smokysystems-mail/Module.php:316 lib/smokysystems-mail/Module.php:349
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
 msgid "You are not allowed to do this."
 msgstr "Jums nav atļaujas to darīt."
 
@@ -942,83 +942,83 @@ msgstr "SmokyForms iestatījumi"
 msgid "Email sending"
 msgstr "E-pastu sūtīšana"
 
-#: includes/Admin/Settings.php:70
+#: includes/Admin/Settings.php:66
 msgid "Spam protection"
 msgstr "Aizsardzība pret surogātpastu"
 
-#: includes/Admin/Settings.php:71
+#: includes/Admin/Settings.php:67
 msgid "Every form has a hidden trap field and a time check. You can add a CAPTCHA on top; it is used on every form where it is switched on in the form settings."
 msgstr "Katrai veidlapai ir slēpts lamatu lauks un laika pārbaude. Papildus varat pievienot CAPTCHA; tā tiek izmantota katrā veidlapā, kuras iestatījumos tā ir ieslēgta."
 
-#: includes/Admin/Settings.php:81
+#: includes/Admin/Settings.php:77
 msgid "Cloudflare Turnstile is free and usually needs no puzzle from your visitors."
 msgstr "Cloudflare Turnstile ir bezmaksas un parasti neprasa apmeklētājiem risināt mīklas."
 
-#: includes/Admin/Settings.php:85
+#: includes/Admin/Settings.php:81
 msgid "Math question"
 msgstr "Rēķināšanas jautājums"
 
-#: includes/Admin/Settings.php:87
+#: includes/Admin/Settings.php:83
 msgid "Ask a simple math question"
 msgstr "Uzdot vienkāršu rēķināšanas jautājumu"
 
-#: includes/Admin/Settings.php:88
+#: includes/Admin/Settings.php:84
 msgid "Visitors solve a small sum such as 7 + 4. It needs no account or key, and works on its own or together with a CAPTCHA."
 msgstr "Apmeklētāji atrisina nelielu uzdevumu, piemēram, 7 + 4. Nav vajadzīgs konts vai atslēga, un tas darbojas atsevišķi vai kopā ar CAPTCHA."
 
-#: includes/Admin/Settings.php:92
+#: includes/Admin/Settings.php:88
 msgid "Site key"
 msgstr "Vietnes atslēga"
 
-#: includes/Admin/Settings.php:96
+#: includes/Admin/Settings.php:92
 msgid "Secret key"
 msgstr "Slepenā atslēga"
 
-#: includes/Admin/Settings.php:98
+#: includes/Admin/Settings.php:94
 msgid "Saved. Leave empty to keep it."
 msgstr "Saglabāta. Atstājiet tukšu, lai to paturētu."
 
-#: includes/Admin/Settings.php:102
+#: includes/Admin/Settings.php:98
 msgid "Time check"
 msgstr "Laika pārbaude"
 
-#: includes/Admin/Settings.php:105
+#: includes/Admin/Settings.php:101
 msgid "seconds"
 msgstr "sekundes"
 
-#: includes/Admin/Settings.php:106
+#: includes/Admin/Settings.php:102
 msgid "Forms sent faster than this after the page loaded are treated as spam. 0 switches the check off."
 msgstr "Veidlapas, kas nosūtītas ātrāk par šo laiku pēc lapas ielādes, tiek uzskatītas par surogātpastu. 0 izslēdz pārbaudi."
 
-#: includes/Admin/Settings.php:110
+#: includes/Admin/Settings.php:106
 msgid "Undelivered notifications"
 msgstr "Nepiegādātie paziņojumi"
 
-#: includes/Admin/Settings.php:111
+#: includes/Admin/Settings.php:107
 msgid "The free version of SmokyForms sends every entry to you by email and does not save it. SmokyForms Pro (coming soon) saves all entries in your dashboard, with search and CSV export. When a notification email cannot be sent, the entry is kept so it is not lost, and you can send it again under SmokyForms > Undelivered."
 msgstr "SmokyForms bezmaksas versija katru iesniegumu nosūta jums pa e-pastu un to nesaglabā. SmokyForms Pro (drīzumā) saglabā visus iesniegumus vadības panelī, ar meklēšanu un CSV eksportu. Ja paziņojuma e-pastu nevar nosūtīt, iesniegums tiek saglabāts, lai tas nepazustu, un to var nosūtīt vēlreiz sadaļā SmokyForms > Nepiegādātie."
 
-#: includes/Admin/Settings.php:114
+#: includes/Admin/Settings.php:110
 msgid "Keep for"
 msgstr "Glabāt"
 
-#: includes/Admin/Settings.php:117 includes/Admin/Settings.php:128
+#: includes/Admin/Settings.php:113 includes/Admin/Settings.php:124
 msgid "days"
 msgstr "dienas"
 
-#: includes/Admin/Settings.php:121
+#: includes/Admin/Settings.php:117
 msgid "Uploaded files"
 msgstr "Augšupielādētie faili"
 
-#: includes/Admin/Settings.php:122
+#: includes/Admin/Settings.php:118
 msgid "Files and signatures sent with a form are saved in the folder uploads/smokyforms with hard-to-guess links, and the email links to them."
 msgstr "Ar formu nosūtītie faili un paraksti tiek saglabāti mapē uploads/smokyforms ar grūti uzminamām saitēm, un e-pastā ir saites uz tiem."
 
-#: includes/Admin/Settings.php:125
+#: includes/Admin/Settings.php:121
 msgid "Delete uploaded files after"
 msgstr "Dzēst augšupielādētos failus pēc"
 
-#: includes/Admin/Settings.php:129
+#: includes/Admin/Settings.php:125
 msgid "0 keeps the files until you delete them yourself."
 msgstr "0 saglabā failus, līdz jūs tos izdzēšat paši."
 
@@ -1163,7 +1163,7 @@ msgstr "Paraksts"
 msgid "Page break"
 msgstr "Lapas pārtraukums"
 
-#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:637 includes/Uploads.php:108
+#: includes/Fields.php:262 includes/Fields.php:283 includes/Renderer.php:641 includes/Uploads.php:194
 msgid "This field is required."
 msgstr "Šis lauks ir obligāts."
 
@@ -1189,11 +1189,11 @@ msgstr[2] "Lūdzu, aizpildiet ne vairāk kā %s rindu."
 msgid "The signature could not be read. Please sign again."
 msgstr "Parakstu neizdevās nolasīt. Lūdzu, parakstieties vēlreiz."
 
-#: includes/Fields.php:316 includes/Renderer.php:638
+#: includes/Fields.php:316 includes/Renderer.php:642
 msgid "Please enter a valid email address."
 msgstr "Ievadiet derīgu e-pasta adresi."
 
-#: includes/Fields.php:324 includes/Renderer.php:639
+#: includes/Fields.php:324 includes/Renderer.php:643
 msgid "Please enter a valid website address."
 msgstr "Ievadiet derīgu vietnes adresi."
 
@@ -1201,7 +1201,7 @@ msgstr "Ievadiet derīgu vietnes adresi."
 msgid "Please enter a valid phone number."
 msgstr "Ievadiet derīgu tālruņa numuru."
 
-#: includes/Fields.php:336 includes/Renderer.php:640
+#: includes/Fields.php:336 includes/Renderer.php:644
 msgid "Please enter a number."
 msgstr "Ievadiet skaitli."
 
@@ -1221,7 +1221,7 @@ msgstr "Ievadiet skaitli, kas nav lielāks par %s."
 msgid "Please enter a valid date."
 msgstr "Ievadiet derīgu datumu."
 
-#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:650
+#: includes/Fields.php:358 includes/Fields.php:363 includes/Renderer.php:654
 msgid "Please choose one of the options."
 msgstr "Izvēlieties vienu no iespējām."
 
@@ -1274,6 +1274,106 @@ msgstr ""
 "Paldies, ka sazinājāties ar mums. Saņēmām jūsu ziņojumu un drīz atbildēsim.\n"
 "\n"
 "{all_fields}"
+
+#: includes/Mail.php:319 includes/Mail.php:421
+msgid "Test email"
+msgstr "Testa e-pasts"
+
+#: includes/Mail.php:320
+msgid "This is a test email. If you can read it, email sending works."
+msgstr "Šis ir testa e-pasts. Ja varat to izlasīt, e-pastu sūtīšana darbojas."
+
+#: includes/Mail.php:341
+msgid "Settings saved."
+msgstr "Iestatījumi saglabāti."
+
+#. translators: %s: email address
+#: includes/Mail.php:347
+#, php-format
+msgid "The test email was sent to %s. Check the inbox and the spam folder."
+msgstr "Testa e-pasts tika nosūtīts uz %s. Pārbaudiet iesūtni un surogātpasta mapi."
+
+#: includes/Mail.php:349
+msgid "The test email could not be sent."
+msgstr "Testa e-pastu neizdevās nosūtīt."
+
+#: includes/Mail.php:354
+msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
+msgstr "Daudzi mitināšanas pakalpojumi WordPress e-pastus piegādā ar kavēšanos vai surogātpastā. Sūtīšana caur jūsu e-pasta pakalpojuma SMTP kontu to atrisina bez atsevišķa SMTP spraudņa."
+
+#. translators: %s: name of another SMTP plugin
+#: includes/Mail.php:357
+#, php-format
+msgid "%s is active and handles email sending, so these settings are not used."
+msgstr "%s ir aktīvs un nodrošina e-pastu sūtīšanu, tāpēc šie iestatījumi netiek izmantoti."
+
+#: includes/Mail.php:365
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/Mail.php:367
+msgid "Send emails through an SMTP account"
+msgstr "Sūtīt e-pastus caur SMTP kontu"
+
+#: includes/Mail.php:369
+msgid "Only the emails of SmokySystems plugins"
+msgstr "Tikai SmokySystems spraudņu e-pasti"
+
+#: includes/Mail.php:370
+msgid "All emails of this site"
+msgstr "Visi šīs vietnes e-pasti"
+
+#: includes/Mail.php:375
+msgid "SMTP server"
+msgstr "SMTP serveris"
+
+#: includes/Mail.php:379
+msgid "Port"
+msgstr "Ports"
+
+#: includes/Mail.php:382
+msgid "Encryption"
+msgstr "Šifrēšana"
+
+#: includes/Mail.php:385
+msgid "No encryption"
+msgstr "Bez šifrēšanas"
+
+#: includes/Mail.php:390
+msgid "Username"
+msgstr "Lietotājvārds"
+
+#: includes/Mail.php:394
+msgid "Password"
+msgstr "Parole"
+
+#: includes/Mail.php:397
+msgid "The password is set in wp-config.php."
+msgstr "Parole ir iestatīta failā wp-config.php."
+
+#: includes/Mail.php:401
+msgid "A password is saved. Leave this empty to keep it."
+msgstr "Parole ir saglabāta. Atstājiet tukšu, lai to paturētu."
+
+#: includes/Mail.php:402
+msgid "Remove the saved password"
+msgstr "Noņemt saglabāto paroli"
+
+#: includes/Mail.php:408
+msgid "From email"
+msgstr "Sūtītāja e-pasts"
+
+#: includes/Mail.php:411
+msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
+msgstr "Izmantojiet SMTP konta adresi, citādi daudzi pakalpojumi e-pastu noraidīs."
+
+#: includes/Mail.php:415
+msgid "From name"
+msgstr "Sūtītāja vārds"
+
+#: includes/Mail.php:428
+msgid "Send test email"
+msgstr "Nosūtīt testa e-pastu"
 
 #: includes/Notifications.php:39
 msgid "All answers"
@@ -1395,16 +1495,16 @@ msgstr "Vietne nevarēja nosūtīt e-pastu."
 msgid "SmokyForms: this form does not exist."
 msgstr "SmokyForms: šī veidlapa neeksistē."
 
-#: includes/Renderer.php:241
+#: includes/Renderer.php:245
 msgid "Leave this field empty"
 msgstr "Atstājiet šo lauku tukšu"
 
-#: includes/Renderer.php:260 includes/Renderer.php:642 includes/Submission.php:184
+#: includes/Renderer.php:264 includes/Renderer.php:646 includes/Submission.php:184
 msgid "Please check the form and try again."
 msgstr "Pārbaudiet veidlapu un mēģiniet vēlreiz."
 
 #. translators: %s: number of stars
-#: includes/Renderer.php:376
+#: includes/Renderer.php:380
 #, php-format
 msgid "%s star"
 msgid_plural "%s stars"
@@ -1413,13 +1513,13 @@ msgstr[1] "%s zvaigznes"
 msgstr[2] "%s zvaigžņu"
 
 #. translators: 1: file types, for example "jpg, png, pdf", 2: size in MB
-#: includes/Renderer.php:388
+#: includes/Renderer.php:392
 #, php-format
 msgid "Allowed file types: %1$s. Up to %2$s MB per file."
 msgstr "Atļautie failu veidi: %1$s. Līdz %2$s MB vienam failam."
 
 #. translators: %s: number of files
-#: includes/Renderer.php:390 includes/Uploads.php:112
+#: includes/Renderer.php:394 includes/Uploads.php:198
 #, php-format
 msgid "You can upload at most %s file."
 msgid_plural "You can upload at most %s files."
@@ -1427,44 +1527,44 @@ msgstr[0] "Varat augšupielādēt ne vairāk kā %s failu."
 msgstr[1] "Varat augšupielādēt ne vairāk kā %s failus."
 msgstr[2] "Varat augšupielādēt ne vairāk kā %s failu."
 
-#: includes/Renderer.php:406
+#: includes/Renderer.php:410
 msgid "Signing needs JavaScript. Please switch it on in your browser."
 msgstr "Parakstīšanai nepieciešams JavaScript. Lūdzu, ieslēdziet to pārlūkā."
 
-#: includes/Renderer.php:428
+#: includes/Renderer.php:432
 msgid "Choose…"
 msgstr "Izvēlieties…"
 
-#: includes/Renderer.php:514 includes/Renderer.php:514
+#: includes/Renderer.php:518 includes/Renderer.php:518
 msgid "Remove this row"
 msgstr "Noņemt šo rindu"
 
-#: includes/Renderer.php:602
+#: includes/Renderer.php:606
 msgid "Security question"
 msgstr "Drošības jautājums"
 
-#: includes/Renderer.php:641
+#: includes/Renderer.php:645
 msgid "Sending…"
 msgstr "Sūta…"
 
-#: includes/Renderer.php:643
+#: includes/Renderer.php:647
 msgid "The form could not be sent. Please try again."
 msgstr "Veidlapu neizdevās nosūtīt. Mēģiniet vēlreiz."
 
 #. translators: 1: number of the current step, 2: number of steps
-#: includes/Renderer.php:645
+#: includes/Renderer.php:649
 #, php-format
 msgid "Step %1$s of %2$s"
 msgstr "%1$s. solis no %2$s"
 
 #. translators: 1: file name, 2: size in MB
-#: includes/Renderer.php:647 includes/Uploads.php:125
+#: includes/Renderer.php:651 includes/Uploads.php:211
 #, php-format
 msgid "%1$s is larger than %2$s MB."
 msgstr "%1$s ir lielāks par %2$s MB."
 
 #. translators: %s: file name
-#: includes/Renderer.php:649 includes/Uploads.php:130
+#: includes/Renderer.php:653 includes/Uploads.php:216
 #, php-format
 msgid "%s: this file type is not allowed."
 msgstr "%s: šis faila veids nav atļauts."
@@ -1808,116 +1908,10 @@ msgid "Child – 10"
 msgstr "Bērns – 10"
 
 #. translators: %s: file name
-#: includes/Uploads.php:121
+#: includes/Uploads.php:207
 #, php-format
 msgid "%s could not be uploaded. Please try again."
 msgstr "Neizdevās augšupielādēt %s. Mēģiniet vēlreiz."
-
-#: lib/smokysystems-mail/Module.php:364 lib/smokysystems-mail/Module.php:471
-msgid "Test email"
-msgstr "Testa e-pasts"
-
-#: lib/smokysystems-mail/Module.php:365
-msgid "This is a test email. If you can read it, email sending works."
-msgstr "Šis ir testa e-pasts. Ja varat to izlasīt, e-pastu sūtīšana darbojas."
-
-#: lib/smokysystems-mail/Module.php:387
-msgid "Settings saved."
-msgstr "Iestatījumi saglabāti."
-
-#. translators: %s: email address
-#: lib/smokysystems-mail/Module.php:393
-#, php-format
-msgid "The test email was sent to %s. Check the inbox and the spam folder."
-msgstr "Testa e-pasts tika nosūtīts uz %s. Pārbaudiet iesūtni un surogātpasta mapi."
-
-#: lib/smokysystems-mail/Module.php:395
-msgid "The test email could not be sent."
-msgstr "Testa e-pastu neizdevās nosūtīt."
-
-#: lib/smokysystems-mail/Module.php:400
-msgid "Many hosts deliver the emails of WordPress late, or into the spam folder. Sending them through the SMTP account of your email provider fixes that, without a separate SMTP plugin."
-msgstr "Daudzi mitināšanas pakalpojumi WordPress e-pastus piegādā ar kavēšanos vai surogātpastā. Sūtīšana caur jūsu e-pasta pakalpojuma SMTP kontu to atrisina bez atsevišķa SMTP spraudņa."
-
-#. translators: %s: list of plugin names
-#: lib/smokysystems-mail/Module.php:403
-#, php-format
-msgid "These settings are shared by %s."
-msgstr "Šos iestatījumus koplieto %s."
-
-#. translators: %s: name of another SMTP plugin
-#: lib/smokysystems-mail/Module.php:407
-#, php-format
-msgid "%s is active and handles email sending, so these settings are not used."
-msgstr "%s ir aktīvs un nodrošina e-pastu sūtīšanu, tāpēc šie iestatījumi netiek izmantoti."
-
-#: lib/smokysystems-mail/Module.php:415
-msgid "SMTP"
-msgstr "SMTP"
-
-#: lib/smokysystems-mail/Module.php:417
-msgid "Send emails through an SMTP account"
-msgstr "Sūtīt e-pastus caur SMTP kontu"
-
-#: lib/smokysystems-mail/Module.php:419
-msgid "Only the emails of SmokySystems plugins"
-msgstr "Tikai SmokySystems spraudņu e-pasti"
-
-#: lib/smokysystems-mail/Module.php:420
-msgid "All emails of this site"
-msgstr "Visi šīs vietnes e-pasti"
-
-#: lib/smokysystems-mail/Module.php:425
-msgid "SMTP server"
-msgstr "SMTP serveris"
-
-#: lib/smokysystems-mail/Module.php:429
-msgid "Port"
-msgstr "Ports"
-
-#: lib/smokysystems-mail/Module.php:432
-msgid "Encryption"
-msgstr "Šifrēšana"
-
-#: lib/smokysystems-mail/Module.php:435
-msgid "No encryption"
-msgstr "Bez šifrēšanas"
-
-#: lib/smokysystems-mail/Module.php:440
-msgid "Username"
-msgstr "Lietotājvārds"
-
-#: lib/smokysystems-mail/Module.php:444
-msgid "Password"
-msgstr "Parole"
-
-#: lib/smokysystems-mail/Module.php:447
-msgid "The password is set in wp-config.php."
-msgstr "Parole ir iestatīta failā wp-config.php."
-
-#: lib/smokysystems-mail/Module.php:451
-msgid "A password is saved. Leave this empty to keep it."
-msgstr "Parole ir saglabāta. Atstājiet tukšu, lai to paturētu."
-
-#: lib/smokysystems-mail/Module.php:452
-msgid "Remove the saved password"
-msgstr "Noņemt saglabāto paroli"
-
-#: lib/smokysystems-mail/Module.php:458
-msgid "From email"
-msgstr "Sūtītāja e-pasts"
-
-#: lib/smokysystems-mail/Module.php:461
-msgid "Use an address of the SMTP account, otherwise many providers refuse the email."
-msgstr "Izmantojiet SMTP konta adresi, citādi daudzi pakalpojumi e-pastu noraidīs."
-
-#: lib/smokysystems-mail/Module.php:465
-msgid "From name"
-msgstr "Sūtītāja vārds"
-
-#: lib/smokysystems-mail/Module.php:478
-msgid "Send test email"
-msgstr "Nosūtīt testa e-pastu"
 
 #. Name of the plugin
 #: smokyforms.php:3

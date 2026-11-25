@@ -298,7 +298,6 @@ a7498e|To jest e-mail testowy. Jeśli możesz go przeczytać, wysyłanie e-maili
 a3fb23|E-mail testowy został wysłany na adres %s. Sprawdź skrzynkę odbiorczą i folder spam.
 33de89|Nie udało się wysłać e-maila testowego.
 3a9486|Wielu dostawców hostingu dostarcza e-maile WordPressa z opóźnieniem lub do spamu. Wysyłanie ich przez konto SMTP Twojego dostawcy poczty rozwiązuje ten problem bez osobnej wtyczki SMTP.
-05449a|Te ustawienia są wspólne dla %s.
 51e4ba|%s jest aktywny i obsługuje wysyłanie e-maili, więc te ustawienia nie są używane.
 c2239a|SMTP
 4d7db2|Wysyłaj e-maile przez konto SMTP

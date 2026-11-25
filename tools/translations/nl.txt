@@ -298,7 +298,6 @@ a7498e|Dit is een testmail. Als je hem kunt lezen, werkt het verzenden van e-mai
 a3fb23|De testmail is verstuurd naar %s. Controleer de inbox en de spammap.
 33de89|De testmail kon niet verstuurd worden.
 3a9486|Veel hosts bezorgen de e-mails van WordPress laat of in de spammap. Ze versturen via het SMTP-account van je e-mailprovider lost dat op, zonder aparte SMTP-plugin.
-05449a|Deze instellingen worden gedeeld door %s.
 51e4ba|%s is actief en verzorgt het verzenden van e-mail, dus deze instellingen worden niet gebruikt.
 c2239a|SMTP
 4d7db2|E-mails versturen via een SMTP-account

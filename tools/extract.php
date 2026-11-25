@@ -14,7 +14,7 @@ $files = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $root, F
 $list = array(); foreach ( $files as $f ) { $list[] = (string) $f; } sort( $list );
 foreach ( $list as $file ) {
 	$rel = substr( $file, strlen( $root ) + 1 );
-	if ( preg_match( '#^(tests|tools|node_modules|lib/smokysystems-mail/loader)/#', $rel ) ) continue;
+	if ( preg_match( '#^(tests|tools|node_modules|lib)/#', $rel ) ) continue;
 	if ( substr( $file, -4 ) === '.php' ) {
 		$t = token_get_all( file_get_contents( $file ) ); $comment = '';
 		$n = count( $t );
