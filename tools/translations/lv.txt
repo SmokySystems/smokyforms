@@ -458,3 +458,13 @@ e3c30f|Apmeklētāji atrisina nelielu uzdevumu, piemēram, 7 + 4. Nav vajadzīgs
 c74c74|Lūdzu, atbildiet uz rēķināšanas jautājumu.
 fa4e2a|Atbilde uz rēķināšanas jautājumu nav pareiza.
 1b1e7a|Drošības jautājums
+0095a9|Eksportēt
+fd537c|Importētā veidlapa
+749781|Importēta %d veidlapa. ¦ Importētas %d veidlapas. ¦ Importētas %d veidlapas.
+e777c7|Izlaista %d veidlapa, jo tajā nav lauku. ¦ Izlaistas %d veidlapas, jo tajās nav lauku. ¦ Izlaistas %d veidlapas, jo tajās nav lauku.
+1de8a1|Šis nav SmokyForms eksporta fails. Izvēlieties .json failu, kas izveidots ar Eksportēt.
+bf70e6|Fails ir pārāk liels. Eksporta fails ir mazāks par 2 MB.
+30fd34|Izvēlieties importējamo failu.
+fd3edf|Importēt veidlapas
+c7f171|Izvēlieties .json failu, kas izveidots ar Eksportēt šajā vai citā vietnē. Veidlapas tiek pievienotas kā jaunas veidlapas; nekas netiek pārrakstīts.
+72d6d7|Importēt

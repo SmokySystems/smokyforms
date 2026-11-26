@@ -458,3 +458,13 @@ e3c30f|Lankytojai išsprendžia nedidelį uždavinį, pavyzdžiui, 7 + 4. Nereik
 c74c74|Atsakykite į skaičiavimo klausimą.
 fa4e2a|Atsakymas į skaičiavimo klausimą neteisingas.
 1b1e7a|Saugos klausimas
+0095a9|Eksportuoti
+fd537c|Importuota forma
+749781|Importuota %d forma. ¦ Importuotos %d formos. ¦ Importuota %d formų.
+e777c7|Praleista %d forma, nes joje nėra laukų. ¦ Praleistos %d formos, nes jose nėra laukų. ¦ Praleista %d formų, nes jose nėra laukų.
+1de8a1|Tai nėra „SmokyForms“ eksporto failas. Pasirinkite .json failą, sukurtą naudojant Eksportuoti.
+bf70e6|Failas per didelis. Eksporto failas yra mažesnis nei 2 MB.
+30fd34|Pasirinkite importuojamą failą.
+fd3edf|Importuoti formas
+c7f171|Pasirinkite .json failą, sukurtą naudojant Eksportuoti šioje arba kitoje svetainėje. Formos pridedamos kaip naujos formos; niekas neperrašoma.
+72d6d7|Importuoti

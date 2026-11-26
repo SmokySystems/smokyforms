@@ -904,7 +904,7 @@ msgstr "양식을 저장했습니다."
 msgid "Edit Form &lsaquo; %s"
 msgstr "양식 편집 &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "이 작업을 할 권한이 없습니다."
 
@@ -1896,6 +1896,52 @@ msgstr "성인 – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "어린이 – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "내보내기"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "가져온 양식"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "양식 %d개를 가져왔습니다."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "필드가 없어 양식 %d개를 건너뛰었습니다."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "SmokyForms 내보내기 파일이 아닙니다. \"내보내기\"로 만든 .json 파일을 선택하세요."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "파일이 너무 큽니다. 내보내기 파일은 2MB보다 작습니다."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "가져올 파일을 선택하세요."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "양식 가져오기"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "이 사이트 또는 다른 사이트에서 \"내보내기\"로 만든 .json 파일을 선택하세요. 양식은 새 양식으로 추가되며 기존 항목은 덮어쓰지 않습니다."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "가져오기"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

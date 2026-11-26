@@ -4,7 +4,7 @@ Tags: form builder, contact form, calculator, calculated fields, quote form
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.9
+Stable tag: 0.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,7 @@ You build a calculation by clicking: pick a field, an operator, another field, a
 * Smart tags and HTML in emails and in the message after sending.
 * Buttons follow your theme, or pick your own colours.
 * Templates: contact form, quote request, order form, booking with nights, price table, BMI calculator, loan calculator, customer feedback, job application and event registration. All free.
+* **Export and import forms.** Download one form or several as a .json file and import it on the same site or another site. Fields, logic, calculations, price tables and settings come along.
 * Add a form with the SmokyForms block or the shortcode `[smokyforms id="123"]`.
 * Works without JavaScript too.
 
@@ -139,6 +140,9 @@ The form uses your theme's styles. You can add it with the block, or with the sh
 5. Email sending (SMTP) settings.
 
 == Changelog ==
+
+= 0.3.0 =
+* Export and import forms: Export a single form from the Forms list, or select several and export them in one .json file. Import the file on this or another site under Forms; imported forms are added as new forms and nothing is overwritten.
 
 = 0.2.9 =
 * SMTP settings belong to SmokyForms alone: enter them under SmokyForms > Settings > Email sending. Other plugins' email settings are no longer shared. The password constant is now `SMOKYFORMS_SMTP_PASSWORD`.

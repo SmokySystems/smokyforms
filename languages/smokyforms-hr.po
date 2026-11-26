@@ -904,7 +904,7 @@ msgstr "Obrazac je spremljen."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Uredi obrazac &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Nemate dopuštenje za to."
 
@@ -1906,6 +1906,56 @@ msgstr "Odrasli – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Dijete – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Izvezi"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Uvezeni obrazac"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d obrazac je uvezen."
+msgstr[1] "%d obrasca su uvezena."
+msgstr[2] "%d obrazaca je uvezeno."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d obrazac je preskočen jer nema polja."
+msgstr[1] "%d obrasca su preskočena jer nemaju polja."
+msgstr[2] "%d obrazaca je preskočeno jer nemaju polja."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Ovo nije SmokyForms datoteka izvoza. Odaberite .json datoteku izrađenu opcijom Izvezi."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "Datoteka je prevelika. Datoteka izvoza manja je od 2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Odaberite datoteku za uvoz."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Uvezi obrasce"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Odaberite .json datoteku izrađenu opcijom Izvezi na ovom ili drugom web-mjestu. Obrasci se dodaju kao novi obrasci; ništa se ne prepisuje."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Uvezi"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

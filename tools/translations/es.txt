@@ -458,3 +458,13 @@ e3c30f|Los visitantes resuelven una suma pequeña como 7 + 4. No necesita cuenta
 c74c74|Responde a la pregunta matemática.
 fa4e2a|La respuesta a la pregunta matemática no es correcta.
 1b1e7a|Pregunta de seguridad
+0095a9|Exportar
+fd537c|Formulario importado
+749781|%d formulario importado. ¦ %d formularios importados.
+e777c7|Se omitió %d formulario porque no tenía campos. ¦ Se omitieron %d formularios porque no tenían campos.
+1de8a1|Este no es un archivo de exportación de SmokyForms. Elige un archivo .json creado con Exportar.
+bf70e6|El archivo es demasiado grande. Un archivo de exportación pesa menos de 2 MB.
+30fd34|Elige un archivo para importar.
+fd3edf|Importar formularios
+c7f171|Elige un archivo .json creado con Exportar en este u otro sitio. Los formularios se añaden como formularios nuevos; no se sobrescribe nada.
+72d6d7|Importar

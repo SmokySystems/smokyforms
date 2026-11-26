@@ -904,7 +904,7 @@ msgstr "تم حفظ النموذج."
 msgid "Edit Form &lsaquo; %s"
 msgstr "تحرير النموذج &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "ليست لديك صلاحية للقيام بذلك."
 
@@ -1921,6 +1921,62 @@ msgstr "بالغ – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "طفل – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "تصدير"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "نموذج مستورد"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "لم يتم استيراد أي نموذج."
+msgstr[1] "تم استيراد نموذج واحد (%d)."
+msgstr[2] "تم استيراد نموذجين (%d)."
+msgstr[3] "تم استيراد %d نماذج."
+msgstr[4] "تم استيراد %d نموذجًا."
+msgstr[5] "تم استيراد %d نموذج."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "لم يتم تخطي أي نموذج لأنه بلا حقول."
+msgstr[1] "تم تخطي نموذج واحد (%d) لأنه بلا حقول."
+msgstr[2] "تم تخطي نموذجين (%d) لأنهما بلا حقول."
+msgstr[3] "تم تخطي %d نماذج لأنها بلا حقول."
+msgstr[4] "تم تخطي %d نموذجًا لأنها بلا حقول."
+msgstr[5] "تم تخطي %d نموذج لأنها بلا حقول."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "هذا ليس ملف تصدير من SmokyForms. اختر ملف ‎.json‎ تم إنشاؤه عبر «تصدير»."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "الملف كبير جدًا. ملف التصدير أصغر من 2 ميغابايت."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "اختر ملفًا للاستيراد."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "استيراد النماذج"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "اختر ملف ‎.json‎ تم إنشاؤه بواسطة «تصدير» على هذا الموقع أو على موقع آخر. تُضاف النماذج كنماذج جديدة، ولا يتم استبدال أي شيء."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "استيراد"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

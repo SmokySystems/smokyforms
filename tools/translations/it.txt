@@ -458,3 +458,13 @@ e3c30f|I visitatori risolvono una piccola operazione come 7 + 4. Non servono acc
 c74c74|Rispondi alla domanda di calcolo.
 fa4e2a|La risposta alla domanda di calcolo non è corretta.
 1b1e7a|Domanda di sicurezza
+0095a9|Esporta
+fd537c|Modulo importato
+749781|%d modulo importato. ¦ %d moduli importati.
+e777c7|%d modulo è stato saltato perché non aveva campi. ¦ %d moduli sono stati saltati perché non avevano campi.
+1de8a1|Questo non è un file di esportazione di SmokyForms. Scegli un file .json creato con Esporta.
+bf70e6|Il file è troppo grande. Un file di esportazione pesa meno di 2 MB.
+30fd34|Scegli un file da importare.
+fd3edf|Importa moduli
+c7f171|Scegli un file .json creato con Esporta su questo sito o su un altro. I moduli vengono aggiunti come nuovi moduli; nulla viene sovrascritto.
+72d6d7|Importa

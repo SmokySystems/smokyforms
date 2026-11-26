@@ -52,6 +52,7 @@ final class Plugin {
 			Admin\Builder::hooks();
 			Admin\Settings::hooks();
 			Admin\UndeliveredPage::hooks();
+			Transfer::hooks();
 		}
 	}
 

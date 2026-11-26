@@ -458,3 +458,13 @@ e3c30f|A látogatók megoldanak egy kis műveletet, például 7 + 4. Nem kell ho
 c74c74|Kérjük, válaszoljon a számolási kérdésre.
 fa4e2a|A számolási kérdésre adott válasz nem helyes.
 1b1e7a|Biztonsági kérdés
+0095a9|Exportálás
+fd537c|Importált űrlap
+749781|%d űrlap importálva. ¦ %d űrlap importálva.
+e777c7|%d űrlap kimaradt, mert nem volt benne mező. ¦ %d űrlap kimaradt, mert nem volt bennük mező.
+1de8a1|Ez nem SmokyForms exportfájl. Válasszon egy .json fájlt, amelyet az Exportálás hozott létre.
+bf70e6|A fájl túl nagy. Az exportfájl kisebb 2 MB-nál.
+30fd34|Válasszon importálandó fájlt.
+fd3edf|Űrlapok importálása
+c7f171|Válasszon egy .json fájlt, amelyet az Exportálás hozott létre ezen vagy egy másik webhelyen. Az űrlapok új űrlapként kerülnek hozzáadásra; semmi sem íródik felül.
+72d6d7|Importálás

@@ -904,7 +904,7 @@ msgstr "Forma išsaugota."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Redaguoti formą &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Neturite teisės tai daryti."
 
@@ -1906,6 +1906,56 @@ msgstr "Suaugęs – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Vaikas – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Eksportuoti"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Importuota forma"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "Importuota %d forma."
+msgstr[1] "Importuotos %d formos."
+msgstr[2] "Importuota %d formų."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "Praleista %d forma, nes joje nėra laukų."
+msgstr[1] "Praleistos %d formos, nes jose nėra laukų."
+msgstr[2] "Praleista %d formų, nes jose nėra laukų."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Tai nėra „SmokyForms“ eksporto failas. Pasirinkite .json failą, sukurtą naudojant Eksportuoti."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "Failas per didelis. Eksporto failas yra mažesnis nei 2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Pasirinkite importuojamą failą."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Importuoti formas"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Pasirinkite .json failą, sukurtą naudojant Eksportuoti šioje arba kitoje svetainėje. Formos pridedamos kaip naujos formos; niekas neperrašoma."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Importuoti"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

@@ -458,3 +458,13 @@ e3c30f|Ziyaretçiler 7 + 4 gibi küçük bir toplama çözer. Hesap ya da anahta
 c74c74|Lütfen matematik sorusunu yanıtlayın.
 fa4e2a|Matematik sorusunun cevabı doğru değil.
 1b1e7a|Güvenlik sorusu
+0095a9|Dışa aktar
+fd537c|İçe aktarılan form
+749781|%d form içe aktarıldı. ¦ %d form içe aktarıldı.
+e777c7|%d form, alanı olmadığı için atlandı. ¦ %d form, alanı olmadığı için atlandı.
+1de8a1|Bu bir SmokyForms dışa aktarma dosyası değil. "Dışa aktar" ile oluşturulmuş bir .json dosyası seçin.
+bf70e6|Dosya çok büyük. Dışa aktarma dosyası 2 MB'tan küçüktür.
+30fd34|İçe aktarmak için bir dosya seçin.
+fd3edf|Formları içe aktar
+c7f171|Bu sitede veya başka bir sitede "Dışa aktar" ile oluşturulmuş bir .json dosyası seçin. Formlar yeni form olarak eklenir; hiçbir şeyin üzerine yazılmaz.
+72d6d7|İçe aktar

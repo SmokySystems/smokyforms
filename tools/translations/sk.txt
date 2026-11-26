@@ -458,3 +458,13 @@ e3c30f|Návštevníci vyriešia malý príklad, napríklad 7 + 4. Nepotrebuje ú
 c74c74|Odpovedzte na počtovú otázku.
 fa4e2a|Odpoveď na počtovú otázku nie je správna.
 1b1e7a|Bezpečnostná otázka
+0095a9|Exportovať
+fd537c|Importovaný formulár
+749781|Importoval sa %d formulár. ¦ Importovali sa %d formuláre. ¦ Importovalo sa %d formulárov.
+e777c7|Preskočil sa %d formulár, pretože nemal žiadne polia. ¦ Preskočili sa %d formuláre, pretože nemali žiadne polia. ¦ Preskočilo sa %d formulárov, pretože nemali žiadne polia.
+1de8a1|Toto nie je exportný súbor SmokyForms. Vyberte súbor .json vytvorený pomocou Exportovať.
+bf70e6|Súbor je príliš veľký. Exportný súbor má menej ako 2 MB.
+30fd34|Vyberte súbor na import.
+fd3edf|Importovať formuláre
+c7f171|Vyberte súbor .json vytvorený pomocou Exportovať na tejto alebo inej webovej lokalite. Formuláre sa pridajú ako nové; nič sa neprepíše.
+72d6d7|Importovať

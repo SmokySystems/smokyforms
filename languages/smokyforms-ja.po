@@ -904,7 +904,7 @@ msgstr "フォームを保存しました。"
 msgid "Edit Form &lsaquo; %s"
 msgstr "フォームを編集 &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "この操作を行う権限がありません。"
 
@@ -1896,6 +1896,52 @@ msgstr "大人 – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "子ども – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "エクスポート"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "インポートされたフォーム"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d件のフォームをインポートしました。"
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "フィールドがないため、%d件のフォームをスキップしました。"
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "SmokyFormsのエクスポートファイルではありません。「エクスポート」で作成した.jsonファイルを選択してください。"
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "ファイルが大きすぎます。エクスポートファイルは2 MB未満です。"
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "インポートするファイルを選択してください。"
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "フォームをインポート"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "このサイトまたは別のサイトで「エクスポート」により作成した.jsonファイルを選択してください。フォームは新しいフォームとして追加され、既存のものは上書きされません。"
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "インポート"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

@@ -458,3 +458,13 @@ e3c30f|Vizitatorii rezolvă un calcul mic, cum ar fi 7 + 4. Nu are nevoie de con
 c74c74|Răspunde la întrebarea de matematică.
 fa4e2a|Răspunsul la întrebarea de matematică nu este corect.
 1b1e7a|Întrebare de securitate
+0095a9|Exportă
+fd537c|Formular importat
+749781|%d formular importat. ¦ %d formulare importate. ¦ %d de formulare importate.
+e777c7|%d formular a fost omis deoarece nu avea câmpuri. ¦ %d formulare au fost omise deoarece nu aveau câmpuri. ¦ %d de formulare au fost omise deoarece nu aveau câmpuri.
+1de8a1|Acesta nu este un fișier de export SmokyForms. Alegeți un fișier .json creat cu Exportă.
+bf70e6|Fișierul este prea mare. Un fișier de export are sub 2 MB.
+30fd34|Alegeți un fișier de importat.
+fd3edf|Importă formulare
+c7f171|Alegeți un fișier .json creat cu Exportă pe acest site sau pe altul. Formularele se adaugă ca formulare noi; nimic nu se suprascrie.
+72d6d7|Importă

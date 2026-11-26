@@ -904,7 +904,7 @@ msgstr "S’ha desat el formulari."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Edita el formulari &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "No teniu permís per fer això."
 
@@ -1901,6 +1901,54 @@ msgstr "Adult – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Infant – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Exporta"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Formulari importat"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d formulari importat."
+msgstr[1] "%d formularis importats."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d formulari s'ha omès perquè no tenia camps."
+msgstr[1] "%d formularis s'han omès perquè no tenien camps."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Aquest no és un fitxer d'exportació de SmokyForms. Trieu un fitxer .json creat amb «Exporta»."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "El fitxer és massa gran. Un fitxer d'exportació fa menys de 2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Trieu un fitxer per importar."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Importa formularis"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Trieu un fitxer .json creat amb «Exporta» en aquest lloc o en un altre. Els formularis s'afegeixen com a formularis nous; no se sobreescriu res."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Importa"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

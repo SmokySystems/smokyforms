@@ -904,7 +904,7 @@ msgstr "Form kaydedildi."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Formu düzenle &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Bunu yapmaya yetkiniz yok."
 
@@ -1901,6 +1901,54 @@ msgstr "Yetişkin – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Çocuk – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "İçe aktarılan form"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d form içe aktarıldı."
+msgstr[1] "%d form içe aktarıldı."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d form, alanı olmadığı için atlandı."
+msgstr[1] "%d form, alanı olmadığı için atlandı."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Bu bir SmokyForms dışa aktarma dosyası değil. \"Dışa aktar\" ile oluşturulmuş bir .json dosyası seçin."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "Dosya çok büyük. Dışa aktarma dosyası 2 MB'tan küçüktür."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "İçe aktarmak için bir dosya seçin."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Formları içe aktar"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Bu sitede veya başka bir sitede \"Dışa aktar\" ile oluşturulmuş bir .json dosyası seçin. Formlar yeni form olarak eklenir; hiçbir şeyin üzerine yazılmaz."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "İçe aktar"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

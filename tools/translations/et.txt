@@ -458,3 +458,13 @@ e3c30f|Külastajad lahendavad väikese tehte, näiteks 7 + 4. See ei vaja kontot
 c74c74|Vasta arvutusülesandele.
 fa4e2a|Vastus arvutusülesandele pole õige.
 1b1e7a|Turvaküsimus
+0095a9|Ekspordi
+fd537c|Imporditud vorm
+749781|%d vorm imporditi. ¦ %d vormi imporditi.
+e777c7|%d vorm jäeti vahele, sest sellel polnud välju. ¦ %d vormi jäeti vahele, sest neil polnud välju.
+1de8a1|See ei ole SmokyFormsi ekspordifail. Valige .json-fail, mis on loodud käsuga Ekspordi.
+bf70e6|Fail on liiga suur. Ekspordifail on väiksem kui 2 MB.
+30fd34|Valige imporditav fail.
+fd3edf|Impordi vormid
+c7f171|Valige .json-fail, mis on loodud käsuga Ekspordi sellel või mõnel teisel saidil. Vormid lisatakse uute vormidena; midagi ei kirjutata üle.
+72d6d7|Impordi

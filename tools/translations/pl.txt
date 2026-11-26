@@ -458,3 +458,13 @@ e3c30f|Odwiedzający rozwiązują małe działanie, na przykład 7 + 4. Nie potr
 c74c74|Odpowiedz na pytanie matematyczne.
 fa4e2a|Odpowiedź na pytanie matematyczne jest nieprawidłowa.
 1b1e7a|Pytanie zabezpieczające
+0095a9|Eksportuj
+fd537c|Zaimportowany formularz
+749781|Zaimportowano %d formularz. ¦ Zaimportowano %d formularze. ¦ Zaimportowano %d formularzy.
+e777c7|Pominięto %d formularz, ponieważ nie miał pól. ¦ Pominięto %d formularze, ponieważ nie miały pól. ¦ Pominięto %d formularzy, ponieważ nie miały pól.
+1de8a1|To nie jest plik eksportu SmokyForms. Wybierz plik .json utworzony za pomocą Eksportuj.
+bf70e6|Plik jest zbyt duży. Plik eksportu ma mniej niż 2 MB.
+30fd34|Wybierz plik do zaimportowania.
+fd3edf|Importuj formularze
+c7f171|Wybierz plik .json utworzony za pomocą Eksportuj na tej lub innej witrynie. Formularze są dodawane jako nowe formularze; nic nie jest nadpisywane.
+72d6d7|Importuj

@@ -458,3 +458,13 @@ e3c30f|Návštěvníci vyřeší malý příklad, například 7 + 4. Nepotřebuj
 c74c74|Odpovězte prosím na početní otázku.
 fa4e2a|Odpověď na početní otázku není správná.
 1b1e7a|Bezpečnostní otázka
+0095a9|Exportovat
+fd537c|Importovaný formulář
+749781|%d formulář byl importován. ¦ %d formuláře byly importovány. ¦ %d formulářů bylo importováno.
+e777c7|%d formulář byl přeskočen, protože neměl žádná pole. ¦ %d formuláře byly přeskočeny, protože neměly žádná pole. ¦ %d formulářů bylo přeskočeno, protože neměly žádná pole.
+1de8a1|Toto není exportní soubor SmokyForms. Vyberte soubor .json vytvořený pomocí Exportovat.
+bf70e6|Soubor je příliš velký. Exportní soubor má méně než 2 MB.
+30fd34|Vyberte soubor k importu.
+fd3edf|Importovat formuláře
+c7f171|Vyberte soubor .json vytvořený pomocí Exportovat na tomto nebo jiném webu. Formuláře se přidají jako nové; nic se nepřepíše.
+72d6d7|Importovat

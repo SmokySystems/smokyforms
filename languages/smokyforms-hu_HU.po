@@ -904,7 +904,7 @@ msgstr "Űrlap mentve."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Űrlap szerkesztése &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Nincs jogosultsága ehhez."
 
@@ -1901,6 +1901,54 @@ msgstr "Felnőtt – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Gyermek – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Exportálás"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Importált űrlap"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d űrlap importálva."
+msgstr[1] "%d űrlap importálva."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d űrlap kimaradt, mert nem volt benne mező."
+msgstr[1] "%d űrlap kimaradt, mert nem volt bennük mező."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Ez nem SmokyForms exportfájl. Válasszon egy .json fájlt, amelyet az Exportálás hozott létre."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "A fájl túl nagy. Az exportfájl kisebb 2 MB-nál."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Válasszon importálandó fájlt."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Űrlapok importálása"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Válasszon egy .json fájlt, amelyet az Exportálás hozott létre ezen vagy egy másik webhelyen. Az űrlapok új űrlapként kerülnek hozzáadásra; semmi sem íródik felül."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Importálás"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

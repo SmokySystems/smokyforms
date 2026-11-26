@@ -904,7 +904,7 @@ msgstr "הטופס נשמר."
 msgid "Edit Form &lsaquo; %s"
 msgstr "עריכת טופס &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "אין לך הרשאה לעשות זאת."
 
@@ -1901,6 +1901,54 @@ msgstr "מבוגר – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "ילד – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "ייצוא"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "טופס מיובא"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d טופס יובא."
+msgstr[1] "%d טפסים יובאו."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d טופס דולג כי לא היו בו שדות."
+msgstr[1] "%d טפסים דולגו כי לא היו בהם שדות."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "זה אינו קובץ ייצוא של SmokyForms. בחרו קובץ ‎.json‎ שנוצר באמצעות \"ייצוא\"."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "הקובץ גדול מדי. קובץ ייצוא קטן מ-2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "בחרו קובץ לייבוא."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "ייבוא טפסים"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "בחרו קובץ ‎.json‎ שנוצר באמצעות \"ייצוא\" באתר זה או באתר אחר. הטפסים נוספים כטפסים חדשים; שום דבר לא נדרס."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "ייבוא"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

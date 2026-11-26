@@ -904,7 +904,7 @@ msgstr "Formulir disimpan."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Edit formulir &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Anda tidak diizinkan melakukan ini."
 
@@ -1896,6 +1896,52 @@ msgstr "Dewasa – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Anak – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Ekspor"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Formulir yang diimpor"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d formulir diimpor."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d formulir dilewati karena tidak memiliki kolom."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Ini bukan file ekspor SmokyForms. Pilih file .json yang dibuat dengan Ekspor."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "File terlalu besar. File ekspor berukuran kurang dari 2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Pilih file yang akan diimpor."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Impor formulir"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Pilih file .json yang dibuat dengan Ekspor di situs ini atau situs lain. Formulir ditambahkan sebagai formulir baru; tidak ada yang ditimpa."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Impor"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

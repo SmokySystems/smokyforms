@@ -904,7 +904,7 @@ msgstr "Obrazec je shranjen."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Uredi obrazec &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Za to nimate dovoljenja."
 
@@ -1911,6 +1911,58 @@ msgstr "Odrasli – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Otrok – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Izvozi"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Uvožen obrazec"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "Uvožen je bil %d obrazec."
+msgstr[1] "Uvožena sta bila %d obrazca."
+msgstr[2] "Uvoženi so bili %d obrazci."
+msgstr[3] "Uvoženih je bilo %d obrazcev."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d obrazec je bil preskočen, ker nima polj."
+msgstr[1] "%d obrazca sta bila preskočena, ker nimata polj."
+msgstr[2] "%d obrazci so bili preskočeni, ker nimajo polj."
+msgstr[3] "%d obrazcev je bilo preskočenih, ker nimajo polj."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "To ni izvozna datoteka SmokyForms. Izberite datoteko .json, ustvarjeno z možnostjo Izvozi."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "Datoteka je prevelika. Izvozna datoteka je manjša od 2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Izberite datoteko za uvoz."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Uvozi obrazce"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Izberite datoteko .json, ustvarjeno z možnostjo Izvozi na tem ali drugem spletnem mestu. Obrazci se dodajo kot novi obrazci; nič se ne prepiše."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Uvozi"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

@@ -458,3 +458,13 @@ e3c30f|Khách truy cập giải một phép tính nhỏ như 7 + 4. Không cần
 c74c74|Vui lòng trả lời câu hỏi toán.
 fa4e2a|Đáp án của câu hỏi toán chưa đúng.
 1b1e7a|Câu hỏi bảo mật
+0095a9|Xuất
+fd537c|Biểu mẫu đã nhập
+749781|Đã nhập %d biểu mẫu.
+e777c7|Đã bỏ qua %d biểu mẫu vì không có trường nào.
+1de8a1|Đây không phải là tệp xuất của SmokyForms. Hãy chọn tệp .json được tạo bằng chức năng Xuất.
+bf70e6|Tệp quá lớn. Tệp xuất nhỏ hơn 2 MB.
+30fd34|Hãy chọn một tệp để nhập.
+fd3edf|Nhập biểu mẫu
+c7f171|Chọn tệp .json được tạo bằng chức năng Xuất trên trang này hoặc trang khác. Các biểu mẫu được thêm dưới dạng biểu mẫu mới; không có gì bị ghi đè.
+72d6d7|Nhập

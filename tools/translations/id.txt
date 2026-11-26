@@ -458,3 +458,13 @@ e3c30f|Pengunjung menyelesaikan penjumlahan kecil seperti 7 + 4. Tidak perlu aku
 c74c74|Silakan jawab pertanyaan matematika.
 fa4e2a|Jawaban pertanyaan matematika tidak benar.
 1b1e7a|Pertanyaan keamanan
+0095a9|Ekspor
+fd537c|Formulir yang diimpor
+749781|%d formulir diimpor.
+e777c7|%d formulir dilewati karena tidak memiliki kolom.
+1de8a1|Ini bukan file ekspor SmokyForms. Pilih file .json yang dibuat dengan Ekspor.
+bf70e6|File terlalu besar. File ekspor berukuran kurang dari 2 MB.
+30fd34|Pilih file yang akan diimpor.
+fd3edf|Impor formulir
+c7f171|Pilih file .json yang dibuat dengan Ekspor di situs ini atau situs lain. Formulir ditambahkan sebagai formulir baru; tidak ada yang ditimpa.
+72d6d7|Impor

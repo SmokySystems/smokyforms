@@ -904,7 +904,7 @@ msgstr "表单已保存。"
 msgid "Edit Form &lsaquo; %s"
 msgstr "编辑表单 &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "您无权执行此操作。"
 
@@ -1896,6 +1896,52 @@ msgstr "成人 – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "儿童 – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "导出"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "已导入的表单"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "已导入 %d 个表单。"
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "已跳过 %d 个没有字段的表单。"
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "这不是 SmokyForms 导出文件。请选择通过“导出”创建的 .json 文件。"
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "文件太大。导出文件小于 2 MB。"
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "请选择要导入的文件。"
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "导入表单"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "请选择在本站点或其他站点通过“导出”创建的 .json 文件。表单将作为新表单添加，不会覆盖任何内容。"
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "导入"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

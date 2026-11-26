@@ -458,3 +458,13 @@ e3c30f|Posjetitelji rješavaju mali zadatak poput 7 + 4. Ne treba račun ni klju
 c74c74|Odgovorite na računsko pitanje.
 fa4e2a|Odgovor na računsko pitanje nije točan.
 1b1e7a|Sigurnosno pitanje
+0095a9|Izvezi
+fd537c|Uvezeni obrazac
+749781|%d obrazac je uvezen. ¦ %d obrasca su uvezena. ¦ %d obrazaca je uvezeno.
+e777c7|%d obrazac je preskočen jer nema polja. ¦ %d obrasca su preskočena jer nemaju polja. ¦ %d obrazaca je preskočeno jer nemaju polja.
+1de8a1|Ovo nije SmokyForms datoteka izvoza. Odaberite .json datoteku izrađenu opcijom Izvezi.
+bf70e6|Datoteka je prevelika. Datoteka izvoza manja je od 2 MB.
+30fd34|Odaberite datoteku za uvoz.
+fd3edf|Uvezi obrasce
+c7f171|Odaberite .json datoteku izrađenu opcijom Izvezi na ovom ili drugom web-mjestu. Obrasci se dodaju kao novi obrasci; ništa se ne prepisuje.
+72d6d7|Uvezi

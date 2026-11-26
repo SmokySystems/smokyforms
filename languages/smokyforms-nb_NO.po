@@ -904,7 +904,7 @@ msgstr "Skjemaet er lagret."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Rediger skjema &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Du har ikke tilgang til å gjøre dette."
 
@@ -1901,6 +1901,54 @@ msgstr "Voksen – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Barn – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Eksporter"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Importert skjema"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d skjema importert."
+msgstr[1] "%d skjemaer importert."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d skjema ble hoppet over fordi det ikke hadde noen felt."
+msgstr[1] "%d skjemaer ble hoppet over fordi de ikke hadde noen felt."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Dette er ikke en SmokyForms-eksportfil. Velg en .json-fil laget med Eksporter."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "Filen er for stor. En eksportfil er mindre enn 2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Velg en fil som skal importeres."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Importer skjemaer"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Velg en .json-fil laget med Eksporter på dette eller et annet nettsted. Skjemaene legges til som nye skjemaer; ingenting overskrives."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Importer"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

@@ -458,3 +458,13 @@ e3c30f|Besucher lösen eine kleine Aufgabe wie 7 + 4. Dafür sind weder Konto no
 c74c74|Bitte beantworten Sie die Rechenaufgabe.
 fa4e2a|Die Antwort auf die Rechenaufgabe ist nicht richtig.
 1b1e7a|Sicherheitsfrage
+0095a9|Exportieren
+fd537c|Importiertes Formular
+749781|%d Formular importiert. ¦ %d Formulare importiert.
+e777c7|%d Formular wurde übersprungen, weil es keine Felder hatte. ¦ %d Formulare wurden übersprungen, weil sie keine Felder hatten.
+1de8a1|Das ist keine SmokyForms-Exportdatei. Wählen Sie eine .json-Datei, die mit „Exportieren“ erstellt wurde.
+bf70e6|Die Datei ist zu groß. Eine Exportdatei ist kleiner als 2 MB.
+30fd34|Wählen Sie eine Datei zum Importieren.
+fd3edf|Formulare importieren
+c7f171|Wählen Sie eine .json-Datei, die mit „Exportieren“ auf dieser oder einer anderen Website erstellt wurde. Die Formulare werden als neue Formulare hinzugefügt; nichts wird überschrieben.
+72d6d7|Importieren

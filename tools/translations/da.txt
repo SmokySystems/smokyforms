@@ -458,3 +458,13 @@ e3c30f|Besøgende løser et lille regnestykke som 7 + 4. Det kræver ingen konto
 c74c74|Besvar regnestykket.
 fa4e2a|Svaret på regnestykket er ikke rigtigt.
 1b1e7a|Sikkerhedsspørgsmål
+0095a9|Eksportér
+fd537c|Importeret formular
+749781|%d formular importeret. ¦ %d formularer importeret.
+e777c7|%d formular blev sprunget over, fordi den ikke havde nogen felter. ¦ %d formularer blev sprunget over, fordi de ikke havde nogen felter.
+1de8a1|Det er ikke en SmokyForms-eksportfil. Vælg en .json-fil, der er lavet med Eksportér.
+bf70e6|Filen er for stor. En eksportfil er mindre end 2 MB.
+30fd34|Vælg en fil, der skal importeres.
+fd3edf|Importér formularer
+c7f171|Vælg en .json-fil, der er lavet med Eksportér på dette eller et andet websted. Formularerne tilføjes som nye formularer; intet bliver overskrevet.
+72d6d7|Importér

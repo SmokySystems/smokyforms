@@ -458,3 +458,13 @@ e3c30f|Besökare löser ett litet tal som 7 + 4. Det kräver varken konto eller 
 c74c74|Svara på räknefrågan.
 fa4e2a|Svaret på räknefrågan är inte rätt.
 1b1e7a|Säkerhetsfråga
+0095a9|Exportera
+fd537c|Importerat formulär
+749781|%d formulär importerades. ¦ %d formulär importerades.
+e777c7|%d formulär hoppades över eftersom det inte hade några fält. ¦ %d formulär hoppades över eftersom de inte hade några fält.
+1de8a1|Det här är inte en SmokyForms-exportfil. Välj en .json-fil som skapats med Exportera.
+bf70e6|Filen är för stor. En exportfil är mindre än 2 MB.
+30fd34|Välj en fil att importera.
+fd3edf|Importera formulär
+c7f171|Välj en .json-fil som skapats med Exportera på den här eller en annan webbplats. Formulären läggs till som nya formulär; inget skrivs över.
+72d6d7|Importera

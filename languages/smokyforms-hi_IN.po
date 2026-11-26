@@ -904,7 +904,7 @@ msgstr "फ़ॉर्म सहेजा गया।"
 msgid "Edit Form &lsaquo; %s"
 msgstr "फ़ॉर्म संपादित करें &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "आपको यह करने की अनुमति नहीं है।"
 
@@ -1901,6 +1901,54 @@ msgstr "वयस्क – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "बच्चा – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "निर्यात करें"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "आयात किया गया फ़ॉर्म"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d फ़ॉर्म आयात किया गया।"
+msgstr[1] "%d फ़ॉर्म आयात किए गए।"
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d फ़ॉर्म छोड़ दिया गया क्योंकि उसमें कोई फ़ील्ड नहीं था।"
+msgstr[1] "%d फ़ॉर्म छोड़ दिए गए क्योंकि उनमें कोई फ़ील्ड नहीं था।"
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "यह SmokyForms की निर्यात फ़ाइल नहीं है। \"निर्यात करें\" से बनाई गई .json फ़ाइल चुनें।"
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "फ़ाइल बहुत बड़ी है। निर्यात फ़ाइल 2 MB से छोटी होती है।"
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "आयात करने के लिए फ़ाइल चुनें।"
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "फ़ॉर्म आयात करें"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "इस साइट या किसी दूसरी साइट पर \"निर्यात करें\" से बनाई गई .json फ़ाइल चुनें। फ़ॉर्म नए फ़ॉर्म के रूप में जोड़े जाते हैं; कुछ भी अधिलेखित नहीं होता।"
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "आयात करें"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

@@ -458,3 +458,13 @@ e3c30f|Gestir leysa lítið dæmi eins og 7 + 4. Það þarf hvorki aðgang né 
 c74c74|Svaraðu reikningsspurningunni.
 fa4e2a|Svarið við reikningsspurningunni er ekki rétt.
 1b1e7a|Öryggisspurning
+0095a9|Flytja út
+fd537c|Innflutt eyðublað
+749781|%d eyðublað flutt inn. ¦ %d eyðublöð flutt inn.
+e777c7|%d eyðublaði var sleppt því það hafði enga reiti. ¦ %d eyðublöðum var sleppt því þau höfðu enga reiti.
+1de8a1|Þetta er ekki útflutningsskrá frá SmokyForms. Veldu .json skrá sem var búin til með Flytja út.
+bf70e6|Skráin er of stór. Útflutningsskrá er minni en 2 MB.
+30fd34|Veldu skrá til að flytja inn.
+fd3edf|Flytja inn eyðublöð
+c7f171|Veldu .json skrá sem var búin til með Flytja út á þessum eða öðrum vef. Eyðublöðin bætast við sem ný eyðublöð; engu er skrifað yfir.
+72d6d7|Flytja inn

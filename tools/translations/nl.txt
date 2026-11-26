@@ -458,3 +458,13 @@ e3c30f|Bezoekers lossen een kleine som op, zoals 7 + 4. Er is geen account of sl
 c74c74|Beantwoord de rekenvraag.
 fa4e2a|Het antwoord op de rekenvraag is niet juist.
 1b1e7a|Beveiligingsvraag
+0095a9|Exporteren
+fd537c|Geïmporteerd formulier
+749781|%d formulier geïmporteerd. ¦ %d formulieren geïmporteerd.
+e777c7|%d formulier is overgeslagen omdat het geen velden had. ¦ %d formulieren zijn overgeslagen omdat ze geen velden hadden.
+1de8a1|Dit is geen SmokyForms-exportbestand. Kies een .json-bestand dat is gemaakt met Exporteren.
+bf70e6|Het bestand is te groot. Een exportbestand is kleiner dan 2 MB.
+30fd34|Kies een bestand om te importeren.
+fd3edf|Formulieren importeren
+c7f171|Kies een .json-bestand dat is gemaakt met Exporteren op deze of een andere site. De formulieren worden als nieuwe formulieren toegevoegd; er wordt niets overschreven.
+72d6d7|Importeren

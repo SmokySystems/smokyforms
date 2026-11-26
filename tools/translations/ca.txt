@@ -458,3 +458,13 @@ e3c30f|Els visitants resolen una suma petita, com ara 7 + 4. No cal cap compte n
 c74c74|Responeu la pregunta de matemàtiques.
 fa4e2a|La resposta a la pregunta de matemàtiques no és correcta.
 1b1e7a|Pregunta de seguretat
+0095a9|Exporta
+fd537c|Formulari importat
+749781|%d formulari importat. ¦ %d formularis importats.
+e777c7|%d formulari s'ha omès perquè no tenia camps. ¦ %d formularis s'han omès perquè no tenien camps.
+1de8a1|Aquest no és un fitxer d'exportació de SmokyForms. Trieu un fitxer .json creat amb «Exporta».
+bf70e6|El fitxer és massa gran. Un fitxer d'exportació fa menys de 2 MB.
+30fd34|Trieu un fitxer per importar.
+fd3edf|Importa formularis
+c7f171|Trieu un fitxer .json creat amb «Exporta» en aquest lloc o en un altre. Els formularis s'afegeixen com a formularis nous; no se sobreescriu res.
+72d6d7|Importa

@@ -458,3 +458,13 @@ e3c30f|Les visiteurs résolvent une petite addition comme 7 + 4. Aucun compte ni
 c74c74|Veuillez répondre à la question de calcul.
 fa4e2a|La réponse à la question de calcul n’est pas correcte.
 1b1e7a|Question de sécurité
+0095a9|Exporter
+fd537c|Formulaire importé
+749781|%d formulaire importé. ¦ %d formulaires importés.
+e777c7|%d formulaire a été ignoré, car il n'avait aucun champ. ¦ %d formulaires ont été ignorés, car ils n'avaient aucun champ.
+1de8a1|Ce n'est pas un fichier d'exportation SmokyForms. Choisissez un fichier .json créé avec « Exporter ».
+bf70e6|Le fichier est trop volumineux. Un fichier d'exportation fait moins de 2 Mo.
+30fd34|Choisissez un fichier à importer.
+fd3edf|Importer des formulaires
+c7f171|Choisissez un fichier .json créé avec « Exporter » sur ce site ou sur un autre. Les formulaires sont ajoutés comme nouveaux formulaires ; rien n'est écrasé.
+72d6d7|Importer

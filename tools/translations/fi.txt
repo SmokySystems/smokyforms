@@ -458,3 +458,13 @@ e3c30f|Kävijät ratkaisevat pienen laskun, esimerkiksi 7 + 4. Se ei tarvitse ti
 c74c74|Vastaa laskutehtävään.
 fa4e2a|Vastaus laskutehtävään ei ole oikein.
 1b1e7a|Turvakysymys
+0095a9|Vie
+fd537c|Tuotu lomake
+749781|%d lomake tuotiin. ¦ %d lomaketta tuotiin.
+e777c7|%d lomake ohitettiin, koska siinä ei ollut kenttiä. ¦ %d lomaketta ohitettiin, koska niissä ei ollut kenttiä.
+1de8a1|Tämä ei ole SmokyForms-vientitiedosto. Valitse .json-tiedosto, joka on luotu Vie-toiminnolla.
+bf70e6|Tiedosto on liian suuri. Vientitiedosto on alle 2 Mt.
+30fd34|Valitse tuotava tiedosto.
+fd3edf|Tuo lomakkeita
+c7f171|Valitse .json-tiedosto, joka on luotu Vie-toiminnolla tällä tai toisella sivustolla. Lomakkeet lisätään uusina lomakkeina; mitään ei korvata.
+72d6d7|Tuo

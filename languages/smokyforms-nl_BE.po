@@ -904,7 +904,7 @@ msgstr "Formulier opgeslagen."
 msgid "Edit Form &lsaquo; %s"
 msgstr "Formulier bewerken &lsaquo; %s"
 
-#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304
+#: includes/Admin/Builder.php:215 includes/Admin/Menu.php:201 includes/Admin/Settings.php:48 includes/Admin/UndeliveredPage.php:60 includes/Admin/UndeliveredPage.php:80 includes/Mail.php:271 includes/Mail.php:304 includes/Transfer.php:119 includes/Transfer.php:132 includes/Transfer.php:180
 msgid "You are not allowed to do this."
 msgstr "Je hebt geen toestemming om dit te doen."
 
@@ -1901,6 +1901,54 @@ msgstr "Volwassene – 25"
 #: includes/Templates.php:380
 msgid "Child – 10"
 msgstr "Kind – 10"
+
+#: includes/Transfer.php:90 includes/Transfer.php:102
+msgid "Export"
+msgstr "Exporteren"
+
+#: includes/Transfer.php:158
+msgid "Imported form"
+msgstr "Geïmporteerd formulier"
+
+#. translators: %d: number of imported forms
+#: includes/Transfer.php:234
+#, php-format
+msgid "%d form imported."
+msgid_plural "%d forms imported."
+msgstr[0] "%d formulier geïmporteerd."
+msgstr[1] "%d formulieren geïmporteerd."
+
+#. translators: %d: number of forms that could not be imported
+#: includes/Transfer.php:237
+#, php-format
+msgid "%d form was skipped because it had no fields."
+msgid_plural "%d forms were skipped because they had no fields."
+msgstr[0] "%d formulier is overgeslagen omdat het geen velden had."
+msgstr[1] "%d formulieren zijn overgeslagen omdat ze geen velden hadden."
+
+#: includes/Transfer.php:241
+msgid "This is not a SmokyForms export file. Choose a .json file made with Export."
+msgstr "Dit is geen SmokyForms-exportbestand. Kies een .json-bestand dat is gemaakt met Exporteren."
+
+#: includes/Transfer.php:243
+msgid "The file is too large. An export file is smaller than 2 MB."
+msgstr "Het bestand is te groot. Een exportbestand is kleiner dan 2 MB."
+
+#: includes/Transfer.php:245
+msgid "Choose a file to import."
+msgstr "Kies een bestand om te importeren."
+
+#: includes/Transfer.php:249
+msgid "Import forms"
+msgstr "Formulieren importeren"
+
+#: includes/Transfer.php:253
+msgid "Choose a .json file made with Export on this or another site. The forms are added as new forms; nothing is overwritten."
+msgstr "Kies een .json-bestand dat is gemaakt met Exporteren op deze of een andere site. De formulieren worden als nieuwe formulieren toegevoegd; er wordt niets overschreven."
+
+#: includes/Transfer.php:255
+msgid "Import"
+msgstr "Importeren"
 
 #. translators: %s: file name
 #: includes/Uploads.php:207

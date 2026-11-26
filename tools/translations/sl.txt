@@ -458,3 +458,13 @@ e3c30f|Obiskovalci rešijo majhen račun, na primer 7 + 4. Ne potrebuje računa 
 c74c74|Odgovorite na računsko vprašanje.
 fa4e2a|Odgovor na računsko vprašanje ni pravilen.
 1b1e7a|Varnostno vprašanje
+0095a9|Izvozi
+fd537c|Uvožen obrazec
+749781|Uvožen je bil %d obrazec. ¦ Uvožena sta bila %d obrazca. ¦ Uvoženi so bili %d obrazci. ¦ Uvoženih je bilo %d obrazcev.
+e777c7|%d obrazec je bil preskočen, ker nima polj. ¦ %d obrazca sta bila preskočena, ker nimata polj. ¦ %d obrazci so bili preskočeni, ker nimajo polj. ¦ %d obrazcev je bilo preskočenih, ker nimajo polj.
+1de8a1|To ni izvozna datoteka SmokyForms. Izberite datoteko .json, ustvarjeno z možnostjo Izvozi.
+bf70e6|Datoteka je prevelika. Izvozna datoteka je manjša od 2 MB.
+30fd34|Izberite datoteko za uvoz.
+fd3edf|Uvozi obrazce
+c7f171|Izberite datoteko .json, ustvarjeno z možnostjo Izvozi na tem ali drugem spletnem mestu. Obrazci se dodajo kot novi obrazci; nič se ne prepiše.
+72d6d7|Uvozi
